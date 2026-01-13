@@ -1,0 +1,4 @@
+{"event": "runtime_roots_checked", "payload": {"repo_root": "/workspaces/pxl_demo_wcoq_proofs", "roots": {"PXL_Gate": true, "START_LOGOS.py": true, "System_Stack": true}}, "ts": "2026-01-12T20:40:47.407161+00:00"}
+{"event": "modality", "payload": {"name": "PASSIVE"}, "ts": "2026-01-12T20:40:47.407687+00:00"}
+{"event": "runtime_roots_checked", "payload": {"repo_root": "/workspaces/pxl_demo_wcoq_proofs", "roots": {"PXL_Gate": true, "START_LOGOS.py": true, "System_Stack": true}}, "ts": "2026-01-12T20:40:56.146447+00:00"}
+{"event": "modality", "payload": {"name": "PASSIVE"}, "ts": "2026-01-12T20:40:56.146603+00:00"}

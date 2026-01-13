@@ -1,0 +1,26 @@
+# CODEOWNERS
+
+# Replace @your-username with real owners or GitHub teams when available
+
+# Coq / formal methods
+
+/_CoqProject @your-username
+/Protopraxis/formal_verification/coq/ @your-username
+/tools/axiom_gate.py @your-username
+/tools/axiom_inventory.py @your-username
+/tools/run_semantic_profile.sh @your-username
+/tools/redundancy_runner.sh @your-username
+
+# AGI runtime stack
+
+/external/Logos_AGI/ @your-username
+/scripts/ @your-username
+/plugins/ @your-username
+
+# Public/demo surface
+
+/docs/ @your-username
+/scripts/investor_demo.py @your-username
+/scripts/investor_dashboard.py @your-username
+/README.md @your-username
+/README_addendum.md @your-username

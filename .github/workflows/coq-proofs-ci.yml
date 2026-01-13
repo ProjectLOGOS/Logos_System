@@ -1,0 +1,86 @@
+name: Coq Proof Suite CI
+
+on:
+  push:
+    branches:
+      - coq-proofs
+  pull_request:
+    branches:
+      - main
+    paths:
+      - 'Protopraxis/formal_verification/coq/**'
+      - '_CoqProject'
+      - 'CoqMakefile*'
+      - 'tools/axiom_*.py'
+      - 'test_lem_discharge.py'
+
+jobs:
+  coq-verification:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+      
+    - name: Set up Coq 8.18+
+      run: |
+        sudo apt-get update
+        sudo apt-get install -y opam
+        opam init -y --disable-sandboxing
+        opam switch create coq-pxl 4.14.1
+        eval $(opam env)
+        opam install -y coq.8.18.0
+        
+    - name: Set up Python 3.11+
+      uses: actions/setup-python@v5
+      with:
+        python-version: '3.11'
+        
+    - name: Generate Coq Makefile
+      run: |
+        eval $(opam env)
+        coq_makefile -f _CoqProject -o CoqMakefile
+        
+    - name: Build all Coq files
+      run: |
+        eval $(opam env)
+        make -f CoqMakefile -j2
+        
+    - name: Check for Admitted stubs
+      run: |
+        if grep -r "Admitted\." Protopraxis/formal_verification/coq/baseline/*.v; then
+          echo "ERROR: Found Admitted stubs in baseline proofs"
+          exit 1
+        fi
+        echo "✅ No Admitted stubs found"
+        
+    - name: Run axiom inventory
+      run: |
+        eval $(opam env)
+        python3 tools/axiom_inventory.py
+        
+    - name: Enforce axiom budget (8/8)
+      run: |
+        python3 tools/axiom_gate.py
+        if [ $? -ne 0 ]; then
+          echo "ERROR: Axiom budget exceeded or gate check failed"
+          exit 1
+        fi
+        echo "✅ Axiom budget: 8/8 PASS"
+        
+    - name: Run full test suite
+      run: |
+        eval $(opam env)
+        python3 test_lem_discharge.py
+        if ! python3 test_lem_discharge.py 2>&1 | grep -q "Overall status: PASS"; then
+          echo "ERROR: test_lem_discharge.py failed"
+          exit 1
+        fi
+        echo "✅ Full test suite PASS"
+        
+    - name: Upload axiom footprint
+      uses: actions/upload-artifact@v4
+      with:
+        name: axiom-footprint
+        path: state/axiom_footprint.json
+        retention-days: 30

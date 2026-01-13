@@ -1,0 +1,460 @@
+System_Stack
+├── Advanced_Reasoning_Protocol
+│   ├── README.md
+│   ├── __init__.py
+│   ├── __pycache__
+│   │   ├── __init__.cpython-312.pyc
+│   │   ├── __init__.py
+│   │   ├── __pycache__
+│   │   ├── arp_bootstrap.cpython-312.pyc
+│   │   └── arp_operations.cpython-312.pyc
+│   ├── arp_bootstrap.py
+│   ├── arp_operations.py
+│   ├── arp_stack_compiler
+│   │   ├── __init__.py
+│   │   ├── __pycache__
+│   │   ├── arp_stack_compiler.py
+│   │   └── arp_stack_compiler1
+│   ├── foundations
+│   │   ├── __init__.py
+│   │   ├── __pycache__
+│   │   ├── formalisms
+│   │   ├── three_pillars_alt.py
+│   │   └── three_pillars_framework.py
+│   ├── iel_domains
+│   │   ├── AestheticoPraxis
+│   │   ├── AnthroPraxis
+│   │   ├── AxioPraxis
+│   │   ├── ChronoPraxis
+│   │   ├── CosmoPraxis
+│   │   ├── ErgoPraxis
+│   │   ├── GlorioPraxis
+│   │   ├── GnosiPraxis
+│   │   ├── MakarPraxis
+│   │   ├── ModalPraxis
+│   │   ├── PraxeoPraxis
+│   │   ├── README.md
+│   │   ├── RelatioPraxis
+│   │   ├── TeloPraxis
+│   │   ├── ThemiPraxis
+│   │   ├── TheoPraxis
+│   │   ├── TopoPraxis
+│   │   ├── TropoPraxis
+│   │   ├── ZelosPraxis
+│   │   ├── __init__.py
+│   │   └── __pycache__
+│   ├── iel_toolkit
+│   │   ├── __init__.py
+│   │   ├── __pycache__
+│   │   ├── iel
+│   │   ├── iel_overlay.py
+│   │   ├── iel_registry.py
+│   │   ├── keys
+│   │   └── onto_logic
+│   ├── learning_modules
+│   │   ├── __init__.py
+│   │   ├── __pycache__
+│   │   ├── deep_learning_adapter.py
+│   │   ├── ml_components.py
+│   │   ├── pytorch_ml_adapters.py
+│   │   └── translation_engine.py
+│   ├── logos_core
+│   │   ├── __init__.py
+│   │   ├── __pycache__
+│   │   ├── iel_overlays.py
+│   │   ├── lem_logic_kernel.py
+│   │   ├── onto_lattice.py
+│   │   ├── recursion_engine.py
+│   │   ├── reflexive_evaluator
+│   │   ├── reflexive_evaluator.py
+│   │   └── triune_commutator.py
+│   ├── logos_core copy
+│   │   ├── __init__.py
+│   │   ├── __pycache__
+│   │   ├── agent_identity.json
+│   │   ├── iel_overlays.py
+│   │   ├── lem_logic_kernel.py
+│   │   ├── onto_lattice.py
+│   │   ├── recursion_engine.py
+│   │   ├── reflexive_evaluator
+│   │   ├── reflexive_evaluator.py
+│   │   └── triune_commutator.py
+│   ├── mathematical_foundations
+│   │   ├── __init__.py
+│   │   ├── __pycache__
+│   │   ├── cores
+│   │   ├── math_categories
+│   │   └── pxl
+│   ├── mode_management
+│   │   ├── __init__.py
+│   │   ├── __pycache__
+│   │   ├── mode_controller.py
+│   │   └── task_processor.py
+│   ├── nexus
+│   │   ├── README.md
+│   │   ├── __init__.py
+│   │   ├── __pycache__
+│   │   ├── arp_convergence.json
+│   │   ├── arp_nexus.py
+│   │   ├── example_usage.py
+│   │   ├── integration_test.py
+│   │   └── test_arp_nexus.py
+│   ├── reasoning_engines
+│   │   ├── __init__.py
+│   │   ├── __pycache__
+│   │   ├── bayesian
+│   │   ├── lambda_calculus
+│   │   └── temporal_modal
+│   └── system_utilities
+│       ├── PROTOCOL_OPERATIONS.txt
+│       ├── __init__.py
+│       ├── __pycache__
+│       ├── message_formats.py
+│       ├── system_imports.py
+│       ├── test_arp_modes.py
+│       └── token_validator.py
+├── Logos_Protocol
+│   ├── GUI
+│   │   ├── logos_dashboard
+│   │   └── monitoring
+│   ├── Integrations
+│   │   ├── __init__.py
+│   │   ├── arp_operations.py
+│   │   ├── enhanced_uip_connector.py
+│   │   ├── example_connector.py
+│   │   └── uip_connector.py
+│   ├── Logos_Agents
+│   │   ├── I1_Agent
+│   │   ├── I2_Agent
+│   │   ├── I3_Agent
+│   │   └── Shared_Resources
+│   ├── Protocol_Core
+│   │   ├── Activation_Sequencer
+│   │   ├── Logos_Epistemology
+│   │   ├── Logos_Ontology
+│   │   ├── __init__.py
+│   │   └── logos_protocol_manifest.json
+│   ├── Runtime_Operations
+│   │   ├── __init__.py
+│   │   ├── __pycache__
+│   │   ├── daemon
+│   │   ├── governance
+│   │   ├── integration
+│   │   ├── monitoring
+│   │   ├── optimization
+│   │   ├── reasoning
+│   │   ├── test_logs
+│   │   └── tools
+│   ├── Unified_Working_Memory
+│   │   ├── Memory_Analysts
+│   │   ├── Structured_Memory_Packets
+│   │   ├── Unstructured_Memory_Packets
+│   │   └── __pycache__
+│   └── __pycache__
+│       ├── Logos_Core_Recursion_Engine.cpython-312.pyc
+│       ├── __init__.cpython-312.pyc
+│       ├── __init__.py
+│       ├── __main__.cpython-312.pyc
+│       └── __pycache__
+├── Synthetic_Cognition_Protocol
+│   ├── BDN_System
+│   │   ├── __init__.py
+│   │   ├── __pycache__
+│   │   ├── bdn_runtime.py
+│   │   ├── core
+│   │   ├── integration
+│   │   └── mvf_node_operator.py
+│   ├── MVS_System
+│   │   ├── CONSCIOUSNESS_EMERGENCE_REPORT.md
+│   │   ├── FRACTAL_ORBIT_TOOLKIT_README.md
+│   │   ├── __init__.py
+│   │   ├── __pycache__
+│   │   ├── advanced_fractal_analyzer.py
+│   │   ├── comprehensive_fractal_analysis.py
+│   │   ├── consciousness_emergence_analysis.json
+│   │   ├── consciousness_emergence_analysis.png
+│   │   ├── consciousness_fractal_analysis.py
+│   │   ├── data_c_values
+│   │   ├── dual_bijection_agent_experiment.json
+│   │   ├── dual_bijection_agent_experiment.py
+│   │   ├── dual_bijection_coherence_analysis.json
+│   │   ├── dual_bijection_coherence_analysis.py
+│   │   ├── dual_bijection_demo.py
+│   │   ├── dual_bijection_emergence_analysis.png
+│   │   ├── fractal_mvs.py
+│   │   ├── fractal_orbit_cli.py
+│   │   ├── fractal_orbit_demo.py
+│   │   ├── fractal_orbit_toolkit.py
+│   │   ├── fractal_orbital
+│   │   ├── mathematics
+│   │   ├── modal_vector_sync.py
+│   │   ├── mvs_calculators
+│   │   ├── predictors
+│   │   ├── pxl_fractal_orbital_analysis.json
+│   │   ├── pxl_fractal_orbital_analysis.py
+│   │   ├── pxl_modal_fractal_boundary_analysis.json
+│   │   ├── pxl_modal_fractal_boundary_analysis.png
+│   │   ├── pxl_modal_fractal_boundary_analysis.py
+│   │   ├── pxl_orbital_analysis_visualization.png
+│   │   ├── resurrection_s2_demo.py
+│   │   ├── simple_julia.py
+│   │   ├── test_dual_bijection.py
+│   │   └── test_plot.png
+│   ├── README.md
+│   ├── __init__.py
+│   ├── __pycache__
+│   │   └── __init__.cpython-312.pyc
+│   ├── consciousness
+│   │   ├── __init__.py
+│   │   ├── __pycache__
+│   │   ├── agent_identity.json
+│   │   ├── agentic_consciousness_core.py
+│   │   ├── consciousness_safety_adapter.py
+│   │   ├── emergence_core.py
+│   │   ├── fractal_consciousness_core.py
+│   │   ├── logos_core_foundations.py
+│   │   ├── reflexive_evaluator.py
+│   │   └── simulated_consciousness_runtime.py
+│   ├── data
+│   │   ├── __init__.py
+│   │   ├── __pycache__
+│   │   └── data
+│   └── system_utilities
+│       ├── PROTOCOL_OPERATIONS.txt
+│       ├── README.md
+│       ├── __init__.py
+│       ├── __pycache__
+│       ├── nexus
+│       └── test_scp_recovery_mode_gate.py
+├── System_Operations_Protocol
+│   ├── Documentation
+│   │   ├── IEL_OVERLAYS_AGENT_REFERENCE.md
+│   │   ├── META_ORDER_OF_OPERATIONS.md
+│   │   ├── Project_Notes
+│   │   ├── README.md
+│   │   ├── __init__.py
+│   │   ├── __pycache__
+│   │   ├── project_narrative.md
+│   │   └── requirements.txt
+│   ├── README.md
+│   ├── __init__.py
+│   ├── __pycache__
+│   │   ├── __init__.cpython-312.pyc
+│   │   ├── __init__.py
+│   │   └── __pycache__
+│   ├── alignment_protocols
+│   │   ├── __init__.py
+│   │   ├── __pycache__
+│   │   ├── coherence
+│   │   ├── compliance
+│   │   ├── persistence
+│   │   ├── policies
+│   │   ├── safety
+│   │   ├── state
+│   │   ├── token_system
+│   │   └── validation
+│   ├── code_generator
+│   │   ├── __init__.py
+│   │   ├── __pycache__
+│   │   ├── deploy-enhanced-router.sh
+│   │   ├── deploy.ps1
+│   │   ├── development_environment.py
+│   │   ├── development_environment.py.bak
+│   │   ├── gen_ontoprops_dedup.py
+│   │   ├── gen_worldview_ontoprops.py
+│   │   ├── knowledge_catalog.py
+│   │   ├── meta_reasoning
+│   │   ├── ontoprops_remap.py
+│   │   ├── run-tests.ps1
+│   │   ├── run-tests.sh
+│   │   ├── scan_bypass.py
+│   │   ├── self_improvement_integration.py
+│   │   ├── sign-route.sh
+│   │   ├── smoke.ps1
+│   │   ├── smoke.sh
+│   │   ├── smoke_api.ps1
+│   │   └── smoke_api.sh
+│   ├── data_storage
+│   │   ├── __init__.py
+│   │   ├── __pycache__
+│   │   ├── knowledge
+│   │   ├── runtime
+│   │   └── system_memory.py
+│   ├── deployment
+│   │   ├── __init__.py
+│   │   ├── __pycache__
+│   │   ├── boot
+│   │   ├── configuration
+│   │   └── monitoring
+│   ├── file_management
+│   │   ├── __init__.py
+│   │   ├── __pycache__
+│   │   └── integration_pipeline.py
+│   ├── governance
+│   │   ├── __init__.py
+│   │   ├── __pycache__
+│   │   └── core
+│   ├── infrastructure
+│   │   ├── __init__.py
+│   │   ├── __pycache__
+│   │   ├── agent_nexus.py
+│   │   ├── agent_system
+│   │   ├── boot_system.py
+│   │   ├── local_scp.py
+│   │   ├── maintenance.py
+│   │   └── shared_resources.py
+│   ├── legacy_logos_agent
+│   │   ├── PROTOCOL_OPERATIONS.txt
+│   │   ├── __init__.py
+│   │   ├── __pycache__
+│   │   ├── agent
+│   │   ├── dev_tools
+│   │   ├── logos_agent_boot.py
+│   │   ├── operations
+│   │   └── system_operations
+│   ├── nexus
+│   │   ├── PROTOCOL_OPERATIONS.txt
+│   │   ├── README.md
+│   │   ├── __init__.py
+│   │   ├── __pycache__
+│   │   ├── legacy_sop_nexus.py
+│   │   ├── sop_nexus.py
+│   │   └── sop_operations.py
+│   ├── operations
+│   │   ├── __init__.py
+│   │   ├── __pycache__
+│   │   ├── audit
+│   │   ├── code_generator
+│   │   ├── reports
+│   │   ├── runtime
+│   │   └── tests
+│   └── startup
+│       ├── __init__.py
+│       ├── __pycache__
+│       ├── scp_startup.py
+│       ├── sop_startup.py
+│       └── uip_startup.py
+├── User_Interaction_Protocol
+│   ├── README.md
+│   ├── __init__.py
+│   ├── __pycache__
+│   │   ├── __init__.cpython-312.pyc
+│   │   ├── __init__.py
+│   │   └── __pycache__
+│   ├── _archive_input_output_processing
+│   │   ├── __init__.py
+│   │   ├── __pycache__
+│   │   ├── input
+│   │   ├── ontological_validator.py
+│   │   ├── output
+│   │   └── translators
+│   ├── input_output_processing
+│   │   ├── __init__.py
+│   │   ├── __pycache__
+│   │   ├── parser.py
+│   │   └── sanitizer.py
+│   ├── interface_runtime
+│   │   ├── __init__.py
+│   │   ├── interface_runtime.py
+│   │   └── router.py
+│   ├── interfaces
+│   │   ├── __init__.py
+│   │   ├── __pycache__
+│   │   └── services
+│   ├── language_modules
+│   │   ├── __init__.py
+│   │   ├── natural_language_processor.py
+│   │   ├── semantic_transformers.py
+│   │   ├── tranlsation_bridge.py
+│   │   └── translation_engine.py
+│   ├── metadata_filters
+│   │   ├── __init__.py
+│   │   └── response_engine.py
+│   ├── smp_packetizer
+│   │   └── __init__.py
+│   ├── symbolic_translation
+│   │   ├── __init__.py
+│   │   ├── lambda_engine.py
+│   │   ├── lambda_engine_definitions.py
+│   │   ├── lambda_onto_calculus_engine.py
+│   │   ├── lambda_parser.py
+│   │   ├── logos_lambda_core.py
+│   │   ├── logos_lambda_integration.py
+│   │   └── translation
+│   ├── system_utilities
+│   │   ├── PROTOCOL_OPERATIONS.txt
+│   │   ├── README.md
+│   │   ├── __init__.py
+│   │   ├── __pycache__
+│   │   ├── lem_portal_cli.py
+│   │   ├── nexus
+│   │   └── shared
+│   ├── tests
+│   │   ├── __pycache__
+│   │   └── test_registry_and_response.py
+│   └── uip_protocol
+│       ├── __init__.py
+│       ├── __pycache__
+│       ├── core_processing
+│       ├── input
+│       ├── output
+│       ├── progressive_router.py
+│       └── utils
+└── vsrocq
+    ├── LICENSE
+    ├── README.md
+    ├── client
+    │   ├── CHANGELOG.md
+    │   ├── LICENSE -> ../LICENSE
+    │   ├── README.md -> ../README.md
+    │   ├── assets
+    │   ├── goal-view-ui
+    │   ├── media
+    │   ├── package.json
+    │   ├── pp-display
+    │   ├── search-ui
+    │   ├── src
+    │   ├── syntax
+    │   ├── testFixture
+    │   ├── tsconfig.json
+    │   ├── vsc-extension-quickstart.md
+    │   ├── webpack.config.js
+    │   ├── yarn.lock
+    │   └── yarn.nix
+    ├── docs
+    │   ├── FAQ.md
+    │   ├── developers.md
+    │   └── protocol.md
+    ├── flake.lock
+    ├── flake.nix
+    ├── gif
+    │   ├── auto-display-disable.gif
+    │   ├── block-on-error.gif
+    │   ├── continuous-mode.gif
+    │   ├── coq-search-panel-small.gif
+    │   ├── downgrading-vscoq.gif
+    │   ├── goal-ellipsis.gif
+    │   ├── goals-accordion.gif
+    │   ├── goals-tab.gif
+    │   ├── manual-mode.gif
+    │   ├── messages.gif
+    │   ├── outline.gif
+    │   ├── query-panel.gif
+    │   └── quickfix.gif
+    └── language-server
+        ├── Makefile
+        ├── README.md
+        ├── build-windows-platform.bat
+        ├── dm
+        ├── dune
+        ├── dune-project
+        ├── etc
+        ├── language
+        ├── make-release.sh
+        ├── protocol
+        ├── tests
+        ├── vscoq-language-server.opam
+        ├── vsrocq-language-server.opam
+        └── vsrocqtop
+
+212 directories, 246 files

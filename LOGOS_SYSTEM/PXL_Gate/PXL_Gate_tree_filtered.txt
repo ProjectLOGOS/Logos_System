@@ -1,0 +1,102 @@
+PXL_Gate
+└── audit_and_emit.py
+├── ui
+├── state
+├── Protopraxis
+├── latest
+├── baseline
+├── archive
+├── __pycache__
+│   └── tests
+│       └── falsifiability_test.v
+│       ├── __pycache__
+│   └── Trinitarian_Identity_Closure.v
+│   ├── test_K.v
+│   ├── PXLv3_shadow.v
+│   ├── PXLv3_SemanticModal.v
+│   ├── PXLv3_head.v
+│   ├── PXLv3.v
+│   ├── PXL_WellFormedness.v
+│   ├── PXL_TriunePBRS.v
+│   ├── PXL_Triune_Principles.v
+│   ├── PXL_Trinitarian_Optimization_SemanticPort.v
+│   ├── PXL_Trinitarian_Optimization.v
+│   ├── PXL_Structural_Derivations.v
+│   ├── PXL_SemanticModal_Smoke.v
+│   ├── PXL_Semantic_Profile_Suite.v
+│   ├── PXL_Semantic_Extensions_DomainProduct.v
+│   ├── PXL_Sanity_SemanticPort.v
+│   ├── PXL_Sanity_Semantic.v
+│   ├── PXL_Sanity.v
+│   ├── PXL_S2_Axioms.v
+│   ├── PXL_Proof_Summary.v
+│   ├── PXL_Privative.v
+│   ├── PXL_OntoGrid_OmniHooks.v
+│   ├── PXL_OntoGrid.v
+│   ├── PXL_OmniProofs.v
+│   ├── PXL_OmniKernel.v
+│   ├── PXL_Omni_Properties.v
+│   ├── PXL_Omni_Bridges.v
+│   ├── PXL_ObjectLanguage.v
+│   ├── PXL_Modal_Axioms_Semantic.v
+│   ├── PXL_Kernel_Axioms.v
+│   ├── PXL_Kernel20_SemanticModal_Profile.v
+│   ├── PXL_Internal_LEM_SemanticPort.v
+│   ├── PXL_Internal_LEM.v
+│   ├── PXL_Imp_Nothing.v
+│   ├── PXL_Goodness_Existence.v
+│   ├── PXL_Global_Bijection.v
+│   ├── PXL_Foundations_SemanticPort.v
+│   ├── PXL_Foundations.v
+│   ├── PXL_Derivations_Phase2.v
+│   ├── PXL_Definitions.v
+│   ├── PXL_Bridge_Proofs_SemanticPort.v
+│   ├── PXL_Bridge_Proofs.v
+│   ├── PXL_Axiom_Minimality_Check.v
+│   ├── PXL_Arithmetic.v
+│   ├── LOGOS_Metaphysical_Architecture.v
+│   ├── LEM_Discharge.v
+│   ├── Godelian_Theorem_Satisfaction.v
+│   ├── Echo2_Simulation.v
+│   ├── Demo_Unsafe.v
+│   ├── option_b
+│   ├── modal
+│   │   └── PXL_Modal_Semantic_Kripke.v
+│   │   └── Privation_Detector_Skeleton.v
+│   │   ├── OptionB_Index.v
+│   │   ├── Omega_Closure.v
+│   │   ├── Modal_Syntax.v
+│   │   ├── Modal_Semantics.v
+│   │   ├── Modal_PXL_Interp.v
+│   │   ├── Modal_Decidability_To_Interp.v
+│   │   ├── Modal_Decidability_Skeleton.v
+│   └── serve_pxl.py
+│   ├── run_coq_pipeline.py
+│   ├── PXL_Theorems.txt
+│   ├── PXL_Paradox_Resolution.txt
+│   ├── PXL_Formal_Language_Definition.txt
+│   ├── PXL_Domain_Mapping.txt
+│   ├── PXL_Derived_Attributes.txt
+│   ├── PXL_Axioms.txt
+│   ├── PXL_Abstract.txt
+│   ├── __init__.py
+│   ├── formal_verification
+│   ├── __pycache__
+│   │   └── serve_pxl.cpython-312.pyc
+│   │   ├── run_coq_pipeline.cpython-312.pyc
+│   │   ├── __init__.py
+│   │   ├── __init__.cpython-312.pyc
+│   │   ├── __pycache__
+│   │   │   └── __init__.cpython-312.pyc
+│   │   └── __init__.py
+│   │   ├── __pycache__
+│   │   │   └── __init__.cpython-312.pyc
+│   └── lem_portal.py
+│   ├── LEM_Discharge.v
+│   ├── __init__.py
+│   ├── __pycache__
+│   │   └── lem_portal.cpython-312.pyc
+│   │   ├── __init__.py
+│   │   ├── __init__.cpython-312.pyc
+│   │   ├── __pycache__
+│   │   │   └── __init__.cpython-312.pyc

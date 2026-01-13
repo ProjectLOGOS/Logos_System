@@ -1,0 +1,12 @@
+{"timestamp": 1766465006.3728528, "action": "allocate", "label": "UIP:USER_AGENT_stress_user", "cpu_slots": 1, "memory_mb": 96, "disk_mb": 0, "allocations": {"cpu_slots": 1, "memory_mb": 96, "disk_mb": 0}}
+{"timestamp": 1766465006.3729293, "action": "allocate", "label": "UIP:USER_AGENT_stress_user", "cpu_slots": 1, "memory_mb": 96, "disk_mb": 0, "allocations": {"cpu_slots": 2, "memory_mb": 192, "disk_mb": 0}}
+{"timestamp": 1766465006.4834893, "action": "release", "label": "UIP:USER_AGENT_stress_user", "cpu_slots": 1, "memory_mb": 96, "disk_mb": 0, "allocations": {"cpu_slots": 1, "memory_mb": 96, "disk_mb": 0}}
+{"timestamp": 1766465006.4839287, "action": "allocate", "label": "UIP:USER_AGENT_stress_user", "cpu_slots": 1, "memory_mb": 96, "disk_mb": 0, "allocations": {"cpu_slots": 2, "memory_mb": 192, "disk_mb": 0}}
+{"timestamp": 1766465006.48401, "action": "allocate", "label": "UIP:USER_AGENT_stress_user", "cpu_slots": 1, "memory_mb": 96, "disk_mb": 0, "allocations": {"cpu_slots": 3, "memory_mb": 288, "disk_mb": 0}}
+{"timestamp": 1766465006.5945764, "action": "release", "label": "UIP:USER_AGENT_stress_user", "cpu_slots": 1, "memory_mb": 96, "disk_mb": 0, "allocations": {"cpu_slots": 2, "memory_mb": 192, "disk_mb": 0}}
+{"timestamp": 1766465006.595032, "action": "allocate", "label": "UIP:SYSTEM_AGENT_PRIMARY", "cpu_slots": 1, "memory_mb": 96, "disk_mb": 0, "allocations": {"cpu_slots": 3, "memory_mb": 288, "disk_mb": 0}}
+{"timestamp": 1766465006.595107, "action": "allocate", "label": "UIP:SYSTEM_AGENT_PRIMARY", "cpu_slots": 1, "memory_mb": 96, "disk_mb": 0, "allocations": {"cpu_slots": 4, "memory_mb": 384, "disk_mb": 0}}
+{"timestamp": 1766465006.5953982, "action": "release", "label": "UIP:SYSTEM_AGENT_PRIMARY", "cpu_slots": 1, "memory_mb": 96, "disk_mb": 0, "allocations": {"cpu_slots": 3, "memory_mb": 288, "disk_mb": 0}}
+{"timestamp": 1766465006.5956657, "action": "allocate", "label": "SCP:SYSTEM_AGENT_PRIMARY", "cpu_slots": 1, "memory_mb": 64, "disk_mb": 0, "allocations": {"cpu_slots": 4, "memory_mb": 352, "disk_mb": 0}}
+{"timestamp": 1766465006.5957282, "action": "allocate", "label": "SCP:SYSTEM_AGENT_PRIMARY", "cpu_slots": 1, "memory_mb": 64, "disk_mb": 0, "allocations": {"cpu_slots": 5, "memory_mb": 416, "disk_mb": 0}}
+{"timestamp": 1766465006.8194644, "action": "release", "label": "SCP:SYSTEM_AGENT_PRIMARY", "cpu_slots": 1, "memory_mb": 64, "disk_mb": 0, "allocations": {"cpu_slots": 4, "memory_mb": 352, "disk_mb": 0}}

@@ -1,0 +1,43 @@
+{
+  "agent_id": "LOGOS-6FE77F2D",
+  "identity_version": 1,
+  "created_utc": "2025-12-27T02:19:30.913602+00:00",
+  "updated_utc": "2025-12-31T18:33:43.088064+00:00",
+  "repo": {
+    "root": "/workspaces/pxl_demo_wcoq_proofs",
+    "git_commit": "ffb8632e064522cecbc8a81bd9fd835605b5b636",
+    "branch": "presentation-dev"
+  },
+  "proof_gate": {
+    "theory_hash": "4acf2477b50f184adafa201cf5c50df3ac80149b283810dcd97497672fdc6ae5",
+    "coq_build_hash": null,
+    "axiom_policy_profile": "PXL_TRUSTED_CORE_V1"
+  },
+  "capabilities": {
+    "catalog_path": "training_data/index/catalog.jsonl",
+    "catalog_tail_hash": "4e87717edcb67ca0698fb5c521245d04c02daa341495c0c0e19b2adf76dc0fd3",
+    "deployed_set_hash": "b63d56910d0f21843b161d16963335c16f2da605b14d0918605524b461dcce77",
+    "last_entry_id": null
+  },
+  "mission": {
+    "mission_label": "SYSTEM_COMPLETENESS",
+    "mission_profile_hash": "3d7b79b8a0edf7564aee3b94f35144340f87c306d22de13ddb4557c9dc6e670d",
+    "allow_enhancements": false
+  },
+  "continuity": {
+    "last_cycle_utc": "2025-12-31T18:33:43.088064+00:00",
+    "last_planner_digest": "state/planner_digest_archives/planner_digests_20251227T062950Z.jsonl.gz",
+    "last_run_id": "20251231T1833428397510000",
+    "prev_identity_hash": "4695d953e77b7ad762aff7859ec6e04b249a8646dc5fedfb6454dcf026e44ce1"
+  },
+  "world_model": {
+    "snapshot_path": "/workspaces/pxl_demo_wcoq_proofs/state/world_model_snapshot.json",
+    "snapshot_hash": "sha256:52b1a030d1119f5f30d83065c3ce9ce85aa392b1ea7433ff1c891b497d7aadad",
+    "world_model_version": 1
+  },
+  "commitments": {
+    "ledger_path": "state/commitment_ledger.json",
+    "ledger_hash": "sha256:98912e9fe7ac11d9064478bc779cb49341e032f3e3e8d9425049919b2a1ee0ae",
+    "ledger_version": 1
+  }
+}

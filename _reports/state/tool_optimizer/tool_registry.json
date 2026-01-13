@@ -1,0 +1,732 @@
+[
+  {
+    "tool_id": "01181f27e3411761",
+    "name": "PXLCoherenceAnalyzer",
+    "module_path": "System_Operations_Protocol.alignment_protocols.coherence.coherence_metrics",
+    "symbol": "PXLCoherenceAnalyzer",
+    "protocol_tag": "SOP",
+    "io_hints": "read_only",
+    "risk_tag": "safe",
+    "notes": "Analyzer for PXL layer coherence"
+  },
+  {
+    "tool_id": "0507a263aa8670c6",
+    "name": "cmd_validate",
+    "module_path": "scripts.tool_proposal_pipeline",
+    "symbol": "cmd_validate",
+    "protocol_tag": "SCRIPTS",
+    "io_hints": "read_only",
+    "risk_tag": "safe",
+    "notes": "Validate tool proposal in sandbox."
+  },
+  {
+    "tool_id": "0d6d048562b21d0f",
+    "name": "attach_probe_results",
+    "module_path": "scripts.protocol_probe",
+    "symbol": "attach_probe_results",
+    "protocol_tag": "SCRIPTS",
+    "io_hints": "read_only",
+    "risk_tag": "safe",
+    "notes": "Auto-registered via keyword match."
+  },
+  {
+    "tool_id": "102d5551b2eaa29c",
+    "name": "compare_tool_outputs",
+    "module_path": "logos_core.tools.regression_checker",
+    "symbol": "compare_tool_outputs",
+    "protocol_tag": "LOGOS_CORE",
+    "io_hints": "read_only",
+    "risk_tag": "safe",
+    "notes": "Compare two tool outputs and surface deltas."
+  },
+  {
+    "tool_id": "16b154a992d64789",
+    "name": "export_json_report",
+    "module_path": "System_Operations_Protocol.deployment.configuration.logos_monitor",
+    "symbol": "export_json_report",
+    "protocol_tag": "SOP",
+    "io_hints": "governed_flow",
+    "risk_tag": "governed",
+    "notes": "Export status as JSON"
+  },
+  {
+    "tool_id": "17008d7f70bfbf03",
+    "name": "CoherenceOptimizer",
+    "module_path": "System_Operations_Protocol.alignment_protocols.coherence.coherence_optimizer",
+    "symbol": "CoherenceOptimizer",
+    "protocol_tag": "SOP",
+    "io_hints": "writes_state",
+    "risk_tag": "write",
+    "notes": "LOGOS Coherence Optimizer Optimizes system parameters to maximize Trinity-Coherence while maintaining formal verification guarantees and safety constraints."
+  },
+  {
+    "tool_id": "17336d9931ded482",
+    "name": "tool_sandbox_list",
+    "module_path": "scripts.start_agent",
+    "symbol": "tool_sandbox_list",
+    "protocol_tag": "SCRIPTS",
+    "io_hints": "governed_flow",
+    "risk_tag": "governed",
+    "notes": "Auto-registered via keyword match."
+  },
+  {
+    "tool_id": "1d79f6897ccf3752",
+    "name": "analyze_temporal_flow",
+    "module_path": "logos_core.analysis.tfat",
+    "symbol": "analyze_temporal_flow",
+    "protocol_tag": "LOGOS_CORE",
+    "io_hints": "read_only",
+    "risk_tag": "safe",
+    "notes": "Main API for temporal flow analysis."
+  },
+  {
+    "tool_id": "1de3f9b7fea7a189",
+    "name": "print_status_report",
+    "module_path": "System_Operations_Protocol.deployment.configuration.logos_monitor",
+    "symbol": "print_status_report",
+    "protocol_tag": "SOP",
+    "io_hints": "governed_flow",
+    "risk_tag": "governed",
+    "notes": "Print formatted status report"
+  },
+  {
+    "tool_id": "22a7a3d4d6598f15",
+    "name": "AuditEvent",
+    "module_path": "System_Operations_Protocol.operations.audit.audit_logger",
+    "symbol": "AuditEvent",
+    "protocol_tag": "SOP",
+    "io_hints": "read_only",
+    "risk_tag": "safe",
+    "notes": "Structured audit event."
+  },
+  {
+    "tool_id": "24490672db9dccbd",
+    "name": "validate_nexus_system",
+    "module_path": "System_Operations_Protocol.infrastructure.agent_system.base_nexus",
+    "symbol": "validate_nexus_system",
+    "protocol_tag": "SOP",
+    "io_hints": "read_only",
+    "risk_tag": "safe",
+    "notes": "Validate complete nexus system functionality"
+  },
+  {
+    "tool_id": "247e34478c1d3e94",
+    "name": "validate_tool_validation_report",
+    "module_path": "scripts.schemas",
+    "symbol": "validate_tool_validation_report",
+    "protocol_tag": "SCRIPTS",
+    "io_hints": "read_only",
+    "risk_tag": "safe",
+    "notes": "Validate tool validation report."
+  },
+  {
+    "tool_id": "24edb1878d757f16",
+    "name": "generate_capability_report",
+    "module_path": "logos_core.monitoring.capabilities",
+    "symbol": "generate_capability_report",
+    "protocol_tag": "LOGOS_CORE",
+    "io_hints": "read_only",
+    "risk_tag": "safe",
+    "notes": "Main API for capability reporting."
+  },
+  {
+    "tool_id": "27369a1cb8745289",
+    "name": "get_capability_report",
+    "module_path": "logos_core.monitoring.capabilities",
+    "symbol": "get_capability_report",
+    "protocol_tag": "LOGOS_CORE",
+    "io_hints": "read_only",
+    "risk_tag": "safe",
+    "notes": "Synchronous wrapper for capability reporting."
+  },
+  {
+    "tool_id": "28036b0a86894831",
+    "name": "AlignmentAudit",
+    "module_path": "scripts.boot_aligned_agent",
+    "symbol": "AlignmentAudit",
+    "protocol_tag": "SCRIPTS",
+    "io_hints": "read_only",
+    "risk_tag": "safe",
+    "notes": "Auto-registered via keyword match."
+  },
+  {
+    "tool_id": "2a3f087d2ffb0ee6",
+    "name": "RuntimeCoherenceAnalyzer",
+    "module_path": "System_Operations_Protocol.alignment_protocols.coherence.coherence_metrics",
+    "symbol": "RuntimeCoherenceAnalyzer",
+    "protocol_tag": "SOP",
+    "io_hints": "read_only",
+    "risk_tag": "safe",
+    "notes": "Analyzer for Runtime layer coherence"
+  },
+  {
+    "tool_id": "2ac0424c851d193c",
+    "name": "tool_capability_report",
+    "module_path": "scripts.start_agent",
+    "symbol": "tool_capability_report",
+    "protocol_tag": "SCRIPTS",
+    "io_hints": "governed_flow",
+    "risk_tag": "governed",
+    "notes": "Auto-registered via keyword match."
+  },
+  {
+    "tool_id": "2b79168322b97aa3",
+    "name": "AuditSystem",
+    "module_path": "System_Operations_Protocol.operations.audit.audit_system",
+    "symbol": "AuditSystem",
+    "protocol_tag": "SOP",
+    "io_hints": "read_only",
+    "risk_tag": "safe",
+    "notes": "Basic audit logging system"
+  },
+  {
+    "tool_id": "2f5a1d9f61cebeb9",
+    "name": "tool_sandbox_reflect",
+    "module_path": "scripts.start_agent",
+    "symbol": "tool_sandbox_reflect",
+    "protocol_tag": "SCRIPTS",
+    "io_hints": "governed_flow",
+    "risk_tag": "governed",
+    "notes": "Auto-registered via keyword match."
+  },
+  {
+    "tool_id": "301080448f08a2e3",
+    "name": "_load_tools",
+    "module_path": "scripts.export_tool_registry",
+    "symbol": "_load_tools",
+    "protocol_tag": "SCRIPTS",
+    "io_hints": "read_only",
+    "risk_tag": "safe",
+    "notes": "Auto-registered via keyword match."
+  },
+  {
+    "tool_id": "3569ae462fb01d14",
+    "name": "_tooling_references",
+    "module_path": "logos_core.world_model.uwm",
+    "symbol": "_tooling_references",
+    "protocol_tag": "LOGOS_CORE",
+    "io_hints": "governed_flow",
+    "risk_tag": "governed",
+    "notes": "Auto-registered via keyword match."
+  },
+  {
+    "tool_id": "384e5ee3764b796c",
+    "name": "OptimizerConfig",
+    "module_path": "System_Operations_Protocol.alignment_protocols.coherence.coherence_optimizer",
+    "symbol": "OptimizerConfig",
+    "protocol_tag": "SOP",
+    "io_hints": "writes_state",
+    "risk_tag": "write",
+    "notes": "Configuration for coherence optimizer"
+  },
+  {
+    "tool_id": "3a5de06c102161d5",
+    "name": "validate_scp_state",
+    "module_path": "scripts.schemas",
+    "symbol": "validate_scp_state",
+    "protocol_tag": "SCRIPTS",
+    "io_hints": "read_only",
+    "risk_tag": "safe",
+    "notes": "Validate SCP state dictionary against schema."
+  },
+  {
+    "tool_id": "418ef6f8517684dd",
+    "name": "run_tool_optimization",
+    "module_path": "logos_core.optimization.tool_optimizer",
+    "symbol": "run_tool_optimization",
+    "protocol_tag": "LOGOS_CORE",
+    "io_hints": "writes_state",
+    "risk_tag": "write",
+    "notes": "Auto-registered via keyword match."
+  },
+  {
+    "tool_id": "45d31817af0bcc37",
+    "name": "IELCoherenceAnalyzer",
+    "module_path": "System_Operations_Protocol.alignment_protocols.coherence.coherence_metrics",
+    "symbol": "IELCoherenceAnalyzer",
+    "protocol_tag": "SOP",
+    "io_hints": "read_only",
+    "risk_tag": "safe",
+    "notes": "Analyzer for IEL layer coherence"
+  },
+  {
+    "tool_id": "4784dff7876dad37",
+    "name": "validate_tool_proposal",
+    "module_path": "scripts.schemas",
+    "symbol": "validate_tool_proposal",
+    "protocol_tag": "SCRIPTS",
+    "io_hints": "read_only",
+    "risk_tag": "safe",
+    "notes": "Validate tool proposal dictionary against schema."
+  },
+  {
+    "tool_id": "4cfb03f0ae4497b8",
+    "name": "tool_filesystem_read",
+    "module_path": "scripts.start_agent",
+    "symbol": "tool_filesystem_read",
+    "protocol_tag": "SCRIPTS",
+    "io_hints": "governed_flow",
+    "risk_tag": "governed",
+    "notes": "Auto-registered via keyword match."
+  },
+  {
+    "tool_id": "4d0447510f77f14b",
+    "name": "Probe",
+    "module_path": "scripts.run_recursive_immersion_cycle",
+    "symbol": "Probe",
+    "protocol_tag": "SCRIPTS",
+    "io_hints": "read_only",
+    "risk_tag": "safe",
+    "notes": "Auto-registered via keyword match."
+  },
+  {
+    "tool_id": "4fa210d264131d71",
+    "name": "tool_sandbox_write",
+    "module_path": "scripts.start_agent",
+    "symbol": "tool_sandbox_write",
+    "protocol_tag": "SCRIPTS",
+    "io_hints": "governed_flow",
+    "risk_tag": "governed",
+    "notes": "Auto-registered via keyword match."
+  },
+  {
+    "tool_id": "502493b8bccd7657",
+    "name": "validate_snapshot",
+    "module_path": "logos_core.world_model.uwm",
+    "symbol": "validate_snapshot",
+    "protocol_tag": "LOGOS_CORE",
+    "io_hints": "governed_flow",
+    "risk_tag": "governed",
+    "notes": "Validate snapshot consistency against identity."
+  },
+  {
+    "tool_id": "55b26613ea54d3bd",
+    "name": "write_audit_entries",
+    "module_path": "scripts.protocol_probe",
+    "symbol": "write_audit_entries",
+    "protocol_tag": "SCRIPTS",
+    "io_hints": "writes_state",
+    "risk_tag": "write",
+    "notes": "Auto-registered via keyword match."
+  },
+  {
+    "tool_id": "586168d2cee2754f",
+    "name": "SelfDiagnosisTool",
+    "module_path": "logos_core.tools.self_diagnosis",
+    "symbol": "SelfDiagnosisTool",
+    "protocol_tag": "LOGOS_CORE",
+    "io_hints": "read_only",
+    "risk_tag": "safe",
+    "notes": "Self-diagnosis tool for automated system health assessment and problem identification."
+  },
+  {
+    "tool_id": "5b73ef63aacd86cf",
+    "name": "extract_first_proposed_tool",
+    "module_path": "scripts.test_logos_agi_replay_proposals",
+    "symbol": "extract_first_proposed_tool",
+    "protocol_tag": "SCRIPTS",
+    "io_hints": "read_only",
+    "risk_tag": "safe",
+    "notes": "Extract the first tool proposed by Logos_AGI."
+  },
+  {
+    "tool_id": "677cb888cb661511",
+    "name": "get_audit_logger",
+    "module_path": "System_Operations_Protocol.operations.audit.audit_logger",
+    "symbol": "get_audit_logger",
+    "protocol_tag": "SOP",
+    "io_hints": "read_only",
+    "risk_tag": "safe",
+    "notes": "Get or create global audit logger instance."
+  },
+  {
+    "tool_id": "721020aded7b7e3d",
+    "name": "tool_probe_last_snapshot",
+    "module_path": "scripts.start_agent",
+    "symbol": "tool_probe_last_snapshot",
+    "protocol_tag": "SCRIPTS",
+    "io_hints": "governed_flow",
+    "risk_tag": "governed",
+    "notes": "Auto-registered via keyword match."
+  },
+  {
+    "tool_id": "7cbcdcadbb7ac637",
+    "name": "UnifiedBayesianInferencer",
+    "module_path": "System_Operations_Protocol.deployment.configuration.unified_classes",
+    "symbol": "UnifiedBayesianInferencer",
+    "protocol_tag": "SOP",
+    "io_hints": "governed_flow",
+    "risk_tag": "governed",
+    "notes": "Consolidated Bayesian processing replacing BayesianInterface, ProbabilisticResult"
+  },
+  {
+    "tool_id": "7fc9eab6dabe545a",
+    "name": "_is_tool_optimizer_commitment",
+    "module_path": "scripts.start_agent",
+    "symbol": "_is_tool_optimizer_commitment",
+    "protocol_tag": "SCRIPTS",
+    "io_hints": "governed_flow",
+    "risk_tag": "governed",
+    "notes": "Auto-registered via keyword match."
+  },
+  {
+    "tool_id": "7fe1d30c21fb5d52",
+    "name": "AuditLogger",
+    "module_path": "System_Operations_Protocol.operations.audit.audit_logger",
+    "symbol": "AuditLogger",
+    "protocol_tag": "SOP",
+    "io_hints": "read_only",
+    "risk_tag": "safe",
+    "notes": "Thread-safe audit logger with file and structured output."
+  },
+  {
+    "tool_id": "88c007cac9af6ed9",
+    "name": "read_audit_entries",
+    "module_path": "scripts.aligned_agent_import",
+    "symbol": "read_audit_entries",
+    "protocol_tag": "SCRIPTS",
+    "io_hints": "read_only",
+    "risk_tag": "safe",
+    "notes": "Load existing alignment audit entries."
+  },
+  {
+    "tool_id": "890f51d8df824c01",
+    "name": "validate_mission_profile",
+    "module_path": "scripts.attestation",
+    "symbol": "validate_mission_profile",
+    "protocol_tag": "SCRIPTS",
+    "io_hints": "read_only",
+    "risk_tag": "safe",
+    "notes": "Validate mission profile has required keys."
+  },
+  {
+    "tool_id": "8cbecfd56e53faa1",
+    "name": "write_audit_entries",
+    "module_path": "scripts.aligned_agent_import",
+    "symbol": "write_audit_entries",
+    "protocol_tag": "SCRIPTS",
+    "io_hints": "writes_state",
+    "risk_tag": "write",
+    "notes": "Persist audit entries back to disk."
+  },
+  {
+    "tool_id": "8de5586282f50182",
+    "name": "validate_attestation",
+    "module_path": "scripts.attestation",
+    "symbol": "validate_attestation",
+    "protocol_tag": "SCRIPTS",
+    "io_hints": "read_only",
+    "risk_tag": "safe",
+    "notes": "Validate attestation with required keys and constraints."
+  },
+  {
+    "tool_id": "95988aa6830c5a1b",
+    "name": "_infer_risk_tag",
+    "module_path": "logos_core.optimization.tool_optimizer",
+    "symbol": "_infer_risk_tag",
+    "protocol_tag": "LOGOS_CORE",
+    "io_hints": "writes_state",
+    "risk_tag": "write",
+    "notes": "Auto-registered via keyword match."
+  },
+  {
+    "tool_id": "971ebe9d5fe4a05a",
+    "name": "OptimizationResult",
+    "module_path": "System_Operations_Protocol.alignment_protocols.coherence.coherence_optimizer",
+    "symbol": "OptimizationResult",
+    "protocol_tag": "SOP",
+    "io_hints": "writes_state",
+    "risk_tag": "write",
+    "notes": "Result of parameter optimization"
+  },
+  {
+    "tool_id": "a6916114f2f84e24",
+    "name": "dispatch_tool",
+    "module_path": "scripts.start_agent",
+    "symbol": "dispatch_tool",
+    "protocol_tag": "SCRIPTS",
+    "io_hints": "governed_flow",
+    "risk_tag": "governed",
+    "notes": "Centralized tool dispatcher with attestation enforcement."
+  },
+  {
+    "tool_id": "a8949731a1a98cf4",
+    "name": "ToolChainExecutor",
+    "module_path": "logos_core.tools.tool_chain_executor",
+    "symbol": "ToolChainExecutor",
+    "protocol_tag": "LOGOS_CORE",
+    "io_hints": "read_only",
+    "risk_tag": "safe",
+    "notes": "Execute ordered tool callables with audit history."
+  },
+  {
+    "tool_id": "a9c251fa3100c5bc",
+    "name": "_load_approved_tools",
+    "module_path": "scripts.start_agent",
+    "symbol": "_load_approved_tools",
+    "protocol_tag": "SCRIPTS",
+    "io_hints": "governed_flow",
+    "risk_tag": "governed",
+    "notes": "Auto-registered via keyword match."
+  },
+  {
+    "tool_id": "ab7d39f69aa7c60e",
+    "name": "AuditLog",
+    "module_path": "System_Operations_Protocol.governance.core.logos_core.persistence",
+    "symbol": "AuditLog",
+    "protocol_tag": "SOP",
+    "io_hints": "writes_state",
+    "risk_tag": "write",
+    "notes": "Auto-registered via keyword match."
+  },
+  {
+    "tool_id": "adbf62c36a814c67",
+    "name": "OptimizationMethod",
+    "module_path": "System_Operations_Protocol.alignment_protocols.coherence.coherence_optimizer",
+    "symbol": "OptimizationMethod",
+    "protocol_tag": "SOP",
+    "io_hints": "writes_state",
+    "risk_tag": "write",
+    "notes": "Optimization methods available"
+  },
+  {
+    "tool_id": "aea7147c385ed6d7",
+    "name": "AuditLevel",
+    "module_path": "System_Operations_Protocol.operations.audit.audit_logger",
+    "symbol": "AuditLevel",
+    "protocol_tag": "SOP",
+    "io_hints": "read_only",
+    "risk_tag": "safe",
+    "notes": "Audit event severity levels."
+  },
+  {
+    "tool_id": "b21de0629778c056",
+    "name": "validate_ledger",
+    "module_path": "logos_core.governance.commitment_ledger",
+    "symbol": "validate_ledger",
+    "protocol_tag": "LOGOS_CORE",
+    "io_hints": "governed_flow",
+    "risk_tag": "governed",
+    "notes": "Auto-registered via keyword match."
+  },
+  {
+    "tool_id": "b49bec8d0fd40bd2",
+    "name": "tool_sandbox_read",
+    "module_path": "scripts.start_agent",
+    "symbol": "tool_sandbox_read",
+    "protocol_tag": "SCRIPTS",
+    "io_hints": "governed_flow",
+    "risk_tag": "governed",
+    "notes": "Auto-registered via keyword match."
+  },
+  {
+    "tool_id": "b83f65f37a253c90",
+    "name": "run_tool_invention",
+    "module_path": "logos_core.optimization.tool_invention",
+    "symbol": "run_tool_invention",
+    "protocol_tag": "LOGOS_CORE",
+    "io_hints": "writes_state",
+    "risk_tag": "write",
+    "notes": "Auto-registered via keyword match."
+  },
+  {
+    "tool_id": "bef95e9486b3f159",
+    "name": "_apply_tool_policy",
+    "module_path": "scripts.start_agent",
+    "symbol": "_apply_tool_policy",
+    "protocol_tag": "SCRIPTS",
+    "io_hints": "governed_flow",
+    "risk_tag": "governed",
+    "notes": "Auto-registered via keyword match."
+  },
+  {
+    "tool_id": "c9478cd030e3f11b",
+    "name": "parse_audit_log",
+    "module_path": "scripts.test_logos_agi_replay_proposals",
+    "symbol": "parse_audit_log",
+    "protocol_tag": "SCRIPTS",
+    "io_hints": "read_only",
+    "risk_tag": "safe",
+    "notes": "Extract audit log entries from agent output."
+  },
+  {
+    "tool_id": "cb1ced12f87a343f",
+    "name": "probe_module",
+    "module_path": "scripts.protocol_probe",
+    "symbol": "probe_module",
+    "protocol_tag": "SCRIPTS",
+    "io_hints": "read_only",
+    "risk_tag": "safe",
+    "notes": "Auto-registered via keyword match."
+  },
+  {
+    "tool_id": "d40e6a3915956017",
+    "name": "read_audit_entries",
+    "module_path": "scripts.protocol_probe",
+    "symbol": "read_audit_entries",
+    "protocol_tag": "SCRIPTS",
+    "io_hints": "read_only",
+    "risk_tag": "safe",
+    "notes": "Auto-registered via keyword match."
+  },
+  {
+    "tool_id": "d5e991466929f529",
+    "name": "analyze_temporal_flow",
+    "module_path": "logos_core.bugfix",
+    "symbol": "analyze_temporal_flow",
+    "protocol_tag": "LOGOS_CORE",
+    "io_hints": "read_only",
+    "risk_tag": "safe",
+    "notes": "Main API for temporal flow analysis."
+  },
+  {
+    "tool_id": "d85c856ee6c3a469",
+    "name": "ToolInventionManager",
+    "module_path": "logos_core.optimization.tool_invention",
+    "symbol": "ToolInventionManager",
+    "protocol_tag": "LOGOS_CORE",
+    "io_hints": "writes_state",
+    "risk_tag": "write",
+    "notes": "Derives new instrumental tools based on optimizer gaps."
+  },
+  {
+    "tool_id": "d969a6355571d353",
+    "name": "_infer_protocol_tag",
+    "module_path": "logos_core.optimization.tool_optimizer",
+    "symbol": "_infer_protocol_tag",
+    "protocol_tag": "LOGOS_CORE",
+    "io_hints": "writes_state",
+    "risk_tag": "write",
+    "notes": "Auto-registered via keyword match."
+  },
+  {
+    "tool_id": "dd32418903edbb5d",
+    "name": "tool_agent_memory",
+    "module_path": "scripts.start_agent",
+    "symbol": "tool_agent_memory",
+    "protocol_tag": "SCRIPTS",
+    "io_hints": "governed_flow",
+    "risk_tag": "governed",
+    "notes": "Auto-registered via keyword match."
+  },
+  {
+    "tool_id": "dea49b43bccfe617",
+    "name": "probe_package",
+    "module_path": "scripts.protocol_probe",
+    "symbol": "probe_package",
+    "protocol_tag": "SCRIPTS",
+    "io_hints": "read_only",
+    "risk_tag": "safe",
+    "notes": "Auto-registered via keyword match."
+  },
+  {
+    "tool_id": "e26e8bcf5c4ba2ca",
+    "name": "tool_mission_status",
+    "module_path": "scripts.start_agent",
+    "symbol": "tool_mission_status",
+    "protocol_tag": "SCRIPTS",
+    "io_hints": "governed_flow",
+    "risk_tag": "governed",
+    "notes": "Auto-registered via keyword match."
+  },
+  {
+    "tool_id": "e76243fb0f640307",
+    "name": "_tool_metadata",
+    "module_path": "scripts.export_tool_registry",
+    "symbol": "_tool_metadata",
+    "protocol_tag": "SCRIPTS",
+    "io_hints": "read_only",
+    "risk_tag": "safe",
+    "notes": "Auto-registered via keyword match."
+  },
+  {
+    "tool_id": "e87f019eb682afe0",
+    "name": "TelemetryAnalyzer",
+    "module_path": "System_Operations_Protocol.governance.core.logos_core.autonomous_learning",
+    "symbol": "TelemetryAnalyzer",
+    "protocol_tag": "SOP",
+    "io_hints": "read_only",
+    "risk_tag": "safe",
+    "notes": "Analyzes telemetry data to identify reasoning gaps"
+  },
+  {
+    "tool_id": "ebbd2a6149800c50",
+    "name": "validate_identity",
+    "module_path": "logos_core.governance.agent_identity",
+    "symbol": "validate_identity",
+    "protocol_tag": "LOGOS_CORE",
+    "io_hints": "governed_flow",
+    "risk_tag": "governed",
+    "notes": "Validate agent identity."
+  },
+  {
+    "tool_id": "ef7438390624c76d",
+    "name": "_build_tool_registry",
+    "module_path": "logos_core.optimization.tool_optimizer",
+    "symbol": "_build_tool_registry",
+    "protocol_tag": "LOGOS_CORE",
+    "io_hints": "writes_state",
+    "risk_tag": "write",
+    "notes": "Auto-registered via keyword match."
+  },
+  {
+    "tool_id": "f34fe083bc40cc2e",
+    "name": "validate_falsifiability",
+    "module_path": "System_Operations_Protocol.deployment.monitoring.api_server",
+    "symbol": "validate_falsifiability",
+    "protocol_tag": "SOP",
+    "io_hints": "governed_flow",
+    "risk_tag": "governed",
+    "notes": "Enhanced falsifiability validation with countermodel generation"
+  },
+  {
+    "tool_id": "f4a3b589b4e513d5",
+    "name": "_is_tool_invention_commitment",
+    "module_path": "scripts.start_agent",
+    "symbol": "_is_tool_invention_commitment",
+    "protocol_tag": "SCRIPTS",
+    "io_hints": "governed_flow",
+    "risk_tag": "governed",
+    "notes": "Auto-registered via keyword match."
+  },
+  {
+    "tool_id": "f7fcf8a1d7313450",
+    "name": "AuditLog",
+    "module_path": "System_Operations_Protocol.alignment_protocols.persistence.persistence",
+    "symbol": "AuditLog",
+    "protocol_tag": "SOP",
+    "io_hints": "writes_state",
+    "risk_tag": "write",
+    "notes": "Auto-registered via keyword match."
+  },
+  {
+    "tool_id": "f9c41728a406915f",
+    "name": "get_audit_status",
+    "module_path": "System_Operations_Protocol.operations.audit.audit_logger",
+    "symbol": "get_audit_status",
+    "protocol_tag": "SOP",
+    "io_hints": "read_only",
+    "risk_tag": "safe",
+    "notes": "Get audit system status and statistics."
+  },
+  {
+    "tool_id": "fd06021d1d1d588c",
+    "name": "scp_deep_probe",
+    "module_path": "scripts.protocol_probe",
+    "symbol": "scp_deep_probe",
+    "protocol_tag": "SCRIPTS",
+    "io_hints": "read_only",
+    "risk_tag": "safe",
+    "notes": "Auto-registered via keyword match."
+  },
+  {
+    "tool_id": "fe12aea4550b70e3",
+    "name": "CapabilityReporting",
+    "module_path": "logos_core.monitoring.capabilities",
+    "symbol": "CapabilityReporting",
+    "protocol_tag": "LOGOS_CORE",
+    "io_hints": "read_only",
+    "risk_tag": "safe",
+    "notes": "Comprehensive capability reporting system for LOGOS AGI. Monitors and reports on system capabilities and health."
+  }
+]

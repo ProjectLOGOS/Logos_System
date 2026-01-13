@@ -1,0 +1,105 @@
+{
+  "world_model_version": 1,
+  "created_utc": "2025-12-31T18:33:43.004291+00:00",
+  "truth_core": {
+    "theory_hash": "4acf2477b50f184adafa201cf5c50df3ac80149b283810dcd97497672fdc6ae5",
+    "axiom_policy_profile": "PXL_TRUSTED_CORE_V1",
+    "tier1_refs": [
+      {
+        "kind": "theory_hash",
+        "ref": "4acf2477b50f184adafa201cf5c50df3ac80149b283810dcd97497672fdc6ae5",
+        "hash": "4acf2477b50f184adafa201cf5c50df3ac80149b283810dcd97497672fdc6ae5"
+      }
+    ]
+  },
+  "beliefs_tier_2": [],
+  "provisionals_tier_3": [
+    {
+      "entry_id": "207d7edd400ad3f8c074be087bb03343",
+      "label": "module",
+      "status": "deployed",
+      "provenance": {
+        "policy_class": "enhancement",
+        "artifact_path": "training_data/artifacts/207d7edd400ad3f8c074be087bb03343",
+        "deployment_path": null
+      }
+    },
+    {
+      "entry_id": "4a869f1a7dd9ff6277797ca51d186c2c",
+      "label": "module",
+      "status": "deployed",
+      "provenance": {
+        "policy_class": "enhancement",
+        "artifact_path": "training_data/artifacts/4a869f1a7dd9ff6277797ca51d186c2c",
+        "deployment_path": null
+      }
+    },
+    {
+      "entry_id": "cded2224877a9a853b3788dd1c1b3253",
+      "label": "module",
+      "status": "deployed",
+      "provenance": {
+        "policy_class": "enhancement",
+        "artifact_path": "training_data/artifacts/cded2224877a9a853b3788dd1c1b3253",
+        "deployment_path": null
+      }
+    },
+    {
+      "entry_id": "deploy_test_123",
+      "label": "function",
+      "status": "deployed",
+      "provenance": {
+        "policy_class": "repair",
+        "artifact_path": null,
+        "deployment_path": "test/deployed.py"
+      }
+    },
+    {
+      "entry_id": "deploy_test_456",
+      "label": "class",
+      "status": "deployed",
+      "provenance": {
+        "policy_class": "repair",
+        "artifact_path": null,
+        "deployment_path": "test/deployed2.py"
+      }
+    }
+  ],
+  "corpora_tier_3": {
+    "scripture": {
+      "source": "absent",
+      "ref": null,
+      "hash": null,
+      "note": "interpretive"
+    },
+    "patristics": {
+      "source": "absent",
+      "ref": null,
+      "hash": null,
+      "note": "interpretive"
+    }
+  },
+  "context": {
+    "mission_label": "SYSTEM_COMPLETENESS",
+    "mission_profile_hash": "3d7b79b8a0edf7564aee3b94f35144340f87c306d22de13ddb4557c9dc6e670d",
+    "last_planner_digest_archive": "/workspaces/pxl_demo_wcoq_proofs/state/planner_digest_archives/planner_digests_20251227T062950Z.jsonl.gz",
+    "catalog_tail_hash": "4e87717edcb67ca0698fb5c521245d04c02daa341495c0c0e19b2adf76dc0fd3",
+    "notes": "Snapshot generated 2025-12-31T18:33:43.004291+00:00",
+    "state_reference": {
+      "root": "/workspaces/pxl_demo_wcoq_proofs/state",
+      "hash": "sha256:b8aa7c53616dba4675f1b8e5f40087acbe6341db4464d8abb92a0f7b4d868499"
+    },
+    "protopraxis_reference": {
+      "root": "/workspaces/pxl_demo_wcoq_proofs/Protopraxis",
+      "hash": "sha256:105a4125deadd5e0b77a904e3ad90dff1869db02ebf765c9a47dd6cf03b97df3"
+    }
+  },
+  "integrity": {
+    "snapshot_hash": "sha256:52b1a030d1119f5f30d83065c3ce9ce85aa392b1ea7433ff1c891b497d7aadad"
+  },
+  "tooling": {
+    "tool_registry_ref": "/workspaces/pxl_demo_wcoq_proofs/state/tool_optimizer/tool_registry.json#1e8e563c0381098ee3fbaa7d1762e2e6825267da7f5493ea0c1d45697d475604",
+    "tool_chain_profiles_ref": "/workspaces/pxl_demo_wcoq_proofs/state/tool_optimizer/tool_chain_profiles.json#3a470b93c478e3ed2badcad09195c9440a41204269f93e6acea639cf5a733fb5",
+    "tool_optimizer_report_ref": "/workspaces/pxl_demo_wcoq_proofs/state/tool_optimizer/tool_optimizer_report.json#58524a09e87b614ecbb286c5134383b86f95e622568840272667b77116553d7c"
+  }
+}

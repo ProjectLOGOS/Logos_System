@@ -1,0 +1,35 @@
+Welcome to Coq 8.18.0
+Fetching opaque proofs from disk for PXL.PXL_Internal_LEM
+Axioms:
+𝕆 : Obj@{Var(0)}
+𝕀₂ : Obj@{Var(2)}
+𝕀₁ : Obj@{Var(1)}
+PXL_Internal_LEM.trinitarian_decidability
+  : forall P : Prop,
+    grounded_in@{PXL_Internal_LEM.trinitarian_decidability.u0} P
+      𝕀₁@{PXL_Internal_LEM.trinitarian_decidability.u1
+      PXL_Internal_LEM.trinitarian_decidability.u0
+      PXL_Internal_LEM.trinitarian_decidability.u2
+      PXL_Internal_LEM.trinitarian_decidability.u3} \/
+    grounded_in@{PXL_Internal_LEM.trinitarian_decidability.u4} 
+      (∼ P) 𝕀₂@{PXL_Internal_LEM.trinitarian_decidability.u5
+      PXL_Internal_LEM.trinitarian_decidability.u6
+      PXL_Internal_LEM.trinitarian_decidability.u4
+      PXL_Internal_LEM.trinitarian_decidability.u7}
+grounding_yields_entails
+  : forall (x : Obj@{Var(0)}) (P : Prop),
+    grounded_in@{Var(0)} P x -> entails@{Var(0)} x P
+grounded_in : Prop -> Obj@{Var(0)} -> Prop
+entails_global_implies_truth
+  : forall P : Prop, entails@{Var(0)} 𝕆@{Var(0) Var(1) Var(2) Var(3)} P -> P
+entails : Obj@{Var(0)} -> Prop -> Prop
+coherence_lifts_entailment
+  : forall (x : Obj@{Var(4)}) (P : Prop),
+    coherence@{Var(0)} 𝕆@{Var(0) Var(1) Var(2) Var(3)} ->
+    entails@{Var(4)} x P ->
+    entails@{Var(5)} 𝕆@{Var(5) Var(6) Var(7) Var(8)} P
+coherence : Obj@{Var(0)} -> Prop
+ax_T : forall p : Prop, □ p -> p
+Obj : Type@{Var(0)}
+Box : Prop -> Prop
+A7_triune_necessity : □ coherence@{Var(0)} 𝕆@{Var(0) Var(1) Var(2) Var(3)}

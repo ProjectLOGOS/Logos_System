@@ -1,0 +1,12 @@
+PASS: System_Stack/Logos_Protocol/Logos_Agents/I2_Agent/protocol_operations/ui_io/adapter.py
+PASS: System_Stack/Logos_Protocol/Logos_Agents/I2_Agent/protocol_operations/ui_io/server.py
+FAIL: System_Stack/Logos_Protocol/Logos_Agents/I1_Agent/_core/OmniPropertyIntegration.py
+FAIL: System_Stack/Logos_Protocol/Logos_Agents/I1_Agent/_core/SignPrincipalOperator.py
+PASS: System_Stack/Logos_Protocol/Logos_Agents/I1_Agent/_core/__init__.py
+FAIL: System_Stack/Logos_Protocol/Logos_Agents/I3_Agent/_core/OmniPropertyIntegration.py
+FAIL: System_Stack/Logos_Protocol/Logos_Agents/I3_Agent/_core/MindPrincipalOperator.py
+PASS: System_Stack/Logos_Protocol/Logos_Agents/I3_Agent/_core/__init__.py
+FAIL: _reports/uip_refactor/00_UIP_TREE_BEFORE.txt
+FAIL: _reports/uip_refactor/02_UIP_TREE_AFTER_CONSOLIDATION.txt
+FAIL: _reports/uip_refactor/03_UIP_TEST_TRANSCRIPT.txt
+FAIL: _reports/uip_refactor/04_UIP_CHANGELOG.md

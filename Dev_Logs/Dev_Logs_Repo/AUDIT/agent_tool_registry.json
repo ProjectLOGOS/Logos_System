@@ -1,0 +1,83 @@
+[
+  {
+    "id": "agent.memory",
+    "description": "",
+    "requires_safe_interfaces": null,
+    "restrict_writes_to": null,
+    "module": null,
+    "callable": null,
+    "raw": {}
+  },
+  {
+    "id": "capability.report",
+    "description": "",
+    "requires_safe_interfaces": null,
+    "restrict_writes_to": null,
+    "module": null,
+    "callable": null,
+    "raw": {}
+  },
+  {
+    "id": "fs.read",
+    "description": "",
+    "requires_safe_interfaces": null,
+    "restrict_writes_to": null,
+    "module": null,
+    "callable": null,
+    "raw": {}
+  },
+  {
+    "id": "mission.status",
+    "description": "",
+    "requires_safe_interfaces": null,
+    "restrict_writes_to": null,
+    "module": null,
+    "callable": null,
+    "raw": {}
+  },
+  {
+    "id": "probe.last",
+    "description": "",
+    "requires_safe_interfaces": null,
+    "restrict_writes_to": null,
+    "module": null,
+    "callable": null,
+    "raw": {}
+  },
+  {
+    "id": "sandbox.list",
+    "description": "",
+    "requires_safe_interfaces": null,
+    "restrict_writes_to": null,
+    "module": null,
+    "callable": null,
+    "raw": {}
+  },
+  {
+    "id": "sandbox.read",
+    "description": "",
+    "requires_safe_interfaces": null,
+    "restrict_writes_to": null,
+    "module": null,
+    "callable": null,
+    "raw": {}
+  },
+  {
+    "id": "sandbox.reflect",
+    "description": "",
+    "requires_safe_interfaces": null,
+    "restrict_writes_to": null,
+    "module": null,
+    "callable": null,
+    "raw": {}
+  },
+  {
+    "id": "sandbox.write",
+    "description": "",
+    "requires_safe_interfaces": null,
+    "restrict_writes_to": null,
+    "module": null,
+    "callable": null,
+    "raw": {}
+  }
+]

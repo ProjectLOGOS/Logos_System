@@ -1,0 +1,37 @@
+{
+  "bijection_properties": {
+    "A_mapping": {
+      "injective": false,
+      "surjective": true,
+      "bijective": false,
+      "domain_size": 3,
+      "codomain_size": 2,
+      "inverse_uniqueness": false
+    },
+    "B_mapping": {
+      "injective": false,
+      "surjective": true,
+      "bijective": false,
+      "domain_size": 3,
+      "codomain_size": 2,
+      "inverse_uniqueness": false
+    }
+  },
+  "commutation_properties": {
+    "A_B_commutes": true,
+    "B_A_commutes": true,
+    "commutation_failures": [],
+    "commutation_score": 1.0
+  },
+  "ontological_implications": {
+    "A_non_bijective": "Logical primitives mapping allows ontological flexibility but breaks strict bijection",
+    "B_non_bijective": "Relational primitives mapping allows ontological flexibility but breaks strict bijection"
+  },
+  "coherence_score": 0.5,
+  "improvement_over_previous": {
+    "previous_commutation_failures": 6,
+    "current_commutation_failures": 0,
+    "improvement": true,
+    "flexibility_gained": true
+  }
+}

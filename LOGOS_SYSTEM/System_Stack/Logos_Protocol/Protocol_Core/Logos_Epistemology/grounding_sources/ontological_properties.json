@@ -1,0 +1,8 @@
+{
+  "version": 1,
+  "properties": [
+    {"id": "existence", "weight": 0.34},
+    {"id": "goodness", "weight": 0.33},
+    {"id": "truth", "weight": 0.33}
+  ]
+}

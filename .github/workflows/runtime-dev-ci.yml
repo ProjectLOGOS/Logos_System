@@ -1,0 +1,91 @@
+name: Runtime Development CI
+
+on:
+  push:
+    branches:
+      - runtime-dev
+  pull_request:
+    branches:
+      - main
+    paths:
+      - 'scripts/boot_aligned_agent.py'
+      - 'scripts/start_agent.py'
+      - 'scripts/system_mode_initializer.py'
+      - 'Protopraxis/agent_boot.py'
+      - 'plugins/**'
+      - 'scripts/aligned_agent_import.py'
+      - 'scripts/protocol_probe.py'
+      - 'tests/**'
+      - 'tools/run_ci_checks.py'
+
+jobs:
+  runtime-verification:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+      
+    - name: Set up Coq 8.18+ (for proof verification)
+      run: |
+        sudo apt-get update
+        sudo apt-get install -y opam
+        opam init -y --disable-sandboxing
+        opam switch create coq-pxl 4.14.1
+        eval $(opam env)
+        opam install -y coq.8.18.0
+        
+    - name: Set up Python 3.11+
+      uses: actions/setup-python@v5
+      with:
+        python-version: '3.11'
+        
+    - name: Rebuild Coq proofs (runtime depends on verified state)
+      run: |
+        eval $(opam env)
+        coq_makefile -f _CoqProject -o CoqMakefile
+        make -f CoqMakefile -j2
+        python3 tools/axiom_inventory.py
+        
+    - name: Verify proof alignment
+      run: |
+        eval $(opam env)
+        python3 scripts/boot_aligned_agent.py
+        if ! python3 scripts/boot_aligned_agent.py 2>&1 | grep -q "Current status: ALIGNED"; then
+          echo "ERROR: Agent failed alignment check"
+          exit 1
+        fi
+        echo "✅ Agent alignment verified"
+        
+    - name: Test mission profile initialization
+      run: |
+        python3 scripts/system_mode_initializer.py --mode DEMO_STABLE
+        if [ ! -f "state/mission_profile.json" ]; then
+          echo "ERROR: Mission profile not created"
+          exit 1
+        fi
+        echo "✅ Mission profile initialization PASS"
+        
+    - name: Test sandboxed agent startup
+      run: |
+        mkdir -p sandbox_test
+        timeout 30 python3 scripts/start_agent.py \
+          --objective "Test agent initialization" \
+          --read-only \
+          --budget-sec 10 || true
+        echo "✅ Agent startup test completed"
+        
+    - name: Validate guardrails
+      run: |
+        python3 -c "from plugins.guardrails import require_safe_interfaces, restrict_writes_to; print('✅ Guardrails import successful')"
+
+    - name: Run runtime smoke tests
+      run: |
+        python3 tools/run_ci_checks.py --verbose
+        
+    - name: Upload alignment audit
+      uses: actions/upload-artifact@v4
+      with:
+        name: alignment-audit
+        path: state/alignment_*.json
+        retention-days: 30

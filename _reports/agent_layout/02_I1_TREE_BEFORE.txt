@@ -1,0 +1,122 @@
+System_Stack/Logos_Agents_Protocol/Logos_Agents/I1_Agent
+├── __init__.py
+├── __pycache__
+│   └── __init__.cpython-312.pyc
+├── _core
+│   ├── LOGOS_AGENT_I1.json
+│   ├── __init__.py
+│   ├── __pycache__
+│   │   ├── __init__.cpython-312.pyc
+│   │   ├── errors.cpython-312.pyc
+│   │   ├── hashing.cpython-312.pyc
+│   │   └── schema_utils.cpython-312.pyc
+│   └── agent_root_manifest.json
+├── config
+│   ├── __init__.py
+│   ├── constants.py
+│   ├── hashing.py
+│   ├── logging_utils.py
+│   ├── packet_types.py
+│   ├── schema_utils.py
+│   └── time_utils.py
+├── connections
+│   ├── __init__.py
+│   ├── id_handler.py
+│   └── router.py
+├── diagnostics
+│   ├── __init__.py
+│   ├── errors.py
+│   └── health.py
+└── protocol_operations
+    ├── __init__.py
+    ├── scp_analysis
+    │   ├── __init__.py
+    │   └── __pycache__
+    │       ├── __init__.cpython-312.pyc
+    │       └── analysis_runner.cpython-312.pyc
+    ├── scp_bdn_adapter
+    │   ├── __init__.py
+    │   ├── __pycache__
+    │   │   ├── __init__.cpython-312.pyc
+    │   │   ├── bdn_adapter.cpython-312.pyc
+    │   │   └── bdn_types.cpython-312.pyc
+    │   ├── bdn_adapter.py
+    │   └── bdn_types.py
+    ├── scp_cycle
+    │   ├── __init__.py
+    │   ├── cycle_runner.py
+    │   ├── policy.py
+    │   ├── scp_cycle
+    │   │   ├── __init__.py
+    │   │   ├── __pycache__
+    │   │   │   ├── __init__.cpython-312.pyc
+    │   │   │   └── policy.cpython-312.pyc
+    │   │   └── policy.py
+    │   ├── scp_integrations
+    │   │   ├── __init__.py
+    │   │   └── predict_integration.py
+    │   ├── scp_mvs_adapter
+    │   │   ├── __init__.py
+    │   │   ├── __pycache__
+    │   │   │   ├── __init__.cpython-312.pyc
+    │   │   │   ├── mvs_adapter.cpython-312.pyc
+    │   │   │   └── mvs_types.cpython-312.pyc
+    │   │   ├── mvs_adapter.py
+    │   │   └── mvs_types.py
+    │   ├── scp_runtime
+    │   │   ├── __init__.py
+    │   │   ├── __pycache__
+    │   │   │   ├── __init__.cpython-312.pyc
+    │   │   │   ├── result_packet.cpython-312.pyc
+    │   │   │   ├── smp_intake.cpython-312.pyc
+    │   │   │   └── work_order.cpython-312.pyc
+    │   │   ├── result_packet.py
+    │   │   ├── smp_intake.py
+    │   │   └── work_order.py
+    │   ├── scp_tests
+    │   │   ├── __init__.py
+    │   │   ├── run_pipeline_smoke.py
+    │   │   └── sample_smp.py
+    │   └── scp_transform
+    │       ├── __init__.py
+    │       ├── __pycache__
+    │       │   ├── __init__.cpython-312.pyc
+    │       │   ├── iterative_loop.cpython-312.pyc
+    │       │   ├── transform_registry.cpython-312.pyc
+    │       │   └── transform_types.cpython-312.pyc
+    │       ├── iterative_loop.py
+    │       ├── transform_registry.py
+    │       └── transform_types.py
+    ├── scp_integrations
+    │   ├── __init__.py
+    │   ├── analysis_runner.py
+    │   ├── iterative_loop.py
+    │   ├── predict_integration.py
+    │   ├── scp_pipeline
+    │   │   ├── __init__.py
+    │   │   ├── __pycache__
+    │   │   │   ├── __init__.cpython-312.pyc
+    │   │   │   └── pipeline_runner.cpython-312.pyc
+    │   │   └── pipeline_runner.py
+    │   ├── scp_predict
+    │   │   ├── __init__.py
+    │   │   ├── __pycache__
+    │   │   │   ├── __init__.cpython-312.pyc
+    │   │   │   ├── risk_estimator.cpython-312.pyc
+    │   │   │   └── trajectory_types.cpython-312.pyc
+    │   │   ├── risk_estimator.py
+    │   │   └── trajectory_types.py
+    │   ├── transform_registry.py
+    │   └── transform_types.py
+    ├── scp_predict
+    │   ├── __init__.py
+    │   ├── risk_estimator.py
+    │   └── trajectory_types.py
+    └── scp_runtime
+        ├── README.md
+        ├── __init__.py
+        ├── result_packet.py
+        ├── smp_intake.py
+        └── work_order.py
+
+30 directories, 90 files

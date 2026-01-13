@@ -1,0 +1,341 @@
+PXL_Gate
+├── PXL_Definitions.glob
+├── PXL_Definitions.v
+├── PXL_Definitions.vo
+├── PXL_Definitions.vok
+├── PXL_Definitions.vos
+├── PXL_Derivations_Phase2.glob
+├── PXL_Derivations_Phase2.v
+├── PXL_Derivations_Phase2.vo
+├── PXL_Derivations_Phase2.vok
+├── PXL_Derivations_Phase2.vos
+├── PXL_Gate_tree_filtered.txt
+├── PXL_Kernel_Axioms.glob
+├── PXL_Kernel_Axioms.v
+├── PXL_Kernel_Axioms.vo
+├── PXL_Kernel_Axioms.vok
+├── PXL_Kernel_Axioms.vos
+├── PXL_Modal_Axioms_Semantic.glob
+├── PXL_Modal_Axioms_Semantic.v
+├── PXL_Modal_Axioms_Semantic.vo
+├── PXL_Modal_Axioms_Semantic.vok
+├── PXL_Modal_Axioms_Semantic.vos
+├── PXLv3.glob
+├── PXLv3.v
+├── PXLv3.vo
+├── PXLv3.vok
+├── PXLv3.vos
+├── PXLv3_shadow.glob
+├── PXLv3_shadow.v
+├── PXLv3_shadow.vo
+├── PXLv3_shadow.vok
+├── PXLv3_shadow.vos
+├── Protopraxis
+│   ├── PXL_Abstract.txt
+│   ├── PXL_Axioms.txt
+│   ├── PXL_Derived_Attributes.txt
+│   ├── PXL_Domain_Mapping.txt
+│   ├── PXL_Formal_Language_Definition.txt
+│   ├── PXL_Paradox_Resolution.txt
+│   ├── PXL_Theorems.txt
+│   ├── __init__.py
+│   └── __pycache__
+│       ├── __init__.cpython-312.pyc
+│       ├── __init__.py
+│       ├── __pycache__
+│       ├── run_coq_pipeline.cpython-312.pyc
+│       └── serve_pxl.cpython-312.pyc
+├── __pycache__
+├── _assumptions.txt
+├── baseline
+│   ├── Demo_Unsafe.v
+│   ├── Echo2_Simulation.glob
+│   ├── Echo2_Simulation.v
+│   ├── Echo2_Simulation.vo
+│   ├── Echo2_Simulation.vok
+│   ├── Echo2_Simulation.vos
+│   ├── Godelian_Theorem_Satisfaction.glob
+│   ├── Godelian_Theorem_Satisfaction.v
+│   ├── Godelian_Theorem_Satisfaction.vo
+│   ├── Godelian_Theorem_Satisfaction.vok
+│   ├── Godelian_Theorem_Satisfaction.vos
+│   ├── LEM_Discharge.v.bak
+│   ├── LOGOS_Metaphysical_Architecture.glob
+│   ├── LOGOS_Metaphysical_Architecture.v
+│   ├── LOGOS_Metaphysical_Architecture.vo
+│   ├── LOGOS_Metaphysical_Architecture.vok
+│   ├── LOGOS_Metaphysical_Architecture.vos
+│   ├── PXL_Arithmetic.glob
+│   ├── PXL_Arithmetic.v
+│   ├── PXL_Arithmetic.vo
+│   ├── PXL_Arithmetic.vok
+│   ├── PXL_Arithmetic.vos
+│   ├── PXL_Axiom_Minimality_Check.glob
+│   ├── PXL_Axiom_Minimality_Check.v
+│   ├── PXL_Axiom_Minimality_Check.vo
+│   ├── PXL_Axiom_Minimality_Check.vok
+│   ├── PXL_Axiom_Minimality_Check.vos
+│   ├── PXL_Bridge_Proofs.glob
+│   ├── PXL_Bridge_Proofs.v
+│   ├── PXL_Bridge_Proofs.vo
+│   ├── PXL_Bridge_Proofs.vok
+│   ├── PXL_Bridge_Proofs.vos
+│   ├── PXL_Bridge_Proofs_SemanticPort.glob
+│   ├── PXL_Bridge_Proofs_SemanticPort.v
+│   ├── PXL_Bridge_Proofs_SemanticPort.vo
+│   ├── PXL_Bridge_Proofs_SemanticPort.vok
+│   ├── PXL_Bridge_Proofs_SemanticPort.vos
+│   ├── PXL_Foundations.glob
+│   ├── PXL_Foundations.v
+│   ├── PXL_Foundations.vo
+│   ├── PXL_Foundations.vok
+│   ├── PXL_Foundations.vos
+│   ├── PXL_Foundations_SemanticPort.glob
+│   ├── PXL_Foundations_SemanticPort.v
+│   ├── PXL_Foundations_SemanticPort.vo
+│   ├── PXL_Foundations_SemanticPort.vok
+│   ├── PXL_Foundations_SemanticPort.vos
+│   ├── PXL_Global_Bijection.glob
+│   ├── PXL_Global_Bijection.v
+│   ├── PXL_Global_Bijection.vo
+│   ├── PXL_Global_Bijection.vok
+│   ├── PXL_Global_Bijection.vos
+│   ├── PXL_Goodness_Existence.glob
+│   ├── PXL_Goodness_Existence.v
+│   ├── PXL_Goodness_Existence.vo
+│   ├── PXL_Goodness_Existence.vok
+│   ├── PXL_Goodness_Existence.vos
+│   ├── PXL_Imp_Nothing.glob
+│   ├── PXL_Imp_Nothing.v
+│   ├── PXL_Imp_Nothing.vo
+│   ├── PXL_Imp_Nothing.vok
+│   ├── PXL_Imp_Nothing.vos
+│   ├── PXL_Internal_LEM.glob
+│   ├── PXL_Internal_LEM.v
+│   ├── PXL_Internal_LEM.vo
+│   ├── PXL_Internal_LEM.vok
+│   ├── PXL_Internal_LEM.vos
+│   ├── PXL_Internal_LEM_SemanticPort.glob
+│   ├── PXL_Internal_LEM_SemanticPort.v
+│   ├── PXL_Internal_LEM_SemanticPort.vo
+│   ├── PXL_Internal_LEM_SemanticPort.vok
+│   ├── PXL_Internal_LEM_SemanticPort.vos
+│   ├── PXL_Kernel20_SemanticModal_Profile.glob
+│   ├── PXL_Kernel20_SemanticModal_Profile.v
+│   ├── PXL_Kernel20_SemanticModal_Profile.vo
+│   ├── PXL_Kernel20_SemanticModal_Profile.vok
+│   ├── PXL_Kernel20_SemanticModal_Profile.vos
+│   ├── PXL_ObjectLanguage.glob
+│   ├── PXL_ObjectLanguage.v
+│   ├── PXL_ObjectLanguage.vo
+│   ├── PXL_ObjectLanguage.vok
+│   ├── PXL_ObjectLanguage.vos
+│   ├── PXL_OmniKernel.glob
+│   ├── PXL_OmniKernel.v
+│   ├── PXL_OmniKernel.vo
+│   ├── PXL_OmniKernel.vok
+│   ├── PXL_OmniKernel.vos
+│   ├── PXL_OmniProofs.glob
+│   ├── PXL_OmniProofs.v
+│   ├── PXL_OmniProofs.vo
+│   ├── PXL_OmniProofs.vok
+│   ├── PXL_OmniProofs.vos
+│   ├── PXL_Omni_Bridges.glob
+│   ├── PXL_Omni_Bridges.v
+│   ├── PXL_Omni_Bridges.vo
+│   ├── PXL_Omni_Bridges.vok
+│   ├── PXL_Omni_Bridges.vos
+│   ├── PXL_Omni_Properties.glob
+│   ├── PXL_Omni_Properties.v
+│   ├── PXL_Omni_Properties.vo
+│   ├── PXL_Omni_Properties.vok
+│   ├── PXL_Omni_Properties.vos
+│   ├── PXL_OntoGrid.glob
+│   ├── PXL_OntoGrid.v
+│   ├── PXL_OntoGrid.vo
+│   ├── PXL_OntoGrid.vok
+│   ├── PXL_OntoGrid.vos
+│   ├── PXL_OntoGrid_OmniHooks.glob
+│   ├── PXL_OntoGrid_OmniHooks.v
+│   ├── PXL_OntoGrid_OmniHooks.vo
+│   ├── PXL_OntoGrid_OmniHooks.vok
+│   ├── PXL_OntoGrid_OmniHooks.vos
+│   ├── PXL_Privative.glob
+│   ├── PXL_Privative.v
+│   ├── PXL_Privative.vo
+│   ├── PXL_Privative.vok
+│   ├── PXL_Privative.vos
+│   ├── PXL_Proof_Summary.glob
+│   ├── PXL_Proof_Summary.v
+│   ├── PXL_Proof_Summary.vo
+│   ├── PXL_Proof_Summary.vok
+│   ├── PXL_Proof_Summary.vos
+│   ├── PXL_S2_Axioms.glob
+│   ├── PXL_S2_Axioms.v
+│   ├── PXL_S2_Axioms.vo
+│   ├── PXL_S2_Axioms.vok
+│   ├── PXL_S2_Axioms.vos
+│   ├── PXL_Sanity.glob
+│   ├── PXL_Sanity.v
+│   ├── PXL_Sanity.vo
+│   ├── PXL_Sanity.vok
+│   ├── PXL_Sanity.vos
+│   ├── PXL_Sanity_Semantic.glob
+│   ├── PXL_Sanity_Semantic.v
+│   ├── PXL_Sanity_Semantic.vo
+│   ├── PXL_Sanity_Semantic.vok
+│   ├── PXL_Sanity_Semantic.vos
+│   ├── PXL_Sanity_SemanticPort.glob
+│   ├── PXL_Sanity_SemanticPort.v
+│   ├── PXL_Sanity_SemanticPort.vo
+│   ├── PXL_Sanity_SemanticPort.vok
+│   ├── PXL_Sanity_SemanticPort.vos
+│   ├── PXL_SemanticModal_Smoke.glob
+│   ├── PXL_SemanticModal_Smoke.v
+│   ├── PXL_SemanticModal_Smoke.vo
+│   ├── PXL_SemanticModal_Smoke.vok
+│   ├── PXL_SemanticModal_Smoke.vos
+│   ├── PXL_Semantic_Extensions_DomainProduct.glob
+│   ├── PXL_Semantic_Extensions_DomainProduct.v
+│   ├── PXL_Semantic_Extensions_DomainProduct.vo
+│   ├── PXL_Semantic_Extensions_DomainProduct.vok
+│   ├── PXL_Semantic_Extensions_DomainProduct.vos
+│   ├── PXL_Semantic_Profile_Suite.glob
+│   ├── PXL_Semantic_Profile_Suite.v
+│   ├── PXL_Semantic_Profile_Suite.vo
+│   ├── PXL_Semantic_Profile_Suite.vok
+│   ├── PXL_Semantic_Profile_Suite.vos
+│   ├── PXL_Structural_Derivations.glob
+│   ├── PXL_Structural_Derivations.v
+│   ├── PXL_Structural_Derivations.vo
+│   ├── PXL_Structural_Derivations.vok
+│   ├── PXL_Structural_Derivations.vos
+│   ├── PXL_Trinitarian_Optimization.glob
+│   ├── PXL_Trinitarian_Optimization.v
+│   ├── PXL_Trinitarian_Optimization.vo
+│   ├── PXL_Trinitarian_Optimization.vok
+│   ├── PXL_Trinitarian_Optimization.vos
+│   ├── PXL_Trinitarian_Optimization_SemanticPort.glob
+│   ├── PXL_Trinitarian_Optimization_SemanticPort.v
+│   ├── PXL_Trinitarian_Optimization_SemanticPort.vo
+│   ├── PXL_Trinitarian_Optimization_SemanticPort.vok
+│   ├── PXL_Trinitarian_Optimization_SemanticPort.vos
+│   ├── PXL_TriunePBRS.glob
+│   ├── PXL_TriunePBRS.v
+│   ├── PXL_TriunePBRS.vo
+│   ├── PXL_TriunePBRS.vok
+│   ├── PXL_TriunePBRS.vos
+│   ├── PXL_Triune_Principles.glob
+│   ├── PXL_Triune_Principles.v
+│   ├── PXL_Triune_Principles.vo
+│   ├── PXL_Triune_Principles.vok
+│   ├── PXL_Triune_Principles.vos
+│   ├── PXL_WellFormedness.glob
+│   ├── PXL_WellFormedness.v
+│   ├── PXL_WellFormedness.vo
+│   ├── PXL_WellFormedness.vok
+│   ├── PXL_WellFormedness.vos
+│   ├── PXLv3_SemanticModal.glob
+│   ├── PXLv3_SemanticModal.v
+│   ├── PXLv3_SemanticModal.vo
+│   ├── PXLv3_SemanticModal.vok
+│   ├── PXLv3_SemanticModal.vos
+│   ├── PXLv3_head.glob
+│   ├── PXLv3_head.v
+│   ├── PXLv3_head.vo
+│   ├── PXLv3_head.vok
+│   ├── PXLv3_head.vos
+│   ├── Trinitarian_Identity_Closure.glob
+│   ├── Trinitarian_Identity_Closure.v
+│   ├── Trinitarian_Identity_Closure.vo
+│   ├── Trinitarian_Identity_Closure.vok
+│   ├── Trinitarian_Identity_Closure.vos
+│   ├── test_K.glob
+│   ├── test_K.v
+│   ├── test_K.vo
+│   ├── test_K.vok
+│   └── test_K.vos
+├── modal
+│   ├── PXL_Modal_Semantic_Kripke.glob
+│   ├── PXL_Modal_Semantic_Kripke.v
+│   ├── PXL_Modal_Semantic_Kripke.vo
+│   ├── PXL_Modal_Semantic_Kripke.vok
+│   ├── PXL_Modal_Semantic_Kripke.vos
+│   └── PXLd
+│       ├── S5_Kripke.glob
+│       ├── S5_Kripke.v
+│       ├── S5_Kripke.vo
+│       ├── S5_Kripke.vok
+│       └── S5_Kripke.vos
+├── option_b
+│   ├── Modal_Decidability_Skeleton.glob
+│   ├── Modal_Decidability_Skeleton.v
+│   ├── Modal_Decidability_Skeleton.vo
+│   ├── Modal_Decidability_Skeleton.vok
+│   ├── Modal_Decidability_Skeleton.vos
+│   ├── Modal_Decidability_To_Interp.glob
+│   ├── Modal_Decidability_To_Interp.v
+│   ├── Modal_Decidability_To_Interp.vo
+│   ├── Modal_Decidability_To_Interp.vok
+│   ├── Modal_Decidability_To_Interp.vos
+│   ├── Modal_PXL_Interp.glob
+│   ├── Modal_PXL_Interp.v
+│   ├── Modal_PXL_Interp.vo
+│   ├── Modal_PXL_Interp.vok
+│   ├── Modal_PXL_Interp.vos
+│   ├── Modal_Semantics.glob
+│   ├── Modal_Semantics.v
+│   ├── Modal_Semantics.vo
+│   ├── Modal_Semantics.vok
+│   ├── Modal_Semantics.vos
+│   ├── Modal_Syntax.glob
+│   ├── Modal_Syntax.v
+│   ├── Modal_Syntax.vo
+│   ├── Modal_Syntax.vok
+│   ├── Modal_Syntax.vos
+│   ├── Omega_Closure.glob
+│   ├── Omega_Closure.v
+│   ├── Omega_Closure.vo
+│   ├── Omega_Closure.vok
+│   ├── Omega_Closure.vos
+│   ├── OptionB_Index.glob
+│   ├── OptionB_Index.v
+│   ├── OptionB_Index.vo
+│   ├── OptionB_Index.vok
+│   ├── OptionB_Index.vos
+│   ├── Privation_Detector_Skeleton.glob
+│   ├── Privation_Detector_Skeleton.v
+│   ├── Privation_Detector_Skeleton.vo
+│   ├── Privation_Detector_Skeleton.vok
+│   └── Privation_Detector_Skeleton.vos
+├── state
+│   └── lem_discharge_state.json
+├── tests
+│   ├── falsifiability_test.glob
+│   ├── falsifiability_test.v
+│   ├── falsifiability_test.vo
+│   ├── falsifiability_test.vok
+│   └── falsifiability_test.vos
+└── ui
+    ├── LEM_Discharge.glob
+    ├── LEM_Discharge.v
+    ├── LEM_Discharge.vo
+    ├── LEM_Discharge.vok
+    ├── LEM_Discharge.vos
+    ├── PXL_Proof_Compile.py
+    ├── __init__.py
+    ├── __pycache__
+    │   ├── PXL_Proof_Compile.cpython-312.pyc
+    │   ├── __init__.cpython-312.pyc
+    │   ├── __init__.py
+    │   ├── __pycache__
+    │   ├── audit_and_emit.cpython-312.pyc
+    │   ├── lem_portal.cpython-312.pyc
+    │   ├── run_coq_pipeline.cpython-312.pyc
+    │   └── serve_pxl.cpython-312.pyc
+    ├── audit_and_emit.py
+    ├── lem_portal.py
+    ├── run_coq_pipeline.py
+    └── serve_pxl.py
+
+14 directories, 325 files

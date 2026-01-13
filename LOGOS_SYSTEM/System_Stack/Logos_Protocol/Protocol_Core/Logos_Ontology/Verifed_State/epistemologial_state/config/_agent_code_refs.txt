@@ -1,0 +1,50 @@
+./_agent_system_files.txt
+./Logos_Agent/Logos_Core_Recursion_Engine.py
+./Logos_Agent/state/identity_loader.py
+./Logos_Agent/Protopraxis/pxl-minimal-kernel-main/pxl-minimal-kernel-main/coq/PXLv3_Meta.v
+./System_Operations_Protocol/infrastructure/agent_system/logos_agent_system.py
+./Logos_Agent/Protopraxis/pxl-minimal-kernel-main/pxl-minimal-kernel-main/coq/PXL_Decidability.v
+./System_Operations_Protocol/infrastructure/agent_system/protocol_integration.py
+./Logos_Agent/Protopraxis/pxl-minimal-kernel-main/pxl-minimal-kernel-main/coq/PXLv3.v
+./System_Operations_Protocol/infrastructure/agent_system/initialize_agent_system.py
+./Logos_Agent/Protopraxis/pxl-minimal-kernel-main/pxl-minimal-kernel-main/coq/PXL_Completeness_Instance.v
+./Logos_Agent/Protopraxis/formal_verification/coq/baseline/PXLv3.glob
+./Logos_Agent/Protopraxis/formal_verification/coq/baseline/snippet.txt
+./Logos_Agent/Protopraxis/formal_verification/coq/baseline/PXLv3.v
+./Logos_Agent/Protopraxis/formal_verification/coq/latest/PXLv3_Meta.glob
+./Logos_Agent/Protopraxis/formal_verification/coq/latest/PXLv3_Meta.v
+./tests/test_lock_unlock.py
+./tests/test_integration_identity.py
+./scripts/persist_identity.py
+./User_Interaction_Protocol/input_output_processing/router.py
+./User_Interaction_Protocol/input_output_processing/response_engine.py
+./System_Operations_Protocol/legacy_logos_agent/agent/identity_bootstrap.py
+./User_Interaction_Protocol/uip_protocol/interface_runtime.py
+./Synthetic_Cognition_Protocol/consciousness/reflexive_evaluator.py
+./Advanced_Reasoning_Protocol/arp_bootstrap.py
+./Advanced_Reasoning_Protocol/logos_core copy/reflexive_evaluator
+./Advanced_Reasoning_Protocol/logos_core copy/recursion_engine.py
+./Advanced_Reasoning_Protocol/logos_core copy/reflexive_evaluator.py
+./Advanced_Reasoning_Protocol/logos_core copy/__init__.py
+./Advanced_Reasoning_Protocol/iel_domains/ChronoPraxis/substrate/ChronoAgents.v
+./Advanced_Reasoning_Protocol/iel_domains/ChronoPraxis/substrate/ChronoZAgents.v
+./Advanced_Reasoning_Protocol/logos_core/reflexive_evaluator
+./Advanced_Reasoning_Protocol/logos_core/recursion_engine.py
+./Advanced_Reasoning_Protocol/logos_core/reflexive_evaluator.py
+./Advanced_Reasoning_Protocol/logos_core/__init__.py
+./logs/agent_response_log.jsonl
+./logos_core/world_model/uwm.py
+./LOGOS_AGI/consciousness/recursion_engine_consciousness_bridge.py
+./logos_core/optimization/tool_invention.py
+./logos_core/optimization/tool_optimizer.py
+./logos_core/governance/commitment_ledger.py
+./logos_core/governance/agent_identity.py
+./Logos_Agent/Protopraxis/pxl-minimal-kernel-main/pxl-minimal-kernel-main/coq/PXLv3_Meta.v
+./Logos_Agent/Protopraxis/pxl-minimal-kernel-main/pxl-minimal-kernel-main/coq/PXL_Decidability.v
+./Logos_Agent/Protopraxis/pxl-minimal-kernel-main/pxl-minimal-kernel-main/coq/PXLv3.v
+./Logos_Agent/Protopraxis/pxl-minimal-kernel-main/pxl-minimal-kernel-main/coq/PXL_Completeness_Instance.v
+./Logos_Agent/Protopraxis/formal_verification/coq/baseline/PXLv3.glob
+./Logos_Agent/Protopraxis/formal_verification/coq/baseline/snippet.txt
+./Logos_Agent/Protopraxis/formal_verification/coq/baseline/PXLv3.v
+./Logos_Agent/Protopraxis/formal_verification/coq/latest/PXLv3_Meta.glob
+./Logos_Agent/Protopraxis/formal_verification/coq/latest/PXLv3_Meta.v

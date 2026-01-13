@@ -1,0 +1,48 @@
+{
+  "name": "LOGOS Protocol — System Entry Point Runtime Manifest",
+  "description": "Authorized runtime scripts and execution roles after constructive LEM gate. All post-gate init flows must pass through this directory. No new post-gate scripts may bypass this manifest.",
+  "runtime_contract": {
+    "post_gate_requirements": [
+      "Recompile the Coq kernel using an approved script listed below.",
+      "Serve or expose the kernel only via approved methods.",
+      "Operate only within this directory or allowed runtime roots: START_LOGOS.py, PXL_Gate/, System_Stack/."
+    ],
+    "prohibited_patterns": [
+      "No script outside this directory may recompile the Coq kernel directly.",
+      "No runtime script may import from JUNK_DRAWER/, _dev/, or unauthorized areas.",
+      "No post-gate agent or service may start until a second successful Coq compile is verified here."
+    ],
+    "compliance_checks": [
+      "Presence of state/pxl_compiled_twice.json",
+      "Append-only logs in state/alignment/runtime_protocol.jsonl",
+      "Strict imports confined to system_entry_point/"
+    ]
+  },
+  "allowed_roots": ["START_LOGOS.py", "PXL_Gate/", "System_Stack/"],
+  "pipeline_scripts": [
+    {
+      "script": "testlemdischarge.py",
+      "role": "Pre-gate LEM proof validator",
+      "phase": "PHASE_1_PROOF_GATE"
+    },
+    {
+      "script": "lemportalcli.py",
+      "role": "Post-gate CLI recompiler + proof inspector",
+      "phase": "PHASE_2_IDENTITY_AUDIT"
+    },
+    {
+      "script": "servepxl.py",
+      "role": "Flask API exposing Coq recompile and inspection",
+      "phase": "PHASE_4_UI_SERVICES"
+    },
+    {
+      "script": "run_into_server.py",
+      "role": "Optional server bootstrap (wraps serve)",
+      "phase": "PHASE_4_UI_SERVICES"
+    }
+  ],
+  "enforcement": {
+    "runtime_guard": "Violations trigger runtime audit failure in PHASE_2_IDENTITY_AUDIT.",
+    "notes": "This manifest is the source of truth; update as development checkpoints clear."
+  }
+}

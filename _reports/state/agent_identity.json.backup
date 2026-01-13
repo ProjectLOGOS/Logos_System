@@ -1,0 +1,33 @@
+{
+  "agent_id": "LOGOS-6FE77F2D",
+  "identity_version": 1,
+  "created_utc": "2025-12-27T01:22:48.910814+00:00",
+  "updated_utc": "2025-12-27T01:33:52.143026+00:00",
+  "repo": {
+    "root": "/workspaces/pxl_demo_wcoq_proofs",
+    "git_commit": "83e9caa9ad8c7734a1d3a8f2b5416aad0ea8aceb",
+    "branch": "presentation-dev"
+  },
+  "proof_gate": {
+    "theory_hash": "fresh_test_hash",
+    "coq_build_hash": null,
+    "axiom_policy_profile": "PXL_TRUSTED_CORE_V1"
+  },
+  "capabilities": {
+    "catalog_path": "training_data/index/catalog.jsonl",
+    "catalog_tail_hash": "7394188f5f2b07db68bf52d8db13e036c25ec745782182a74d7c76fe57062c74",
+    "deployed_set_hash": "96d2271d45506baef87ecb93e3c18176dbd9060156d62ec6d24f16b044885cd3",
+    "last_entry_id": "deploy_test_456"
+  },
+  "mission": {
+    "mission_label": "DEMO_STABLE",
+    "mission_profile_hash": "04a90d7d951ebb83c8d47b47495caaa23e55b13f0b266f7bec21976f266f17d1",
+    "allow_enhancements": false
+  },
+  "continuity": {
+    "last_cycle_utc": "2025-12-27T01:33:52.143026+00:00",
+    "last_planner_digest": "state/planner_digest_archives/planner_digests_20251227T013220Z.jsonl.gz",
+    "last_run_id": "20251227T0133519528200000",
+    "prev_identity_hash": "3696d5895bc681922f8e1d23101c4ade9a790745b97e781feb9e8c7f88177b4c"
+  }
+}

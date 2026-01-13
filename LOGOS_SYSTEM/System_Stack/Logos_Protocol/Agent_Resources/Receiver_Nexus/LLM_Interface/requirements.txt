@@ -1,0 +1,17 @@
+# Core scripts use only the Python standard library.
+# Install optional tooling for linting/testing as needed.
+
+# Optional: LLM backend integration (for reasoning_agent.py)
+# Uncomment the provider you want to use:
+# groq>=0.4.0          # For Groq (FREE tier available!) - RECOMMENDED
+# openai>=1.0.0        # For OpenAI GPT-4, GPT-4 Turbo, etc.
+# anthropic>=0.18.0    # For Anthropic Claude 3.5 Sonnet, Opus, etc.
+
+# Web API (Phase 18)
+fastapi>=0.115.0
+uvicorn>=0.30.0
+
+# Protocol runtime dependency
+numpy>=1.26
+scikit-learn>=1.3
+pandas>=2.2

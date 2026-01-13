@@ -1,0 +1,19 @@
+ROOT: System_Stack/Language_Translation_Protocol (formerly UIP)
+├─ __pycache__
+├─ core_processing
+├─ interface_runtime
+├─ language_modules
+├─ smp_packetizer
+├─ symbolic_translation
+├─ system_utilities
+└─ tests
+│  └─ __pycache__
+│  └─ __pycache__
+│  ├─ __pycache__
+│  ├─ nexus
+│  └─ shared
+│  │  └─ __pycache__
+│  │  └─ __pycache__
+│     └─ __pycache__
+│        └─ __pycache__
+   └─ __pycache__

@@ -1,0 +1,6 @@
+- System_Stack/Logos_Protocol/Logos_Agents/I1_Agent/protocol_operations/scp_runtime/result_packet.py: from ..I1_core.hashing -> from I1_Agent.config.hashing
+- System_Stack/Logos_Protocol/Logos_Agents/I1_Agent/protocol_operations/scp_runtime/smp_intake.py: from ..I1_core.hashing/schema_utils/errors -> from I1_Agent.config.hashing, I1_Agent.config.schema_utils, I1_Agent.diagnostics.errors
+- System_Stack/Logos_Protocol/Logos_Agents/I1_Agent/protocol_operations/scp_cycle/cycle_runner.py: from .scp_runtime.* / .policy / ..scp_transform.iterative_loop -> absolute I1_Agent.protocol_operations.scp_runtime.*, I1_Agent.protocol_operations.scp_cycle.policy, I1_Agent.protocol_operations.scp_transform.iterative_loop
+- System_Stack/Logos_Protocol/Logos_Agents/I1_Agent/protocol_operations/scp_integrations/pipeline_runner.py: from .scp_predict.risk_estimator -> from I1_Agent.protocol_operations.scp_predict.risk_estimator
+- System_Stack/Logos_Protocol/Logos_Agents/I1_Agent/protocol_operations/scp_tests/run_pipeline_smoke.py: from ..scp_pipeline.pipeline_runner -> from I1_Agent.protocol_operations.scp_integrations.pipeline_runner
+- System_Stack/Logos_Protocol/Logos_Agents/I1_Agent/config/schema_utils.py: from .diagnostics.errors -> from I1_Agent.diagnostics.errors

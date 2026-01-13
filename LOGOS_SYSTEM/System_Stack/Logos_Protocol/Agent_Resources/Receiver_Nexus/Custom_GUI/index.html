@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PXL Interactive Demo - Formal Logic Playground</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 20px;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+            overflow: hidden;
+        }
+        
+        header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 30px;
+            text-align: center;
+        }
+        
+        header h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+        
+        header p {
+            font-size: 1.2em;
+            opacity: 0.9;
+        }
+        
+        .main-content {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 30px;
+            padding: 30px;
+        }
+        
+        .panel {
+            background: #f8f9fa;
+            border-radius: 10px;
+            padding: 20px;
+        }
+        
+        .panel h2 {
+            color: #667eea;
+            margin-bottom: 15px;
+            font-size: 1.5em;
+        }
+        
+        .input-section {
+            margin-bottom: 20px;
+        }
+        
+        label {
+            display: block;
+            margin-bottom: 8px;
+            font-weight: 600;
+            color: #333;
+        }
+        
+        input[type="text"], textarea {
+            width: 100%;
+            padding: 12px;
+            border: 2px solid #ddd;
+            border-radius: 8px;
+            font-size: 1em;
+            font-family: 'Courier New', monospace;
+            transition: border-color 0.3s;
+        }
+        
+        input[type="text"]:focus, textarea:focus {
+            outline: none;
+            border-color: #667eea;
+        }
+        
+        textarea {
+            resize: vertical;
+            min-height: 100px;
+        }
+        
+        .button-group {
+            display: flex;
+            gap: 10px;
+            margin-top: 15px;
+        }
+        
+        button {
+            flex: 1;
+            padding: 12px 24px;
+            border: none;
+            border-radius: 8px;
+            font-size: 1em;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s;
+        }
+        
+        .btn-primary {
+            background: #667eea;
+            color: white;
+        }
+        
+        .btn-primary:hover {
+            background: #5568d3;
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(102, 126, 234, 0.4);
+        }
+        
+        .btn-secondary {
+            background: #6c757d;
+            color: white;
+        }
+        
+        .btn-secondary:hover {
+            background: #5a6268;
+        }
+        
+        .examples {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 10px;
+            margin-top: 15px;
+        }
+        
+        .example-btn {
+            padding: 10px;
+            background: white;
+            border: 2px solid #667eea;
+            color: #667eea;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: all 0.3s;
+            font-size: 0.9em;
+        }
+        
+        .example-btn:hover {
+            background: #667eea;
+            color: white;
+        }
+        
+        .result-box {
+            background: white;
+            border-radius: 8px;
+            padding: 20px;
+            margin-top: 20px;
+            min-height: 200px;
+            font-family: 'Courier New', monospace;
+            white-space: pre-wrap;
+            border-left: 4px solid #667eea;
+        }
+        
+        .result-box.success {
+            border-left-color: #28a745;
+            background: #f0fff4;
+        }
+        
+        .result-box.error {
+            border-left-color: #dc3545;
+            background: #fff5f5;
+        }
+        
+        .result-box.warning {
+            border-left-color: #ffc107;
+            background: #fffbf0;
+        }
+        
+        .loading {
+            display: none;
+            text-align: center;
+            padding: 20px;
+            color: #667eea;
+        }
+        
+        .loading.active {
+            display: block;
+        }
+        
+        .spinner {
+            border: 4px solid #f3f3f3;
+            border-top: 4px solid #667eea;
+            border-radius: 50%;
+            width: 40px;
+            height: 40px;
+            animation: spin 1s linear infinite;
+            margin: 0 auto 10px;
+        }
+        
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+        
+        .status-indicator {
+            display: inline-block;
+            width: 12px;
+            height: 12px;
+            border-radius: 50%;
+            margin-right: 8px;
+        }
+        
+        .status-indicator.online {
+            background: #28a745;
+            box-shadow: 0 0 8px #28a745;
+        }
+        
+        .status-indicator.offline {
+            background: #dc3545;
+        }
+        
+        footer {
+            background: #f8f9fa;
+            padding: 20px;
+            text-align: center;
+            color: #6c757d;
+            border-top: 1px solid #dee2e6;
+        }
+        
+        @media (max-width: 768px) {
+            .main-content {
+                grid-template-columns: 1fr;
+            }
+            
+            header h1 {
+                font-size: 1.8em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🔬 PXL Interactive Demo</h1>
+            <p>Explore Protopraxic Logic in Real-Time</p>
+            <p style="font-size: 0.9em; margin-top: 10px;">
+                <span class="status-indicator online"></span>
+                Backend: Python + Coq | 8-Axiom Kernel Ready
+            </p>
+        </header>
+        
+        <div class="main-content">
+            <!-- Left Panel: Input -->
+            <div class="panel">
+                <h2>📝 Proposition Input</h2>
+                
+                <div class="input-section">
+                    <label for="proposition">Enter a proposition:</label>
+                    <textarea id="proposition" placeholder="Example: P \/ ~P&#10;Or try: This statement is false"></textarea>
+                </div>
+                
+                <div class="button-group">
+                    <button class="btn-primary" onclick="analyzeProposition()">🔍 Analyze</button>
+                    <button class="btn-secondary" onclick="clearAll()">🗑️ Clear</button>
+                </div>
+                
+                <div style="margin-top: 20px;">
+                    <label>Quick Examples:</label>
+                    <div class="examples">
+                        <button class="example-btn" onclick="loadExample('lem')">LEM</button>
+                        <button class="example-btn" onclick="loadExample('liar')">Liar Paradox</button>
+                        <button class="example-btn" onclick="loadExample('modal')">Modal Logic</button>
+                        <button class="example-btn" onclick="loadExample('math')">Math Truth</button>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Right Panel: Analysis -->
+            <div class="panel">
+                <h2>🎯 PXL Analysis</h2>
+                
+                <div class="loading" id="loading">
+                    <div class="spinner"></div>
+                    <p>Analyzing proposition...</p>
+                </div>
+                
+                <div class="result-box" id="result">
+                    <strong>Welcome to PXL Interactive Demo!</strong>
+                    
+Enter a proposition and click "Analyze" to see:
+  • Grounding analysis (𝕆, 𝕀₁, 𝕀₂, 𝕀₃)
+  • Truth value determination
+  • Modal properties
+  • Paradox detection
+  • Constructive proof hints
+
+Try the quick examples to get started!
+                </div>
+            </div>
+        </div>
+        
+        <footer>
+            <p><strong>PXL Demo v1.0</strong> | 8-Axiom Minimal Kernel | Constructive LEM | Privative Negation</p>
+            <p style="margin-top: 10px; font-size: 0.9em;">
+                Powered by Rocq/Coq 9.1.0 | 
+                <a href="https://github.com/ProjectLOGOS" style="color: #667eea;">GitHub</a>
+            </p>
+        </footer>
+    </div>
+    
+    <script src="app.js"></script>
+</body>
+</html>

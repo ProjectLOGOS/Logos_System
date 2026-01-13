@@ -1,0 +1,30 @@
+MISSING: System_Stack/Logos_Agents_Protocol/Logos_Agents/I1_Agent
+FALLBACK USED: System_Stack/Logos_Protocol/Logos_Agents/I1_Agent
+ROOT: System_Stack/Logos_Protocol/Logos_Agents/I1_Agent
+├─ _core
+├─ config
+├─ connections
+├─ diagnostics
+└─ protocol_operations
+│  └─ __pycache__
+│  └─ __pycache__
+│  └─ __pycache__
+   ├─ __pycache__
+   ├─ scp_analysis
+   ├─ scp_bdn_adapter
+   ├─ scp_cycle
+   ├─ scp_integrations
+   ├─ scp_mvs_adapter
+   ├─ scp_predict
+   ├─ scp_runtime
+   ├─ scp_tests
+   └─ scp_transform
+   │  └─ __pycache__
+   │  └─ __pycache__
+   │  └─ __pycache__
+   │  └─ __pycache__
+   │  └─ __pycache__
+   │  └─ __pycache__
+   │  └─ __pycache__
+   │  └─ __pycache__
+      └─ __pycache__

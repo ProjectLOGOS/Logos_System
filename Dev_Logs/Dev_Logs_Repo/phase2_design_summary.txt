@@ -1,0 +1,388 @@
+=================================================================
+PHASE 2 DESIGN — DEFINITIONAL UPGRADES TO REDUCE AXIOMS
+=================================================================
+
+Date: 2025-12-20
+Status: DESIGN COMPLETE — Ready for approval
+Current kernel: 16 axioms (PXLv3_SemanticModal.v)
+
+=================================================================
+DELIVERABLES (4 documents, 44 KB total)
+=================================================================
+
+1. AXIOM_MINIMUM_PLAN.md (18 KB)
+   - Target A: Realistic minimum (~12 axioms)
+   - Target B: Absolute minimum (~8 axioms)
+   - Concrete definitions with proofs
+   - Implementation roadmap with timelines
+
+2. PRIMITIVE_DECLARATIONS.md (9.5 KB)
+   - Complete inventory of Parameters
+   - Axiom dependencies for each primitive
+   - Elimination potential and risk assessment
+
+3. AXIOM_AUDIT_PHASE1.md (9.0 KB)
+   - Existing: 20-axiom classification
+   - Updated with Phase 1 progress
+
+4. BRIDGE_AXIOMS_STATUS.md (7.3 KB)
+   - Existing: Track 2 analysis
+   - Now superseded by AXIOM_MINIMUM_PLAN.md
+
+=================================================================
+TARGET A: REALISTIC MINIMUM (~12 AXIOMS)
+=================================================================
+
+Strategy: Conservative definitional upgrades
+  - Define PImp (⟹) := p -> q
+  - Define MEquiv (⩪) := p <-> q
+  - Keep Ident, Inter as primitives
+
+Eliminates:
+  ✅ ax_imp_intro (bridge)
+  ✅ ax_imp_elim (bridge)
+  ✅ ax_mequiv_intro (bridge)
+  ✅ ax_mequiv_elim (bridge)
+
+Resulting kernel: 12 axioms
+  - Identity (3): ax_ident_refl, ax_ident_symm, ax_ident_trans
+  - Interaction (1): ax_inter_comm
+  - Metaphysical (8): A2, A7, modus_groundens, triune_dependency,
+                      privative_collapse, grounding_yields_entails,
+                      coherence_lifts_entailment, entails_global_implies_truth
+
+Risk: MINIMAL
+  - No semantic changes
+  - All proofs remain valid
+  - Trivial lemma derivations (reflexivity)
+
+Timeline: 1-2 days
+  - Create PXL_Connective_Definitions.v
+  - Prove 4 bridge lemmas
+  - Create PXLv3_Minimal12.v kernel
+  - Update tooling (budgets 16→12)
+
+Status: ✅ READY FOR IMPLEMENTATION
+
+=================================================================
+TARGET B: ABSOLUTE MINIMUM (~8 AXIOMS)
+=================================================================
+
+Strategy: Maximal definitional upgrades
+  - Target A definitions PLUS
+  - Define Ident (⧟) via Leibniz equality:
+      ∀(P : Obj → Prop), P x → P y
+
+Eliminates:
+  ✅ All 4 bridge axioms (from Target A)
+  ✅ ax_ident_refl (identity)
+  ✅ ax_ident_symm (identity)
+  ✅ ax_ident_trans (identity)
+
+Resulting kernel: 8 axioms (metaphysical core only)
+  - A2_noncontradiction
+  - A7_triune_necessity
+  - modus_groundens
+  - triune_dependency_substitution
+  - privative_collapse
+  - grounding_yields_entails
+  - coherence_lifts_entailment
+  - entails_global_implies_truth
+
+Risk: HIGH
+  ⚠️ Impredicativity (quantifies over Obj → Prop)
+  ⚠️ Potential circularity with A2/modus_groundens
+  ⚠️ Semantic validation: Is PXL's identity Leibniz?
+  ⚠️ Proof rewrites may be needed
+
+Timeline: 2-4 weeks
+  - Semantic validation (REQUIRED FIRST)
+  - Prototype Ident definition
+  - Compatibility testing
+  - Create PXLv3_Minimal8.v (if validated)
+
+Status: ⚠️ INVESTIGATION REQUIRED
+
+Note: Inter (⇌) definition deferred (semantics unclear)
+  - Could reduce to 7 axioms if Inter defined
+  - Requires clarification of "interaction" meaning
+
+=================================================================
+PRIMITIVE OPERATORS — ELIMINATION POTENTIAL
+=================================================================
+
+CATEGORY 1: READY (4 axioms)
+  ✅ PImp (⟹)    → Define as (->)
+  ✅ MEquiv (⩪)  → Define as (<->)
+
+CATEGORY 2: INVESTIGATE (3 axioms)
+  ⚠️ Ident (⧟)   → Define as Leibniz equality (impredicativity risk)
+
+CATEGORY 3: DEFER (1 axiom)
+  ⏸️ Inter (⇌)   → Semantics unclear, skip for now
+
+CATEGORY 4: IRREDUCIBLE (8 axioms)
+  ❌ NonEquiv, entails, grounded_in, coherence, incoherent
+     → Metaphysical primitives, cannot be defined
+
+=================================================================
+DEFINITION PROPOSALS
+=================================================================
+
+PImp — PXL Implication becomes Coq Implication
+---------------------------------------------------------------
+Definition PImp (p q : Prop) : Prop := p -> q.
+
+Rationale:
+  - No distinct modal semantics in current usage
+  - All uses align with standard implication
+  - No observational difference
+
+Proof obligations (trivial):
+  Lemma bridge_imp_intro : ∀p q, (p → q) → PImp p q.
+  Proof. unfold PImp; auto. Qed.
+  
+  Lemma bridge_imp_elim : ∀p q, PImp p q → p → q.
+  Proof. unfold PImp; auto. Qed.
+
+Risks: NONE
+  ✓ No universe issues
+  ✓ No classical leakage
+  ✓ Preserves all existing proofs
+
+---------------------------------------------------------------
+
+MEquiv — PXL Equivalence becomes Coq Biconditional
+---------------------------------------------------------------
+Definition MEquiv (p q : Prop) : Prop := p <-> q.
+
+Rationale:
+  - Used only as logical equivalence in practice
+  - Eliminates redundancy with Coq's <->
+  - No modal semantics beyond standard equivalence
+
+Proof obligations (trivial):
+  Lemma bridge_mequiv_intro : ∀p q, (p ↔ q) → MEquiv p q.
+  Proof. unfold MEquiv; auto. Qed.
+  
+  Lemma bridge_mequiv_elim : ∀p q, MEquiv p q → p ↔ q.
+  Proof. unfold MEquiv; auto. Qed.
+
+Impact on metaphysical axioms:
+  ✓ triune_dependency_substitution uses MEquiv
+  ✓ Definition preserves statement validity
+
+Risks: NONE
+  ✓ Maintains consistency
+  ✓ No type theory complications
+
+---------------------------------------------------------------
+
+Ident (OPTION B1) — Leibniz Equality
+---------------------------------------------------------------
+Definition Ident (x y : Obj) : Prop :=
+  forall (P : Obj -> Prop), P x -> P y.
+
+Rationale:
+  - Standard indiscernibility of identicals
+  - Reflexivity/symmetry/transitivity immediate
+  - Classical identity semantics
+
+Proof obligations (non-trivial):
+  Lemma ident_refl_derived : ∀x, Ident x x.
+  Proof. intros x P Px; exact Px. Qed.
+  
+  Lemma ident_symm_derived : ∀x y, Ident x y → Ident y x.
+  Proof.
+    intros x y Hxy P Py.
+    apply (Hxy (fun z => P z -> P x)); auto.
+  Qed.
+  
+  Lemma ident_trans_derived : ∀x y z, Ident x y → Ident y z → Ident x z.
+  Proof.
+    intros x y z Hxy Hyz P Px.
+    apply Hyz, Hxy; exact Px.
+  Qed.
+
+Impact on metaphysical axioms:
+  ⚠️ A2_noncontradiction: Uses Ident (must validate no circularity)
+  ⚠️ modus_groundens: Uses Ident (must validate no circularity)
+
+Risks: MODERATE-HIGH
+  ⚠️ Impredicativity: Quantifies over Obj → Prop
+  ⚠️ Universe constraints: Requires careful handling
+  ⚠️ Semantic mismatch: Does PXL intend Leibniz?
+  ⚠️ Proof rewrites: May need adjustments
+
+---------------------------------------------------------------
+
+Ident (OPTION B2) — Kernel Entailment Equivalence
+---------------------------------------------------------------
+Definition Ident (x y : Obj) : Prop :=
+  forall (P : Prop), PImp (entails x P) (entails y P) /\
+                     PImp (entails y P) (entails x P).
+
+Rationale:
+  - "Objects identical iff same entailments"
+  - PXL-native (uses kernel primitives)
+  - Avoids direct impredicativity
+
+Risks: MODERATE-HIGH
+  ⚠️ Circularity: Uses entails (appears in axioms with Ident)
+  ⚠️ Complexity: Harder to reason about
+  ⚠️ Requires PImp definition first
+
+Recommendation: Prefer Option B1 (Leibniz) if pursuing Target B
+
+---------------------------------------------------------------
+
+Ident (OPTION B3) — Observational Equivalence
+---------------------------------------------------------------
+Parameter Admissible : (Obj -> Prop) -> Prop.
+
+Definition Ident (x y : Obj) : Prop :=
+  forall (P : Obj -> Prop), Admissible P -> P x -> P y.
+
+Rationale:
+  - Restricted Leibniz (avoids impredicativity)
+
+Risks: VERY HIGH
+  ❌ NEW PRIMITIVE: Adds Admissible Parameter!
+  ❌ Defeats purpose of reduction
+  ❌ Unclear semantics
+
+Recommendation: ❌ DO NOT USE
+
+---------------------------------------------------------------
+
+Inter — Symmetrized Relation (DEFERRED)
+---------------------------------------------------------------
+Definition Inter (x y : Obj) : Prop :=
+  exists (z : Obj), Ident x z /\ Ident y z.
+
+Rationale:
+  - Commutativity definitional
+  - "Shared witness" interpretation
+
+Risks: MODERATE-HIGH
+  ⚠️ Unclear if this matches PXL's intended semantics
+  ⚠️ Existential commitment
+  ⚠️ Only 1 axiom uses Inter (low validation surface)
+
+Recommendation: ⏸️ DEFER until semantics clarified
+
+=================================================================
+IMPLEMENTATION ROADMAP
+=================================================================
+
+PHASE 2A — TARGET A (12 AXIOMS)
+---------------------------------------------------------------
+Timeline: 1-2 days
+Risk: MINIMAL
+Status: ✅ READY
+
+Step 1: Create PXL_Connective_Definitions.v
+  - Define PImp := (->)
+  - Define MEquiv := (<->)
+  - Add notations
+
+Step 2: Create PXL_Bridge_Derivations.v
+  - Prove bridge_imp_intro (reflexivity)
+  - Prove bridge_imp_elim (reflexivity)
+  - Prove bridge_mequiv_intro (reflexivity)
+  - Prove bridge_mequiv_elim (reflexivity)
+
+Step 3: Create PXLv3_Minimal12.v
+  - Copy PXLv3_SemanticModal.v
+  - Replace Parameter PImp/MEquiv with Definition
+  - Remove 4 bridge axioms
+  - Add Require Import PXL_Connective_Definitions
+
+Step 4: Update tooling
+  - axiom_inventory.py: Switch to PXLv3_Minimal12.v
+  - axiom_gate.py: AXIOM_BUDGET_MAX = 12
+  - Run test_lem_discharge.py (verify PASS)
+  - Run axiom_gate.py (verify budget OK)
+
+Step 5: Validation
+  - Build all Coq files
+  - Check zero-assumption theorems
+  - Verify investor dashboard
+
+---------------------------------------------------------------
+
+PHASE 2B — TARGET B (8 AXIOMS)
+---------------------------------------------------------------
+Timeline: 2-4 weeks
+Risk: HIGH
+Status: ⚠️ REQUIRES VALIDATION
+
+PREREQUISITE: Semantic validation
+  ❓ Confirm PXL intends Leibniz equality for Ident
+  ❓ Check A2_noncontradiction for circularity
+  ❓ Check modus_groundens for circularity
+  ❓ Validate universe polymorphism constraints
+
+Step 1: Prototype (week 1)
+  - Create PXL_Identity_Definitions.v
+  - Define Ident (Leibniz)
+  - Prove 3 identity lemmas
+  - Test impredicativity handling
+
+Step 2: Compatibility testing (week 2)
+  - Run all existing proofs
+  - Check metaphysical axioms typecheck
+  - Identify needed proof rewrites
+  - Validate no circularity
+
+Step 3: Implementation (week 3)
+  - Create PXLv3_Minimal8.v (if validated)
+  - Replace Parameter Ident with Definition
+  - Remove 3 identity axioms
+  - Update tooling (budgets 12→8)
+
+Step 4: Extensive regression (week 4)
+  - Full proof suite rebuild
+  - Investor dashboard validation
+  - Documentation updates
+
+---------------------------------------------------------------
+
+=================================================================
+NEXT ACTIONS
+=================================================================
+
+IMMEDIATE (for approval):
+  1. Review AXIOM_MINIMUM_PLAN.md (comprehensive design)
+  2. Approve Target A implementation (low risk, quick win)
+  3. Allocate 1-2 days for Phase 2A
+
+FUTURE (investigation):
+  1. Schedule semantic validation meeting for Target B
+  2. Research PXL identity semantics in documentation
+  3. Create tracking issue for Ident definition validation
+  4. Defer Inter definition indefinitely
+
+=================================================================
+DOCUMENTATION CROSS-REFERENCES
+=================================================================
+
+Primary design documents:
+  → AXIOM_MINIMUM_PLAN.md (18 KB, comprehensive)
+  → PRIMITIVE_DECLARATIONS.md (9.5 KB, operator inventory)
+
+Supporting documents:
+  → AXIOM_AUDIT_PHASE1.md (9.0 KB, Phase 1 baseline)
+  → BRIDGE_AXIOMS_STATUS.md (7.3 KB, Track 2 analysis)
+
+Implementation guides:
+  → See AXIOM_MINIMUM_PLAN.md sections:
+     - "Implementation Roadmap (Target A)" (page 10)
+     - "Implementation Roadmap (Target B)" (page 14)
+
+Tradeoff analysis:
+  → See AXIOM_MINIMUM_PLAN.md "Tradeoff Matrix" (page 17)
+
+=================================================================
+END OF SUMMARY
+=================================================================

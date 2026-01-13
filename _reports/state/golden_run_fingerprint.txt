@@ -1,0 +1,5 @@
+parent_sha=f12fe984ade1d97e976f812458ebf27981edaadf
+logos_agi_sha=92359eff987026dc5f4a670e0cbe4dcb4ab4851d
+vsrocq_sha=cf0e9c3b327e155b391df40ed84fd0270dadfffb
+coq_version=The Rocq Prover, version 9.1.0
+python_version=3.12.1 (CPython)

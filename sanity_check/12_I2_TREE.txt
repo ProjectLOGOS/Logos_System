@@ -1,0 +1,14 @@
+ROOT: System_Stack/Logos_Protocol/Logos_Agents/I2_Agent
+├─ _core
+├─ config
+├─ connections
+├─ diagnostics
+└─ protocol_operations
+   ├─ __pycache__
+   ├─ llm_io
+   ├─ privation_handler
+   └─ ui_io
+   │  └─ __pycache__
+   │  ├─ __pycache__
+   │  └─ privation_library
+   │     └─ __pycache__

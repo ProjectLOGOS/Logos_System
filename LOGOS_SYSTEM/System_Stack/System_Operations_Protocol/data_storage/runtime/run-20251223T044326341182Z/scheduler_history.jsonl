@@ -1,0 +1,4 @@
+{"timestamp": 1766465006.4835932, "job_id": "600eee07-7e26-4bfc-a16d-3b9c3f46a82b", "label": "UIP:USER_AGENT_stress_user", "worker": 0, "priority": 5, "cpu_slots": 1, "memory_mb": 96, "disk_mb": 0, "outcome": "completed"}
+{"timestamp": 1766465006.5946887, "job_id": "c42dead0-371c-41f1-9ba7-283afefcb8f0", "label": "UIP:USER_AGENT_stress_user", "worker": 1, "priority": 5, "cpu_slots": 1, "memory_mb": 96, "disk_mb": 0, "outcome": "completed"}
+{"timestamp": 1766465006.5954669, "job_id": "1fb68b70-8e36-4ab5-9f82-f4f3cad68dd8", "label": "UIP:SYSTEM_AGENT_PRIMARY", "worker": 2, "priority": 5, "cpu_slots": 1, "memory_mb": 96, "disk_mb": 0, "outcome": "completed"}
+{"timestamp": 1766465006.8195715, "job_id": "81d0ad23-f3a3-4fef-9375-bee7b8677e2c", "label": "SCP:SYSTEM_AGENT_PRIMARY", "worker": 3, "priority": 8, "cpu_slots": 1, "memory_mb": 64, "disk_mb": 0, "outcome": "completed"}

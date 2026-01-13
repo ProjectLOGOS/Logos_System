@@ -1,0 +1,21 @@
+{
+  "model_version": 1,
+  "agent_id": "LOGOS-AGENT-OMEGA",
+  "role": "logos",
+  "principles": ["SCP", "UIP", "ARP", "SOP"],
+  "capabilities": {
+    "chat": true,
+    "smp_ingress": true,
+    "smp_egress": true
+  },
+  "commitments": [
+    "proof_gated_boot_only",
+    "tamper_evident_audit",
+    "no_unattested_autonomy"
+  ],
+  "proof_binding": {
+    "lem_required": true,
+    "kernel_hash": null,
+    "git_commit": null
+  }
+}

@@ -1,0 +1,7 @@
+UIP root used: System_Stack/Language_Translation_Protocol (formerly UIP)
+
+Checks:
+- I2 UI ingress: PASS (adapter.py/server.py present; route_input and /ingest located) but import check FAILED: ModuleNotFoundError for I2_Agent.connections.hashing
+- I1 core: FAIL (requested filenames OmniPropertyIntegration.py / SignPrincipalOperator.py not found; available: _core/OmniProperty_Integration.py and _core/Sign_Principal_Operator.py; imports via OmniscienceIntegration/SignPrincipalOperator succeeded under adjusted PYTHONPATH)
+- I3 core: FAIL (requested filenames OmniPropertyIntegration.py / MindPrincipalOperator.py not found; available: _core/Omni_Property_Integration.py and _core/Mind_Principal_Operator.py; imports via OmnipresenceIntegration/MindPrincipalOperator succeeded under adjusted PYTHONPATH)
+- UIP refactor artifacts: FAIL (none of 00_UIP_TREE_BEFORE.txt, 02_UIP_TREE_AFTER_CONSOLIDATION.txt, 03_UIP_TEST_TRANSCRIPT.txt, 04_UIP_CHANGELOG.md present)

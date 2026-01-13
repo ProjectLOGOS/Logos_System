@@ -1,0 +1,258 @@
+{
+  "timestamp": "2025-11-01T16:21:31.511197",
+  "fractal_parameters": {
+    "c_value": "(-0.7+0.27015j)",
+    "escape_radius": 2.0,
+    "max_iterations": 100
+  },
+  "modal_fractal_analysis": {
+    "modal_classifications": {
+      "Identity": {
+        "escaped": true,
+        "iterations": 96,
+        "modal_status": "\u25a1\u00acIdentity",
+        "coordinate": "0j",
+        "is_on_privative_boundary": false
+      },
+      "NonContradiction": {
+        "escaped": false,
+        "iterations": 100,
+        "modal_status": "\u25c7NonContradiction",
+        "coordinate": "(0.5+0j)",
+        "is_on_privative_boundary": false
+      },
+      "ExcludedMiddle": {
+        "escaped": false,
+        "iterations": 100,
+        "modal_status": "\u25c7ExcludedMiddle",
+        "coordinate": "0.5j",
+        "is_on_privative_boundary": false
+      },
+      "Distinction": {
+        "escaped": true,
+        "iterations": 8,
+        "modal_status": "\u25a1\u00acDistinction",
+        "coordinate": "(0.3+0.3j)",
+        "is_on_privative_boundary": false
+      },
+      "Relation": {
+        "escaped": true,
+        "iterations": 98,
+        "modal_status": "\u25a1\u00acRelation",
+        "coordinate": "(-0.3+0.3j)",
+        "is_on_privative_boundary": false
+      },
+      "Agency": {
+        "escaped": true,
+        "iterations": 8,
+        "modal_status": "\u25a1\u00acAgency",
+        "coordinate": "(-0.3-0.3j)",
+        "is_on_privative_boundary": false
+      },
+      "Coherence": {
+        "escaped": true,
+        "iterations": 98,
+        "modal_status": "\u25a1\u00acCoherence",
+        "coordinate": "(0.3-0.3j)",
+        "is_on_privative_boundary": false
+      },
+      "Truth": {
+        "escaped": false,
+        "iterations": 100,
+        "modal_status": "\u25c7Truth",
+        "coordinate": "(0.6+0j)",
+        "is_on_privative_boundary": false
+      },
+      "Existence": {
+        "escaped": false,
+        "iterations": 100,
+        "modal_status": "\u25c7Existence",
+        "coordinate": "0.6j",
+        "is_on_privative_boundary": false
+      },
+      "Goodness": {
+        "escaped": true,
+        "iterations": 5,
+        "modal_status": "\u25a1\u00acGoodness",
+        "coordinate": "(0.4+0.4j)",
+        "is_on_privative_boundary": false
+      }
+    },
+    "privative_boundary_analysis": {},
+    "ontological_coherence_map": {
+      "Identity": {
+        "modally_coherent": false,
+        "ontologically_grounded": true,
+        "privative_boundary_respected": true,
+        "coherence_score": 0.7,
+        "issues": [
+          "Necessary primitive escaped to impossibility"
+        ]
+      },
+      "NonContradiction": {
+        "modally_coherent": true,
+        "ontologically_grounded": true,
+        "privative_boundary_respected": true,
+        "coherence_score": 1.0,
+        "issues": []
+      },
+      "ExcludedMiddle": {
+        "modally_coherent": true,
+        "ontologically_grounded": true,
+        "privative_boundary_respected": true,
+        "coherence_score": 1.0,
+        "issues": []
+      },
+      "Distinction": {
+        "modally_coherent": false,
+        "ontologically_grounded": true,
+        "privative_boundary_respected": true,
+        "coherence_score": 0.7,
+        "issues": [
+          "Necessary primitive escaped to impossibility"
+        ]
+      },
+      "Relation": {
+        "modally_coherent": false,
+        "ontologically_grounded": true,
+        "privative_boundary_respected": true,
+        "coherence_score": 0.7,
+        "issues": [
+          "Necessary primitive escaped to impossibility"
+        ]
+      },
+      "Agency": {
+        "modally_coherent": false,
+        "ontologically_grounded": true,
+        "privative_boundary_respected": true,
+        "coherence_score": 0.7,
+        "issues": [
+          "Necessary primitive escaped to impossibility"
+        ]
+      },
+      "Coherence": {
+        "modally_coherent": false,
+        "ontologically_grounded": true,
+        "privative_boundary_respected": true,
+        "coherence_score": 0.7,
+        "issues": [
+          "Necessary primitive escaped to impossibility"
+        ]
+      },
+      "Truth": {
+        "modally_coherent": true,
+        "ontologically_grounded": true,
+        "privative_boundary_respected": true,
+        "coherence_score": 1.0,
+        "issues": []
+      },
+      "Existence": {
+        "modally_coherent": true,
+        "ontologically_grounded": true,
+        "privative_boundary_respected": true,
+        "coherence_score": 1.0,
+        "issues": []
+      },
+      "Goodness": {
+        "modally_coherent": false,
+        "ontologically_grounded": true,
+        "privative_boundary_respected": true,
+        "coherence_score": 0.7,
+        "issues": [
+          "Necessary primitive escaped to impossibility"
+        ]
+      }
+    },
+    "fractal_attractors": [
+      {
+        "attractor_point": "(-3.73-0.04j)",
+        "converging_primitives": [
+          "Distinction",
+          "Agency"
+        ],
+        "strength": 2,
+        "is_in_possibility_set": false
+      },
+      {
+        "attractor_point": "(-0.62-0.05j)",
+        "converging_primitives": [
+          "Relation",
+          "Coherence"
+        ],
+        "strength": 2,
+        "is_in_possibility_set": false
+      }
+    ],
+    "modal_possibility_volume": 1478,
+    "necessary_impossibility_volume": 8522,
+    "privative_boundary_length": 0
+  },
+  "privative_boundary_interpretation": {
+    "boundary_primitives": [],
+    "interior_possibilities": [
+      {
+        "primitive": "NonContradiction",
+        "modal_status": "\u25c7NonContradiction",
+        "possibly_true": true
+      },
+      {
+        "primitive": "ExcludedMiddle",
+        "modal_status": "\u25c7ExcludedMiddle",
+        "possibly_true": true
+      },
+      {
+        "primitive": "Truth",
+        "modal_status": "\u25c7Truth",
+        "possibly_true": true
+      },
+      {
+        "primitive": "Existence",
+        "modal_status": "\u25c7Existence",
+        "possibly_true": true
+      }
+    ],
+    "exterior_impossibilities": [
+      {
+        "primitive": "Identity",
+        "modal_status": "\u25a1\u00acIdentity",
+        "necessarily_impossible": true
+      },
+      {
+        "primitive": "Distinction",
+        "modal_status": "\u25a1\u00acDistinction",
+        "necessarily_impossible": true
+      },
+      {
+        "primitive": "Relation",
+        "modal_status": "\u25a1\u00acRelation",
+        "necessarily_impossible": true
+      },
+      {
+        "primitive": "Agency",
+        "modal_status": "\u25a1\u00acAgency",
+        "necessarily_impossible": true
+      },
+      {
+        "primitive": "Coherence",
+        "modal_status": "\u25a1\u00acCoherence",
+        "necessarily_impossible": true
+      },
+      {
+        "primitive": "Goodness",
+        "modal_status": "\u25a1\u00acGoodness",
+        "necessarily_impossible": true
+      }
+    ],
+    "ontological_boundary_strength": 0.0,
+    "modal_consistency_score": 1.0
+  },
+  "ontological_coherence_assessment": {
+    "overall_coherence_score": 0.82,
+    "modal_boundary_respected": true,
+    "ontological_possibility_preserved": true,
+    "necessary_impossibility_enforced": true,
+    "privative_boundary_integrity": true,
+    "critical_findings": [],
+    "recommendations": []
+  }
+}

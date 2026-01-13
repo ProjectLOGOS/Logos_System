@@ -1,0 +1,15 @@
+{
+  "schema_version": 1,
+  "generated_at": "2025-12-31T18:33:33.583156+00:00",
+  "repo_sha": "15b77121cc5a59edd4ad112f32e1c8fe2b190818",
+  "coq_version": "8.16",
+  "theorems": [
+    {
+      "theorem": "pxl_excluded_middle",
+      "file": "Protopraxis/formal_verification/coq/baseline/PXL_Internal_LEM.v",
+      "statement": "forall P : Prop, P \\/ ~ P",
+      "statement_hash": "4218161de6350526ba1dcfe0e53b4249aa18b0dd167324ca9a34d7dcd9a21aa2"
+    }
+  ],
+  "index_hash": "164cee19384172303f781d589c267952f3123a2563d789127bd8d44630d7a006"
+}

@@ -1,0 +1,69 @@
+# PXL_Gate Coq project (canonical)
+-Q PXL_Gate PXL
+
+# Kernel files (ordered)
+PXL_Gate/PXL_Definitions.v
+PXL_Gate/PXL_Modal_Axioms_Semantic.v
+PXL_Gate/PXL_Kernel_Axioms.v
+PXL_Gate/baseline/PXL_Triune_Principles.v
+PXL_Gate/PXL_Derivations_Phase2.v
+PXL_Gate/baseline/PXL_Foundations.v
+PXL_Gate/baseline/PXL_Foundations_SemanticPort.v
+PXL_Gate/PXLv3.v
+PXL_Gate/baseline/PXLv3_head.v
+PXL_Gate/baseline/PXL_ObjectLanguage.v
+PXL_Gate/baseline/PXL_WellFormedness.v
+PXL_Gate/baseline/PXL_Bridge_Proofs.v
+PXL_Gate/baseline/PXL_Bridge_Proofs_SemanticPort.v
+PXL_Gate/baseline/PXL_S2_Axioms.v
+PXL_Gate/baseline/PXL_Privative.v
+PXL_Gate/baseline/PXL_Goodness_Existence.v
+PXL_Gate/baseline/PXL_Trinitarian_Optimization.v
+PXL_Gate/baseline/PXL_Trinitarian_Optimization_SemanticPort.v
+PXL_Gate/baseline/PXL_Arithmetic.v
+PXL_Gate/baseline/PXL_Internal_LEM.v
+PXL_Gate/baseline/PXL_Internal_LEM_SemanticPort.v
+PXL_Gate/baseline/Trinitarian_Identity_Closure.v
+PXL_Gate/baseline/PXL_Global_Bijection.v
+PXL_Gate/baseline/PXL_Proof_Summary.v
+PXL_Gate/baseline/LOGOS_Metaphysical_Architecture.v
+PXL_Gate/baseline/Godelian_Theorem_Satisfaction.v
+PXL_Gate/baseline/PXL_Sanity.v
+PXL_Gate/baseline/PXL_Sanity_SemanticPort.v
+PXL_Gate/baseline/Echo2_Simulation.v
+PXL_Gate/ui/LEM_Discharge.v
+
+# Extended layers
+PXL_Gate/baseline/PXL_Structural_Derivations.v
+PXL_Gate/baseline/PXL_Axiom_Minimality_Check.v
+PXL_Gate/PXLv3_shadow.v
+PXL_Gate/modal/PXL_Modal_Semantic_Kripke.v
+PXL_Gate/baseline/PXL_Kernel20_SemanticModal_Profile.v
+PXL_Gate/baseline/PXLv3_SemanticModal.v
+PXL_Gate/baseline/PXL_SemanticModal_Smoke.v
+PXL_Gate/baseline/PXL_Sanity_Semantic.v
+PXL_Gate/baseline/PXL_Semantic_Profile_Suite.v
+PXL_Gate/baseline/PXL_Semantic_Extensions_DomainProduct.v
+PXL_Gate/baseline/PXL_TriunePBRS.v
+PXL_Gate/baseline/PXL_Imp_Nothing.v
+PXL_Gate/baseline/PXL_Omni_Properties.v
+PXL_Gate/baseline/PXL_Omni_Bridges.v
+PXL_Gate/baseline/PXL_OntoGrid.v
+PXL_Gate/baseline/PXL_OmniKernel.v
+PXL_Gate/baseline/PXL_OmniProofs.v
+PXL_Gate/baseline/PXL_OntoGrid_OmniHooks.v
+PXL_Gate/tests/falsifiability_test.v
+PXL_Gate/baseline/test_K.v
+
+# Option B (experimental)
+PXL_Gate/option_b/Modal_Syntax.v
+PXL_Gate/option_b/Modal_Semantics.v
+PXL_Gate/option_b/Modal_Decidability_Skeleton.v
+PXL_Gate/option_b/Privation_Detector_Skeleton.v
+PXL_Gate/option_b/Omega_Closure.v
+PXL_Gate/option_b/OptionB_Index.v
+PXL_Gate/option_b/Modal_PXL_Interp.v
+PXL_Gate/option_b/Modal_Decidability_To_Interp.v
+
+# Modal asset
+PXL_Gate/modal/PXLd/S5_Kripke.v

@@ -1,0 +1,36 @@
+{
+  "experiment_summary": {
+    "total_agents": 3,
+    "total_rounds": 8,
+    "total_interactions": 24
+  },
+  "emergence_analysis": {
+    "coherence_trajectory": [
+      0.43268408625781235,
+      0.43268408625781235,
+      0.43268408625781235,
+      0.43268408625781235,
+      0.43268408625781235,
+      0.43268408625781235,
+      0.43268408625781235,
+      0.43268408625781235
+    ],
+    "final_coherence": 0.43268408625781235,
+    "coherence_growth": 0.0,
+    "agent_diversity": 5.551115123125783e-17,
+    "interaction_complexity": 24,
+    "ontological_concepts_used": 10,
+    "emergence_score": 0.0
+  },
+  "key_findings": [
+    "Limited emergence in current agent interactions",
+    "Coherence remained stable throughout interactions",
+    "Agents converged to similar ontological states",
+    "Dual bijection system successfully processed 10 ontological concepts"
+  ],
+  "comparison_to_human_interaction": {
+    "coherence_vs_human": -0.16731591374218763,
+    "emergence_vs_human": -0.3,
+    "key_difference": "Agent interactions show more consistent ontological processing"
+  }
+}

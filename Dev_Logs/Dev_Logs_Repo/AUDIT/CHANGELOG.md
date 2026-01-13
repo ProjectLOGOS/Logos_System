@@ -1,0 +1,11 @@
+# Milestones (brief)
+- Anchored OntoGrid axes to triune principles and targets.
+- Enforced no-drift/coherence invariant and proof gate coverage.
+- Added omni hooks connecting axes to OP1–OP4 bridges.
+- Gated omni hooks and OntoGrid artifacts in proof gate.
+- Normalized Logos_AGI submodule to recorded SHA.
+- Introduced golden run script for deterministic rebuild + gate.
+- Captured reproducibility fingerprints under `state/`.
+- Added audit docs for replayability and gated surface.
+- Proof gate passing at acd8c1ae with stable toolchain (Coq 9.1.0, Python 3.12.3).
+- Repository clean and submodules synced after golden run.

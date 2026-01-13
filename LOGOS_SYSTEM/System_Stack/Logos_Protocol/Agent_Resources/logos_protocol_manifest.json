@@ -1,0 +1,18 @@
+{
+  "protocol_root": "System_Stack/Logos_Protocol",
+  "generated_on": "2026-01-12",
+  "agent_manifests": [
+    {
+      "agent_id": "I1",
+      "manifest_path": "Logos_Agents/I1_Agent/agent_root_manifest.json"
+    },
+    {
+      "agent_id": "I2",
+      "manifest_path": "Logos_Agents/I2_Agent/agent_root_manifest.json"
+    },
+    {
+      "agent_id": "I3",
+      "manifest_path": "Logos_Agents/I3_Agent/agent_root_manifest.json"
+    }
+  ]
+}

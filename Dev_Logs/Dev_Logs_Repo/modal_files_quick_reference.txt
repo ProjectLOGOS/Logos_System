@@ -1,0 +1,60 @@
+MODAL LOGIC FILES - QUICK REFERENCE
+====================================
+
+1. CORE KRIPKE SEMANTICS (Production Ready)
+   Path: external/Logos_AGI/Logos_Agent/Protopraxis/pxl-minimal-kernel-main/
+         pxl-minimal-kernel-main/coq/proof_checking/pxl_core_meta_validation_v3/
+         pxl_meta_sets_v3/coq/S5_Kripke.v
+   Lines: 132
+   Status: COMPLETE - All S5 axioms proven as theorems
+   Use: Replace PXL's axiomatic modal core with semantic derivation
+
+2. TRIVIAL S5 MODEL (Meta-Validation)
+   Path: external/Logos_AGI/Logos_Agent/Protopraxis/pxl-minimal-kernel-main/
+         pxl-minimal-kernel-main/coq/PXLv3_Meta.v
+   Status: Shows Box p := p (identity), all axioms trivial
+   Use: Current proof checking baseline
+
+3. RELATIONAL MODAL LOGIC
+   Path: external/Logos_AGI/Advanced_Reasoning_Protocol/iel_domains/
+         RelatioPraxis/modal/RelationSpec.v
+   Lines: 184
+   Features: 3 accessibility relations, domain-specific operators
+   Use: Pattern for multi-modal PXL extensions
+
+4. PROBABILISTIC MODAL REASONING
+   Path: external/Logos_AGI/Advanced_Reasoning_Protocol/iel_domains/
+         TropoPraxis/infra/adaptive/ModalProbabilistic.v
+   Lines: 353
+   Features: TrueP predicate, Trinity-Coherence, bounded verification
+   Use: Add probabilistic confidence to PXL proofs
+
+5. DOMAIN-SPECIFIC MODAL FRAMEWORKS (12 files total)
+   Locations: external/Logos_AGI/Advanced_Reasoning_Protocol/iel_domains/
+              */modal/FrameSpec.v
+   
+   - AnthroPraxis/modal/FrameSpec.v (Deontic: obligation, permission)
+   - TeloPraxis/modal/FrameSpec.v (Teleological: purpose, goal)
+   - GnosiPraxis/modal/FrameSpec.v (Epistemic: knowledge, belief)
+   - CosmoPraxis/modal/FrameSpec.v (Temporal: past, future)
+   - AxioPraxis/modal/FrameSpec.v (Value-theoretic)
+   - ErgoPraxis/modal/FrameSpec.v (Action/capability)
+   - ThemiPraxis/modal/FrameSpec.v (Normative/justice)
+   - AestheticoPraxis/modal/FrameSpec.v (Aesthetic evaluation)
+   - ModalPraxis/modal/FrameSpec.v (Meta-modal)
+
+RECOMMENDATION FOR PXL REWORK
+==============================
+Primary: S5_Kripke.v
+  - 140 lines, production-ready
+  - All S5 properties proven (not axiomatized)
+   - Eliminated 3 PXL modal axioms (ax_K, ax_T, ax_Nec)
+   - Net reduction: 20 → 8 axioms (after full integration)
+
+Secondary: RelatioPraxis/modal/RelationSpec.v
+  - If multi-modal PXL needed
+  - Shows pattern for domain-specific operators
+
+Tertiary: ModalProbabilistic.v
+  - If adding confidence/uncertainty to proofs
+  - Maintains constructive validity

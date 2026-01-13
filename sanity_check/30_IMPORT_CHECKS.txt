@@ -1,0 +1,10 @@
+PYTHONPATH for I1/I3: System_Stack/Logos_Agents_Protocol/Logos_Agents:System_Stack/Logos_Protocol/Logos_Agents
+
+PYTHONPATH for I2: System_Stack/Logos_Protocol/Logos_Agents
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+  File "/workspaces/pxl_demo_wcoq_proofs/System_Stack/Logos_Protocol/Logos_Agents/I2_Agent/protocol_operations/ui_io/adapter.py", line 9, in <module>
+    from I2_Agent.connections.id_handler import generate_packet_identity
+  File "/workspaces/pxl_demo_wcoq_proofs/System_Stack/Logos_Protocol/Logos_Agents/I2_Agent/connections/id_handler.py", line 8, in <module>
+    from .hashing import safe_hash
+ModuleNotFoundError: No module named 'I2_Agent.connections.hashing'

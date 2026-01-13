@@ -1,0 +1,22 @@
+{
+  "generated_utc": "2025-12-27T19:07:05.661594+00:00",
+  "inputs": {
+    "registry_hash": "1e8e563c0381098ee3fbaa7d1762e2e6825267da7f5493ea0c1d45697d475604",
+    "profiles_hash": "3a470b93c478e3ed2badcad09195c9440a41204269f93e6acea639cf5a733fb5"
+  },
+  "gaps": [
+    {
+      "gap_id": "io_normalizer",
+      "title": "Standardized Tool IO Normalizer",
+      "recommended_tool_type": "analysis",
+      "target_module": "logos_core.tools.io_normalizer",
+      "risk_tag": "safe",
+      "acceptance_tests": [
+        "Normalize heterogeneous tool payloads into canonical dict form",
+        "Strip unsafe keys while preserving audit metadata"
+      ],
+      "rationale": "High IO interaction frequency (1) without normalizer; score=1"
+    }
+  ],
+  "proposal_only": true
+}

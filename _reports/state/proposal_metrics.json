@@ -1,0 +1,61 @@
+{
+  "schema_version": 1,
+  "updated_at": "2025-12-31T18:33:42.986507+00:00",
+  "version": 2779,
+  "prev_hash": "3fa2d8d5ea1247d9c1ee57bdd057ebed0c2d2266c9d0c06a633205ecccb4731d",
+  "state_hash": "60762faa64512c59746d81284546dc04be902740a1b9750969ca6a1996916bfe",
+  "metrics": {
+    "STATUS": {
+      "mission.status": {
+        "attempts": 1450,
+        "successes": 681,
+        "denies": 252,
+        "errors": 517,
+        "last_outcome": "SUCCESS",
+        "last_updated_at": "2025-12-31T18:33:42.513024+00:00"
+      },
+      "probe.last": {
+        "attempts": 737,
+        "successes": 653,
+        "denies": 84,
+        "errors": 0,
+        "last_outcome": "SUCCESS",
+        "last_updated_at": "2025-12-31T18:33:42.511736+00:00"
+      },
+      "fs.read": {
+        "attempts": 33,
+        "successes": 0,
+        "denies": 0,
+        "errors": 33,
+        "last_outcome": "ERROR",
+        "last_updated_at": "2025-12-27T21:45:34.999559+00:00"
+      }
+    },
+    "GENERAL": {
+      "mission.status": {
+        "attempts": 270,
+        "successes": 176,
+        "denies": 0,
+        "errors": 94,
+        "last_outcome": "SUCCESS",
+        "last_updated_at": "2025-12-31T18:33:42.986507+00:00"
+      },
+      "probe.last": {
+        "attempts": 194,
+        "successes": 194,
+        "denies": 0,
+        "errors": 0,
+        "last_outcome": "SUCCESS",
+        "last_updated_at": "2025-12-31T18:33:42.980076+00:00"
+      },
+      "fs.read": {
+        "attempts": 94,
+        "successes": 0,
+        "denies": 0,
+        "errors": 94,
+        "last_outcome": "ERROR",
+        "last_updated_at": "2025-12-31T18:33:42.985017+00:00"
+      }
+    }
+  }
+}

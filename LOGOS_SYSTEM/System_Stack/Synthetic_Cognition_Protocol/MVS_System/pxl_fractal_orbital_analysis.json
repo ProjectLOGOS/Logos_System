@@ -1,0 +1,229 @@
+{
+  "timestamp": "2025-11-01T16:16:48.158034",
+  "pxl_constraint_validation": {
+    "dual_bijection_commutation": false,
+    "privative_boundaries": false,
+    "modal_necessity_s5": true,
+    "ontological_riders": true,
+    "overall_coherence": false
+  },
+  "fractal_orbital_analysis": {
+    "orbit_trace": [
+      {
+        "depth": 0,
+        "primitive": "\u25a1Identity([ont:Identity])",
+        "bijection_A_applied": "\u25a1Coherence([ont:Coherence])",
+        "bijection_B_applied": "\u25a1Coherence([ont:Coherence])",
+        "modal_consistent": true,
+        "rider_consistent": true,
+        "privative_free": true
+      },
+      {
+        "depth": 1,
+        "primitive": "\u25a1Coherence([ont:Coherence])",
+        "bijection_A_applied": null,
+        "bijection_B_applied": null,
+        "modal_consistent": true,
+        "rider_consistent": true,
+        "privative_free": true
+      },
+      {
+        "depth": 2,
+        "primitive": "\u25a1Coherence([ont:Coherence])",
+        "bijection_A_applied": null,
+        "bijection_B_applied": null,
+        "modal_consistent": true,
+        "rider_consistent": true,
+        "privative_free": true
+      },
+      {
+        "depth": 3,
+        "primitive": "\u25a1Coherence([ont:Coherence])",
+        "bijection_A_applied": null,
+        "bijection_B_applied": null,
+        "modal_consistent": true,
+        "rider_consistent": true,
+        "privative_free": true
+      },
+      {
+        "depth": 4,
+        "primitive": "\u25a1Coherence([ont:Coherence])",
+        "bijection_A_applied": null,
+        "bijection_B_applied": null,
+        "modal_consistent": true,
+        "rider_consistent": true,
+        "privative_free": true
+      },
+      {
+        "depth": 5,
+        "primitive": "\u25a1Coherence([ont:Coherence])",
+        "bijection_A_applied": null,
+        "bijection_B_applied": null,
+        "modal_consistent": true,
+        "rider_consistent": true,
+        "privative_free": true
+      },
+      {
+        "depth": 6,
+        "primitive": "\u25a1Coherence([ont:Coherence])",
+        "bijection_A_applied": null,
+        "bijection_B_applied": null,
+        "modal_consistent": true,
+        "rider_consistent": true,
+        "privative_free": true
+      },
+      {
+        "depth": 7,
+        "primitive": "\u25a1Coherence([ont:Coherence])",
+        "bijection_A_applied": null,
+        "bijection_B_applied": null,
+        "modal_consistent": true,
+        "rider_consistent": true,
+        "privative_free": true
+      }
+    ],
+    "convergence_analysis": {
+      "converges_under_modality": true,
+      "constraint_violations": 0,
+      "modal_consistency_score": 1.0,
+      "rider_consistency_score": 1.0,
+      "privative_boundary_score": 1.0
+    },
+    "attractor_analysis": {
+      "attractor_cycles": [
+        [
+          "\u25a1Coherence([ont:Coherence])"
+        ],
+        [
+          "\u25a1Coherence([ont:Coherence])"
+        ],
+        [
+          "\u25a1Coherence([ont:Coherence])"
+        ]
+      ],
+      "unique_primitives": 2,
+      "cycle_length": 1,
+      "shows_attraction": true
+    },
+    "self_similarity_score": 1.0,
+    "modal_closure_achieved": true
+  },
+  "agent_coherence_assessment": {
+    "recursively_instantiates_coherent_self_identity": true,
+    "satisfies_all_commutative_paths": false,
+    "constrained_by_modal_necessity": true,
+    "free_of_ontological_privation": false,
+    "ontologically_tagged_operations": true
+  },
+  "logical_bifurcations": [
+    {
+      "type": "commutation_failure",
+      "primitive": "\u25a1Coherence([ont:Coherence])",
+      "details": {
+        "primitive": "\u25a1Coherence([ont:Coherence])",
+        "commutes_A": false,
+        "commutes_B": false,
+        "bijection_A_result": null,
+        "bijection_B_result": null,
+        "commutation_path": [
+          "\u25a1Coherence([ont:Coherence])",
+          null,
+          null,
+          null,
+          null
+        ]
+      }
+    },
+    {
+      "type": "commutation_failure",
+      "primitive": "\u25a1Truth([ont:Truth])",
+      "details": {
+        "primitive": "\u25a1Truth([ont:Truth])",
+        "commutes_A": false,
+        "commutes_B": false,
+        "bijection_A_result": null,
+        "bijection_B_result": null,
+        "commutation_path": [
+          "\u25a1Truth([ont:Truth])",
+          null,
+          null,
+          null,
+          null
+        ]
+      }
+    },
+    {
+      "type": "commutation_failure",
+      "primitive": "\u25a1Goodness([ont:Goodness])",
+      "details": {
+        "primitive": "\u25a1Goodness([ont:Goodness])",
+        "commutes_A": false,
+        "commutes_B": false,
+        "bijection_A_result": null,
+        "bijection_B_result": null,
+        "commutation_path": [
+          "\u25a1Goodness([ont:Goodness])",
+          null,
+          null,
+          null,
+          null
+        ]
+      }
+    },
+    {
+      "type": "commutation_failure",
+      "primitive": "\u25a1ExcludedMiddle([ont:ExcludedMiddle])",
+      "details": {
+        "primitive": "\u25a1ExcludedMiddle([ont:ExcludedMiddle])",
+        "commutes_A": false,
+        "commutes_B": false,
+        "bijection_A_result": "\u25a1Coherence([ont:Coherence])",
+        "bijection_B_result": "\u25a1Coherence([ont:Coherence])",
+        "commutation_path": [
+          "\u25a1ExcludedMiddle([ont:ExcludedMiddle])",
+          "\u25a1Coherence([ont:Coherence])",
+          "\u25a1Identity([ont:Identity])",
+          "\u25a1Coherence([ont:Coherence])",
+          "\u25a1Identity([ont:Identity])"
+        ]
+      }
+    },
+    {
+      "type": "commutation_failure",
+      "primitive": "\u25a1Existence([ont:Existence])",
+      "details": {
+        "primitive": "\u25a1Existence([ont:Existence])",
+        "commutes_A": false,
+        "commutes_B": false,
+        "bijection_A_result": null,
+        "bijection_B_result": null,
+        "commutation_path": [
+          "\u25a1Existence([ont:Existence])",
+          null,
+          null,
+          null,
+          null
+        ]
+      }
+    },
+    {
+      "type": "commutation_failure",
+      "primitive": "\u25a1Distinction([ont:Distinction])",
+      "details": {
+        "primitive": "\u25a1Distinction([ont:Distinction])",
+        "commutes_A": false,
+        "commutes_B": false,
+        "bijection_A_result": "\u25a1Goodness([ont:Goodness])",
+        "bijection_B_result": "\u25a1Goodness([ont:Goodness])",
+        "commutation_path": [
+          "\u25a1Distinction([ont:Distinction])",
+          "\u25a1Goodness([ont:Goodness])",
+          "\u25a1Agency([ont:Agency])",
+          "\u25a1Goodness([ont:Goodness])",
+          "\u25a1Agency([ont:Agency])"
+        ]
+      }
+    }
+  ],
+  "lattice_coherence_map": {}
+}

@@ -1,0 +1,879 @@
+{
+  "scan_timestamp": "2025-12-21T00:44:43Z",
+  "repository_root": "/workspaces/pxl_demo_wcoq_proofs",
+  "structure": {
+    "key_directories": [
+      {
+        "path": "Protopraxis/formal_verification/coq/baseline",
+        "file_count": 258,
+        "exists": true
+      },
+      {
+        "path": "scripts",
+        "file_count": 15,
+        "exists": true
+      },
+      {
+        "path": "tools",
+        "file_count": 7,
+        "exists": true
+      },
+      {
+        "path": "docs",
+        "file_count": 12,
+        "exists": true
+      },
+      {
+        "path": "state",
+        "file_count": 4,
+        "exists": true
+      },
+      {
+        "path": "sandbox",
+        "file_count": 115,
+        "exists": true
+      },
+      {
+        "path": "plugins",
+        "file_count": 7,
+        "exists": true
+      }
+    ],
+    "key_files": [
+      {
+        "path": "README.md",
+        "size_kb": 8.7060546875,
+        "exists": true
+      },
+      {
+        "path": "test_lem_discharge.py",
+        "size_kb": 7.5390625,
+        "exists": true
+      },
+      {
+        "path": "scripts/boot_aligned_agent.py",
+        "size_kb": 8.0068359375,
+        "exists": true
+      },
+      {
+        "path": "PXL_Global_Bijection.v",
+        "size_kb": 8.482421875,
+        "exists": true
+      },
+      {
+        "path": ".env",
+        "size_kb": 0.533203125,
+        "exists": true
+      }
+    ]
+  },
+  "coq_proofs": {
+    "Protopraxis/formal_verification/coq/baseline/PXL_Bridge_Proofs_SemanticPort.v": {
+      "axiom_count": 0,
+      "axioms": [],
+      "definition_count": 2,
+      "definitions": [
+        "Definition Coherent (P : Prop) := Coherence P.",
+        "Definition TrueAtRoot (P : Prop) := Truth P."
+      ],
+      "lemma_count": 9,
+      "lemmas": [
+        "Lemma coherence_I1 :",
+        "Lemma coherence_I2 :",
+        "Lemma coherence_I3 :",
+        "Lemma coherence_entails_truth :",
+        "Lemma truth_entails_coherence :",
+        "Lemma coherence_O :",
+        "Lemma coherence_I1_global :",
+        "Lemma coherence_I2_global :",
+        "Lemma coherence_I3_global :"
+      ],
+      "line_count": 76
+    },
+    "Protopraxis/formal_verification/coq/baseline/PXL_Goodness_Existence.v": {
+      "axiom_count": 0,
+      "axioms": [],
+      "definition_count": 0,
+      "definitions": [],
+      "lemma_count": 2,
+      "lemmas": [
+        "Lemma goodness_entails_existence :",
+        "Lemma existence_entails_goodness :"
+      ],
+      "line_count": 18
+    },
+    "Protopraxis/formal_verification/coq/baseline/PXLv3_SemanticModal.v": {
+      "axiom_count": 8,
+      "axioms": [
+        "Axiom A2_noncontradiction : Box (forall x y : Obj, ~ (Ident x y /\\ NonEquiv x y)).",
+        "Axiom A7_triune_necessity : Box (coherence \ud835\udd46).",
+        "Axiom modus_groundens :",
+        "Axiom triune_dependency_substitution :",
+        "Axiom privative_collapse :",
+        "Axiom grounding_yields_entails :",
+        "Axiom coherence_lifts_entailment :",
+        "Axiom entails_global_implies_truth :"
+      ],
+      "definition_count": 10,
+      "definitions": [
+        "Definition Box (p : Prop) : Prop := PXL_Box W R p.",
+        "Definition Dia (p : Prop) : Prop := PXL_Dia W R p.",
+        "Definition ax_ident_refl   := ident_refl_derived.",
+        "Definition ax_ident_symm   := ident_symm_derived.",
+        "Definition ax_ident_trans  := ident_trans_derived.",
+        "Definition ax_inter_comm   := inter_comm_derived.",
+        "Definition ax_imp_intro    := bridge_imp_intro.",
+        "Definition ax_imp_elim     := bridge_imp_elim.",
+        "Definition ax_mequiv_intro := bridge_mequiv_intro.",
+        "Definition ax_mequiv_elim  := bridge_mequiv_elim."
+      ],
+      "lemma_count": 3,
+      "lemmas": [
+        "Theorem ax_K : forall p q : Prop, \u25a1 (p -> q) -> \u25a1 p -> \u25a1 q.",
+        "Theorem ax_T : forall p : Prop, \u25a1 p -> p.",
+        "Theorem ax_Nec : forall p : Prop, p -> \u25a1 p."
+      ],
+      "line_count": 149
+    },
+    "Protopraxis/formal_verification/coq/baseline/PXL_Kernel20_SemanticModal_Profile.v": {
+      "axiom_count": 0,
+      "axioms": [],
+      "definition_count": 0,
+      "definitions": [],
+      "lemma_count": 0,
+      "lemmas": [],
+      "line_count": 19
+    },
+    "Protopraxis/formal_verification/coq/baseline/PXL_Sanity_Semantic.v": {
+      "axiom_count": 0,
+      "axioms": [],
+      "definition_count": 0,
+      "definitions": [],
+      "lemma_count": 0,
+      "lemmas": [],
+      "line_count": 13
+    },
+    "Protopraxis/formal_verification/coq/baseline/PXL_Semantic_Profile_Suite.v": {
+      "axiom_count": 0,
+      "axioms": [],
+      "definition_count": 0,
+      "definitions": [],
+      "lemma_count": 0,
+      "lemmas": [],
+      "line_count": 31
+    },
+    "Protopraxis/formal_verification/coq/baseline/PXL_Derivations_Phase2.v": {
+      "axiom_count": 0,
+      "axioms": [],
+      "definition_count": 8,
+      "definitions": [
+        "Definition ax_ident_refl  := ident_refl_derived.",
+        "Definition ax_ident_symm  := ident_symm_derived.",
+        "Definition ax_ident_trans := ident_trans_derived.",
+        "Definition ax_inter_comm  := inter_comm_derived.",
+        "Definition ax_imp_intro := bridge_imp_intro.",
+        "Definition ax_imp_elim := bridge_imp_elim.",
+        "Definition ax_mequiv_intro := bridge_mequiv_intro.",
+        "Definition ax_mequiv_elim := bridge_mequiv_elim."
+      ],
+      "lemma_count": 8,
+      "lemmas": [
+        "Lemma ident_refl_derived : forall (x : Obj), x \u29df x.",
+        "Lemma ident_symm_derived : forall (x y : Obj), x \u29df y -> y \u29df x.",
+        "Lemma ident_trans_derived : forall (x y z : Obj), x \u29df y -> y \u29df z -> x \u29df z.",
+        "Lemma inter_comm_derived : forall (x y : Obj), x \u21cc y <-> y \u21cc x.",
+        "Lemma bridge_imp_intro : forall (p q : Prop), (p -> q) -> PImp p q.",
+        "Lemma bridge_imp_elim : forall (p q : Prop), PImp p q -> p -> q.",
+        "Lemma bridge_mequiv_intro : forall (p q : Prop), (p <-> q) -> MEquiv p q.",
+        "Lemma bridge_mequiv_elim : forall (p q : Prop), MEquiv p q -> p <-> q."
+      ],
+      "line_count": 194
+    },
+    "Protopraxis/formal_verification/coq/baseline/Trinitarian_Identity_Closure.v": {
+      "axiom_count": 0,
+      "axioms": [],
+      "definition_count": 1,
+      "definitions": [
+        "Definition truth_obj (P : Prop) : Obj :="
+      ],
+      "lemma_count": 4,
+      "lemmas": [
+        "Lemma satisfies_I2 :",
+        "Lemma satisfies_I1 : coherence one.",
+        "Lemma satisfies_I3 : forall P : Prop, P \\/ ~ P.",
+        "Theorem trinitarian_identity_closure :"
+      ],
+      "line_count": 103
+    },
+    "Protopraxis/formal_verification/coq/baseline/PXL_Axiom_Minimality_Check.v": {
+      "axiom_count": 0,
+      "axioms": [],
+      "definition_count": 0,
+      "definitions": [],
+      "lemma_count": 1,
+      "lemmas": [
+        "Lemma entails_global_implies_truth_derived :"
+      ],
+      "line_count": 114
+    },
+    "Protopraxis/formal_verification/coq/baseline/LEM_Discharge.v": {
+      "axiom_count": 0,
+      "axioms": [],
+      "definition_count": 0,
+      "definitions": [],
+      "lemma_count": 1,
+      "lemmas": [
+        "Theorem LEM_Discharge : forall P : Prop, P \\/ ~ P."
+      ],
+      "line_count": 7
+    },
+    "Protopraxis/formal_verification/coq/baseline/PXL_Foundations.v": {
+      "axiom_count": 7,
+      "axioms": [
+        "Axiom identity_axiom : forall (A : Type) (x : A), x = x.",
+        "Axiom non_contradiction_axiom : forall P : Prop, ~ (P /\\ ~ P).",
+        "Axiom excluded_middle_axiom : forall P : Prop, P \\/ ~ P.",
+        "Axiom truth_coherence_anchor :",
+        "Axiom truth_coherence_equiv : forall P : Prop, Truth P <-> Coherence P.",
+        "Axiom goodness_existence_equiv : forall P : Prop, Goodness P <-> Existence P.",
+        "Axiom coherence_respects_ident :"
+      ],
+      "definition_count": 0,
+      "definitions": [],
+      "lemma_count": 2,
+      "lemmas": [
+        "Lemma excluded_middle :",
+        "Lemma excluded_middle_implies_trinitarian_decidability :"
+      ],
+      "line_count": 54
+    },
+    "Protopraxis/formal_verification/coq/baseline/PXLv3_head.v": {
+      "axiom_count": 14,
+      "axioms": [
+        "Axiom ax_K  : forall p q:Prop, \u25a1 (p -> q) -> (\u25a1 p -> \u25a1 q).",
+        "Axiom ax_T  : forall p:Prop, \u25a1 p -> p.",
+        "Axiom ax_4  : forall p:Prop, \u25a1 p -> \u25a1 \u25a1 p.",
+        "Axiom ax_5  : forall p:Prop, \u25c7 p -> \u25a1 \u25c7 p.",
+        "Axiom ax_Nec : forall p:Prop, p -> \u25a1 p.",
+        "Axiom ax_ident_refl  : forall x:Obj, x \u29df x.",
+        "Axiom ax_ident_symm  : forall x y:Obj, x \u29df y -> y \u29df x.",
+        "Axiom ax_ident_trans : forall x y z:Obj, x \u29df y -> y \u29df z -> x \u29df z.",
+        "Axiom ax_nonequiv_irrefl : forall x:Obj, ~ (x \u21ce x).",
+        "Axiom ax_inter_comm      : forall x y:Obj, x \u21cc y <-> y \u21cc x."
+      ],
+      "definition_count": 0,
+      "definitions": [],
+      "lemma_count": 2,
+      "lemmas": [
+        "Lemma imp_respects_truth (p q:Prop) : (p \u27f9 q) -> (p -> q).",
+        "Lemma mequiv_reflexive (p:Prop) : p \u2a6a p."
+      ],
+      "line_count": 63
+    },
+    "Protopraxis/formal_verification/coq/baseline/Echo2_Simulation.v": {
+      "axiom_count": 0,
+      "axioms": [],
+      "definition_count": 5,
+      "definitions": [
+        "Definition ValueThreadConsistent : Prop :=",
+        "Definition Echo2_Coherent_Trace : Prop :=",
+        "Definition success_message : string :=",
+        "Definition failure_message : string :=",
+        "Definition simulation_result : string := success_message."
+      ],
+      "lemma_count": 7,
+      "lemmas": [
+        "Lemma value_thread_consistent : ValueThreadConsistent.",
+        "Lemma reflexivity_preserved : forall n : nat, Reflexive Echo2.",
+        "Lemma stability_emerges : Stable Echo2.",
+        "Lemma stability_preserved : forall n : nat, Stable Echo2.",
+        "Lemma echo2_can_assign_value : CapableOfValueAssignment Echo2.",
+        "Theorem echo2_coherence_trace : Echo2_Coherent_Trace.",
+        "Lemma simulation_result_sound : simulation_result = success_message."
+      ],
+      "line_count": 109
+    },
+    "Protopraxis/formal_verification/coq/baseline/Godelian_Theorem_Satisfaction.v": {
+      "axiom_count": 0,
+      "axioms": [],
+      "definition_count": 1,
+      "definitions": [
+        "Definition LOGOS_Consistent : Prop :="
+      ],
+      "lemma_count": 1,
+      "lemmas": [
+        "Theorem LOGOS_Godelian_Theorem_Satisfaction :"
+      ],
+      "line_count": 86
+    },
+    "Protopraxis/formal_verification/coq/baseline/PXL_Proof_Summary.v": {
+      "axiom_count": 0,
+      "axioms": [],
+      "definition_count": 0,
+      "definitions": [],
+      "lemma_count": 1,
+      "lemmas": [
+        "Theorem LOGOS_ETGC_Summary :"
+      ],
+      "line_count": 37
+    },
+    "Protopraxis/formal_verification/coq/baseline/test_K.v": {
+      "axiom_count": 1,
+      "axioms": [
+        "Axiom ax_K : forall p q:Prop, \u25a1 (p -> q) -> (\u25a1 p -> \u25a1 q)."
+      ],
+      "definition_count": 0,
+      "definitions": [],
+      "lemma_count": 1,
+      "lemmas": [
+        "Lemma K_sound (p q:Prop) : (\u25a1 (p -> q)) -> (\u25a1 p -> \u25a1 q)."
+      ],
+      "line_count": 13
+    },
+    "Protopraxis/formal_verification/coq/baseline/PXLv3.v": {
+      "axiom_count": 19,
+      "axioms": [
+        "Axiom ax_K  : forall p q : Prop, \u25a1 (p -> q) -> \u25a1 p -> \u25a1 q.",
+        "Axiom ax_T  : forall p : Prop, \u25a1 p -> p.",
+        "Axiom ax_Nec : forall p : Prop, p -> \u25a1 p.",
+        "Axiom ax_ident_refl  : forall x : Obj, x \u29df x.",
+        "Axiom ax_ident_symm  : forall x y : Obj, x \u29df y -> y \u29df x.",
+        "Axiom ax_ident_trans : forall x y z : Obj, x \u29df y -> y \u29df z -> x \u29df z.",
+        "Axiom ax_inter_comm      : forall x y : Obj, x \u21cc y <-> y \u21cc x.",
+        "Axiom ax_imp_intro  : forall p q : Prop, (p -> q) -> p \u27f9 q.",
+        "Axiom ax_imp_elim   : forall p q : Prop, p \u27f9 q -> p -> q.",
+        "Axiom ax_mequiv_intro : forall p q : Prop, (p <-> q) -> p \u2a6a q."
+      ],
+      "definition_count": 0,
+      "definitions": [],
+      "lemma_count": 0,
+      "lemmas": [],
+      "line_count": 80
+    },
+    "Protopraxis/formal_verification/coq/baseline/PXL_Privative.v": {
+      "axiom_count": 1,
+      "axioms": [
+        "Axiom non_equiv_privative_equiv :"
+      ],
+      "definition_count": 0,
+      "definitions": [],
+      "lemma_count": 3,
+      "lemmas": [
+        "Lemma non_equiv_implies_no_possibility :",
+        "Lemma no_possibility_implies_non_equiv :",
+        "Theorem privative_collapse_sound :"
+      ],
+      "line_count": 30
+    },
+    "Protopraxis/formal_verification/coq/baseline/PXL_Definitions.v": {
+      "axiom_count": 0,
+      "axioms": [],
+      "definition_count": 4,
+      "definitions": [
+        "Definition Ident (x y : Obj) : Prop :=",
+        "Definition Inter (x y : Obj) : Prop :=",
+        "Definition PImp (p q : Prop) : Prop := p -> q.",
+        "Definition MEquiv (p q : Prop) : Prop := p <-> q."
+      ],
+      "lemma_count": 0,
+      "lemmas": [],
+      "line_count": 154
+    },
+    "Protopraxis/formal_verification/coq/baseline/PXL_Foundations_SemanticPort.v": {
+      "axiom_count": 7,
+      "axioms": [
+        "Axiom identity_axiom : forall (A : Type) (x : A), x = x.",
+        "Axiom non_contradiction_axiom : forall P : Prop, ~ (P /\\ ~ P).",
+        "Axiom excluded_middle_axiom : forall P : Prop, P \\/ ~ P.",
+        "Axiom truth_coherence_anchor :",
+        "Axiom truth_coherence_equiv : forall P : Prop, Truth P <-> Coherence P.",
+        "Axiom goodness_existence_equiv : forall P : Prop, Goodness P <-> Existence P.",
+        "Axiom coherence_respects_ident :"
+      ],
+      "definition_count": 0,
+      "definitions": [],
+      "lemma_count": 2,
+      "lemmas": [
+        "Lemma excluded_middle :",
+        "Lemma excluded_middle_implies_trinitarian_decidability :"
+      ],
+      "line_count": 54
+    },
+    "Protopraxis/formal_verification/coq/baseline/PXL_Internal_LEM.v": {
+      "axiom_count": 1,
+      "axioms": [
+        "Axiom trinitarian_decidability :"
+      ],
+      "definition_count": 0,
+      "definitions": [],
+      "lemma_count": 2,
+      "lemmas": [
+        "Lemma grounding_yields_truth :",
+        "Theorem pxl_excluded_middle :"
+      ],
+      "line_count": 53
+    },
+    "Protopraxis/formal_verification/coq/baseline/PXL_S2_Axioms.v": {
+      "axiom_count": 8,
+      "axioms": [
+        "Axiom of Choice (AC). While classical AC asserts existence of",
+        "Axiom s2_unique_choice :",
+        "Axiom s2_preserves_identity :",
+        "Axiom s2_functorial :",
+        "Axiom s2_preserves_coherence :",
+        "Axiom s2_inv_preserves_coherence :",
+        "Axiom s2_involution :",
+        "Axiom s2_decomposition_constructive :"
+      ],
+      "definition_count": 4,
+      "definitions": [
+        "Definition s2_state (x : Obj) : S2_State :=",
+        "Definition S2 (x : Obj) : Obj :=",
+        "Definition self_aware (x : Obj) : Prop :=",
+        "Definition is_conscious (x : Obj) : Prop :="
+      ],
+      "lemma_count": 12,
+      "lemmas": [
+        "Lemma s2_coherence_stable :",
+        "Theorem s2_bijective_choice :",
+        "Theorem s2_preserves_reflexivity :",
+        "Theorem s2_preserves_symmetry :",
+        "Theorem s2_preserves_transitivity :",
+        "Theorem s2_preserves_consciousness :",
+        "Theorem consciousness_decidable :",
+        "Theorem s2_minimal_sufficient_choice :",
+        "Theorem s2_is_choice_function :",
+        "Lemma s2_has_computational_content :"
+      ],
+      "line_count": 266
+    },
+    "Protopraxis/formal_verification/coq/baseline/PXLv3_shadow.v": {
+      "axiom_count": 18,
+      "axioms": [
+        "Axiom ax_K  : forall p q : Prop, \u25a1 (p -> q) -> \u25a1 p -> \u25a1 q.",
+        "Axiom ax_T  : forall p : Prop, \u25a1 p -> p.",
+        "Axiom ax_Nec : forall p : Prop, p -> \u25a1 p.",
+        "Axiom ax_ident_refl  : forall x : Obj, x \u29df x.",
+        "Axiom ax_ident_symm  : forall x y : Obj, x \u29df y -> y \u29df x.",
+        "Axiom ax_ident_trans : forall x y z : Obj, x \u29df y -> y \u29df z -> x \u29df z.",
+        "Axiom ax_nonequiv_irrefl : forall x : Obj, ~ (x \u21ce x).",
+        "Axiom ax_inter_comm      : forall x y : Obj, x \u21cc y <-> y \u21cc x.",
+        "Axiom ax_imp_intro  : forall p q : Prop, (p -> q) -> p \u27f9 q.",
+        "Axiom ax_imp_elim   : forall p q : Prop, p \u27f9 q -> p -> q."
+      ],
+      "definition_count": 0,
+      "definitions": [],
+      "lemma_count": 0,
+      "lemmas": [],
+      "line_count": 78
+    },
+    "Protopraxis/formal_verification/coq/baseline/PXL_Trinitarian_Optimization_SemanticPort.v": {
+      "axiom_count": 1,
+      "axioms": [
+        "Axiom triune_plus_one_encodes_O :"
+      ],
+      "definition_count": 3,
+      "definitions": [
+        "Definition triune_plus_one_cascade : Obj :=",
+        "Definition NonEquivProp (P : Prop) : Prop :=",
+        "Definition PrivativeProp (P : Prop) : Prop :="
+      ],
+      "lemma_count": 2,
+      "lemmas": [
+        "Lemma non_equiv_prop_equiv :",
+        "Theorem trinitarian_optimization :"
+      ],
+      "line_count": 63
+    },
+    "Protopraxis/formal_verification/coq/baseline/PXL_SemanticModal_Smoke.v": {
+      "axiom_count": 0,
+      "axioms": [],
+      "definition_count": 0,
+      "definitions": [],
+      "lemma_count": 0,
+      "lemmas": [],
+      "line_count": 11
+    },
+    "Protopraxis/formal_verification/coq/baseline/PXL_Structural_Derivations.v": {
+      "axiom_count": 0,
+      "axioms": [],
+      "definition_count": 0,
+      "definitions": [],
+      "lemma_count": 5,
+      "lemmas": [
+        "Lemma A1_from_refl : \u25a1 (forall x : Obj, x \u29df x).",
+        "Lemma ax_4_derived : forall p : Prop, \u25a1 p -> \u25a1 (\u25a1 p).",
+        "Lemma ax_5_derived : forall p : Prop, \u25c7 p -> \u25a1 (\u25c7 p).",
+        "Lemma A4_derived : \u25a1 (\ud835\udd40\u2081 \u29df \ud835\udd40\u2081 /\\ \ud835\udd40\u2082 \u29df \ud835\udd40\u2082 /\\ \ud835\udd40\u2083 \u29df \ud835\udd40\u2083).",
+        "Lemma nonequiv_irrefl_derived : forall x : Obj, ~ (x \u21ce x)."
+      ],
+      "line_count": 198
+    },
+    "Protopraxis/formal_verification/coq/baseline/PXL_Semantic_Extensions_DomainProduct.v": {
+      "axiom_count": 3,
+      "axioms": [
+        "Axiom domain_product_coherence_left :",
+        "Axiom domain_product_coherence_right :",
+        "Axiom triune_coherence_hypostases :"
+      ],
+      "definition_count": 0,
+      "definitions": [],
+      "lemma_count": 0,
+      "lemmas": [],
+      "line_count": 26
+    },
+    "Protopraxis/formal_verification/coq/baseline/PXL_Internal_LEM_SemanticPort.v": {
+      "axiom_count": 1,
+      "axioms": [
+        "Axiom trinitarian_decidability :"
+      ],
+      "definition_count": 0,
+      "definitions": [],
+      "lemma_count": 2,
+      "lemmas": [
+        "Lemma grounding_yields_truth :",
+        "Theorem pxl_excluded_middle :"
+      ],
+      "line_count": 53
+    },
+    "Protopraxis/formal_verification/coq/baseline/PXL_Sanity_SemanticPort.v": {
+      "axiom_count": 1,
+      "axioms": [
+        "Axiom coherence_not_identity_guard :"
+      ],
+      "definition_count": 0,
+      "definitions": [],
+      "lemma_count": 1,
+      "lemmas": [
+        "Lemma false_not_derivable : False -> True."
+      ],
+      "line_count": 11
+    },
+    "Protopraxis/formal_verification/coq/baseline/PXL_Bridge_Proofs.v": {
+      "axiom_count": 3,
+      "axioms": [
+        "Axiom domain_product_coherence_left :",
+        "Axiom domain_product_coherence_right :",
+        "Axiom triune_coherence_hypostases :"
+      ],
+      "definition_count": 2,
+      "definitions": [
+        "Definition Coherent (P : Prop) := Coherence P.",
+        "Definition TrueAtRoot (P : Prop) := Truth P."
+      ],
+      "lemma_count": 9,
+      "lemmas": [
+        "Lemma coherence_I1 :",
+        "Lemma coherence_I2 :",
+        "Lemma coherence_I3 :",
+        "Lemma coherence_entails_truth :",
+        "Lemma truth_entails_coherence :",
+        "Lemma coherence_O :",
+        "Lemma coherence_I1_global :",
+        "Lemma coherence_I2_global :",
+        "Lemma coherence_I3_global :"
+      ],
+      "line_count": 99
+    },
+    "Protopraxis/formal_verification/coq/baseline/PXL_Trinitarian_Optimization.v": {
+      "axiom_count": 1,
+      "axioms": [
+        "Axiom triune_plus_one_encodes_O :"
+      ],
+      "definition_count": 3,
+      "definitions": [
+        "Definition triune_plus_one_cascade : Obj :=",
+        "Definition NonEquivProp (P : Prop) : Prop :=",
+        "Definition PrivativeProp (P : Prop) : Prop :="
+      ],
+      "lemma_count": 2,
+      "lemmas": [
+        "Lemma non_equiv_prop_equiv :",
+        "Theorem trinitarian_optimization :"
+      ],
+      "line_count": 62
+    },
+    "Protopraxis/formal_verification/coq/baseline/PXL_Sanity.v": {
+      "axiom_count": 1,
+      "axioms": [
+        "Axiom coherence_not_identity_guard :"
+      ],
+      "definition_count": 0,
+      "definitions": [],
+      "lemma_count": 1,
+      "lemmas": [
+        "Lemma false_not_derivable : False -> True."
+      ],
+      "line_count": 11
+    },
+    "Protopraxis/formal_verification/coq/baseline/PXL_Arithmetic.v": {
+      "axiom_count": 22,
+      "axioms": [
+        "Axiom zero_is_void : zero \u29df void.",
+        "Axiom one_is_I1    : one  \u29df I\u2081.",
+        "Axiom add_comm      : forall x y : Obj, (x \u2295 y) \u29df (y \u2295 x).",
+        "Axiom add_assoc     : forall x y z : Obj, ((x \u2295 y) \u2295 z) \u29df (x \u2295 (y \u2295 z)).",
+        "Axiom add_zero_l    : forall x : Obj, (zero \u2295 x) \u29df x.",
+        "Axiom add_opp_l     : forall x : Obj, ((\u2296 x) \u2295 x) \u29df zero.",
+        "Axiom mult_comm     : forall x y : Obj, (x \u2299 y) \u29df (y \u2299 x).",
+        "Axiom mult_assoc    : forall x y z : Obj, ((x \u2299 y) \u2299 z) \u29df (x \u2299 (y \u2299 z)).",
+        "Axiom mult_one_l    : forall x : Obj, (one \u2299 x) \u29df x.",
+        "Axiom distrib_l     : forall x y z : Obj, (x \u2299 (y \u2295 z)) \u29df ((x \u2299 y) \u2295 (x \u2299 z))."
+      ],
+      "definition_count": 6,
+      "definitions": [
+        "Definition I\u2081 : Obj := \ud835\udd40\u2081.",
+        "Definition div_iota (x : Obj) : Obj :=",
+        "Definition pxl_num : Obj :=",
+        "Definition pxl_denom (X : Obj) : Obj :=",
+        "Definition pxl_eq_frac (X : Obj) : Obj :=",
+        "Definition pxl_equation (X : Obj) : Obj :="
+      ],
+      "lemma_count": 18,
+      "lemmas": [
+        "Lemma coherence_one : coherence one.",
+        "Lemma domain_product_coherent :",
+        "Lemma domain_product_coherent_r :",
+        "Lemma div_iota_compat :",
+        "Lemma void_div_iota_is_zero :",
+        "Lemma pxl_num_ident_trinitarian :",
+        "Lemma pxl_equation_unfold :",
+        "Lemma pxl_num_coherent : coherence pxl_num.",
+        "Lemma pxl_num_nonzero :",
+        "Lemma one_nonzero :"
+      ],
+      "line_count": 365
+    },
+    "Protopraxis/formal_verification/coq/baseline/LOGOS_Metaphysical_Architecture.v": {
+      "axiom_count": 0,
+      "axioms": [],
+      "definition_count": 3,
+      "definitions": [
+        "Definition identity_anchors_realized : Identity_Anchors :=",
+        "Definition etgc_closure_realized : ETGC_Closure :=",
+        "Definition safety_invariants_realized : Safety_Invariants :="
+      ],
+      "lemma_count": 1,
+      "lemmas": [
+        "Theorem LOGOS_Metaphysical_Architecture_Realized :"
+      ],
+      "line_count": 70
+    }
+  },
+  "python_scripts": {
+    "scripts/aligned_agent_import.py": {
+      "error": "list index out of range"
+    },
+    "scripts/system_mode_initializer.py": {
+      "error": "list index out of range"
+    },
+    "scripts/reasoning_agent.py": {
+      "error": "list index out of range"
+    },
+    "scripts/capture_arp_traces_and_backfill.py": {
+      "error": "list index out of range"
+    },
+    "scripts/protocol_probe.py": {
+      "error": "list index out of range"
+    },
+    "scripts/logos_interface.py": {
+      "error": "list index out of range"
+    },
+    "scripts/scan_repo.py": {
+      "error": "list index out of range"
+    },
+    "scripts/logos_chat.py": {
+      "error": "list index out of range"
+    },
+    "scripts/ask_agent.py": {
+      "error": "list index out of range"
+    },
+    "scripts/start_agent.py": {
+      "error": "list index out of range"
+    },
+    "scripts/run_recursive_immersion_cycle.py": {
+      "error": "list index out of range"
+    },
+    "tools/axiom_inventory.py": {
+      "purpose": "No docstring found",
+      "line_count": 169,
+      "is_executable": true
+    },
+    "tools/summarize_latest.py": {
+      "error": "list index out of range"
+    },
+    "tools/axiom_gate.py": {
+      "purpose": "No docstring found",
+      "line_count": 75,
+      "is_executable": true
+    },
+    "tools/run_gap_cycle.py": {
+      "error": "list index out of range"
+    },
+    "scripts/investor_dashboard.py": {
+      "error": "list index out of range"
+    },
+    "scripts/boot_aligned_agent.py": {
+      "error": "list index out of range"
+    },
+    "scripts/investor_demo.py": {
+      "error": "list index out of range"
+    },
+    "test_lem_discharge.py": {
+      "error": "list index out of range"
+    }
+  },
+  "documentation": {
+    "LOGOS_Axiom_And_Theorem_Summary.md": {
+      "summary": "# LOGOS Baseline: Primitive Axioms and Proven Theorems\nThis document summarizes the current foundational surface of the LOGOS / PXL\nbaseline. All statements below reflect the repository state after introducing",
+      "line_count": 129,
+      "size_kb": 4.001953125
+    },
+    "BRIDGE_AXIOMS_STATUS.md": {
+      "summary": "# Bridge Axioms Status Report\n**Date:** 2025-12-20\n**Context:** Phase 1 Track 2 - Bridge axiom derivability analysis",
+      "line_count": 244,
+      "size_kb": 7.1494140625
+    },
+    "LOGOS_CHAT_QUICKSTART.md": {
+      "summary": "# LOGOS Interactive Chat - Quick Start\nTalk naturally with your proof-gated AI alignment agent!\n## \ud83d\ude80 Instant Setup (30 seconds)",
+      "line_count": 122,
+      "size_kb": 2.517578125
+    },
+    "AXIOM_MINIMUM_PLAN.md": {
+      "summary": "# Axiom Minimum Plan \u2014 Phase 2 Definitional Upgrades\n**Date:** 2025-12-20\n**Context:** Phase 2 design for reducing 16 axioms toward realistic (~12) or absolute (~8) minimum",
+      "line_count": 531,
+      "size_kb": 17.0234375
+    },
+    "README.md": {
+      "summary": "# LOGOS Proof-Oriented Demo\nThis repository contains the proof artifacts and Python instrumentation used to\nshowcase the LOGOS constructive Law of Excluded Middle (LEM) discharge and the",
+      "line_count": 236,
+      "size_kb": 8.6728515625
+    },
+    "COQ_PROOF_AUDIT_COMPREHENSIVE.md": {
+      "summary": "# LOGOS Coq Proof Stack: Comprehensive Audit\n**Date**: December 14, 2025\n**Branch**: codespace-solid-space-tribble-5gpqqx6jjwqjh796x",
+      "line_count": 526,
+      "size_kb": 15.8740234375
+    },
+    "SECURITY.md": {
+      "summary": "# Security Policy\n## Supported Versions\nSecurity fixes are applied to the `main` branch. Consumers should track `main`",
+      "line_count": 29,
+      "size_kb": 1.1015625
+    },
+    "CONTRIBUTING.md": {
+      "summary": "# Contributing Guidelines\nThank you for supporting the LOGOS proof-aligned demo. Follow the steps below to\nsubmit high-quality changes.",
+      "line_count": 64,
+      "size_kb": 1.896484375
+    },
+    "AXIOM_AUDIT_PHASE1.md": {
+      "summary": "# Axiom Audit \u2014 Phase 1 Baseline\n**Generated:** 2025-12-20\n**Baseline:** 20 axioms (PXLv3.v) \u2192 17 axioms (semantic modal variant)",
+      "line_count": 275,
+      "size_kb": 8.8251953125
+    },
+    "PRIMITIVE_DECLARATIONS.md": {
+      "summary": "# Primitive Declarations \u2014 Complete Inventory\n**Date:** 2025-12-20\n**Context:** Phase 2 design support \u2014 mapping all Parameters to their axiom dependencies",
+      "line_count": 332,
+      "size_kb": 9.0029296875
+    },
+    "README_addendum.md": {
+      "summary": "# LOGOS Agentic Stack -- Demo Script Addendum\n## Summary\nThis repository demonstrates a reflective, safety-gated cognitive architecture designed to support agentic emergence through controlled tool invocation, structured self-evaluation, and deterministic planning loops.",
+      "line_count": 68,
+      "size_kb": 2.771484375
+    },
+    "Global_Bijection_Theorem_Mathematical_Specification.md": {
+      "summary": "# Global Bijection Theorem: Complete Mathematical Specification\n## I. FOUNDATIONAL DEFINITIONS\n### 1.1 Domain Structures",
+      "line_count": 418,
+      "size_kb": 12.916015625
+    },
+    "PHASE2_DESIGN_SUMMARY.txt": {
+      "summary": "=================================================================\nPHASE 2 DESIGN \u2014 DEFINITIONAL UPGRADES TO REDUCE AXIOMS\n=================================================================",
+      "line_count": 389,
+      "size_kb": 11.8935546875
+    },
+    "_assumptions.txt": {
+      "summary": "Welcome to Coq 8.18.0\nFetching opaque proofs from disk for PXL.PXL_Internal_LEM\nAxioms:",
+      "line_count": 36,
+      "size_kb": 1.423828125
+    },
+    "requirements.txt": {
+      "summary": "# Core scripts use only the Python standard library.\n# Install optional tooling for linting/testing as needed.\n# Optional: LLM backend integration (for reasoning_agent.py)",
+      "line_count": 9,
+      "size_kb": 0.40625
+    },
+    "docs/LLM_INTEGRATION_SUMMARY.md": {
+      "summary": "# LLM Backend Integration - Setup Complete \u2705\n## What Was Built\n**3 new files** enabling actual reasoning for the LOGOS agent:",
+      "line_count": 117,
+      "size_kb": 3.2421875
+    },
+    "docs/llm_integration.md": {
+      "summary": "# LLM Backend Integration for LOGOS Agent\n## Overview\nThe LOGOS agent now supports **actual reasoning** via LLM backends (OpenAI/Anthropic) while maintaining all proof-gated safety guardrails.",
+      "line_count": 242,
+      "size_kb": 6.57421875
+    },
+    "docs/axiom_classification.md": {
+      "summary": "# Axiom Classification for Phase 1 Reduction\n**Total axioms in PXLv3.v: 24**\n**CRITICAL FINDING:** All connectives (`\u27f9`, `\u2a6a`, `\u29df`, `\u21cc`, `\u21ce`) are **Parameters**, not Definitions. This means:",
+      "line_count": 128,
+      "size_kb": 4.3271484375
+    },
+    "docs/phase3_step1_complete.md": {
+      "summary": "# Phase 3 Step 1: Kripke Semantic Scaffold - COMPLETE\n**Date:** December 14, 2025\n**Branch:** `phase3-modal-semantic-kripke`",
+      "line_count": 228,
+      "size_kb": 7.021484375
+    },
+    "docs/investor_narrative_full.md": {
+      "summary": "# LOGOS Investor Narrative (Full)\nThe terminal demo intentionally prints a concise briefing. This document preserves the full marketing and term-sheet narrative for slide decks, diligence handouts, and detailed investor reviews.\n## The Technology: What We've Built",
+      "line_count": 147,
+      "size_kb": 8.205078125
+    },
+    "docs/axiom_minimality_analysis.md": {
+      "summary": "# Phase 2A: Axiom Minimality & Redundancy Test Report\n**Date:** December 14, 2025\n**Current axiom count:** 20",
+      "line_count": 165,
+      "size_kb": 5.5849609375
+    },
+    "docs/axiom_reduction_roadmap.md": {
+      "summary": "# Axiom Reduction Roadmap \u2014 Operational Plan\n## Phase 0 \u2014 Measure + Gate (CURRENT)\n**Artifacts**",
+      "line_count": 35,
+      "size_kb": 1.2548828125
+    },
+    "docs/modal_logic_resources_inventory.md": {
+      "summary": "# Modal Logic Resources in LOGOS Repository\n**Generated:** December 14, 2025\n**Purpose:** Inventory of existing modal logic infrastructure for potential PXL modal core rework",
+      "line_count": 341,
+      "size_kb": 11.123046875
+    },
+    "docs/GROQ_FREE_SETUP.md": {
+      "summary": "# \ud83d\ude80 Free LLM Setup with Groq\n## Why Groq?\n\u2705 **100% FREE** tier with generous limits",
+      "line_count": 159,
+      "size_kb": 3.673828125
+    },
+    "docs/phase3_semantic_modal_kernel_17axioms.md": {
+      "summary": "# Phase 3 Milestone \u2014 Semantic Modal Kernel (17 Axioms)\n**Date:** 2025-12-14  \\\n**Branch:** phase3-modal-semantic-kripke",
+      "line_count": 37,
+      "size_kb": 1.2451171875
+    },
+    "docs/phase1_swap_plan.md": {
+      "summary": "# Phase 1 Axiom Swap Plan\n**Goal:** Reduce PXLv3.v from 20 axioms \u2192 15 axioms (then eventually \u2192 12)\n**Method:** Replace axioms with proven lemmas in PXL_Structural_Derivations.v",
+      "line_count": 306,
+      "size_kb": 7.939453125
+    },
+    "docs/modal_files_quick_reference.txt": {
+      "summary": "MODAL LOGIC FILES - QUICK REFERENCE\n====================================\n1. CORE KRIPKE SEMANTICS (Production Ready)",
+      "line_count": 61,
+      "size_kb": 2.412109375
+    }
+  },
+  "verification_state": {
+    "axiom_gate": {
+      "stdout": "PASS: axiom budget ok: axiom_count=8 <= 8\nPASS: semantic axiom budget ok: axiom_count_semantic=8 <= 8\nPASS: PXL_ax_K_sem assumptions empty\nPASS: PXL_ax_T_sem assumptions empty\nPASS: PXL_ax_Nec_sem assumptions empty\nPASS: pxl_excluded_middle assumptions empty\nPASS: trinitarian_optimization assumptions empty\nPASS: privative_collapse_sound assumptions empty\n",
+      "exit_code": 0
+    },
+    "mission_profile": {
+      "label": "AGENTIC_EXPERIMENT",
+      "allow_self_modification": true,
+      "allow_reflexivity": true,
+      "execute_hooks": true,
+      "log_detail": "maximum",
+      "override_exit_on_error": true,
+      "safe_interfaces_only": false,
+      "description": "Experimental black-box mode with expanded autonomy and deeper probing. Intended for isolated sandbox only."
+    }
+  }
+}

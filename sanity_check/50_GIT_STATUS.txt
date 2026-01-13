@@ -1,0 +1,1759 @@
+git status --porcelain
+ D DOCS/TETRACONSCIOUS_INTEGRATION_NOTES.md
+ D DOCS/docs/AUDIT/CHANGELOG.md
+ D DOCS/docs/AUDIT/README.md
+ D DOCS/docs/AUDIT/REPRODUCIBILITY.md
+ D DOCS/docs/AUDIT/STRUCTURE.md
+ D DOCS/docs/GROQ_FREE_SETUP.md
+ D DOCS/docs/LLM_INTEGRATION_SUMMARY.md
+ D DOCS/docs/LOGOS_GPT_ACCEPTANCE.md
+ D DOCS/docs/LOGOS_GPT_CHAT.md
+ D DOCS/docs/LOGOS_GPT_WEB.md
+ D DOCS/docs/MVP_ACCEPTANCE.md
+ D DOCS/docs/README.md
+ D DOCS/docs/VSCODE_CRASH_PREVENTION.md
+ D DOCS/docs/agent_tool_registry.json
+ D DOCS/docs/agent_tool_registry.md
+ D DOCS/docs/architecture_extension_plan.md
+ D DOCS/docs/axiom_audit_phase1.md
+ D DOCS/docs/axiom_classification.md
+ D DOCS/docs/axiom_minimality_analysis.md
+ D DOCS/docs/axiom_minimum_plan.md
+ D DOCS/docs/axiom_reduction_roadmap.md
+ D DOCS/docs/bridge_axioms_status.md
+ D DOCS/docs/compute_substrate_plan.md
+ D DOCS/docs/compute_substrate_runbook.md
+ D DOCS/docs/continuous_run_architecture.md
+ D DOCS/docs/coq_proof_audit_comprehensive.md
+ D DOCS/docs/crash_recovery_quickstart.md
+ D DOCS/docs/demo_guide.md
+ D DOCS/docs/global_bijection_theorem_spec.md
+ D DOCS/docs/investor_narrative_full.md
+ D DOCS/docs/llm_integration.md
+ D DOCS/docs/logos_agi_scripts_descriptions.md
+ D DOCS/docs/logos_axiom_theorem_summary.md
+ D DOCS/docs/logos_chat_quickstart.md
+ D DOCS/docs/modal_files_quick_reference.txt
+ D DOCS/docs/modal_logic_resources_inventory.md
+ D DOCS/docs/omni_intake_index.md
+ D DOCS/docs/phase1_swap_plan.md
+ D DOCS/docs/phase2_design_summary.txt
+ D DOCS/docs/phase3_semantic_modal_kernel_17axioms.md
+ D DOCS/docs/phase3_step1_complete.md
+ D DOCS/docs/primitive_declarations.md
+ D DOCS/docs/readme_addendum.md
+ D DOCS/docs/run_cycle_operations.md
+ D DOCS/docs/run_cycle_prereqs.md
+ D DOCS/docs/state_policy.md
+ D DOCS/docs/verification_interpretability_plan.md
+ D DOCS/docs/web_portal_guide.md
+ D DOCS/privation_library.md
+ D DOCS/scripts_catalog.md
+ D Demos/interactive_web/README.md
+ D Demos/interactive_web/app.js
+ D Demos/interactive_web/index.html
+ D Demos/interactive_web/server.py
+ D JUNK_DRAWER/REMOVE_WHEN_DONE/privation_catalog/archival_master_privation_list.md
+ D JUNK_DRAWER/REMOVE_WHEN_DONE/privation_catalog/core_component_privations.md
+ D JUNK_DRAWER/REMOVE_WHEN_DONE/privation_catalog/empirical_validation_framework.md
+ D JUNK_DRAWER/REMOVE_WHEN_DONE/privation_catalog/extended_privation_developments.md
+ D JUNK_DRAWER/REMOVE_WHEN_DONE/privation_catalog/incoherence_privation_formalism.md
+ D JUNK_DRAWER/REMOVE_WHEN_DONE/privation_catalog/privation_list.md
+ D JUNK_DRAWER/REMOVE_WHEN_DONE/privation_catalog/privative_forms_master.md
+ D JUNK_DRAWER/REMOVE_WHEN_DONE/privation_catalog/quantitative_privation_refinement.md
+ D JUNK_DRAWER/REMOVE_WHEN_DONE/privation_catalog/temporal_privation_dynamics.md
+ D JUNK_DRAWER/REMOVE_WHEN_DONE/training_data/artifacts/041a8efcdb13a8815cd3f9432a20b3b3/artifact.json
+ D JUNK_DRAWER/REMOVE_WHEN_DONE/training_data/artifacts/041a8efcdb13a8815cd3f9432a20b3b3/code.py
+ D JUNK_DRAWER/REMOVE_WHEN_DONE/training_data/artifacts/041a8efcdb13a8815cd3f9432a20b3b3/policy.json
+ D JUNK_DRAWER/REMOVE_WHEN_DONE/training_data/artifacts/041a8efcdb13a8815cd3f9432a20b3b3/provenance.json
+ D JUNK_DRAWER/REMOVE_WHEN_DONE/training_data/artifacts/041a8efcdb13a8815cd3f9432a20b3b3/stage.json
+ D JUNK_DRAWER/REMOVE_WHEN_DONE/training_data/artifacts/0741ba5675a03601314ffad34bfb742d/artifact.json
+ D JUNK_DRAWER/REMOVE_WHEN_DONE/training_data/artifacts/0741ba5675a03601314ffad34bfb742d/code.py
+ D JUNK_DRAWER/REMOVE_WHEN_DONE/training_data/artifacts/0741ba5675a03601314ffad34bfb742d/policy.json
+ D JUNK_DRAWER/REMOVE_WHEN_DONE/training_data/artifacts/0741ba5675a03601314ffad34bfb742d/provenance.json
+ D JUNK_DRAWER/REMOVE_WHEN_DONE/training_data/artifacts/0741ba5675a03601314ffad34bfb742d/stage.json
+ D JUNK_DRAWER/REMOVE_WHEN_DONE/training_data/artifacts/1268102b1110958506542805432900d3/artifact.json
+ D JUNK_DRAWER/REMOVE_WHEN_DONE/training_data/artifacts/1268102b1110958506542805432900d3/code.py
+ D JUNK_DRAWER/REMOVE_WHEN_DONE/training_data/artifacts/1268102b1110958506542805432900d3/policy.json
+ D JUNK_DRAWER/REMOVE_WHEN_DONE/training_data/artifacts/1268102b1110958506542805432900d3/provenance.json
+ D JUNK_DRAWER/REMOVE_WHEN_DONE/training_data/artifacts/1268102b1110958506542805432900d3/stage.json
+ D JUNK_DRAWER/REMOVE_WHEN_DONE/training_data/artifacts/207d7edd400ad3f8c074be087bb03343/artifact.json
+ D JUNK_DRAWER/REMOVE_WHEN_DONE/training_data/artifacts/207d7edd400ad3f8c074be087bb03343/code.py
+ D JUNK_DRAWER/REMOVE_WHEN_DONE/training_data/artifacts/207d7edd400ad3f8c074be087bb03343/deploy.json
+ D JUNK_DRAWER/REMOVE_WHEN_DONE/training_data/artifacts/207d7edd400ad3f8c074be087bb03343/policy.json
+ D JUNK_DRAWER/REMOVE_WHEN_DONE/training_data/artifacts/207d7edd400ad3f8c074be087bb03343/provenance.json
+ D JUNK_DRAWER/REMOVE_WHEN_DONE/training_data/artifacts/207d7edd400ad3f8c074be087bb03343/stage.json
+ D JUNK_DRAWER/REMOVE_WHEN_DONE/training_data/artifacts/359bfa9b9f551e6b8e2e89eeee0b2e7d/artifact.json
+ D JUNK_DRAWER/REMOVE_WHEN_DONE/training_data/artifacts/359bfa9b9f551e6b8e2e89eeee0b2e7d/code.py
+ D JUNK_DRAWER/REMOVE_WHEN_DONE/training_data/artifacts/359bfa9b9f551e6b8e2e89eeee0b2e7d/policy.json
+ D JUNK_DRAWER/REMOVE_WHEN_DONE/training_data/artifacts/359bfa9b9f551e6b8e2e89eeee0b2e7d/provenance.json
+ D JUNK_DRAWER/REMOVE_WHEN_DONE/training_data/artifacts/359bfa9b9f551e6b8e2e89eeee0b2e7d/stage.json
+ D JUNK_DRAWER/REMOVE_WHEN_DONE/training_data/artifacts/3c8809da81be3339a6e51142e464b1a4/artifact.json
+ D JUNK_DRAWER/REMOVE_WHEN_DONE/training_data/artifacts/3c8809da81be3339a6e51142e464b1a4/code.py
+ D JUNK_DRAWER/REMOVE_WHEN_DONE/training_data/artifacts/3c8809da81be3339a6e51142e464b1a4/policy.json
+ D JUNK_DRAWER/REMOVE_WHEN_DONE/training_data/artifacts/3c8809da81be3339a6e51142e464b1a4/provenance.json
+ D JUNK_DRAWER/REMOVE_WHEN_DONE/training_data/artifacts/3c8809da81be3339a6e51142e464b1a4/stage.json
+ D JUNK_DRAWER/REMOVE_WHEN_DONE/training_data/artifacts/4a869f1a7dd9ff6277797ca51d186c2c/artifact.json
+ D JUNK_DRAWER/REMOVE_WHEN_DONE/training_data/artifacts/4a869f1a7dd9ff6277797ca51d186c2c/code.py
+ D JUNK_DRAWER/REMOVE_WHEN_DONE/training_data/artifacts/4a869f1a7dd9ff6277797ca51d186c2c/deploy.json
+ D JUNK_DRAWER/REMOVE_WHEN_DONE/training_data/artifacts/4a869f1a7dd9ff6277797ca51d186c2c/policy.json
+ D JUNK_DRAWER/REMOVE_WHEN_DONE/training_data/artifacts/4a869f1a7dd9ff6277797ca51d186c2c/provenance.json
+ D JUNK_DRAWER/REMOVE_WHEN_DONE/training_data/artifacts/4a869f1a7dd9ff6277797ca51d186c2c/stage.json
+ D JUNK_DRAWER/REMOVE_WHEN_DONE/training_data/artifacts/5cfb0cdfe51459aa989f9344835d2827/artifact.json
+ D JUNK_DRAWER/REMOVE_WHEN_DONE/training_data/artifacts/5cfb0cdfe51459aa989f9344835d2827/code.py
+ D JUNK_DRAWER/REMOVE_WHEN_DONE/training_data/artifacts/5cfb0cdfe51459aa989f9344835d2827/policy.json
+ D JUNK_DRAWER/REMOVE_WHEN_DONE/training_data/artifacts/5cfb0cdfe51459aa989f9344835d2827/provenance.json
+ D JUNK_DRAWER/REMOVE_WHEN_DONE/training_data/artifacts/5cfb0cdfe51459aa989f9344835d2827/stage.json
+ D JUNK_DRAWER/REMOVE_WHEN_DONE/training_data/artifacts/601d817069df3700683a959e3d98cd83/artifact.json
+ D JUNK_DRAWER/REMOVE_WHEN_DONE/training_data/artifacts/601d817069df3700683a959e3d98cd83/code.py
+ D JUNK_DRAWER/REMOVE_WHEN_DONE/training_data/artifacts/601d817069df3700683a959e3d98cd83/policy.json
+ D JUNK_DRAWER/REMOVE_WHEN_DONE/training_data/artifacts/601d817069df3700683a959e3d98cd83/provenance.json
+ D JUNK_DRAWER/REMOVE_WHEN_DONE/training_data/artifacts/601d817069df3700683a959e3d98cd83/stage.json
+ D JUNK_DRAWER/REMOVE_WHEN_DONE/training_data/artifacts/670e1cec3d8081b87324de83ce29e7b6/artifact.json
+ D JUNK_DRAWER/REMOVE_WHEN_DONE/training_data/artifacts/670e1cec3d8081b87324de83ce29e7b6/code.py
+ D JUNK_DRAWER/REMOVE_WHEN_DONE/training_data/artifacts/670e1cec3d8081b87324de83ce29e7b6/policy.json
+ D JUNK_DRAWER/REMOVE_WHEN_DONE/training_data/artifacts/670e1cec3d8081b87324de83ce29e7b6/provenance.json
+ D JUNK_DRAWER/REMOVE_WHEN_DONE/training_data/artifacts/670e1cec3d8081b87324de83ce29e7b6/stage.json
+ D JUNK_DRAWER/REMOVE_WHEN_DONE/training_data/artifacts/72875146d6199c51ae8efcc4f4c24483/artifact.json
+ D JUNK_DRAWER/REMOVE_WHEN_DONE/training_data/artifacts/72875146d6199c51ae8efcc4f4c24483/code.py
+ D JUNK_DRAWER/REMOVE_WHEN_DONE/training_data/artifacts/72875146d6199c51ae8efcc4f4c24483/deploy.json
+ D JUNK_DRAWER/REMOVE_WHEN_DONE/training_data/artifacts/72875146d6199c51ae8efcc4f4c24483/policy.json
+ D JUNK_DRAWER/REMOVE_WHEN_DONE/training_data/artifacts/72875146d6199c51ae8efcc4f4c24483/provenance.json
+ D JUNK_DRAWER/REMOVE_WHEN_DONE/training_data/artifacts/72875146d6199c51ae8efcc4f4c24483/stage.json
+ D JUNK_DRAWER/REMOVE_WHEN_DONE/training_data/artifacts/784b86a29788d655b96f0f1e5c04ec8c/artifact.json
+ D JUNK_DRAWER/REMOVE_WHEN_DONE/training_data/artifacts/784b86a29788d655b96f0f1e5c04ec8c/code.py
+ D JUNK_DRAWER/REMOVE_WHEN_DONE/training_data/artifacts/784b86a29788d655b96f0f1e5c04ec8c/policy.json
+ D JUNK_DRAWER/REMOVE_WHEN_DONE/training_data/artifacts/784b86a29788d655b96f0f1e5c04ec8c/provenance.json
+ D JUNK_DRAWER/REMOVE_WHEN_DONE/training_data/artifacts/784b86a29788d655b96f0f1e5c04ec8c/stage.json
+ D JUNK_DRAWER/REMOVE_WHEN_DONE/training_data/artifacts/7c5364aa6ce2a867ea84cce5975c0895/artifact.json
+ D JUNK_DRAWER/REMOVE_WHEN_DONE/training_data/artifacts/7c5364aa6ce2a867ea84cce5975c0895/code.py
+ D JUNK_DRAWER/REMOVE_WHEN_DONE/training_data/artifacts/7c5364aa6ce2a867ea84cce5975c0895/policy.json
+ D JUNK_DRAWER/REMOVE_WHEN_DONE/training_data/artifacts/7c5364aa6ce2a867ea84cce5975c0895/provenance.json
+ D JUNK_DRAWER/REMOVE_WHEN_DONE/training_data/artifacts/7c5364aa6ce2a867ea84cce5975c0895/stage.json
+ D JUNK_DRAWER/REMOVE_WHEN_DONE/training_data/artifacts/8be74ed528fd281f8bfe141b68baf7aa/artifact.json
+ D JUNK_DRAWER/REMOVE_WHEN_DONE/training_data/artifacts/8be74ed528fd281f8bfe141b68baf7aa/code.py
+ D JUNK_DRAWER/REMOVE_WHEN_DONE/training_data/artifacts/8be74ed528fd281f8bfe141b68baf7aa/policy.json
+ D JUNK_DRAWER/REMOVE_WHEN_DONE/training_data/artifacts/8be74ed528fd281f8bfe141b68baf7aa/provenance.json
+ D JUNK_DRAWER/REMOVE_WHEN_DONE/training_data/artifacts/8be74ed528fd281f8bfe141b68baf7aa/stage.json
+ D JUNK_DRAWER/REMOVE_WHEN_DONE/training_data/artifacts/b4fc2256d21bc56d7aa393f7a3db140e/artifact.json
+ D JUNK_DRAWER/REMOVE_WHEN_DONE/training_data/artifacts/b4fc2256d21bc56d7aa393f7a3db140e/code.py
+ D JUNK_DRAWER/REMOVE_WHEN_DONE/training_data/artifacts/b4fc2256d21bc56d7aa393f7a3db140e/deploy.json
+ D JUNK_DRAWER/REMOVE_WHEN_DONE/training_data/artifacts/b4fc2256d21bc56d7aa393f7a3db140e/policy.json
+ D JUNK_DRAWER/REMOVE_WHEN_DONE/training_data/artifacts/b4fc2256d21bc56d7aa393f7a3db140e/provenance.json
+ D JUNK_DRAWER/REMOVE_WHEN_DONE/training_data/artifacts/b4fc2256d21bc56d7aa393f7a3db140e/stage.json
+ D JUNK_DRAWER/REMOVE_WHEN_DONE/training_data/artifacts/cded2224877a9a853b3788dd1c1b3253/artifact.json
+ D JUNK_DRAWER/REMOVE_WHEN_DONE/training_data/artifacts/cded2224877a9a853b3788dd1c1b3253/code.py
+ D JUNK_DRAWER/REMOVE_WHEN_DONE/training_data/artifacts/cded2224877a9a853b3788dd1c1b3253/deploy.json
+ D JUNK_DRAWER/REMOVE_WHEN_DONE/training_data/artifacts/cded2224877a9a853b3788dd1c1b3253/policy.json
+ D JUNK_DRAWER/REMOVE_WHEN_DONE/training_data/artifacts/cded2224877a9a853b3788dd1c1b3253/provenance.json
+ D JUNK_DRAWER/REMOVE_WHEN_DONE/training_data/artifacts/cded2224877a9a853b3788dd1c1b3253/stage.json
+ D JUNK_DRAWER/REMOVE_WHEN_DONE/training_data/artifacts/ebad6ce7ab8228f8aa5c4c7756bc5d81/artifact.json
+ D JUNK_DRAWER/REMOVE_WHEN_DONE/training_data/artifacts/ebad6ce7ab8228f8aa5c4c7756bc5d81/code.py
+ D JUNK_DRAWER/REMOVE_WHEN_DONE/training_data/artifacts/ebad6ce7ab8228f8aa5c4c7756bc5d81/policy.json
+ D JUNK_DRAWER/REMOVE_WHEN_DONE/training_data/artifacts/ebad6ce7ab8228f8aa5c4c7756bc5d81/provenance.json
+ D JUNK_DRAWER/REMOVE_WHEN_DONE/training_data/artifacts/ebad6ce7ab8228f8aa5c4c7756bc5d81/stage.json
+ D JUNK_DRAWER/REMOVE_WHEN_DONE/training_data/artifacts/ffac9b1f7f5f72482a63d2cf482f5325/artifact.json
+ D JUNK_DRAWER/REMOVE_WHEN_DONE/training_data/artifacts/ffac9b1f7f5f72482a63d2cf482f5325/code.py
+ D JUNK_DRAWER/REMOVE_WHEN_DONE/training_data/artifacts/ffac9b1f7f5f72482a63d2cf482f5325/policy.json
+ D JUNK_DRAWER/REMOVE_WHEN_DONE/training_data/artifacts/ffac9b1f7f5f72482a63d2cf482f5325/provenance.json
+ D JUNK_DRAWER/REMOVE_WHEN_DONE/training_data/artifacts/ffac9b1f7f5f72482a63d2cf482f5325/stage.json
+ M START_LOGOS.py
+ D System_Stack/Logos_Protocol/GUI/logos_dashboard/README.md
+ D System_Stack/Logos_Protocol/GUI/logos_dashboard/__init__.py
+ D System_Stack/Logos_Protocol/GUI/logos_dashboard/app.py
+ D System_Stack/Logos_Protocol/GUI/logos_dashboard/metrics.py
+ D System_Stack/Logos_Protocol/GUI/logos_dashboard/smp_bus.py
+ D System_Stack/Logos_Protocol/GUI/logos_dashboard/static/dashboard.js
+ D System_Stack/Logos_Protocol/GUI/logos_dashboard/static/styles.css
+ D System_Stack/Logos_Protocol/GUI/logos_dashboard/templates/index.html
+ D System_Stack/Logos_Protocol/GUI/monitoring/grafana_dashboard.json
+ D System_Stack/Logos_Protocol/GUI/monitoring/prometheus.yml
+ D System_Stack/Logos_Protocol/Integrations/__init__.py
+ D System_Stack/Logos_Protocol/Integrations/arp_operations.py
+ D System_Stack/Logos_Protocol/Integrations/enhanced_uip_connector.py
+ D System_Stack/Logos_Protocol/Integrations/example_connector.py
+ D System_Stack/Logos_Protocol/Integrations/uip_connector.py
+ D System_Stack/Logos_Protocol/Logos_Agents/I1_Agent/__init__.py
+ D System_Stack/Logos_Protocol/Logos_Agents/I1_Agent/_core/LOGOS_AGENT_I1.json
+ M System_Stack/Logos_Protocol/Logos_Agents/I1_Agent/_core/__init__.py
+ D System_Stack/Logos_Protocol/Logos_Agents/I1_Agent/_core/agent_root_manifest.json
+ M System_Stack/Logos_Protocol/Logos_Agents/I1_Agent/config/schema_utils.py
+ M System_Stack/Logos_Protocol/Logos_Agents/I1_Agent/diagnostics/errors.py
+ M System_Stack/Logos_Protocol/Logos_Agents/I1_Agent/protocol_operations/scp_cycle/cycle_runner.py
+ M System_Stack/Logos_Protocol/Logos_Agents/I1_Agent/protocol_operations/scp_cycle/policy.py
+ D System_Stack/Logos_Protocol/Logos_Agents/I1_Agent/protocol_operations/scp_cycle/scp_cycle/__init__.py
+ D System_Stack/Logos_Protocol/Logos_Agents/I1_Agent/protocol_operations/scp_cycle/scp_cycle/policy.py
+ D System_Stack/Logos_Protocol/Logos_Agents/I1_Agent/protocol_operations/scp_cycle/scp_integrations/__init__.py
+ D System_Stack/Logos_Protocol/Logos_Agents/I1_Agent/protocol_operations/scp_cycle/scp_integrations/predict_integration.py
+ D System_Stack/Logos_Protocol/Logos_Agents/I1_Agent/protocol_operations/scp_cycle/scp_mvs_adapter/__init__.py
+ D System_Stack/Logos_Protocol/Logos_Agents/I1_Agent/protocol_operations/scp_cycle/scp_mvs_adapter/mvs_adapter.py
+ D System_Stack/Logos_Protocol/Logos_Agents/I1_Agent/protocol_operations/scp_cycle/scp_mvs_adapter/mvs_types.py
+ D System_Stack/Logos_Protocol/Logos_Agents/I1_Agent/protocol_operations/scp_cycle/scp_runtime/__init__.py
+ D System_Stack/Logos_Protocol/Logos_Agents/I1_Agent/protocol_operations/scp_cycle/scp_runtime/result_packet.py
+ D System_Stack/Logos_Protocol/Logos_Agents/I1_Agent/protocol_operations/scp_cycle/scp_runtime/smp_intake.py
+ D System_Stack/Logos_Protocol/Logos_Agents/I1_Agent/protocol_operations/scp_cycle/scp_runtime/work_order.py
+ D System_Stack/Logos_Protocol/Logos_Agents/I1_Agent/protocol_operations/scp_cycle/scp_tests/__init__.py
+ D System_Stack/Logos_Protocol/Logos_Agents/I1_Agent/protocol_operations/scp_cycle/scp_tests/run_pipeline_smoke.py
+ D System_Stack/Logos_Protocol/Logos_Agents/I1_Agent/protocol_operations/scp_cycle/scp_tests/sample_smp.py
+ D System_Stack/Logos_Protocol/Logos_Agents/I1_Agent/protocol_operations/scp_cycle/scp_transform/__init__.py
+ D System_Stack/Logos_Protocol/Logos_Agents/I1_Agent/protocol_operations/scp_cycle/scp_transform/iterative_loop.py
+ D System_Stack/Logos_Protocol/Logos_Agents/I1_Agent/protocol_operations/scp_cycle/scp_transform/transform_registry.py
+ D System_Stack/Logos_Protocol/Logos_Agents/I1_Agent/protocol_operations/scp_cycle/scp_transform/transform_types.py
+ D System_Stack/Logos_Protocol/Logos_Agents/I1_Agent/protocol_operations/scp_integrations/analysis_runner.py
+ M System_Stack/Logos_Protocol/Logos_Agents/I1_Agent/protocol_operations/scp_integrations/iterative_loop.py
+ D System_Stack/Logos_Protocol/Logos_Agents/I1_Agent/protocol_operations/scp_integrations/predict_integration.py
+ D System_Stack/Logos_Protocol/Logos_Agents/I1_Agent/protocol_operations/scp_integrations/scp_pipeline/__init__.py
+ D System_Stack/Logos_Protocol/Logos_Agents/I1_Agent/protocol_operations/scp_integrations/scp_pipeline/pipeline_runner.py
+ D System_Stack/Logos_Protocol/Logos_Agents/I1_Agent/protocol_operations/scp_integrations/scp_predict/__init__.py
+ D System_Stack/Logos_Protocol/Logos_Agents/I1_Agent/protocol_operations/scp_integrations/scp_predict/risk_estimator.py
+ D System_Stack/Logos_Protocol/Logos_Agents/I1_Agent/protocol_operations/scp_integrations/scp_predict/trajectory_types.py
+ D System_Stack/Logos_Protocol/Logos_Agents/I1_Agent/protocol_operations/scp_integrations/transform_registry.py
+ D System_Stack/Logos_Protocol/Logos_Agents/I1_Agent/protocol_operations/scp_integrations/transform_types.py
+ M System_Stack/Logos_Protocol/Logos_Agents/I1_Agent/protocol_operations/scp_predict/risk_estimator.py
+ D System_Stack/Logos_Protocol/Logos_Agents/I1_Agent/protocol_operations/scp_predict/scp_runtime/README.md
+ D System_Stack/Logos_Protocol/Logos_Agents/I1_Agent/protocol_operations/scp_predict/scp_runtime/__init__.py
+ D System_Stack/Logos_Protocol/Logos_Agents/I1_Agent/protocol_operations/scp_predict/scp_runtime/result_packet.py
+ D System_Stack/Logos_Protocol/Logos_Agents/I1_Agent/protocol_operations/scp_predict/scp_runtime/smp_intake.py
+ D System_Stack/Logos_Protocol/Logos_Agents/I1_Agent/protocol_operations/scp_predict/scp_runtime/work_order.py
+ D System_Stack/Logos_Protocol/Logos_Agents/I1_Agent/protocol_operations/scp_predict/trajectory_types.py
+ D System_Stack/Logos_Protocol/Logos_Agents/I2_Agent/I2_Core/__init__.py
+ D System_Stack/Logos_Protocol/Logos_Agents/I2_Agent/I2_Core/benevolence_mediator.py
+ D System_Stack/Logos_Protocol/Logos_Agents/I2_Agent/I2_Core/bridge_operator.py
+ D System_Stack/Logos_Protocol/Logos_Agents/I2_Agent/I2_Core/constants.py
+ D System_Stack/Logos_Protocol/Logos_Agents/I2_Agent/I2_Core/errors.py
+ D System_Stack/Logos_Protocol/Logos_Agents/I2_Agent/I2_Core/hashing.py
+ D System_Stack/Logos_Protocol/Logos_Agents/I2_Agent/I2_Core/health.py
+ D System_Stack/Logos_Protocol/Logos_Agents/I2_Agent/I2_Core/id_handler.py
+ D System_Stack/Logos_Protocol/Logos_Agents/I2_Agent/I2_Core/llm_io/__init__.py
+ D System_Stack/Logos_Protocol/Logos_Agents/I2_Agent/I2_Core/llm_io/client.py
+ D System_Stack/Logos_Protocol/Logos_Agents/I2_Agent/I2_Core/llm_io/config.py
+ D System_Stack/Logos_Protocol/Logos_Agents/I2_Agent/I2_Core/llm_io/exports.py
+ D System_Stack/Logos_Protocol/Logos_Agents/I2_Agent/I2_Core/llm_io/providers_llama.py
+ D System_Stack/Logos_Protocol/Logos_Agents/I2_Agent/I2_Core/llm_io/providers_openai.py
+ D System_Stack/Logos_Protocol/Logos_Agents/I2_Agent/I2_Core/llm_io/types.py
+ D System_Stack/Logos_Protocol/Logos_Agents/I2_Agent/I2_Core/logging_utils.py
+ D System_Stack/Logos_Protocol/Logos_Agents/I2_Agent/I2_Core/packet_types.py
+ D System_Stack/Logos_Protocol/Logos_Agents/I2_Agent/I2_Core/router.py
+ D System_Stack/Logos_Protocol/Logos_Agents/I2_Agent/I2_Core/schema_utils.py
+ D System_Stack/Logos_Protocol/Logos_Agents/I2_Agent/I2_Core/smp.py
+ D System_Stack/Logos_Protocol/Logos_Agents/I2_Agent/I2_Core/time_utils.py
+ D System_Stack/Logos_Protocol/Logos_Agents/I2_Agent/I2_Core/trinitarian_mediator.py
+ D System_Stack/Logos_Protocol/Logos_Agents/I2_Agent/LOGOS_AGENT_I2.json
+ D System_Stack/Logos_Protocol/Logos_Agents/I2_Agent/agent_root_manifest.json
+ D System_Stack/Logos_Protocol/Logos_Agents/I2_Agent/privation_handler/privation_analyst.py
+ D System_Stack/Logos_Protocol/Logos_Agents/I2_Agent/privation_handler/privation_classifier.py
+ D System_Stack/Logos_Protocol/Logos_Agents/I2_Agent/privation_handler/privation_gate.py
+ D System_Stack/Logos_Protocol/Logos_Agents/I2_Agent/privation_handler/privation_library/README_PRIVATIONS.md
+ D System_Stack/Logos_Protocol/Logos_Agents/I2_Agent/privation_handler/privation_library/__init__.py
+ D System_Stack/Logos_Protocol/Logos_Agents/I2_Agent/privation_handler/privation_library/iel_ontological_bijection_optimized.json
+ D System_Stack/Logos_Protocol/Logos_Agents/I2_Agent/privation_handler/privation_library/privation_library.json
+ D System_Stack/Logos_Protocol/Logos_Agents/I2_Agent/privation_handler/privation_library/privation_library.json.bak
+ D System_Stack/Logos_Protocol/Logos_Agents/I2_Agent/privation_handler/privation_override.py
+ D System_Stack/Logos_Protocol/Logos_Agents/I2_Agent/privation_handler/privation_transformer.py
+ D System_Stack/Logos_Protocol/Logos_Agents/I3_Agent/I3_core/__init__.py
+ D System_Stack/Logos_Protocol/Logos_Agents/I3_Agent/I3_core/constants.py
+ D System_Stack/Logos_Protocol/Logos_Agents/I3_Agent/I3_core/errors.py
+ D System_Stack/Logos_Protocol/Logos_Agents/I3_Agent/I3_core/hashing.py
+ D System_Stack/Logos_Protocol/Logos_Agents/I3_Agent/I3_core/health.py
+ D System_Stack/Logos_Protocol/Logos_Agents/I3_Agent/I3_core/id_handler.py
+ D System_Stack/Logos_Protocol/Logos_Agents/I3_Agent/I3_core/logging_utils.py
+ D System_Stack/Logos_Protocol/Logos_Agents/I3_Agent/I3_core/packet_types.py
+ D System_Stack/Logos_Protocol/Logos_Agents/I3_Agent/I3_core/router.py
+ D System_Stack/Logos_Protocol/Logos_Agents/I3_Agent/I3_core/schema_utils.py
+ D System_Stack/Logos_Protocol/Logos_Agents/I3_Agent/I3_core/time_utils.py
+ D System_Stack/Logos_Protocol/Logos_Agents/I3_Agent/LOGOS_AGENT_I3.json
+ D System_Stack/Logos_Protocol/Logos_Agents/I3_Agent/agent_root_manifest.json
+ D System_Stack/Logos_Protocol/Logos_Agents/I3_Agent/arp_cycle/__init__.py
+ D System_Stack/Logos_Protocol/Logos_Agents/I3_Agent/arp_cycle/cycle_runner.py
+ D System_Stack/Logos_Protocol/Logos_Agents/I3_Agent/arp_cycle/policy.py
+ D System_Stack/Logos_Protocol/Logos_Agents/I3_Agent/arp_planner/__init__.py
+ D System_Stack/Logos_Protocol/Logos_Agents/I3_Agent/arp_planner/baseline_planner.py
+ D System_Stack/Logos_Protocol/Logos_Agents/I3_Agent/arp_planner/plan_evaluator.py
+ D System_Stack/Logos_Protocol/Logos_Agents/I3_Agent/arp_runtime/__init__.py
+ D System_Stack/Logos_Protocol/Logos_Agents/I3_Agent/arp_runtime/evaluation_packet.py
+ D System_Stack/Logos_Protocol/Logos_Agents/I3_Agent/arp_runtime/plan_packet.py
+ D System_Stack/Logos_Protocol/Logos_Agents/I3_Agent/arp_runtime/task_intake.py
+ D System_Stack/Logos_Protocol/Logos_Agents/I3_Agent/arp_tests/__init__.py
+ D System_Stack/Logos_Protocol/Logos_Agents/I3_Agent/arp_tests/run_cycle_smoke.py
+ D System_Stack/Logos_Protocol/Logos_Agents/I3_Agent/arp_tests/sample_task.py
+ D System_Stack/Logos_Protocol/Logos_Agents/Shared_Resources/LOGOS_Ontological_Properties.json
+ D System_Stack/Logos_Protocol/Logos_Agents/Shared_Resources/privation_library.json
+ D System_Stack/Logos_Protocol/Protocol_Core/Activation_Sequencer/sequence_1/Identity_Initializers/__init__.py
+ D System_Stack/Logos_Protocol/Protocol_Core/Activation_Sequencer/sequence_1/Identity_Initializers/agent_identity.py
+ D System_Stack/Logos_Protocol/Protocol_Core/Activation_Sequencer/sequence_1/Identity_Initializers/identity_loader.py
+ D System_Stack/Logos_Protocol/Protocol_Core/Activation_Sequencer/sequence_1/Identity_Initializers/persist_identity.py
+ D System_Stack/Logos_Protocol/Protocol_Core/Activation_Sequencer/sequence_1/Identity_Initializers/run_conscious_sim.py
+ D System_Stack/Logos_Protocol/Protocol_Core/Activation_Sequencer/sequence_1/Verification_Tools/Initializer_Recursion_Engine.py
+ D System_Stack/Logos_Protocol/Protocol_Core/Activation_Sequencer/sequence_1/Verification_Tools/Recursion_Engine_Bridge.py
+ D System_Stack/Logos_Protocol/Protocol_Core/Activation_Sequencer/sequence_1/Verification_Tools/__init__.py
+ D System_Stack/Logos_Protocol/Protocol_Core/Activation_Sequencer/sequence_1/Verification_Tools/__main__.py
+ D System_Stack/Logos_Protocol/Protocol_Core/Activation_Sequencer/sequence_1/Verification_Tools/run_integration.py
+ D System_Stack/Logos_Protocol/Protocol_Core/Activation_Sequencer/sequence_1/Verification_Tools/serve_pxl.py
+ D System_Stack/Logos_Protocol/Protocol_Core/Activation_Sequencer/sequence_1/Verification_Tools/test_lem_discharge.py
+ D System_Stack/Logos_Protocol/Protocol_Core/Activation_Sequencer/sequence_1/__init__.py
+ D System_Stack/Logos_Protocol/Protocol_Core/Activation_Sequencer/sequence_2/__init__.py
+ D System_Stack/Logos_Protocol/Protocol_Core/Activation_Sequencer/sequence_2/coordinator.py
+ D System_Stack/Logos_Protocol/Protocol_Core/Activation_Sequencer/sequence_2/dispatch.py
+ D System_Stack/Logos_Protocol/Protocol_Core/Activation_Sequencer/sequence_2/types.py
+ D System_Stack/Logos_Protocol/Protocol_Core/logos_protocol_manifest.json
+ D System_Stack/Logos_Protocol/Protocol_Core/runtime_protocol.py
+ D System_Stack/Logos_Protocol/Runtime_Operations/daemon/__init__.py
+ D System_Stack/Logos_Protocol/Runtime_Operations/daemon/logos_daemon.py
+ D System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/IEL_generator/__init__.py
+ D System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/IEL_generator/iel_evaluator.py
+ D System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/IEL_generator/iel_generator.py
+ D System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/IEL_generator/iel_registry.py
+ D System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/IEL_generator/iel_runtime_interface.py
+ D System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/IEL_generator/iel_signer.py
+ D System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/IEL_generator/iel_signing_standard_a8671592ec4be710.key
+ D System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/IEL_generator/master.key
+ D System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/LLM_Interface/.env.example
+ D System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/LLM_Interface/PROTOCOL_GROUNDED_INTERFACE.md
+ D System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/LLM_Interface/__init__.py
+ D System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/LLM_Interface/llm_advisor.py
+ D System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/LLM_Interface/logos_gpt_chat.py
+ D System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/LLM_Interface/logos_gpt_server.py
+ D System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/LLM_Interface/logos_interface.py
+ D System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/LLM_Interface/plugins/__init__.py
+ D System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/LLM_Interface/plugins/_uip_connector_stubs.py
+ D System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/LLM_Interface/plugins/enhanced_uip_integration_plugin.py
+ D System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/LLM_Interface/plugins/guardrails.py
+ D System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/LLM_Interface/plugins/llm_backend.py
+ D System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/LLM_Interface/plugins/state/mission_profile.json
+ D System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/LLM_Interface/plugins/uip_integration_plugin.py
+ D System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/LLM_Interface/reasoning_agent.py
+ D System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/LLM_Interface/requirements.txt
+ D System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/LLM_Interface/run_logos_gpt_acceptance.py
+ D System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/Learners/__init__.py
+ D System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/Learners/autonomous_learning_guide.md
+ D System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/Learners/deep_learning_adapter.py
+ D System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/Learners/ml_components.py
+ D System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/Learners/pytorch_ml_adapters.py
+ D System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/Learners/torch_adapters.py
+ D System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/Learners/world_model.py
+ D System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/.codacy.yml
+ D System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/.codebeatignore
+ D System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/.coveragerc
+ D System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/.gitattributes
+ D System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/.github/codeql.yml
+ D System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/.github/workflows/codeql.yml
+ D System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/.github/workflows/generate-documentation.yml
+ D System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/.gitignore
+ D System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/.landscape.yml
+ D System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/.pep8speaks.yml
+ D System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/.readthedocs.yaml
+ D System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/LICENSE.md
+ D System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/MANIFEST.in
+ D System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/README.md
+ D System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/__init__.py
+ D System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/arch/__future__/__init__.py
+ D System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/arch/__future__/reindexing.py
+ D System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/arch/__init__.py
+ D System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/arch/bootstrap/__init__.py
+ D System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/arch/bootstrap/_samplers.pyi
+ D System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/arch/bootstrap/_samplers.pyx
+ D System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/arch/bootstrap/_samplers_python.py
+ D System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/arch/bootstrap/base.py
+ D System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/arch/bootstrap/multiple_comparison.py
+ D System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/arch/compat/__init__.py
+ D System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/arch/compat/numba.py
+ D System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/arch/compat/pandas.py
+ D System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/arch/compat/statsmodels.py
+ D System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/arch/conftest.py
+ D System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/arch/covariance/__init__.py
+ D System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/arch/covariance/kernel.py
+ D System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/arch/data/__init__.py
+ D System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/arch/data/binary/__init__.py
+ D System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/arch/data/binary/binary.csv.gz
+ D System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/arch/data/core_cpi/__init__.py
+ D System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/arch/data/core_cpi/core-cpi.csv.gz
+ D System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/arch/data/crude/__init__.py
+ D System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/arch/data/crude/crude.csv.gz
+ D System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/arch/data/default/__init__.py
+ D System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/arch/data/default/default.csv.gz
+ D System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/arch/data/frenchdata/__init__.py
+ D System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/arch/data/frenchdata/frenchdata.csv.gz
+ D System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/arch/data/nasdaq/__init__.py
+ D System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/arch/data/nasdaq/nasdaq.csv.gz
+ D System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/arch/data/sp500/__init__.py
+ D System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/arch/data/sp500/sp500.csv.gz
+ D System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/arch/data/utility.py
+ D System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/arch/data/vix/__init__.py
+ D System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/arch/data/vix/vix.csv.gz
+ D System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/arch/data/wti/__init__.py
+ D System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/arch/data/wti/wti.csv.gz
+ D System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/arch/py.typed
+ D System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/arch/tests/__init__.py
+ D System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/arch/tests/bootstrap/__init__.py
+ D System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/arch/tests/bootstrap/test_block_length.py
+ D System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/arch/tests/bootstrap/test_bootstrap.py
+ D System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/arch/tests/bootstrap/test_multiple_comparison.py
+ D System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/arch/tests/covariance/__init__.py
+ D System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/arch/tests/covariance/test_covariance.py
+ D System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/arch/tests/test_compat.py
+ D System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/arch/tests/test_data.py
+ D System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/arch/tests/test_examples.py
+ D System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/arch/tests/test_tester.py
+ D System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/arch/tests/test_vendor.py
+ D System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/arch/tests/unitroot/__init__.py
+ D System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/arch/tests/unitroot/cointegration_data.py
+ D System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/arch/tests/unitroot/data/__init__.py
+ D System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/arch/tests/unitroot/data/zivot-andrews.csv
+ D System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/arch/tests/unitroot/test_dynamic_ols.py
+ D System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/arch/tests/unitroot/test_engle_granger.py
+ D System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/arch/tests/unitroot/test_fmols_ccr.py
+ D System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/arch/tests/unitroot/test_phillips_ouliaris.py
+ D System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/arch/tests/unitroot/test_unitroot.py
+ D System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/arch/tests/univariate/__init__.py
+ D System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/arch/tests/univariate/test_arch_in_mean.py
+ D System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/arch/tests/univariate/test_base.py
+ D System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/arch/tests/univariate/test_distribution.py
+ D System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/arch/tests/univariate/test_forecast.py
+ D System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/arch/tests/univariate/test_mean.py
+ D System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/arch/tests/univariate/test_moment.py
+ D System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/arch/tests/univariate/test_recursions.py
+ D System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/arch/tests/univariate/test_rescale.py
+ D System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/arch/tests/univariate/test_variance_forecasting.py
+ D System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/arch/tests/univariate/test_volatility.py
+ D System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/arch/tests/utility/__init__.py
+ D System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/arch/tests/utility/test_array.py
+ D System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/arch/tests/utility/test_cov.py
+ D System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/arch/tests/utility/test_io.py
+ D System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/arch/tests/utility/test_timeseries.py
+ D System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/arch/tests/utility/test_utility.py
+ D System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/arch/typing.py
+ D System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/arch/unitroot/__init__.py
+ D System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/arch/unitroot/_engle_granger.py
+ D System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/arch/unitroot/_phillips_ouliaris.py
+ D System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/arch/unitroot/_shared.py
+ D System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/arch/unitroot/cointegration.py
+ D System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/arch/unitroot/critical_values/__init__.py
+ D System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/arch/unitroot/critical_values/dfgls.py
+ D System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/arch/unitroot/critical_values/dickey_fuller.py
+ D System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/arch/unitroot/critical_values/engle_granger.py
+ D System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/arch/unitroot/critical_values/kpss.py
+ D System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/arch/unitroot/critical_values/phillips_ouliaris.py
+ D System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/arch/unitroot/critical_values/simulation/__init__.py
+ D System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/arch/unitroot/critical_values/simulation/adf_simulation.py
+ D System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/arch/unitroot/critical_values/simulation/adf_z_critical_values_simulation.py
+ D System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/arch/unitroot/critical_values/simulation/adf_z_critical_values_simulation_joblib.py
+ D System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/arch/unitroot/critical_values/simulation/adf_z_critical_values_simulation_large_cluster.py
+ D System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/arch/unitroot/critical_values/simulation/adf_z_simlation_process.py
+ D System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/arch/unitroot/critical_values/simulation/dfgls_critical_values_simulation.py
+ D System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/arch/unitroot/critical_values/simulation/dfgls_simulation_process.py
+ D System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/arch/unitroot/critical_values/simulation/eg_setup.bat
+ D System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/arch/unitroot/critical_values/simulation/eg_setup.ps1
+ D System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/arch/unitroot/critical_values/simulation/eg_setup.sh
+ D System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/arch/unitroot/critical_values/simulation/engle_granger_simulation.py
+ D System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/arch/unitroot/critical_values/simulation/engle_granger_simulation_process.py
+ D System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/arch/unitroot/critical_values/simulation/kpss_critical_values_simulation.py
+ D System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/arch/unitroot/critical_values/simulation/kpss_simulation_process.py
+ D System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/arch/unitroot/critical_values/simulation/phillips-ouliaris-simulation-process.py
+ D System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/arch/unitroot/critical_values/simulation/phillips-ouliaris-simulation.py
+ D System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/arch/unitroot/critical_values/simulation/phillips_ouliaris.py
+ D System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/arch/unitroot/critical_values/simulation/requirements.txt
+ D System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/arch/unitroot/critical_values/simulation/shared.py
+ D System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/arch/unitroot/critical_values/zivot_andrews.py
+ D System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/arch/unitroot/unitroot.py
+ D System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/arch/univariate/__init__.py
+ D System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/arch/univariate/base.py
+ D System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/arch/univariate/distribution.py
+ D System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/arch/univariate/mean.py
+ D System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/arch/univariate/recursions.pyi
+ D System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/arch/univariate/recursions.pyx
+ D System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/arch/univariate/recursions_python.py
+ D System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/arch/univariate/volatility.py
+ D System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/arch/utility/__init__.py
+ D System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/arch/utility/array.py
+ D System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/arch/utility/cov.py
+ D System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/arch/utility/exceptions.py
+ D System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/arch/utility/io.py
+ D System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/arch/utility/testing.py
+ D System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/arch/utility/timeseries.py
+ D System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/arch/vendor/__init__.py
+ D System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/arch/vendor/_decorators.py
+ D System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/azure-pipelines.yml
+ D System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/ci/__init__.py
+ D System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/ci/azure/azure_template_posix.yml
+ D System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/ci/azure/azure_template_windows.yml
+ D System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/ci/azure/install-posix.sh
+ D System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/ci/azure/update_path.sh
+ D System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/ci/github-actions/push-docs-gh-pages.sh
+ D System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/ci/install-statsmodels-main.sh
+ D System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/ci/performance.py
+ D System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/codecov.yml
+ D System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/doc/Makefile
+ D System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/doc/make.bat
+ D System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/doc/requirements.txt
+ D System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/doc/source/__init__.py
+ D System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/doc/source/_static/.gitignore
+ D System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/doc/source/_static/css/small_fixes.css
+ D System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/doc/source/_static/images/android-chrome-192x192.png
+ D System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/doc/source/_static/images/android-chrome-512x512.png
+ D System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/doc/source/_static/images/apple-touch-icon.png
+ D System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/doc/source/_static/images/browserconfig.xml
+ D System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/doc/source/_static/images/color-logo-256.png
+ D System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/doc/source/_static/images/favicon-16x16.png
+ D System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/doc/source/_static/images/favicon-32x32.png
+ D System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/doc/source/_static/images/mstile-150x150.png
+ D System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/doc/source/_static/images/safari-pinned-tab.svg
+ D System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/doc/source/_static/images/site.webmanifest
+ D System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/doc/source/_templates/autosummary/attribute.rst
+ D System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/doc/source/_templates/autosummary/class.rst
+ D System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/doc/source/_templates/autosummary/member.rst
+ D System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/doc/source/_templates/autosummary/method.rst
+ D System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/doc/source/_templates/autosummary/minimal_module.rst
+ D System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/doc/source/_templates/layout.html
+ D System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/doc/source/api.rst
+ D System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/doc/source/bootstrap/background.rst
+ D System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/doc/source/bootstrap/bootstrap.rst
+ D System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/doc/source/bootstrap/bootstrap_histogram.png
+ D System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/doc/source/bootstrap/confidence-intervals.rst
+ D System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/doc/source/bootstrap/iid-bootstraps.rst
+ D System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/doc/source/bootstrap/low-level-interface.rst
+ D System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/doc/source/bootstrap/parameter-covariance-estimation.rst
+ D System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/doc/source/bootstrap/semiparametric-parametric-bootstrap.rst
+ D System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/doc/source/bootstrap/timeseries-bootstraps.rst
+ D System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/doc/source/changes.rst
+ D System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/doc/source/changes/1.0.rst
+ D System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/doc/source/changes/2.0.rst
+ D System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/doc/source/changes/3.0.rst
+ D System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/doc/source/changes/4.0.rst
+ D System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/doc/source/changes/5.0.rst
+ D System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/doc/source/changes/6.0.rst
+ D System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/doc/source/changes/7.0.rst
+ D System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/doc/source/conf.py
+ D System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/doc/source/covariance/covariance.rst
+ D System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/doc/source/images/__init__.py
+ D System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/doc/source/images/bw-logo.svg
+ D System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/doc/source/images/color-logo-no-text.svg
+ D System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/doc/source/images/color-logo-unprocessed.svg
+ D System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/doc/source/images/color-logo.png
+ D System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/doc/source/images/color-logo.svg
+ D System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/doc/source/images/favicon.ico
+ D System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/doc/source/images/favicon.png
+ D System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/doc/source/images/favicon.py
+ D System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/doc/source/images/favicon.svg
+ D System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/doc/source/images/hero.png
+ D System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/doc/source/images/hero.py
+ D System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/doc/source/images/hero.svg
+ D System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/doc/source/images/logo.svg
+ D System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/doc/source/index.rst
+ D System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/doc/source/multiple-comparison/background.rst
+ D System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/doc/source/multiple-comparison/multiple-comparison-reference.rst
+ D System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/doc/source/multiple-comparison/multiple-comparisons.rst
+ D System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/doc/source/names_wordlist.txt
+ D System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/doc/source/spelling_wordlist.txt
+ D System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/doc/source/types.rst
+ D System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/doc/source/unitroot/cointegration.rst
+ D System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/doc/source/unitroot/introduction.rst
+ D System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/doc/source/unitroot/tests.rst
+ D System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/doc/source/unitroot/unitroot.rst
+ D System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/doc/source/univariate/background.rst
+ D System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/doc/source/univariate/distribution.rst
+ D System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/doc/source/univariate/forecasting.rst
+ D System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/doc/source/univariate/introduction.rst
+ D System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/doc/source/univariate/mean.rst
+ D System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/doc/source/univariate/results.rst
+ D System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/doc/source/univariate/univariate.rst
+ D System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/doc/source/univariate/utility.rst
+ D System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/doc/source/univariate/volatility.rst
+ D System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/examples/bootstrap_examples.ipynb
+ D System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/examples/multiple-comparison_examples.ipynb
+ D System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/examples/unitroot_cointegration_examples.ipynb
+ D System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/examples/unitroot_examples.ipynb
+ D System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/examples/univariate_forecasting_with_exogenous_variables.ipynb
+ D System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/examples/univariate_using_fixed_variance.ipynb
+ D System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/examples/univariate_volatility_forecasting.ipynb
+ D System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/examples/univariate_volatility_modeling.ipynb
+ D System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/examples/univariate_volatility_scenarios.ipynb
+ D System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/lgtm.yml
+ D System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/meson.build
+ D System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/py.typed
+ D System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/pyproject.toml
+ D System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/requirements-dev.txt
+ D System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/requirements.txt
+ D System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/setup.cfg
+ D System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/setup.py
+ D System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/examiners/__init__.py
+ D System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/examiners/ledger.py
+ D System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/examiners/proof_refs.py
+ D System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/forecasting/__init__.py
+ D System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/forecasting/arima_wrapper.py
+ D System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/forecasting/forecasting_nexus.py
+ D System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/forecasting/garch_wrapper.py
+ D System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/forecasting/kalman_filter.py
+ D System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/forecasting/safe_exports.py
+ D System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/forecasting/state_space_utils.py
+ D System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/forecasting/ts_kalman_filter.py
+ D System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/goals_plans/__init__.py
+ D System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/goals_plans/evaluator.py
+ D System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/goals_plans/plan_scoring.py
+ D System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/inferencers/__init__.py
+ D System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/inferencers/bayesian_inference.py
+ D System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/inferencers/gap_detector.py
+ D System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/inferencers/temporal_predictor.py
+ D System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/math_logic/__init__.py
+ D System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/math_logic/cognitive_transducer_math.py
+ D System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/math_logic/coherence_metrics.py
+ D System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/math_logic/coherence_optimizer.py
+ D System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/math_logic/logos_mathematical_core.py
+ D System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/math_logic/ontological_axioms.py
+ D System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/planners/__init__.py
+ D System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/planners/goals.py
+ D System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/planners/plan_validation.py
+ D System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/planners/planner.py
+ D System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/services/__init__.py
+ D System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/services/adaptive_interface.py
+ D System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/services/agi_config.json
+ D System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/services/core_service.py
+ D System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/services/deploy_core_services.py
+ D System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/services/deploy_full_stack.py
+ D System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/services/extensions_loader.py
+ D System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/services/logos_daemon.py
+ D System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/services/main.py
+ D System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/services/performance.py
+ D System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/services/policy.py
+ D System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/structural_causal/__init__.py
+ D System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/structural_causal/counterfactuals.py
+ D System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/structural_causal/scm.py
+ D System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/translators/__init__.py
+ D System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/translators/semantic_transformers.py
+ D System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/translators/translation_engine.py
+ D System_Stack/Logos_Protocol/Unified_Working_Memory/Structured_Memory_Packets/__init__.py
+ D System_Stack/Logos_Protocol/Unified_Working_Memory/Structured_Memory_Packets/epistemic.json
+ D System_Stack/Logos_Protocol/Unified_Working_Memory/Structured_Memory_Packets/logical.json
+ D System_Stack/Logos_Protocol/Unified_Working_Memory/Structured_Memory_Packets/moral.json
+ D System_Stack/Logos_Protocol/Unified_Working_Memory/Structured_Memory_Packets/ontological.json
+ D System_Stack/Logos_Protocol/Unified_Working_Memory/Structured_Memory_Packets/self_reflective.json
+ D System_Stack/Logos_Protocol/Unified_Working_Memory/Structured_Memory_Packets/structural.json
+ D System_Stack/Logos_Protocol/Unified_Working_Memory/Unstructured_Memory_Packets/agent_identity.json
+ D System_Stack/Logos_Protocol/Unified_Working_Memory/Unstructured_Memory_Packets/agent_identity.json.backup
+ D System_Stack/Logos_Protocol/Unified_Working_Memory/Unstructured_Memory_Packets/agent_state.json
+ D System_Stack/Logos_Protocol/Unified_Working_Memory/Unstructured_Memory_Packets/alignment_LOGOS-AGENT-OMEGA.json
+ D System_Stack/Logos_Protocol/Unified_Working_Memory/Unstructured_Memory_Packets/axiom_footprint.json
+ D System_Stack/Logos_Protocol/Unified_Working_Memory/Unstructured_Memory_Packets/commitment_ledger.json
+ D System_Stack/Logos_Protocol/Unified_Working_Memory/Unstructured_Memory_Packets/coq_theorem_index.json
+ D System_Stack/Logos_Protocol/Unified_Working_Memory/Unstructured_Memory_Packets/integrity_hashes.json
+ D System_Stack/Logos_Protocol/Unified_Working_Memory/Unstructured_Memory_Packets/latest_planner_digest_archive.txt
+ D System_Stack/Logos_Protocol/Unified_Working_Memory/Unstructured_Memory_Packets/logos_agi_pin.json
+ D System_Stack/Logos_Protocol/Unified_Working_Memory/Unstructured_Memory_Packets/mission_profile.json
+ D System_Stack/Logos_Protocol/Unified_Working_Memory/Unstructured_Memory_Packets/planner_digest_archives/planner_digests_20251226T150902Z.jsonl.gz
+ D System_Stack/Logos_Protocol/Unified_Working_Memory/Unstructured_Memory_Packets/planner_digest_archives/planner_digests_20251226T151638Z.jsonl.gz
+ D System_Stack/Logos_Protocol/Unified_Working_Memory/Unstructured_Memory_Packets/planner_digest_archives/planner_digests_20251226T162000Z.jsonl.gz
+ D System_Stack/Logos_Protocol/Unified_Working_Memory/Unstructured_Memory_Packets/planner_digest_archives/planner_digests_20251226T162239Z.jsonl.gz
+ D System_Stack/Logos_Protocol/Unified_Working_Memory/Unstructured_Memory_Packets/planner_digest_archives/planner_digests_20251226T164821Z.jsonl.gz
+ D System_Stack/Logos_Protocol/Unified_Working_Memory/Unstructured_Memory_Packets/planner_digest_archives/planner_digests_20251226T181544Z.jsonl.gz
+ D System_Stack/Logos_Protocol/Unified_Working_Memory/Unstructured_Memory_Packets/planner_digest_archives/planner_digests_20251226T181904Z.jsonl.gz
+ D System_Stack/Logos_Protocol/Unified_Working_Memory/Unstructured_Memory_Packets/planner_digest_archives/planner_digests_20251226T182112Z.jsonl.gz
+ D System_Stack/Logos_Protocol/Unified_Working_Memory/Unstructured_Memory_Packets/planner_digest_archives/planner_digests_20251226T184016Z.jsonl.gz
+ D System_Stack/Logos_Protocol/Unified_Working_Memory/Unstructured_Memory_Packets/planner_digest_archives/planner_digests_20251226T184050Z.jsonl.gz
+ D System_Stack/Logos_Protocol/Unified_Working_Memory/Unstructured_Memory_Packets/planner_digest_archives/planner_digests_20251226T190400Z.jsonl.gz
+ D System_Stack/Logos_Protocol/Unified_Working_Memory/Unstructured_Memory_Packets/planner_digest_archives/planner_digests_20251226T191307Z.jsonl.gz
+ D System_Stack/Logos_Protocol/Unified_Working_Memory/Unstructured_Memory_Packets/planner_digest_archives/planner_digests_20251226T192512Z.jsonl.gz
+ D System_Stack/Logos_Protocol/Unified_Working_Memory/Unstructured_Memory_Packets/planner_digest_archives/planner_digests_20251226T202926Z.jsonl.gz
+ D System_Stack/Logos_Protocol/Unified_Working_Memory/Unstructured_Memory_Packets/planner_digest_archives/planner_digests_20251226T222520Z.jsonl.gz
+ D System_Stack/Logos_Protocol/Unified_Working_Memory/Unstructured_Memory_Packets/planner_digest_archives/planner_digests_20251226T222625Z.jsonl.gz
+ D System_Stack/Logos_Protocol/Unified_Working_Memory/Unstructured_Memory_Packets/planner_digest_archives/planner_digests_20251226T223756Z.jsonl.gz
+ D System_Stack/Logos_Protocol/Unified_Working_Memory/Unstructured_Memory_Packets/planner_digest_archives/planner_digests_20251226T224658Z.jsonl.gz
+ D System_Stack/Logos_Protocol/Unified_Working_Memory/Unstructured_Memory_Packets/planner_digest_archives/planner_digests_20251226T224846Z.jsonl.gz
+ D System_Stack/Logos_Protocol/Unified_Working_Memory/Unstructured_Memory_Packets/planner_digest_archives/planner_digests_20251226T225556Z.jsonl.gz
+ D System_Stack/Logos_Protocol/Unified_Working_Memory/Unstructured_Memory_Packets/planner_digest_archives/planner_digests_20251226T225642Z.jsonl.gz
+ D System_Stack/Logos_Protocol/Unified_Working_Memory/Unstructured_Memory_Packets/planner_digest_archives/planner_digests_20251226T230750Z.jsonl.gz
+ D System_Stack/Logos_Protocol/Unified_Working_Memory/Unstructured_Memory_Packets/planner_digest_archives/planner_digests_20251226T231113Z.jsonl.gz
+ D System_Stack/Logos_Protocol/Unified_Working_Memory/Unstructured_Memory_Packets/planner_digest_archives/planner_digests_20251226T231145Z.jsonl.gz
+ D System_Stack/Logos_Protocol/Unified_Working_Memory/Unstructured_Memory_Packets/planner_digest_archives/planner_digests_20251226T231345Z.jsonl.gz
+ D System_Stack/Logos_Protocol/Unified_Working_Memory/Unstructured_Memory_Packets/planner_digest_archives/planner_digests_20251226T231510Z.jsonl.gz
+ D System_Stack/Logos_Protocol/Unified_Working_Memory/Unstructured_Memory_Packets/planner_digest_archives/planner_digests_20251226T231630Z.jsonl.gz
+ D System_Stack/Logos_Protocol/Unified_Working_Memory/Unstructured_Memory_Packets/planner_digest_archives/planner_digests_20251226T231757Z.jsonl.gz
+ D System_Stack/Logos_Protocol/Unified_Working_Memory/Unstructured_Memory_Packets/planner_digest_archives/planner_digests_20251226T233507Z.jsonl.gz
+ D System_Stack/Logos_Protocol/Unified_Working_Memory/Unstructured_Memory_Packets/planner_digest_archives/planner_digests_20251227T013220Z.jsonl.gz
+ D System_Stack/Logos_Protocol/Unified_Working_Memory/Unstructured_Memory_Packets/planner_digest_archives/planner_digests_20251227T013352Z.jsonl.gz
+ D System_Stack/Logos_Protocol/Unified_Working_Memory/Unstructured_Memory_Packets/planner_digest_archives/planner_digests_20251227T013423Z.jsonl.gz
+ D System_Stack/Logos_Protocol/Unified_Working_Memory/Unstructured_Memory_Packets/planner_digest_archives/planner_digests_20251227T013453Z.jsonl.gz
+ D System_Stack/Logos_Protocol/Unified_Working_Memory/Unstructured_Memory_Packets/planner_digest_archives/planner_digests_20251227T013517Z.jsonl.gz
+ D System_Stack/Logos_Protocol/Unified_Working_Memory/Unstructured_Memory_Packets/planner_digest_archives/planner_digests_20251227T021931Z.jsonl.gz
+ D System_Stack/Logos_Protocol/Unified_Working_Memory/Unstructured_Memory_Packets/planner_digest_archives/planner_digests_20251227T022157Z.jsonl.gz
+ D System_Stack/Logos_Protocol/Unified_Working_Memory/Unstructured_Memory_Packets/planner_digest_archives/planner_digests_20251227T022426Z.jsonl.gz
+ D System_Stack/Logos_Protocol/Unified_Working_Memory/Unstructured_Memory_Packets/planner_digest_archives/planner_digests_20251227T033233Z.jsonl.gz
+ D System_Stack/Logos_Protocol/Unified_Working_Memory/Unstructured_Memory_Packets/planner_digest_archives/planner_digests_20251227T034021Z.jsonl.gz
+ D System_Stack/Logos_Protocol/Unified_Working_Memory/Unstructured_Memory_Packets/planner_digest_archives/planner_digests_20251227T035305Z.jsonl.gz
+ D System_Stack/Logos_Protocol/Unified_Working_Memory/Unstructured_Memory_Packets/planner_digest_archives/planner_digests_20251227T035336Z.jsonl.gz
+ D System_Stack/Logos_Protocol/Unified_Working_Memory/Unstructured_Memory_Packets/planner_digest_archives/planner_digests_20251227T045823Z.jsonl.gz
+ D System_Stack/Logos_Protocol/Unified_Working_Memory/Unstructured_Memory_Packets/planner_digest_archives/planner_digests_20251227T054026Z.jsonl.gz
+ D System_Stack/Logos_Protocol/Unified_Working_Memory/Unstructured_Memory_Packets/planner_digest_archives/planner_digests_20251227T062644Z.jsonl.gz
+ D System_Stack/Logos_Protocol/Unified_Working_Memory/Unstructured_Memory_Packets/planner_digest_archives/planner_digests_20251227T062828Z.jsonl.gz
+ D System_Stack/Logos_Protocol/Unified_Working_Memory/Unstructured_Memory_Packets/planner_digest_archives/planner_digests_20251227T062950Z.jsonl.gz
+ D System_Stack/Logos_Protocol/Unified_Working_Memory/Unstructured_Memory_Packets/planner_digests.jsonl
+ D System_Stack/Logos_Protocol/Unified_Working_Memory/Unstructured_Memory_Packets/proposal_metrics.json
+ D System_Stack/Logos_Protocol/Unified_Working_Memory/Unstructured_Memory_Packets/repository_knowledge_base.json
+ D System_Stack/Logos_Protocol/Unified_Working_Memory/Unstructured_Memory_Packets/run_cycle_history.jsonl
+ D System_Stack/Logos_Protocol/Unified_Working_Memory/Unstructured_Memory_Packets/safeguard_states.pkl
+ D System_Stack/Logos_Protocol/Unified_Working_Memory/Unstructured_Memory_Packets/scp_state.json
+ D System_Stack/Logos_Protocol/Unified_Working_Memory/Unstructured_Memory_Packets/smp_stream.jsonl
+ D System_Stack/Logos_Protocol/Unified_Working_Memory/Unstructured_Memory_Packets/tool_invention/proposals/tool_invention_io_normalizer_20251227T190646Z_1.py
+ D System_Stack/Logos_Protocol/Unified_Working_Memory/Unstructured_Memory_Packets/tool_invention/proposals/tool_invention_io_normalizer_20251227T190705Z_0.py
+ D System_Stack/Logos_Protocol/Unified_Working_Memory/Unstructured_Memory_Packets/tool_invention/proposals/tool_invention_regression_checker_20251227T190646Z_2.py
+ D System_Stack/Logos_Protocol/Unified_Working_Memory/Unstructured_Memory_Packets/tool_invention/proposals/tool_invention_tool_chain_executor_20251227T190646Z_0.py
+ D System_Stack/Logos_Protocol/Unified_Working_Memory/Unstructured_Memory_Packets/tool_invention/tool_gap_report.json
+ D System_Stack/Logos_Protocol/Unified_Working_Memory/Unstructured_Memory_Packets/tool_invention/tool_invention_report.json
+ D System_Stack/Logos_Protocol/Unified_Working_Memory/Unstructured_Memory_Packets/tool_optimizer/tool_chain_profiles.json
+ D System_Stack/Logos_Protocol/Unified_Working_Memory/Unstructured_Memory_Packets/tool_optimizer/tool_optimizer_report.json
+ D System_Stack/Logos_Protocol/Unified_Working_Memory/Unstructured_Memory_Packets/tool_optimizer/tool_registry.json
+ D System_Stack/Logos_Protocol/Unified_Working_Memory/Unstructured_Memory_Packets/world_model_snapshot.json
+ D System_Stack/User_Interaction_Protocol/README.md
+ D System_Stack/User_Interaction_Protocol/__init__.py
+ D System_Stack/User_Interaction_Protocol/_archive_input_output_processing/__init__.py
+ D System_Stack/User_Interaction_Protocol/_archive_input_output_processing/input/__init__.py
+ D System_Stack/User_Interaction_Protocol/_archive_input_output_processing/input/input_sanitizer.py
+ D System_Stack/User_Interaction_Protocol/_archive_input_output_processing/input/progressive_router.py
+ D System_Stack/User_Interaction_Protocol/_archive_input_output_processing/input/pxl_compliance_gate.py
+ D System_Stack/User_Interaction_Protocol/_archive_input_output_processing/input/session_initializer.py
+ D System_Stack/User_Interaction_Protocol/_archive_input_output_processing/input/uip_registry.py
+ D System_Stack/User_Interaction_Protocol/_archive_input_output_processing/ontological_validator.py
+ D System_Stack/User_Interaction_Protocol/_archive_input_output_processing/output/__init__.py
+ D System_Stack/User_Interaction_Protocol/_archive_input_output_processing/output/response_formatter.py
+ D System_Stack/User_Interaction_Protocol/_archive_input_output_processing/translators/__init__.py
+ D System_Stack/User_Interaction_Protocol/_archive_input_output_processing/translators/adaptive_processing.py
+ D System_Stack/User_Interaction_Protocol/_archive_input_output_processing/translators/bridge_translator.py
+ D System_Stack/User_Interaction_Protocol/_archive_input_output_processing/translators/linguistic_analysis.py
+ D System_Stack/User_Interaction_Protocol/_archive_input_output_processing/translators/mcmc_engine.py
+ D System_Stack/User_Interaction_Protocol/_archive_input_output_processing/translators/natural_language_processor.py
+ D System_Stack/User_Interaction_Protocol/_archive_input_output_processing/translators/nlp_processor.py
+ D System_Stack/User_Interaction_Protocol/_archive_input_output_processing/translators/semantic_transformers.py
+ D System_Stack/User_Interaction_Protocol/_archive_input_output_processing/translators/translation/__init__.py
+ D System_Stack/User_Interaction_Protocol/_archive_input_output_processing/translators/translation/translation_engine.py
+ D System_Stack/User_Interaction_Protocol/_archive_input_output_processing/translators/translation_bridge.py
+ D System_Stack/User_Interaction_Protocol/_archive_input_output_processing/translators/translation_engine.py
+ D System_Stack/User_Interaction_Protocol/_archive_input_output_processing/translators/translation_evaluator.py
+ D System_Stack/User_Interaction_Protocol/input_output_processing/__init__.py
+ D System_Stack/User_Interaction_Protocol/input_output_processing/parser.py
+ D System_Stack/User_Interaction_Protocol/input_output_processing/sanitizer.py
+ D System_Stack/User_Interaction_Protocol/interface_runtime/__init__.py
+ D System_Stack/User_Interaction_Protocol/interface_runtime/interface_runtime.py
+ D System_Stack/User_Interaction_Protocol/interface_runtime/router.py
+ D System_Stack/User_Interaction_Protocol/interfaces/__init__.py
+ D System_Stack/User_Interaction_Protocol/interfaces/services/__init__.py
+ D System_Stack/User_Interaction_Protocol/interfaces/services/gui_interfaces/__init__.py
+ D System_Stack/User_Interaction_Protocol/interfaces/services/gui_interfaces/logos_gui.py
+ D System_Stack/User_Interaction_Protocol/interfaces/services/gui_interfaces/logos_trinity_gui.py
+ D System_Stack/User_Interaction_Protocol/interfaces/services/serve_pxl.py
+ D System_Stack/User_Interaction_Protocol/language_modules/__init__.py
+ D System_Stack/User_Interaction_Protocol/language_modules/natural_language_processor.py
+ D System_Stack/User_Interaction_Protocol/language_modules/semantic_transformers.py
+ D System_Stack/User_Interaction_Protocol/language_modules/tranlsation_bridge.py
+ D System_Stack/User_Interaction_Protocol/language_modules/translation_engine.py
+ D System_Stack/User_Interaction_Protocol/metadata_filters/__init__.py
+ D System_Stack/User_Interaction_Protocol/metadata_filters/response_engine.py
+ D System_Stack/User_Interaction_Protocol/smp_packetizer/__init__.py
+ D System_Stack/User_Interaction_Protocol/symbolic_translation/__init__.py
+ D System_Stack/User_Interaction_Protocol/symbolic_translation/lambda_engine.py
+ D System_Stack/User_Interaction_Protocol/symbolic_translation/lambda_engine_definitions.py
+ D System_Stack/User_Interaction_Protocol/symbolic_translation/lambda_onto_calculus_engine.py
+ D System_Stack/User_Interaction_Protocol/symbolic_translation/lambda_parser.py
+ D System_Stack/User_Interaction_Protocol/symbolic_translation/logos_lambda_core.py
+ D System_Stack/User_Interaction_Protocol/symbolic_translation/logos_lambda_integration.py
+ D System_Stack/User_Interaction_Protocol/symbolic_translation/translation/__init__.py
+ D System_Stack/User_Interaction_Protocol/symbolic_translation/translation/translation_engine.py
+ D System_Stack/User_Interaction_Protocol/system_utilities/PROTOCOL_OPERATIONS.txt
+ D System_Stack/User_Interaction_Protocol/system_utilities/README.md
+ D System_Stack/User_Interaction_Protocol/system_utilities/__init__.py
+ D System_Stack/User_Interaction_Protocol/system_utilities/lem_portal_cli.py
+ D System_Stack/User_Interaction_Protocol/system_utilities/nexus/__init__.py
+ D "System_Stack/User_Interaction_Protocol/system_utilities/nexus/nexus copy/__init__.py"
+ D "System_Stack/User_Interaction_Protocol/system_utilities/nexus/nexus copy/gui_nexus.py"
+ D System_Stack/User_Interaction_Protocol/system_utilities/nexus/uip_nexus.py
+ D System_Stack/User_Interaction_Protocol/system_utilities/nexus/uip_operations.py
+ D System_Stack/User_Interaction_Protocol/system_utilities/shared/__init__.py
+ D System_Stack/User_Interaction_Protocol/system_utilities/shared/message_formats.py
+ D System_Stack/User_Interaction_Protocol/system_utilities/shared/system_imports.py
+ D System_Stack/User_Interaction_Protocol/tests/test_registry_and_response.py
+ D System_Stack/User_Interaction_Protocol/uip_protocol/__init__.py
+ D System_Stack/User_Interaction_Protocol/uip_protocol/core_processing/__init__.py
+ D System_Stack/User_Interaction_Protocol/uip_protocol/core_processing/adaptive_engine.py
+ D System_Stack/User_Interaction_Protocol/uip_protocol/core_processing/language_processor.py
+ D System_Stack/User_Interaction_Protocol/uip_protocol/core_processing/mcmc_engine.py
+ D System_Stack/User_Interaction_Protocol/uip_protocol/core_processing/registry.py
+ D System_Stack/User_Interaction_Protocol/uip_protocol/input/__init__.py
+ D System_Stack/User_Interaction_Protocol/uip_protocol/input/input_handler.py
+ D System_Stack/User_Interaction_Protocol/uip_protocol/output/__init__.py
+ D System_Stack/User_Interaction_Protocol/uip_protocol/output/response_formatter.py
+ D System_Stack/User_Interaction_Protocol/uip_protocol/progressive_router.py
+ D System_Stack/User_Interaction_Protocol/uip_protocol/utils/__init__.py
+ D System_Stack/User_Interaction_Protocol/uip_protocol/utils/system_utils.py
+ M System_Stack/vsrocq
+ D _new/falsifiability_test.ml
+ D _new/falsifiability_test.mli
+ D state/IDENTITY_HASH.txt
+ D state/agent_identity.json
+ D state/agent_identity.json.backup
+ D state/alignment/runtime_protocol.jsonl
+ D state/commitment_ledger.json
+ D state/coq_theorem_index.json
+ D state/golden_run_fingerprint.txt
+ D state/integrity_hashes.json
+ D state/latest_planner_digest_archive.txt
+ D state/logos_agi_pin.json
+ D state/planner_digest_archives/planner_digests_20251226T150902Z.jsonl.gz
+ D state/planner_digest_archives/planner_digests_20251226T151638Z.jsonl.gz
+ D state/planner_digest_archives/planner_digests_20251226T162000Z.jsonl.gz
+ D state/planner_digest_archives/planner_digests_20251226T162239Z.jsonl.gz
+ D state/planner_digest_archives/planner_digests_20251226T164821Z.jsonl.gz
+ D state/planner_digest_archives/planner_digests_20251226T181544Z.jsonl.gz
+ D state/planner_digest_archives/planner_digests_20251226T181904Z.jsonl.gz
+ D state/planner_digest_archives/planner_digests_20251226T182112Z.jsonl.gz
+ D state/planner_digest_archives/planner_digests_20251226T184016Z.jsonl.gz
+ D state/planner_digest_archives/planner_digests_20251226T184050Z.jsonl.gz
+ D state/planner_digest_archives/planner_digests_20251226T190400Z.jsonl.gz
+ D state/planner_digest_archives/planner_digests_20251226T191307Z.jsonl.gz
+ D state/planner_digest_archives/planner_digests_20251226T192512Z.jsonl.gz
+ D state/planner_digest_archives/planner_digests_20251226T202926Z.jsonl.gz
+ D state/planner_digest_archives/planner_digests_20251226T222520Z.jsonl.gz
+ D state/planner_digest_archives/planner_digests_20251226T222625Z.jsonl.gz
+ D state/planner_digest_archives/planner_digests_20251226T223756Z.jsonl.gz
+ D state/planner_digest_archives/planner_digests_20251226T224658Z.jsonl.gz
+ D state/planner_digest_archives/planner_digests_20251226T224846Z.jsonl.gz
+ D state/planner_digest_archives/planner_digests_20251226T225556Z.jsonl.gz
+ D state/planner_digest_archives/planner_digests_20251226T225642Z.jsonl.gz
+ D state/planner_digest_archives/planner_digests_20251226T230750Z.jsonl.gz
+ D state/planner_digest_archives/planner_digests_20251226T231113Z.jsonl.gz
+ D state/planner_digest_archives/planner_digests_20251226T231145Z.jsonl.gz
+ D state/planner_digest_archives/planner_digests_20251226T231345Z.jsonl.gz
+ D state/planner_digest_archives/planner_digests_20251226T231510Z.jsonl.gz
+ D state/planner_digest_archives/planner_digests_20251226T231630Z.jsonl.gz
+ D state/planner_digest_archives/planner_digests_20251226T231757Z.jsonl.gz
+ D state/planner_digest_archives/planner_digests_20251226T233507Z.jsonl.gz
+ D state/planner_digest_archives/planner_digests_20251227T013220Z.jsonl.gz
+ D state/planner_digest_archives/planner_digests_20251227T013352Z.jsonl.gz
+ D state/planner_digest_archives/planner_digests_20251227T013423Z.jsonl.gz
+ D state/planner_digest_archives/planner_digests_20251227T013453Z.jsonl.gz
+ D state/planner_digest_archives/planner_digests_20251227T013517Z.jsonl.gz
+ D state/planner_digest_archives/planner_digests_20251227T021931Z.jsonl.gz
+ D state/planner_digest_archives/planner_digests_20251227T022157Z.jsonl.gz
+ D state/planner_digest_archives/planner_digests_20251227T022426Z.jsonl.gz
+ D state/planner_digest_archives/planner_digests_20251227T033233Z.jsonl.gz
+ D state/planner_digest_archives/planner_digests_20251227T034021Z.jsonl.gz
+ D state/planner_digest_archives/planner_digests_20251227T035305Z.jsonl.gz
+ D state/planner_digest_archives/planner_digests_20251227T035336Z.jsonl.gz
+ D state/planner_digest_archives/planner_digests_20251227T045823Z.jsonl.gz
+ D state/planner_digest_archives/planner_digests_20251227T054026Z.jsonl.gz
+ D state/planner_digest_archives/planner_digests_20251227T062644Z.jsonl.gz
+ D state/planner_digest_archives/planner_digests_20251227T062828Z.jsonl.gz
+ D state/planner_digest_archives/planner_digests_20251227T062950Z.jsonl.gz
+ D state/planner_digests.jsonl
+ D state/proposal_metrics.json
+ D state/repository_knowledge_base.json
+ D state/run_cycle_history.jsonl
+ D state/safeguard_states.pkl
+ D state/scp_state.json
+ D state/tool_invention/proposals/tool_invention_io_normalizer_20251227T190646Z_1.py
+ D state/tool_invention/proposals/tool_invention_io_normalizer_20251227T190705Z_0.py
+ D state/tool_invention/proposals/tool_invention_regression_checker_20251227T190646Z_2.py
+ D state/tool_invention/proposals/tool_invention_tool_chain_executor_20251227T190646Z_0.py
+ D state/tool_invention/tool_gap_report.json
+ D state/tool_invention/tool_invention_report.json
+ D state/tool_optimizer/tool_chain_profiles.json
+ D state/tool_optimizer/tool_optimizer_report.json
+ D state/tool_optimizer/tool_registry.json
+ D state/world_model_snapshot.json
+?? Dev_Logs/
+?? "System_Stack/Language_Translation_Protocol (formerly UIP)/"
+?? System_Stack/Logos_Protocol/Agent_Resources/
+?? "System_Stack/Logos_Protocol/Logos_Agents/I1_Agent/__init__ .py"
+?? System_Stack/Logos_Protocol/Logos_Agents/I1_Agent/_core/I1_ontology_ID.json
+?? System_Stack/Logos_Protocol/Logos_Agents/I1_Agent/_core/OmniProperty_Integration.py
+?? System_Stack/Logos_Protocol/Logos_Agents/I1_Agent/_core/Sign_Principal_Operator.py
+?? System_Stack/Logos_Protocol/Logos_Agents/I1_Agent/protocol_operations/scp_analysis/analysis_runner.py
+?? System_Stack/Logos_Protocol/Logos_Agents/I1_Agent/protocol_operations/scp_analysis/trajectory_types.py
+?? System_Stack/Logos_Protocol/Logos_Agents/I1_Agent/protocol_operations/scp_integrations/pipeline_runner.py
+?? System_Stack/Logos_Protocol/Logos_Agents/I1_Agent/protocol_operations/scp_mvs_adapter/
+?? System_Stack/Logos_Protocol/Logos_Agents/I1_Agent/protocol_operations/scp_predict/predict_integration.py
+?? System_Stack/Logos_Protocol/Logos_Agents/I1_Agent/protocol_operations/scp_runtime/
+?? System_Stack/Logos_Protocol/Logos_Agents/I1_Agent/protocol_operations/scp_tests/
+?? System_Stack/Logos_Protocol/Logos_Agents/I1_Agent/protocol_operations/scp_transform/
+?? "System_Stack/Logos_Protocol/Logos_Agents/I2_Agent/__init__ .py"
+?? System_Stack/Logos_Protocol/Logos_Agents/I2_Agent/_core/
+?? System_Stack/Logos_Protocol/Logos_Agents/I2_Agent/config/
+?? System_Stack/Logos_Protocol/Logos_Agents/I2_Agent/connections/
+?? System_Stack/Logos_Protocol/Logos_Agents/I2_Agent/diagnostics/
+?? System_Stack/Logos_Protocol/Logos_Agents/I2_Agent/protocol_operations/
+?? "System_Stack/Logos_Protocol/Logos_Agents/I3_Agent/__init__ .py"
+?? System_Stack/Logos_Protocol/Logos_Agents/I3_Agent/_core/
+?? System_Stack/Logos_Protocol/Logos_Agents/I3_Agent/config/
+?? System_Stack/Logos_Protocol/Logos_Agents/I3_Agent/connections/
+?? System_Stack/Logos_Protocol/Logos_Agents/I3_Agent/diagnostics/
+?? System_Stack/Logos_Protocol/Logos_Agents/I3_Agent/protocol_operations/
+?? System_Stack/Logos_Protocol/Protocol_Core/Activation_Sequencer/Agent_System_Initializer/
+?? System_Stack/Logos_Protocol/Protocol_Core/Activation_Sequencer/Identity_Generator/
+?? System_Stack/Logos_Protocol/Runtime_Operations/Orchestration/
+?? System_Stack/Logos_Protocol/Unified_Working_Memory/IEL_generator/
+?? System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/Analysis_Processors/
+?? System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/Forecasting/
+?? System_Stack/Logos_Protocol/Unified_Working_Memory/world_model.py
+?? _reports/agent_layout/
+?? _reports/falsifiability_test.ml
+?? _reports/falsifiability_test.mli
+?? _reports/runtime_protocol/08_phase_module_map.md
+?? _reports/runtime_protocol/09_runtime_dependency_graph.md
+?? _reports/runtime_protocol/10_modality_boundary_audit.md
+?? _reports/runtime_protocol/11_proof_runtime_bridge_map.md
+?? _reports/sanity_check/
+
+git diff --name-status
+D	DOCS/TETRACONSCIOUS_INTEGRATION_NOTES.md
+D	DOCS/docs/AUDIT/CHANGELOG.md
+D	DOCS/docs/AUDIT/README.md
+D	DOCS/docs/AUDIT/REPRODUCIBILITY.md
+D	DOCS/docs/AUDIT/STRUCTURE.md
+D	DOCS/docs/GROQ_FREE_SETUP.md
+D	DOCS/docs/LLM_INTEGRATION_SUMMARY.md
+D	DOCS/docs/LOGOS_GPT_ACCEPTANCE.md
+D	DOCS/docs/LOGOS_GPT_CHAT.md
+D	DOCS/docs/LOGOS_GPT_WEB.md
+D	DOCS/docs/MVP_ACCEPTANCE.md
+D	DOCS/docs/README.md
+D	DOCS/docs/VSCODE_CRASH_PREVENTION.md
+D	DOCS/docs/agent_tool_registry.json
+D	DOCS/docs/agent_tool_registry.md
+D	DOCS/docs/architecture_extension_plan.md
+D	DOCS/docs/axiom_audit_phase1.md
+D	DOCS/docs/axiom_classification.md
+D	DOCS/docs/axiom_minimality_analysis.md
+D	DOCS/docs/axiom_minimum_plan.md
+D	DOCS/docs/axiom_reduction_roadmap.md
+D	DOCS/docs/bridge_axioms_status.md
+D	DOCS/docs/compute_substrate_plan.md
+D	DOCS/docs/compute_substrate_runbook.md
+D	DOCS/docs/continuous_run_architecture.md
+D	DOCS/docs/coq_proof_audit_comprehensive.md
+D	DOCS/docs/crash_recovery_quickstart.md
+D	DOCS/docs/demo_guide.md
+D	DOCS/docs/global_bijection_theorem_spec.md
+D	DOCS/docs/investor_narrative_full.md
+D	DOCS/docs/llm_integration.md
+D	DOCS/docs/logos_agi_scripts_descriptions.md
+D	DOCS/docs/logos_axiom_theorem_summary.md
+D	DOCS/docs/logos_chat_quickstart.md
+D	DOCS/docs/modal_files_quick_reference.txt
+D	DOCS/docs/modal_logic_resources_inventory.md
+D	DOCS/docs/omni_intake_index.md
+D	DOCS/docs/phase1_swap_plan.md
+D	DOCS/docs/phase2_design_summary.txt
+D	DOCS/docs/phase3_semantic_modal_kernel_17axioms.md
+D	DOCS/docs/phase3_step1_complete.md
+D	DOCS/docs/primitive_declarations.md
+D	DOCS/docs/readme_addendum.md
+D	DOCS/docs/run_cycle_operations.md
+D	DOCS/docs/run_cycle_prereqs.md
+D	DOCS/docs/state_policy.md
+D	DOCS/docs/verification_interpretability_plan.md
+D	DOCS/docs/web_portal_guide.md
+D	DOCS/privation_library.md
+D	DOCS/scripts_catalog.md
+D	Demos/interactive_web/README.md
+D	Demos/interactive_web/app.js
+D	Demos/interactive_web/index.html
+D	Demos/interactive_web/server.py
+D	JUNK_DRAWER/REMOVE_WHEN_DONE/privation_catalog/archival_master_privation_list.md
+D	JUNK_DRAWER/REMOVE_WHEN_DONE/privation_catalog/core_component_privations.md
+D	JUNK_DRAWER/REMOVE_WHEN_DONE/privation_catalog/empirical_validation_framework.md
+D	JUNK_DRAWER/REMOVE_WHEN_DONE/privation_catalog/extended_privation_developments.md
+D	JUNK_DRAWER/REMOVE_WHEN_DONE/privation_catalog/incoherence_privation_formalism.md
+D	JUNK_DRAWER/REMOVE_WHEN_DONE/privation_catalog/privation_list.md
+D	JUNK_DRAWER/REMOVE_WHEN_DONE/privation_catalog/privative_forms_master.md
+D	JUNK_DRAWER/REMOVE_WHEN_DONE/privation_catalog/quantitative_privation_refinement.md
+D	JUNK_DRAWER/REMOVE_WHEN_DONE/privation_catalog/temporal_privation_dynamics.md
+D	JUNK_DRAWER/REMOVE_WHEN_DONE/training_data/artifacts/041a8efcdb13a8815cd3f9432a20b3b3/artifact.json
+D	JUNK_DRAWER/REMOVE_WHEN_DONE/training_data/artifacts/041a8efcdb13a8815cd3f9432a20b3b3/code.py
+D	JUNK_DRAWER/REMOVE_WHEN_DONE/training_data/artifacts/041a8efcdb13a8815cd3f9432a20b3b3/policy.json
+D	JUNK_DRAWER/REMOVE_WHEN_DONE/training_data/artifacts/041a8efcdb13a8815cd3f9432a20b3b3/provenance.json
+D	JUNK_DRAWER/REMOVE_WHEN_DONE/training_data/artifacts/041a8efcdb13a8815cd3f9432a20b3b3/stage.json
+D	JUNK_DRAWER/REMOVE_WHEN_DONE/training_data/artifacts/0741ba5675a03601314ffad34bfb742d/artifact.json
+D	JUNK_DRAWER/REMOVE_WHEN_DONE/training_data/artifacts/0741ba5675a03601314ffad34bfb742d/code.py
+D	JUNK_DRAWER/REMOVE_WHEN_DONE/training_data/artifacts/0741ba5675a03601314ffad34bfb742d/policy.json
+D	JUNK_DRAWER/REMOVE_WHEN_DONE/training_data/artifacts/0741ba5675a03601314ffad34bfb742d/provenance.json
+D	JUNK_DRAWER/REMOVE_WHEN_DONE/training_data/artifacts/0741ba5675a03601314ffad34bfb742d/stage.json
+D	JUNK_DRAWER/REMOVE_WHEN_DONE/training_data/artifacts/1268102b1110958506542805432900d3/artifact.json
+D	JUNK_DRAWER/REMOVE_WHEN_DONE/training_data/artifacts/1268102b1110958506542805432900d3/code.py
+D	JUNK_DRAWER/REMOVE_WHEN_DONE/training_data/artifacts/1268102b1110958506542805432900d3/policy.json
+D	JUNK_DRAWER/REMOVE_WHEN_DONE/training_data/artifacts/1268102b1110958506542805432900d3/provenance.json
+D	JUNK_DRAWER/REMOVE_WHEN_DONE/training_data/artifacts/1268102b1110958506542805432900d3/stage.json
+D	JUNK_DRAWER/REMOVE_WHEN_DONE/training_data/artifacts/207d7edd400ad3f8c074be087bb03343/artifact.json
+D	JUNK_DRAWER/REMOVE_WHEN_DONE/training_data/artifacts/207d7edd400ad3f8c074be087bb03343/code.py
+D	JUNK_DRAWER/REMOVE_WHEN_DONE/training_data/artifacts/207d7edd400ad3f8c074be087bb03343/deploy.json
+D	JUNK_DRAWER/REMOVE_WHEN_DONE/training_data/artifacts/207d7edd400ad3f8c074be087bb03343/policy.json
+D	JUNK_DRAWER/REMOVE_WHEN_DONE/training_data/artifacts/207d7edd400ad3f8c074be087bb03343/provenance.json
+D	JUNK_DRAWER/REMOVE_WHEN_DONE/training_data/artifacts/207d7edd400ad3f8c074be087bb03343/stage.json
+D	JUNK_DRAWER/REMOVE_WHEN_DONE/training_data/artifacts/359bfa9b9f551e6b8e2e89eeee0b2e7d/artifact.json
+D	JUNK_DRAWER/REMOVE_WHEN_DONE/training_data/artifacts/359bfa9b9f551e6b8e2e89eeee0b2e7d/code.py
+D	JUNK_DRAWER/REMOVE_WHEN_DONE/training_data/artifacts/359bfa9b9f551e6b8e2e89eeee0b2e7d/policy.json
+D	JUNK_DRAWER/REMOVE_WHEN_DONE/training_data/artifacts/359bfa9b9f551e6b8e2e89eeee0b2e7d/provenance.json
+D	JUNK_DRAWER/REMOVE_WHEN_DONE/training_data/artifacts/359bfa9b9f551e6b8e2e89eeee0b2e7d/stage.json
+D	JUNK_DRAWER/REMOVE_WHEN_DONE/training_data/artifacts/3c8809da81be3339a6e51142e464b1a4/artifact.json
+D	JUNK_DRAWER/REMOVE_WHEN_DONE/training_data/artifacts/3c8809da81be3339a6e51142e464b1a4/code.py
+D	JUNK_DRAWER/REMOVE_WHEN_DONE/training_data/artifacts/3c8809da81be3339a6e51142e464b1a4/policy.json
+D	JUNK_DRAWER/REMOVE_WHEN_DONE/training_data/artifacts/3c8809da81be3339a6e51142e464b1a4/provenance.json
+D	JUNK_DRAWER/REMOVE_WHEN_DONE/training_data/artifacts/3c8809da81be3339a6e51142e464b1a4/stage.json
+D	JUNK_DRAWER/REMOVE_WHEN_DONE/training_data/artifacts/4a869f1a7dd9ff6277797ca51d186c2c/artifact.json
+D	JUNK_DRAWER/REMOVE_WHEN_DONE/training_data/artifacts/4a869f1a7dd9ff6277797ca51d186c2c/code.py
+D	JUNK_DRAWER/REMOVE_WHEN_DONE/training_data/artifacts/4a869f1a7dd9ff6277797ca51d186c2c/deploy.json
+D	JUNK_DRAWER/REMOVE_WHEN_DONE/training_data/artifacts/4a869f1a7dd9ff6277797ca51d186c2c/policy.json
+D	JUNK_DRAWER/REMOVE_WHEN_DONE/training_data/artifacts/4a869f1a7dd9ff6277797ca51d186c2c/provenance.json
+D	JUNK_DRAWER/REMOVE_WHEN_DONE/training_data/artifacts/4a869f1a7dd9ff6277797ca51d186c2c/stage.json
+D	JUNK_DRAWER/REMOVE_WHEN_DONE/training_data/artifacts/5cfb0cdfe51459aa989f9344835d2827/artifact.json
+D	JUNK_DRAWER/REMOVE_WHEN_DONE/training_data/artifacts/5cfb0cdfe51459aa989f9344835d2827/code.py
+D	JUNK_DRAWER/REMOVE_WHEN_DONE/training_data/artifacts/5cfb0cdfe51459aa989f9344835d2827/policy.json
+D	JUNK_DRAWER/REMOVE_WHEN_DONE/training_data/artifacts/5cfb0cdfe51459aa989f9344835d2827/provenance.json
+D	JUNK_DRAWER/REMOVE_WHEN_DONE/training_data/artifacts/5cfb0cdfe51459aa989f9344835d2827/stage.json
+D	JUNK_DRAWER/REMOVE_WHEN_DONE/training_data/artifacts/601d817069df3700683a959e3d98cd83/artifact.json
+D	JUNK_DRAWER/REMOVE_WHEN_DONE/training_data/artifacts/601d817069df3700683a959e3d98cd83/code.py
+D	JUNK_DRAWER/REMOVE_WHEN_DONE/training_data/artifacts/601d817069df3700683a959e3d98cd83/policy.json
+D	JUNK_DRAWER/REMOVE_WHEN_DONE/training_data/artifacts/601d817069df3700683a959e3d98cd83/provenance.json
+D	JUNK_DRAWER/REMOVE_WHEN_DONE/training_data/artifacts/601d817069df3700683a959e3d98cd83/stage.json
+D	JUNK_DRAWER/REMOVE_WHEN_DONE/training_data/artifacts/670e1cec3d8081b87324de83ce29e7b6/artifact.json
+D	JUNK_DRAWER/REMOVE_WHEN_DONE/training_data/artifacts/670e1cec3d8081b87324de83ce29e7b6/code.py
+D	JUNK_DRAWER/REMOVE_WHEN_DONE/training_data/artifacts/670e1cec3d8081b87324de83ce29e7b6/policy.json
+D	JUNK_DRAWER/REMOVE_WHEN_DONE/training_data/artifacts/670e1cec3d8081b87324de83ce29e7b6/provenance.json
+D	JUNK_DRAWER/REMOVE_WHEN_DONE/training_data/artifacts/670e1cec3d8081b87324de83ce29e7b6/stage.json
+D	JUNK_DRAWER/REMOVE_WHEN_DONE/training_data/artifacts/72875146d6199c51ae8efcc4f4c24483/artifact.json
+D	JUNK_DRAWER/REMOVE_WHEN_DONE/training_data/artifacts/72875146d6199c51ae8efcc4f4c24483/code.py
+D	JUNK_DRAWER/REMOVE_WHEN_DONE/training_data/artifacts/72875146d6199c51ae8efcc4f4c24483/deploy.json
+D	JUNK_DRAWER/REMOVE_WHEN_DONE/training_data/artifacts/72875146d6199c51ae8efcc4f4c24483/policy.json
+D	JUNK_DRAWER/REMOVE_WHEN_DONE/training_data/artifacts/72875146d6199c51ae8efcc4f4c24483/provenance.json
+D	JUNK_DRAWER/REMOVE_WHEN_DONE/training_data/artifacts/72875146d6199c51ae8efcc4f4c24483/stage.json
+D	JUNK_DRAWER/REMOVE_WHEN_DONE/training_data/artifacts/784b86a29788d655b96f0f1e5c04ec8c/artifact.json
+D	JUNK_DRAWER/REMOVE_WHEN_DONE/training_data/artifacts/784b86a29788d655b96f0f1e5c04ec8c/code.py
+D	JUNK_DRAWER/REMOVE_WHEN_DONE/training_data/artifacts/784b86a29788d655b96f0f1e5c04ec8c/policy.json
+D	JUNK_DRAWER/REMOVE_WHEN_DONE/training_data/artifacts/784b86a29788d655b96f0f1e5c04ec8c/provenance.json
+D	JUNK_DRAWER/REMOVE_WHEN_DONE/training_data/artifacts/784b86a29788d655b96f0f1e5c04ec8c/stage.json
+D	JUNK_DRAWER/REMOVE_WHEN_DONE/training_data/artifacts/7c5364aa6ce2a867ea84cce5975c0895/artifact.json
+D	JUNK_DRAWER/REMOVE_WHEN_DONE/training_data/artifacts/7c5364aa6ce2a867ea84cce5975c0895/code.py
+D	JUNK_DRAWER/REMOVE_WHEN_DONE/training_data/artifacts/7c5364aa6ce2a867ea84cce5975c0895/policy.json
+D	JUNK_DRAWER/REMOVE_WHEN_DONE/training_data/artifacts/7c5364aa6ce2a867ea84cce5975c0895/provenance.json
+D	JUNK_DRAWER/REMOVE_WHEN_DONE/training_data/artifacts/7c5364aa6ce2a867ea84cce5975c0895/stage.json
+D	JUNK_DRAWER/REMOVE_WHEN_DONE/training_data/artifacts/8be74ed528fd281f8bfe141b68baf7aa/artifact.json
+D	JUNK_DRAWER/REMOVE_WHEN_DONE/training_data/artifacts/8be74ed528fd281f8bfe141b68baf7aa/code.py
+D	JUNK_DRAWER/REMOVE_WHEN_DONE/training_data/artifacts/8be74ed528fd281f8bfe141b68baf7aa/policy.json
+D	JUNK_DRAWER/REMOVE_WHEN_DONE/training_data/artifacts/8be74ed528fd281f8bfe141b68baf7aa/provenance.json
+D	JUNK_DRAWER/REMOVE_WHEN_DONE/training_data/artifacts/8be74ed528fd281f8bfe141b68baf7aa/stage.json
+D	JUNK_DRAWER/REMOVE_WHEN_DONE/training_data/artifacts/b4fc2256d21bc56d7aa393f7a3db140e/artifact.json
+D	JUNK_DRAWER/REMOVE_WHEN_DONE/training_data/artifacts/b4fc2256d21bc56d7aa393f7a3db140e/code.py
+D	JUNK_DRAWER/REMOVE_WHEN_DONE/training_data/artifacts/b4fc2256d21bc56d7aa393f7a3db140e/deploy.json
+D	JUNK_DRAWER/REMOVE_WHEN_DONE/training_data/artifacts/b4fc2256d21bc56d7aa393f7a3db140e/policy.json
+D	JUNK_DRAWER/REMOVE_WHEN_DONE/training_data/artifacts/b4fc2256d21bc56d7aa393f7a3db140e/provenance.json
+D	JUNK_DRAWER/REMOVE_WHEN_DONE/training_data/artifacts/b4fc2256d21bc56d7aa393f7a3db140e/stage.json
+D	JUNK_DRAWER/REMOVE_WHEN_DONE/training_data/artifacts/cded2224877a9a853b3788dd1c1b3253/artifact.json
+D	JUNK_DRAWER/REMOVE_WHEN_DONE/training_data/artifacts/cded2224877a9a853b3788dd1c1b3253/code.py
+D	JUNK_DRAWER/REMOVE_WHEN_DONE/training_data/artifacts/cded2224877a9a853b3788dd1c1b3253/deploy.json
+D	JUNK_DRAWER/REMOVE_WHEN_DONE/training_data/artifacts/cded2224877a9a853b3788dd1c1b3253/policy.json
+D	JUNK_DRAWER/REMOVE_WHEN_DONE/training_data/artifacts/cded2224877a9a853b3788dd1c1b3253/provenance.json
+D	JUNK_DRAWER/REMOVE_WHEN_DONE/training_data/artifacts/cded2224877a9a853b3788dd1c1b3253/stage.json
+D	JUNK_DRAWER/REMOVE_WHEN_DONE/training_data/artifacts/ebad6ce7ab8228f8aa5c4c7756bc5d81/artifact.json
+D	JUNK_DRAWER/REMOVE_WHEN_DONE/training_data/artifacts/ebad6ce7ab8228f8aa5c4c7756bc5d81/code.py
+D	JUNK_DRAWER/REMOVE_WHEN_DONE/training_data/artifacts/ebad6ce7ab8228f8aa5c4c7756bc5d81/policy.json
+D	JUNK_DRAWER/REMOVE_WHEN_DONE/training_data/artifacts/ebad6ce7ab8228f8aa5c4c7756bc5d81/provenance.json
+D	JUNK_DRAWER/REMOVE_WHEN_DONE/training_data/artifacts/ebad6ce7ab8228f8aa5c4c7756bc5d81/stage.json
+D	JUNK_DRAWER/REMOVE_WHEN_DONE/training_data/artifacts/ffac9b1f7f5f72482a63d2cf482f5325/artifact.json
+D	JUNK_DRAWER/REMOVE_WHEN_DONE/training_data/artifacts/ffac9b1f7f5f72482a63d2cf482f5325/code.py
+D	JUNK_DRAWER/REMOVE_WHEN_DONE/training_data/artifacts/ffac9b1f7f5f72482a63d2cf482f5325/policy.json
+D	JUNK_DRAWER/REMOVE_WHEN_DONE/training_data/artifacts/ffac9b1f7f5f72482a63d2cf482f5325/provenance.json
+D	JUNK_DRAWER/REMOVE_WHEN_DONE/training_data/artifacts/ffac9b1f7f5f72482a63d2cf482f5325/stage.json
+M	START_LOGOS.py
+D	System_Stack/Logos_Protocol/GUI/logos_dashboard/README.md
+D	System_Stack/Logos_Protocol/GUI/logos_dashboard/__init__.py
+D	System_Stack/Logos_Protocol/GUI/logos_dashboard/app.py
+D	System_Stack/Logos_Protocol/GUI/logos_dashboard/metrics.py
+D	System_Stack/Logos_Protocol/GUI/logos_dashboard/smp_bus.py
+D	System_Stack/Logos_Protocol/GUI/logos_dashboard/static/dashboard.js
+D	System_Stack/Logos_Protocol/GUI/logos_dashboard/static/styles.css
+D	System_Stack/Logos_Protocol/GUI/logos_dashboard/templates/index.html
+D	System_Stack/Logos_Protocol/GUI/monitoring/grafana_dashboard.json
+D	System_Stack/Logos_Protocol/GUI/monitoring/prometheus.yml
+D	System_Stack/Logos_Protocol/Integrations/__init__.py
+D	System_Stack/Logos_Protocol/Integrations/arp_operations.py
+D	System_Stack/Logos_Protocol/Integrations/enhanced_uip_connector.py
+D	System_Stack/Logos_Protocol/Integrations/example_connector.py
+D	System_Stack/Logos_Protocol/Integrations/uip_connector.py
+D	System_Stack/Logos_Protocol/Logos_Agents/I1_Agent/__init__.py
+D	System_Stack/Logos_Protocol/Logos_Agents/I1_Agent/_core/LOGOS_AGENT_I1.json
+M	System_Stack/Logos_Protocol/Logos_Agents/I1_Agent/_core/__init__.py
+D	System_Stack/Logos_Protocol/Logos_Agents/I1_Agent/_core/agent_root_manifest.json
+M	System_Stack/Logos_Protocol/Logos_Agents/I1_Agent/config/schema_utils.py
+M	System_Stack/Logos_Protocol/Logos_Agents/I1_Agent/diagnostics/errors.py
+M	System_Stack/Logos_Protocol/Logos_Agents/I1_Agent/protocol_operations/scp_cycle/cycle_runner.py
+M	System_Stack/Logos_Protocol/Logos_Agents/I1_Agent/protocol_operations/scp_cycle/policy.py
+D	System_Stack/Logos_Protocol/Logos_Agents/I1_Agent/protocol_operations/scp_cycle/scp_cycle/__init__.py
+D	System_Stack/Logos_Protocol/Logos_Agents/I1_Agent/protocol_operations/scp_cycle/scp_cycle/policy.py
+D	System_Stack/Logos_Protocol/Logos_Agents/I1_Agent/protocol_operations/scp_cycle/scp_integrations/__init__.py
+D	System_Stack/Logos_Protocol/Logos_Agents/I1_Agent/protocol_operations/scp_cycle/scp_integrations/predict_integration.py
+D	System_Stack/Logos_Protocol/Logos_Agents/I1_Agent/protocol_operations/scp_cycle/scp_mvs_adapter/__init__.py
+D	System_Stack/Logos_Protocol/Logos_Agents/I1_Agent/protocol_operations/scp_cycle/scp_mvs_adapter/mvs_adapter.py
+D	System_Stack/Logos_Protocol/Logos_Agents/I1_Agent/protocol_operations/scp_cycle/scp_mvs_adapter/mvs_types.py
+D	System_Stack/Logos_Protocol/Logos_Agents/I1_Agent/protocol_operations/scp_cycle/scp_runtime/__init__.py
+D	System_Stack/Logos_Protocol/Logos_Agents/I1_Agent/protocol_operations/scp_cycle/scp_runtime/result_packet.py
+D	System_Stack/Logos_Protocol/Logos_Agents/I1_Agent/protocol_operations/scp_cycle/scp_runtime/smp_intake.py
+D	System_Stack/Logos_Protocol/Logos_Agents/I1_Agent/protocol_operations/scp_cycle/scp_runtime/work_order.py
+D	System_Stack/Logos_Protocol/Logos_Agents/I1_Agent/protocol_operations/scp_cycle/scp_tests/__init__.py
+D	System_Stack/Logos_Protocol/Logos_Agents/I1_Agent/protocol_operations/scp_cycle/scp_tests/run_pipeline_smoke.py
+D	System_Stack/Logos_Protocol/Logos_Agents/I1_Agent/protocol_operations/scp_cycle/scp_tests/sample_smp.py
+D	System_Stack/Logos_Protocol/Logos_Agents/I1_Agent/protocol_operations/scp_cycle/scp_transform/__init__.py
+D	System_Stack/Logos_Protocol/Logos_Agents/I1_Agent/protocol_operations/scp_cycle/scp_transform/iterative_loop.py
+D	System_Stack/Logos_Protocol/Logos_Agents/I1_Agent/protocol_operations/scp_cycle/scp_transform/transform_registry.py
+D	System_Stack/Logos_Protocol/Logos_Agents/I1_Agent/protocol_operations/scp_cycle/scp_transform/transform_types.py
+D	System_Stack/Logos_Protocol/Logos_Agents/I1_Agent/protocol_operations/scp_integrations/analysis_runner.py
+M	System_Stack/Logos_Protocol/Logos_Agents/I1_Agent/protocol_operations/scp_integrations/iterative_loop.py
+D	System_Stack/Logos_Protocol/Logos_Agents/I1_Agent/protocol_operations/scp_integrations/predict_integration.py
+D	System_Stack/Logos_Protocol/Logos_Agents/I1_Agent/protocol_operations/scp_integrations/scp_pipeline/__init__.py
+D	System_Stack/Logos_Protocol/Logos_Agents/I1_Agent/protocol_operations/scp_integrations/scp_pipeline/pipeline_runner.py
+D	System_Stack/Logos_Protocol/Logos_Agents/I1_Agent/protocol_operations/scp_integrations/scp_predict/__init__.py
+D	System_Stack/Logos_Protocol/Logos_Agents/I1_Agent/protocol_operations/scp_integrations/scp_predict/risk_estimator.py
+D	System_Stack/Logos_Protocol/Logos_Agents/I1_Agent/protocol_operations/scp_integrations/scp_predict/trajectory_types.py
+D	System_Stack/Logos_Protocol/Logos_Agents/I1_Agent/protocol_operations/scp_integrations/transform_registry.py
+D	System_Stack/Logos_Protocol/Logos_Agents/I1_Agent/protocol_operations/scp_integrations/transform_types.py
+M	System_Stack/Logos_Protocol/Logos_Agents/I1_Agent/protocol_operations/scp_predict/risk_estimator.py
+D	System_Stack/Logos_Protocol/Logos_Agents/I1_Agent/protocol_operations/scp_predict/scp_runtime/README.md
+D	System_Stack/Logos_Protocol/Logos_Agents/I1_Agent/protocol_operations/scp_predict/scp_runtime/__init__.py
+D	System_Stack/Logos_Protocol/Logos_Agents/I1_Agent/protocol_operations/scp_predict/scp_runtime/result_packet.py
+D	System_Stack/Logos_Protocol/Logos_Agents/I1_Agent/protocol_operations/scp_predict/scp_runtime/smp_intake.py
+D	System_Stack/Logos_Protocol/Logos_Agents/I1_Agent/protocol_operations/scp_predict/scp_runtime/work_order.py
+D	System_Stack/Logos_Protocol/Logos_Agents/I1_Agent/protocol_operations/scp_predict/trajectory_types.py
+D	System_Stack/Logos_Protocol/Logos_Agents/I2_Agent/I2_Core/__init__.py
+D	System_Stack/Logos_Protocol/Logos_Agents/I2_Agent/I2_Core/benevolence_mediator.py
+D	System_Stack/Logos_Protocol/Logos_Agents/I2_Agent/I2_Core/bridge_operator.py
+D	System_Stack/Logos_Protocol/Logos_Agents/I2_Agent/I2_Core/constants.py
+D	System_Stack/Logos_Protocol/Logos_Agents/I2_Agent/I2_Core/errors.py
+D	System_Stack/Logos_Protocol/Logos_Agents/I2_Agent/I2_Core/hashing.py
+D	System_Stack/Logos_Protocol/Logos_Agents/I2_Agent/I2_Core/health.py
+D	System_Stack/Logos_Protocol/Logos_Agents/I2_Agent/I2_Core/id_handler.py
+D	System_Stack/Logos_Protocol/Logos_Agents/I2_Agent/I2_Core/llm_io/__init__.py
+D	System_Stack/Logos_Protocol/Logos_Agents/I2_Agent/I2_Core/llm_io/client.py
+D	System_Stack/Logos_Protocol/Logos_Agents/I2_Agent/I2_Core/llm_io/config.py
+D	System_Stack/Logos_Protocol/Logos_Agents/I2_Agent/I2_Core/llm_io/exports.py
+D	System_Stack/Logos_Protocol/Logos_Agents/I2_Agent/I2_Core/llm_io/providers_llama.py
+D	System_Stack/Logos_Protocol/Logos_Agents/I2_Agent/I2_Core/llm_io/providers_openai.py
+D	System_Stack/Logos_Protocol/Logos_Agents/I2_Agent/I2_Core/llm_io/types.py
+D	System_Stack/Logos_Protocol/Logos_Agents/I2_Agent/I2_Core/logging_utils.py
+D	System_Stack/Logos_Protocol/Logos_Agents/I2_Agent/I2_Core/packet_types.py
+D	System_Stack/Logos_Protocol/Logos_Agents/I2_Agent/I2_Core/router.py
+D	System_Stack/Logos_Protocol/Logos_Agents/I2_Agent/I2_Core/schema_utils.py
+D	System_Stack/Logos_Protocol/Logos_Agents/I2_Agent/I2_Core/smp.py
+D	System_Stack/Logos_Protocol/Logos_Agents/I2_Agent/I2_Core/time_utils.py
+D	System_Stack/Logos_Protocol/Logos_Agents/I2_Agent/I2_Core/trinitarian_mediator.py
+D	System_Stack/Logos_Protocol/Logos_Agents/I2_Agent/LOGOS_AGENT_I2.json
+D	System_Stack/Logos_Protocol/Logos_Agents/I2_Agent/agent_root_manifest.json
+D	System_Stack/Logos_Protocol/Logos_Agents/I2_Agent/privation_handler/privation_analyst.py
+D	System_Stack/Logos_Protocol/Logos_Agents/I2_Agent/privation_handler/privation_classifier.py
+D	System_Stack/Logos_Protocol/Logos_Agents/I2_Agent/privation_handler/privation_gate.py
+D	System_Stack/Logos_Protocol/Logos_Agents/I2_Agent/privation_handler/privation_library/README_PRIVATIONS.md
+D	System_Stack/Logos_Protocol/Logos_Agents/I2_Agent/privation_handler/privation_library/__init__.py
+D	System_Stack/Logos_Protocol/Logos_Agents/I2_Agent/privation_handler/privation_library/iel_ontological_bijection_optimized.json
+D	System_Stack/Logos_Protocol/Logos_Agents/I2_Agent/privation_handler/privation_library/privation_library.json
+D	System_Stack/Logos_Protocol/Logos_Agents/I2_Agent/privation_handler/privation_library/privation_library.json.bak
+D	System_Stack/Logos_Protocol/Logos_Agents/I2_Agent/privation_handler/privation_override.py
+D	System_Stack/Logos_Protocol/Logos_Agents/I2_Agent/privation_handler/privation_transformer.py
+D	System_Stack/Logos_Protocol/Logos_Agents/I3_Agent/I3_core/__init__.py
+D	System_Stack/Logos_Protocol/Logos_Agents/I3_Agent/I3_core/constants.py
+D	System_Stack/Logos_Protocol/Logos_Agents/I3_Agent/I3_core/errors.py
+D	System_Stack/Logos_Protocol/Logos_Agents/I3_Agent/I3_core/hashing.py
+D	System_Stack/Logos_Protocol/Logos_Agents/I3_Agent/I3_core/health.py
+D	System_Stack/Logos_Protocol/Logos_Agents/I3_Agent/I3_core/id_handler.py
+D	System_Stack/Logos_Protocol/Logos_Agents/I3_Agent/I3_core/logging_utils.py
+D	System_Stack/Logos_Protocol/Logos_Agents/I3_Agent/I3_core/packet_types.py
+D	System_Stack/Logos_Protocol/Logos_Agents/I3_Agent/I3_core/router.py
+D	System_Stack/Logos_Protocol/Logos_Agents/I3_Agent/I3_core/schema_utils.py
+D	System_Stack/Logos_Protocol/Logos_Agents/I3_Agent/I3_core/time_utils.py
+D	System_Stack/Logos_Protocol/Logos_Agents/I3_Agent/LOGOS_AGENT_I3.json
+D	System_Stack/Logos_Protocol/Logos_Agents/I3_Agent/agent_root_manifest.json
+D	System_Stack/Logos_Protocol/Logos_Agents/I3_Agent/arp_cycle/__init__.py
+D	System_Stack/Logos_Protocol/Logos_Agents/I3_Agent/arp_cycle/cycle_runner.py
+D	System_Stack/Logos_Protocol/Logos_Agents/I3_Agent/arp_cycle/policy.py
+D	System_Stack/Logos_Protocol/Logos_Agents/I3_Agent/arp_planner/__init__.py
+D	System_Stack/Logos_Protocol/Logos_Agents/I3_Agent/arp_planner/baseline_planner.py
+D	System_Stack/Logos_Protocol/Logos_Agents/I3_Agent/arp_planner/plan_evaluator.py
+D	System_Stack/Logos_Protocol/Logos_Agents/I3_Agent/arp_runtime/__init__.py
+D	System_Stack/Logos_Protocol/Logos_Agents/I3_Agent/arp_runtime/evaluation_packet.py
+D	System_Stack/Logos_Protocol/Logos_Agents/I3_Agent/arp_runtime/plan_packet.py
+D	System_Stack/Logos_Protocol/Logos_Agents/I3_Agent/arp_runtime/task_intake.py
+D	System_Stack/Logos_Protocol/Logos_Agents/I3_Agent/arp_tests/__init__.py
+D	System_Stack/Logos_Protocol/Logos_Agents/I3_Agent/arp_tests/run_cycle_smoke.py
+D	System_Stack/Logos_Protocol/Logos_Agents/I3_Agent/arp_tests/sample_task.py
+D	System_Stack/Logos_Protocol/Logos_Agents/Shared_Resources/LOGOS_Ontological_Properties.json
+D	System_Stack/Logos_Protocol/Logos_Agents/Shared_Resources/privation_library.json
+D	System_Stack/Logos_Protocol/Protocol_Core/Activation_Sequencer/sequence_1/Identity_Initializers/__init__.py
+D	System_Stack/Logos_Protocol/Protocol_Core/Activation_Sequencer/sequence_1/Identity_Initializers/agent_identity.py
+D	System_Stack/Logos_Protocol/Protocol_Core/Activation_Sequencer/sequence_1/Identity_Initializers/identity_loader.py
+D	System_Stack/Logos_Protocol/Protocol_Core/Activation_Sequencer/sequence_1/Identity_Initializers/persist_identity.py
+D	System_Stack/Logos_Protocol/Protocol_Core/Activation_Sequencer/sequence_1/Identity_Initializers/run_conscious_sim.py
+D	System_Stack/Logos_Protocol/Protocol_Core/Activation_Sequencer/sequence_1/Verification_Tools/Initializer_Recursion_Engine.py
+D	System_Stack/Logos_Protocol/Protocol_Core/Activation_Sequencer/sequence_1/Verification_Tools/Recursion_Engine_Bridge.py
+D	System_Stack/Logos_Protocol/Protocol_Core/Activation_Sequencer/sequence_1/Verification_Tools/__init__.py
+D	System_Stack/Logos_Protocol/Protocol_Core/Activation_Sequencer/sequence_1/Verification_Tools/__main__.py
+D	System_Stack/Logos_Protocol/Protocol_Core/Activation_Sequencer/sequence_1/Verification_Tools/run_integration.py
+D	System_Stack/Logos_Protocol/Protocol_Core/Activation_Sequencer/sequence_1/Verification_Tools/serve_pxl.py
+D	System_Stack/Logos_Protocol/Protocol_Core/Activation_Sequencer/sequence_1/Verification_Tools/test_lem_discharge.py
+D	System_Stack/Logos_Protocol/Protocol_Core/Activation_Sequencer/sequence_1/__init__.py
+D	System_Stack/Logos_Protocol/Protocol_Core/Activation_Sequencer/sequence_2/__init__.py
+D	System_Stack/Logos_Protocol/Protocol_Core/Activation_Sequencer/sequence_2/coordinator.py
+D	System_Stack/Logos_Protocol/Protocol_Core/Activation_Sequencer/sequence_2/dispatch.py
+D	System_Stack/Logos_Protocol/Protocol_Core/Activation_Sequencer/sequence_2/types.py
+D	System_Stack/Logos_Protocol/Protocol_Core/logos_protocol_manifest.json
+D	System_Stack/Logos_Protocol/Protocol_Core/runtime_protocol.py
+D	System_Stack/Logos_Protocol/Runtime_Operations/daemon/__init__.py
+D	System_Stack/Logos_Protocol/Runtime_Operations/daemon/logos_daemon.py
+D	System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/IEL_generator/__init__.py
+D	System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/IEL_generator/iel_evaluator.py
+D	System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/IEL_generator/iel_generator.py
+D	System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/IEL_generator/iel_registry.py
+D	System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/IEL_generator/iel_runtime_interface.py
+D	System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/IEL_generator/iel_signer.py
+D	System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/IEL_generator/iel_signing_standard_a8671592ec4be710.key
+D	System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/IEL_generator/master.key
+D	System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/LLM_Interface/.env.example
+D	System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/LLM_Interface/PROTOCOL_GROUNDED_INTERFACE.md
+D	System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/LLM_Interface/__init__.py
+D	System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/LLM_Interface/llm_advisor.py
+D	System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/LLM_Interface/logos_gpt_chat.py
+D	System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/LLM_Interface/logos_gpt_server.py
+D	System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/LLM_Interface/logos_interface.py
+D	System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/LLM_Interface/plugins/__init__.py
+D	System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/LLM_Interface/plugins/_uip_connector_stubs.py
+D	System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/LLM_Interface/plugins/enhanced_uip_integration_plugin.py
+D	System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/LLM_Interface/plugins/guardrails.py
+D	System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/LLM_Interface/plugins/llm_backend.py
+D	System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/LLM_Interface/plugins/state/mission_profile.json
+D	System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/LLM_Interface/plugins/uip_integration_plugin.py
+D	System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/LLM_Interface/reasoning_agent.py
+D	System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/LLM_Interface/requirements.txt
+D	System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/LLM_Interface/run_logos_gpt_acceptance.py
+D	System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/Learners/__init__.py
+D	System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/Learners/autonomous_learning_guide.md
+D	System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/Learners/deep_learning_adapter.py
+D	System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/Learners/ml_components.py
+D	System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/Learners/pytorch_ml_adapters.py
+D	System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/Learners/torch_adapters.py
+D	System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/Learners/world_model.py
+D	System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/.codacy.yml
+D	System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/.codebeatignore
+D	System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/.coveragerc
+D	System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/.gitattributes
+D	System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/.github/codeql.yml
+D	System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/.github/workflows/codeql.yml
+D	System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/.github/workflows/generate-documentation.yml
+D	System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/.gitignore
+D	System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/.landscape.yml
+D	System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/.pep8speaks.yml
+D	System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/.readthedocs.yaml
+D	System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/LICENSE.md
+D	System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/MANIFEST.in
+D	System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/README.md
+D	System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/__init__.py
+D	System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/arch/__future__/__init__.py
+D	System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/arch/__future__/reindexing.py
+D	System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/arch/__init__.py
+D	System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/arch/bootstrap/__init__.py
+D	System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/arch/bootstrap/_samplers.pyi
+D	System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/arch/bootstrap/_samplers.pyx
+D	System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/arch/bootstrap/_samplers_python.py
+D	System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/arch/bootstrap/base.py
+D	System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/arch/bootstrap/multiple_comparison.py
+D	System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/arch/compat/__init__.py
+D	System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/arch/compat/numba.py
+D	System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/arch/compat/pandas.py
+D	System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/arch/compat/statsmodels.py
+D	System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/arch/conftest.py
+D	System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/arch/covariance/__init__.py
+D	System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/arch/covariance/kernel.py
+D	System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/arch/data/__init__.py
+D	System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/arch/data/binary/__init__.py
+D	System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/arch/data/binary/binary.csv.gz
+D	System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/arch/data/core_cpi/__init__.py
+D	System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/arch/data/core_cpi/core-cpi.csv.gz
+D	System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/arch/data/crude/__init__.py
+D	System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/arch/data/crude/crude.csv.gz
+D	System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/arch/data/default/__init__.py
+D	System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/arch/data/default/default.csv.gz
+D	System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/arch/data/frenchdata/__init__.py
+D	System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/arch/data/frenchdata/frenchdata.csv.gz
+D	System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/arch/data/nasdaq/__init__.py
+D	System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/arch/data/nasdaq/nasdaq.csv.gz
+D	System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/arch/data/sp500/__init__.py
+D	System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/arch/data/sp500/sp500.csv.gz
+D	System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/arch/data/utility.py
+D	System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/arch/data/vix/__init__.py
+D	System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/arch/data/vix/vix.csv.gz
+D	System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/arch/data/wti/__init__.py
+D	System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/arch/data/wti/wti.csv.gz
+D	System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/arch/py.typed
+D	System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/arch/tests/__init__.py
+D	System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/arch/tests/bootstrap/__init__.py
+D	System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/arch/tests/bootstrap/test_block_length.py
+D	System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/arch/tests/bootstrap/test_bootstrap.py
+D	System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/arch/tests/bootstrap/test_multiple_comparison.py
+D	System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/arch/tests/covariance/__init__.py
+D	System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/arch/tests/covariance/test_covariance.py
+D	System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/arch/tests/test_compat.py
+D	System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/arch/tests/test_data.py
+D	System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/arch/tests/test_examples.py
+D	System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/arch/tests/test_tester.py
+D	System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/arch/tests/test_vendor.py
+D	System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/arch/tests/unitroot/__init__.py
+D	System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/arch/tests/unitroot/cointegration_data.py
+D	System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/arch/tests/unitroot/data/__init__.py
+D	System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/arch/tests/unitroot/data/zivot-andrews.csv
+D	System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/arch/tests/unitroot/test_dynamic_ols.py
+D	System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/arch/tests/unitroot/test_engle_granger.py
+D	System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/arch/tests/unitroot/test_fmols_ccr.py
+D	System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/arch/tests/unitroot/test_phillips_ouliaris.py
+D	System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/arch/tests/unitroot/test_unitroot.py
+D	System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/arch/tests/univariate/__init__.py
+D	System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/arch/tests/univariate/test_arch_in_mean.py
+D	System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/arch/tests/univariate/test_base.py
+D	System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/arch/tests/univariate/test_distribution.py
+D	System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/arch/tests/univariate/test_forecast.py
+D	System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/arch/tests/univariate/test_mean.py
+D	System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/arch/tests/univariate/test_moment.py
+D	System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/arch/tests/univariate/test_recursions.py
+D	System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/arch/tests/univariate/test_rescale.py
+D	System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/arch/tests/univariate/test_variance_forecasting.py
+D	System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/arch/tests/univariate/test_volatility.py
+D	System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/arch/tests/utility/__init__.py
+D	System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/arch/tests/utility/test_array.py
+D	System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/arch/tests/utility/test_cov.py
+D	System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/arch/tests/utility/test_io.py
+D	System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/arch/tests/utility/test_timeseries.py
+D	System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/arch/tests/utility/test_utility.py
+D	System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/arch/typing.py
+D	System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/arch/unitroot/__init__.py
+D	System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/arch/unitroot/_engle_granger.py
+D	System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/arch/unitroot/_phillips_ouliaris.py
+D	System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/arch/unitroot/_shared.py
+D	System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/arch/unitroot/cointegration.py
+D	System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/arch/unitroot/critical_values/__init__.py
+D	System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/arch/unitroot/critical_values/dfgls.py
+D	System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/arch/unitroot/critical_values/dickey_fuller.py
+D	System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/arch/unitroot/critical_values/engle_granger.py
+D	System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/arch/unitroot/critical_values/kpss.py
+D	System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/arch/unitroot/critical_values/phillips_ouliaris.py
+D	System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/arch/unitroot/critical_values/simulation/__init__.py
+D	System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/arch/unitroot/critical_values/simulation/adf_simulation.py
+D	System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/arch/unitroot/critical_values/simulation/adf_z_critical_values_simulation.py
+D	System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/arch/unitroot/critical_values/simulation/adf_z_critical_values_simulation_joblib.py
+D	System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/arch/unitroot/critical_values/simulation/adf_z_critical_values_simulation_large_cluster.py
+D	System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/arch/unitroot/critical_values/simulation/adf_z_simlation_process.py
+D	System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/arch/unitroot/critical_values/simulation/dfgls_critical_values_simulation.py
+D	System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/arch/unitroot/critical_values/simulation/dfgls_simulation_process.py
+D	System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/arch/unitroot/critical_values/simulation/eg_setup.bat
+D	System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/arch/unitroot/critical_values/simulation/eg_setup.ps1
+D	System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/arch/unitroot/critical_values/simulation/eg_setup.sh
+D	System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/arch/unitroot/critical_values/simulation/engle_granger_simulation.py
+D	System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/arch/unitroot/critical_values/simulation/engle_granger_simulation_process.py
+D	System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/arch/unitroot/critical_values/simulation/kpss_critical_values_simulation.py
+D	System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/arch/unitroot/critical_values/simulation/kpss_simulation_process.py
+D	System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/arch/unitroot/critical_values/simulation/phillips-ouliaris-simulation-process.py
+D	System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/arch/unitroot/critical_values/simulation/phillips-ouliaris-simulation.py
+D	System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/arch/unitroot/critical_values/simulation/phillips_ouliaris.py
+D	System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/arch/unitroot/critical_values/simulation/requirements.txt
+D	System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/arch/unitroot/critical_values/simulation/shared.py
+D	System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/arch/unitroot/critical_values/zivot_andrews.py
+D	System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/arch/unitroot/unitroot.py
+D	System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/arch/univariate/__init__.py
+D	System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/arch/univariate/base.py
+D	System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/arch/univariate/distribution.py
+D	System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/arch/univariate/mean.py
+D	System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/arch/univariate/recursions.pyi
+D	System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/arch/univariate/recursions.pyx
+D	System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/arch/univariate/recursions_python.py
+D	System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/arch/univariate/volatility.py
+D	System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/arch/utility/__init__.py
+D	System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/arch/utility/array.py
+D	System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/arch/utility/cov.py
+D	System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/arch/utility/exceptions.py
+D	System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/arch/utility/io.py
+D	System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/arch/utility/testing.py
+D	System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/arch/utility/timeseries.py
+D	System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/arch/vendor/__init__.py
+D	System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/arch/vendor/_decorators.py
+D	System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/azure-pipelines.yml
+D	System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/ci/__init__.py
+D	System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/ci/azure/azure_template_posix.yml
+D	System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/ci/azure/azure_template_windows.yml
+D	System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/ci/azure/install-posix.sh
+D	System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/ci/azure/update_path.sh
+D	System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/ci/github-actions/push-docs-gh-pages.sh
+D	System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/ci/install-statsmodels-main.sh
+D	System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/ci/performance.py
+D	System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/codecov.yml
+D	System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/doc/Makefile
+D	System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/doc/make.bat
+D	System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/doc/requirements.txt
+D	System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/doc/source/__init__.py
+D	System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/doc/source/_static/.gitignore
+D	System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/doc/source/_static/css/small_fixes.css
+D	System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/doc/source/_static/images/android-chrome-192x192.png
+D	System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/doc/source/_static/images/android-chrome-512x512.png
+D	System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/doc/source/_static/images/apple-touch-icon.png
+D	System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/doc/source/_static/images/browserconfig.xml
+D	System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/doc/source/_static/images/color-logo-256.png
+D	System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/doc/source/_static/images/favicon-16x16.png
+D	System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/doc/source/_static/images/favicon-32x32.png
+D	System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/doc/source/_static/images/mstile-150x150.png
+D	System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/doc/source/_static/images/safari-pinned-tab.svg
+D	System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/doc/source/_static/images/site.webmanifest
+D	System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/doc/source/_templates/autosummary/attribute.rst
+D	System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/doc/source/_templates/autosummary/class.rst
+D	System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/doc/source/_templates/autosummary/member.rst
+D	System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/doc/source/_templates/autosummary/method.rst
+D	System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/doc/source/_templates/autosummary/minimal_module.rst
+D	System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/doc/source/_templates/layout.html
+D	System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/doc/source/api.rst
+D	System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/doc/source/bootstrap/background.rst
+D	System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/doc/source/bootstrap/bootstrap.rst
+D	System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/doc/source/bootstrap/bootstrap_histogram.png
+D	System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/doc/source/bootstrap/confidence-intervals.rst
+D	System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/doc/source/bootstrap/iid-bootstraps.rst
+D	System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/doc/source/bootstrap/low-level-interface.rst
+D	System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/doc/source/bootstrap/parameter-covariance-estimation.rst
+D	System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/doc/source/bootstrap/semiparametric-parametric-bootstrap.rst
+D	System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/doc/source/bootstrap/timeseries-bootstraps.rst
+D	System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/doc/source/changes.rst
+D	System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/doc/source/changes/1.0.rst
+D	System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/doc/source/changes/2.0.rst
+D	System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/doc/source/changes/3.0.rst
+D	System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/doc/source/changes/4.0.rst
+D	System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/doc/source/changes/5.0.rst
+D	System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/doc/source/changes/6.0.rst
+D	System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/doc/source/changes/7.0.rst
+D	System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/doc/source/conf.py
+D	System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/doc/source/covariance/covariance.rst
+D	System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/doc/source/images/__init__.py
+D	System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/doc/source/images/bw-logo.svg
+D	System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/doc/source/images/color-logo-no-text.svg
+D	System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/doc/source/images/color-logo-unprocessed.svg
+D	System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/doc/source/images/color-logo.png
+D	System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/doc/source/images/color-logo.svg
+D	System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/doc/source/images/favicon.ico
+D	System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/doc/source/images/favicon.png
+D	System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/doc/source/images/favicon.py
+D	System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/doc/source/images/favicon.svg
+D	System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/doc/source/images/hero.png
+D	System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/doc/source/images/hero.py
+D	System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/doc/source/images/hero.svg
+D	System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/doc/source/images/logo.svg
+D	System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/doc/source/index.rst
+D	System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/doc/source/multiple-comparison/background.rst
+D	System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/doc/source/multiple-comparison/multiple-comparison-reference.rst
+D	System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/doc/source/multiple-comparison/multiple-comparisons.rst
+D	System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/doc/source/names_wordlist.txt
+D	System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/doc/source/spelling_wordlist.txt
+D	System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/doc/source/types.rst
+D	System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/doc/source/unitroot/cointegration.rst
+D	System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/doc/source/unitroot/introduction.rst
+D	System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/doc/source/unitroot/tests.rst
+D	System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/doc/source/unitroot/unitroot.rst
+D	System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/doc/source/univariate/background.rst
+D	System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/doc/source/univariate/distribution.rst
+D	System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/doc/source/univariate/forecasting.rst
+D	System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/doc/source/univariate/introduction.rst
+D	System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/doc/source/univariate/mean.rst
+D	System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/doc/source/univariate/results.rst
+D	System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/doc/source/univariate/univariate.rst
+D	System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/doc/source/univariate/utility.rst
+D	System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/doc/source/univariate/volatility.rst
+D	System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/examples/bootstrap_examples.ipynb
+D	System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/examples/multiple-comparison_examples.ipynb
+D	System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/examples/unitroot_cointegration_examples.ipynb
+D	System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/examples/unitroot_examples.ipynb
+D	System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/examples/univariate_forecasting_with_exogenous_variables.ipynb
+D	System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/examples/univariate_using_fixed_variance.ipynb
+D	System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/examples/univariate_volatility_forecasting.ipynb
+D	System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/examples/univariate_volatility_modeling.ipynb
+D	System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/examples/univariate_volatility_scenarios.ipynb
+D	System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/lgtm.yml
+D	System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/meson.build
+D	System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/py.typed
+D	System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/pyproject.toml
+D	System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/requirements-dev.txt
+D	System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/requirements.txt
+D	System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/setup.cfg
+D	System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/arch-main/setup.py
+D	System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/examiners/__init__.py
+D	System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/examiners/ledger.py
+D	System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/examiners/proof_refs.py
+D	System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/forecasting/__init__.py
+D	System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/forecasting/arima_wrapper.py
+D	System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/forecasting/forecasting_nexus.py
+D	System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/forecasting/garch_wrapper.py
+D	System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/forecasting/kalman_filter.py
+D	System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/forecasting/safe_exports.py
+D	System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/forecasting/state_space_utils.py
+D	System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/forecasting/ts_kalman_filter.py
+D	System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/goals_plans/__init__.py
+D	System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/goals_plans/evaluator.py
+D	System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/goals_plans/plan_scoring.py
+D	System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/inferencers/__init__.py
+D	System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/inferencers/bayesian_inference.py
+D	System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/inferencers/gap_detector.py
+D	System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/inferencers/temporal_predictor.py
+D	System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/math_logic/__init__.py
+D	System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/math_logic/cognitive_transducer_math.py
+D	System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/math_logic/coherence_metrics.py
+D	System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/math_logic/coherence_optimizer.py
+D	System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/math_logic/logos_mathematical_core.py
+D	System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/math_logic/ontological_axioms.py
+D	System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/planners/__init__.py
+D	System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/planners/goals.py
+D	System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/planners/plan_validation.py
+D	System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/planners/planner.py
+D	System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/services/__init__.py
+D	System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/services/adaptive_interface.py
+D	System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/services/agi_config.json
+D	System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/services/core_service.py
+D	System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/services/deploy_core_services.py
+D	System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/services/deploy_full_stack.py
+D	System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/services/extensions_loader.py
+D	System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/services/logos_daemon.py
+D	System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/services/main.py
+D	System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/services/performance.py
+D	System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/services/policy.py
+D	System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/structural_causal/__init__.py
+D	System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/structural_causal/counterfactuals.py
+D	System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/structural_causal/scm.py
+D	System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/translators/__init__.py
+D	System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/translators/semantic_transformers.py
+D	System_Stack/Logos_Protocol/Unified_Working_Memory/Memory_Analysts/translators/translation_engine.py
+D	System_Stack/Logos_Protocol/Unified_Working_Memory/Structured_Memory_Packets/__init__.py
+D	System_Stack/Logos_Protocol/Unified_Working_Memory/Structured_Memory_Packets/epistemic.json
+D	System_Stack/Logos_Protocol/Unified_Working_Memory/Structured_Memory_Packets/logical.json
+D	System_Stack/Logos_Protocol/Unified_Working_Memory/Structured_Memory_Packets/moral.json
+D	System_Stack/Logos_Protocol/Unified_Working_Memory/Structured_Memory_Packets/ontological.json
+D	System_Stack/Logos_Protocol/Unified_Working_Memory/Structured_Memory_Packets/self_reflective.json
+D	System_Stack/Logos_Protocol/Unified_Working_Memory/Structured_Memory_Packets/structural.json
+D	System_Stack/Logos_Protocol/Unified_Working_Memory/Unstructured_Memory_Packets/agent_identity.json
+D	System_Stack/Logos_Protocol/Unified_Working_Memory/Unstructured_Memory_Packets/agent_identity.json.backup
+D	System_Stack/Logos_Protocol/Unified_Working_Memory/Unstructured_Memory_Packets/agent_state.json
+D	System_Stack/Logos_Protocol/Unified_Working_Memory/Unstructured_Memory_Packets/alignment_LOGOS-AGENT-OMEGA.json
+D	System_Stack/Logos_Protocol/Unified_Working_Memory/Unstructured_Memory_Packets/axiom_footprint.json
+D	System_Stack/Logos_Protocol/Unified_Working_Memory/Unstructured_Memory_Packets/commitment_ledger.json
+D	System_Stack/Logos_Protocol/Unified_Working_Memory/Unstructured_Memory_Packets/coq_theorem_index.json
+D	System_Stack/Logos_Protocol/Unified_Working_Memory/Unstructured_Memory_Packets/integrity_hashes.json
+D	System_Stack/Logos_Protocol/Unified_Working_Memory/Unstructured_Memory_Packets/latest_planner_digest_archive.txt
+D	System_Stack/Logos_Protocol/Unified_Working_Memory/Unstructured_Memory_Packets/logos_agi_pin.json
+D	System_Stack/Logos_Protocol/Unified_Working_Memory/Unstructured_Memory_Packets/mission_profile.json
+D	System_Stack/Logos_Protocol/Unified_Working_Memory/Unstructured_Memory_Packets/planner_digest_archives/planner_digests_20251226T150902Z.jsonl.gz
+D	System_Stack/Logos_Protocol/Unified_Working_Memory/Unstructured_Memory_Packets/planner_digest_archives/planner_digests_20251226T151638Z.jsonl.gz
+D	System_Stack/Logos_Protocol/Unified_Working_Memory/Unstructured_Memory_Packets/planner_digest_archives/planner_digests_20251226T162000Z.jsonl.gz
+D	System_Stack/Logos_Protocol/Unified_Working_Memory/Unstructured_Memory_Packets/planner_digest_archives/planner_digests_20251226T162239Z.jsonl.gz
+D	System_Stack/Logos_Protocol/Unified_Working_Memory/Unstructured_Memory_Packets/planner_digest_archives/planner_digests_20251226T164821Z.jsonl.gz
+D	System_Stack/Logos_Protocol/Unified_Working_Memory/Unstructured_Memory_Packets/planner_digest_archives/planner_digests_20251226T181544Z.jsonl.gz
+D	System_Stack/Logos_Protocol/Unified_Working_Memory/Unstructured_Memory_Packets/planner_digest_archives/planner_digests_20251226T181904Z.jsonl.gz
+D	System_Stack/Logos_Protocol/Unified_Working_Memory/Unstructured_Memory_Packets/planner_digest_archives/planner_digests_20251226T182112Z.jsonl.gz
+D	System_Stack/Logos_Protocol/Unified_Working_Memory/Unstructured_Memory_Packets/planner_digest_archives/planner_digests_20251226T184016Z.jsonl.gz
+D	System_Stack/Logos_Protocol/Unified_Working_Memory/Unstructured_Memory_Packets/planner_digest_archives/planner_digests_20251226T184050Z.jsonl.gz
+D	System_Stack/Logos_Protocol/Unified_Working_Memory/Unstructured_Memory_Packets/planner_digest_archives/planner_digests_20251226T190400Z.jsonl.gz
+D	System_Stack/Logos_Protocol/Unified_Working_Memory/Unstructured_Memory_Packets/planner_digest_archives/planner_digests_20251226T191307Z.jsonl.gz
+D	System_Stack/Logos_Protocol/Unified_Working_Memory/Unstructured_Memory_Packets/planner_digest_archives/planner_digests_20251226T192512Z.jsonl.gz
+D	System_Stack/Logos_Protocol/Unified_Working_Memory/Unstructured_Memory_Packets/planner_digest_archives/planner_digests_20251226T202926Z.jsonl.gz
+D	System_Stack/Logos_Protocol/Unified_Working_Memory/Unstructured_Memory_Packets/planner_digest_archives/planner_digests_20251226T222520Z.jsonl.gz
+D	System_Stack/Logos_Protocol/Unified_Working_Memory/Unstructured_Memory_Packets/planner_digest_archives/planner_digests_20251226T222625Z.jsonl.gz
+D	System_Stack/Logos_Protocol/Unified_Working_Memory/Unstructured_Memory_Packets/planner_digest_archives/planner_digests_20251226T223756Z.jsonl.gz
+D	System_Stack/Logos_Protocol/Unified_Working_Memory/Unstructured_Memory_Packets/planner_digest_archives/planner_digests_20251226T224658Z.jsonl.gz
+D	System_Stack/Logos_Protocol/Unified_Working_Memory/Unstructured_Memory_Packets/planner_digest_archives/planner_digests_20251226T224846Z.jsonl.gz
+D	System_Stack/Logos_Protocol/Unified_Working_Memory/Unstructured_Memory_Packets/planner_digest_archives/planner_digests_20251226T225556Z.jsonl.gz
+D	System_Stack/Logos_Protocol/Unified_Working_Memory/Unstructured_Memory_Packets/planner_digest_archives/planner_digests_20251226T225642Z.jsonl.gz
+D	System_Stack/Logos_Protocol/Unified_Working_Memory/Unstructured_Memory_Packets/planner_digest_archives/planner_digests_20251226T230750Z.jsonl.gz
+D	System_Stack/Logos_Protocol/Unified_Working_Memory/Unstructured_Memory_Packets/planner_digest_archives/planner_digests_20251226T231113Z.jsonl.gz
+D	System_Stack/Logos_Protocol/Unified_Working_Memory/Unstructured_Memory_Packets/planner_digest_archives/planner_digests_20251226T231145Z.jsonl.gz
+D	System_Stack/Logos_Protocol/Unified_Working_Memory/Unstructured_Memory_Packets/planner_digest_archives/planner_digests_20251226T231345Z.jsonl.gz
+D	System_Stack/Logos_Protocol/Unified_Working_Memory/Unstructured_Memory_Packets/planner_digest_archives/planner_digests_20251226T231510Z.jsonl.gz
+D	System_Stack/Logos_Protocol/Unified_Working_Memory/Unstructured_Memory_Packets/planner_digest_archives/planner_digests_20251226T231630Z.jsonl.gz
+D	System_Stack/Logos_Protocol/Unified_Working_Memory/Unstructured_Memory_Packets/planner_digest_archives/planner_digests_20251226T231757Z.jsonl.gz
+D	System_Stack/Logos_Protocol/Unified_Working_Memory/Unstructured_Memory_Packets/planner_digest_archives/planner_digests_20251226T233507Z.jsonl.gz
+D	System_Stack/Logos_Protocol/Unified_Working_Memory/Unstructured_Memory_Packets/planner_digest_archives/planner_digests_20251227T013220Z.jsonl.gz
+D	System_Stack/Logos_Protocol/Unified_Working_Memory/Unstructured_Memory_Packets/planner_digest_archives/planner_digests_20251227T013352Z.jsonl.gz
+D	System_Stack/Logos_Protocol/Unified_Working_Memory/Unstructured_Memory_Packets/planner_digest_archives/planner_digests_20251227T013423Z.jsonl.gz
+D	System_Stack/Logos_Protocol/Unified_Working_Memory/Unstructured_Memory_Packets/planner_digest_archives/planner_digests_20251227T013453Z.jsonl.gz
+D	System_Stack/Logos_Protocol/Unified_Working_Memory/Unstructured_Memory_Packets/planner_digest_archives/planner_digests_20251227T013517Z.jsonl.gz
+D	System_Stack/Logos_Protocol/Unified_Working_Memory/Unstructured_Memory_Packets/planner_digest_archives/planner_digests_20251227T021931Z.jsonl.gz
+D	System_Stack/Logos_Protocol/Unified_Working_Memory/Unstructured_Memory_Packets/planner_digest_archives/planner_digests_20251227T022157Z.jsonl.gz
+D	System_Stack/Logos_Protocol/Unified_Working_Memory/Unstructured_Memory_Packets/planner_digest_archives/planner_digests_20251227T022426Z.jsonl.gz
+D	System_Stack/Logos_Protocol/Unified_Working_Memory/Unstructured_Memory_Packets/planner_digest_archives/planner_digests_20251227T033233Z.jsonl.gz
+D	System_Stack/Logos_Protocol/Unified_Working_Memory/Unstructured_Memory_Packets/planner_digest_archives/planner_digests_20251227T034021Z.jsonl.gz
+D	System_Stack/Logos_Protocol/Unified_Working_Memory/Unstructured_Memory_Packets/planner_digest_archives/planner_digests_20251227T035305Z.jsonl.gz
+D	System_Stack/Logos_Protocol/Unified_Working_Memory/Unstructured_Memory_Packets/planner_digest_archives/planner_digests_20251227T035336Z.jsonl.gz
+D	System_Stack/Logos_Protocol/Unified_Working_Memory/Unstructured_Memory_Packets/planner_digest_archives/planner_digests_20251227T045823Z.jsonl.gz
+D	System_Stack/Logos_Protocol/Unified_Working_Memory/Unstructured_Memory_Packets/planner_digest_archives/planner_digests_20251227T054026Z.jsonl.gz
+D	System_Stack/Logos_Protocol/Unified_Working_Memory/Unstructured_Memory_Packets/planner_digest_archives/planner_digests_20251227T062644Z.jsonl.gz
+D	System_Stack/Logos_Protocol/Unified_Working_Memory/Unstructured_Memory_Packets/planner_digest_archives/planner_digests_20251227T062828Z.jsonl.gz
+D	System_Stack/Logos_Protocol/Unified_Working_Memory/Unstructured_Memory_Packets/planner_digest_archives/planner_digests_20251227T062950Z.jsonl.gz
+D	System_Stack/Logos_Protocol/Unified_Working_Memory/Unstructured_Memory_Packets/planner_digests.jsonl
+D	System_Stack/Logos_Protocol/Unified_Working_Memory/Unstructured_Memory_Packets/proposal_metrics.json
+D	System_Stack/Logos_Protocol/Unified_Working_Memory/Unstructured_Memory_Packets/repository_knowledge_base.json
+D	System_Stack/Logos_Protocol/Unified_Working_Memory/Unstructured_Memory_Packets/run_cycle_history.jsonl
+D	System_Stack/Logos_Protocol/Unified_Working_Memory/Unstructured_Memory_Packets/safeguard_states.pkl
+D	System_Stack/Logos_Protocol/Unified_Working_Memory/Unstructured_Memory_Packets/scp_state.json
+D	System_Stack/Logos_Protocol/Unified_Working_Memory/Unstructured_Memory_Packets/smp_stream.jsonl
+D	System_Stack/Logos_Protocol/Unified_Working_Memory/Unstructured_Memory_Packets/tool_invention/proposals/tool_invention_io_normalizer_20251227T190646Z_1.py
+D	System_Stack/Logos_Protocol/Unified_Working_Memory/Unstructured_Memory_Packets/tool_invention/proposals/tool_invention_io_normalizer_20251227T190705Z_0.py
+D	System_Stack/Logos_Protocol/Unified_Working_Memory/Unstructured_Memory_Packets/tool_invention/proposals/tool_invention_regression_checker_20251227T190646Z_2.py
+D	System_Stack/Logos_Protocol/Unified_Working_Memory/Unstructured_Memory_Packets/tool_invention/proposals/tool_invention_tool_chain_executor_20251227T190646Z_0.py
+D	System_Stack/Logos_Protocol/Unified_Working_Memory/Unstructured_Memory_Packets/tool_invention/tool_gap_report.json
+D	System_Stack/Logos_Protocol/Unified_Working_Memory/Unstructured_Memory_Packets/tool_invention/tool_invention_report.json
+D	System_Stack/Logos_Protocol/Unified_Working_Memory/Unstructured_Memory_Packets/tool_optimizer/tool_chain_profiles.json
+D	System_Stack/Logos_Protocol/Unified_Working_Memory/Unstructured_Memory_Packets/tool_optimizer/tool_optimizer_report.json
+D	System_Stack/Logos_Protocol/Unified_Working_Memory/Unstructured_Memory_Packets/tool_optimizer/tool_registry.json
+D	System_Stack/Logos_Protocol/Unified_Working_Memory/Unstructured_Memory_Packets/world_model_snapshot.json
+D	System_Stack/User_Interaction_Protocol/README.md
+D	System_Stack/User_Interaction_Protocol/__init__.py
+D	System_Stack/User_Interaction_Protocol/_archive_input_output_processing/__init__.py
+D	System_Stack/User_Interaction_Protocol/_archive_input_output_processing/input/__init__.py
+D	System_Stack/User_Interaction_Protocol/_archive_input_output_processing/input/input_sanitizer.py
+D	System_Stack/User_Interaction_Protocol/_archive_input_output_processing/input/progressive_router.py
+D	System_Stack/User_Interaction_Protocol/_archive_input_output_processing/input/pxl_compliance_gate.py
+D	System_Stack/User_Interaction_Protocol/_archive_input_output_processing/input/session_initializer.py
+D	System_Stack/User_Interaction_Protocol/_archive_input_output_processing/input/uip_registry.py
+D	System_Stack/User_Interaction_Protocol/_archive_input_output_processing/ontological_validator.py
+D	System_Stack/User_Interaction_Protocol/_archive_input_output_processing/output/__init__.py
+D	System_Stack/User_Interaction_Protocol/_archive_input_output_processing/output/response_formatter.py
+D	System_Stack/User_Interaction_Protocol/_archive_input_output_processing/translators/__init__.py
+D	System_Stack/User_Interaction_Protocol/_archive_input_output_processing/translators/adaptive_processing.py
+D	System_Stack/User_Interaction_Protocol/_archive_input_output_processing/translators/bridge_translator.py
+D	System_Stack/User_Interaction_Protocol/_archive_input_output_processing/translators/linguistic_analysis.py
+D	System_Stack/User_Interaction_Protocol/_archive_input_output_processing/translators/mcmc_engine.py
+D	System_Stack/User_Interaction_Protocol/_archive_input_output_processing/translators/natural_language_processor.py
+D	System_Stack/User_Interaction_Protocol/_archive_input_output_processing/translators/nlp_processor.py
+D	System_Stack/User_Interaction_Protocol/_archive_input_output_processing/translators/semantic_transformers.py
+D	System_Stack/User_Interaction_Protocol/_archive_input_output_processing/translators/translation/__init__.py
+D	System_Stack/User_Interaction_Protocol/_archive_input_output_processing/translators/translation/translation_engine.py
+D	System_Stack/User_Interaction_Protocol/_archive_input_output_processing/translators/translation_bridge.py
+D	System_Stack/User_Interaction_Protocol/_archive_input_output_processing/translators/translation_engine.py
+D	System_Stack/User_Interaction_Protocol/_archive_input_output_processing/translators/translation_evaluator.py
+D	System_Stack/User_Interaction_Protocol/input_output_processing/__init__.py
+D	System_Stack/User_Interaction_Protocol/input_output_processing/parser.py
+D	System_Stack/User_Interaction_Protocol/input_output_processing/sanitizer.py
+D	System_Stack/User_Interaction_Protocol/interface_runtime/__init__.py
+D	System_Stack/User_Interaction_Protocol/interface_runtime/interface_runtime.py
+D	System_Stack/User_Interaction_Protocol/interface_runtime/router.py
+D	System_Stack/User_Interaction_Protocol/interfaces/__init__.py
+D	System_Stack/User_Interaction_Protocol/interfaces/services/__init__.py
+D	System_Stack/User_Interaction_Protocol/interfaces/services/gui_interfaces/__init__.py
+D	System_Stack/User_Interaction_Protocol/interfaces/services/gui_interfaces/logos_gui.py
+D	System_Stack/User_Interaction_Protocol/interfaces/services/gui_interfaces/logos_trinity_gui.py
+D	System_Stack/User_Interaction_Protocol/interfaces/services/serve_pxl.py
+D	System_Stack/User_Interaction_Protocol/language_modules/__init__.py
+D	System_Stack/User_Interaction_Protocol/language_modules/natural_language_processor.py
+D	System_Stack/User_Interaction_Protocol/language_modules/semantic_transformers.py
+D	System_Stack/User_Interaction_Protocol/language_modules/tranlsation_bridge.py
+D	System_Stack/User_Interaction_Protocol/language_modules/translation_engine.py
+D	System_Stack/User_Interaction_Protocol/metadata_filters/__init__.py
+D	System_Stack/User_Interaction_Protocol/metadata_filters/response_engine.py
+D	System_Stack/User_Interaction_Protocol/smp_packetizer/__init__.py
+D	System_Stack/User_Interaction_Protocol/symbolic_translation/__init__.py
+D	System_Stack/User_Interaction_Protocol/symbolic_translation/lambda_engine.py
+D	System_Stack/User_Interaction_Protocol/symbolic_translation/lambda_engine_definitions.py
+D	System_Stack/User_Interaction_Protocol/symbolic_translation/lambda_onto_calculus_engine.py
+D	System_Stack/User_Interaction_Protocol/symbolic_translation/lambda_parser.py
+D	System_Stack/User_Interaction_Protocol/symbolic_translation/logos_lambda_core.py
+D	System_Stack/User_Interaction_Protocol/symbolic_translation/logos_lambda_integration.py
+D	System_Stack/User_Interaction_Protocol/symbolic_translation/translation/__init__.py
+D	System_Stack/User_Interaction_Protocol/symbolic_translation/translation/translation_engine.py
+D	System_Stack/User_Interaction_Protocol/system_utilities/PROTOCOL_OPERATIONS.txt
+D	System_Stack/User_Interaction_Protocol/system_utilities/README.md
+D	System_Stack/User_Interaction_Protocol/system_utilities/__init__.py
+D	System_Stack/User_Interaction_Protocol/system_utilities/lem_portal_cli.py
+D	System_Stack/User_Interaction_Protocol/system_utilities/nexus/__init__.py
+D	System_Stack/User_Interaction_Protocol/system_utilities/nexus/nexus copy/__init__.py
+D	System_Stack/User_Interaction_Protocol/system_utilities/nexus/nexus copy/gui_nexus.py
+D	System_Stack/User_Interaction_Protocol/system_utilities/nexus/uip_nexus.py
+D	System_Stack/User_Interaction_Protocol/system_utilities/nexus/uip_operations.py
+D	System_Stack/User_Interaction_Protocol/system_utilities/shared/__init__.py
+D	System_Stack/User_Interaction_Protocol/system_utilities/shared/message_formats.py
+D	System_Stack/User_Interaction_Protocol/system_utilities/shared/system_imports.py
+D	System_Stack/User_Interaction_Protocol/tests/test_registry_and_response.py
+D	System_Stack/User_Interaction_Protocol/uip_protocol/__init__.py
+D	System_Stack/User_Interaction_Protocol/uip_protocol/core_processing/__init__.py
+D	System_Stack/User_Interaction_Protocol/uip_protocol/core_processing/adaptive_engine.py
+D	System_Stack/User_Interaction_Protocol/uip_protocol/core_processing/language_processor.py
+D	System_Stack/User_Interaction_Protocol/uip_protocol/core_processing/mcmc_engine.py
+D	System_Stack/User_Interaction_Protocol/uip_protocol/core_processing/registry.py
+D	System_Stack/User_Interaction_Protocol/uip_protocol/input/__init__.py
+D	System_Stack/User_Interaction_Protocol/uip_protocol/input/input_handler.py
+D	System_Stack/User_Interaction_Protocol/uip_protocol/output/__init__.py
+D	System_Stack/User_Interaction_Protocol/uip_protocol/output/response_formatter.py
+D	System_Stack/User_Interaction_Protocol/uip_protocol/progressive_router.py
+D	System_Stack/User_Interaction_Protocol/uip_protocol/utils/__init__.py
+D	System_Stack/User_Interaction_Protocol/uip_protocol/utils/system_utils.py
+M	System_Stack/vsrocq
+D	_new/falsifiability_test.ml
+D	_new/falsifiability_test.mli
+D	state/IDENTITY_HASH.txt
+D	state/agent_identity.json
+D	state/agent_identity.json.backup
+D	state/alignment/runtime_protocol.jsonl
+D	state/commitment_ledger.json
+D	state/coq_theorem_index.json
+D	state/golden_run_fingerprint.txt
+D	state/integrity_hashes.json
+D	state/latest_planner_digest_archive.txt
+D	state/logos_agi_pin.json
+D	state/planner_digest_archives/planner_digests_20251226T150902Z.jsonl.gz
+D	state/planner_digest_archives/planner_digests_20251226T151638Z.jsonl.gz
+D	state/planner_digest_archives/planner_digests_20251226T162000Z.jsonl.gz
+D	state/planner_digest_archives/planner_digests_20251226T162239Z.jsonl.gz
+D	state/planner_digest_archives/planner_digests_20251226T164821Z.jsonl.gz
+D	state/planner_digest_archives/planner_digests_20251226T181544Z.jsonl.gz
+D	state/planner_digest_archives/planner_digests_20251226T181904Z.jsonl.gz
+D	state/planner_digest_archives/planner_digests_20251226T182112Z.jsonl.gz
+D	state/planner_digest_archives/planner_digests_20251226T184016Z.jsonl.gz
+D	state/planner_digest_archives/planner_digests_20251226T184050Z.jsonl.gz
+D	state/planner_digest_archives/planner_digests_20251226T190400Z.jsonl.gz
+D	state/planner_digest_archives/planner_digests_20251226T191307Z.jsonl.gz
+D	state/planner_digest_archives/planner_digests_20251226T192512Z.jsonl.gz
+D	state/planner_digest_archives/planner_digests_20251226T202926Z.jsonl.gz
+D	state/planner_digest_archives/planner_digests_20251226T222520Z.jsonl.gz
+D	state/planner_digest_archives/planner_digests_20251226T222625Z.jsonl.gz
+D	state/planner_digest_archives/planner_digests_20251226T223756Z.jsonl.gz
+D	state/planner_digest_archives/planner_digests_20251226T224658Z.jsonl.gz
+D	state/planner_digest_archives/planner_digests_20251226T224846Z.jsonl.gz
+D	state/planner_digest_archives/planner_digests_20251226T225556Z.jsonl.gz
+D	state/planner_digest_archives/planner_digests_20251226T225642Z.jsonl.gz
+D	state/planner_digest_archives/planner_digests_20251226T230750Z.jsonl.gz
+D	state/planner_digest_archives/planner_digests_20251226T231113Z.jsonl.gz
+D	state/planner_digest_archives/planner_digests_20251226T231145Z.jsonl.gz
+D	state/planner_digest_archives/planner_digests_20251226T231345Z.jsonl.gz
+D	state/planner_digest_archives/planner_digests_20251226T231510Z.jsonl.gz
+D	state/planner_digest_archives/planner_digests_20251226T231630Z.jsonl.gz
+D	state/planner_digest_archives/planner_digests_20251226T231757Z.jsonl.gz
+D	state/planner_digest_archives/planner_digests_20251226T233507Z.jsonl.gz
+D	state/planner_digest_archives/planner_digests_20251227T013220Z.jsonl.gz
+D	state/planner_digest_archives/planner_digests_20251227T013352Z.jsonl.gz
+D	state/planner_digest_archives/planner_digests_20251227T013423Z.jsonl.gz
+D	state/planner_digest_archives/planner_digests_20251227T013453Z.jsonl.gz
+D	state/planner_digest_archives/planner_digests_20251227T013517Z.jsonl.gz
+D	state/planner_digest_archives/planner_digests_20251227T021931Z.jsonl.gz
+D	state/planner_digest_archives/planner_digests_20251227T022157Z.jsonl.gz
+D	state/planner_digest_archives/planner_digests_20251227T022426Z.jsonl.gz
+D	state/planner_digest_archives/planner_digests_20251227T033233Z.jsonl.gz
+D	state/planner_digest_archives/planner_digests_20251227T034021Z.jsonl.gz
+D	state/planner_digest_archives/planner_digests_20251227T035305Z.jsonl.gz
+D	state/planner_digest_archives/planner_digests_20251227T035336Z.jsonl.gz
+D	state/planner_digest_archives/planner_digests_20251227T045823Z.jsonl.gz
+D	state/planner_digest_archives/planner_digests_20251227T054026Z.jsonl.gz
+D	state/planner_digest_archives/planner_digests_20251227T062644Z.jsonl.gz
+D	state/planner_digest_archives/planner_digests_20251227T062828Z.jsonl.gz
+D	state/planner_digest_archives/planner_digests_20251227T062950Z.jsonl.gz
+D	state/planner_digests.jsonl
+D	state/proposal_metrics.json
+D	state/repository_knowledge_base.json
+D	state/run_cycle_history.jsonl
+D	state/safeguard_states.pkl
+D	state/scp_state.json
+D	state/tool_invention/proposals/tool_invention_io_normalizer_20251227T190646Z_1.py
+D	state/tool_invention/proposals/tool_invention_io_normalizer_20251227T190705Z_0.py
+D	state/tool_invention/proposals/tool_invention_regression_checker_20251227T190646Z_2.py
+D	state/tool_invention/proposals/tool_invention_tool_chain_executor_20251227T190646Z_0.py
+D	state/tool_invention/tool_gap_report.json
+D	state/tool_invention/tool_invention_report.json
+D	state/tool_optimizer/tool_chain_profiles.json
+D	state/tool_optimizer/tool_optimizer_report.json
+D	state/tool_optimizer/tool_registry.json
+D	state/world_model_snapshot.json

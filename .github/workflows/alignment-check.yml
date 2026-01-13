@@ -1,0 +1,230 @@
+name: alignment-check
+
+on:
+  push:
+    branches: [main, coq-suite, agi-core, public]
+  pull_request:
+    branches: [main, coq-suite, agi-core, public]
+
+jobs:
+  classify-changes:
+    name: Classify Changes
+    runs-on: ubuntu-latest
+    outputs:
+      coq: ${{ steps.filter.outputs.coq }}
+      agi: ${{ steps.filter.outputs.agi }}
+      public: ${{ steps.filter.outputs.public }}
+      core: ${{ steps.filter.outputs.core }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          submodules: false
+      - name: Init submodules (force URLs, handle trailing slash)
+        shell: bash
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          set -euo pipefail
+
+          echo "== git version =="
+          git --version
+
+          echo "== .gitmodules =="
+          cat .gitmodules || true
+
+          git config submodule.external/Logos_AGI.url "https://x-access-token:${GITHUB_TOKEN}@github.com/ProjectLOGOS/Logos_AGI.git"
+          git config submodule.external/vsrocq.url   "https://x-access-token:${GITHUB_TOKEN}@github.com/rocq-prover/vsrocq.git"
+
+          git config --global url."https://x-access-token:${GITHUB_TOKEN}@github.com/".insteadOf "https://github.com/"
+          git config --global url."https://x-access-token:${GITHUB_TOKEN}@github.com/ProjectLOGOS/Logos_AGI.git".insteadOf "https://github.com/ProjectLOGOS/Logos_AGI.git/"
+          git config --global url."https://x-access-token:${GITHUB_TOKEN}@github.com/ProjectLOGOS/Logos_AGI.git".insteadOf "https://github.com/ProjectLOGOS/Logos_AGI.git"
+
+          echo "== effective submodule urls (from git config) =="
+          git config --get submodule.external/Logos_AGI.url || true
+          git config --get submodule.external/vsrocq.url || true
+
+          echo "== syncing submodules =="
+          git submodule sync --recursive
+
+          echo "== updating submodules =="
+          git submodule update --init --force --recursive
+
+          echo "== submodule status =="
+          git submodule status --recursive
+      - uses: dorny/paths-filter@v3
+        id: filter
+        with:
+          filters: |
+            coq:
+              - '_CoqProject'
+              - 'Protopraxis/formal_verification/coq/**'
+              - 'tools/axiom_gate.py'
+              - 'tools/axiom_inventory.py'
+              - 'tools/run_semantic_profile.sh'
+              - 'tools/redundancy_runner.sh'
+            agi:
+              - 'external/Logos_AGI/**'
+              - 'scripts/**'
+              - 'plugins/**'
+            public:
+              - 'README.md'
+              - 'README_addendum.md'
+              - 'docs/**'
+              - 'scripts/investor_demo.py'
+              - 'scripts/investor_dashboard.py'
+              - 'SECURITY.md'
+              - 'CONTRIBUTING.md'
+            core:
+              - 'scripts/boot_aligned_agent.py'
+              - 'test_lem_discharge.py'
+              - '.github/workflows/**'
+
+  coq-gates:
+    name: Coq + Proof Gates
+    runs-on: ubuntu-latest
+    needs: classify-changes
+    if: ${{ needs.classify-changes.outputs.coq == 'true' || github.ref_name == 'main' }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          submodules: false
+      - name: Init submodules (force URLs, handle trailing slash)
+        shell: bash
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          set -euo pipefail
+
+          echo "== git version =="
+          git --version
+
+          echo "== .gitmodules =="
+          cat .gitmodules || true
+
+          git config submodule.external/Logos_AGI.url "https://x-access-token:${GITHUB_TOKEN}@github.com/ProjectLOGOS/Logos_AGI.git"
+          git config submodule.external/vsrocq.url   "https://x-access-token:${GITHUB_TOKEN}@github.com/rocq-prover/vsrocq.git"
+
+          git config --global url."https://x-access-token:${GITHUB_TOKEN}@github.com/".insteadOf "https://github.com/"
+          git config --global url."https://x-access-token:${GITHUB_TOKEN}@github.com/ProjectLOGOS/Logos_AGI.git".insteadOf "https://github.com/ProjectLOGOS/Logos_AGI.git/"
+          git config --global url."https://x-access-token:${GITHUB_TOKEN}@github.com/ProjectLOGOS/Logos_AGI.git".insteadOf "https://github.com/ProjectLOGOS/Logos_AGI.git"
+
+          echo "== effective submodule urls (from git config) =="
+          git config --get submodule.external/Logos_AGI.url || true
+          git config --get submodule.external/vsrocq.url || true
+
+          echo "== syncing submodules =="
+          git submodule sync --recursive
+
+          echo "== updating submodules =="
+          git submodule update --init --force --recursive
+
+          echo "== submodule status =="
+          git submodule status --recursive
+      - name: Install Coq toolchain
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y coq make
+      - name: Proof regeneration (LEM discharge)
+        run: python3 test_lem_discharge.py
+      - name: Axiom budget gate (if present)
+        run: python3 tools/axiom_gate.py
+
+  agi-gates:
+    name: Agent Boot Gate
+    runs-on: ubuntu-latest
+    needs: classify-changes
+    if: ${{ needs.classify-changes.outputs.agi == 'true' || github.ref_name == 'main' }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          submodules: false
+      - name: Init submodules (force URLs, handle trailing slash)
+        shell: bash
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          set -euo pipefail
+
+          echo "== git version =="
+          git --version
+
+          echo "== .gitmodules =="
+          cat .gitmodules || true
+
+          git config submodule.external/Logos_AGI.url "https://x-access-token:${GITHUB_TOKEN}@github.com/ProjectLOGOS/Logos_AGI.git"
+          git config submodule.external/vsrocq.url   "https://x-access-token:${GITHUB_TOKEN}@github.com/rocq-prover/vsrocq.git"
+
+          git config --global url."https://x-access-token:${GITHUB_TOKEN}@github.com/".insteadOf "https://github.com/"
+          git config --global url."https://x-access-token:${GITHUB_TOKEN}@github.com/ProjectLOGOS/Logos_AGI.git".insteadOf "https://github.com/ProjectLOGOS/Logos_AGI.git/"
+          git config --global url."https://x-access-token:${GITHUB_TOKEN}@github.com/ProjectLOGOS/Logos_AGI.git".insteadOf "https://github.com/ProjectLOGOS/Logos_AGI.git"
+
+          echo "== effective submodule urls (from git config) =="
+          git config --get submodule.external/Logos_AGI.url || true
+          git config --get submodule.external/vsrocq.url || true
+
+          echo "== syncing submodules =="
+          git submodule sync --recursive
+
+          echo "== updating submodules =="
+          git submodule update --init --force --recursive
+
+          echo "== submodule status =="
+          git submodule status --recursive
+      - name: Install Coq toolchain
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y coq make
+      - name: Sandboxed boot (must enforce proof gate)
+        run: python3 scripts/boot_aligned_agent.py
+
+  public-gates:
+    name: Investor Dashboard Gate
+    runs-on: ubuntu-latest
+    needs: classify-changes
+    if: ${{ needs.classify-changes.outputs.public == 'true' || github.ref_name == 'main' }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          submodules: false
+      - name: Init submodules (force URLs, handle trailing slash)
+        shell: bash
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          set -euo pipefail
+
+          echo "== git version =="
+          git --version
+
+          echo "== .gitmodules =="
+          cat .gitmodules || true
+
+          git config submodule.external/Logos_AGI.url "https://x-access-token:${GITHUB_TOKEN}@github.com/ProjectLOGOS/Logos_AGI.git"
+          git config submodule.external/vsrocq.url   "https://x-access-token:${GITHUB_TOKEN}@github.com/rocq-prover/vsrocq.git"
+
+          git config --global url."https://x-access-token:${GITHUB_TOKEN}@github.com/".insteadOf "https://github.com/"
+          git config --global url."https://x-access-token:${GITHUB_TOKEN}@github.com/ProjectLOGOS/Logos_AGI.git".insteadOf "https://github.com/ProjectLOGOS/Logos_AGI.git/"
+          git config --global url."https://x-access-token:${GITHUB_TOKEN}@github.com/ProjectLOGOS/Logos_AGI.git".insteadOf "https://github.com/ProjectLOGOS/Logos_AGI.git"
+
+          echo "== effective submodule urls (from git config) =="
+          git config --get submodule.external/Logos_AGI.url || true
+          git config --get submodule.external/vsrocq.url || true
+
+          echo "== syncing submodules =="
+          git submodule sync --recursive
+
+          echo "== updating submodules =="
+          git submodule update --init --force --recursive
+
+          echo "== submodule status =="
+          git submodule status --recursive
+      - name: Install Coq toolchain
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y coq make
+      - name: Investor dashboard (end-to-end signal)
+        run: python3 scripts/investor_dashboard.py

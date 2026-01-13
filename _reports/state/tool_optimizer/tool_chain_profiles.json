@@ -1,0 +1,164 @@
+[
+  {
+    "profile_id": "toolopt_integrity_check",
+    "name": "Tool Optimizer - Integrity Check",
+    "ordered_steps": [
+      "generate_symbolic_digest",
+      "generate_symbolic_digest",
+      "generate_symbolic_digest",
+      "curate_training_brief",
+      "review_runtime_telemetry",
+      "refresh_alignment_snapshot",
+      "prepare_agenda_snapshot",
+      "synthesize_transfer_digest",
+      "prepare_planning_brief"
+    ],
+    "preconditions": [
+      "Identity validated",
+      "Telemetry accessible"
+    ],
+    "postconditions": [
+      "Telemetry anomalies recorded",
+      "Identity warnings cleared"
+    ],
+    "evidence_refs": [
+      "/workspaces/pxl_demo_wcoq_proofs/state/planner_digest_archives/planner_digests_20251226T150902Z.jsonl.gz",
+      "/workspaces/pxl_demo_wcoq_proofs/state/planner_digest_archives/planner_digests_20251226T151638Z.jsonl.gz",
+      "/workspaces/pxl_demo_wcoq_proofs/state/planner_digest_archives/planner_digests_20251226T162000Z.jsonl.gz",
+      "/workspaces/pxl_demo_wcoq_proofs/state/planner_digest_archives/planner_digests_20251226T162239Z.jsonl.gz",
+      "/workspaces/pxl_demo_wcoq_proofs/state/planner_digest_archives/planner_digests_20251226T164821Z.jsonl.gz"
+    ],
+    "confidence": 1.0
+  },
+  {
+    "profile_id": "toolopt_toolkit_audit",
+    "name": "Tool Optimizer - Toolkit Audit",
+    "ordered_steps": [
+      "mission.status",
+      "fs.read",
+      "sandbox.list"
+    ],
+    "preconditions": [
+      "Planner digests archived",
+      "Tool registry readable"
+    ],
+    "postconditions": [
+      "Tool usage map updated",
+      "Catalog references reconciled"
+    ],
+    "evidence_refs": [],
+    "confidence": 0.0
+  },
+  {
+    "profile_id": "toolopt_gap_fill",
+    "name": "Tool Optimizer - Gap Fill",
+    "ordered_steps": [
+      "generate_symbolic_digest",
+      "generate_symbolic_digest",
+      "generate_symbolic_digest",
+      "curate_training_brief",
+      "review_runtime_telemetry",
+      "refresh_alignment_snapshot",
+      "prepare_agenda_snapshot",
+      "synthesize_transfer_digest",
+      "prepare_planning_brief"
+    ],
+    "preconditions": [
+      "Enhancements permitted",
+      "Sandbox write quota available"
+    ],
+    "postconditions": [
+      "Gap opportunities prioritized",
+      "Enhancement backlog refreshed"
+    ],
+    "evidence_refs": [
+      "/workspaces/pxl_demo_wcoq_proofs/state/planner_digest_archives/planner_digests_20251226T150902Z.jsonl.gz",
+      "/workspaces/pxl_demo_wcoq_proofs/state/planner_digest_archives/planner_digests_20251226T151638Z.jsonl.gz",
+      "/workspaces/pxl_demo_wcoq_proofs/state/planner_digest_archives/planner_digests_20251226T162000Z.jsonl.gz",
+      "/workspaces/pxl_demo_wcoq_proofs/state/planner_digest_archives/planner_digests_20251226T162239Z.jsonl.gz",
+      "/workspaces/pxl_demo_wcoq_proofs/state/planner_digest_archives/planner_digests_20251226T164821Z.jsonl.gz"
+    ],
+    "confidence": 1.0
+  },
+  {
+    "profile_id": "toolopt_proof_gate_checkpoint",
+    "name": "Tool Optimizer - Proof Gate Checkpoint",
+    "ordered_steps": [
+      "mission.status",
+      "probe.last",
+      "proof.status"
+    ],
+    "preconditions": [
+      "Proof gate baseline hashed",
+      "Coq baseline reachable"
+    ],
+    "postconditions": [
+      "Proof anomalies logged",
+      "Theory hash confirmed"
+    ],
+    "evidence_refs": [],
+    "confidence": 0.0
+  },
+  {
+    "profile_id": "toolopt_uwm_refresh",
+    "name": "Tool Optimizer - Uwm Refresh",
+    "ordered_steps": [
+      "generate_symbolic_digest",
+      "generate_symbolic_digest",
+      "generate_symbolic_digest",
+      "curate_training_brief",
+      "review_runtime_telemetry",
+      "refresh_alignment_snapshot",
+      "prepare_agenda_snapshot",
+      "synthesize_transfer_digest",
+      "prepare_planning_brief"
+    ],
+    "preconditions": [
+      "World model snapshot path configured",
+      "Mission profile readable"
+    ],
+    "postconditions": [
+      "Snapshot hash updated",
+      "UWM references published"
+    ],
+    "evidence_refs": [
+      "/workspaces/pxl_demo_wcoq_proofs/state/planner_digest_archives/planner_digests_20251226T150902Z.jsonl.gz",
+      "/workspaces/pxl_demo_wcoq_proofs/state/planner_digest_archives/planner_digests_20251226T151638Z.jsonl.gz",
+      "/workspaces/pxl_demo_wcoq_proofs/state/planner_digest_archives/planner_digests_20251226T162000Z.jsonl.gz",
+      "/workspaces/pxl_demo_wcoq_proofs/state/planner_digest_archives/planner_digests_20251226T162239Z.jsonl.gz",
+      "/workspaces/pxl_demo_wcoq_proofs/state/planner_digest_archives/planner_digests_20251226T164821Z.jsonl.gz"
+    ],
+    "confidence": 1.0
+  },
+  {
+    "profile_id": "toolopt_capability_report",
+    "name": "Tool Optimizer - Capability Report",
+    "ordered_steps": [
+      "generate_symbolic_digest",
+      "generate_symbolic_digest",
+      "generate_symbolic_digest",
+      "curate_training_brief",
+      "review_runtime_telemetry",
+      "refresh_alignment_snapshot",
+      "prepare_agenda_snapshot",
+      "synthesize_transfer_digest",
+      "prepare_planning_brief"
+    ],
+    "preconditions": [
+      "Catalog tail hash available",
+      "Planner digest pointer resolved"
+    ],
+    "postconditions": [
+      "Capability summary staged",
+      "Reporting artifacts cataloged"
+    ],
+    "evidence_refs": [
+      "/workspaces/pxl_demo_wcoq_proofs/state/planner_digest_archives/planner_digests_20251226T150902Z.jsonl.gz",
+      "/workspaces/pxl_demo_wcoq_proofs/state/planner_digest_archives/planner_digests_20251226T151638Z.jsonl.gz",
+      "/workspaces/pxl_demo_wcoq_proofs/state/planner_digest_archives/planner_digests_20251226T162000Z.jsonl.gz",
+      "/workspaces/pxl_demo_wcoq_proofs/state/planner_digest_archives/planner_digests_20251226T162239Z.jsonl.gz",
+      "/workspaces/pxl_demo_wcoq_proofs/state/planner_digest_archives/planner_digests_20251226T164821Z.jsonl.gz"
+    ],
+    "confidence": 1.0
+  }
+]

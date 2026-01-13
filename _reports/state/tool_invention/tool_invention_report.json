@@ -1,0 +1,39 @@
+{
+  "timestamp_utc": "2025-12-27T19:07:05.671542+00:00",
+  "proposal_only": true,
+  "proposals_dir": "state/tool_invention/proposals",
+  "proposed_gaps": [
+    {
+      "gap_id": "io_normalizer",
+      "title": "Standardized Tool IO Normalizer",
+      "recommended_tool_type": "analysis",
+      "target_module": "logos_core.tools.io_normalizer",
+      "risk_tag": "safe",
+      "acceptance_tests": [
+        "Normalize heterogeneous tool payloads into canonical dict form",
+        "Strip unsafe keys while preserving audit metadata"
+      ],
+      "rationale": "High IO interaction frequency (1) without normalizer; score=1"
+    }
+  ],
+  "generated": [
+    {
+      "gap_id": "io_normalizer",
+      "entry_id": "4a869f1a7dd9ff6277797ca51d186c2c",
+      "success": true,
+      "deployed": false,
+      "deployment_path": null,
+      "stage_ok": true,
+      "policy_class": "enhancement",
+      "policy_reasoning": "Enhancement allowed by policy configuration | deployment disabled (tool_invention_proposal_only)",
+      "proposal_only": true,
+      "proposal_path": "state/tool_invention/proposals/tool_invention_io_normalizer_20251227T190705Z_0.py#55f4964177b6b2202abdb8d86d8aba585a6cdd60c9d8afc260de1ef2e3e86e72",
+      "proposal_hash": "55f4964177b6b2202abdb8d86d8aba585a6cdd60c9d8afc260de1ef2e3e86e72",
+      "stage_errors": []
+    }
+  ],
+  "deployed_count": 0,
+  "new_tool_entry_ids": [
+    "4a869f1a7dd9ff6277797ca51d186c2c"
+  ]
+}

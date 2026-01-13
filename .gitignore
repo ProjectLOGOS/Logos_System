@@ -1,0 +1,54 @@
+_quarantine_omni_cleanup/
+_quarantine_omni_cleanup/.venv/
+__pycache__/
+*.pyc
+
+# ---- Environment & Secrets ----
+.env
+.venv/
+*.log
+.DS_Store
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+.idea/
+
+# Local scratch and demos
+JUNK_DRAWER/
+DEV_LOGS/
+Demos/
+
+# ---- Coq build artifacts ----
+*.vo
+*.vos
+*.vok
+*.glob
+*.aux
+*.cache
+.coq-native/
+.coqdeps
+.Coqlib
+CoqMakefile
+CoqMakefile.conf
+.CoqMakefile.d
+
+# ---- Runtime outputs / generated artifacts ----
+sandbox/
+logs/
+integration_artifacts/
+logos_agent_system.log
+# Acceptance and audit artifacts
+audit/
+audit/**
+
+# state should be config-only; keep mission_profile.json tracked
+state/agent_state.json
+state/alignment_*.json
+state/axiom_footprint.json
+
+# ---- Archives / snapshots ----
+backups/
+canonical_coq*/
+
+# Runtime state
+PXL_Gate/state/

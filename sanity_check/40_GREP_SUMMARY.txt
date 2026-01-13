@@ -1,0 +1,27 @@
+I2_Agent: route_input or /ingest
+System_Stack/Logos_Protocol/Logos_Agents/I2_Agent/protocol_operations/ui_io/server.py:19:@app.post("/ingest")
+System_Stack/Logos_Protocol/Logos_Agents/I2_Agent/protocol_operations/ui_io/adapter.py:35:def route_input(*, inbound: str, default_route: str) -> InboundResponse:
+System_Stack/Logos_Protocol/Logos_Agents/I2_Agent/protocol_operations/ui_io/adapter.py:105:    return route_input(inbound=inbound, default_route=default_route)
+
+I1_Agent: OmniscienceIntegration or SignPrincipalOperator
+System_Stack/Logos_Protocol/Logos_Agents/I1_Agent/_core/Sign_Principal_Operator.py:26:class SignPrincipalOperator:
+System_Stack/Logos_Protocol/Logos_Agents/I1_Agent/_core/OmniProperty_Integration.py:28:class OmniscienceIntegration:
+System_Stack/Logos_Protocol/Logos_Agents/I1_Agent/_core/__init__.py:1:from .OmniProperty_Integration import OmniscienceIntegration, OmniscienceMetrics
+System_Stack/Logos_Protocol/Logos_Agents/I1_Agent/_core/__init__.py:2:from .Sign_Principal_Operator import SignPrincipalOperator, SignResolution
+
+I3_Agent: OmnipresenceIntegration or MindPrincipalOperator
+System_Stack/Logos_Protocol/Logos_Agents/I3_Agent/_core/Mind_Principal_Operator.py:27:class MindPrincipalOperator:
+System_Stack/Logos_Protocol/Logos_Agents/I3_Agent/_core/Omni_Property_Integration.py:30:class OmnipresenceIntegration:
+System_Stack/Logos_Protocol/Logos_Agents/I3_Agent/_core/__init__.py:1:from .Omni_Property_Integration import OmnipresenceIntegration, OmnipresenceMetrics
+System_Stack/Logos_Protocol/Logos_Agents/I3_Agent/_core/__init__.py:2:from .Mind_Principal_Operator import MindPrincipalOperator, PlanStep
+
+UIP: GUI / __pycache__ / _legacy_quarantine directories
+System_Stack/Language_Translation_Protocol (formerly UIP)/system_utilities/shared/__pycache__
+System_Stack/Language_Translation_Protocol (formerly UIP)/system_utilities/shared/__pycache__/__pycache__
+System_Stack/Language_Translation_Protocol (formerly UIP)/system_utilities/nexus/__pycache__
+System_Stack/Language_Translation_Protocol (formerly UIP)/system_utilities/__pycache__
+System_Stack/Language_Translation_Protocol (formerly UIP)/system_utilities/__pycache__/__pycache__
+System_Stack/Language_Translation_Protocol (formerly UIP)/__pycache__
+System_Stack/Language_Translation_Protocol (formerly UIP)/__pycache__/__pycache__
+System_Stack/Language_Translation_Protocol (formerly UIP)/core_processing/__pycache__
+System_Stack/Language_Translation_Protocol (formerly UIP)/tests/__pycache__

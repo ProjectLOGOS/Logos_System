@@ -1,0 +1,740 @@
+{
+  "schema_version": 1,
+  "updated_at": "2025-12-31T18:33:43.086494+00:00",
+  "version": 8,
+  "prev_hash": "7d988f7677650d0525a69793a6ad001a8a64c2f456eb98c647166f4d81c2515e",
+  "observations": [
+    {
+      "objective": "status",
+      "last_tool": "mission.status",
+      "last_output": "{\n  \"label\": \"SYSTEM_COMPLETENESS\",\n  \"allow_self_modification\": true,\n  \"allow_reflexivity\": true,\n  \"execute_hooks\": true,\n  \"log_detail\": \"maximum\",\n  \"override_exit_on_error\": false,\n  \"safe_interfaces_only\": false,\n  \"system_completeness_priority\": true,\n  \"gap_detection_enabled\": true,\n  \"allow_enhancements\": true,\n  \"description\": \"System completeness assessment mode - agent must identify and address architectural gaps through autonomous analysis and self-improvement.\"\n}",
+      "time_remaining": 0.9121029376983643,
+      "results_count": 1
+    },
+    {
+      "objective": "status",
+      "last_tool": "probe.last",
+      "last_output": "[probe] no runs",
+      "time_remaining": 0.8551387786865234,
+      "results_count": 3
+    },
+    {
+      "objective": "Perform system status check",
+      "last_tool": "mission.status",
+      "last_output": "{\n  \"label\": \"SYSTEM_COMPLETENESS\",\n  \"allow_self_modification\": true,\n  \"allow_reflexivity\": true,\n  \"execute_hooks\": true,\n  \"log_detail\": \"maximum\",\n  \"override_exit_on_error\": false,\n  \"safe_interfaces_only\": false,\n  \"system_completeness_priority\": true,\n  \"gap_detection_enabled\": true,\n  \"allow_enhancements\": true,\n  \"description\": \"System completeness assessment mode - agent must identify and address architectural gaps through autonomous analysis and self-improvement.\"\n}",
+      "time_remaining": 0.9185750484466553,
+      "results_count": 1
+    },
+    {
+      "objective": "Perform system status check",
+      "last_tool": "probe.last",
+      "last_output": "[probe] no runs",
+      "time_remaining": 0.8592045307159424,
+      "results_count": 3
+    },
+    {
+      "objective": "Perform system status check",
+      "last_tool": "fs.read",
+      "last_output": "{\n  \"label\": \"SYSTEM_COMPLETENESS\",\n  \"allow_self_modification\": true,\n  \"allow_reflexivity\": true,\n  \"execute_hooks\": true,\n  \"log_detail\": \"maximum\",\n  \"override_exit_on_error\": false,\n  \"safe_interfaces_only\": false,\n  \"system_completeness_priority\": true,\n  \"gap_detection_enabled\": true,\n  \"allow_enhancements\": true,\n  \"description\": \"System completeness assessment mode - agent must identify and address architectural gaps through autonomous analysis and self-improvement.\"\n}",
+      "time_remaining": 0.8542022705078125,
+      "results_count": 5
+    }
+  ],
+  "last_proposals": [
+    {
+      "tool": "mission.status",
+      "args": "",
+      "rationale": "SCP meta-reasoning analysis suggests status check. Recalled: TOOL: fs.read (VERIFIED), TOOL: mission.status (VERIFIED), TOOL: probe.last (VERIFIED)",
+      "confidence": 0.9,
+      "truth_annotation": {
+        "truth": "HEURISTIC",
+        "evidence": {
+          "type": "inference",
+          "ref": null,
+          "details": "Pattern-based reasoning from objective keywords"
+        }
+      },
+      "evaluator_score": 0.4624094574279076,
+      "evaluator_reason": "Tool 'mission.status' has 269 attempts, 175 successes, last outcome: SUCCESS. Truth adjustment: HEURISTIC (-0.10). Policy adjustment: (+0.00)"
+    }
+  ],
+  "last_tool_results": [
+    {
+      "tool": "mission.status",
+      "args": "",
+      "status": "ok",
+      "objective": "status",
+      "timestamp": "2025-12-31T18:33:42.454813+00:00"
+    },
+    {
+      "tool": "mission.status",
+      "args": "",
+      "status": "ok",
+      "objective": "status",
+      "timestamp": "2025-12-31T18:33:42.455898+00:00"
+    },
+    {
+      "tool": "probe.last",
+      "args": "",
+      "status": "ok",
+      "objective": "status",
+      "timestamp": "2025-12-31T18:33:42.511659+00:00"
+    },
+    {
+      "tool": "mission.status",
+      "args": "",
+      "status": "ok",
+      "objective": "status",
+      "timestamp": "2025-12-31T18:33:42.512979+00:00"
+    },
+    {
+      "tool": "mission.status",
+      "args": "",
+      "status": "ok",
+      "objective": "Perform system status check",
+      "timestamp": "2025-12-31T18:33:42.920805+00:00"
+    },
+    {
+      "tool": "mission.status",
+      "args": "",
+      "status": "ok",
+      "objective": "Perform system status check",
+      "timestamp": "2025-12-31T18:33:42.921840+00:00"
+    },
+    {
+      "tool": "probe.last",
+      "args": "",
+      "status": "ok",
+      "objective": "Perform system status check",
+      "timestamp": "2025-12-31T18:33:42.979994+00:00"
+    },
+    {
+      "tool": "mission.status",
+      "args": "",
+      "status": "ok",
+      "objective": "Perform system status check",
+      "timestamp": "2025-12-31T18:33:42.981436+00:00"
+    },
+    {
+      "tool": "fs.read",
+      "args": "state/mission_profile.json",
+      "status": "ok",
+      "objective": "Perform system status check",
+      "timestamp": "2025-12-31T18:33:42.984963+00:00"
+    },
+    {
+      "tool": "mission.status",
+      "args": "",
+      "status": "ok",
+      "objective": "Perform system status check",
+      "timestamp": "2025-12-31T18:33:42.986453+00:00"
+    }
+  ],
+  "truth_events": [
+    {
+      "ts": "2025-12-31T18:33:42.920778+00:00",
+      "source": "TOOL",
+      "content": {
+        "tool": "mission.status",
+        "validator": "mission_status_schema",
+        "reason": "mission profile parsed"
+      },
+      "truth_annotation": {
+        "truth": "VERIFIED",
+        "evidence": {
+          "type": "schema",
+          "ref": null,
+          "details": "mission profile parsed"
+        }
+      }
+    },
+    {
+      "ts": "2025-12-31T18:33:42.921413+00:00",
+      "source": "RUNTIME",
+      "content": {
+        "diagnostic": "observation error",
+        "error": "No module named 'Logos_AGI'"
+      },
+      "truth_annotation": {
+        "truth": "UNVERIFIED",
+        "evidence": {
+          "type": "none",
+          "ref": null,
+          "details": "Error diagnostic"
+        }
+      }
+    },
+    {
+      "ts": "2025-12-31T18:33:42.921542+00:00",
+      "source": "ARP",
+      "content": {
+        "tool": "mission.status",
+        "args": "",
+        "rationale": "SCP meta-reasoning analysis suggests status check. Recalled: TOOL: mission.status (VERIFIED), TOOL: mission.status (VERIFIED), TOOL: probe.last (VERIFIED)",
+        "confidence": 0.9,
+        "truth_annotation": {
+          "truth": "HEURISTIC",
+          "evidence": {
+            "type": "inference",
+            "ref": null,
+            "details": "Pattern-based reasoning from objective keywords"
+          }
+        },
+        "evaluator_score": -0.04084641846529438,
+        "evaluator_reason": "Tool 'mission.status' has 267 attempts, 173 successes, last outcome: ERROR. Truth adjustment: HEURISTIC (-0.10). Policy adjustment: (+0.00)"
+      },
+      "truth_annotation": {
+        "truth": "HEURISTIC",
+        "evidence": {
+          "type": "inference",
+          "ref": null,
+          "details": "Pattern-based reasoning from objective keywords"
+        }
+      }
+    },
+    {
+      "ts": "2025-12-31T18:33:42.921817+00:00",
+      "source": "TOOL",
+      "content": {
+        "tool": "mission.status",
+        "validator": "mission_status_schema",
+        "reason": "mission profile parsed"
+      },
+      "truth_annotation": {
+        "truth": "VERIFIED",
+        "evidence": {
+          "type": "schema",
+          "ref": null,
+          "details": "mission profile parsed"
+        }
+      }
+    },
+    {
+      "ts": "2025-12-31T18:33:42.980793+00:00",
+      "source": "RUNTIME",
+      "content": {
+        "diagnostic": "observation error",
+        "error": "No module named 'Logos_AGI'"
+      },
+      "truth_annotation": {
+        "truth": "UNVERIFIED",
+        "evidence": {
+          "type": "none",
+          "ref": null,
+          "details": "Error diagnostic"
+        }
+      }
+    },
+    {
+      "ts": "2025-12-31T18:33:42.980923+00:00",
+      "source": "ARP",
+      "content": {
+        "tool": "mission.status",
+        "args": "",
+        "rationale": "SCP meta-reasoning analysis suggests status check. Recalled: TOOL: probe.last (VERIFIED), TOOL: mission.status (VERIFIED), TOOL: mission.status (VERIFIED)",
+        "confidence": 0.9,
+        "truth_annotation": {
+          "truth": "HEURISTIC",
+          "evidence": {
+            "type": "inference",
+            "ref": null,
+            "details": "Pattern-based reasoning from objective keywords"
+          }
+        },
+        "evaluator_score": 0.4607875533526091,
+        "evaluator_reason": "Tool 'mission.status' has 268 attempts, 174 successes, last outcome: SUCCESS. Truth adjustment: HEURISTIC (-0.10). Policy adjustment: (+0.00)"
+      },
+      "truth_annotation": {
+        "truth": "HEURISTIC",
+        "evidence": {
+          "type": "inference",
+          "ref": null,
+          "details": "Pattern-based reasoning from objective keywords"
+        }
+      }
+    },
+    {
+      "ts": "2025-12-31T18:33:42.985739+00:00",
+      "source": "RUNTIME",
+      "content": {
+        "diagnostic": "observation error",
+        "error": "No module named 'Logos_AGI'"
+      },
+      "truth_annotation": {
+        "truth": "UNVERIFIED",
+        "evidence": {
+          "type": "none",
+          "ref": null,
+          "details": "Error diagnostic"
+        }
+      }
+    },
+    {
+      "ts": "2025-12-31T18:33:42.985834+00:00",
+      "source": "ARP",
+      "content": {
+        "tool": "mission.status",
+        "args": "",
+        "rationale": "SCP meta-reasoning analysis suggests status check. Recalled: TOOL: fs.read (VERIFIED), TOOL: mission.status (VERIFIED), TOOL: probe.last (VERIFIED)",
+        "confidence": 0.9,
+        "truth_annotation": {
+          "truth": "HEURISTIC",
+          "evidence": {
+            "type": "inference",
+            "ref": null,
+            "details": "Pattern-based reasoning from objective keywords"
+          }
+        },
+        "evaluator_score": 0.4624094574279076,
+        "evaluator_reason": "Tool 'mission.status' has 269 attempts, 175 successes, last outcome: SUCCESS. Truth adjustment: HEURISTIC (-0.10). Policy adjustment: (+0.00)"
+      },
+      "truth_annotation": {
+        "truth": "HEURISTIC",
+        "evidence": {
+          "type": "inference",
+          "ref": null,
+          "details": "Pattern-based reasoning from objective keywords"
+        }
+      }
+    }
+  ],
+  "arp_status": {},
+  "scp_status": {
+    "message": "stub cognitive status",
+    "stub": true,
+    "mode": "stub",
+    "last_error": "Observation setup error: No module named 'Logos_AGI'",
+    "scp_state_valid": true,
+    "scp_recovery_mode": false,
+    "scp_state_validation_error": null
+  },
+  "working_memory": {
+    "schema_version": 1,
+    "updated_at": "2025-12-31T18:33:42.987014+00:00",
+    "wm_version": 22,
+    "short_term": [
+      {
+        "id": "fcc401e337bec79b075e15496736a4d86c308ea0af8f4d9cf6cbb94b72408bb2",
+        "created_at": "2025-12-31T18:33:42.455583+00:00",
+        "last_accessed_at": "2025-12-31T18:33:42.987023+00:00",
+        "objective_tags": [
+          "STATUS"
+        ],
+        "truth": "HEURISTIC",
+        "evidence": {
+          "type": "inference",
+          "ref": null,
+          "details": "Pattern-based reasoning from objective keywords"
+        },
+        "content": {
+          "tool": "mission.status",
+          "args": "",
+          "rationale": "SCP meta-reasoning analysis suggests status check. Recalled: TOOL: mission.status (VERIFIED)",
+          "confidence": 0.9
+        },
+        "salience": 0.16971728203124997,
+        "decay_rate": 0.15,
+        "access_count": 2,
+        "source": "ARP"
+      },
+      {
+        "id": "a7e1c33e97ed3300b486e390ab26cb7bf2fa3297ae77f76da6199bca75292e80",
+        "created_at": "2025-12-31T18:33:42.512572+00:00",
+        "last_accessed_at": "2025-12-31T18:33:42.987028+00:00",
+        "objective_tags": [
+          "STATUS"
+        ],
+        "truth": "HEURISTIC",
+        "evidence": {
+          "type": "inference",
+          "ref": null,
+          "details": "Pattern-based reasoning from objective keywords"
+        },
+        "content": {
+          "tool": "mission.status",
+          "args": "",
+          "rationale": "SCP meta-reasoning analysis suggests status check. Recalled: TOOL: probe.last (VERIFIED), TOOL: mission.status (VERIFIED), ARP: mission.status (HEURISTIC)",
+          "confidence": 0.9
+        },
+        "salience": 0.19966739062499997,
+        "decay_rate": 0.15,
+        "access_count": 1,
+        "source": "ARP"
+      },
+      {
+        "id": "f7920d78c0fd4ed56be9cc037c84b60c9c1a6ffb821bb548a7af2dae5357036f",
+        "created_at": "2025-12-31T18:33:42.921523+00:00",
+        "last_accessed_at": "2025-12-31T18:33:42.987031+00:00",
+        "objective_tags": [
+          "GENERAL"
+        ],
+        "truth": "HEURISTIC",
+        "evidence": {
+          "type": "inference",
+          "ref": null,
+          "details": "Pattern-based reasoning from objective keywords"
+        },
+        "content": {
+          "tool": "mission.status",
+          "args": "",
+          "rationale": "SCP meta-reasoning analysis suggests status check. Recalled: TOOL: mission.status (VERIFIED), TOOL: mission.status (VERIFIED), TOOL: probe.last (VERIFIED)",
+          "confidence": 0.9
+        },
+        "salience": 0.27635624999999997,
+        "decay_rate": 0.15,
+        "access_count": 1,
+        "source": "ARP"
+      },
+      {
+        "id": "5f6a3bf64a995e750a519817ce5f743d6aebc7364fcab0f21e3586449e6f85ce",
+        "created_at": "2025-12-31T18:33:42.980906+00:00",
+        "last_accessed_at": "2025-12-31T18:33:42.987034+00:00",
+        "objective_tags": [
+          "GENERAL"
+        ],
+        "truth": "HEURISTIC",
+        "evidence": {
+          "type": "inference",
+          "ref": null,
+          "details": "Pattern-based reasoning from objective keywords"
+        },
+        "content": {
+          "tool": "mission.status",
+          "args": "",
+          "rationale": "SCP meta-reasoning analysis suggests status check. Recalled: TOOL: probe.last (VERIFIED), TOOL: mission.status (VERIFIED), TOOL: mission.status (VERIFIED)",
+          "confidence": 0.9
+        },
+        "salience": 0.325125,
+        "decay_rate": 0.15,
+        "access_count": 0,
+        "source": "ARP"
+      },
+      {
+        "id": "0cd676c16b8fe6f3c75fc7bbe482cefdc91ec2e6f1abe8e85ba394e1251c52cc",
+        "created_at": "2025-12-31T18:33:42.985820+00:00",
+        "last_accessed_at": "2025-12-31T18:33:42.987040+00:00",
+        "objective_tags": [
+          "GENERAL"
+        ],
+        "truth": "HEURISTIC",
+        "evidence": {
+          "type": "inference",
+          "ref": null,
+          "details": "Pattern-based reasoning from objective keywords"
+        },
+        "content": {
+          "tool": "mission.status",
+          "args": "",
+          "rationale": "SCP meta-reasoning analysis suggests status check. Recalled: TOOL: fs.read (VERIFIED), TOOL: mission.status (VERIFIED), TOOL: probe.last (VERIFIED)",
+          "confidence": 0.9
+        },
+        "salience": 0.3825,
+        "decay_rate": 0.15,
+        "access_count": 0,
+        "source": "ARP"
+      }
+    ],
+    "long_term": [
+      {
+        "id": "90d53b4f49aa48180e02ecfa096d1f13e15352963cb660e5126c002fe2272748",
+        "created_at": "2025-12-31T18:33:42.454852+00:00",
+        "last_accessed_at": "2025-12-31T18:33:42.985761+00:00",
+        "objective_tags": [
+          "STATUS"
+        ],
+        "truth": "VERIFIED",
+        "evidence": {
+          "type": "hash",
+          "ref": "93619e5ac861a5eaea1f64ddd6992d3e710abe884bd485dedc7d160b243e7f87",
+          "details": "Tool execution result: mission.status"
+        },
+        "content": {
+          "tool": "mission.status",
+          "args": "",
+          "status": "ok",
+          "outcome": "SUCCESS"
+        },
+        "salience": 0.7224999999999999,
+        "decay_rate": 0.15,
+        "access_count": 7,
+        "source": "TOOL"
+      },
+      {
+        "id": "c2026796d99ccf8e0721474e46cabf0c5414f640057a7fc90971a16281734c02",
+        "created_at": "2025-12-31T18:33:42.511710+00:00",
+        "last_accessed_at": "2025-12-31T18:33:42.985761+00:00",
+        "objective_tags": [
+          "STATUS"
+        ],
+        "truth": "VERIFIED",
+        "evidence": {
+          "type": "hash",
+          "ref": "93619e5ac861a5eaea1f64ddd6992d3e710abe884bd485dedc7d160b243e7f87",
+          "details": "Tool execution result: probe.last"
+        },
+        "content": {
+          "tool": "probe.last",
+          "args": "",
+          "status": "ok",
+          "outcome": "SUCCESS"
+        },
+        "salience": 0.7224999999999999,
+        "decay_rate": 0.15,
+        "access_count": 4,
+        "source": "TOOL"
+      },
+      {
+        "id": "2e726556d38200d35625e9124493816ea0007399dd9b3cdf79a99e374fd1d856",
+        "created_at": "2025-12-31T18:33:42.920840+00:00",
+        "last_accessed_at": "2025-12-31T18:33:42.986500+00:00",
+        "objective_tags": [
+          "GENERAL"
+        ],
+        "truth": "VERIFIED",
+        "evidence": {
+          "type": "hash",
+          "ref": "c6a75fa80e5254ebb4b31244905a0fa0debbe7d80a3e47187c04cc108a2d6c90",
+          "details": "Tool execution result: mission.status"
+        },
+        "content": {
+          "tool": "mission.status",
+          "args": "",
+          "status": "ok",
+          "outcome": "SUCCESS"
+        },
+        "salience": 0.7224999999999999,
+        "decay_rate": 0.15,
+        "access_count": 6,
+        "source": "TOOL"
+      },
+      {
+        "id": "c44dcddf4c6c1e86946b46773fda5c122542908c6f473b0e9ef19564cb048f89",
+        "created_at": "2025-12-31T18:33:42.980048+00:00",
+        "last_accessed_at": "2025-12-31T18:33:42.985761+00:00",
+        "objective_tags": [
+          "GENERAL"
+        ],
+        "truth": "VERIFIED",
+        "evidence": {
+          "type": "hash",
+          "ref": "adfbddb7e9c2ebd52b304e8e8cdebf5978f373edd5efd5ecf11a587d306e81d4",
+          "details": "Tool execution result: probe.last"
+        },
+        "content": {
+          "tool": "probe.last",
+          "args": "",
+          "status": "ok",
+          "outcome": "SUCCESS"
+        },
+        "salience": 0.7224999999999999,
+        "decay_rate": 0.15,
+        "access_count": 2,
+        "source": "TOOL"
+      },
+      {
+        "id": "316594a14dab06654e2959aa7305726a9a5ffe0155ef19ff7b2c6d5ffe5df7a9",
+        "created_at": "2025-12-31T18:33:42.984998+00:00",
+        "last_accessed_at": "2025-12-31T18:33:42.987037+00:00",
+        "objective_tags": [
+          "GENERAL"
+        ],
+        "truth": "VERIFIED",
+        "evidence": {
+          "type": "hash",
+          "ref": "c6a75fa80e5254ebb4b31244905a0fa0debbe7d80a3e47187c04cc108a2d6c90",
+          "details": "Tool execution result: fs.read"
+        },
+        "content": {
+          "tool": "fs.read",
+          "args": "state/mission_profile.json",
+          "status": "ok",
+          "outcome": "SUCCESS"
+        },
+        "salience": 0.7224999999999999,
+        "decay_rate": 0.15,
+        "access_count": 1,
+        "source": "TOOL"
+      }
+    ]
+  },
+  "plans": {
+    "active": [],
+    "history": [
+      {
+        "schema_version": 1,
+        "plan_id": "55405375-eda8-4a1c-bbf5-92b5899555f4",
+        "created_at": "2025-12-31T18:33:42.453950+00:00",
+        "objective": "status",
+        "objective_class": "STATUS",
+        "steps": [
+          {
+            "step_id": "712418cd-de81-4b5e-b003-5461dd9230c0",
+            "index": 0,
+            "tool": "mission.status",
+            "args": "",
+            "rationale": "Initial status check. Recalled: 0 items.",
+            "truth_annotation": {
+              "truth": "HEURISTIC",
+              "evidence": {
+                "type": "inference",
+                "ref": null,
+                "details": "Deterministic plan generation"
+              }
+            },
+            "status": "DONE",
+            "result_summary": {
+              "output": "{\n  \"label\": \"SYSTEM_COMPLETENESS\",\n  \"allow_self_modification\": true,\n  \"allow_reflexivity\": true,\n  \"execute_hooks\": true,\n  \"log_detail\": \"maximum\",\n  \"override_exit_on_error\": false,\n  \"safe_inter"
+            },
+            "executed_at": "2025-12-31T18:33:42.454803+00:00",
+            "evaluator": {
+              "score": 0.9,
+              "outcome": "SUCCESS"
+            },
+            "policy_adjustment": 0.0,
+            "policy_reason": "",
+            "policy_belief_id": null
+          },
+          {
+            "step_id": "b443d62e-9864-46ef-b5b0-c4ecd865601f",
+            "index": 1,
+            "tool": "probe.last",
+            "args": "",
+            "rationale": "Probe recent activity for completeness.",
+            "truth_annotation": {
+              "truth": "HEURISTIC",
+              "evidence": {
+                "type": "inference",
+                "ref": null,
+                "details": "Deterministic plan generation"
+              }
+            },
+            "status": "DONE",
+            "result_summary": {
+              "output": "[probe] no runs"
+            },
+            "executed_at": "2025-12-31T18:33:42.511647+00:00",
+            "evaluator": {
+              "score": 0.8,
+              "outcome": "SUCCESS"
+            },
+            "policy_adjustment": 0.0,
+            "policy_reason": "",
+            "policy_belief_id": null
+          }
+        ],
+        "current_index": 2,
+        "status": "COMPLETED",
+        "checkpoints": [
+          {
+            "ts": "2025-12-31T18:33:42.454808+00:00",
+            "step_id": "712418cd-de81-4b5e-b003-5461dd9230c0",
+            "status": "DONE",
+            "tool": "mission.status",
+            "summary": {
+              "output": "{\n  \"label\": \"SYSTEM_COMPLETENESS\",\n  \"allow_self_modification\": true,\n  \"allow_reflexivity\": true,\n  \"execute_hooks\": true,\n  \"log_detail\": \"maximum\",\n  \"override_exit_on_error\": false,\n  \"safe_inter"
+            },
+            "truth_annotation": {
+              "truth": "HEURISTIC",
+              "evidence": {
+                "type": "inference",
+                "ref": null,
+                "details": "Deterministic plan generation"
+              }
+            }
+          },
+          {
+            "ts": "2025-12-31T18:33:42.511653+00:00",
+            "step_id": "b443d62e-9864-46ef-b5b0-c4ecd865601f",
+            "status": "DONE",
+            "tool": "probe.last",
+            "summary": {
+              "output": "[probe] no runs"
+            },
+            "truth_annotation": {
+              "truth": "HEURISTIC",
+              "evidence": {
+                "type": "inference",
+                "ref": null,
+                "details": "Deterministic plan generation"
+              }
+            }
+          }
+        ],
+        "policy_notes": {
+          "boosted_tools": [],
+          "filtered_tools": [],
+          "objective_class": "STATUS",
+          "beliefs_considered": 0
+        },
+        "read_only": true
+      }
+    ],
+    "history_scored": {
+      "schema_version": 1,
+      "updated_at": "2025-12-31T18:33:43.086464+00:00",
+      "prev_hash": "98dbca3b85502c2820a8be85db75dd344b39eed188ba30ca90829793732d6963",
+      "state_hash": "7c79d866088404c8087b915dcc6ee458af49c66ac926c1c45b00297c2b1b2766",
+      "entries_by_signature": {
+        "81314e14f10976b3c589eec3c4810ca8f8fc71b9cdb69a5f677bd289b5593136": [
+          {
+            "timestamp": "2025-12-31T18:33:42.622070+00:00",
+            "score": 0.8,
+            "report_hash": "19daae62068de8380423610ec2bf368d171e42dd46c9fcc49647c88b7932fea5",
+            "ledger_hash": "cf01973556b0ca1d093aed8f3d46bc3417550c2bb2c2615e0cf7cea4b0d53b76",
+            "prev_hash": null,
+            "entry_hash": "e99bfacc63da22ed78a3af793451bda769699724343cc37f7909681146bf2f7a"
+          }
+        ],
+        "363e9f68a773c4dcce3120d1ed5f2fff6baf4c9abe65bb3ec906267f61f11fca": [
+          {
+            "timestamp": "2025-12-31T18:33:43.086433+00:00",
+            "score": 0.8,
+            "report_hash": "965fc97c71960020b830e83d65d58ab07f61b64ffb1f866109c9a015fc33e3e8",
+            "ledger_hash": "380f1150a68fc103f39799498eefc05c411df262d1cd607f2549e9b1b493ab8a",
+            "prev_hash": null,
+            "entry_hash": "6f96fc110e19f5c9a3fde0a6d90f7df2ca0017b69393acd6032e6f2535db56c4"
+          }
+        ]
+      }
+    }
+  },
+  "beliefs": {
+    "schema_version": 1,
+    "updated_at": "2025-12-31T18:33:42.987066+00:00",
+    "run_id": "fa757fcd-c7d1-4de1-a639-2e3f385ea2bb",
+    "beliefs_version": 6,
+    "prev_hash": "44f800e2c665e837f7b4d37c2fa09ef4b54d50705132e338e2d71a9fea016d23",
+    "items": [
+      {
+        "belief_id": "855cf817-22cd-4d0d-bba4-6831affe3256",
+        "id": "855cf817-22cd-4d0d-bba4-6831affe3256",
+        "created_at": "2025-12-31T18:33:42.456526+00:00",
+        "updated_at": "2025-12-31T18:33:42.456526+00:00",
+        "objective_tags": [
+          "STATUS"
+        ],
+        "content": {
+          "observation": {
+            "note": "synthetic belief for stub SCP"
+          },
+          "evidence": {
+            "type": "inference",
+            "ref": null,
+            "details": "stub synthesis"
+          }
+        },
+        "truth": "HEURISTIC",
+        "confidence": 0.6,
+        "supporting_refs": [],
+        "contradicting_refs": [],
+        "status": "ACTIVE",
+        "notes": {},
+        "source": "STUB",
+        "mode": "stub",
+        "synthesized": true
+      }
+    ],
+    "state_hash": "12c77ad3ace03283ba5f69add8bf2e797a41090d210dbbb4f1821df284d22a2d"
+  },
+  "state_hash": "b185fd21acba169d5dfa6fb4c492cebe3235d7373d5d2e94447b2a4aaa0ed94e"
+}
