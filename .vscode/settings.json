@@ -1,6 +1,5 @@
 {
     "files.exclude": {
-        "**/*.pyc": true,
         "**/*.vo": true,
         "**/*.vok": true,
         "**/*.vos": true,
@@ -12,6 +11,7 @@
         "**/.DS_Store": true,
         "**/Thumbs.db": true,
         "**/*.crswap": true,
+        "**/*.pyc": true,
         "**/__pycache__/**": true,
         "external/Logos_AGI/.venv/**": true
     },
@@ -124,5 +124,7 @@
         "./external",
         "./logos"
     ],
-    "outline.collapseItems": "alwaysCollapse"
+    "outline.collapseItems": "alwaysCollapse",
+    "python.analysis.typeCheckingMode": "strict",
+    "coq-lsp.check_only_on_request": false
 }
