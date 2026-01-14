@@ -1,0 +1,15 @@
+External_Enhancements scaffold created under:
+  Logos_System/System_Stack/Logos_Protocol/External_Enhancements
+
+Includes:
+- Constraint_Stubs.py: ETGC + Triune vector + extensible constraints (stubbed)
+- External_Enhancements_Registry.py: registry primitives
+- Register_All_Wrappers.py: registers wrappers for all manifest entries
+- External_Libraries_Manifest.json: local manifest copy for auditability
+- One wrapper per external library import target (stubbed run())
+
+Next:
+- Audit existing in-repo constraint mechanisms (ETGC, MVS/Triune, lattice guards, etc.)
+- Replace _runtime_context_stub() with canonical runtime context getter
+- Replace stubbed run() bodies with library-specific adapters
+- Decide which wrappers are required vs optional at boot

@@ -6,7 +6,7 @@ Provides core mathematical operations, symbolic computation, and formal verifica
 """
 
 # Core mathematical components
-from .cores.logos_mathematical_core import (
+from .math_categories.logos_mathematical_core import (
     Quaternion,
     TrinityOptimizer,
     TrinityFractalSystem,

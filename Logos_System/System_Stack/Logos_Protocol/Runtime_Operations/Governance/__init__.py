@@ -1,6 +1,6 @@
 """Governance utilities for LOGOS AGI."""
 
-from .commitment_ledger import (  # noqa: F401
+from ...Unified_Working_Memory.World_Modeling.commitment_ledger import (  # noqa: F401
     DEFAULT_LEDGER_PATH,
     LEDGER_VERSION,
     ensure_active_commitment,
@@ -10,7 +10,7 @@ from .commitment_ledger import (  # noqa: F401
     validate_ledger,
     write_ledger,
 )
-from .prioritization import (  # noqa: F401
+from ....System_Operations_Protocol.Optimization.prioritization import (  # noqa: F401
     propose_candidate_commitments,
     score_commitment,
     select_next_active_commitment,

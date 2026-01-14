@@ -12,7 +12,7 @@ F = TypeVar("F", bound=Callable[..., Any])
 STATE_FILE = Path(__file__).resolve().parent / "state" / "mission_profile.json"
 
 try:
-    from System_Operations_Protocol.infrastructure.agent_nexus import (
+    from Logos_System.System_Stack.System_Operations_Protocol.infrastructure.agent_system.agent_nexus import (
         get_mission_profile,
     )  # type: ignore[import-not-found]
 except (ImportError, AttributeError):

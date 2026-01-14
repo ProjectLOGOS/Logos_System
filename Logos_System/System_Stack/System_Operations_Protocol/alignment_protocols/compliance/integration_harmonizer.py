@@ -10,7 +10,7 @@ from typing import Any
 # Add parent directory to path for imports
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
-from ...governance.core.logos_core.reference_monitor import ProofGateError, ReferenceMonitor
+from ...governance.reference_monitor import ProofGateError, ReferenceMonitor
 
 
 class IntegrationHarmonizer:

@@ -20,12 +20,12 @@ sys.path.insert(0, str(parent_dir))
 
 # Import available components with fallbacks
 try:
-    from governance.core.logos_core.autonomous_learning import LearningCycleManager
+    from Logos_System.System_Stack.System_Operations_Protocol.IEL_generator.autonomous_learning import LearningCycleManager
 except ImportError:
     LearningCycleManager = None
 
 try:
-    from governance.core.logos_core.reference_monitor import ReferenceMonitor
+    from Logos_System.System_Stack.System_Operations_Protocol.governance.reference_monitor import ReferenceMonitor
 except ImportError:
     ReferenceMonitor = None
 

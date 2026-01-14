@@ -1,0 +1,33 @@
+{
+  "natural_language_processing": [
+    "nltk",
+    "spacy",
+    "transformers",
+    "sentence-transformers"
+  ],
+  "machine_learning": [
+    "torch",
+    "scikit-learn",
+    "statsmodels",
+    "prophet",
+    "arch"
+  ],
+  "graph_and_semantic_web": [
+    "networkx",
+    "pyvis",
+    "rdflib"
+  ],
+  "visualization": [
+    "matplotlib",
+    "seaborn",
+    "plotly"
+  ],
+  "optional_cognition_extensions": [
+    "pgmpy",
+    "micropsi",
+    "memgpt",
+    "openai",
+    "pydantic",
+    "sympy"
+  ]
+}

@@ -17,7 +17,7 @@ from unittest.mock import Mock, patch
 current_dir = Path(__file__).parent
 sys.path.insert(0, str(current_dir))
 
-from System_Stack.Logos_Protocol.Runtime_Operations.Monitoring.enhanced_reference_monitor import (
+from Logos_System.System_Stack.System_Operations_Protocol.governance.enhanced_reference_monitor import (
     AnomalyDetector,
     ConsistencyValidator,
     EnhancedReferenceMonitor,

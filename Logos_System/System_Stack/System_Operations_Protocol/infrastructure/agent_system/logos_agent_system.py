@@ -31,7 +31,7 @@ from datetime import datetime, timezone
 from enum import Enum
 from typing import Any, Dict, List, Optional, Set
 
-from ..boot_system import SystemRuntime, initialize_runtime
+from .boot_system import SystemRuntime, initialize_runtime
 
 logger = logging.getLogger(__name__)
 
@@ -1054,7 +1054,7 @@ class ProtocolOrchestrator:
             logger.warning("SCP transport disabled via configuration")
             return
         if mode == "local":
-            from ..local_scp import LocalSCPTransport
+            from .local_scp import LocalSCPTransport
 
             self.scp_system = LocalSCPTransport(runtime)
             await self.scp_system.connect()
