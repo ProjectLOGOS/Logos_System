@@ -1,0 +1,2438 @@
+[
+  {
+    "files": [
+      "Logos_System/System_Stack/Synthetic_Cognition_Protocol/__init__.py",
+      "Logos_System/System_Stack/Meaning_Translation_Protocol/__init__.py",
+      "Logos_System/System_Stack/System_Operations_Protocol/__init__.py",
+      "Logos_System/System_Stack/Synthetic_Cognition_Protocol/system_utilities/__init__.py",
+      "Logos_System/System_Stack/Synthetic_Cognition_Protocol/data/__init__.py",
+      "Logos_System/System_Stack/Synthetic_Cognition_Protocol/system_utilities/nexus/__init__.py",
+      "Logos_System/System_Stack/Synthetic_Cognition_Protocol/MVS_System/data_c_values/__init__.py",
+      "Logos_System/System_Stack/Synthetic_Cognition_Protocol/MVS_System/fractal_orbital/__init__.py",
+      "Logos_System/System_Stack/Synthetic_Cognition_Protocol/MVS_System/mvs_calculators/__init__.py",
+      "Logos_System/System_Stack/Synthetic_Cognition_Protocol/MVS_System/predictors/__init__.py",
+      "Logos_System/System_Stack/Synthetic_Cognition_Protocol/MVS_System/mathematics/__init__.py",
+      "Logos_System/System_Stack/Synthetic_Cognition_Protocol/data/data/__init__.py",
+      "Logos_System/System_Stack/Synthetic_Cognition_Protocol/data/data/data_library/__init__.py",
+      "Logos_System/System_Stack/Synthetic_Cognition_Protocol/BDN_System/integration/__init__.py",
+      "Logos_System/System_Stack/Synthetic_Cognition_Protocol/BDN_System/core/__init__.py",
+      "Logos_System/System_Stack/Advanced_Reasoning_Protocol/nexus/__init__.py",
+      "Logos_System/System_Stack/Advanced_Reasoning_Protocol/mathematical_foundations/math_categories/Probability/__init__.py",
+      "Logos_System/System_Stack/Advanced_Reasoning_Protocol/mathematical_foundations/math_categories/NumberTheory/__init__.py",
+      "Logos_System/System_Stack/Advanced_Reasoning_Protocol/mathematical_foundations/math_categories/Algebra/__init__.py",
+      "Logos_System/System_Stack/Advanced_Reasoning_Protocol/mathematical_foundations/math_categories/tests/__init__.py",
+      "Logos_System/System_Stack/Advanced_Reasoning_Protocol/mathematical_foundations/math_categories/MeasureTheory/__init__.py",
+      "Logos_System/System_Stack/Advanced_Reasoning_Protocol/mathematical_foundations/math_categories/ConstructiveSets/__init__.py",
+      "Logos_System/System_Stack/Advanced_Reasoning_Protocol/mathematical_foundations/math_categories/TypeTheory/__init__.py",
+      "Logos_System/System_Stack/Advanced_Reasoning_Protocol/mathematical_foundations/math_categories/BooleanLogic/__init__.py",
+      "Logos_System/System_Stack/Advanced_Reasoning_Protocol/mathematical_foundations/math_categories/Geometry/__init__.py",
+      "Logos_System/System_Stack/Advanced_Reasoning_Protocol/mathematical_foundations/math_categories/Meta/__init__.py",
+      "Logos_System/System_Stack/Advanced_Reasoning_Protocol/mathematical_foundations/math_categories/Core/__init__.py",
+      "Logos_System/System_Stack/Advanced_Reasoning_Protocol/mathematical_foundations/math_categories/Examples/__init__.py",
+      "Logos_System/System_Stack/Advanced_Reasoning_Protocol/mathematical_foundations/math_categories/Topology/__init__.py",
+      "Logos_System/System_Stack/Advanced_Reasoning_Protocol/mathematical_foundations/math_categories/Optimization/__init__.py",
+      "Logos_System/System_Stack/Advanced_Reasoning_Protocol/mathematical_foundations/math_categories/CategoryTheory/__init__.py",
+      "Logos_System/System_Stack/Advanced_Reasoning_Protocol/mathematical_foundations/math_categories/tests/scripts/__init__.py",
+      "Logos_System/System_Stack/Advanced_Reasoning_Protocol/mathematical_foundations/math_categories/Examples/Goldbach/__init__.py",
+      "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_toolkit/iel/__init__.py",
+      "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/TropoPraxis/subdomains/__init__.py",
+      "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/TropoPraxis/tests/__init__.py",
+      "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/TropoPraxis/modal/__init__.py",
+      "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/TropoPraxis/theorems/__init__.py",
+      "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/TropoPraxis/infra/__init__.py",
+      "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/TropoPraxis/subdomains/Semantics/__init__.py",
+      "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/TropoPraxis/infra/adaptive/__init__.py",
+      "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/TeloPraxis/subdomains/__init__.py",
+      "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/TeloPraxis/tests/__init__.py",
+      "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/TeloPraxis/modal/__init__.py",
+      "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/TeloPraxis/theorems/__init__.py",
+      "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/TeloPraxis/subdomains/Will/__init__.py",
+      "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/AxioPraxis/docs/__init__.py",
+      "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/AxioPraxis/subdomains/__init__.py",
+      "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/AxioPraxis/tests/__init__.py",
+      "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/AxioPraxis/modal/__init__.py",
+      "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/AxioPraxis/systems/__init__.py",
+      "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/AxioPraxis/theorems/__init__.py",
+      "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/AxioPraxis/subdomains/Goodness/__init__.py",
+      "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/AxioPraxis/subdomains/Beauty/__init__.py",
+      "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/AxioPraxis/subdomains/Truth/__init__.py",
+      "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/ModalPraxis/modal/__init__.py",
+      "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/ModalPraxis/theorems/__init__.py",
+      "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/TopoPraxis/docs/__init__.py",
+      "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/TopoPraxis/tests/__init__.py",
+      "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/TopoPraxis/systems/__init__.py",
+      "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/TopoPraxis/theorems/__init__.py",
+      "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/ThemiPraxis/subdomains/__init__.py",
+      "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/ThemiPraxis/modal/__init__.py",
+      "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/ThemiPraxis/systems/__init__.py",
+      "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/ThemiPraxis/theorems/__init__.py",
+      "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/ThemiPraxis/subdomains/Truth/__init__.py",
+      "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/GnosiPraxis/subdomains/__init__.py",
+      "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/GnosiPraxis/modal/__init__.py",
+      "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/GnosiPraxis/systems/__init__.py",
+      "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/GnosiPraxis/theorems/__init__.py",
+      "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/GnosiPraxis/subdomains/Truth/__init__.py",
+      "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/AestheticoPraxis/docs/__init__.py",
+      "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/AestheticoPraxis/tests/__init__.py",
+      "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/AestheticoPraxis/modal/__init__.py",
+      "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/AestheticoPraxis/systems/__init__.py",
+      "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/AestheticoPraxis/theorems/__init__.py",
+      "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/ChronoPraxis/tactics/__init__.py",
+      "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/ChronoPraxis/interfaces/__init__.py",
+      "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/ChronoPraxis/domains/__init__.py",
+      "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/ChronoPraxis/theorems/__init__.py",
+      "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/ChronoPraxis/substrate/__init__.py",
+      "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/ChronoPraxis/domains/Compatibilism/__init__.py",
+      "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/ChronoPraxis/domains/ModalOntology/__init__.py",
+      "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/ChronoPraxis/domains/Empiricism/__init__.py",
+      "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/ChronoPraxis/theorems/ModalStrength/__init__.py",
+      "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/ChronoPraxis/theorems/experimental/__init__.py",
+      "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/ChronoPraxis/substrate/chronostate/__init__.py",
+      "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/RelatioPraxis/docs/__init__.py",
+      "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/RelatioPraxis/tests/__init__.py",
+      "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/RelatioPraxis/modal/__init__.py",
+      "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/RelatioPraxis/systems/__init__.py",
+      "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/RelatioPraxis/theorems/__init__.py",
+      "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/AnthroPraxis/docs/__init__.py",
+      "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/AnthroPraxis/subdomains/__init__.py",
+      "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/AnthroPraxis/tests/__init__.py",
+      "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/AnthroPraxis/modal/__init__.py",
+      "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/AnthroPraxis/systems/__init__.py",
+      "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/AnthroPraxis/theorems/__init__.py",
+      "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/AnthroPraxis/subdomains/Life/__init__.py",
+      "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/AnthroPraxis/subdomains/BioPraxis/__init__.py",
+      "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/TheoPraxis/subdomains/__init__.py",
+      "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/TheoPraxis/subdomains/Unity/__init__.py",
+      "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/CosmoPraxis/docs/__init__.py",
+      "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/CosmoPraxis/subdomains/__init__.py",
+      "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/CosmoPraxis/tests/__init__.py",
+      "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/CosmoPraxis/modal/__init__.py",
+      "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/CosmoPraxis/systems/__init__.py",
+      "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/CosmoPraxis/theorems/__init__.py",
+      "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/CosmoPraxis/subdomains/Immanence/__init__.py",
+      "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/CosmoPraxis/subdomains/Space/__init__.py",
+      "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/ErgoPraxis/subdomains/__init__.py",
+      "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/ErgoPraxis/tests/__init__.py",
+      "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/ErgoPraxis/modal/__init__.py",
+      "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/ErgoPraxis/theorems/__init__.py",
+      "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/ErgoPraxis/subdomains/Truth/__init__.py",
+      "Logos_System/System_Stack/Advanced_Reasoning_Protocol/reasoning_engines/temporal_modal/__init__.py",
+      "Logos_System/System_Stack/Advanced_Reasoning_Protocol/reasoning_engines/bayesian/data/__init__.py",
+      "Logos_System/System_Stack/Advanced_Reasoning_Protocol/reasoning_engines/bayesian/data/bayesian_ml/__init__.py",
+      "Logos_System/System_Stack/Logos_Protocol/Unified_Working_Memory/__init__.py",
+      "Logos_System/System_Stack/Logos_Protocol/Runtime_Operations/Diagnostics/__init__.py",
+      "Logos_System/System_Stack/Logos_Protocol/Activation_Sequencer/tests/__init__.py",
+      "Logos_System/System_Stack/Logos_Protocol/Activation_Sequencer/Identity_Generator/__init__.py",
+      "Logos_System/System_Stack/Logos_Protocol/Activation_Sequencer/Identity_Generator/Agent_ID_Spin_Up/__init__.py",
+      "Logos_System/System_Stack/Logos_Protocol/Logos_Agents/I2_Agent/protocol_operations/ui_io/__init__.py",
+      "Logos_System/System_Stack/Logos_Protocol/Logos_Agents/I2_Agent/protocol_operations/privation_handler/privation_library/__init__.py",
+      "Logos_System/System_Stack/Logos_Protocol/Logos_Agents/I1_Agent/config/__init__.py",
+      "Logos_System/System_Stack/Meaning_Translation_Protocol/system_utilities/__init__.py",
+      "Logos_System/System_Stack/Meaning_Translation_Protocol/core_processing/__init__.py",
+      "Logos_System/System_Stack/Meaning_Translation_Protocol/interface_runtime/__init__.py",
+      "Logos_System/System_Stack/Meaning_Translation_Protocol/smp_packetizer/__init__.py",
+      "Logos_System/System_Stack/Meaning_Translation_Protocol/system_utilities/nexus/__init__.py",
+      "Logos_System/System_Stack/Meaning_Translation_Protocol/system_utilities/shared/__init__.py",
+      "Logos_System/System_Stack/System_Operations_Protocol/nexus/__init__.py",
+      "Logos_System/System_Stack/System_Operations_Protocol/Documentation/__init__.py",
+      "Logos_System/System_Stack/System_Operations_Protocol/governance/__init__.py",
+      "Logos_System/System_Stack/System_Operations_Protocol/code_generator/__init__.py",
+      "Logos_System/System_Stack/System_Operations_Protocol/deployment/__init__.py",
+      "Logos_System/System_Stack/System_Operations_Protocol/alignment_protocols/__init__.py",
+      "Logos_System/System_Stack/System_Operations_Protocol/data_storage/system_memory.py",
+      "Logos_System/System_Stack/System_Operations_Protocol/data_storage/__init__.py",
+      "Logos_System/System_Stack/System_Operations_Protocol/operations/__init__.py",
+      "Logos_System/System_Stack/System_Operations_Protocol/Documentation/Project_Notes/__init__.py",
+      "Logos_System/System_Stack/System_Operations_Protocol/Documentation/Project_Notes/protocol_txts/__init__.py",
+      "Logos_System/System_Stack/System_Operations_Protocol/IEL_generator/ontoprop_paring/__init__.py",
+      "Logos_System/System_Stack/System_Operations_Protocol/deployment/monitoring/__init__.py",
+      "Logos_System/System_Stack/System_Operations_Protocol/deployment/monitoring/docker_orchestration/__init__.py",
+      "Logos_System/System_Stack/System_Operations_Protocol/alignment_protocols/validation/__init__.py",
+      "Logos_System/System_Stack/System_Operations_Protocol/alignment_protocols/persistence/__init__.py",
+      "Logos_System/System_Stack/System_Operations_Protocol/alignment_protocols/state/__init__.py",
+      "Logos_System/System_Stack/System_Operations_Protocol/alignment_protocols/compliance/__init__.py",
+      "Logos_System/System_Stack/System_Operations_Protocol/alignment_protocols/validation/examples/__init__.py",
+      "Logos_System/System_Stack/System_Operations_Protocol/alignment_protocols/validation/testing/__init__.py",
+      "Logos_System/System_Stack/System_Operations_Protocol/alignment_protocols/validation/testing/tests/__init__.py",
+      "Logos_System/System_Stack/System_Operations_Protocol/alignment_protocols/safety/integrity_framework/__init__.py",
+      "Logos_System/System_Stack/System_Operations_Protocol/alignment_protocols/safety/ultima_framework/__init__.py",
+      "Logos_System/System_Stack/System_Operations_Protocol/infrastructure/agent_system/__init__.py",
+      "Logos_System/System_Stack/System_Operations_Protocol/data_storage/knowledge/__init__.py",
+      "Logos_System/System_Stack/System_Operations_Protocol/data_storage/runtime/run-20251223T162019826344Z/scheduler_history.jsonl",
+      "Logos_System/System_Stack/System_Operations_Protocol/data_storage/runtime/run-20251223T162019826344Z/resource_events.jsonl",
+      "Logos_System/System_Stack/System_Operations_Protocol/data_storage/runtime/run-20251223T162039735734Z/scheduler_history.jsonl",
+      "Logos_System/System_Stack/System_Operations_Protocol/data_storage/runtime/run-20251223T162039735734Z/resource_events.jsonl",
+      "Logos_System/System_Stack/System_Operations_Protocol/data_storage/runtime/run-20251223T162019022316Z/scheduler_history.jsonl",
+      "Logos_System/System_Stack/System_Operations_Protocol/data_storage/runtime/run-20251223T162019022316Z/resource_events.jsonl",
+      "Logos_System/System_Stack/System_Operations_Protocol/Optimization/Test_Logs/__init__.py",
+      "Logos_System/System_Entry_Point/Recusion_Grounding/__init__.py",
+      "Logos_System/System_Entry_Point/LEGACY_SCRIPTS_NOT_FINAL/__init__.py",
+      "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/PXL_Derivations_Phase2.vok",
+      "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/PXLv3_shadow.vos",
+      "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/PXLv3.vos",
+      "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/PXL_Kernel_Axioms.vok",
+      "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/PXLv3.vok",
+      "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/PXL_Modal_Axioms_Semantic.vos",
+      "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/PXLv3_shadow.vok",
+      "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/PXL_Derivations_Phase2.vos",
+      "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/PXL_Definitions.vos",
+      "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/PXL_Kernel_Axioms.vos",
+      "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/PXL_Modal_Axioms_Semantic.vok",
+      "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/PXL_Definitions.vok",
+      "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/tests/falsifiability_test.vos",
+      "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/tests/falsifiability_test.vok",
+      "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/modal/PXL_Modal_Semantic_Kripke.vok",
+      "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/modal/PXL_Modal_Semantic_Kripke.vos",
+      "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/PXL_Global_Bijection.vok",
+      "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/test_K.vos",
+      "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/PXL_Arithmetic.vos",
+      "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/PXL_Sanity_Semantic.vos",
+      "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/PXL_SemanticModal_Smoke.vos",
+      "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/PXL_Bridge_Proofs.vos",
+      "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/PXL_OmniKernel.vok",
+      "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/PXL_Foundations_SemanticPort.vos",
+      "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/PXL_OntoGrid.vok",
+      "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/Demo_Unsafe.vok",
+      "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/PXL_S2_Axioms.vos",
+      "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/Trinitarian_Identity_Closure.vos",
+      "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/PXL_Sanity_Semantic.vok",
+      "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/PXL_OmniProofs.vos",
+      "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/PXL_Sanity_SemanticPort.vos",
+      "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/PXL_OntoGrid_OmniHooks.vos",
+      "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/PXL_Trinitarian_Optimization_SemanticPort.vok",
+      "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/PXL_Semantic_Profile_Suite.vok",
+      "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/PXL_S2_Axioms.vok",
+      "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/PXLv3_head.vok",
+      "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/PXLv3_SemanticModal.vok",
+      "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/PXL_Privative.vos",
+      "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/PXL_Axiom_Minimality_Check.vos",
+      "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/Trinitarian_Identity_Closure.vok",
+      "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/PXL_Bridge_Proofs_SemanticPort.vos",
+      "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/PXL_Kernel20_SemanticModal_Profile.vos",
+      "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/LOGOS_Metaphysical_Architecture.vok",
+      "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/PXL_Structural_Derivations.vos",
+      "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/PXL_Structural_Derivations.vok",
+      "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/Echo2_Simulation.vos",
+      "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/Godelian_Theorem_Satisfaction.vos",
+      "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/PXL_Imp_Nothing.vok",
+      "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/Echo2_Simulation.vok",
+      "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/PXL_OntoGrid_OmniHooks.vok",
+      "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/PXL_Axiom_Minimality_Check.vok",
+      "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/PXL_Triune_Principles.vos",
+      "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/PXL_Omni_Bridges.vos",
+      "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/PXL_Sanity.vok",
+      "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/PXL_ObjectLanguage.vos",
+      "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/PXL_Foundations.vos",
+      "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/PXL_Global_Bijection.vos",
+      "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/PXL_Bridge_Proofs.vok",
+      "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/PXL_Triune_Principles.vok",
+      "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/Godelian_Theorem_Satisfaction.vok",
+      "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/PXL_Trinitarian_Optimization_SemanticPort.vos",
+      "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/PXL_Privative.vok",
+      "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/LOGOS_Metaphysical_Architecture.vos",
+      "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/PXL_Omni_Properties.vos",
+      "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/PXL_TriunePBRS.vos",
+      "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/PXL_SemanticModal_Smoke.vok",
+      "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/test_K.vok",
+      "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/PXL_Foundations_SemanticPort.vok",
+      "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/PXL_Internal_LEM_SemanticPort.vok",
+      "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/PXL_Bridge_Proofs_SemanticPort.vok",
+      "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/PXL_Trinitarian_Optimization.vos",
+      "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/PXL_Foundations.vok",
+      "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/PXL_WellFormedness.vos",
+      "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/PXL_Internal_LEM.vos",
+      "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/PXL_Omni_Bridges.vok",
+      "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/PXL_ObjectLanguage.vok",
+      "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/PXL_Sanity_SemanticPort.vok",
+      "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/PXL_Proof_Summary.vok",
+      "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/PXL_Imp_Nothing.vos",
+      "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/PXL_Trinitarian_Optimization.vok",
+      "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/PXL_Semantic_Extensions_DomainProduct.vok",
+      "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/Demo_Unsafe.vos",
+      "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/PXL_Internal_LEM_SemanticPort.vos",
+      "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/PXL_OntoGrid.vos",
+      "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/PXL_OmniProofs.vok",
+      "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/PXL_Kernel20_SemanticModal_Profile.vok",
+      "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/PXL_Sanity.vos",
+      "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/PXL_Semantic_Profile_Suite.vos",
+      "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/PXL_OmniKernel.vos",
+      "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/PXL_Proof_Summary.vos",
+      "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/PXLv3_SemanticModal.vos",
+      "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/PXL_TriunePBRS.vok",
+      "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/PXLv3_head.vos",
+      "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/PXL_Semantic_Extensions_DomainProduct.vos",
+      "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/PXL_Omni_Properties.vok",
+      "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/PXL_Goodness_Existence.vos",
+      "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/PXL_Internal_LEM.vok",
+      "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/PXL_Goodness_Existence.vok",
+      "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/PXL_Arithmetic.vok",
+      "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/PXL_WellFormedness.vok",
+      "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/ui/LEM_Discharge.vok",
+      "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/ui/LEM_Discharge.vos",
+      "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/ui/__init__.py",
+      "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/option_b/Modal_Decidability_Skeleton.vos",
+      "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/option_b/Modal_Semantics.vok",
+      "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/option_b/Omega_Closure.vos",
+      "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/option_b/OptionB_Index.vok",
+      "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/option_b/Modal_PXL_Interp.vok",
+      "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/option_b/Privation_Detector_Skeleton.vos",
+      "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/option_b/Modal_Syntax.vos",
+      "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/option_b/Modal_Decidability_Skeleton.vok",
+      "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/option_b/Modal_Semantics.vos",
+      "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/option_b/Privation_Detector_Skeleton.vok",
+      "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/option_b/OptionB_Index.vos",
+      "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/option_b/Modal_Decidability_To_Interp.vos",
+      "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/option_b/Modal_PXL_Interp.vos",
+      "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/option_b/Modal_Syntax.vok",
+      "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/option_b/Modal_Decidability_To_Interp.vok",
+      "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/option_b/Omega_Closure.vok",
+      "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/modal/PXLd/S5_Kripke.vos",
+      "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/modal/PXLd/S5_Kripke.vok",
+      "PXL_Gate/coq/src/PXL_Derivations_Phase2.vok",
+      "PXL_Gate/coq/src/PXLv3_shadow.vos",
+      "PXL_Gate/coq/src/PXLv3.vos",
+      "PXL_Gate/coq/src/PXL_Kernel_Axioms.vok",
+      "PXL_Gate/coq/src/PXLv3.vok",
+      "PXL_Gate/coq/src/PXL_Modal_Axioms_Semantic.vos",
+      "PXL_Gate/coq/src/PXLv3_shadow.vok",
+      "PXL_Gate/coq/src/PXL_Derivations_Phase2.vos",
+      "PXL_Gate/coq/src/PXL_Definitions.vos",
+      "PXL_Gate/coq/src/PXL_Kernel_Axioms.vos",
+      "PXL_Gate/coq/src/PXL_Modal_Axioms_Semantic.vok",
+      "PXL_Gate/coq/src/PXL_Definitions.vok",
+      "PXL_Gate/coq/src/tests/falsifiability_test.vos",
+      "PXL_Gate/coq/src/tests/falsifiability_test.vok",
+      "PXL_Gate/coq/src/modal/PXL_Modal_Semantic_Kripke.vok",
+      "PXL_Gate/coq/src/modal/PXL_Modal_Semantic_Kripke.vos",
+      "PXL_Gate/coq/src/baseline/PXL_Global_Bijection.vok",
+      "PXL_Gate/coq/src/baseline/test_K.vos",
+      "PXL_Gate/coq/src/baseline/PXL_Arithmetic.vos",
+      "PXL_Gate/coq/src/baseline/PXL_Sanity_Semantic.vos",
+      "PXL_Gate/coq/src/baseline/PXL_SemanticModal_Smoke.vos",
+      "PXL_Gate/coq/src/baseline/PXL_Bridge_Proofs.vos",
+      "PXL_Gate/coq/src/baseline/PXL_OmniKernel.vok",
+      "PXL_Gate/coq/src/baseline/PXL_Foundations_SemanticPort.vos",
+      "PXL_Gate/coq/src/baseline/PXL_OntoGrid.vok",
+      "PXL_Gate/coq/src/baseline/Demo_Unsafe.vok",
+      "PXL_Gate/coq/src/baseline/PXL_S2_Axioms.vos",
+      "PXL_Gate/coq/src/baseline/Trinitarian_Identity_Closure.vos",
+      "PXL_Gate/coq/src/baseline/PXL_Sanity_Semantic.vok",
+      "PXL_Gate/coq/src/baseline/PXL_OmniProofs.vos",
+      "PXL_Gate/coq/src/baseline/PXL_Sanity_SemanticPort.vos",
+      "PXL_Gate/coq/src/baseline/PXL_OntoGrid_OmniHooks.vos",
+      "PXL_Gate/coq/src/baseline/PXL_Trinitarian_Optimization_SemanticPort.vok",
+      "PXL_Gate/coq/src/baseline/PXL_Semantic_Profile_Suite.vok",
+      "PXL_Gate/coq/src/baseline/PXL_S2_Axioms.vok",
+      "PXL_Gate/coq/src/baseline/PXLv3_head.vok",
+      "PXL_Gate/coq/src/baseline/PXLv3_SemanticModal.vok",
+      "PXL_Gate/coq/src/baseline/PXL_Privative.vos",
+      "PXL_Gate/coq/src/baseline/PXL_Axiom_Minimality_Check.vos",
+      "PXL_Gate/coq/src/baseline/Trinitarian_Identity_Closure.vok",
+      "PXL_Gate/coq/src/baseline/PXL_Bridge_Proofs_SemanticPort.vos",
+      "PXL_Gate/coq/src/baseline/PXL_Kernel20_SemanticModal_Profile.vos",
+      "PXL_Gate/coq/src/baseline/LOGOS_Metaphysical_Architecture.vok",
+      "PXL_Gate/coq/src/baseline/PXL_Structural_Derivations.vos",
+      "PXL_Gate/coq/src/baseline/PXL_Structural_Derivations.vok",
+      "PXL_Gate/coq/src/baseline/Echo2_Simulation.vos",
+      "PXL_Gate/coq/src/baseline/Godelian_Theorem_Satisfaction.vos",
+      "PXL_Gate/coq/src/baseline/PXL_Imp_Nothing.vok",
+      "PXL_Gate/coq/src/baseline/Echo2_Simulation.vok",
+      "PXL_Gate/coq/src/baseline/PXL_OntoGrid_OmniHooks.vok",
+      "PXL_Gate/coq/src/baseline/PXL_Axiom_Minimality_Check.vok",
+      "PXL_Gate/coq/src/baseline/PXL_Triune_Principles.vos",
+      "PXL_Gate/coq/src/baseline/PXL_Omni_Bridges.vos",
+      "PXL_Gate/coq/src/baseline/PXL_Sanity.vok",
+      "PXL_Gate/coq/src/baseline/PXL_ObjectLanguage.vos",
+      "PXL_Gate/coq/src/baseline/PXL_Foundations.vos",
+      "PXL_Gate/coq/src/baseline/PXL_Global_Bijection.vos",
+      "PXL_Gate/coq/src/baseline/PXL_Bridge_Proofs.vok",
+      "PXL_Gate/coq/src/baseline/PXL_Triune_Principles.vok",
+      "PXL_Gate/coq/src/baseline/Godelian_Theorem_Satisfaction.vok",
+      "PXL_Gate/coq/src/baseline/PXL_Trinitarian_Optimization_SemanticPort.vos",
+      "PXL_Gate/coq/src/baseline/PXL_Privative.vok",
+      "PXL_Gate/coq/src/baseline/LOGOS_Metaphysical_Architecture.vos",
+      "PXL_Gate/coq/src/baseline/PXL_Omni_Properties.vos",
+      "PXL_Gate/coq/src/baseline/PXL_TriunePBRS.vos",
+      "PXL_Gate/coq/src/baseline/PXL_SemanticModal_Smoke.vok",
+      "PXL_Gate/coq/src/baseline/test_K.vok",
+      "PXL_Gate/coq/src/baseline/PXL_Foundations_SemanticPort.vok",
+      "PXL_Gate/coq/src/baseline/PXL_Internal_LEM_SemanticPort.vok",
+      "PXL_Gate/coq/src/baseline/PXL_Bridge_Proofs_SemanticPort.vok",
+      "PXL_Gate/coq/src/baseline/PXL_Trinitarian_Optimization.vos",
+      "PXL_Gate/coq/src/baseline/PXL_Foundations.vok",
+      "PXL_Gate/coq/src/baseline/PXL_WellFormedness.vos",
+      "PXL_Gate/coq/src/baseline/PXL_Internal_LEM.vos",
+      "PXL_Gate/coq/src/baseline/PXL_Omni_Bridges.vok",
+      "PXL_Gate/coq/src/baseline/PXL_ObjectLanguage.vok",
+      "PXL_Gate/coq/src/baseline/PXL_Sanity_SemanticPort.vok",
+      "PXL_Gate/coq/src/baseline/PXL_Proof_Summary.vok",
+      "PXL_Gate/coq/src/baseline/PXL_Imp_Nothing.vos",
+      "PXL_Gate/coq/src/baseline/PXL_Trinitarian_Optimization.vok",
+      "PXL_Gate/coq/src/baseline/PXL_Semantic_Extensions_DomainProduct.vok",
+      "PXL_Gate/coq/src/baseline/Demo_Unsafe.vos",
+      "PXL_Gate/coq/src/baseline/PXL_Internal_LEM_SemanticPort.vos",
+      "PXL_Gate/coq/src/baseline/PXL_OntoGrid.vos",
+      "PXL_Gate/coq/src/baseline/PXL_OmniProofs.vok",
+      "PXL_Gate/coq/src/baseline/PXL_Kernel20_SemanticModal_Profile.vok",
+      "PXL_Gate/coq/src/baseline/PXL_Sanity.vos",
+      "PXL_Gate/coq/src/baseline/PXL_Semantic_Profile_Suite.vos",
+      "PXL_Gate/coq/src/baseline/PXL_OmniKernel.vos",
+      "PXL_Gate/coq/src/baseline/PXL_Proof_Summary.vos",
+      "PXL_Gate/coq/src/baseline/PXLv3_SemanticModal.vos",
+      "PXL_Gate/coq/src/baseline/PXL_TriunePBRS.vok",
+      "PXL_Gate/coq/src/baseline/PXLv3_head.vos",
+      "PXL_Gate/coq/src/baseline/PXL_Semantic_Extensions_DomainProduct.vos",
+      "PXL_Gate/coq/src/baseline/PXL_Omni_Properties.vok",
+      "PXL_Gate/coq/src/baseline/PXL_Goodness_Existence.vos",
+      "PXL_Gate/coq/src/baseline/PXL_Internal_LEM.vok",
+      "PXL_Gate/coq/src/baseline/PXL_Goodness_Existence.vok",
+      "PXL_Gate/coq/src/baseline/PXL_Arithmetic.vok",
+      "PXL_Gate/coq/src/baseline/PXL_WellFormedness.vok",
+      "PXL_Gate/coq/src/ui/LEM_Discharge.vok",
+      "PXL_Gate/coq/src/ui/LEM_Discharge.vos",
+      "PXL_Gate/coq/src/ui/__init__.py",
+      "PXL_Gate/coq/src/option_b/Modal_Decidability_Skeleton.vos",
+      "PXL_Gate/coq/src/option_b/Modal_Semantics.vok",
+      "PXL_Gate/coq/src/option_b/Omega_Closure.vos",
+      "PXL_Gate/coq/src/option_b/OptionB_Index.vok",
+      "PXL_Gate/coq/src/option_b/Modal_PXL_Interp.vok",
+      "PXL_Gate/coq/src/option_b/Privation_Detector_Skeleton.vos",
+      "PXL_Gate/coq/src/option_b/Modal_Syntax.vos",
+      "PXL_Gate/coq/src/option_b/Modal_Decidability_Skeleton.vok",
+      "PXL_Gate/coq/src/option_b/Modal_Semantics.vos",
+      "PXL_Gate/coq/src/option_b/Privation_Detector_Skeleton.vok",
+      "PXL_Gate/coq/src/option_b/OptionB_Index.vos",
+      "PXL_Gate/coq/src/option_b/Modal_Decidability_To_Interp.vos",
+      "PXL_Gate/coq/src/option_b/Modal_PXL_Interp.vos",
+      "PXL_Gate/coq/src/option_b/Modal_Syntax.vok",
+      "PXL_Gate/coq/src/option_b/Modal_Decidability_To_Interp.vok",
+      "PXL_Gate/coq/src/option_b/Omega_Closure.vok",
+      "PXL_Gate/coq/src/modal/PXLd/S5_Kripke.vos",
+      "PXL_Gate/coq/src/modal/PXLd/S5_Kripke.vok",
+      "_Dev_Resources/Dev_Scripts/system_utilities/token_validator.py",
+      "_Dev_Resources/Dev_Scripts/system_utilities/__init__.py",
+      "_Dev_Resources/Dev_Scripts/security/__init__.py"
+    ],
+    "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "files": [
+      "Logos_System/System_Stack/Logos_Protocol/Logos_Agents/I2_Agent/__init__ .py",
+      "Logos_System/System_Stack/Logos_Protocol/Logos_Agents/I3_Agent/__init__ .py",
+      "Logos_System/System_Stack/Logos_Protocol/Logos_Agents/I1_Agent/__init__ .py",
+      "Logos_System/System_Stack/Logos_Protocol/Logos_Agents/I2_Agent/_core/__init__.py"
+    ],
+    "hash": "a9fac8cecefa177d4981a185d87e6cc18090d4c6fe4a95e3948a649f5fd57c38"
+  },
+  {
+    "files": [
+      "Logos_System/System_Stack/Logos_Protocol/Activation_Sequencer/Identity_Generator/Agent_ID_Spin_Up/audit_and_emit.py",
+      "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/ui/audit_and_emit.py",
+      "PXL_Gate/coq/src/ui/audit_and_emit.py"
+    ],
+    "hash": "000f70511365296967fa94193b27a23f8bc32f9b658b56e075ddddc5c6c91128"
+  },
+  {
+    "files": [
+      "Logos_System/System_Entry_Point/LEGACY_SCRIPTS_NOT_FINAL/serve_pxl.py",
+      "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/ui/serve_pxl.py",
+      "PXL_Gate/coq/src/ui/serve_pxl.py"
+    ],
+    "hash": "08f22fbe06f72d4006e6f48820573c4a23a30f4c957fda83e19e6c3ee48a6d5f"
+  },
+  {
+    "files": [
+      "Logos_System/System_Stack/Logos_Protocol/Logos_Agents/I1_Agent/connections/__init__.py",
+      "Logos_System/System_Stack/Logos_Protocol/Logos_Agents/I1_Agent/protocol_operations/__init__.py",
+      "Logos_System/System_Stack/Logos_Protocol/Logos_Agents/I1_Agent/diagnostics/__init__.py"
+    ],
+    "hash": "127d8c33a04104c4d31d8403325db8f8492026a6f08107c8c606b4833ffc901d"
+  },
+  {
+    "files": [
+      "Logos_System/System_Stack/Logos_Protocol/Logos_Agents/I2_Agent/diagnostics/health.py",
+      "Logos_System/System_Stack/Logos_Protocol/Logos_Agents/I3_Agent/diagnostics/health.py",
+      "Logos_System/System_Stack/Logos_Protocol/Logos_Agents/I1_Agent/diagnostics/health.py"
+    ],
+    "hash": "1a299e61c930df417ef925336f679cb062b1c8a5f6c7f1a87f661565c809ecea"
+  },
+  {
+    "files": [
+      "Logos_System/System_Stack/Logos_Protocol/Logos_Agents/I2_Agent/config/constants.py",
+      "Logos_System/System_Stack/Logos_Protocol/Logos_Agents/I3_Agent/config/constants.py",
+      "Logos_System/System_Stack/Logos_Protocol/Logos_Agents/I1_Agent/config/constants.py"
+    ],
+    "hash": "1b75d1e52dc15b6b4998402490323a14429cce5462aa58fd453d51fb7de3c855"
+  },
+  {
+    "files": [
+      "Logos_System/System_Stack/Logos_Protocol/Logos_Agents/I2_Agent/config/packet_types.py",
+      "Logos_System/System_Stack/Logos_Protocol/Logos_Agents/I3_Agent/config/packet_types.py",
+      "Logos_System/System_Stack/Logos_Protocol/Logos_Agents/I1_Agent/config/packet_types.py"
+    ],
+    "hash": "1fa7aff9ed5309605d163be4aceee45bd7660247e2bc12e63621b90bdd1e3d0d"
+  },
+  {
+    "files": [
+      "Logos_System/System_Stack/Logos_Protocol/Logos_Agents/I2_Agent/config/hashing.py",
+      "Logos_System/System_Stack/Logos_Protocol/Logos_Agents/I3_Agent/config/hashing.py",
+      "Logos_System/System_Stack/Logos_Protocol/Logos_Agents/I1_Agent/config/hashing.py"
+    ],
+    "hash": "5a59415a12ff36cec41d43b3ae4937a1f3f56751b1e2e68dc55b6c15187b4417"
+  },
+  {
+    "files": [
+      "Logos_System/System_Stack/Logos_Protocol/Logos_Agents/I2_Agent/config/logging_utils.py",
+      "Logos_System/System_Stack/Logos_Protocol/Logos_Agents/I3_Agent/config/logging_utils.py",
+      "Logos_System/System_Stack/Logos_Protocol/Logos_Agents/I1_Agent/config/logging_utils.py"
+    ],
+    "hash": "74e42785905fe10ce1af2cb4cb5f1b828ec7145e0e9d9e876c12403848dd1190"
+  },
+  {
+    "files": [
+      "Logos_System/System_Stack/Logos_Protocol/Logos_Agents/I2_Agent/config/time_utils.py",
+      "Logos_System/System_Stack/Logos_Protocol/Logos_Agents/I3_Agent/config/time_utils.py",
+      "Logos_System/System_Stack/Logos_Protocol/Logos_Agents/I1_Agent/config/time_utils.py"
+    ],
+    "hash": "90a51a2fe483ca49391f8ad2bb8f5282e7248e3b3da1a99518c4f550c7436f42"
+  },
+  {
+    "files": [
+      "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/PXL_OntoGrid_OmniHooks.glob",
+      "PXL_Gate/coq/src/baseline/PXL_OntoGrid_OmniHooks.glob"
+    ],
+    "hash": "00814477b13f4b49cb44732e19b832611176f75bf95d69ca1eabd9cbab31d4a6"
+  },
+  {
+    "files": [
+      "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/.PXL_Sanity_SemanticPort.aux",
+      "PXL_Gate/coq/src/baseline/.PXL_Sanity_SemanticPort.aux"
+    ],
+    "hash": "009b747fa9005e4de31e2ef6c8b1c6552be01fde79cf24886237d41cc6e9ae67"
+  },
+  {
+    "files": [
+      "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/option_b/Modal_Syntax.vo",
+      "PXL_Gate/coq/src/option_b/Modal_Syntax.vo"
+    ],
+    "hash": "00a58acf6bd365b5ff521b016fc120dc21abcda2a1c9b8550aea63d58c8ab56b"
+  },
+  {
+    "files": [
+      "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/PXL_Sanity.vo",
+      "PXL_Gate/coq/src/baseline/PXL_Sanity.vo"
+    ],
+    "hash": "00c790999cd6cfe4b6eef5543a22daf6b33b2b44aaf3d34e3b2033e17d2ef03e"
+  },
+  {
+    "files": [
+      "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/PXL_OntoGrid.glob",
+      "PXL_Gate/coq/src/baseline/PXL_OntoGrid.glob"
+    ],
+    "hash": "02fd8cea2233b3322b17f51305e531772d134a7267d91906c24f1009cdac61bf"
+  },
+  {
+    "files": [
+      "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/option_b/Privation_Detector_Skeleton.glob",
+      "PXL_Gate/coq/src/option_b/Privation_Detector_Skeleton.glob"
+    ],
+    "hash": "0548688e26525d273bbcd9fe96050c3a3c41726fefbe8b2fae54e3e558359ae1"
+  },
+  {
+    "files": [
+      "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/option_b/Omega_Closure.vo",
+      "PXL_Gate/coq/src/option_b/Omega_Closure.vo"
+    ],
+    "hash": "05926baf516f18585169b49f3b5aed4015e4ba625a6860a25cff3d969906d668"
+  },
+  {
+    "files": [
+      "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/.PXL_Axiom_Minimality_Check.aux",
+      "PXL_Gate/coq/src/baseline/.PXL_Axiom_Minimality_Check.aux"
+    ],
+    "hash": "0673b30c5ad7ab2b030084ca2176113c17d39b2ef97634dcabb0f9b6601c3232"
+  },
+  {
+    "files": [
+      "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/PXL_Bridge_Proofs.glob",
+      "PXL_Gate/coq/src/baseline/PXL_Bridge_Proofs.glob"
+    ],
+    "hash": "06a140d00e453ea592030c7251d9c7b7ac14837dc93a449e506892921da1eb3d"
+  },
+  {
+    "files": [
+      "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/PXL_Trinitarian_Optimization.vo",
+      "PXL_Gate/coq/src/baseline/PXL_Trinitarian_Optimization.vo"
+    ],
+    "hash": "071c9d96a950297330a190c7a7bd4040fdbb0425449165c31a8b46ef4f5067de"
+  },
+  {
+    "files": [
+      "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/.PXL_Proof_Summary.aux",
+      "PXL_Gate/coq/src/baseline/.PXL_Proof_Summary.aux"
+    ],
+    "hash": "087a2ddc2bfbb3e813ef62252e1fd625fce96d3fd420157c5b93edbb3f20d783"
+  },
+  {
+    "files": [
+      "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/.PXL_Arithmetic.aux",
+      "PXL_Gate/coq/src/baseline/.PXL_Arithmetic.aux"
+    ],
+    "hash": "096c8759989ccd14b635da39dcd73d2c8acdc10b3a33c11ad6d150e05f5e9d99"
+  },
+  {
+    "files": [
+      "Logos_System/System_Stack/System_Operations_Protocol/alignment_protocols/safety/__init__.py",
+      "Logos_System/System_Stack/System_Operations_Protocol/alignment_protocols/policies/__init__.py"
+    ],
+    "hash": "0998a4e3a1914b07e104633cbfe275d8bc0a9b46b02b4c961cddf50d6389ee07"
+  },
+  {
+    "files": [
+      "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/PXL_Structural_Derivations.vo",
+      "PXL_Gate/coq/src/baseline/PXL_Structural_Derivations.vo"
+    ],
+    "hash": "099e3d40388dee0ed8ecc48ee06cce0c284a081f35ead834f541988f3aa0a1ae"
+  },
+  {
+    "files": [
+      "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/PXL_Internal_LEM.vo",
+      "PXL_Gate/coq/src/baseline/PXL_Internal_LEM.vo"
+    ],
+    "hash": "09cc8a31e24157d964ee530e1e4df9a5abc1daf9c819f616bfa0936327b99652"
+  },
+  {
+    "files": [
+      "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/PXL_Privative.glob",
+      "PXL_Gate/coq/src/baseline/PXL_Privative.glob"
+    ],
+    "hash": "0a4c903414a81d1011f5b8d033c3fae07c3b61fdfb1794cc54de833fae42773a"
+  },
+  {
+    "files": [
+      "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/.PXL_OmniProofs.aux",
+      "PXL_Gate/coq/src/baseline/.PXL_OmniProofs.aux"
+    ],
+    "hash": "0b3c9143236a3d0353dcd3efad673b81db72a5f07336f1ecdd58a2ae272f519c"
+  },
+  {
+    "files": [
+      "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/option_b/Modal_Decidability_To_Interp.glob",
+      "PXL_Gate/coq/src/option_b/Modal_Decidability_To_Interp.glob"
+    ],
+    "hash": "0db344687935052292763888f221498308ee84be9f5087825deff8cee46cd436"
+  },
+  {
+    "files": [
+      "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/LOGOS_Metaphysical_Architecture.glob",
+      "PXL_Gate/coq/src/baseline/LOGOS_Metaphysical_Architecture.glob"
+    ],
+    "hash": "0db938d903fdc6606b82f8724b5d7cf55ca3e663524ade9dd939e3cc2f0391f3"
+  },
+  {
+    "files": [
+      "Logos_System/System_Stack/Synthetic_Cognition_Protocol/MVS_System/data_c_values/config_ontological_connections.json",
+      "Logos_System/System_Stack/System_Operations_Protocol/IEL_generator/ontoprop_paring/config_ontological_connections.json"
+    ],
+    "hash": "0edf8e145fa2360e42d1011e2fe616b67f87fafab176c8c4a57f936d32d43738"
+  },
+  {
+    "files": [
+      "Logos_System/System_Stack/Logos_Protocol/Unified_Working_Memory/World_Modeling/world_model.py",
+      "Logos_System/System_Stack/Logos_Protocol/Activation_Sequencer/Identity_Generator/Agent_ID_Spin_Up/uwm.py"
+    ],
+    "hash": "0f3fa3b41ea73eace670b0c2e13e2a44485bcdba14955e2b5ced915746ab705b"
+  },
+  {
+    "files": [
+      "Logos_System/System_Stack/Synthetic_Cognition_Protocol/data/data/data_library/config.json",
+      "Logos_System/System_Stack/System_Operations_Protocol/deployment/configuration/config.json"
+    ],
+    "hash": "108e80073133eb5bb91c91a5ead4cec8b56a0975797126c95824b935c22c521f"
+  },
+  {
+    "files": [
+      "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/option_b/Modal_Decidability_Skeleton.glob",
+      "PXL_Gate/coq/src/option_b/Modal_Decidability_Skeleton.glob"
+    ],
+    "hash": "11228376a68aec359f6bd7bc06c0f531b853cd3b3546a456cf3fe3f23f7bdecc"
+  },
+  {
+    "files": [
+      "Logos_System/System_Stack/System_Operations_Protocol/deployment/configuration/kernel.py",
+      "Logos_System/System_Stack/System_Operations_Protocol/alignment_protocols/safety/obdc/kernel.py"
+    ],
+    "hash": "115f9b85f0be32893068e4b8cd176bdffcc263bf2c90cd8dca0b5c632d6fe0b3"
+  },
+  {
+    "files": [
+      "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/LEM_Discharge.v.bak",
+      "PXL_Gate/coq/src/baseline/LEM_Discharge.v.bak"
+    ],
+    "hash": "1269162c4bf0feea0bdad5db9e841bad84f2831e0e1508aab5e7e031c7644ae2"
+  },
+  {
+    "files": [
+      "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/PXL_OmniKernel.glob",
+      "PXL_Gate/coq/src/baseline/PXL_OmniKernel.glob"
+    ],
+    "hash": "13bc87d126b0ebb16ac78aa247da88ff06cb2eee7170690eef601618a855d75d"
+  },
+  {
+    "files": [
+      "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/PXL_Bridge_Proofs_SemanticPort.glob",
+      "PXL_Gate/coq/src/baseline/PXL_Bridge_Proofs_SemanticPort.glob"
+    ],
+    "hash": "13c71f6e58b539ddec2488827050aa877a29683a0a0dad1a2a293424dea6f685"
+  },
+  {
+    "files": [
+      "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/.PXL_Bridge_Proofs.aux",
+      "PXL_Gate/coq/src/baseline/.PXL_Bridge_Proofs.aux"
+    ],
+    "hash": "13f62fff5ac582e3472a59942e804eadda21bffa5d524d92ba74dc670c11815d"
+  },
+  {
+    "files": [
+      "Logos_System/System_Stack/Synthetic_Cognition_Protocol/MVS_System/data_c_values/second_order_props.txt",
+      "Logos_System/System_Stack/Synthetic_Cognition_Protocol/data/data/data_library/second_order_props.txt"
+    ],
+    "hash": "14a611d2c8d6e30598536f366731313ef9ee0057f107ecf2f70194bd3b39d0d8"
+  },
+  {
+    "files": [
+      "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/PXL_Internal_LEM.glob",
+      "PXL_Gate/coq/src/baseline/PXL_Internal_LEM.glob"
+    ],
+    "hash": "160debd91971940a2d465397a01702fabff2229840988e4e91a02bc1ff3a3226"
+  },
+  {
+    "files": [
+      "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/.PXL_Bridge_Proofs_SemanticPort.aux",
+      "PXL_Gate/coq/src/baseline/.PXL_Bridge_Proofs_SemanticPort.aux"
+    ],
+    "hash": "16e290e26b143e273701b1a2b4975b167ec81da330ac68e43df4804df517c913"
+  },
+  {
+    "files": [
+      "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/PXL_Privative.v",
+      "PXL_Gate/coq/src/baseline/PXL_Privative.v"
+    ],
+    "hash": "17332fae2dbf7ebe47c84410b5dff6eba7ba56c2de61f433e7f5162d07595675"
+  },
+  {
+    "files": [
+      "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/Trinitarian_Identity_Closure.v",
+      "PXL_Gate/coq/src/baseline/Trinitarian_Identity_Closure.v"
+    ],
+    "hash": "1754904a46a066ba578bab1c2b1e5b7915e3cc536b599d578f3b506cfe6e5c9e"
+  },
+  {
+    "files": [
+      "Logos_System/System_Stack/Logos_Protocol/Logos_Agents/Agent_Resources/Privative_Forms.json",
+      "_Dev_Resources/Dev_Logs_Current/privation_library.md"
+    ],
+    "hash": "180012fe80cdda907c6998667c6e70528c9739fe77293cfac56f3316a4280131"
+  },
+  {
+    "files": [
+      "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/.PXLv3_shadow.aux",
+      "PXL_Gate/coq/src/.PXLv3_shadow.aux"
+    ],
+    "hash": "1891a42eeecacaab6610db078b62e3545896993b484ee101e4402066e4442c0a"
+  },
+  {
+    "files": [
+      "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/PXL_Trinitarian_Optimization_SemanticPort.glob",
+      "PXL_Gate/coq/src/baseline/PXL_Trinitarian_Optimization_SemanticPort.glob"
+    ],
+    "hash": "1b1e4163c9a292f85222e11e7a641c8de5ec880e6c341982b4d0ae27d46b1e24"
+  },
+  {
+    "files": [
+      "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/option_b/OptionB_Index.v",
+      "PXL_Gate/coq/src/option_b/OptionB_Index.v"
+    ],
+    "hash": "1ccd56607405898c3c9551e7187555fdb196a3c3b73dedfde3ab43dcf036251a"
+  },
+  {
+    "files": [
+      "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/PXL_Semantic_Profile_Suite.glob",
+      "PXL_Gate/coq/src/baseline/PXL_Semantic_Profile_Suite.glob"
+    ],
+    "hash": "1d58535e4104924258f96fe111c143a6e975021011f4e61be93d9eacf3b8d3c1"
+  },
+  {
+    "files": [
+      "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/PXL_Trinitarian_Optimization.glob",
+      "PXL_Gate/coq/src/baseline/PXL_Trinitarian_Optimization.glob"
+    ],
+    "hash": "1dcd01fab9d0ac8fd2858199ed9ba7b5c4d918acbb544586667d5abd78687d17"
+  },
+  {
+    "files": [
+      "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/PXL_Arithmetic.vo",
+      "PXL_Gate/coq/src/baseline/PXL_Arithmetic.vo"
+    ],
+    "hash": "1e4aa98550e0ae9ac5916fa7c82015806da31f180dc347e5fa213920c0d9e540"
+  },
+  {
+    "files": [
+      "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/PXL_Arithmetic.v",
+      "PXL_Gate/coq/src/baseline/PXL_Arithmetic.v"
+    ],
+    "hash": "200e682f43084a3c4bc1df970ff2c99fd7498d5f3d233c4f061d99e660d25897"
+  },
+  {
+    "files": [
+      "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/modal/PXL_Modal_Semantic_Kripke.vo",
+      "PXL_Gate/coq/src/modal/PXL_Modal_Semantic_Kripke.vo"
+    ],
+    "hash": "2027b6d63f859add8ab15025c62cad401830323593203d86de1481854686209f"
+  },
+  {
+    "files": [
+      "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/PXL_OmniProofs.v",
+      "PXL_Gate/coq/src/baseline/PXL_OmniProofs.v"
+    ],
+    "hash": "20bd0ed88c506cb18c8f2df6a5e4fe17087b7bcbc76b05c3ff0b3cc850fe876c"
+  },
+  {
+    "files": [
+      "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/.PXL_Internal_LEM_SemanticPort.aux",
+      "PXL_Gate/coq/src/baseline/.PXL_Internal_LEM_SemanticPort.aux"
+    ],
+    "hash": "20d281801e39adc276e79d8a8d2866e25dd9dad4788e2c279922410180a8559d"
+  },
+  {
+    "files": [
+      "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/PXL_Trinitarian_Optimization_SemanticPort.v",
+      "PXL_Gate/coq/src/baseline/PXL_Trinitarian_Optimization_SemanticPort.v"
+    ],
+    "hash": "20f44a10c6b3218f0edd1de4388bd45b886928a686db6771dfe07e7692965848"
+  },
+  {
+    "files": [
+      "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/.PXL_Derivations_Phase2.aux",
+      "PXL_Gate/coq/src/.PXL_Derivations_Phase2.aux"
+    ],
+    "hash": "238e8fc10d6958abea3808bd0d5316e6dbde8fa0a413b4bc4fcac70513cbfca9"
+  },
+  {
+    "files": [
+      "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/PXL_WellFormedness.v",
+      "PXL_Gate/coq/src/baseline/PXL_WellFormedness.v"
+    ],
+    "hash": "25185734ecf347528e91d674ba327b7d6899c897a68d95be8857b556755bc6bd"
+  },
+  {
+    "files": [
+      "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/PXL_Kernel_Axioms.glob",
+      "PXL_Gate/coq/src/PXL_Kernel_Axioms.glob"
+    ],
+    "hash": "25a9187a3d84dbf7e9707c554a12662ffdba2fe76718fed340cb80e10f381508"
+  },
+  {
+    "files": [
+      "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/option_b/.Modal_Decidability_Skeleton.aux",
+      "PXL_Gate/coq/src/option_b/.Modal_Decidability_Skeleton.aux"
+    ],
+    "hash": "27010ad2efaf0730be7ba7bd32b8306f26f2b199c6603fce9b44ee869b400c4a"
+  },
+  {
+    "files": [
+      "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/PXL_OmniKernel.v",
+      "PXL_Gate/coq/src/baseline/PXL_OmniKernel.v"
+    ],
+    "hash": "2914fb09b3c23c84dfbd20533f571e27ed598c1072953b0b0dda469fb0b9ff9e"
+  },
+  {
+    "files": [
+      "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/.PXL_Sanity_Semantic.aux",
+      "PXL_Gate/coq/src/baseline/.PXL_Sanity_Semantic.aux"
+    ],
+    "hash": "29199a93464f5b21ed139e41e75685bd7995adf3aa08fe73a5bb0a07e253bdd3"
+  },
+  {
+    "files": [
+      "Logos_System/System_Entry_Point/Runtime_Compiler/Protopraxis/PXL_Derived_Attributes.txt",
+      "PXL_Gate/Protopraxis/PXL_Derived_Attributes.txt"
+    ],
+    "hash": "29311108860ccba59bc54630f29999bd0c384fc2ee37a5bd7e9ca27be1ebe7a7"
+  },
+  {
+    "files": [
+      "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/PXL_TriunePBRS.glob",
+      "PXL_Gate/coq/src/baseline/PXL_TriunePBRS.glob"
+    ],
+    "hash": "29f9044ba2912ca94179eba850edcb250c717476f9a51187344271c88e79975c"
+  },
+  {
+    "files": [
+      "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/ui/lem_portal.py",
+      "PXL_Gate/coq/src/ui/lem_portal.py"
+    ],
+    "hash": "2b376cab3e8f352abb0d48ff6808aeae5e80a595033acadabb132b2cf2b0e83d"
+  },
+  {
+    "files": [
+      "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/option_b/Privation_Detector_Skeleton.v",
+      "PXL_Gate/coq/src/option_b/Privation_Detector_Skeleton.v"
+    ],
+    "hash": "2bd03b51015dfe9fb52ea07ee25783fceb01d0d0f75ae7489e4fb2a109f9c7b7"
+  },
+  {
+    "files": [
+      "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/option_b/Modal_Decidability_To_Interp.v",
+      "PXL_Gate/coq/src/option_b/Modal_Decidability_To_Interp.v"
+    ],
+    "hash": "2bd85a89d3f6defc6d2d9d90cb7a00a468e966fdd87bb762a2a6ad691be5dc86"
+  },
+  {
+    "files": [
+      "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/Echo2_Simulation.v",
+      "PXL_Gate/coq/src/baseline/Echo2_Simulation.v"
+    ],
+    "hash": "2c65daa0bd528c1b1ea446069db504b520a9a9b19152a213f11d7e257d4a21f6"
+  },
+  {
+    "files": [
+      "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/PXL_Triune_Principles.glob",
+      "PXL_Gate/coq/src/baseline/PXL_Triune_Principles.glob"
+    ],
+    "hash": "2d02d62950020d54be39c2df564102739a971ffcb3b86da70cb2244ea3f988be"
+  },
+  {
+    "files": [
+      "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/.PXL_Omni_Bridges.aux",
+      "PXL_Gate/coq/src/baseline/.PXL_Omni_Bridges.aux"
+    ],
+    "hash": "2ddc8162ccb33af5810c2515f234841f99a6bd7826e09878c5d6842d386c7ff3"
+  },
+  {
+    "files": [
+      "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/option_b/.Privation_Detector_Skeleton.aux",
+      "PXL_Gate/coq/src/option_b/.Privation_Detector_Skeleton.aux"
+    ],
+    "hash": "2e49cffbede7228835bf42b9d1d561c1bf9d7968644e4daa01d0ac00d28c51d2"
+  },
+  {
+    "files": [
+      "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/tests/falsifiability_test.v",
+      "PXL_Gate/coq/src/tests/falsifiability_test.v"
+    ],
+    "hash": "2ec654210e632d079a699054b933a1f4b4c07d2e397cbe26aa6d59e2553e2eb7"
+  },
+  {
+    "files": [
+      "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/.Trinitarian_Identity_Closure.aux",
+      "PXL_Gate/coq/src/baseline/.Trinitarian_Identity_Closure.aux"
+    ],
+    "hash": "2f05acb707f31fa1f41472cc98cf9db02b8f3d7f26df690b1101836170d06294"
+  },
+  {
+    "files": [
+      "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/PXL_Modal_Axioms_Semantic.vo",
+      "PXL_Gate/coq/src/PXL_Modal_Axioms_Semantic.vo"
+    ],
+    "hash": "30cde7d79ff904cf29500d240d51ea2f7a8383e8e468b25c1793ad45fb1d4da1"
+  },
+  {
+    "files": [
+      "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/PXL_Semantic_Extensions_DomainProduct.vo",
+      "PXL_Gate/coq/src/baseline/PXL_Semantic_Extensions_DomainProduct.vo"
+    ],
+    "hash": "330fdb08def3b6486f5db37349cdcf9e8548792191d1da63d84123875224363e"
+  },
+  {
+    "files": [
+      "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/PXL_WellFormedness.vo",
+      "PXL_Gate/coq/src/baseline/PXL_WellFormedness.vo"
+    ],
+    "hash": "335878bc61bde9542bbeb107033599240736eaa25eb345793735891cd96af2b7"
+  },
+  {
+    "files": [
+      "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/test_K.v",
+      "PXL_Gate/coq/src/baseline/test_K.v"
+    ],
+    "hash": "3380b1c983228a044eff2412839fac5fb8c7bb43f5e8835381468c9ae7dcc129"
+  },
+  {
+    "files": [
+      "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/modal/PXLd/S5_Kripke.glob",
+      "PXL_Gate/coq/src/modal/PXLd/S5_Kripke.glob"
+    ],
+    "hash": "33f449490a6784002ed331cd323434ba53974140632c491405754d5726a2cb82"
+  },
+  {
+    "files": [
+      "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/option_b/Modal_Decidability_Skeleton.v",
+      "PXL_Gate/coq/src/option_b/Modal_Decidability_Skeleton.v"
+    ],
+    "hash": "3406f4139c98cd27a98d41897d8ecbf7ccbe9f9d52fc49c7b823038551d732a1"
+  },
+  {
+    "files": [
+      "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/.PXL_OmniKernel.aux",
+      "PXL_Gate/coq/src/baseline/.PXL_OmniKernel.aux"
+    ],
+    "hash": "35a4f7397392432616cf5ad39fe96534112b4bd520dac09e719a37798e5aa353"
+  },
+  {
+    "files": [
+      "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/.PXLv3_head.aux",
+      "PXL_Gate/coq/src/baseline/.PXLv3_head.aux"
+    ],
+    "hash": "35bf2e44ff6994f772d7ef12ad17967b6a5b1545f9828c6743d83e59f3b3eeb7"
+  },
+  {
+    "files": [
+      "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/.PXLv3_SemanticModal.aux",
+      "PXL_Gate/coq/src/baseline/.PXLv3_SemanticModal.aux"
+    ],
+    "hash": "35cbcae6ebc4242cafaf6bf8a85521505d6a2ecaf89137c57e21b862a2437d52"
+  },
+  {
+    "files": [
+      "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/PXL_Triune_Principles.v",
+      "PXL_Gate/coq/src/baseline/PXL_Triune_Principles.v"
+    ],
+    "hash": "384ae02f0038a2ed4402fc2c467ba06115abea5f05f3332e8b8b00c3785599c8"
+  },
+  {
+    "files": [
+      "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/PXLv3_shadow.v",
+      "PXL_Gate/coq/src/PXLv3_shadow.v"
+    ],
+    "hash": "38546e539c8bc127b1425468d6a4cb43860cd98676954245976500aed977d82f"
+  },
+  {
+    "files": [
+      "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/ui/LEM_Discharge.vo",
+      "PXL_Gate/coq/src/ui/LEM_Discharge.vo"
+    ],
+    "hash": "398bc45df4a4a0d16d8a54f7e5f4417b3b3715b5b6405c7fdb56e6121bb32016"
+  },
+  {
+    "files": [
+      "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/.PXL_Foundations.aux",
+      "PXL_Gate/coq/src/baseline/.PXL_Foundations.aux"
+    ],
+    "hash": "3b3a25ea3cea108f59425ecf8c1e9f745be1ccd8ab1f3b4ac5a919616f4515b1"
+  },
+  {
+    "files": [
+      "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/.Godelian_Theorem_Satisfaction.aux",
+      "PXL_Gate/coq/src/baseline/.Godelian_Theorem_Satisfaction.aux"
+    ],
+    "hash": "3bb930ed8251839969e5c9e2ad87d6bb7414c92eecc7c90138a33ec1f1fc6d3d"
+  },
+  {
+    "files": [
+      "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/PXL_S2_Axioms.v",
+      "PXL_Gate/coq/src/baseline/PXL_S2_Axioms.v"
+    ],
+    "hash": "3cf1465b80076acb04ed93a0511fb96cfa5c542b30d2226dac618ed53c8211a4"
+  },
+  {
+    "files": [
+      "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/.PXL_Modal_Axioms_Semantic.aux",
+      "PXL_Gate/coq/src/.PXL_Modal_Axioms_Semantic.aux"
+    ],
+    "hash": "3d1a3fd0310ff304945aace7ae932a3a1dfc59c46012b2475a9e69c77540ff09"
+  },
+  {
+    "files": [
+      "Logos_System/System_Stack/Synthetic_Cognition_Protocol/MVS_System/data_c_values/config_ontological_properties.json",
+      "Logos_System/System_Stack/System_Operations_Protocol/IEL_generator/ontoprop_paring/config_ontological_properties.json"
+    ],
+    "hash": "3ed142c406a60af60ba017bf3ac58df4c4f3bb43f6e83fc09bcc4389bedbcaf3"
+  },
+  {
+    "files": [
+      "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/.Demo_Unsafe.aux",
+      "PXL_Gate/coq/src/baseline/.Demo_Unsafe.aux"
+    ],
+    "hash": "3f1611832146504cbbcf25cd3a7d5c7be791be64309e8e278bb0d0f7b9a7634a"
+  },
+  {
+    "files": [
+      "Logos_System/System_Entry_Point/Runtime_Compiler/Protopraxis/__init__.py",
+      "PXL_Gate/Protopraxis/__init__.py"
+    ],
+    "hash": "4116e80521756ce2cb631c4230003591dcb9a541cc289eaa211aa04dd221fc31"
+  },
+  {
+    "files": [
+      "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/option_b/.Modal_Decidability_To_Interp.aux",
+      "PXL_Gate/coq/src/option_b/.Modal_Decidability_To_Interp.aux"
+    ],
+    "hash": "4266435209abecc97caf49e130f4c00d71e5c40b4de652eca4ce6fb7362b46d0"
+  },
+  {
+    "files": [
+      "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/PXL_Omni_Bridges.v",
+      "PXL_Gate/coq/src/baseline/PXL_Omni_Bridges.v"
+    ],
+    "hash": "43ec321cc578716681e2bd6baa0a2d0e63197c7c7de1a970128244d450ecb9ab"
+  },
+  {
+    "files": [
+      "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/PXL_Axiom_Minimality_Check.vo",
+      "PXL_Gate/coq/src/baseline/PXL_Axiom_Minimality_Check.vo"
+    ],
+    "hash": "46b379d7d9774d4ca904b1c775de0d05014891e2b82a0c164ac646a2bb5d1d38"
+  },
+  {
+    "files": [
+      "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/PXL_SemanticModal_Smoke.vo",
+      "PXL_Gate/coq/src/baseline/PXL_SemanticModal_Smoke.vo"
+    ],
+    "hash": "48080e3bddee40eb01940efb87ed09cabe521c4f5f85fe8bd52f6fe5e002e3a8"
+  },
+  {
+    "files": [
+      "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/.PXL_WellFormedness.aux",
+      "PXL_Gate/coq/src/baseline/.PXL_WellFormedness.aux"
+    ],
+    "hash": "48b3a55550bcfe5d2ed72f7003ab4b218ee5b58cbb3ef750c8c23dc8270acc0e"
+  },
+  {
+    "files": [
+      "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/PXL_OntoGrid_OmniHooks.v",
+      "PXL_Gate/coq/src/baseline/PXL_OntoGrid_OmniHooks.v"
+    ],
+    "hash": "497fb246857e6ad66e9e45569e49b8007f57fae9f852c68b2c07cd1d0d038add"
+  },
+  {
+    "files": [
+      "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/PXL_Bridge_Proofs.vo",
+      "PXL_Gate/coq/src/baseline/PXL_Bridge_Proofs.vo"
+    ],
+    "hash": "49a0ad1b404b210215b7ce22c49ec3740e43f4369478e921966fbf9e051ae830"
+  },
+  {
+    "files": [
+      "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/PXL_Kernel20_SemanticModal_Profile.vo",
+      "PXL_Gate/coq/src/baseline/PXL_Kernel20_SemanticModal_Profile.vo"
+    ],
+    "hash": "49ec69840ac6040d783b3b9c82c7d1619b1b61f2fdf54e5064a994e731fe17a5"
+  },
+  {
+    "files": [
+      "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/PXL_Internal_LEM_SemanticPort.glob",
+      "PXL_Gate/coq/src/baseline/PXL_Internal_LEM_SemanticPort.glob"
+    ],
+    "hash": "4abfcd6034004dd3959239e93b0518ea4d0ca3f044d9068aedb9e3ef3d8f7df5"
+  },
+  {
+    "files": [
+      "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/PXL_Goodness_Existence.glob",
+      "PXL_Gate/coq/src/baseline/PXL_Goodness_Existence.glob"
+    ],
+    "hash": "4b5ba5e939841452d64df3252bfe4d29d97a86a059b7020510a31005128a461f"
+  },
+  {
+    "files": [
+      "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/PXL_Privative.vo",
+      "PXL_Gate/coq/src/baseline/PXL_Privative.vo"
+    ],
+    "hash": "4c5357ae21be03ca6329f3dc58b02410b6a4069a189ae074962f5cda88cf6a0a"
+  },
+  {
+    "files": [
+      "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/PXL_Triune_Principles.vo",
+      "PXL_Gate/coq/src/baseline/PXL_Triune_Principles.vo"
+    ],
+    "hash": "4cf42174e52d4b3fce58b4df14e469e8c662777d98055935dda27c3af0abc6e8"
+  },
+  {
+    "files": [
+      "Logos_System/System_Entry_Point/Runtime_Compiler/Protopraxis/PXL_Theorems.txt",
+      "PXL_Gate/Protopraxis/PXL_Theorems.txt"
+    ],
+    "hash": "4e05db9c35c0088148db44875d670074d608de18e8ee1343a0b73b2132e09b3f"
+  },
+  {
+    "files": [
+      "PXL_Gate/PXL_Gate_tree_filtered.txt",
+      "Logos_System/System_Entry_Point/Runtime_Compiler/PXL_Gate_tree_filtered.txt"
+    ],
+    "hash": "4f2c4af8ee9ddd0ee6be912c56120463d1ecefc1889df25935ed9041bf1ae3b6"
+  },
+  {
+    "files": [
+      "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/.PXL_Triune_Principles.aux",
+      "PXL_Gate/coq/src/baseline/.PXL_Triune_Principles.aux"
+    ],
+    "hash": "4f3e80b1a99bf47825a85a0924ab918445afde3d11bfc8fc0cf65476d0238cfe"
+  },
+  {
+    "files": [
+      "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/.PXL_ObjectLanguage.aux",
+      "PXL_Gate/coq/src/baseline/.PXL_ObjectLanguage.aux"
+    ],
+    "hash": "4fb3f622c2d5c5a9d28777441c2c4d0d49ed7077885a52089274f5725eb3b120"
+  },
+  {
+    "files": [
+      "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/tests/falsifiability_test.glob",
+      "PXL_Gate/coq/src/tests/falsifiability_test.glob"
+    ],
+    "hash": "50a0a36d364bed6d106044059e8b53b6a52cb4c03d4126916797d38cfdf58189"
+  },
+  {
+    "files": [
+      "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/PXL_Foundations_SemanticPort.vo",
+      "PXL_Gate/coq/src/baseline/PXL_Foundations_SemanticPort.vo"
+    ],
+    "hash": "50e20aaf551e8af84702f1aa7d0d4b9c32b089ab84ebecd9e93c35c051af3fce"
+  },
+  {
+    "files": [
+      "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/option_b/Omega_Closure.v",
+      "PXL_Gate/coq/src/option_b/Omega_Closure.v"
+    ],
+    "hash": "5257a03d76ca8c3664f83b36da7017c413cec67dd5d071af0e78ccce93620c04"
+  },
+  {
+    "files": [
+      "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/modal/PXLd/.S5_Kripke.aux",
+      "PXL_Gate/coq/src/modal/PXLd/.S5_Kripke.aux"
+    ],
+    "hash": "52d09241dd9bedfa9e1ae2891c5040ce1e4dbc8a6bae7533397c0dff7d03def0"
+  },
+  {
+    "files": [
+      "Logos_System/System_Stack/Logos_Protocol/External_Enhancements/External_Libraries_Manifest.json",
+      "Logos_System/System_Entry_Point/Orchestration_Tools/runtime_requirements.json"
+    ],
+    "hash": "52d3a83e3a0a5a71f7fa219b5d29d6a1ba131d6e164dd0f14d8164b0bc672189"
+  },
+  {
+    "files": [
+      "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/.PXL_Kernel20_SemanticModal_Profile.aux",
+      "PXL_Gate/coq/src/baseline/.PXL_Kernel20_SemanticModal_Profile.aux"
+    ],
+    "hash": "52e54e6ceb44aee7b2b3e809b1ba39aee0746927f172b046e4711bf168e813fc"
+  },
+  {
+    "files": [
+      "Logos_System/System_Entry_Point/Runtime_Compiler/Protopraxis/PXL_Paradox_Resolution.txt",
+      "PXL_Gate/Protopraxis/PXL_Paradox_Resolution.txt"
+    ],
+    "hash": "538ccbc8f07f592d4103451dfc4e651523c52a81d383932716d6f46c0f9571e3"
+  },
+  {
+    "files": [
+      "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/option_b/Modal_Semantics.glob",
+      "PXL_Gate/coq/src/option_b/Modal_Semantics.glob"
+    ],
+    "hash": "56260af984152bec18f3ddeda2eeabc968080397f027ae889546a7eae7596c76"
+  },
+  {
+    "files": [
+      "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/Godelian_Theorem_Satisfaction.v",
+      "PXL_Gate/coq/src/baseline/Godelian_Theorem_Satisfaction.v"
+    ],
+    "hash": "5695ebfdccdf8eaedc2de5b5ab8db08db013b0cc44022b24d26adbc29db9a45a"
+  },
+  {
+    "files": [
+      "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/option_b/.Modal_Syntax.aux",
+      "PXL_Gate/coq/src/option_b/.Modal_Syntax.aux"
+    ],
+    "hash": "56b4df663b68619e53f82b2dddc8141881f8ee29a2b20b3a89b03341aa101eaa"
+  },
+  {
+    "files": [
+      "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/Demo_Unsafe.glob",
+      "PXL_Gate/coq/src/baseline/Demo_Unsafe.glob"
+    ],
+    "hash": "56b5f2224a53f5347ea438093871d7fef6594d8816d384a37f1c2f500e3f649b"
+  },
+  {
+    "files": [
+      "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/PXL_Omni_Bridges.vo",
+      "PXL_Gate/coq/src/baseline/PXL_Omni_Bridges.vo"
+    ],
+    "hash": "56e7e2aa394ed2d9d029ad17743a115a94bdaef78d0953486fcc75b32ec388ee"
+  },
+  {
+    "files": [
+      "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/PXL_S2_Axioms.vo",
+      "PXL_Gate/coq/src/baseline/PXL_S2_Axioms.vo"
+    ],
+    "hash": "579dc9bfb70985c8502fcc5bb38e0876b70a052d2ba780d70919be1b232b7909"
+  },
+  {
+    "files": [
+      "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/PXL_Kernel_Axioms.vo",
+      "PXL_Gate/coq/src/PXL_Kernel_Axioms.vo"
+    ],
+    "hash": "57eb83ee6ce0c46519c79f0fa6ec8b18fc7378b4d04a461a8efac8e3a9f1388f"
+  },
+  {
+    "files": [
+      "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/PXLv3_head.v",
+      "PXL_Gate/coq/src/baseline/PXLv3_head.v"
+    ],
+    "hash": "594f178412c25dc4f84b6245fb185f4eb86bf2e18957a594310622504455eca7"
+  },
+  {
+    "files": [
+      "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/PXL_ObjectLanguage.glob",
+      "PXL_Gate/coq/src/baseline/PXL_ObjectLanguage.glob"
+    ],
+    "hash": "5ac8dd40e1db7453647e18c6cd041f38ffb93547c22eebff9343cfcc1fc54d0c"
+  },
+  {
+    "files": [
+      "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/Demo_Unsafe.v",
+      "PXL_Gate/coq/src/baseline/Demo_Unsafe.v"
+    ],
+    "hash": "5b5b306a9a21f64e659e35eba92427e3cf72a3ab180b4bed2bb58fcbd433273b"
+  },
+  {
+    "files": [
+      "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/Trinitarian_Identity_Closure.glob",
+      "PXL_Gate/coq/src/baseline/Trinitarian_Identity_Closure.glob"
+    ],
+    "hash": "5c5b384fe9dc80733128f9bbcca928a99025915155b041f5a5a4d545956268a8"
+  },
+  {
+    "files": [
+      "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/PXL_Sanity_Semantic.glob",
+      "PXL_Gate/coq/src/baseline/PXL_Sanity_Semantic.glob"
+    ],
+    "hash": "5cf031c8ee4befa381525e5eaec7f8dcc4c3cacd744e142a782cba2433b05289"
+  },
+  {
+    "files": [
+      "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/option_b/.OptionB_Index.aux",
+      "PXL_Gate/coq/src/option_b/.OptionB_Index.aux"
+    ],
+    "hash": "5d54bd6bbce0894a74b3787668c229ccecda9058f4d4d86d0dca75169d90f816"
+  },
+  {
+    "files": [
+      "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/PXL_Global_Bijection.v",
+      "PXL_Gate/coq/src/baseline/PXL_Global_Bijection.v"
+    ],
+    "hash": "5fce95c4c7db626f7305c9781747a1302ca892bc797970e4e74dbdf1ddfd057e"
+  },
+  {
+    "files": [
+      "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/ui/run_coq_pipeline.py",
+      "PXL_Gate/coq/src/ui/run_coq_pipeline.py"
+    ],
+    "hash": "64f7dcb409c44c3696bc97a50986ee0a05e66f141bb1c281b66af8b7afc21999"
+  },
+  {
+    "files": [
+      "Logos_System/System_Stack/Logos_Protocol/Logos_Agents/I2_Agent/connections/id_handler.py",
+      "Logos_System/System_Stack/Logos_Protocol/Logos_Agents/I3_Agent/connections/id_handler.py"
+    ],
+    "hash": "665670b9d707eddd0d0718c60fd698e5a7b5e9528b2a4f07bd04bdb6ec99aa8a"
+  },
+  {
+    "files": [
+      "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/option_b/Modal_Semantics.v",
+      "PXL_Gate/coq/src/option_b/Modal_Semantics.v"
+    ],
+    "hash": "69d386f53747481d290e82c52439265c3c6a5435222ab3e5b27c7330593bed37"
+  },
+  {
+    "files": [
+      "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/PXL_Internal_LEM_SemanticPort.v",
+      "PXL_Gate/coq/src/baseline/PXL_Internal_LEM_SemanticPort.v"
+    ],
+    "hash": "6ad4f44109f18bbf44bfe7a8fb9c6072d4fd126ccacaa02347c848bc45db9f91"
+  },
+  {
+    "files": [
+      "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/.PXL_Internal_LEM.aux",
+      "PXL_Gate/coq/src/baseline/.PXL_Internal_LEM.aux"
+    ],
+    "hash": "6b092d0ad0ea884256890dcf9ca3ecdd2848a624a92c7929d349e14a36ae93a1"
+  },
+  {
+    "files": [
+      "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/test_K.vo",
+      "PXL_Gate/coq/src/baseline/test_K.vo"
+    ],
+    "hash": "6c11ce3992b502cd405ed2d124e42899736255fa45a07a76073ea02842e0f060"
+  },
+  {
+    "files": [
+      "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/.PXL_OntoGrid_OmniHooks.aux",
+      "PXL_Gate/coq/src/baseline/.PXL_OntoGrid_OmniHooks.aux"
+    ],
+    "hash": "6dfc27ae17e4f43954f1f3d99c1c15581682bebe27576498af40bac3093b31f7"
+  },
+  {
+    "files": [
+      "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/PXL_OmniKernel.vo",
+      "PXL_Gate/coq/src/baseline/PXL_OmniKernel.vo"
+    ],
+    "hash": "6fabfe2581263161d11f8651e7f5199e7fd205360096c63f7654f9943ed386d7"
+  },
+  {
+    "files": [
+      "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/PXL_ObjectLanguage.v",
+      "PXL_Gate/coq/src/baseline/PXL_ObjectLanguage.v"
+    ],
+    "hash": "71948a4bbaa3fc435ac05e40a2bdb724581f439adfca774f0a99dc5b69d7fe40"
+  },
+  {
+    "files": [
+      "Logos_System/System_Stack/Synthetic_Cognition_Protocol/data/data/data_library/iel_ontological_bijection_optimized.json",
+      "Logos_System/System_Stack/Logos_Protocol/Logos_Agents/I2_Agent/protocol_operations/privation_handler/privation_library/iel_ontological_bijection_optimized.json"
+    ],
+    "hash": "719f10bdcf56593cabda86aa4c87dc0d656700ca1a0ce1c6e72fbe31867aa681"
+  },
+  {
+    "files": [
+      "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/ui/LEM_Discharge.v",
+      "PXL_Gate/coq/src/ui/LEM_Discharge.v"
+    ],
+    "hash": "72a1a50fe125713298dd39092597c3db53f85243cbd7b0f9d8af4ebbc2f16862"
+  },
+  {
+    "files": [
+      "Logos_System/System_Stack/Logos_Protocol/Logos_Agents/__init__ .py",
+      "Logos_System/System_Stack/Logos_Protocol/Logos_Agents/Agent_Resources/__init__ .py"
+    ],
+    "hash": "73a34ac8e66bc9d85843ec7dce9d3e06094fbab90770072614016965f95add07"
+  },
+  {
+    "files": [
+      "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/PXLv3_SemanticModal.v",
+      "PXL_Gate/coq/src/baseline/PXLv3_SemanticModal.v"
+    ],
+    "hash": "74b4b532a6036c2e8fbd2de95042e1d0dba12bb4653ff17d7640541067cb37cd"
+  },
+  {
+    "files": [
+      "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/option_b/OptionB_Index.glob",
+      "PXL_Gate/coq/src/option_b/OptionB_Index.glob"
+    ],
+    "hash": "76355c7b8c4401e4f57726a556cc04c1d311f9bd8f7b962b2cfe96696a5e54c6"
+  },
+  {
+    "files": [
+      "Logos_System/System_Entry_Point/Runtime_Compiler/state/lem_discharge_state.json",
+      "PXL_Gate/state/lem_discharge_state.json"
+    ],
+    "hash": "770bd297f84cb06e56e29c8f6c70c3d25b8c6f063cc95854fcbfc57b50913554"
+  },
+  {
+    "files": [
+      "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/LOGOS_Metaphysical_Architecture.vo",
+      "PXL_Gate/coq/src/baseline/LOGOS_Metaphysical_Architecture.vo"
+    ],
+    "hash": "79a6edf66de28882a56015c29a92f8d54e21412202569ec669fbcd6da475c486"
+  },
+  {
+    "files": [
+      "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/PXL_Internal_LEM.v",
+      "PXL_Gate/coq/src/baseline/PXL_Internal_LEM.v"
+    ],
+    "hash": "79baa8b5b18f5b7533c1467fff946714946fb21f87ad5cd960003fdbb79fac7a"
+  },
+  {
+    "files": [
+      "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/PXL_Foundations_SemanticPort.v",
+      "PXL_Gate/coq/src/baseline/PXL_Foundations_SemanticPort.v"
+    ],
+    "hash": "7a1b11143130bd838ef7a8c16d5eeabd33ef01ef4ed1f52a1832690b81169b3f"
+  },
+  {
+    "files": [
+      "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/PXL_Sanity_SemanticPort.v",
+      "PXL_Gate/coq/src/baseline/PXL_Sanity_SemanticPort.v"
+    ],
+    "hash": "7b1f3dd11ff1321072cc2ebcff3c85e9fa9f8adcf0e647618d9ec6cb7a6cd6cc"
+  },
+  {
+    "files": [
+      "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/PXL_OntoGrid.v",
+      "PXL_Gate/coq/src/baseline/PXL_OntoGrid.v"
+    ],
+    "hash": "7ddd0fae564a3d80c079fd3d3056fa80bd9b97517ea6402fe5a3531a68c9d6e3"
+  },
+  {
+    "files": [
+      "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/.PXL_Global_Bijection.aux",
+      "PXL_Gate/coq/src/baseline/.PXL_Global_Bijection.aux"
+    ],
+    "hash": "7decadff84f3540bd683032cb69c88d3f4facef06f9bd4e534a45a0cdcfe410d"
+  },
+  {
+    "files": [
+      "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/PXL_Internal_LEM_SemanticPort.vo",
+      "PXL_Gate/coq/src/baseline/PXL_Internal_LEM_SemanticPort.vo"
+    ],
+    "hash": "7fe58272a8cab10418d0b514e7fb2ed02a5b9e1da9b26001e43e81d5fee7fbc5"
+  },
+  {
+    "files": [
+      "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/option_b/Modal_PXL_Interp.v",
+      "PXL_Gate/coq/src/option_b/Modal_PXL_Interp.v"
+    ],
+    "hash": "825c0678b09b8489cb9174e31f1644aa5beda6f5f2916eb5720f3108dc8cc01e"
+  },
+  {
+    "files": [
+      "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/PXL_Kernel_Axioms.v",
+      "PXL_Gate/coq/src/PXL_Kernel_Axioms.v"
+    ],
+    "hash": "85438c4e542db12bf057e6df3d5c7faf4b287e384c471b0ade1243e92949f00c"
+  },
+  {
+    "files": [
+      "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/.PXL_Sanity.aux",
+      "PXL_Gate/coq/src/baseline/.PXL_Sanity.aux"
+    ],
+    "hash": "85450ab2c7445c1e6202411fe877453937b14c45cfb01f3d69628bbcbb52322e"
+  },
+  {
+    "files": [
+      "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/PXL_Proof_Summary.v",
+      "PXL_Gate/coq/src/baseline/PXL_Proof_Summary.v"
+    ],
+    "hash": "85d2763fd7098255c89ea974cc0e35a44cb3432653d177dd883d4b4551c3d993"
+  },
+  {
+    "files": [
+      "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/Godelian_Theorem_Satisfaction.glob",
+      "PXL_Gate/coq/src/baseline/Godelian_Theorem_Satisfaction.glob"
+    ],
+    "hash": "86468c93361524cd931cc46552e638457bdd7094ddc36e2fffb443d7774f4d75"
+  },
+  {
+    "files": [
+      "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/PXL_OmniProofs.glob",
+      "PXL_Gate/coq/src/baseline/PXL_OmniProofs.glob"
+    ],
+    "hash": "88daab9c1ea79c0ccd4649aa7ffa89d9ce2af9aef271258d173c38f1c1334afe"
+  },
+  {
+    "files": [
+      "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/ui/LEM_Discharge.glob",
+      "PXL_Gate/coq/src/ui/LEM_Discharge.glob"
+    ],
+    "hash": "88e5094fe40fdf0b86ce99349497f669249139605deb8ebe6c2743d80f606259"
+  },
+  {
+    "files": [
+      "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/PXLv3_SemanticModal.vo",
+      "PXL_Gate/coq/src/baseline/PXLv3_SemanticModal.vo"
+    ],
+    "hash": "88eaab957906236cde4281864930585d163763118583f5fa6c5dfde604d7ede7"
+  },
+  {
+    "files": [
+      "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/ui/PXL_Proof_Compile.py",
+      "PXL_Gate/coq/src/ui/PXL_Proof_Compile.py"
+    ],
+    "hash": "89b9bddb3a99a1c49687968814c60ec3c623e5d243969d8c3738d97e362a17f9"
+  },
+  {
+    "files": [
+      "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/Echo2_Simulation.glob",
+      "PXL_Gate/coq/src/baseline/Echo2_Simulation.glob"
+    ],
+    "hash": "89ccddc6ad06bc87a309b8b27b4e5f7b60c1c8dc188fdd99e338cf2d2f64b7c4"
+  },
+  {
+    "files": [
+      "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/PXL_Sanity_SemanticPort.glob",
+      "PXL_Gate/coq/src/baseline/PXL_Sanity_SemanticPort.glob"
+    ],
+    "hash": "89d2060463abffe78ec7aa86a66c0ba858247d83e9262ad87b6a299b835d7da7"
+  },
+  {
+    "files": [
+      "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/PXL_Global_Bijection.glob",
+      "PXL_Gate/coq/src/baseline/PXL_Global_Bijection.glob"
+    ],
+    "hash": "8a70ae51c36aa9ccd6c80f86eae1870e0fd449941e07e27cfa8e5a582e631266"
+  },
+  {
+    "files": [
+      "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/PXL_OntoGrid_OmniHooks.vo",
+      "PXL_Gate/coq/src/baseline/PXL_OntoGrid_OmniHooks.vo"
+    ],
+    "hash": "8b22bf8d816aaa67966e5ad8bdb5ab33734dfd3f7e3acb0de21895b9ac064bda"
+  },
+  {
+    "files": [
+      "Logos_System/System_Entry_Point/Runtime_Compiler/coq/_CoqProject",
+      "PXL_Gate/coq/_CoqProject"
+    ],
+    "hash": "8b8f6e4187577d15f683c1c71c02a09a9c76da069ed425ff059994f36780e758"
+  },
+  {
+    "files": [
+      "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/test_K.glob",
+      "PXL_Gate/coq/src/baseline/test_K.glob"
+    ],
+    "hash": "8c0556be802963a500e147100b515b1322e7471e91050b328cda2ffad73a427b"
+  },
+  {
+    "files": [
+      "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/PXL_TriunePBRS.vo",
+      "PXL_Gate/coq/src/baseline/PXL_TriunePBRS.vo"
+    ],
+    "hash": "8cb6174785862dd68fa23d8c245ed323986355b7a512f73d99603a4209714313"
+  },
+  {
+    "files": [
+      "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/tests/.falsifiability_test.aux",
+      "PXL_Gate/coq/src/tests/.falsifiability_test.aux"
+    ],
+    "hash": "8d1bc90a559aa71e56a472ac97f7954ac69188ad0b371ec9469b70cfaf696c03"
+  },
+  {
+    "files": [
+      "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/.LOGOS_Metaphysical_Architecture.aux",
+      "PXL_Gate/coq/src/baseline/.LOGOS_Metaphysical_Architecture.aux"
+    ],
+    "hash": "8d4ed2021d7fd93c03fea701d30523d0e474be93bea29bb51a459a7f603ca228"
+  },
+  {
+    "files": [
+      "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/PXLv3_head.glob",
+      "PXL_Gate/coq/src/baseline/PXLv3_head.glob"
+    ],
+    "hash": "9235afe2f854af646e7fec7836fac3e6a4d680b35a99a4f2bb66659c6cb4817c"
+  },
+  {
+    "files": [
+      "PXL_Gate/_assumptions.txt",
+      "Logos_System/System_Entry_Point/Runtime_Compiler/_assumptions.txt"
+    ],
+    "hash": "93256bc1da51ff88e94634859ac50733987c0d3be49b3f6e567e598970823762"
+  },
+  {
+    "files": [
+      "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/.PXL_Goodness_Existence.aux",
+      "PXL_Gate/coq/src/baseline/.PXL_Goodness_Existence.aux"
+    ],
+    "hash": "955a35f4bbd2d82563f313da5181150dcc1c1490d729105a678ddeb9e41fac94"
+  },
+  {
+    "files": [
+      "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/PXL_Kernel20_SemanticModal_Profile.v",
+      "PXL_Gate/coq/src/baseline/PXL_Kernel20_SemanticModal_Profile.v"
+    ],
+    "hash": "97e260f0454c49c32d0583e7b303db9e622cbf4787e974c5975ed3806efa5ead"
+  },
+  {
+    "files": [
+      "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/option_b/Modal_Syntax.v",
+      "PXL_Gate/coq/src/option_b/Modal_Syntax.v"
+    ],
+    "hash": "97f26a77aabf2d149f3a3d2ffd63714fc2bdbb9a4e6d9a8409a31ea4a867de75"
+  },
+  {
+    "files": [
+      "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/Echo2_Simulation.vo",
+      "PXL_Gate/coq/src/baseline/Echo2_Simulation.vo"
+    ],
+    "hash": "99e10059a6901747fea50e8bd0a93a910340083d117a46636cd1e1916c8c18c8"
+  },
+  {
+    "files": [
+      "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/PXLv3_shadow.glob",
+      "PXL_Gate/coq/src/PXLv3_shadow.glob"
+    ],
+    "hash": "99f0b68ad2797f82d6cebc80e7a676ba181da7112d72e3aa4b9800327914c150"
+  },
+  {
+    "files": [
+      "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/PXLv3.vo",
+      "PXL_Gate/coq/src/PXLv3.vo"
+    ],
+    "hash": "99fb9e6259f97722e94f7b771d92e08fb84bfa3d09032a7e63e2c0f8978d1576"
+  },
+  {
+    "files": [
+      "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/PXL_WellFormedness.glob",
+      "PXL_Gate/coq/src/baseline/PXL_WellFormedness.glob"
+    ],
+    "hash": "9a06750c93d89e889277d8ce1e7cb8f077224557559bd031932bc325ab6c1493"
+  },
+  {
+    "files": [
+      "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/PXL_TriunePBRS.v",
+      "PXL_Gate/coq/src/baseline/PXL_TriunePBRS.v"
+    ],
+    "hash": "9a77a52333ffdeccdc44817fae87a175e1b4692a66cf1f9cfd1ea3b66c7e8abc"
+  },
+  {
+    "files": [
+      "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/PXL_Derivations_Phase2.glob",
+      "PXL_Gate/coq/src/PXL_Derivations_Phase2.glob"
+    ],
+    "hash": "9af35f074f06eeaa9e21fe97018231d78d0b52dfde1ae9754c632e2329617264"
+  },
+  {
+    "files": [
+      "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/PXL_ObjectLanguage.vo",
+      "PXL_Gate/coq/src/baseline/PXL_ObjectLanguage.vo"
+    ],
+    "hash": "9cb17b17e4c42d326638a883429e7325dac6d9dea68ec3fec22d8c8511c3d644"
+  },
+  {
+    "files": [
+      "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/PXL_Bridge_Proofs_SemanticPort.v",
+      "PXL_Gate/coq/src/baseline/PXL_Bridge_Proofs_SemanticPort.v"
+    ],
+    "hash": "9d274c3b9412d29f1b1a73ab813ead89864eec75ae08cf42a2d0a2f5069b020e"
+  },
+  {
+    "files": [
+      "Logos_System/System_Stack/System_Operations_Protocol/alignment_protocols/safety/privative_policies.py",
+      "Logos_System/System_Stack/System_Operations_Protocol/alignment_protocols/policies/privative_policies.py"
+    ],
+    "hash": "9d451ee82d1266295d4d74bcb4e72f2db0115237e02bcc4e540e64a4ca6b5042"
+  },
+  {
+    "files": [
+      "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/.PXL_Semantic_Profile_Suite.aux",
+      "PXL_Gate/coq/src/baseline/.PXL_Semantic_Profile_Suite.aux"
+    ],
+    "hash": "9e1336386db7c39129fdcb671924942e521c170c021c7b47ad79e3bb976087d7"
+  },
+  {
+    "files": [
+      "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/option_b/Privation_Detector_Skeleton.vo",
+      "PXL_Gate/coq/src/option_b/Privation_Detector_Skeleton.vo"
+    ],
+    "hash": "a025b380249dba4eec73697123b1b3948b2177dfb4c4728d01e7d59e35da6769"
+  },
+  {
+    "files": [
+      "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/PXL_OmniProofs.vo",
+      "PXL_Gate/coq/src/baseline/PXL_OmniProofs.vo"
+    ],
+    "hash": "a057bda7585b117c795b6fb3f6ac00e7bf92575db63938d488ce01f6e9da2634"
+  },
+  {
+    "files": [
+      "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/.PXL_TriunePBRS.aux",
+      "PXL_Gate/coq/src/baseline/.PXL_TriunePBRS.aux"
+    ],
+    "hash": "a181fa6e072f99f121096068ad277a5ad8d9dc773ad026f9383d4b41f0bd85b0"
+  },
+  {
+    "files": [
+      "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/modal/PXL_Modal_Semantic_Kripke.glob",
+      "PXL_Gate/coq/src/modal/PXL_Modal_Semantic_Kripke.glob"
+    ],
+    "hash": "a1aa71254750cbe5639dd507cf1503af9f1e2aa19cd38a8a46016b1048a710f6"
+  },
+  {
+    "files": [
+      "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/PXL_Foundations.vo",
+      "PXL_Gate/coq/src/baseline/PXL_Foundations.vo"
+    ],
+    "hash": "a27f59aaecca5b88bfc3dc0a6360e200d4207fc9b5131ca02c9a4f6ef90339fa"
+  },
+  {
+    "files": [
+      "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/PXLv3.v",
+      "PXL_Gate/coq/src/PXLv3.v"
+    ],
+    "hash": "a4ab94a85f69d398a120ee8a5333342311dbf572e793a8691fa4538f752c6dd3"
+  },
+  {
+    "files": [
+      "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/modal/PXLd/S5_Kripke.v",
+      "PXL_Gate/coq/src/modal/PXLd/S5_Kripke.v"
+    ],
+    "hash": "a6b7f6bcb59900afeb1213b080cc36d5a67c4f818d44de58aa2154493673c13f"
+  },
+  {
+    "files": [
+      "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/PXL_Sanity_Semantic.v",
+      "PXL_Gate/coq/src/baseline/PXL_Sanity_Semantic.v"
+    ],
+    "hash": "a8288c01b7873feadb1bdd6242533b5de0d2869191274c1c7d519476903657c6"
+  },
+  {
+    "files": [
+      "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/PXL_Structural_Derivations.v",
+      "PXL_Gate/coq/src/baseline/PXL_Structural_Derivations.v"
+    ],
+    "hash": "a845cf7ea88ec7ecc37b1d04ad4540bc7ae8f9b2584a9026c4d8b82743716bd4"
+  },
+  {
+    "files": [
+      "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/PXLv3_shadow.vo",
+      "PXL_Gate/coq/src/PXLv3_shadow.vo"
+    ],
+    "hash": "ab0e3e02eb90973b95c8042f21527e479586cb72d5031d9de4d79d0b78a522aa"
+  },
+  {
+    "files": [
+      "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/option_b/.Modal_Semantics.aux",
+      "PXL_Gate/coq/src/option_b/.Modal_Semantics.aux"
+    ],
+    "hash": "abe8ad2336c24541f58e82a5224b9c89cd4a5564b5f3d733a0c0e1bc5f2d1e7f"
+  },
+  {
+    "files": [
+      "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/option_b/Modal_PXL_Interp.vo",
+      "PXL_Gate/coq/src/option_b/Modal_PXL_Interp.vo"
+    ],
+    "hash": "ae0e3fb586dd9cc8708e96b70a817db96d331dd76cbc3fe62d3ff0d71c9c96f3"
+  },
+  {
+    "files": [
+      "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/PXL_Proof_Summary.glob",
+      "PXL_Gate/coq/src/baseline/PXL_Proof_Summary.glob"
+    ],
+    "hash": "aec8aefc5bdc43a7a5002a63db2a529f48447a726d497d973e9f875a2ff23492"
+  },
+  {
+    "files": [
+      "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/PXL_Structural_Derivations.glob",
+      "PXL_Gate/coq/src/baseline/PXL_Structural_Derivations.glob"
+    ],
+    "hash": "aee715e478134768c049b8079b528d80b34989138aee2e0bb8356b321e2b62a0"
+  },
+  {
+    "files": [
+      "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/option_b/.Modal_PXL_Interp.aux",
+      "PXL_Gate/coq/src/option_b/.Modal_PXL_Interp.aux"
+    ],
+    "hash": "b0136bfd48c53f692f64f2a341608947e6636ab44006411b76d6f12db35c77ec"
+  },
+  {
+    "files": [
+      "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/option_b/Modal_PXL_Interp.glob",
+      "PXL_Gate/coq/src/option_b/Modal_PXL_Interp.glob"
+    ],
+    "hash": "b04dcf8ffe2b4011e17f069d50eeed6dff88957fac1421b91407f310aa0937e0"
+  },
+  {
+    "files": [
+      "Logos_System/System_Entry_Point/Runtime_Compiler/Protopraxis/PXL_Axioms.txt",
+      "PXL_Gate/Protopraxis/PXL_Axioms.txt"
+    ],
+    "hash": "b15af79912a6645e95c3250e425dbf4220d69b40d852abaca10546c7603f348b"
+  },
+  {
+    "files": [
+      "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/PXL_Semantic_Extensions_DomainProduct.glob",
+      "PXL_Gate/coq/src/baseline/PXL_Semantic_Extensions_DomainProduct.glob"
+    ],
+    "hash": "b177b4ae2381209241525a9821e27c75996e15e0562f944340a3f39a7d772973"
+  },
+  {
+    "files": [
+      "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/.Echo2_Simulation.aux",
+      "PXL_Gate/coq/src/baseline/.Echo2_Simulation.aux"
+    ],
+    "hash": "b2728a5696a752f52063421742782ca428f88488ecb92506a8863d96dbc70c3f"
+  },
+  {
+    "files": [
+      "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/PXL_Sanity.glob",
+      "PXL_Gate/coq/src/baseline/PXL_Sanity.glob"
+    ],
+    "hash": "b272fd42f54d6dae9081c135f04f7210019f8099a3ef238cb7e8c0a37eafc1c8"
+  },
+  {
+    "files": [
+      "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/PXL_Sanity.v",
+      "PXL_Gate/coq/src/baseline/PXL_Sanity.v"
+    ],
+    "hash": "b42b7cb7dd55c9cfa0ad4ce218f7795a795e8b4920dcbf48aab7921343596200"
+  },
+  {
+    "files": [
+      "Logos_System/System_Entry_Point/Runtime_Compiler/Protopraxis/PXL_Domain_Mapping.txt",
+      "PXL_Gate/Protopraxis/PXL_Domain_Mapping.txt"
+    ],
+    "hash": "b4b1f511307b75d019a36a9b4b119a3e1653c743aa8e1a8c7b2755d677097e43"
+  },
+  {
+    "files": [
+      "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/PXL_Omni_Bridges.glob",
+      "PXL_Gate/coq/src/baseline/PXL_Omni_Bridges.glob"
+    ],
+    "hash": "b4ed25b1dfd43e8ef3c2f8037ab53cffb168730cb830e8e55cbdfc51f1f2310b"
+  },
+  {
+    "files": [
+      "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/modal/PXLd/S5_Kripke.vo",
+      "PXL_Gate/coq/src/modal/PXLd/S5_Kripke.vo"
+    ],
+    "hash": "b5020cf2d33a6beb859ff966500f376ae08fda464c110283eea6b309671ca600"
+  },
+  {
+    "files": [
+      "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/Trinitarian_Identity_Closure.vo",
+      "PXL_Gate/coq/src/baseline/Trinitarian_Identity_Closure.vo"
+    ],
+    "hash": "b6819721b3fbe7b7cdbf86830b81dd408001495070501fc1561f20e669d419cc"
+  },
+  {
+    "files": [
+      "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/modal/PXL_Modal_Semantic_Kripke.v",
+      "PXL_Gate/coq/src/modal/PXL_Modal_Semantic_Kripke.v"
+    ],
+    "hash": "b71d71f8bdbfdb6b55d6e54aa28fd9c44bb49427edec49b2b17798d9b2b01377"
+  },
+  {
+    "files": [
+      "Logos_System/System_Entry_Point/Runtime_Compiler/Protopraxis/PXL_Formal_Language_Definition.txt",
+      "PXL_Gate/Protopraxis/PXL_Formal_Language_Definition.txt"
+    ],
+    "hash": "b793f02ed4f29c5a97785dcd9f0baaa6e838451622215c409ecef2fbaef4985d"
+  },
+  {
+    "files": [
+      "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/option_b/OptionB_Index.vo",
+      "PXL_Gate/coq/src/option_b/OptionB_Index.vo"
+    ],
+    "hash": "b848ccc10ef401774ee7617dcae73246558a108d2374101a1d98ea3148467f97"
+  },
+  {
+    "files": [
+      "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/.PXL_SemanticModal_Smoke.aux",
+      "PXL_Gate/coq/src/baseline/.PXL_SemanticModal_Smoke.aux"
+    ],
+    "hash": "b945970485a733a8d19e525d13b6665a9d3f62f7b37d90ec7c2d7295e77e7414"
+  },
+  {
+    "files": [
+      "Logos_System/System_Stack/System_Operations_Protocol/governance/persistence.py",
+      "Logos_System/System_Stack/System_Operations_Protocol/alignment_protocols/persistence/persistence.py"
+    ],
+    "hash": "ba0316cb80509358dc69cc090ff223e7987f0611c922ab6c9a5d88b856ed50b3"
+  },
+  {
+    "files": [
+      "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/PXL_Omni_Properties.glob",
+      "PXL_Gate/coq/src/baseline/PXL_Omni_Properties.glob"
+    ],
+    "hash": "ba2804a9340b66e875676f7cad0bd8fffccef42f58e30e3fbc3fdc8cf0ad6830"
+  },
+  {
+    "files": [
+      "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/PXL_Semantic_Profile_Suite.v",
+      "PXL_Gate/coq/src/baseline/PXL_Semantic_Profile_Suite.v"
+    ],
+    "hash": "ba31c38c9b07f68cb7ea567c1bccfd05cfb744172af01e0b56476dc5fddb9fbc"
+  },
+  {
+    "files": [
+      "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/PXL_Semantic_Extensions_DomainProduct.v",
+      "PXL_Gate/coq/src/baseline/PXL_Semantic_Extensions_DomainProduct.v"
+    ],
+    "hash": "ba5cf70ccbc44eb8907f18a0bd18270f3d6e686a90590055f08b066e2ecdda49"
+  },
+  {
+    "files": [
+      "Logos_System/System_Stack/Logos_Protocol/Logos_Agents/I2_Agent/connections/router.py",
+      "Logos_System/System_Stack/Logos_Protocol/Logos_Agents/I3_Agent/connections/router.py"
+    ],
+    "hash": "baa87b7922ab2f9612052ba486547b1beef7119860c6e5070b54d6fb469c7ff9"
+  },
+  {
+    "files": [
+      "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/PXL_SemanticModal_Smoke.v",
+      "PXL_Gate/coq/src/baseline/PXL_SemanticModal_Smoke.v"
+    ],
+    "hash": "bad0a79e82a529119c9489e398d5aee51d12edb79752c4c3f63ed8799d16aa94"
+  },
+  {
+    "files": [
+      "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/PXL_Foundations.v",
+      "PXL_Gate/coq/src/baseline/PXL_Foundations.v"
+    ],
+    "hash": "bb3a23b049b00db5d4672667c363598623d9fb164fd1fcd8adf3142a2374afa4"
+  },
+  {
+    "files": [
+      "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/PXLv3_SemanticModal.glob",
+      "PXL_Gate/coq/src/baseline/PXLv3_SemanticModal.glob"
+    ],
+    "hash": "bc5efe581f29148131e79054d342b07f5697ca20f18ad2022f50f4440067e281"
+  },
+  {
+    "files": [
+      "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/PXL_Sanity_SemanticPort.vo",
+      "PXL_Gate/coq/src/baseline/PXL_Sanity_SemanticPort.vo"
+    ],
+    "hash": "bcd292c21743a8d7345766bfacf91ced5aa43744d75b88fa8a227495d7d01abd"
+  },
+  {
+    "files": [
+      "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/PXL_Global_Bijection.vo",
+      "PXL_Gate/coq/src/baseline/PXL_Global_Bijection.vo"
+    ],
+    "hash": "be0019e03a743c1fa59521d0a9ac56dff62f1c5ed4dc98aa920e0fdda7293c7d"
+  },
+  {
+    "files": [
+      "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/PXL_Bridge_Proofs_SemanticPort.vo",
+      "PXL_Gate/coq/src/baseline/PXL_Bridge_Proofs_SemanticPort.vo"
+    ],
+    "hash": "be509de52d7cc5791847e8e2a78586765221add48195c9eda0181b0550914fa0"
+  },
+  {
+    "files": [
+      "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/PXL_S2_Axioms.glob",
+      "PXL_Gate/coq/src/baseline/PXL_S2_Axioms.glob"
+    ],
+    "hash": "bea10c47f60949a4bfa9730a7dbcfbe76a11326935dccbb08ac111c9419e6f97"
+  },
+  {
+    "files": [
+      "Logos_System/System_Stack/Logos_Protocol/Logos_Agents/I3_Agent/diagnostics/errors.py",
+      "Logos_System/System_Stack/Logos_Protocol/Logos_Agents/I1_Agent/diagnostics/errors.py"
+    ],
+    "hash": "bed9d6b41da50fc35467036127d6ae898c230162607480b7a5657c8806473f4f"
+  },
+  {
+    "files": [
+      "Logos_System/System_Stack/Meaning_Translation_Protocol/system_utilities/shared/message_formats.py",
+      "_Dev_Resources/Dev_Scripts/system_utilities/message_formats.py"
+    ],
+    "hash": "bf7ba01c400632ef9e988b3cfd7dcaf85bfeebd34295e35f9311eef2857e2096"
+  },
+  {
+    "files": [
+      "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/option_b/Modal_Syntax.glob",
+      "PXL_Gate/coq/src/option_b/Modal_Syntax.glob"
+    ],
+    "hash": "bff6bebb04c82b87ec42fc52d65cb461fb92c1b2218fae36ea15c4910348c1c9"
+  },
+  {
+    "files": [
+      "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/option_b/Modal_Decidability_To_Interp.vo",
+      "PXL_Gate/coq/src/option_b/Modal_Decidability_To_Interp.vo"
+    ],
+    "hash": "c0dccdb3ec8b630dda602dd94f7a2e859fad8fe97a4d71c4f770e1c0ba486de7"
+  },
+  {
+    "files": [
+      "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/PXL_Modal_Axioms_Semantic.glob",
+      "PXL_Gate/coq/src/PXL_Modal_Axioms_Semantic.glob"
+    ],
+    "hash": "c16c6da1ab1467ef1f3949b3a53b41533e909176b8cd5e476bf037f763489cf3"
+  },
+  {
+    "files": [
+      "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/Godelian_Theorem_Satisfaction.vo",
+      "PXL_Gate/coq/src/baseline/Godelian_Theorem_Satisfaction.vo"
+    ],
+    "hash": "c47e85bfcd08d8e330af8a3236af47a4d6191a21210330db80251aa149e81260"
+  },
+  {
+    "files": [
+      "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/PXL_Foundations.glob",
+      "PXL_Gate/coq/src/baseline/PXL_Foundations.glob"
+    ],
+    "hash": "c611ef25e75ef40be843b4dbda895b28edba141fb36f415f33b6aa840abc5e2d"
+  },
+  {
+    "files": [
+      "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/.PXLv3.aux",
+      "PXL_Gate/coq/src/.PXLv3.aux"
+    ],
+    "hash": "c631d32583f0cb1e9dd620c7eede37abc7f80576c0e7e99ffe4121cc3cc0e12a"
+  },
+  {
+    "files": [
+      "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/.PXL_Trinitarian_Optimization.aux",
+      "PXL_Gate/coq/src/baseline/.PXL_Trinitarian_Optimization.aux"
+    ],
+    "hash": "c837b5a6f4022e4b9a2d78f78adf97dbbcfd4040bf18b8b335adf02b8e92e6c7"
+  },
+  {
+    "files": [
+      "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/LOGOS_Metaphysical_Architecture.v",
+      "PXL_Gate/coq/src/baseline/LOGOS_Metaphysical_Architecture.v"
+    ],
+    "hash": "c9a9628bd102c4ce512c9cbe861513b3f6b10508fad62172054f8f9958173ffb"
+  },
+  {
+    "files": [
+      "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/option_b/Modal_Decidability_Skeleton.vo",
+      "PXL_Gate/coq/src/option_b/Modal_Decidability_Skeleton.vo"
+    ],
+    "hash": "c9e26274bba6e5a465c7e335357c4add5aa8c39e1cb80a629d0a41dddb8f1ab5"
+  },
+  {
+    "files": [
+      "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/.PXL_Semantic_Extensions_DomainProduct.aux",
+      "PXL_Gate/coq/src/baseline/.PXL_Semantic_Extensions_DomainProduct.aux"
+    ],
+    "hash": "ca19173f491f0aa3e1f31f4bd988d1ee1dcb5ab3b3ddad31088d562334c50d69"
+  },
+  {
+    "files": [
+      "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/PXL_Kernel20_SemanticModal_Profile.glob",
+      "PXL_Gate/coq/src/baseline/PXL_Kernel20_SemanticModal_Profile.glob"
+    ],
+    "hash": "cb8bdf641002e702f4b5db6b9d02aeb94ce7d5ddef07980ff04bd2cbde6a238f"
+  },
+  {
+    "files": [
+      "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/ui/.LEM_Discharge.aux",
+      "PXL_Gate/coq/src/ui/.LEM_Discharge.aux"
+    ],
+    "hash": "cbe8c45eef3e00264ee9e0f2f8da6b112c9ef49c0cb274f3487ab4253871238f"
+  },
+  {
+    "files": [
+      "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/.PXL_Foundations_SemanticPort.aux",
+      "PXL_Gate/coq/src/baseline/.PXL_Foundations_SemanticPort.aux"
+    ],
+    "hash": "cc28cc19fe208295f1cc98059a417685e1309911e1db6272107daadd49fb795a"
+  },
+  {
+    "files": [
+      "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/PXL_Trinitarian_Optimization.v",
+      "PXL_Gate/coq/src/baseline/PXL_Trinitarian_Optimization.v"
+    ],
+    "hash": "cc6ec2b0ed7ae2f5b113b495d1ac608205331003ff0d2d424c564117634afed0"
+  },
+  {
+    "files": [
+      "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/PXL_Imp_Nothing.glob",
+      "PXL_Gate/coq/src/baseline/PXL_Imp_Nothing.glob"
+    ],
+    "hash": "ce5729db29e296c71547b16c112bf4db92003342893c56e2e731a6afdcd9be1b"
+  },
+  {
+    "files": [
+      "Logos_System/System_Stack/Synthetic_Cognition_Protocol/data/data/data_library/adaptive_state.json",
+      "Logos_System/System_Stack/System_Operations_Protocol/data_storage/knowledge/adaptive_state.json"
+    ],
+    "hash": "d0ac3aa326fe1b7e137d6a4409dbba00ac9fd8c106ab7d39587b2e4b56612876"
+  },
+  {
+    "files": [
+      "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/PXLv3_head.vo",
+      "PXL_Gate/coq/src/baseline/PXLv3_head.vo"
+    ],
+    "hash": "d23e22dbc6e22895553bad377ae9062eb752846465c2f0729ac973121544dc4c"
+  },
+  {
+    "files": [
+      "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/.PXL_Imp_Nothing.aux",
+      "PXL_Gate/coq/src/baseline/.PXL_Imp_Nothing.aux"
+    ],
+    "hash": "d261a54495be1c03a7393da80b5a5bb7f633161dba949e953d6f3fad77dc4d00"
+  },
+  {
+    "files": [
+      "Logos_System/System_Entry_Point/Proof_Logs/attestations/logos_system_proof.make.log",
+      "Logos_System/System_Entry_Point/Proof_Logs/attestations/pxl_proof_gate.make.log"
+    ],
+    "hash": "d2b21c46acc2ce30e19d560d4fafcfb65c64dc2754be243e608592a79d9363b8"
+  },
+  {
+    "files": [
+      "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/PXL_Trinitarian_Optimization_SemanticPort.vo",
+      "PXL_Gate/coq/src/baseline/PXL_Trinitarian_Optimization_SemanticPort.vo"
+    ],
+    "hash": "d322f1d5b277e374fb5d58311c6d2a4191c8ad1547c5158d55c05ba0a71950fa"
+  },
+  {
+    "files": [
+      "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/PXL_Goodness_Existence.v",
+      "PXL_Gate/coq/src/baseline/PXL_Goodness_Existence.v"
+    ],
+    "hash": "d381e72db6f341d4d5b0c526d9e854eb01d1f7380e511f4353eb032e63a10a19"
+  },
+  {
+    "files": [
+      "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/modal/.PXL_Modal_Semantic_Kripke.aux",
+      "PXL_Gate/coq/src/modal/.PXL_Modal_Semantic_Kripke.aux"
+    ],
+    "hash": "d4b0df8700784070c9422e59bd859e57563c0f78e0b2b334024a24c16f92bba0"
+  },
+  {
+    "files": [
+      "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/.PXL_OntoGrid.aux",
+      "PXL_Gate/coq/src/baseline/.PXL_OntoGrid.aux"
+    ],
+    "hash": "d4c5048a1e154545f4ee8ef191397da3e2ee48fb22d71c8b9beef548263430bd"
+  },
+  {
+    "files": [
+      "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/tests/falsifiability_test.vo",
+      "PXL_Gate/coq/src/tests/falsifiability_test.vo"
+    ],
+    "hash": "d4ef42af56f14dd062cb381395d691245b70356fb48cb411d2b663b0492240e5"
+  },
+  {
+    "files": [
+      "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/.PXL_Trinitarian_Optimization_SemanticPort.aux",
+      "PXL_Gate/coq/src/baseline/.PXL_Trinitarian_Optimization_SemanticPort.aux"
+    ],
+    "hash": "da090780650bc1474ca450155e8d1349ca46166b1b965bf8747178a29df6b472"
+  },
+  {
+    "files": [
+      "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/PXLv3.glob",
+      "PXL_Gate/coq/src/PXLv3.glob"
+    ],
+    "hash": "daa72b65a5ccded3d9a24dca64087c9df22c3fb39af2de40e7c2007c73d74382"
+  },
+  {
+    "files": [
+      "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/PXL_Definitions.glob",
+      "PXL_Gate/coq/src/PXL_Definitions.glob"
+    ],
+    "hash": "dacf1b5c13ebef20beb00591a8568700901bba0ae39ce9e9c0446d6fd9b2ed6c"
+  },
+  {
+    "files": [
+      "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/.PXL_Privative.aux",
+      "PXL_Gate/coq/src/baseline/.PXL_Privative.aux"
+    ],
+    "hash": "db46cb75b79f3cdcf8deadd5c648dfcbf88f6556ae8cc596d43b7a83e06f69aa"
+  },
+  {
+    "files": [
+      "Logos_System/System_Entry_Point/Runtime_Compiler/Protopraxis/PXL_Abstract.txt",
+      "PXL_Gate/Protopraxis/PXL_Abstract.txt"
+    ],
+    "hash": "db4eda049e9781ae363cab138c5f42d249e8ad95d00f865878ddb5c46fd2fa4b"
+  },
+  {
+    "files": [
+      "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/option_b/.Omega_Closure.aux",
+      "PXL_Gate/coq/src/option_b/.Omega_Closure.aux"
+    ],
+    "hash": "dda2f912114e6c50cc240e8fa9e3b78023ffb2ff190001df0930b3eaf81ad33f"
+  },
+  {
+    "files": [
+      "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/PXL_Modal_Axioms_Semantic.v",
+      "PXL_Gate/coq/src/PXL_Modal_Axioms_Semantic.v"
+    ],
+    "hash": "df9d34b7c61607c88552bb0b893acd798cf46e4b5e2388f382abbd588553d330"
+  },
+  {
+    "files": [
+      "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/.PXL_S2_Axioms.aux",
+      "PXL_Gate/coq/src/baseline/.PXL_S2_Axioms.aux"
+    ],
+    "hash": "e14edef4619615607098d892b81dada93c3fbd36f1104771c8e825c0816766cf"
+  },
+  {
+    "files": [
+      "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/PXL_Semantic_Profile_Suite.vo",
+      "PXL_Gate/coq/src/baseline/PXL_Semantic_Profile_Suite.vo"
+    ],
+    "hash": "e3f3dc89d6d3f0f23afee6d1969b7ad7773c1e86eef3d419c270a955038307d8"
+  },
+  {
+    "files": [
+      "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/option_b/Omega_Closure.glob",
+      "PXL_Gate/coq/src/option_b/Omega_Closure.glob"
+    ],
+    "hash": "e4380fe3ce4cc2a951a24d9cf73b9708c3a484f8e0c309bdd243d70053d3335a"
+  },
+  {
+    "files": [
+      "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/.PXL_Kernel_Axioms.aux",
+      "PXL_Gate/coq/src/.PXL_Kernel_Axioms.aux"
+    ],
+    "hash": "e5342834298bbe579660cec509373407903bda04d968f7fbb567b100b964251f"
+  },
+  {
+    "files": [
+      "Logos_System/System_Stack/Synthetic_Cognition_Protocol/MVS_System/data_c_values/onto_prop_web.json",
+      "Logos_System/System_Stack/Synthetic_Cognition_Protocol/data/data/data_library/onto_prop_web.json"
+    ],
+    "hash": "e6dc2a3d656ed8775a8075e263a7fad77d7476a99a68c8a3d3aaed566dc39a77"
+  },
+  {
+    "files": [
+      "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/PXL_Derivations_Phase2.vo",
+      "PXL_Gate/coq/src/PXL_Derivations_Phase2.vo"
+    ],
+    "hash": "e74afc792b3132192b5e6ab3808d4913e84318bac3d872cb57ad7138e8855323"
+  },
+  {
+    "files": [
+      "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/PXL_Bridge_Proofs.v",
+      "PXL_Gate/coq/src/baseline/PXL_Bridge_Proofs.v"
+    ],
+    "hash": "e7bd0c5a386a9e4bbb503204a73cfea3aea5bb7219d8da67b5fc1ea002d7cdf0"
+  },
+  {
+    "files": [
+      "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/PXL_Definitions.vo",
+      "PXL_Gate/coq/src/PXL_Definitions.vo"
+    ],
+    "hash": "e85cea9f1bf9f25e4237297cedf41d6578a9ed23336a0f2aacbe040462a22870"
+  },
+  {
+    "files": [
+      "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/PXL_SemanticModal_Smoke.glob",
+      "PXL_Gate/coq/src/baseline/PXL_SemanticModal_Smoke.glob"
+    ],
+    "hash": "ea3a732c14e85096eabe0e664ba26eb985c44c5a3b61ad65cbc9737caf0e2d04"
+  },
+  {
+    "files": [
+      "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/PXL_Sanity_Semantic.vo",
+      "PXL_Gate/coq/src/baseline/PXL_Sanity_Semantic.vo"
+    ],
+    "hash": "ea4f4c4cc4884a9c89791471e452325af0e25fb17239cd617f9b7cb595bc7da6"
+  },
+  {
+    "files": [
+      "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/PXL_Proof_Summary.vo",
+      "PXL_Gate/coq/src/baseline/PXL_Proof_Summary.vo"
+    ],
+    "hash": "eb1e39179700d181dad99ee9e21b0dd03780f14255609ffe1387e865b4a2687b"
+  },
+  {
+    "files": [
+      "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/PXL_Derivations_Phase2.v",
+      "PXL_Gate/coq/src/PXL_Derivations_Phase2.v"
+    ],
+    "hash": "ec7ec4f5d801ca47efa9610e6ea5c0eceaed6927b217ddfc77085aa4210f26c9"
+  },
+  {
+    "files": [
+      "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/PXL_Imp_Nothing.v",
+      "PXL_Gate/coq/src/baseline/PXL_Imp_Nothing.v"
+    ],
+    "hash": "ee56931448504074e8bd8fba5d86e34f17c33f561636ed250137462ea851ba0a"
+  },
+  {
+    "files": [
+      "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/PXL_Foundations_SemanticPort.glob",
+      "PXL_Gate/coq/src/baseline/PXL_Foundations_SemanticPort.glob"
+    ],
+    "hash": "ef1f6625d763cccbaa9ac19f88c94fa999259915b83e572ada1dc719ea73c218"
+  },
+  {
+    "files": [
+      "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/option_b/Modal_Semantics.vo",
+      "PXL_Gate/coq/src/option_b/Modal_Semantics.vo"
+    ],
+    "hash": "f2009a615598e2b646efb79b228cefcfbfba6b817d729d997ad79ff90a7eb702"
+  },
+  {
+    "files": [
+      "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/PXL_Goodness_Existence.vo",
+      "PXL_Gate/coq/src/baseline/PXL_Goodness_Existence.vo"
+    ],
+    "hash": "f281d7b8b3a8cdea7b1c635e0b84d73a2491074602fbe09800a21aee01f784d2"
+  },
+  {
+    "files": [
+      "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/PXL_Axiom_Minimality_Check.v",
+      "PXL_Gate/coq/src/baseline/PXL_Axiom_Minimality_Check.v"
+    ],
+    "hash": "f298c7ee5aa1ad47f9a21224c2af7ef6e043dd02cffd065ab659380b363202fd"
+  },
+  {
+    "files": [
+      "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/.PXL_Structural_Derivations.aux",
+      "PXL_Gate/coq/src/baseline/.PXL_Structural_Derivations.aux"
+    ],
+    "hash": "f3dfcb61c5972c152fb2955f92a00436ce3291c2eca4356e43c62267cfa03160"
+  },
+  {
+    "files": [
+      "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/.test_K.aux",
+      "PXL_Gate/coq/src/baseline/.test_K.aux"
+    ],
+    "hash": "f4c56135d7f2c5453438b8b2a2bbc77de2af95f965852adbf2f708a8c24b6130"
+  },
+  {
+    "files": [
+      "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/.PXL_Definitions.aux",
+      "PXL_Gate/coq/src/.PXL_Definitions.aux"
+    ],
+    "hash": "f54beb501f68392c95983c453fcc2b455e609d84053b809c0344ff0ab5b2577e"
+  },
+  {
+    "files": [
+      "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/PXL_Definitions.v",
+      "PXL_Gate/coq/src/PXL_Definitions.v"
+    ],
+    "hash": "f6304ccd699d5c6a5d619e74b813275ae90443c6ffd35e3fbcf3ffcac414e76c"
+  },
+  {
+    "files": [
+      "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/PXL_Omni_Properties.vo",
+      "PXL_Gate/coq/src/baseline/PXL_Omni_Properties.vo"
+    ],
+    "hash": "f643fece0465e1fdcfa332be855f4662fa550269e8efd837ea54504cd0173e83"
+  },
+  {
+    "files": [
+      "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/PXL_Arithmetic.glob",
+      "PXL_Gate/coq/src/baseline/PXL_Arithmetic.glob"
+    ],
+    "hash": "f699d7b1461c4068c4a60ba182790ff40d0b81b16d6a25b3dad49f7d7c8cb7fc"
+  },
+  {
+    "files": [
+      "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/PXL_Omni_Properties.v",
+      "PXL_Gate/coq/src/baseline/PXL_Omni_Properties.v"
+    ],
+    "hash": "fc8b9ae88fa47e2ed685caeeb20f6e73eb3d226f7085212942ba36f666ea3a86"
+  },
+  {
+    "files": [
+      "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/PXL_OntoGrid.vo",
+      "PXL_Gate/coq/src/baseline/PXL_OntoGrid.vo"
+    ],
+    "hash": "fca9f4ba6e20d716a539d2be3bb9eca788c46485861a3b68093e5d874f5f197a"
+  },
+  {
+    "files": [
+      "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/PXL_Imp_Nothing.vo",
+      "PXL_Gate/coq/src/baseline/PXL_Imp_Nothing.vo"
+    ],
+    "hash": "fdd3cc8c6efa0ab920b39d46bc8a2860892b30950f572df09233dd9ba17abbb2"
+  },
+  {
+    "files": [
+      "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/PXL_Axiom_Minimality_Check.glob",
+      "PXL_Gate/coq/src/baseline/PXL_Axiom_Minimality_Check.glob"
+    ],
+    "hash": "fe31c73c50455d244b833ccbff881d950f8db914fcf8dcdf6203432a3a3f2ead"
+  },
+  {
+    "files": [
+      "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/.PXL_Omni_Properties.aux",
+      "PXL_Gate/coq/src/baseline/.PXL_Omni_Properties.aux"
+    ],
+    "hash": "fe4631e6f6bf60dc13b6a92880b2f13833ea0668edb28134a0c0b277ceddff46"
+  },
+  {
+    "files": [
+      "Logos_System/System_Stack/Synthetic_Cognition_Protocol/MVS_System/data_c_values/first_order_props.txt",
+      "Logos_System/System_Stack/Synthetic_Cognition_Protocol/data/data/data_library/first_order_props.txt"
+    ],
+    "hash": "fe70a7139b9c31e774659f16f68b4de9f60f851a2e965de500a597d519e73c8a"
+  },
+  {
+    "files": [
+      "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/Demo_Unsafe.vo",
+      "PXL_Gate/coq/src/baseline/Demo_Unsafe.vo"
+    ],
+    "hash": "fefaea49bc06083203845a71c758452df1ff7214f209e2e1312b845dcea5f075"
+  }
+]

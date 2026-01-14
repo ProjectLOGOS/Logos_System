@@ -1,0 +1,7 @@
+{
+  "files": [
+    ".github/requirements.txt",
+    "Logos_System/System_Stack/Meaning_Translation_Protocol/Receiver_Nexus/LLM_Interface/requirements.txt",
+    "Logos_System/System_Stack/System_Operations_Protocol/Documentation/requirements.txt"
+  ]
+}

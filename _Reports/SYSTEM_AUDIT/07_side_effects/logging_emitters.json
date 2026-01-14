@@ -1,0 +1,112 @@
+{
+  "network_surfaces": [
+    {
+      "path": "Logos_System/System_Entry_Point/LEGACY_SCRIPTS_NOT_FINAL/serve_pxl.py"
+    },
+    {
+      "path": "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/ui/serve_pxl.py"
+    },
+    {
+      "path": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/arp_stack_compiler/arp_operations.py"
+    },
+    {
+      "path": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_toolkit/iel_overlay.py"
+    },
+    {
+      "path": "Logos_System/System_Stack/Logos_Protocol/Logos_Agents/I2_Agent/protocol_operations/llm_io/providers_llama.py"
+    },
+    {
+      "path": "Logos_System/System_Stack/Logos_Protocol/Logos_Agents/I2_Agent/protocol_operations/llm_io/providers_openai.py"
+    },
+    {
+      "path": "Logos_System/System_Stack/Logos_Protocol/Logos_Agents/I2_Agent/protocol_operations/ui_io/server.py"
+    },
+    {
+      "path": "Logos_System/System_Stack/Meaning_Translation_Protocol/Receiver_Nexus/Custom_GUI/server.py"
+    },
+    {
+      "path": "Logos_System/System_Stack/Meaning_Translation_Protocol/Receiver_Nexus/LLM_Interface/llm_advisor.py"
+    },
+    {
+      "path": "Logos_System/System_Stack/Meaning_Translation_Protocol/Receiver_Nexus/LLM_Interface/logos_gpt_server.py"
+    },
+    {
+      "path": "Logos_System/System_Stack/Meaning_Translation_Protocol/Receiver_Nexus/LLM_Interface/logos_interface.py"
+    },
+    {
+      "path": "Logos_System/System_Stack/Synthetic_Cognition_Protocol/MVS_System/mvs_calculators/fractal_mvs.py"
+    },
+    {
+      "path": "Logos_System/System_Stack/Synthetic_Cognition_Protocol/MVS_System/mvs_calculators/validation_schemas_system.py"
+    },
+    {
+      "path": "Logos_System/System_Stack/System_Operations_Protocol/alignment_protocols/validation/testing/integration_test_suite.py"
+    },
+    {
+      "path": "Logos_System/System_Stack/System_Operations_Protocol/alignment_protocols/validation/testing/validate_production.py"
+    },
+    {
+      "path": "Logos_System/System_Stack/System_Operations_Protocol/code_generator/development_environment.py"
+    },
+    {
+      "path": "Logos_System/System_Stack/System_Operations_Protocol/deployment/monitoring/api_server.py"
+    },
+    {
+      "path": "Logos_System/System_Stack/System_Operations_Protocol/deployment/monitoring/deploy_core_services.py"
+    },
+    {
+      "path": "Logos_System/System_Stack/System_Operations_Protocol/deployment/monitoring/deploy_full_stack.py"
+    },
+    {
+      "path": "Logos_System/System_Stack/System_Operations_Protocol/deployment/monitoring/health_server.py"
+    },
+    {
+      "path": "Logos_System/System_Stack/System_Operations_Protocol/governance/core_service.py"
+    },
+    {
+      "path": "Logos_System/System_Stack/System_Operations_Protocol/governance/server.py"
+    },
+    {
+      "path": "Logos_System/System_Stack/System_Operations_Protocol/infrastructure/agent_system/base_nexus.py"
+    },
+    {
+      "path": "Logos_System/System_Stack/System_Operations_Protocol/infrastructure/agent_system/logos_agent_system.py"
+    },
+    {
+      "path": "PXL_Gate/coq/src/ui/serve_pxl.py"
+    },
+    {
+      "path": "START_LOGOS.py"
+    },
+    {
+      "path": "_Dev_Resources/Dev_Scripts/repo_tools/system_audit/_common.py"
+    },
+    {
+      "path": "_Dev_Resources/Dev_Scripts/repo_tools/system_audit/scan_runtime_surface.py"
+    },
+    {
+      "path": "_Dev_Resources/Dev_Scripts/repo_tools/system_audit/scan_side_effects.py"
+    },
+    {
+      "path": "_Dev_Resources/Dev_Scripts/security/session.py"
+    },
+    {
+      "path": "_Dev_Resources/Dev_Scripts/smoke_tests/test_dashboard_smoke.py"
+    },
+    {
+      "path": "_Dev_Resources/Dev_Scripts/smoke_tests/test_logos_gpt_web_smoke.py"
+    },
+    {
+      "path": "_Dev_Resources/Dev_Scripts/smoke_tests/test_server_nexus_isolation_smoke.py"
+    },
+    {
+      "path": "_Dev_Resources/Dev_Scripts/smoke_tests/test_web_grounding_smoke.py"
+    },
+    {
+      "path": "_Dev_Resources/Dev_Scripts/system_stack_tbd/could_be_dev/start_agent.py"
+    },
+    {
+      "path": "_Dev_Resources/Dev_Scripts/system_stack_tbd/need_to_distribute/run_recursive_immersion_cycle.py"
+    }
+  ]
+}

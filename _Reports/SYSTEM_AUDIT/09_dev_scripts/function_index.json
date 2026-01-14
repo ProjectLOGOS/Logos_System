@@ -1,0 +1,3622 @@
+[
+  {
+    "args": [
+      "text",
+      "limit"
+    ],
+    "function": "_tail",
+    "line": 47,
+    "script": "_Dev_Resources/Dev_Scripts/repo_tools/run_mvp_acceptance.py"
+  },
+  {
+    "args": [
+      "records",
+      "overall"
+    ],
+    "function": "_maybe_write_audit",
+    "line": 52,
+    "script": "_Dev_Resources/Dev_Scripts/repo_tools/run_mvp_acceptance.py"
+  },
+  {
+    "args": [],
+    "function": "main",
+    "line": 77,
+    "script": "_Dev_Resources/Dev_Scripts/repo_tools/run_mvp_acceptance.py"
+  },
+  {
+    "args": [
+      "path",
+      "chunk_size"
+    ],
+    "function": "sha256_file",
+    "line": 29,
+    "script": "_Dev_Resources/Dev_Scripts/repo_tools/system_audit/_common.py"
+  },
+  {
+    "args": [
+      "path",
+      "obj"
+    ],
+    "function": "write_json",
+    "line": 39,
+    "script": "_Dev_Resources/Dev_Scripts/repo_tools/system_audit/_common.py"
+  },
+  {
+    "args": [
+      "path"
+    ],
+    "function": "read_text",
+    "line": 43,
+    "script": "_Dev_Resources/Dev_Scripts/repo_tools/system_audit/_common.py"
+  },
+  {
+    "args": [
+      "path",
+      "repo_root",
+      "extra_excludes"
+    ],
+    "function": "is_excluded_path",
+    "line": 46,
+    "script": "_Dev_Resources/Dev_Scripts/repo_tools/system_audit/_common.py"
+  },
+  {
+    "args": [
+      "repo_root",
+      "suffixes",
+      "extra_excludes"
+    ],
+    "function": "iter_files",
+    "line": 60,
+    "script": "_Dev_Resources/Dev_Scripts/repo_tools/system_audit/_common.py"
+  },
+  {
+    "args": [
+      "name"
+    ],
+    "function": "title_case_violation",
+    "line": 70,
+    "script": "_Dev_Resources/Dev_Scripts/repo_tools/system_audit/_common.py"
+  },
+  {
+    "args": [
+      "py_path",
+      "repo_root"
+    ],
+    "function": "parse_python_imports",
+    "line": 86,
+    "script": "_Dev_Resources/Dev_Scripts/repo_tools/system_audit/_common.py"
+  },
+  {
+    "args": [
+      "module"
+    ],
+    "function": "normalize_module_to_path",
+    "line": 120,
+    "script": "_Dev_Resources/Dev_Scripts/repo_tools/system_audit/_common.py"
+  },
+  {
+    "args": [
+      "mod"
+    ],
+    "function": "looks_like_stdlib",
+    "line": 123,
+    "script": "_Dev_Resources/Dev_Scripts/repo_tools/system_audit/_common.py"
+  },
+  {
+    "args": [
+      "script"
+    ],
+    "function": "run_scan",
+    "line": 21,
+    "script": "_Dev_Resources/Dev_Scripts/repo_tools/system_audit/audit_driver.py"
+  },
+  {
+    "args": [],
+    "function": "main",
+    "line": 24,
+    "script": "_Dev_Resources/Dev_Scripts/repo_tools/system_audit/audit_driver.py"
+  },
+  {
+    "args": [
+      "repo"
+    ],
+    "function": "scan",
+    "line": 13,
+    "script": "_Dev_Resources/Dev_Scripts/repo_tools/system_audit/scan_config_and_schema.py"
+  },
+  {
+    "args": [],
+    "function": "main",
+    "line": 37,
+    "script": "_Dev_Resources/Dev_Scripts/repo_tools/system_audit/scan_config_and_schema.py"
+  },
+  {
+    "args": [
+      "repo"
+    ],
+    "function": "build_reverse_importers",
+    "line": 10,
+    "script": "_Dev_Resources/Dev_Scripts/repo_tools/system_audit/scan_dead_code.py"
+  },
+  {
+    "args": [
+      "mod"
+    ],
+    "function": "resolve_local",
+    "line": 14,
+    "script": "_Dev_Resources/Dev_Scripts/repo_tools/system_audit/scan_dead_code.py"
+  },
+  {
+    "args": [
+      "repo"
+    ],
+    "function": "find_orphans",
+    "line": 35,
+    "script": "_Dev_Resources/Dev_Scripts/repo_tools/system_audit/scan_dead_code.py"
+  },
+  {
+    "args": [],
+    "function": "main",
+    "line": 76,
+    "script": "_Dev_Resources/Dev_Scripts/repo_tools/system_audit/scan_dead_code.py"
+  },
+  {
+    "args": [
+      "repo"
+    ],
+    "function": "scan_python_dependencies",
+    "line": 11,
+    "script": "_Dev_Resources/Dev_Scripts/repo_tools/system_audit/scan_dependencies.py"
+  },
+  {
+    "args": [
+      "repo"
+    ],
+    "function": "scan_toolchain",
+    "line": 39,
+    "script": "_Dev_Resources/Dev_Scripts/repo_tools/system_audit/scan_dependencies.py"
+  },
+  {
+    "args": [
+      "repo"
+    ],
+    "function": "scan_inter_system",
+    "line": 48,
+    "script": "_Dev_Resources/Dev_Scripts/repo_tools/system_audit/scan_dependencies.py"
+  },
+  {
+    "args": [],
+    "function": "main",
+    "line": 58,
+    "script": "_Dev_Resources/Dev_Scripts/repo_tools/system_audit/scan_dependencies.py"
+  },
+  {
+    "args": [
+      "repo"
+    ],
+    "function": "scan_scripts",
+    "line": 12,
+    "script": "_Dev_Resources/Dev_Scripts/repo_tools/system_audit/scan_dev_scripts.py"
+  },
+  {
+    "args": [],
+    "function": "main",
+    "line": 58,
+    "script": "_Dev_Resources/Dev_Scripts/repo_tools/system_audit/scan_dev_scripts.py"
+  },
+  {
+    "args": [
+      "repo"
+    ],
+    "function": "scan_duplicates",
+    "line": 10,
+    "script": "_Dev_Resources/Dev_Scripts/repo_tools/system_audit/scan_duplicates.py"
+  },
+  {
+    "args": [],
+    "function": "main",
+    "line": 41,
+    "script": "_Dev_Resources/Dev_Scripts/repo_tools/system_audit/scan_duplicates.py"
+  },
+  {
+    "args": [
+      "repo"
+    ],
+    "function": "build_import_graph",
+    "line": 11,
+    "script": "_Dev_Resources/Dev_Scripts/repo_tools/system_audit/scan_imports.py"
+  },
+  {
+    "args": [
+      "mod"
+    ],
+    "function": "resolve_local",
+    "line": 20,
+    "script": "_Dev_Resources/Dev_Scripts/repo_tools/system_audit/scan_imports.py"
+  },
+  {
+    "args": [
+      "v"
+    ],
+    "function": "strongconnect",
+    "line": 69,
+    "script": "_Dev_Resources/Dev_Scripts/repo_tools/system_audit/scan_imports.py"
+  },
+  {
+    "args": [],
+    "function": "main",
+    "line": 110,
+    "script": "_Dev_Resources/Dev_Scripts/repo_tools/system_audit/scan_imports.py"
+  },
+  {
+    "args": [
+      "repo"
+    ],
+    "function": "scan",
+    "line": 9,
+    "script": "_Dev_Resources/Dev_Scripts/repo_tools/system_audit/scan_naming.py"
+  },
+  {
+    "args": [],
+    "function": "main",
+    "line": 48,
+    "script": "_Dev_Resources/Dev_Scripts/repo_tools/system_audit/scan_naming.py"
+  },
+  {
+    "args": [
+      "repo"
+    ],
+    "function": "scan",
+    "line": 12,
+    "script": "_Dev_Resources/Dev_Scripts/repo_tools/system_audit/scan_runtime_surface.py"
+  },
+  {
+    "args": [],
+    "function": "main",
+    "line": 38,
+    "script": "_Dev_Resources/Dev_Scripts/repo_tools/system_audit/scan_runtime_surface.py"
+  },
+  {
+    "args": [
+      "repo"
+    ],
+    "function": "scan",
+    "line": 13,
+    "script": "_Dev_Resources/Dev_Scripts/repo_tools/system_audit/scan_side_effects.py"
+  },
+  {
+    "args": [],
+    "function": "main",
+    "line": 37,
+    "script": "_Dev_Resources/Dev_Scripts/repo_tools/system_audit/scan_side_effects.py"
+  },
+  {
+    "args": [
+      "repo"
+    ],
+    "function": "scan_symbols",
+    "line": 10,
+    "script": "_Dev_Resources/Dev_Scripts/repo_tools/system_audit/scan_symbols.py"
+  },
+  {
+    "args": [],
+    "function": "main",
+    "line": 82,
+    "script": "_Dev_Resources/Dev_Scripts/repo_tools/system_audit/scan_symbols.py"
+  },
+  {
+    "args": [
+      "repo_root"
+    ],
+    "function": "build_tree",
+    "line": 7,
+    "script": "_Dev_Resources/Dev_Scripts/repo_tools/system_audit/scan_tree.py"
+  },
+  {
+    "args": [
+      "path"
+    ],
+    "function": "node_for",
+    "line": 8,
+    "script": "_Dev_Resources/Dev_Scripts/repo_tools/system_audit/scan_tree.py"
+  },
+  {
+    "args": [],
+    "function": "main",
+    "line": 39,
+    "script": "_Dev_Resources/Dev_Scripts/repo_tools/system_audit/scan_tree.py"
+  },
+  {
+    "args": [],
+    "function": "_secret",
+    "line": 15,
+    "script": "_Dev_Resources/Dev_Scripts/security/session.py"
+  },
+  {
+    "args": [],
+    "function": "generate_session_id",
+    "line": 26,
+    "script": "_Dev_Resources/Dev_Scripts/security/session.py"
+  },
+  {
+    "args": [
+      "value"
+    ],
+    "function": "is_valid_session_id",
+    "line": 30,
+    "script": "_Dev_Resources/Dev_Scripts/security/session.py"
+  },
+  {
+    "args": [],
+    "function": "_env_with_paths",
+    "line": 14,
+    "script": "_Dev_Resources/Dev_Scripts/smoke_tests/test_alignment_gate_smoke.py"
+  },
+  {
+    "args": [
+      "cmd"
+    ],
+    "function": "run_command",
+    "line": 24,
+    "script": "_Dev_Resources/Dev_Scripts/smoke_tests/test_alignment_gate_smoke.py"
+  },
+  {
+    "args": [
+      "env"
+    ],
+    "function": "test_missing_attestation",
+    "line": 33,
+    "script": "_Dev_Resources/Dev_Scripts/smoke_tests/test_alignment_gate_smoke.py"
+  },
+  {
+    "args": [
+      "env"
+    ],
+    "function": "test_valid_attestation",
+    "line": 51,
+    "script": "_Dev_Resources/Dev_Scripts/smoke_tests/test_alignment_gate_smoke.py"
+  },
+  {
+    "args": [
+      "env"
+    ],
+    "function": "test_bypass_flag",
+    "line": 97,
+    "script": "_Dev_Resources/Dev_Scripts/smoke_tests/test_alignment_gate_smoke.py"
+  },
+  {
+    "args": [],
+    "function": "main",
+    "line": 114,
+    "script": "_Dev_Resources/Dev_Scripts/smoke_tests/test_alignment_gate_smoke.py"
+  },
+  {
+    "args": [],
+    "function": "main",
+    "line": 11,
+    "script": "_Dev_Resources/Dev_Scripts/smoke_tests/test_belief_consolidation_smoke.py"
+  },
+  {
+    "args": [
+      "tmp"
+    ],
+    "function": "_reset_state_dir",
+    "line": 17,
+    "script": "_Dev_Resources/Dev_Scripts/smoke_tests/test_dashboard_smoke.py"
+  },
+  {
+    "args": [],
+    "function": "test_health_and_metrics",
+    "line": 22,
+    "script": "_Dev_Resources/Dev_Scripts/smoke_tests/test_dashboard_smoke.py"
+  },
+  {
+    "args": [],
+    "function": "test_socketio_broadcast",
+    "line": 30,
+    "script": "_Dev_Resources/Dev_Scripts/smoke_tests/test_dashboard_smoke.py"
+  },
+  {
+    "args": [],
+    "function": "test_learning",
+    "line": 14,
+    "script": "_Dev_Resources/Dev_Scripts/smoke_tests/test_evaluator_learning_smoke.py"
+  },
+  {
+    "args": [
+      "cmd",
+      "cwd"
+    ],
+    "function": "run_command",
+    "line": 18,
+    "script": "_Dev_Resources/Dev_Scripts/smoke_tests/test_goal_proposal_smoke.py"
+  },
+  {
+    "args": [],
+    "function": "test_goal_proposal_smoke",
+    "line": 26,
+    "script": "_Dev_Resources/Dev_Scripts/smoke_tests/test_goal_proposal_smoke.py"
+  },
+  {
+    "args": [
+      "payload"
+    ],
+    "function": "_run_with_payload",
+    "line": 17,
+    "script": "_Dev_Resources/Dev_Scripts/smoke_tests/test_llm_advisor_smoke.py"
+  },
+  {
+    "args": [],
+    "function": "_load_state",
+    "line": 47,
+    "script": "_Dev_Resources/Dev_Scripts/smoke_tests/test_llm_advisor_smoke.py"
+  },
+  {
+    "args": [],
+    "function": "test_safe_low_impact_proposal",
+    "line": 56,
+    "script": "_Dev_Resources/Dev_Scripts/smoke_tests/test_llm_advisor_smoke.py"
+  },
+  {
+    "args": [],
+    "function": "main",
+    "line": 88,
+    "script": "_Dev_Resources/Dev_Scripts/smoke_tests/test_llm_advisor_smoke.py"
+  },
+  {
+    "args": [
+      "payload"
+    ],
+    "function": "_run_with_payload",
+    "line": 17,
+    "script": "_Dev_Resources/Dev_Scripts/smoke_tests/test_llm_bypass_smoke.py"
+  },
+  {
+    "args": [],
+    "function": "_load_state",
+    "line": 47,
+    "script": "_Dev_Resources/Dev_Scripts/smoke_tests/test_llm_bypass_smoke.py"
+  },
+  {
+    "args": [],
+    "function": "test_high_impact_requires_uip",
+    "line": 56,
+    "script": "_Dev_Resources/Dev_Scripts/smoke_tests/test_llm_bypass_smoke.py"
+  },
+  {
+    "args": [],
+    "function": "test_proved_downgraded",
+    "line": 80,
+    "script": "_Dev_Resources/Dev_Scripts/smoke_tests/test_llm_bypass_smoke.py"
+  },
+  {
+    "args": [],
+    "function": "test_code_injection_rejected",
+    "line": 106,
+    "script": "_Dev_Resources/Dev_Scripts/smoke_tests/test_llm_bypass_smoke.py"
+  },
+  {
+    "args": [],
+    "function": "main",
+    "line": 131,
+    "script": "_Dev_Resources/Dev_Scripts/smoke_tests/test_llm_bypass_smoke.py"
+  },
+  {
+    "args": [
+      "proposals"
+    ],
+    "function": "_assert_clean",
+    "line": 25,
+    "script": "_Dev_Resources/Dev_Scripts/smoke_tests/test_llm_real_provider_smoke.py"
+  },
+  {
+    "args": [
+      "provider"
+    ],
+    "function": "_run_provider",
+    "line": 32,
+    "script": "_Dev_Resources/Dev_Scripts/smoke_tests/test_llm_real_provider_smoke.py"
+  },
+  {
+    "args": [],
+    "function": "main",
+    "line": 48,
+    "script": "_Dev_Resources/Dev_Scripts/smoke_tests/test_llm_real_provider_smoke.py"
+  },
+  {
+    "args": [
+      "before"
+    ],
+    "function": "_latest_ledger",
+    "line": 21,
+    "script": "_Dev_Resources/Dev_Scripts/smoke_tests/test_llm_streaming_smoke.py"
+  },
+  {
+    "args": [],
+    "function": "main",
+    "line": 29,
+    "script": "_Dev_Resources/Dev_Scripts/smoke_tests/test_llm_streaming_smoke.py"
+  },
+  {
+    "args": [
+      "cmd"
+    ],
+    "function": "run_command",
+    "line": 13,
+    "script": "_Dev_Resources/Dev_Scripts/smoke_tests/test_logos_agi_integration_smoke.py"
+  },
+  {
+    "args": [],
+    "function": "test_integration_smoke",
+    "line": 19,
+    "script": "_Dev_Resources/Dev_Scripts/smoke_tests/test_logos_agi_integration_smoke.py"
+  },
+  {
+    "args": [],
+    "function": "main",
+    "line": 46,
+    "script": "_Dev_Resources/Dev_Scripts/smoke_tests/test_logos_agi_integration_smoke.py"
+  },
+  {
+    "args": [
+      "argv"
+    ],
+    "function": "parse_args",
+    "line": 15,
+    "script": "_Dev_Resources/Dev_Scripts/smoke_tests/test_logos_agi_persistence_smoke.py"
+  },
+  {
+    "args": [
+      "cmd"
+    ],
+    "function": "run_command",
+    "line": 30,
+    "script": "_Dev_Resources/Dev_Scripts/smoke_tests/test_logos_agi_persistence_smoke.py"
+  },
+  {
+    "args": [
+      "path"
+    ],
+    "function": "compute_file_hash",
+    "line": 36,
+    "script": "_Dev_Resources/Dev_Scripts/smoke_tests/test_logos_agi_persistence_smoke.py"
+  },
+  {
+    "args": [
+      "state_dir"
+    ],
+    "function": "test_persistence",
+    "line": 44,
+    "script": "_Dev_Resources/Dev_Scripts/smoke_tests/test_logos_agi_persistence_smoke.py"
+  },
+  {
+    "args": [
+      "argv"
+    ],
+    "function": "main",
+    "line": 109,
+    "script": "_Dev_Resources/Dev_Scripts/smoke_tests/test_logos_agi_persistence_smoke.py"
+  },
+  {
+    "args": [],
+    "function": "_run_chat",
+    "line": 19,
+    "script": "_Dev_Resources/Dev_Scripts/smoke_tests/test_logos_gpt_chat_smoke.py"
+  },
+  {
+    "args": [],
+    "function": "_load_state",
+    "line": 67,
+    "script": "_Dev_Resources/Dev_Scripts/smoke_tests/test_logos_gpt_chat_smoke.py"
+  },
+  {
+    "args": [],
+    "function": "test_chat_loop",
+    "line": 76,
+    "script": "_Dev_Resources/Dev_Scripts/smoke_tests/test_logos_gpt_chat_smoke.py"
+  },
+  {
+    "args": [],
+    "function": "main",
+    "line": 133,
+    "script": "_Dev_Resources/Dev_Scripts/smoke_tests/test_logos_gpt_chat_smoke.py"
+  },
+  {
+    "args": [],
+    "function": "_free_port",
+    "line": 20,
+    "script": "_Dev_Resources/Dev_Scripts/smoke_tests/test_logos_gpt_web_smoke.py"
+  },
+  {
+    "args": [
+      "url",
+      "timeout"
+    ],
+    "function": "_wait",
+    "line": 28,
+    "script": "_Dev_Resources/Dev_Scripts/smoke_tests/test_logos_gpt_web_smoke.py"
+  },
+  {
+    "args": [
+      "url",
+      "payload"
+    ],
+    "function": "_post",
+    "line": 40,
+    "script": "_Dev_Resources/Dev_Scripts/smoke_tests/test_logos_gpt_web_smoke.py"
+  },
+  {
+    "args": [],
+    "function": "main",
+    "line": 49,
+    "script": "_Dev_Resources/Dev_Scripts/smoke_tests/test_logos_gpt_web_smoke.py"
+  },
+  {
+    "args": [
+      "x"
+    ],
+    "function": "_jsonable",
+    "line": 7,
+    "script": "_Dev_Resources/Dev_Scripts/smoke_tests/test_logos_runtime_phase2_smoke.py"
+  },
+  {
+    "args": [],
+    "function": "main",
+    "line": 16,
+    "script": "_Dev_Resources/Dev_Scripts/smoke_tests/test_logos_runtime_phase2_smoke.py"
+  },
+  {
+    "args": [
+      "x"
+    ],
+    "function": "_to_jsonable",
+    "line": 15,
+    "script": "_Dev_Resources/Dev_Scripts/smoke_tests/test_logos_runtime_smoke.py"
+  },
+  {
+    "args": [],
+    "function": "build_minimal_smp",
+    "line": 25,
+    "script": "_Dev_Resources/Dev_Scripts/smoke_tests/test_logos_runtime_smoke.py"
+  },
+  {
+    "args": [],
+    "function": "main",
+    "line": 56,
+    "script": "_Dev_Resources/Dev_Scripts/smoke_tests/test_logos_runtime_smoke.py"
+  },
+  {
+    "args": [],
+    "function": "main",
+    "line": 11,
+    "script": "_Dev_Resources/Dev_Scripts/smoke_tests/test_plan_checkpoint_smoke.py"
+  },
+  {
+    "args": [
+      "self"
+    ],
+    "function": "test_history_bounded_and_chained",
+    "line": 18,
+    "script": "_Dev_Resources/Dev_Scripts/smoke_tests/test_plan_history_update_smoke.py"
+  },
+  {
+    "args": [
+      "self"
+    ],
+    "function": "test_scores_happy_path",
+    "line": 14,
+    "script": "_Dev_Resources/Dev_Scripts/smoke_tests/test_plan_scoring_smoke.py"
+  },
+  {
+    "args": [
+      "self"
+    ],
+    "function": "test_penalties_and_clamp",
+    "line": 27,
+    "script": "_Dev_Resources/Dev_Scripts/smoke_tests/test_plan_scoring_smoke.py"
+  },
+  {
+    "args": [
+      "self",
+      "plan_id"
+    ],
+    "function": "_make_plan",
+    "line": 14,
+    "script": "_Dev_Resources/Dev_Scripts/smoke_tests/test_plan_validation_smoke.py"
+  },
+  {
+    "args": [
+      "self"
+    ],
+    "function": "test_happy_path_validation",
+    "line": 44,
+    "script": "_Dev_Resources/Dev_Scripts/smoke_tests/test_plan_validation_smoke.py"
+  },
+  {
+    "args": [
+      "self"
+    ],
+    "function": "test_detects_out_of_order_and_skipped",
+    "line": 55,
+    "script": "_Dev_Resources/Dev_Scripts/smoke_tests/test_plan_validation_smoke.py"
+  },
+  {
+    "args": [
+      "self"
+    ],
+    "function": "test_requires_uip_for_high_impact",
+    "line": 68,
+    "script": "_Dev_Resources/Dev_Scripts/smoke_tests/test_plan_validation_smoke.py"
+  },
+  {
+    "args": [],
+    "function": "main",
+    "line": 18,
+    "script": "_Dev_Resources/Dev_Scripts/smoke_tests/test_retrieval_local_smoke.py"
+  },
+  {
+    "args": [],
+    "function": "_env_with_paths",
+    "line": 17,
+    "script": "_Dev_Resources/Dev_Scripts/smoke_tests/test_run_ledger_smoke.py"
+  },
+  {
+    "args": [
+      "cmd"
+    ],
+    "function": "run_command",
+    "line": 27,
+    "script": "_Dev_Resources/Dev_Scripts/smoke_tests/test_run_ledger_smoke.py"
+  },
+  {
+    "args": [],
+    "function": "test_run_ledger_smoke",
+    "line": 36,
+    "script": "_Dev_Resources/Dev_Scripts/smoke_tests/test_run_ledger_smoke.py"
+  },
+  {
+    "args": [],
+    "function": "main",
+    "line": 229,
+    "script": "_Dev_Resources/Dev_Scripts/smoke_tests/test_run_ledger_smoke.py"
+  },
+  {
+    "args": [],
+    "function": "_free_port",
+    "line": 24,
+    "script": "_Dev_Resources/Dev_Scripts/smoke_tests/test_server_nexus_isolation_smoke.py"
+  },
+  {
+    "args": [
+      "text",
+      "lines"
+    ],
+    "function": "_tail",
+    "line": 32,
+    "script": "_Dev_Resources/Dev_Scripts/smoke_tests/test_server_nexus_isolation_smoke.py"
+  },
+  {
+    "args": [
+      "base_url",
+      "timeout"
+    ],
+    "function": "_wait_health",
+    "line": 37,
+    "script": "_Dev_Resources/Dev_Scripts/smoke_tests/test_server_nexus_isolation_smoke.py"
+  },
+  {
+    "args": [
+      "url",
+      "payload",
+      "headers"
+    ],
+    "function": "_post_json",
+    "line": 53,
+    "script": "_Dev_Resources/Dev_Scripts/smoke_tests/test_server_nexus_isolation_smoke.py"
+  },
+  {
+    "args": [
+      "url"
+    ],
+    "function": "_get_json",
+    "line": 66,
+    "script": "_Dev_Resources/Dev_Scripts/smoke_tests/test_server_nexus_isolation_smoke.py"
+  },
+  {
+    "args": [
+      "self"
+    ],
+    "function": "_start_server",
+    "line": 75,
+    "script": "_Dev_Resources/Dev_Scripts/smoke_tests/test_server_nexus_isolation_smoke.py"
+  },
+  {
+    "args": [
+      "self"
+    ],
+    "function": "test_sessions_isolated_and_refresh_local",
+    "line": 122,
+    "script": "_Dev_Resources/Dev_Scripts/smoke_tests/test_server_nexus_isolation_smoke.py"
+  },
+  {
+    "args": [
+      "cmd_args"
+    ],
+    "function": "run_pipeline_cmd",
+    "line": 16,
+    "script": "_Dev_Resources/Dev_Scripts/smoke_tests/test_tool_approval_tamper_smoke.py"
+  },
+  {
+    "args": [
+      "cmd_args"
+    ],
+    "function": "run_agent_cmd",
+    "line": 23,
+    "script": "_Dev_Resources/Dev_Scripts/smoke_tests/test_tool_approval_tamper_smoke.py"
+  },
+  {
+    "args": [],
+    "function": "test_tamper_detection",
+    "line": 30,
+    "script": "_Dev_Resources/Dev_Scripts/smoke_tests/test_tool_approval_tamper_smoke.py"
+  },
+  {
+    "args": [
+      "cmd",
+      "cwd",
+      "env"
+    ],
+    "function": "run_command",
+    "line": 16,
+    "script": "_Dev_Resources/Dev_Scripts/smoke_tests/test_tool_improvement_intent_smoke.py"
+  },
+  {
+    "args": [],
+    "function": "test_tool_improvement_intent_smoke",
+    "line": 30,
+    "script": "_Dev_Resources/Dev_Scripts/smoke_tests/test_tool_improvement_intent_smoke.py"
+  },
+  {
+    "args": [],
+    "function": "main",
+    "line": 10,
+    "script": "_Dev_Resources/Dev_Scripts/smoke_tests/test_tool_introspection_smoke.py"
+  },
+  {
+    "args": [
+      "cmd_args"
+    ],
+    "function": "run_pipeline_cmd",
+    "line": 20,
+    "script": "_Dev_Resources/Dev_Scripts/smoke_tests/test_tool_pipeline_smoke.py"
+  },
+  {
+    "args": [],
+    "function": "test_pipeline",
+    "line": 31,
+    "script": "_Dev_Resources/Dev_Scripts/smoke_tests/test_tool_pipeline_smoke.py"
+  },
+  {
+    "args": [],
+    "function": "main",
+    "line": 17,
+    "script": "_Dev_Resources/Dev_Scripts/smoke_tests/test_tool_playbook_load_smoke.py"
+  },
+  {
+    "args": [],
+    "function": "main",
+    "line": 10,
+    "script": "_Dev_Resources/Dev_Scripts/smoke_tests/test_tool_repair_proposal_smoke.py"
+  },
+  {
+    "args": [],
+    "function": "_make_ctx",
+    "line": 18,
+    "script": "_Dev_Resources/Dev_Scripts/smoke_tests/test_tool_validation_smoke.py"
+  },
+  {
+    "args": [],
+    "function": "test_valid_mission_status",
+    "line": 25,
+    "script": "_Dev_Resources/Dev_Scripts/smoke_tests/test_tool_validation_smoke.py"
+  },
+  {
+    "args": [],
+    "function": "test_invalid_retrieve_web",
+    "line": 46,
+    "script": "_Dev_Resources/Dev_Scripts/smoke_tests/test_tool_validation_smoke.py"
+  },
+  {
+    "args": [],
+    "function": "main",
+    "line": 66,
+    "script": "_Dev_Resources/Dev_Scripts/smoke_tests/test_tool_validation_smoke.py"
+  },
+  {
+    "args": [],
+    "function": "main",
+    "line": 11,
+    "script": "_Dev_Resources/Dev_Scripts/smoke_tests/test_truth_categories_smoke.py"
+  },
+  {
+    "args": [
+      "cmd",
+      "cwd"
+    ],
+    "function": "run_command",
+    "line": 18,
+    "script": "_Dev_Resources/Dev_Scripts/smoke_tests/test_uwm_smoke.py"
+  },
+  {
+    "args": [],
+    "function": "test_uwm_smoke",
+    "line": 26,
+    "script": "_Dev_Resources/Dev_Scripts/smoke_tests/test_uwm_smoke.py"
+  },
+  {
+    "args": [],
+    "function": "_free_port",
+    "line": 18,
+    "script": "_Dev_Resources/Dev_Scripts/smoke_tests/test_web_grounding_smoke.py"
+  },
+  {
+    "args": [
+      "url",
+      "timeout"
+    ],
+    "function": "_wait",
+    "line": 26,
+    "script": "_Dev_Resources/Dev_Scripts/smoke_tests/test_web_grounding_smoke.py"
+  },
+  {
+    "args": [
+      "url",
+      "payload"
+    ],
+    "function": "_post",
+    "line": 40,
+    "script": "_Dev_Resources/Dev_Scripts/smoke_tests/test_web_grounding_smoke.py"
+  },
+  {
+    "args": [],
+    "function": "main",
+    "line": 50,
+    "script": "_Dev_Resources/Dev_Scripts/smoke_tests/test_web_grounding_smoke.py"
+  },
+  {
+    "args": [
+      "self"
+    ],
+    "function": "__init__",
+    "line": 39,
+    "script": "_Dev_Resources/Dev_Scripts/system_stack_tbd/could_be_dev/capture_arp_traces_and_backfill.py"
+  },
+  {
+    "args": [
+      "payload"
+    ],
+    "function": "canonical_hash",
+    "line": 168,
+    "script": "_Dev_Resources/Dev_Scripts/system_stack_tbd/could_be_dev/capture_arp_traces_and_backfill.py"
+  },
+  {
+    "args": [
+      "agent_id"
+    ],
+    "function": "instantiate_reasoner",
+    "line": 179,
+    "script": "_Dev_Resources/Dev_Scripts/system_stack_tbd/could_be_dev/capture_arp_traces_and_backfill.py"
+  },
+  {
+    "args": [
+      "scenario_id",
+      "prompt"
+    ],
+    "function": "build_inputs",
+    "line": 187,
+    "script": "_Dev_Resources/Dev_Scripts/system_stack_tbd/could_be_dev/capture_arp_traces_and_backfill.py"
+  },
+  {
+    "args": [
+      "reasoner",
+      "scenario_id"
+    ],
+    "function": "run_deterministic_arp",
+    "line": 210,
+    "script": "_Dev_Resources/Dev_Scripts/system_stack_tbd/could_be_dev/capture_arp_traces_and_backfill.py"
+  },
+  {
+    "args": [
+      "reasoner",
+      "scenario_id",
+      "prompt"
+    ],
+    "function": "build_trace",
+    "line": 237,
+    "script": "_Dev_Resources/Dev_Scripts/system_stack_tbd/could_be_dev/capture_arp_traces_and_backfill.py"
+  },
+  {
+    "args": [
+      "path",
+      "payload"
+    ],
+    "function": "write_json",
+    "line": 272,
+    "script": "_Dev_Resources/Dev_Scripts/system_stack_tbd/could_be_dev/capture_arp_traces_and_backfill.py"
+  },
+  {
+    "args": [
+      "trace"
+    ],
+    "function": "write_trace",
+    "line": 281,
+    "script": "_Dev_Resources/Dev_Scripts/system_stack_tbd/could_be_dev/capture_arp_traces_and_backfill.py"
+  },
+  {
+    "args": [
+      "trace",
+      "modal_chain",
+      "prompt_focus"
+    ],
+    "function": "build_modal_fixture",
+    "line": 290,
+    "script": "_Dev_Resources/Dev_Scripts/system_stack_tbd/could_be_dev/capture_arp_traces_and_backfill.py"
+  },
+  {
+    "args": [
+      "trace",
+      "modal_chain",
+      "prompt_focus"
+    ],
+    "function": "write_fixture",
+    "line": 318,
+    "script": "_Dev_Resources/Dev_Scripts/system_stack_tbd/could_be_dev/capture_arp_traces_and_backfill.py"
+  },
+  {
+    "args": [
+      "root"
+    ],
+    "function": "find_phase2_fixture_spec",
+    "line": 333,
+    "script": "_Dev_Resources/Dev_Scripts/system_stack_tbd/could_be_dev/capture_arp_traces_and_backfill.py"
+  },
+  {
+    "args": [
+      "spec_path",
+      "traces"
+    ],
+    "function": "backfill_fixture_hashes",
+    "line": 352,
+    "script": "_Dev_Resources/Dev_Scripts/system_stack_tbd/could_be_dev/capture_arp_traces_and_backfill.py"
+  },
+  {
+    "args": [],
+    "function": "capture_traces_and_backfill",
+    "line": 373,
+    "script": "_Dev_Resources/Dev_Scripts/system_stack_tbd/could_be_dev/capture_arp_traces_and_backfill.py"
+  },
+  {
+    "args": [
+      "argv"
+    ],
+    "function": "parse_args",
+    "line": 30,
+    "script": "_Dev_Resources/Dev_Scripts/system_stack_tbd/could_be_dev/run_cycle_loop.py"
+  },
+  {
+    "args": [],
+    "function": "_build_env",
+    "line": 98,
+    "script": "_Dev_Resources/Dev_Scripts/system_stack_tbd/could_be_dev/run_cycle_loop.py"
+  },
+  {
+    "args": [],
+    "function": "_run_prereq",
+    "line": 119,
+    "script": "_Dev_Resources/Dev_Scripts/system_stack_tbd/could_be_dev/run_cycle_loop.py"
+  },
+  {
+    "args": [
+      "mode",
+      "goal",
+      "timeout"
+    ],
+    "function": "_run_cycle",
+    "line": 131,
+    "script": "_Dev_Resources/Dev_Scripts/system_stack_tbd/could_be_dev/run_cycle_loop.py"
+  },
+  {
+    "args": [],
+    "function": "_latest_archive",
+    "line": 158,
+    "script": "_Dev_Resources/Dev_Scripts/system_stack_tbd/could_be_dev/run_cycle_loop.py"
+  },
+  {
+    "args": [
+      "path"
+    ],
+    "function": "_relative",
+    "line": 178,
+    "script": "_Dev_Resources/Dev_Scripts/system_stack_tbd/could_be_dev/run_cycle_loop.py"
+  },
+  {
+    "args": [
+      "log_path",
+      "header",
+      "prereq",
+      "stdout",
+      "stderr"
+    ],
+    "function": "_write_log",
+    "line": 185,
+    "script": "_Dev_Resources/Dev_Scripts/system_stack_tbd/could_be_dev/run_cycle_loop.py"
+  },
+  {
+    "args": [
+      "history_path",
+      "entry"
+    ],
+    "function": "_append_history",
+    "line": 205,
+    "script": "_Dev_Resources/Dev_Scripts/system_stack_tbd/could_be_dev/run_cycle_loop.py"
+  },
+  {
+    "args": [
+      "log_dir",
+      "summary"
+    ],
+    "function": "_write_summary",
+    "line": 211,
+    "script": "_Dev_Resources/Dev_Scripts/system_stack_tbd/could_be_dev/run_cycle_loop.py"
+  },
+  {
+    "args": [
+      "argv"
+    ],
+    "function": "main",
+    "line": 220,
+    "script": "_Dev_Resources/Dev_Scripts/system_stack_tbd/could_be_dev/run_cycle_loop.py"
+  },
+  {
+    "args": [],
+    "function": "_parse_args",
+    "line": 18,
+    "script": "_Dev_Resources/Dev_Scripts/system_stack_tbd/could_be_dev/run_simulation_stub.py"
+  },
+  {
+    "args": [
+      "steps"
+    ],
+    "function": "_command_script",
+    "line": 44,
+    "script": "_Dev_Resources/Dev_Scripts/system_stack_tbd/could_be_dev/run_simulation_stub.py"
+  },
+  {
+    "args": [],
+    "function": "main",
+    "line": 52,
+    "script": "_Dev_Resources/Dev_Scripts/system_stack_tbd/could_be_dev/run_simulation_stub.py"
+  },
+  {
+    "args": [
+      "stage",
+      "broker"
+    ],
+    "function": "_emit_health",
+    "line": 81,
+    "script": "_Dev_Resources/Dev_Scripts/system_stack_tbd/could_be_dev/run_simulation_stub.py"
+  },
+  {
+    "args": [
+      "obj"
+    ],
+    "function": "canonical_json_hash",
+    "line": 85,
+    "script": "_Dev_Resources/Dev_Scripts/system_stack_tbd/could_be_dev/start_agent.py"
+  },
+  {
+    "args": [
+      "att"
+    ],
+    "function": "compute_attestation_hash",
+    "line": 88,
+    "script": "_Dev_Resources/Dev_Scripts/system_stack_tbd/could_be_dev/start_agent.py"
+  },
+  {
+    "args": [
+      "path"
+    ],
+    "function": "load_alignment_attestation",
+    "line": 91,
+    "script": "_Dev_Resources/Dev_Scripts/system_stack_tbd/could_be_dev/start_agent.py"
+  },
+  {
+    "args": [
+      "path"
+    ],
+    "function": "load_mission_profile",
+    "line": 94,
+    "script": "_Dev_Resources/Dev_Scripts/system_stack_tbd/could_be_dev/start_agent.py"
+  },
+  {
+    "args": [],
+    "function": "validate_attestation",
+    "line": 97,
+    "script": "_Dev_Resources/Dev_Scripts/system_stack_tbd/could_be_dev/start_agent.py"
+  },
+  {
+    "args": [
+      "annotation",
+      "index"
+    ],
+    "function": "enforce_truth_annotation",
+    "line": 100,
+    "script": "_Dev_Resources/Dev_Scripts/system_stack_tbd/could_be_dev/start_agent.py"
+  },
+  {
+    "args": [],
+    "function": "validate_mission_profile",
+    "line": 103,
+    "script": "_Dev_Resources/Dev_Scripts/system_stack_tbd/could_be_dev/start_agent.py"
+  },
+  {
+    "args": [
+      "path"
+    ],
+    "function": "load_pin",
+    "line": 108,
+    "script": "_Dev_Resources/Dev_Scripts/system_stack_tbd/could_be_dev/start_agent.py"
+  },
+  {
+    "args": [],
+    "function": "verify_pinned_repo",
+    "line": 111,
+    "script": "_Dev_Resources/Dev_Scripts/system_stack_tbd/could_be_dev/start_agent.py"
+  },
+  {
+    "args": [
+      "state",
+      "obj_class",
+      "tool",
+      "outcome"
+    ],
+    "function": "update_metrics",
+    "line": 114,
+    "script": "_Dev_Resources/Dev_Scripts/system_stack_tbd/could_be_dev/start_agent.py"
+  },
+  {
+    "args": [
+      "name"
+    ],
+    "function": "get_tool_playbook",
+    "line": 119,
+    "script": "_Dev_Resources/Dev_Scripts/system_stack_tbd/could_be_dev/start_agent.py"
+  },
+  {
+    "args": [],
+    "function": "run_validators",
+    "line": 122,
+    "script": "_Dev_Resources/Dev_Scripts/system_stack_tbd/could_be_dev/start_agent.py"
+  },
+  {
+    "args": [
+      "plan",
+      "execution_trace"
+    ],
+    "function": "validate_plan_run",
+    "line": 125,
+    "script": "_Dev_Resources/Dev_Scripts/system_stack_tbd/could_be_dev/start_agent.py"
+  },
+  {
+    "args": [
+      "report"
+    ],
+    "function": "compute_plan_score",
+    "line": 138,
+    "script": "_Dev_Resources/Dev_Scripts/system_stack_tbd/could_be_dev/start_agent.py"
+  },
+  {
+    "args": [
+      "plan"
+    ],
+    "function": "plan_signature",
+    "line": 141,
+    "script": "_Dev_Resources/Dev_Scripts/system_stack_tbd/could_be_dev/start_agent.py"
+  },
+  {
+    "args": [],
+    "function": "update_plan_history",
+    "line": 144,
+    "script": "_Dev_Resources/Dev_Scripts/system_stack_tbd/could_be_dev/start_agent.py"
+  },
+  {
+    "args": [
+      "obj"
+    ],
+    "function": "normalize_objective_class",
+    "line": 147,
+    "script": "_Dev_Resources/Dev_Scripts/system_stack_tbd/could_be_dev/start_agent.py"
+  },
+  {
+    "args": [
+      "repo_root"
+    ],
+    "function": "_logos_state_dir",
+    "line": 177,
+    "script": "_Dev_Resources/Dev_Scripts/system_stack_tbd/could_be_dev/start_agent.py"
+  },
+  {
+    "args": [
+      "repo_root"
+    ],
+    "function": "_attestation_path",
+    "line": 186,
+    "script": "_Dev_Resources/Dev_Scripts/system_stack_tbd/could_be_dev/start_agent.py"
+  },
+  {
+    "args": [],
+    "function": "_missing_logos_core",
+    "line": 226,
+    "script": "_Dev_Resources/Dev_Scripts/system_stack_tbd/could_be_dev/start_agent.py"
+  },
+  {
+    "args": [
+      "self"
+    ],
+    "function": "__init__",
+    "line": 233,
+    "script": "_Dev_Resources/Dev_Scripts/system_stack_tbd/could_be_dev/start_agent.py"
+  },
+  {
+    "args": [
+      "self"
+    ],
+    "function": "_save_identity",
+    "line": 239,
+    "script": "_Dev_Resources/Dev_Scripts/system_stack_tbd/could_be_dev/start_agent.py"
+  },
+  {
+    "args": [],
+    "function": "load_mission",
+    "line": 298,
+    "script": "_Dev_Resources/Dev_Scripts/system_stack_tbd/could_be_dev/start_agent.py"
+  },
+  {
+    "args": [
+      "entry"
+    ],
+    "function": "_is_tool_optimizer_commitment",
+    "line": 318,
+    "script": "_Dev_Resources/Dev_Scripts/system_stack_tbd/could_be_dev/start_agent.py"
+  },
+  {
+    "args": [
+      "entry"
+    ],
+    "function": "_is_tool_invention_commitment",
+    "line": 329,
+    "script": "_Dev_Resources/Dev_Scripts/system_stack_tbd/could_be_dev/start_agent.py"
+  },
+  {
+    "args": [
+      "func"
+    ],
+    "function": "_fallback_require_safe_interfaces",
+    "line": 340,
+    "script": "_Dev_Resources/Dev_Scripts/system_stack_tbd/could_be_dev/start_agent.py"
+  },
+  {
+    "args": [],
+    "function": "wrapper",
+    "line": 343,
+    "script": "_Dev_Resources/Dev_Scripts/system_stack_tbd/could_be_dev/start_agent.py"
+  },
+  {
+    "args": [
+      "root"
+    ],
+    "function": "_fallback_restrict_writes",
+    "line": 351,
+    "script": "_Dev_Resources/Dev_Scripts/system_stack_tbd/could_be_dev/start_agent.py"
+  },
+  {
+    "args": [
+      "func"
+    ],
+    "function": "decorator",
+    "line": 354,
+    "script": "_Dev_Resources/Dev_Scripts/system_stack_tbd/could_be_dev/start_agent.py"
+  },
+  {
+    "args": [],
+    "function": "wrapper",
+    "line": 355,
+    "script": "_Dev_Resources/Dev_Scripts/system_stack_tbd/could_be_dev/start_agent.py"
+  },
+  {
+    "args": [
+      "candidate"
+    ],
+    "function": "_ensure",
+    "line": 356,
+    "script": "_Dev_Resources/Dev_Scripts/system_stack_tbd/could_be_dev/start_agent.py"
+  },
+  {
+    "args": [
+      "root"
+    ],
+    "function": "_restrict_wrapper",
+    "line": 379,
+    "script": "_Dev_Resources/Dev_Scripts/system_stack_tbd/could_be_dev/start_agent.py"
+  },
+  {
+    "args": [
+      "argument"
+    ],
+    "function": "tool_filesystem_read",
+    "line": 398,
+    "script": "_Dev_Resources/Dev_Scripts/system_stack_tbd/could_be_dev/start_agent.py"
+  },
+  {
+    "args": [
+      "_"
+    ],
+    "function": "tool_mission_status",
+    "line": 427,
+    "script": "_Dev_Resources/Dev_Scripts/system_stack_tbd/could_be_dev/start_agent.py"
+  },
+  {
+    "args": [],
+    "function": "_integrity_baseline_path",
+    "line": 431,
+    "script": "_Dev_Resources/Dev_Scripts/system_stack_tbd/could_be_dev/start_agent.py"
+  },
+  {
+    "args": [],
+    "function": "_enforce_integrity_baseline",
+    "line": 436,
+    "script": "_Dev_Resources/Dev_Scripts/system_stack_tbd/could_be_dev/start_agent.py"
+  },
+  {
+    "args": [],
+    "function": "_run_proof_compile",
+    "line": 454,
+    "script": "_Dev_Resources/Dev_Scripts/system_stack_tbd/could_be_dev/start_agent.py"
+  },
+  {
+    "args": [],
+    "function": "_preflight_identity_check",
+    "line": 469,
+    "script": "_Dev_Resources/Dev_Scripts/system_stack_tbd/could_be_dev/start_agent.py"
+  },
+  {
+    "args": [
+      "path"
+    ],
+    "function": "_is_forbidden_candidate",
+    "line": 487,
+    "script": "_Dev_Resources/Dev_Scripts/system_stack_tbd/could_be_dev/start_agent.py"
+  },
+  {
+    "args": [
+      "root"
+    ],
+    "function": "_resolve_retrieve_bases",
+    "line": 491,
+    "script": "_Dev_Resources/Dev_Scripts/system_stack_tbd/could_be_dev/start_agent.py"
+  },
+  {
+    "args": [
+      "bases",
+      "max_files"
+    ],
+    "function": "_iter_retrieve_files",
+    "line": 515,
+    "script": "_Dev_Resources/Dev_Scripts/system_stack_tbd/could_be_dev/start_agent.py"
+  },
+  {
+    "args": [
+      "argument"
+    ],
+    "function": "tool_retrieve_local",
+    "line": 571,
+    "script": "_Dev_Resources/Dev_Scripts/system_stack_tbd/could_be_dev/start_agent.py"
+  },
+  {
+    "args": [
+      "argument"
+    ],
+    "function": "tool_retrieve_web",
+    "line": 627,
+    "script": "_Dev_Resources/Dev_Scripts/system_stack_tbd/could_be_dev/start_agent.py"
+  },
+  {
+    "args": [
+      "_"
+    ],
+    "function": "tool_probe_last_snapshot",
+    "line": 661,
+    "script": "_Dev_Resources/Dev_Scripts/system_stack_tbd/could_be_dev/start_agent.py"
+  },
+  {
+    "args": [
+      "ctx"
+    ],
+    "function": "_init_validation_containers",
+    "line": 703,
+    "script": "_Dev_Resources/Dev_Scripts/system_stack_tbd/could_be_dev/start_agent.py"
+  },
+  {
+    "args": [
+      "tool_name",
+      "playbook",
+      "ctx"
+    ],
+    "function": "_precondition_check",
+    "line": 714,
+    "script": "_Dev_Resources/Dev_Scripts/system_stack_tbd/could_be_dev/start_agent.py"
+  },
+  {
+    "args": [
+      "ctx",
+      "tool_name",
+      "validation"
+    ],
+    "function": "_record_tool_validation",
+    "line": 728,
+    "script": "_Dev_Resources/Dev_Scripts/system_stack_tbd/could_be_dev/start_agent.py"
+  },
+  {
+    "args": [
+      "ctx",
+      "tool_name",
+      "playbook",
+      "reason"
+    ],
+    "function": "_register_fallbacks",
+    "line": 777,
+    "script": "_Dev_Resources/Dev_Scripts/system_stack_tbd/could_be_dev/start_agent.py"
+  },
+  {
+    "args": [
+      "tool_name",
+      "args"
+    ],
+    "function": "dispatch_tool",
+    "line": 797,
+    "script": "_Dev_Resources/Dev_Scripts/system_stack_tbd/could_be_dev/start_agent.py"
+  },
+  {
+    "args": [],
+    "function": "_sandbox_base",
+    "line": 860,
+    "script": "_Dev_Resources/Dev_Scripts/system_stack_tbd/could_be_dev/start_agent.py"
+  },
+  {
+    "args": [
+      "write_dir",
+      "cap"
+    ],
+    "function": "configure_sandbox",
+    "line": 864,
+    "script": "_Dev_Resources/Dev_Scripts/system_stack_tbd/could_be_dev/start_agent.py"
+  },
+  {
+    "args": [],
+    "function": "_timestamp",
+    "line": 879,
+    "script": "_Dev_Resources/Dev_Scripts/system_stack_tbd/could_be_dev/start_agent.py"
+  },
+  {
+    "args": [
+      "catalog_path",
+      "tail_lines"
+    ],
+    "function": "_compute_catalog_tail_hash",
+    "line": 883,
+    "script": "_Dev_Resources/Dev_Scripts/system_stack_tbd/could_be_dev/start_agent.py"
+  },
+  {
+    "args": [
+      "ledger",
+      "repo_root"
+    ],
+    "function": "_collect_missing_evidence_refs",
+    "line": 895,
+    "script": "_Dev_Resources/Dev_Scripts/system_stack_tbd/could_be_dev/start_agent.py"
+  },
+  {
+    "args": [],
+    "function": "_compute_theory_hash",
+    "line": 929,
+    "script": "_Dev_Resources/Dev_Scripts/system_stack_tbd/could_be_dev/start_agent.py"
+  },
+  {
+    "args": [],
+    "function": "_make_run_id",
+    "line": 956,
+    "script": "_Dev_Resources/Dev_Scripts/system_stack_tbd/could_be_dev/start_agent.py"
+  },
+  {
+    "args": [
+      "name"
+    ],
+    "function": "_sandbox_path",
+    "line": 962,
+    "script": "_Dev_Resources/Dev_Scripts/system_stack_tbd/could_be_dev/start_agent.py"
+  },
+  {
+    "args": [
+      "name"
+    ],
+    "function": "_requires_promotion",
+    "line": 1025,
+    "script": "_Dev_Resources/Dev_Scripts/system_stack_tbd/could_be_dev/start_agent.py"
+  },
+  {
+    "args": [
+      "value"
+    ],
+    "function": "_coerce_list",
+    "line": 1032,
+    "script": "_Dev_Resources/Dev_Scripts/system_stack_tbd/could_be_dev/start_agent.py"
+  },
+  {
+    "args": [
+      "tool_name",
+      "items",
+      "config"
+    ],
+    "function": "_apply_tool_policy",
+    "line": 1040,
+    "script": "_Dev_Resources/Dev_Scripts/system_stack_tbd/could_be_dev/start_agent.py"
+  },
+  {
+    "args": [
+      "field_name",
+      "default_key"
+    ],
+    "function": "_ensure_list",
+    "line": 1061,
+    "script": "_Dev_Resources/Dev_Scripts/system_stack_tbd/could_be_dev/start_agent.py"
+  },
+  {
+    "args": [
+      "config",
+      "items"
+    ],
+    "function": "_replace_rollback_placeholders",
+    "line": 1091,
+    "script": "_Dev_Resources/Dev_Scripts/system_stack_tbd/could_be_dev/start_agent.py"
+  },
+  {
+    "args": [
+      "data",
+      "payload",
+      "default_name",
+      "tool_name"
+    ],
+    "function": "_emit_via_promotion",
+    "line": 1106,
+    "script": "_Dev_Resources/Dev_Scripts/system_stack_tbd/could_be_dev/start_agent.py"
+  },
+  {
+    "args": [],
+    "function": "_build_snapshot",
+    "line": 1157,
+    "script": "_Dev_Resources/Dev_Scripts/system_stack_tbd/could_be_dev/start_agent.py"
+  },
+  {
+    "args": [
+      "path"
+    ],
+    "function": "_write_tmp",
+    "line": 1213,
+    "script": "_Dev_Resources/Dev_Scripts/system_stack_tbd/could_be_dev/start_agent.py"
+  },
+  {
+    "args": [
+      "candidate",
+      "fallback"
+    ],
+    "function": "_as_posix",
+    "line": 1233,
+    "script": "_Dev_Resources/Dev_Scripts/system_stack_tbd/could_be_dev/start_agent.py"
+  },
+  {
+    "args": [
+      "raw",
+      "tool_name"
+    ],
+    "function": "_sandbox_write_impl",
+    "line": 1336,
+    "script": "_Dev_Resources/Dev_Scripts/system_stack_tbd/could_be_dev/start_agent.py"
+  },
+  {
+    "args": [
+      "path"
+    ],
+    "function": "_write",
+    "line": 1395,
+    "script": "_Dev_Resources/Dev_Scripts/system_stack_tbd/could_be_dev/start_agent.py"
+  },
+  {
+    "args": [
+      "argument"
+    ],
+    "function": "tool_sandbox_write",
+    "line": 1403,
+    "script": "_Dev_Resources/Dev_Scripts/system_stack_tbd/could_be_dev/start_agent.py"
+  },
+  {
+    "args": [
+      "argument"
+    ],
+    "function": "tool_agent_memory",
+    "line": 1410,
+    "script": "_Dev_Resources/Dev_Scripts/system_stack_tbd/could_be_dev/start_agent.py"
+  },
+  {
+    "args": [
+      "argument"
+    ],
+    "function": "_resolve_sandbox_entry",
+    "line": 1439,
+    "script": "_Dev_Resources/Dev_Scripts/system_stack_tbd/could_be_dev/start_agent.py"
+  },
+  {
+    "args": [
+      "argument"
+    ],
+    "function": "tool_sandbox_read",
+    "line": 1463,
+    "script": "_Dev_Resources/Dev_Scripts/system_stack_tbd/could_be_dev/start_agent.py"
+  },
+  {
+    "args": [
+      "_"
+    ],
+    "function": "tool_sandbox_list",
+    "line": 1480,
+    "script": "_Dev_Resources/Dev_Scripts/system_stack_tbd/could_be_dev/start_agent.py"
+  },
+  {
+    "args": [
+      "path",
+      "limit"
+    ],
+    "function": "_safe_list_subdirs",
+    "line": 1488,
+    "script": "_Dev_Resources/Dev_Scripts/system_stack_tbd/could_be_dev/start_agent.py"
+  },
+  {
+    "args": [
+      "path"
+    ],
+    "function": "_count_python_files",
+    "line": 1506,
+    "script": "_Dev_Resources/Dev_Scripts/system_stack_tbd/could_be_dev/start_agent.py"
+  },
+  {
+    "args": [
+      "values"
+    ],
+    "function": "_dedupe_preserve_order",
+    "line": 1517,
+    "script": "_Dev_Resources/Dev_Scripts/system_stack_tbd/could_be_dev/start_agent.py"
+  },
+  {
+    "args": [
+      "_"
+    ],
+    "function": "tool_capability_report",
+    "line": 1528,
+    "script": "_Dev_Resources/Dev_Scripts/system_stack_tbd/could_be_dev/start_agent.py"
+  },
+  {
+    "args": [
+      "text"
+    ],
+    "function": "_tokenize",
+    "line": 1829,
+    "script": "_Dev_Resources/Dev_Scripts/system_stack_tbd/could_be_dev/start_agent.py"
+  },
+  {
+    "args": [
+      "exclude"
+    ],
+    "function": "_collect_sandbox_files",
+    "line": 1833,
+    "script": "_Dev_Resources/Dev_Scripts/system_stack_tbd/could_be_dev/start_agent.py"
+  },
+  {
+    "args": [
+      "a",
+      "b"
+    ],
+    "function": "_jaccard",
+    "line": 1846,
+    "script": "_Dev_Resources/Dev_Scripts/system_stack_tbd/could_be_dev/start_agent.py"
+  },
+  {
+    "args": [
+      "text"
+    ],
+    "function": "_plan_quality",
+    "line": 1853,
+    "script": "_Dev_Resources/Dev_Scripts/system_stack_tbd/could_be_dev/start_agent.py"
+  },
+  {
+    "args": [
+      "argument"
+    ],
+    "function": "tool_sandbox_reflect",
+    "line": 1872,
+    "script": "_Dev_Resources/Dev_Scripts/system_stack_tbd/could_be_dev/start_agent.py"
+  },
+  {
+    "args": [],
+    "function": "select_ready_inputs",
+    "line": 1964,
+    "script": "_Dev_Resources/Dev_Scripts/system_stack_tbd/could_be_dev/start_agent.py"
+  },
+  {
+    "args": [
+      "prompt",
+      "default",
+      "timeout_seconds"
+    ],
+    "function": "ask_user",
+    "line": 1974,
+    "script": "_Dev_Resources/Dev_Scripts/system_stack_tbd/could_be_dev/start_agent.py"
+  },
+  {
+    "args": [
+      "fn",
+      "argument",
+      "hard_timeout_seconds"
+    ],
+    "function": "bounded_call",
+    "line": 2005,
+    "script": "_Dev_Resources/Dev_Scripts/system_stack_tbd/could_be_dev/start_agent.py"
+  },
+  {
+    "args": [],
+    "function": "run",
+    "line": 2012,
+    "script": "_Dev_Resources/Dev_Scripts/system_stack_tbd/could_be_dev/start_agent.py"
+  },
+  {
+    "args": [
+      "specs"
+    ],
+    "function": "_parse_extra_steps",
+    "line": 2026,
+    "script": "_Dev_Resources/Dev_Scripts/system_stack_tbd/could_be_dev/start_agent.py"
+  },
+  {
+    "args": [
+      "objective",
+      "force_read_only",
+      "extra_steps"
+    ],
+    "function": "make_plan",
+    "line": 2040,
+    "script": "_Dev_Resources/Dev_Scripts/system_stack_tbd/could_be_dev/start_agent.py"
+  },
+  {
+    "args": [],
+    "function": "_load_agent_state",
+    "line": 2061,
+    "script": "_Dev_Resources/Dev_Scripts/system_stack_tbd/could_be_dev/start_agent.py"
+  },
+  {
+    "args": [
+      "state"
+    ],
+    "function": "_persist_agent_state",
+    "line": 2078,
+    "script": "_Dev_Resources/Dev_Scripts/system_stack_tbd/could_be_dev/start_agent.py"
+  },
+  {
+    "args": [
+      "snapshot"
+    ],
+    "function": "_record_protocol_health",
+    "line": 2083,
+    "script": "_Dev_Resources/Dev_Scripts/system_stack_tbd/could_be_dev/start_agent.py"
+  },
+  {
+    "args": [
+      "results"
+    ],
+    "function": "_extract_artifacts",
+    "line": 2103,
+    "script": "_Dev_Resources/Dev_Scripts/system_stack_tbd/could_be_dev/start_agent.py"
+  },
+  {
+    "args": [
+      "objective",
+      "plan",
+      "results",
+      "summary",
+      "attestation_hash",
+      "mission_profile_hash"
+    ],
+    "function": "_persist_agent_run",
+    "line": 2112,
+    "script": "_Dev_Resources/Dev_Scripts/system_stack_tbd/could_be_dev/start_agent.py"
+  },
+  {
+    "args": [
+      "prior_state",
+      "signature"
+    ],
+    "function": "_plan_history_mean",
+    "line": 2148,
+    "script": "_Dev_Resources/Dev_Scripts/system_stack_tbd/could_be_dev/start_agent.py"
+  },
+  {
+    "args": [
+      "objective",
+      "read_only",
+      "max_runtime_seconds",
+      "max_plan_steps_per_run",
+      "enable_llm_advisor",
+      "llm_provider",
+      "llm_model",
+      "llm_timeout_sec",
+      "extra_steps",
+      "assume_yes",
+      "attestation_hash",
+      "mission_profile_hash",
+      "enable_logos_agi",
+      "logos_agi_max_compute_ms",
+      "allow_logos_agi_drift",
+      "logos_agi_mode",
+      "scp_recovery_mode"
+    ],
+    "function": "run_supervised",
+    "line": 2160,
+    "script": "_Dev_Resources/Dev_Scripts/system_stack_tbd/could_be_dev/start_agent.py"
+  },
+  {
+    "args": [
+      "argv"
+    ],
+    "function": "parse_args",
+    "line": 3792,
+    "script": "_Dev_Resources/Dev_Scripts/system_stack_tbd/could_be_dev/start_agent.py"
+  },
+  {
+    "args": [
+      "argv"
+    ],
+    "function": "main",
+    "line": 3949,
+    "script": "_Dev_Resources/Dev_Scripts/system_stack_tbd/could_be_dev/start_agent.py"
+  },
+  {
+    "args": [
+      "profile"
+    ],
+    "function": "set_mission_profile",
+    "line": 32,
+    "script": "_Dev_Resources/Dev_Scripts/system_stack_tbd/could_be_dev/system_mode_initializer.py"
+  },
+  {
+    "args": [
+      "profile"
+    ],
+    "function": "_persist_profile",
+    "line": 95,
+    "script": "_Dev_Resources/Dev_Scripts/system_stack_tbd/could_be_dev/system_mode_initializer.py"
+  },
+  {
+    "args": [
+      "name"
+    ],
+    "function": "_resolve_profile",
+    "line": 100,
+    "script": "_Dev_Resources/Dev_Scripts/system_stack_tbd/could_be_dev/system_mode_initializer.py"
+  },
+  {
+    "args": [
+      "profile"
+    ],
+    "function": "initialize",
+    "line": 123,
+    "script": "_Dev_Resources/Dev_Scripts/system_stack_tbd/could_be_dev/system_mode_initializer.py"
+  },
+  {
+    "args": [
+      "argv"
+    ],
+    "function": "_parse_args",
+    "line": 132,
+    "script": "_Dev_Resources/Dev_Scripts/system_stack_tbd/could_be_dev/system_mode_initializer.py"
+  },
+  {
+    "args": [],
+    "function": "test_stub_mode",
+    "line": 10,
+    "script": "_Dev_Resources/Dev_Scripts/system_stack_tbd/could_be_dev/test_logos_agi_bootstrap_modes.py"
+  },
+  {
+    "args": [],
+    "function": "test_real_mode",
+    "line": 52,
+    "script": "_Dev_Resources/Dev_Scripts/system_stack_tbd/could_be_dev/test_logos_agi_bootstrap_modes.py"
+  },
+  {
+    "args": [],
+    "function": "main",
+    "line": 87,
+    "script": "_Dev_Resources/Dev_Scripts/system_stack_tbd/could_be_dev/test_logos_agi_bootstrap_modes.py"
+  },
+  {
+    "args": [
+      "self"
+    ],
+    "function": "setUp",
+    "line": 39,
+    "script": "_Dev_Resources/Dev_Scripts/system_stack_tbd/could_be_dev/test_logos_agi_pin_drift.py"
+  },
+  {
+    "args": [
+      "self"
+    ],
+    "function": "tearDown",
+    "line": 62,
+    "script": "_Dev_Resources/Dev_Scripts/system_stack_tbd/could_be_dev/test_logos_agi_pin_drift.py"
+  },
+  {
+    "args": [
+      "self"
+    ],
+    "function": "test_missing_pin_file",
+    "line": 68,
+    "script": "_Dev_Resources/Dev_Scripts/system_stack_tbd/could_be_dev/test_logos_agi_pin_drift.py"
+  },
+  {
+    "args": [
+      "self"
+    ],
+    "function": "test_load_pin_valid",
+    "line": 74,
+    "script": "_Dev_Resources/Dev_Scripts/system_stack_tbd/could_be_dev/test_logos_agi_pin_drift.py"
+  },
+  {
+    "args": [
+      "self"
+    ],
+    "function": "test_load_pin_invalid_schema",
+    "line": 91,
+    "script": "_Dev_Resources/Dev_Scripts/system_stack_tbd/could_be_dev/test_logos_agi_pin_drift.py"
+  },
+  {
+    "args": [
+      "self"
+    ],
+    "function": "test_write_pin",
+    "line": 99,
+    "script": "_Dev_Resources/Dev_Scripts/system_stack_tbd/could_be_dev/test_logos_agi_pin_drift.py"
+  },
+  {
+    "args": [
+      "self"
+    ],
+    "function": "test_resolve_ref_head",
+    "line": 109,
+    "script": "_Dev_Resources/Dev_Scripts/system_stack_tbd/could_be_dev/test_logos_agi_pin_drift.py"
+  },
+  {
+    "args": [
+      "self"
+    ],
+    "function": "test_resolve_ref_sha",
+    "line": 114,
+    "script": "_Dev_Resources/Dev_Scripts/system_stack_tbd/could_be_dev/test_logos_agi_pin_drift.py"
+  },
+  {
+    "args": [
+      "self"
+    ],
+    "function": "test_resolve_ref_invalid",
+    "line": 119,
+    "script": "_Dev_Resources/Dev_Scripts/system_stack_tbd/could_be_dev/test_logos_agi_pin_drift.py"
+  },
+  {
+    "args": [
+      "self"
+    ],
+    "function": "test_is_git_dirty_clean",
+    "line": 124,
+    "script": "_Dev_Resources/Dev_Scripts/system_stack_tbd/could_be_dev/test_logos_agi_pin_drift.py"
+  },
+  {
+    "args": [
+      "self"
+    ],
+    "function": "test_is_git_dirty_modified",
+    "line": 128,
+    "script": "_Dev_Resources/Dev_Scripts/system_stack_tbd/could_be_dev/test_logos_agi_pin_drift.py"
+  },
+  {
+    "args": [
+      "self"
+    ],
+    "function": "test_verify_pinned_repo_match",
+    "line": 133,
+    "script": "_Dev_Resources/Dev_Scripts/system_stack_tbd/could_be_dev/test_logos_agi_pin_drift.py"
+  },
+  {
+    "args": [
+      "self"
+    ],
+    "function": "test_verify_pinned_repo_drift",
+    "line": 143,
+    "script": "_Dev_Resources/Dev_Scripts/system_stack_tbd/could_be_dev/test_logos_agi_pin_drift.py"
+  },
+  {
+    "args": [
+      "self"
+    ],
+    "function": "test_verify_pinned_repo_drift_override",
+    "line": 153,
+    "script": "_Dev_Resources/Dev_Scripts/system_stack_tbd/could_be_dev/test_logos_agi_pin_drift.py"
+  },
+  {
+    "args": [
+      "self"
+    ],
+    "function": "test_verify_pinned_repo_dirty_no_override",
+    "line": 165,
+    "script": "_Dev_Resources/Dev_Scripts/system_stack_tbd/could_be_dev/test_logos_agi_pin_drift.py"
+  },
+  {
+    "args": [
+      "self"
+    ],
+    "function": "test_verify_pinned_repo_dirty_override",
+    "line": 177,
+    "script": "_Dev_Resources/Dev_Scripts/system_stack_tbd/could_be_dev/test_logos_agi_pin_drift.py"
+  },
+  {
+    "args": [
+      "cmd"
+    ],
+    "function": "run_command",
+    "line": 14,
+    "script": "_Dev_Resources/Dev_Scripts/system_stack_tbd/could_be_dev/test_logos_agi_replay_proposals.py"
+  },
+  {
+    "args": [
+      "output"
+    ],
+    "function": "parse_audit_log",
+    "line": 20,
+    "script": "_Dev_Resources/Dev_Scripts/system_stack_tbd/could_be_dev/test_logos_agi_replay_proposals.py"
+  },
+  {
+    "args": [
+      "output"
+    ],
+    "function": "extract_first_proposed_tool",
+    "line": 33,
+    "script": "_Dev_Resources/Dev_Scripts/system_stack_tbd/could_be_dev/test_logos_agi_replay_proposals.py"
+  },
+  {
+    "args": [],
+    "function": "test_proposal_replay",
+    "line": 46,
+    "script": "_Dev_Resources/Dev_Scripts/system_stack_tbd/could_be_dev/test_logos_agi_replay_proposals.py"
+  },
+  {
+    "args": [],
+    "function": "main",
+    "line": 104,
+    "script": "_Dev_Resources/Dev_Scripts/system_stack_tbd/could_be_dev/test_logos_agi_replay_proposals.py"
+  },
+  {
+    "args": [],
+    "function": "main",
+    "line": 11,
+    "script": "_Dev_Resources/Dev_Scripts/system_stack_tbd/could_be_dev/test_stub_beliefs_never_verified.py"
+  },
+  {
+    "args": [],
+    "function": "read_audit_entries",
+    "line": 33,
+    "script": "_Dev_Resources/Dev_Scripts/system_stack_tbd/need_to_distribute/aligned_agent_import.py"
+  },
+  {
+    "args": [
+      "entries"
+    ],
+    "function": "write_audit_entries",
+    "line": 49,
+    "script": "_Dev_Resources/Dev_Scripts/system_stack_tbd/need_to_distribute/aligned_agent_import.py"
+  },
+  {
+    "args": [],
+    "function": "verify_agent_alignment",
+    "line": 58,
+    "script": "_Dev_Resources/Dev_Scripts/system_stack_tbd/need_to_distribute/aligned_agent_import.py"
+  },
+  {
+    "args": [
+      "repo_url",
+      "dest_path"
+    ],
+    "function": "ensure_repo",
+    "line": 72,
+    "script": "_Dev_Resources/Dev_Scripts/system_stack_tbd/need_to_distribute/aligned_agent_import.py"
+  },
+  {
+    "args": [
+      "repo_root"
+    ],
+    "function": "repo_commit_sha",
+    "line": 105,
+    "script": "_Dev_Resources/Dev_Scripts/system_stack_tbd/need_to_distribute/aligned_agent_import.py"
+  },
+  {
+    "args": [
+      "repo_root"
+    ],
+    "function": "load_cognitive_protocols",
+    "line": 117,
+    "script": "_Dev_Resources/Dev_Scripts/system_stack_tbd/need_to_distribute/aligned_agent_import.py"
+  },
+  {
+    "args": [],
+    "function": "sop_health_snapshot",
+    "line": 224,
+    "script": "_Dev_Resources/Dev_Scripts/system_stack_tbd/need_to_distribute/aligned_agent_import.py"
+  },
+  {
+    "args": [],
+    "function": "env_provenance",
+    "line": 248,
+    "script": "_Dev_Resources/Dev_Scripts/system_stack_tbd/need_to_distribute/aligned_agent_import.py"
+  },
+  {
+    "args": [
+      "cmd"
+    ],
+    "function": "capture",
+    "line": 251,
+    "script": "_Dev_Resources/Dev_Scripts/system_stack_tbd/need_to_distribute/aligned_agent_import.py"
+  },
+  {
+    "args": [
+      "update"
+    ],
+    "function": "update_latest_entry",
+    "line": 264,
+    "script": "_Dev_Resources/Dev_Scripts/system_stack_tbd/need_to_distribute/aligned_agent_import.py"
+  },
+  {
+    "args": [
+      "run_probe",
+      "pin_sha",
+      "pin_note",
+      "allow_dirty",
+      "allow_git"
+    ],
+    "function": "main",
+    "line": 278,
+    "script": "_Dev_Resources/Dev_Scripts/system_stack_tbd/need_to_distribute/aligned_agent_import.py"
+  },
+  {
+    "args": [],
+    "function": "_parse_args",
+    "line": 17,
+    "script": "_Dev_Resources/Dev_Scripts/system_stack_tbd/need_to_distribute/archive_planner_digests.py"
+  },
+  {
+    "args": [],
+    "function": "_ensure_repo_on_path",
+    "line": 34,
+    "script": "_Dev_Resources/Dev_Scripts/system_stack_tbd/need_to_distribute/archive_planner_digests.py"
+  },
+  {
+    "args": [],
+    "function": "main",
+    "line": 40,
+    "script": "_Dev_Resources/Dev_Scripts/system_stack_tbd/need_to_distribute/archive_planner_digests.py"
+  },
+  {
+    "args": [
+      "repo_root"
+    ],
+    "function": "_logos_state_dir",
+    "line": 28,
+    "script": "_Dev_Resources/Dev_Scripts/system_stack_tbd/need_to_distribute/boot_aligned_agent.py"
+  },
+  {
+    "args": [
+      "repo_root"
+    ],
+    "function": "_attestation_path",
+    "line": 37,
+    "script": "_Dev_Resources/Dev_Scripts/system_stack_tbd/need_to_distribute/boot_aligned_agent.py"
+  },
+  {
+    "args": [],
+    "function": "verify_agent_identity",
+    "line": 54,
+    "script": "_Dev_Resources/Dev_Scripts/system_stack_tbd/need_to_distribute/boot_aligned_agent.py"
+  },
+  {
+    "args": [
+      "cmd",
+      "cwd"
+    ],
+    "function": "_run_stream",
+    "line": 64,
+    "script": "_Dev_Resources/Dev_Scripts/system_stack_tbd/need_to_distribute/boot_aligned_agent.py"
+  },
+  {
+    "args": [
+      "vernac"
+    ],
+    "function": "_coqtop_script",
+    "line": 77,
+    "script": "_Dev_Resources/Dev_Scripts/system_stack_tbd/need_to_distribute/boot_aligned_agent.py"
+  },
+  {
+    "args": [
+      "transcript"
+    ],
+    "function": "_parse_assumptions",
+    "line": 103,
+    "script": "_Dev_Resources/Dev_Scripts/system_stack_tbd/need_to_distribute/boot_aligned_agent.py"
+  },
+  {
+    "args": [
+      "paths"
+    ],
+    "function": "_scan_for_admitted",
+    "line": 118,
+    "script": "_Dev_Resources/Dev_Scripts/system_stack_tbd/need_to_distribute/boot_aligned_agent.py"
+  },
+  {
+    "args": [],
+    "function": "verify_internal_lem",
+    "line": 134,
+    "script": "_Dev_Resources/Dev_Scripts/system_stack_tbd/need_to_distribute/boot_aligned_agent.py"
+  },
+  {
+    "args": [
+      "self"
+    ],
+    "function": "write",
+    "line": 188,
+    "script": "_Dev_Resources/Dev_Scripts/system_stack_tbd/need_to_distribute/boot_aligned_agent.py"
+  },
+  {
+    "args": [
+      "cls"
+    ],
+    "function": "create",
+    "line": 255,
+    "script": "_Dev_Resources/Dev_Scripts/system_stack_tbd/need_to_distribute/boot_aligned_agent.py"
+  },
+  {
+    "args": [
+      "self"
+    ],
+    "function": "boot",
+    "line": 259,
+    "script": "_Dev_Resources/Dev_Scripts/system_stack_tbd/need_to_distribute/boot_aligned_agent.py"
+  },
+  {
+    "args": [
+      "self"
+    ],
+    "function": "unlock_if_aligned",
+    "line": 266,
+    "script": "_Dev_Resources/Dev_Scripts/system_stack_tbd/need_to_distribute/boot_aligned_agent.py"
+  },
+  {
+    "args": [
+      "self"
+    ],
+    "function": "status",
+    "line": 310,
+    "script": "_Dev_Resources/Dev_Scripts/system_stack_tbd/need_to_distribute/boot_aligned_agent.py"
+  },
+  {
+    "args": [],
+    "function": "main",
+    "line": 314,
+    "script": "_Dev_Resources/Dev_Scripts/system_stack_tbd/need_to_distribute/boot_aligned_agent.py"
+  },
+  {
+    "args": [
+      "data"
+    ],
+    "function": "canonical_json_hash",
+    "line": 12,
+    "script": "_Dev_Resources/Dev_Scripts/system_stack_tbd/need_to_distribute/build_coq_theorem_index.py"
+  },
+  {
+    "args": [
+      "statement"
+    ],
+    "function": "normalize_statement",
+    "line": 18,
+    "script": "_Dev_Resources/Dev_Scripts/system_stack_tbd/need_to_distribute/build_coq_theorem_index.py"
+  },
+  {
+    "args": [
+      "file_path",
+      "theorem_name"
+    ],
+    "function": "extract_theorem_statement",
+    "line": 24,
+    "script": "_Dev_Resources/Dev_Scripts/system_stack_tbd/need_to_distribute/build_coq_theorem_index.py"
+  },
+  {
+    "args": [],
+    "function": "main",
+    "line": 61,
+    "script": "_Dev_Resources/Dev_Scripts/system_stack_tbd/need_to_distribute/build_coq_theorem_index.py"
+  },
+  {
+    "args": [
+      "path"
+    ],
+    "function": "_sha256_file",
+    "line": 13,
+    "script": "_Dev_Resources/Dev_Scripts/system_stack_tbd/need_to_distribute/cycle_ledger.py"
+  },
+  {
+    "args": [
+      "raw_path",
+      "repo_root"
+    ],
+    "function": "_normalize_path",
+    "line": 23,
+    "script": "_Dev_Resources/Dev_Scripts/system_stack_tbd/need_to_distribute/cycle_ledger.py"
+  },
+  {
+    "args": [
+      "promotion_outcomes",
+      "repo_root"
+    ],
+    "function": "_collect_bundle_hashes",
+    "line": 30,
+    "script": "_Dev_Resources/Dev_Scripts/system_stack_tbd/need_to_distribute/cycle_ledger.py"
+  },
+  {
+    "args": [
+      "steps"
+    ],
+    "function": "_sanitize_steps",
+    "line": 60,
+    "script": "_Dev_Resources/Dev_Scripts/system_stack_tbd/need_to_distribute/cycle_ledger.py"
+  },
+  {
+    "args": [
+      "outcomes"
+    ],
+    "function": "_sanitize_outcomes",
+    "line": 74,
+    "script": "_Dev_Resources/Dev_Scripts/system_stack_tbd/need_to_distribute/cycle_ledger.py"
+  },
+  {
+    "args": [],
+    "function": "write_cycle_ledger",
+    "line": 93,
+    "script": "_Dev_Resources/Dev_Scripts/system_stack_tbd/need_to_distribute/cycle_ledger.py"
+  },
+  {
+    "args": [
+      "path"
+    ],
+    "function": "_as_posix",
+    "line": 15,
+    "script": "_Dev_Resources/Dev_Scripts/system_stack_tbd/need_to_distribute/evidence.py"
+  },
+  {
+    "args": [
+      "ref"
+    ],
+    "function": "validate_evidence_ref",
+    "line": 19,
+    "script": "_Dev_Resources/Dev_Scripts/system_stack_tbd/need_to_distribute/evidence.py"
+  },
+  {
+    "args": [
+      "ref"
+    ],
+    "function": "_sort_key",
+    "line": 72,
+    "script": "_Dev_Resources/Dev_Scripts/system_stack_tbd/need_to_distribute/evidence.py"
+  },
+  {
+    "args": [
+      "refs"
+    ],
+    "function": "normalize_evidence_refs",
+    "line": 93,
+    "script": "_Dev_Resources/Dev_Scripts/system_stack_tbd/need_to_distribute/evidence.py"
+  },
+  {
+    "args": [
+      "ref"
+    ],
+    "function": "evidence_to_citation_string",
+    "line": 111,
+    "script": "_Dev_Resources/Dev_Scripts/system_stack_tbd/need_to_distribute/evidence.py"
+  },
+  {
+    "args": [
+      "ref",
+      "theorem_index"
+    ],
+    "function": "is_proved_reference",
+    "line": 131,
+    "script": "_Dev_Resources/Dev_Scripts/system_stack_tbd/need_to_distribute/evidence.py"
+  },
+  {
+    "args": [
+      "agent",
+      "identity"
+    ],
+    "function": "register_agent",
+    "line": 13,
+    "script": "_Dev_Resources/Dev_Scripts/system_stack_tbd/need_to_distribute/example_connector.py"
+  },
+  {
+    "args": [],
+    "function": "_ensure_scripts_importable",
+    "line": 14,
+    "script": "_Dev_Resources/Dev_Scripts/system_stack_tbd/need_to_distribute/export_tool_registry.py"
+  },
+  {
+    "args": [],
+    "function": "_load_tools",
+    "line": 21,
+    "script": "_Dev_Resources/Dev_Scripts/system_stack_tbd/need_to_distribute/export_tool_registry.py"
+  },
+  {
+    "args": [
+      "tool_id",
+      "tool"
+    ],
+    "function": "_tool_metadata",
+    "line": 32,
+    "script": "_Dev_Resources/Dev_Scripts/system_stack_tbd/need_to_distribute/export_tool_registry.py"
+  },
+  {
+    "args": [
+      "value"
+    ],
+    "function": "_normalize",
+    "line": 33,
+    "script": "_Dev_Resources/Dev_Scripts/system_stack_tbd/need_to_distribute/export_tool_registry.py"
+  },
+  {
+    "args": [
+      "entries",
+      "target"
+    ],
+    "function": "_write_json",
+    "line": 62,
+    "script": "_Dev_Resources/Dev_Scripts/system_stack_tbd/need_to_distribute/export_tool_registry.py"
+  },
+  {
+    "args": [
+      "entries",
+      "target"
+    ],
+    "function": "_write_markdown",
+    "line": 66,
+    "script": "_Dev_Resources/Dev_Scripts/system_stack_tbd/need_to_distribute/export_tool_registry.py"
+  },
+  {
+    "args": [
+      "argv"
+    ],
+    "function": "main",
+    "line": 103,
+    "script": "_Dev_Resources/Dev_Scripts/system_stack_tbd/need_to_distribute/export_tool_registry.py"
+  },
+  {
+    "args": [
+      "_path"
+    ],
+    "function": "load_metrics",
+    "line": 17,
+    "script": "_Dev_Resources/Dev_Scripts/system_stack_tbd/need_to_distribute/logos_agi_adapter.py"
+  },
+  {
+    "args": [
+      "proposals",
+      "_obj_class",
+      "_metrics"
+    ],
+    "function": "choose_best",
+    "line": 20,
+    "script": "_Dev_Resources/Dev_Scripts/system_stack_tbd/need_to_distribute/logos_agi_adapter.py"
+  },
+  {
+    "args": [
+      "obj"
+    ],
+    "function": "normalize_objective_class",
+    "line": 23,
+    "script": "_Dev_Resources/Dev_Scripts/system_stack_tbd/need_to_distribute/logos_agi_adapter.py"
+  },
+  {
+    "args": [
+      "state"
+    ],
+    "function": "init_working_memory",
+    "line": 38,
+    "script": "_Dev_Resources/Dev_Scripts/system_stack_tbd/need_to_distribute/logos_agi_adapter.py"
+  },
+  {
+    "args": [
+      "state",
+      "item"
+    ],
+    "function": "add_memory_item",
+    "line": 41,
+    "script": "_Dev_Resources/Dev_Scripts/system_stack_tbd/need_to_distribute/logos_agi_adapter.py"
+  },
+  {
+    "args": [
+      "state"
+    ],
+    "function": "decay_and_promote",
+    "line": 44,
+    "script": "_Dev_Resources/Dev_Scripts/system_stack_tbd/need_to_distribute/logos_agi_adapter.py"
+  },
+  {
+    "args": [
+      "state",
+      "obj_class",
+      "k",
+      "include_contradicted"
+    ],
+    "function": "recall",
+    "line": 47,
+    "script": "_Dev_Resources/Dev_Scripts/system_stack_tbd/need_to_distribute/logos_agi_adapter.py"
+  },
+  {
+    "args": [
+      "source",
+      "content",
+      "objective_tags"
+    ],
+    "function": "stable_item_id",
+    "line": 50,
+    "script": "_Dev_Resources/Dev_Scripts/system_stack_tbd/need_to_distribute/logos_agi_adapter.py"
+  },
+  {
+    "args": [
+      "truth",
+      "source",
+      "content"
+    ],
+    "function": "calculate_initial_salience",
+    "line": 53,
+    "script": "_Dev_Resources/Dev_Scripts/system_stack_tbd/need_to_distribute/logos_agi_adapter.py"
+  },
+  {
+    "args": [
+      "path"
+    ],
+    "function": "load_theorem_index",
+    "line": 62,
+    "script": "_Dev_Resources/Dev_Scripts/system_stack_tbd/need_to_distribute/logos_agi_adapter.py"
+  },
+  {
+    "args": [
+      "annotation",
+      "index"
+    ],
+    "function": "enforce_truth_annotation",
+    "line": 65,
+    "script": "_Dev_Resources/Dev_Scripts/system_stack_tbd/need_to_distribute/logos_agi_adapter.py"
+  },
+  {
+    "args": [
+      "annotation"
+    ],
+    "function": "validate_truth_annotation",
+    "line": 68,
+    "script": "_Dev_Resources/Dev_Scripts/system_stack_tbd/need_to_distribute/logos_agi_adapter.py"
+  },
+  {
+    "args": [
+      "proposals",
+      "obj_class",
+      "beliefs"
+    ],
+    "function": "apply_belief_policy",
+    "line": 76,
+    "script": "_Dev_Resources/Dev_Scripts/system_stack_tbd/need_to_distribute/logos_agi_adapter.py"
+  },
+  {
+    "args": [
+      "state"
+    ],
+    "function": "init_beliefs_container",
+    "line": 80,
+    "script": "_Dev_Resources/Dev_Scripts/system_stack_tbd/need_to_distribute/logos_agi_adapter.py"
+  },
+  {
+    "args": [
+      "state"
+    ],
+    "function": "consolidate_beliefs",
+    "line": 85,
+    "script": "_Dev_Resources/Dev_Scripts/system_stack_tbd/need_to_distribute/logos_agi_adapter.py"
+  },
+  {
+    "args": [
+      "state",
+      "beliefs"
+    ],
+    "function": "apply_plan_revision",
+    "line": 155,
+    "script": "_Dev_Resources/Dev_Scripts/system_stack_tbd/need_to_distribute/logos_agi_adapter.py"
+  },
+  {
+    "args": [
+      "beliefs",
+      "obj_class"
+    ],
+    "function": "get_belief_summary",
+    "line": 191,
+    "script": "_Dev_Resources/Dev_Scripts/system_stack_tbd/need_to_distribute/logos_agi_adapter.py"
+  },
+  {
+    "args": [
+      "self"
+    ],
+    "function": "__init__",
+    "line": 198,
+    "script": "_Dev_Resources/Dev_Scripts/system_stack_tbd/need_to_distribute/logos_agi_adapter.py"
+  },
+  {
+    "args": [
+      "self"
+    ],
+    "function": "__init__",
+    "line": 216,
+    "script": "_Dev_Resources/Dev_Scripts/system_stack_tbd/need_to_distribute/logos_agi_adapter.py"
+  },
+  {
+    "args": [
+      "self"
+    ],
+    "function": "bootstrap",
+    "line": 252,
+    "script": "_Dev_Resources/Dev_Scripts/system_stack_tbd/need_to_distribute/logos_agi_adapter.py"
+  },
+  {
+    "args": [
+      "self"
+    ],
+    "function": "_bootstrap_real",
+    "line": 299,
+    "script": "_Dev_Resources/Dev_Scripts/system_stack_tbd/need_to_distribute/logos_agi_adapter.py"
+  },
+  {
+    "args": [
+      "self",
+      "request_id",
+      "operation",
+      "payload"
+    ],
+    "function": "__init__",
+    "line": 327,
+    "script": "_Dev_Resources/Dev_Scripts/system_stack_tbd/need_to_distribute/logos_agi_adapter.py"
+  },
+  {
+    "args": [
+      "self"
+    ],
+    "function": "_load_persisted_state",
+    "line": 338,
+    "script": "_Dev_Resources/Dev_Scripts/system_stack_tbd/need_to_distribute/logos_agi_adapter.py"
+  },
+  {
+    "args": [
+      "self",
+      "history_scored"
+    ],
+    "function": "refresh_plan_history",
+    "line": 436,
+    "script": "_Dev_Resources/Dev_Scripts/system_stack_tbd/need_to_distribute/logos_agi_adapter.py"
+  },
+  {
+    "args": [
+      "self",
+      "tool",
+      "args",
+      "status",
+      "objective"
+    ],
+    "function": "record_tool_result",
+    "line": 494,
+    "script": "_Dev_Resources/Dev_Scripts/system_stack_tbd/need_to_distribute/logos_agi_adapter.py"
+  },
+  {
+    "args": [
+      "self"
+    ],
+    "function": "get_memory_summary",
+    "line": 538,
+    "script": "_Dev_Resources/Dev_Scripts/system_stack_tbd/need_to_distribute/logos_agi_adapter.py"
+  },
+  {
+    "args": [
+      "self",
+      "observation"
+    ],
+    "function": "observe",
+    "line": 553,
+    "script": "_Dev_Resources/Dev_Scripts/system_stack_tbd/need_to_distribute/logos_agi_adapter.py"
+  },
+  {
+    "args": [
+      "self",
+      "objective",
+      "constraints"
+    ],
+    "function": "propose",
+    "line": 629,
+    "script": "_Dev_Resources/Dev_Scripts/system_stack_tbd/need_to_distribute/logos_agi_adapter.py"
+  },
+  {
+    "args": [
+      "self",
+      "objective",
+      "constraints"
+    ],
+    "function": "propose_plan",
+    "line": 892,
+    "script": "_Dev_Resources/Dev_Scripts/system_stack_tbd/need_to_distribute/logos_agi_adapter.py"
+  },
+  {
+    "args": [
+      "self"
+    ],
+    "function": "persist",
+    "line": 1058,
+    "script": "_Dev_Resources/Dev_Scripts/system_stack_tbd/need_to_distribute/logos_agi_adapter.py"
+  },
+  {
+    "args": [
+      "self",
+      "request_id",
+      "operation",
+      "payload"
+    ],
+    "function": "__init__",
+    "line": 1132,
+    "script": "_Dev_Resources/Dev_Scripts/system_stack_tbd/need_to_distribute/logos_agi_adapter.py"
+  },
+  {
+    "args": [
+      "self"
+    ],
+    "function": "health",
+    "line": 1205,
+    "script": "_Dev_Resources/Dev_Scripts/system_stack_tbd/need_to_distribute/logos_agi_adapter.py"
+  },
+  {
+    "args": [],
+    "function": "_repo_sha",
+    "line": 17,
+    "script": "_Dev_Resources/Dev_Scripts/system_stack_tbd/need_to_distribute/nexus_manager.py"
+  },
+  {
+    "args": [
+      "self",
+      "max_sessions",
+      "ttl_seconds"
+    ],
+    "function": "__init__",
+    "line": 32,
+    "script": "_Dev_Resources/Dev_Scripts/system_stack_tbd/need_to_distribute/nexus_manager.py"
+  },
+  {
+    "args": [
+      "self"
+    ],
+    "function": "_evict_expired",
+    "line": 38,
+    "script": "_Dev_Resources/Dev_Scripts/system_stack_tbd/need_to_distribute/nexus_manager.py"
+  },
+  {
+    "args": [
+      "self",
+      "session_id",
+      "mode",
+      "max_compute_ms",
+      "audit_logger"
+    ],
+    "function": "get",
+    "line": 48,
+    "script": "_Dev_Resources/Dev_Scripts/system_stack_tbd/need_to_distribute/nexus_manager.py"
+  },
+  {
+    "args": [
+      "self"
+    ],
+    "function": "debug_snapshot",
+    "line": 68,
+    "script": "_Dev_Resources/Dev_Scripts/system_stack_tbd/need_to_distribute/nexus_manager.py"
+  },
+  {
+    "args": [
+      "self"
+    ],
+    "function": "check_privation_optimization",
+    "line": 26,
+    "script": "_Dev_Resources/Dev_Scripts/system_stack_tbd/need_to_distribute/privative_dual_bijection_kernel.py"
+  },
+  {
+    "args": [
+      "self",
+      "agent_id"
+    ],
+    "function": "__init__",
+    "line": 46,
+    "script": "_Dev_Resources/Dev_Scripts/system_stack_tbd/need_to_distribute/privative_dual_bijection_kernel.py"
+  },
+  {
+    "args": [
+      "self"
+    ],
+    "function": "initialize_agent",
+    "line": 68,
+    "script": "_Dev_Resources/Dev_Scripts/system_stack_tbd/need_to_distribute/privative_dual_bijection_kernel.py"
+  },
+  {
+    "args": [
+      "self",
+      "name",
+      "value",
+      "reason"
+    ],
+    "function": "update_positive_element",
+    "line": 72,
+    "script": "_Dev_Resources/Dev_Scripts/system_stack_tbd/need_to_distribute/privative_dual_bijection_kernel.py"
+  },
+  {
+    "args": [],
+    "function": "read_audit_entries",
+    "line": 104,
+    "script": "_Dev_Resources/Dev_Scripts/system_stack_tbd/need_to_distribute/protocol_probe.py"
+  },
+  {
+    "args": [
+      "entries"
+    ],
+    "function": "write_audit_entries",
+    "line": 118,
+    "script": "_Dev_Resources/Dev_Scripts/system_stack_tbd/need_to_distribute/protocol_probe.py"
+  },
+  {
+    "args": [
+      "package"
+    ],
+    "function": "discover_submodules",
+    "line": 126,
+    "script": "_Dev_Resources/Dev_Scripts/system_stack_tbd/need_to_distribute/protocol_probe.py"
+  },
+  {
+    "args": [
+      "value"
+    ],
+    "function": "format_call_result",
+    "line": 145,
+    "script": "_Dev_Resources/Dev_Scripts/system_stack_tbd/need_to_distribute/protocol_probe.py"
+  },
+  {
+    "args": [
+      "obj",
+      "name",
+      "timeout"
+    ],
+    "function": "safe_call",
+    "line": 154,
+    "script": "_Dev_Resources/Dev_Scripts/system_stack_tbd/need_to_distribute/protocol_probe.py"
+  },
+  {
+    "args": [
+      "call_result"
+    ],
+    "function": "interpret_hook_output",
+    "line": 175,
+    "script": "_Dev_Resources/Dev_Scripts/system_stack_tbd/need_to_distribute/protocol_probe.py"
+  },
+  {
+    "args": [
+      "module_name",
+      "functions"
+    ],
+    "function": "probe_module",
+    "line": 185,
+    "script": "_Dev_Resources/Dev_Scripts/system_stack_tbd/need_to_distribute/protocol_probe.py"
+  },
+  {
+    "args": [
+      "package",
+      "submodules"
+    ],
+    "function": "probe_package",
+    "line": 224,
+    "script": "_Dev_Resources/Dev_Scripts/system_stack_tbd/need_to_distribute/protocol_probe.py"
+  },
+  {
+    "args": [
+      "discover",
+      "allow_hooks",
+      "timeout",
+      "discovery_modules",
+      "discovery_errors"
+    ],
+    "function": "scp_deep_probe",
+    "line": 285,
+    "script": "_Dev_Resources/Dev_Scripts/system_stack_tbd/need_to_distribute/protocol_probe.py"
+  },
+  {
+    "args": [],
+    "function": "have_pydantic",
+    "line": 315,
+    "script": "_Dev_Resources/Dev_Scripts/system_stack_tbd/need_to_distribute/protocol_probe.py"
+  },
+  {
+    "args": [
+      "allow_hooks",
+      "timeout"
+    ],
+    "function": "nudge_from_uip_arp",
+    "line": 323,
+    "script": "_Dev_Resources/Dev_Scripts/system_stack_tbd/need_to_distribute/protocol_probe.py"
+  },
+  {
+    "args": [
+      "results"
+    ],
+    "function": "attach_probe_results",
+    "line": 350,
+    "script": "_Dev_Resources/Dev_Scripts/system_stack_tbd/need_to_distribute/protocol_probe.py"
+  },
+  {
+    "args": [
+      "argv"
+    ],
+    "function": "main",
+    "line": 365,
+    "script": "_Dev_Resources/Dev_Scripts/system_stack_tbd/need_to_distribute/protocol_probe.py"
+  },
+  {
+    "args": [],
+    "function": "_load_runtime_dependencies",
+    "line": 17,
+    "script": "_Dev_Resources/Dev_Scripts/system_stack_tbd/need_to_distribute/prototype_grounding_workflow.py"
+  },
+  {
+    "args": [],
+    "function": "_alignment_history",
+    "line": 43,
+    "script": "_Dev_Resources/Dev_Scripts/system_stack_tbd/need_to_distribute/prototype_grounding_workflow.py"
+  },
+  {
+    "args": [],
+    "function": "_alignment_status",
+    "line": 57,
+    "script": "_Dev_Resources/Dev_Scripts/system_stack_tbd/need_to_distribute/prototype_grounding_workflow.py"
+  },
+  {
+    "args": [
+      "entry"
+    ],
+    "function": "_format_alignment_entry",
+    "line": 85,
+    "script": "_Dev_Resources/Dev_Scripts/system_stack_tbd/need_to_distribute/prototype_grounding_workflow.py"
+  },
+  {
+    "args": [
+      "actions"
+    ],
+    "function": "_format_actions",
+    "line": 96,
+    "script": "_Dev_Resources/Dev_Scripts/system_stack_tbd/need_to_distribute/prototype_grounding_workflow.py"
+  },
+  {
+    "args": [
+      "broker",
+      "stage"
+    ],
+    "function": "_print_health",
+    "line": 104,
+    "script": "_Dev_Resources/Dev_Scripts/system_stack_tbd/need_to_distribute/prototype_grounding_workflow.py"
+  },
+  {
+    "args": [
+      "broker"
+    ],
+    "function": "_print_trace_digest",
+    "line": 117,
+    "script": "_Dev_Resources/Dev_Scripts/system_stack_tbd/need_to_distribute/prototype_grounding_workflow.py"
+  },
+  {
+    "args": [],
+    "function": "main",
+    "line": 140,
+    "script": "_Dev_Resources/Dev_Scripts/system_stack_tbd/need_to_distribute/prototype_grounding_workflow.py"
+  },
+  {
+    "args": [
+      "args",
+      "cwd"
+    ],
+    "function": "run_git",
+    "line": 24,
+    "script": "_Dev_Resources/Dev_Scripts/system_stack_tbd/need_to_distribute/provenance.py"
+  },
+  {
+    "args": [
+      "repo_dir"
+    ],
+    "function": "get_git_head_sha",
+    "line": 32,
+    "script": "_Dev_Resources/Dev_Scripts/system_stack_tbd/need_to_distribute/provenance.py"
+  },
+  {
+    "args": [
+      "repo_dir"
+    ],
+    "function": "is_git_dirty",
+    "line": 37,
+    "script": "_Dev_Resources/Dev_Scripts/system_stack_tbd/need_to_distribute/provenance.py"
+  },
+  {
+    "args": [
+      "repo_dir",
+      "ref"
+    ],
+    "function": "resolve_ref",
+    "line": 43,
+    "script": "_Dev_Resources/Dev_Scripts/system_stack_tbd/need_to_distribute/provenance.py"
+  },
+  {
+    "args": [
+      "pin_path"
+    ],
+    "function": "load_pin",
+    "line": 48,
+    "script": "_Dev_Resources/Dev_Scripts/system_stack_tbd/need_to_distribute/provenance.py"
+  },
+  {
+    "args": [
+      "pin_path",
+      "pinned_sha",
+      "note",
+      "allow_dirty"
+    ],
+    "function": "write_pin",
+    "line": 71,
+    "script": "_Dev_Resources/Dev_Scripts/system_stack_tbd/need_to_distribute/provenance.py"
+  },
+  {
+    "args": [
+      "repo_dir",
+      "pin"
+    ],
+    "function": "verify_pinned_repo",
+    "line": 89,
+    "script": "_Dev_Resources/Dev_Scripts/system_stack_tbd/need_to_distribute/provenance.py"
+  },
+  {
+    "args": [],
+    "function": "_ensure_sandbox",
+    "line": 51,
+    "script": "_Dev_Resources/Dev_Scripts/system_stack_tbd/need_to_distribute/run_recursive_immersion_cycle.py"
+  },
+  {
+    "args": [
+      "system_prompt",
+      "user_prompt"
+    ],
+    "function": "call_logos",
+    "line": 269,
+    "script": "_Dev_Resources/Dev_Scripts/system_stack_tbd/need_to_distribute/run_recursive_immersion_cycle.py"
+  },
+  {
+    "args": [
+      "raw"
+    ],
+    "function": "parse_structured_response",
+    "line": 349,
+    "script": "_Dev_Resources/Dev_Scripts/system_stack_tbd/need_to_distribute/run_recursive_immersion_cycle.py"
+  },
+  {
+    "args": [
+      "parsed",
+      "raw"
+    ],
+    "function": "compute_metrics",
+    "line": 377,
+    "script": "_Dev_Resources/Dev_Scripts/system_stack_tbd/need_to_distribute/run_recursive_immersion_cycle.py"
+  },
+  {
+    "args": [
+      "obj"
+    ],
+    "function": "canonical_bytes",
+    "line": 412,
+    "script": "_Dev_Resources/Dev_Scripts/system_stack_tbd/need_to_distribute/run_recursive_immersion_cycle.py"
+  },
+  {
+    "args": [
+      "obj"
+    ],
+    "function": "sha256_hex",
+    "line": 420,
+    "script": "_Dev_Resources/Dev_Scripts/system_stack_tbd/need_to_distribute/run_recursive_immersion_cycle.py"
+  },
+  {
+    "args": [
+      "cycle_id"
+    ],
+    "function": "run_cycle",
+    "line": 429,
+    "script": "_Dev_Resources/Dev_Scripts/system_stack_tbd/need_to_distribute/run_recursive_immersion_cycle.py"
+  },
+  {
+    "args": [],
+    "function": "parse_args",
+    "line": 492,
+    "script": "_Dev_Resources/Dev_Scripts/system_stack_tbd/need_to_distribute/run_recursive_immersion_cycle.py"
+  },
+  {
+    "args": [],
+    "function": "main",
+    "line": 509,
+    "script": "_Dev_Resources/Dev_Scripts/system_stack_tbd/need_to_distribute/run_recursive_immersion_cycle.py"
+  },
+  {
+    "args": [],
+    "function": "scan_coq_files",
+    "line": 21,
+    "script": "_Dev_Resources/Dev_Scripts/system_stack_tbd/need_to_distribute/scan_repo.py"
+  },
+  {
+    "args": [],
+    "function": "scan_python_scripts",
+    "line": 59,
+    "script": "_Dev_Resources/Dev_Scripts/system_stack_tbd/need_to_distribute/scan_repo.py"
+  },
+  {
+    "args": [],
+    "function": "scan_documentation",
+    "line": 95,
+    "script": "_Dev_Resources/Dev_Scripts/system_stack_tbd/need_to_distribute/scan_repo.py"
+  },
+  {
+    "args": [],
+    "function": "get_repo_structure",
+    "line": 130,
+    "script": "_Dev_Resources/Dev_Scripts/system_stack_tbd/need_to_distribute/scan_repo.py"
+  },
+  {
+    "args": [],
+    "function": "run_verification_commands",
+    "line": 173,
+    "script": "_Dev_Resources/Dev_Scripts/system_stack_tbd/need_to_distribute/scan_repo.py"
+  },
+  {
+    "args": [],
+    "function": "build_knowledge_base",
+    "line": 204,
+    "script": "_Dev_Resources/Dev_Scripts/system_stack_tbd/need_to_distribute/scan_repo.py"
+  },
+  {
+    "args": [],
+    "function": "main",
+    "line": 226,
+    "script": "_Dev_Resources/Dev_Scripts/system_stack_tbd/need_to_distribute/scan_repo.py"
+  },
+  {
+    "args": [],
+    "function": "_resolve_logos_agi_components",
+    "line": 33,
+    "script": "_Dev_Resources/Dev_Scripts/system_stack_tbd/need_to_distribute/scp_local_diagnostic.py"
+  },
+  {
+    "args": [
+      "path",
+      "keep"
+    ],
+    "function": "_tail",
+    "line": 123,
+    "script": "_Dev_Resources/Dev_Scripts/system_stack_tbd/need_to_distribute/scp_local_diagnostic.py"
+  },
+  {
+    "args": [],
+    "function": "parse_args",
+    "line": 191,
+    "script": "_Dev_Resources/Dev_Scripts/system_stack_tbd/need_to_distribute/scp_local_diagnostic.py"
+  },
+  {
+    "args": [],
+    "function": "main",
+    "line": 210,
+    "script": "_Dev_Resources/Dev_Scripts/system_stack_tbd/need_to_distribute/scp_local_diagnostic.py"
+  },
+  {
+    "args": [],
+    "function": "_build_fallback_shared_resources",
+    "line": 38,
+    "script": "_Dev_Resources/Dev_Scripts/system_stack_tbd/need_to_distribute/stress_sop_runtime.py"
+  },
+  {
+    "args": [
+      "self"
+    ],
+    "function": "__init__",
+    "line": 43,
+    "script": "_Dev_Resources/Dev_Scripts/system_stack_tbd/need_to_distribute/stress_sop_runtime.py"
+  },
+  {
+    "args": [
+      "self",
+      "path"
+    ],
+    "function": "configure_runtime_state_dir",
+    "line": 47,
+    "script": "_Dev_Resources/Dev_Scripts/system_stack_tbd/need_to_distribute/stress_sop_runtime.py"
+  },
+  {
+    "args": [
+      "self",
+      "name"
+    ],
+    "function": "runtime_log_path",
+    "line": 53,
+    "script": "_Dev_Resources/Dev_Scripts/system_stack_tbd/need_to_distribute/stress_sop_runtime.py"
+  },
+  {
+    "args": [
+      "path",
+      "keep"
+    ],
+    "function": "_tail_jsonl",
+    "line": 139,
+    "script": "_Dev_Resources/Dev_Scripts/system_stack_tbd/need_to_distribute/stress_sop_runtime.py"
+  },
+  {
+    "args": [
+      "path",
+      "since"
+    ],
+    "function": "_load_jsonl_since",
+    "line": 157,
+    "script": "_Dev_Resources/Dev_Scripts/system_stack_tbd/need_to_distribute/stress_sop_runtime.py"
+  },
+  {
+    "args": [],
+    "function": "_prepare_run_directory",
+    "line": 176,
+    "script": "_Dev_Resources/Dev_Scripts/system_stack_tbd/need_to_distribute/stress_sop_runtime.py"
+  },
+  {
+    "args": [
+      "path"
+    ],
+    "function": "_summarize_log_file",
+    "line": 190,
+    "script": "_Dev_Resources/Dev_Scripts/system_stack_tbd/need_to_distribute/stress_sop_runtime.py"
+  },
+  {
+    "args": [],
+    "function": "parse_args",
+    "line": 406,
+    "script": "_Dev_Resources/Dev_Scripts/system_stack_tbd/need_to_distribute/stress_sop_runtime.py"
+  },
+  {
+    "args": [],
+    "function": "main",
+    "line": 445,
+    "script": "_Dev_Resources/Dev_Scripts/system_stack_tbd/need_to_distribute/stress_sop_runtime.py"
+  },
+  {
+    "args": [],
+    "function": "main",
+    "line": 13,
+    "script": "_Dev_Resources/Dev_Scripts/system_stack_tbd/need_to_distribute/test_belief_quarantine_persistence.py"
+  },
+  {
+    "args": [],
+    "function": "test_belief_policy",
+    "line": 14,
+    "script": "_Dev_Resources/Dev_Scripts/system_stack_tbd/need_to_distribute/test_belief_tool_policy.py"
+  },
+  {
+    "args": [],
+    "function": "_build_advisor",
+    "line": 19,
+    "script": "_Dev_Resources/Dev_Scripts/system_stack_tbd/need_to_distribute/test_grounded_reply_enforcement.py"
+  },
+  {
+    "args": [],
+    "function": "main",
+    "line": 24,
+    "script": "_Dev_Resources/Dev_Scripts/system_stack_tbd/need_to_distribute/test_grounded_reply_enforcement.py"
+  },
+  {
+    "args": [
+      "self"
+    ],
+    "function": "test_refresh_reorders_candidates_in_process",
+    "line": 22,
+    "script": "_Dev_Resources/Dev_Scripts/system_stack_tbd/need_to_distribute/test_plan_history_inprocess_refresh.py"
+  },
+  {
+    "args": [],
+    "function": "select_best_plan_id",
+    "line": 50,
+    "script": "_Dev_Resources/Dev_Scripts/system_stack_tbd/need_to_distribute/test_plan_history_inprocess_refresh.py"
+  },
+  {
+    "args": [],
+    "function": "main",
+    "line": 11,
+    "script": "_Dev_Resources/Dev_Scripts/system_stack_tbd/need_to_distribute/test_plan_revision_on_contradiction.py"
+  },
+  {
+    "args": [],
+    "function": "main",
+    "line": 18,
+    "script": "_Dev_Resources/Dev_Scripts/system_stack_tbd/need_to_distribute/test_proved_grounding.py"
+  },
+  {
+    "args": [],
+    "function": "main",
+    "line": 17,
+    "script": "_Dev_Resources/Dev_Scripts/system_stack_tbd/need_to_distribute/test_truth_evaluator_ranking.py"
+  },
+  {
+    "args": [
+      "self"
+    ],
+    "function": "__post_init__",
+    "line": 40,
+    "script": "_Dev_Resources/Dev_Scripts/system_utilities/message_formats.py"
+  },
+  {
+    "args": [
+      "self"
+    ],
+    "function": "__post_init__",
+    "line": 52,
+    "script": "_Dev_Resources/Dev_Scripts/system_utilities/message_formats.py"
+  },
+  {
+    "args": [
+      "request"
+    ],
+    "function": "validate_uip_request",
+    "line": 118,
+    "script": "_Dev_Resources/Dev_Scripts/system_utilities/message_formats.py"
+  },
+  {
+    "args": [
+      "response"
+    ],
+    "function": "validate_uip_response",
+    "line": 127,
+    "script": "_Dev_Resources/Dev_Scripts/system_utilities/message_formats.py"
+  },
+  {
+    "args": [
+      "request"
+    ],
+    "function": "validate_sop_request",
+    "line": 140,
+    "script": "_Dev_Resources/Dev_Scripts/system_utilities/message_formats.py"
+  },
+  {
+    "args": [
+      "response"
+    ],
+    "function": "validate_sop_response",
+    "line": 151,
+    "script": "_Dev_Resources/Dev_Scripts/system_utilities/message_formats.py"
+  },
+  {
+    "args": [
+      "message"
+    ],
+    "function": "serialize",
+    "line": 164,
+    "script": "_Dev_Resources/Dev_Scripts/system_utilities/message_formats.py"
+  },
+  {
+    "args": [
+      "json_str",
+      "message_type"
+    ],
+    "function": "deserialize",
+    "line": 180,
+    "script": "_Dev_Resources/Dev_Scripts/system_utilities/message_formats.py"
+  },
+  {
+    "args": [
+      "self"
+    ],
+    "function": "__init__",
+    "line": 192,
+    "script": "_Dev_Resources/Dev_Scripts/system_utilities/message_formats.py"
+  },
+  {
+    "args": [
+      "self",
+      "step",
+      "handler"
+    ],
+    "function": "register_uip_handler",
+    "line": 197,
+    "script": "_Dev_Resources/Dev_Scripts/system_utilities/message_formats.py"
+  },
+  {
+    "args": [
+      "self",
+      "operation",
+      "handler"
+    ],
+    "function": "register_sop_handler",
+    "line": 202,
+    "script": "_Dev_Resources/Dev_Scripts/system_utilities/message_formats.py"
+  },
+  {
+    "args": [],
+    "function": "test_active_mode_initialization",
+    "line": 34,
+    "script": "_Dev_Resources/Dev_Scripts/system_utilities/test_arp_modes.py"
+  },
+  {
+    "args": [],
+    "function": "test_passive_mode_operation",
+    "line": 69,
+    "script": "_Dev_Resources/Dev_Scripts/system_utilities/test_arp_modes.py"
+  },
+  {
+    "args": [],
+    "function": "test_passive_trigger",
+    "line": 94,
+    "script": "_Dev_Resources/Dev_Scripts/system_utilities/test_arp_modes.py"
+  },
+  {
+    "args": [],
+    "function": "test_shutdown_procedure",
+    "line": 137,
+    "script": "_Dev_Resources/Dev_Scripts/system_utilities/test_arp_modes.py"
+  },
+  {
+    "args": [],
+    "function": "test_mode_transitions",
+    "line": 175,
+    "script": "_Dev_Resources/Dev_Scripts/system_utilities/test_arp_modes.py"
+  },
+  {
+    "args": [],
+    "function": "main",
+    "line": 221,
+    "script": "_Dev_Resources/Dev_Scripts/system_utilities/test_arp_modes.py"
+  }
+]

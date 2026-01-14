@@ -1,11 +1,14 @@
+# Original init logic backed up at _reports/Init_Reset_20260114_153126/backup_init/Logos_System/System_Stack/System_Operations_Protocol/code_generator/meta_reasoning/__init__.py
+# Review and restore exports/side effects before enabling package logic.
+
 """
-LOGOS AGI v1.0 Meta-Reasoning Module
+LOGOS normalization stub.
 
-Generates candidate IELs for new domains and maintains a verified IEL registry.
-Enables autonomous reasoning extension while preserving formal verification guarantees.
+This package initializer is intentionally minimal.
+- No imports
+- No side effects
+- No runtime logic
+
+Repopulation of exports/import paths will occur after normalization.
 """
-
-from .iel_generator import IELGenerator
-from .iel_registry import IELRegistry
-
-__all__ = ["IELGenerator", "IELRegistry"]
+__all__ = []

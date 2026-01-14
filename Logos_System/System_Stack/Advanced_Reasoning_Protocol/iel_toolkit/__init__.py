@@ -1,10 +1,14 @@
-# IEL Toolkit Package
-# Tools and utilities for working with Internal Extension Libraries
+# Original init logic backed up at _reports/Init_Reset_20260114_153126/backup_init/Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_toolkit/__init__.py
+# Review and restore exports/side effects before enabling package logic.
 
-from .iel_overlay import IELOverlayEngine as IELOverlay
-from .iel_registry import IELRegistry
+"""
+LOGOS normalization stub.
 
-__all__ = [
-    "IELOverlay",
-    "IELRegistry"
-]
+This package initializer is intentionally minimal.
+- No imports
+- No side effects
+- No runtime logic
+
+Repopulation of exports/import paths will occur after normalization.
+"""
+__all__ = []

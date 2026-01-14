@@ -1,0 +1,1661 @@
+[
+  {
+    "name": "__pycache__",
+    "paths": [
+      "__pycache__",
+      "Logos_System/System_Stack/Advanced_Reasoning_Protocol/__pycache__",
+      "Logos_System/System_Stack/Logos_Protocol/Runtime_Operations/__pycache__",
+      "Logos_System/System_Stack/Logos_Protocol/Logos_Core/__pycache__",
+      "Logos_System/System_Stack/Logos_Protocol/Runtime_Operations/Orchestration/__pycache__",
+      ".venv/lib/python3.12/site-packages/__pycache__",
+      ".venv/lib/python3.12/site-packages/h11/__pycache__",
+      ".venv/lib/python3.12/site-packages/wcwidth/__pycache__",
+      ".venv/lib/python3.12/site-packages/blinker/__pycache__",
+      ".venv/lib/python3.12/site-packages/stack_data/__pycache__",
+      ".venv/lib/python3.12/site-packages/packaging/__pycache__",
+      ".venv/lib/python3.12/site-packages/psutil/__pycache__",
+      ".venv/lib/python3.12/site-packages/parso/__pycache__",
+      ".venv/lib/python3.12/site-packages/iniconfig/__pycache__",
+      ".venv/lib/python3.12/site-packages/pydantic_core/__pycache__",
+      ".venv/lib/python3.12/site-packages/cffi/__pycache__",
+      ".venv/lib/python3.12/site-packages/greenlet/__pycache__",
+      ".venv/lib/python3.12/site-packages/pluggy/__pycache__",
+      ".venv/lib/python3.12/site-packages/itsdangerous/__pycache__",
+      ".venv/lib/python3.12/site-packages/eventlet/__pycache__",
+      ".venv/lib/python3.12/site-packages/tornado/__pycache__",
+      ".venv/lib/python3.12/site-packages/matplotlib_inline/__pycache__",
+      ".venv/lib/python3.12/site-packages/pip/__pycache__",
+      ".venv/lib/python3.12/site-packages/simple_websocket/__pycache__",
+      ".venv/lib/python3.12/site-packages/pycparser/__pycache__",
+      ".venv/lib/python3.12/site-packages/dns/__pycache__",
+      ".venv/lib/python3.12/site-packages/typing_inspection/__pycache__",
+      ".venv/lib/python3.12/site-packages/pytest/__pycache__",
+      ".venv/lib/python3.12/site-packages/numpy/__pycache__",
+      ".venv/lib/python3.12/site-packages/structlog/__pycache__",
+      ".venv/lib/python3.12/site-packages/markupsafe/__pycache__",
+      ".venv/lib/python3.12/site-packages/ipykernel/__pycache__",
+      ".venv/lib/python3.12/site-packages/flask_socketio/__pycache__",
+      ".venv/lib/python3.12/site-packages/_pytest/__pycache__",
+      ".venv/lib/python3.12/site-packages/asttokens/__pycache__",
+      ".venv/lib/python3.12/site-packages/executing/__pycache__",
+      ".venv/lib/python3.12/site-packages/jupyter_client/__pycache__",
+      ".venv/lib/python3.12/site-packages/comm/__pycache__",
+      ".venv/lib/python3.12/site-packages/engineio/__pycache__",
+      ".venv/lib/python3.12/site-packages/pexpect/__pycache__",
+      ".venv/lib/python3.12/site-packages/debugpy/__pycache__",
+      ".venv/lib/python3.12/site-packages/jinja2/__pycache__",
+      ".venv/lib/python3.12/site-packages/pygments/__pycache__",
+      ".venv/lib/python3.12/site-packages/bidict/__pycache__",
+      ".venv/lib/python3.12/site-packages/pydantic/__pycache__",
+      ".venv/lib/python3.12/site-packages/jedi/__pycache__",
+      ".venv/lib/python3.12/site-packages/traitlets/__pycache__",
+      ".venv/lib/python3.12/site-packages/prompt_toolkit/__pycache__",
+      ".venv/lib/python3.12/site-packages/annotated_types/__pycache__",
+      ".venv/lib/python3.12/site-packages/cryptography/__pycache__",
+      ".venv/lib/python3.12/site-packages/prometheus_client/__pycache__",
+      ".venv/lib/python3.12/site-packages/ptyprocess/__pycache__",
+      ".venv/lib/python3.12/site-packages/click/__pycache__",
+      ".venv/lib/python3.12/site-packages/socketio/__pycache__",
+      ".venv/lib/python3.12/site-packages/IPython/__pycache__",
+      ".venv/lib/python3.12/site-packages/wsproto/__pycache__",
+      ".venv/lib/python3.12/site-packages/pure_eval/__pycache__",
+      ".venv/lib/python3.12/site-packages/pytest_asyncio/__pycache__",
+      ".venv/lib/python3.12/site-packages/werkzeug/__pycache__",
+      ".venv/lib/python3.12/site-packages/jupyter_core/__pycache__",
+      ".venv/lib/python3.12/site-packages/zmq/__pycache__",
+      ".venv/lib/python3.12/site-packages/flask/__pycache__",
+      ".venv/lib/python3.12/site-packages/tenacity/__pycache__",
+      ".venv/lib/python3.12/site-packages/platformdirs/__pycache__",
+      ".venv/lib/python3.12/site-packages/dateutil/__pycache__",
+      ".venv/lib/python3.12/site-packages/packaging/licenses/__pycache__",
+      ".venv/lib/python3.12/site-packages/parso/pgen2/__pycache__",
+      ".venv/lib/python3.12/site-packages/parso/python/__pycache__",
+      ".venv/lib/python3.12/site-packages/greenlet/tests/__pycache__",
+      ".venv/lib/python3.12/site-packages/greenlet/platform/__pycache__",
+      ".venv/lib/python3.12/site-packages/eventlet/green/__pycache__",
+      ".venv/lib/python3.12/site-packages/eventlet/zipkin/__pycache__",
+      ".venv/lib/python3.12/site-packages/eventlet/greenio/__pycache__",
+      ".venv/lib/python3.12/site-packages/eventlet/hubs/__pycache__",
+      ".venv/lib/python3.12/site-packages/eventlet/support/__pycache__",
+      ".venv/lib/python3.12/site-packages/eventlet/green/http/__pycache__",
+      ".venv/lib/python3.12/site-packages/eventlet/green/urllib/__pycache__",
+      ".venv/lib/python3.12/site-packages/eventlet/green/OpenSSL/__pycache__",
+      ".venv/lib/python3.12/site-packages/eventlet/zipkin/_thrift/__pycache__",
+      ".venv/lib/python3.12/site-packages/eventlet/zipkin/_thrift/zipkinCore/__pycache__",
+      ".venv/lib/python3.12/site-packages/tornado/test/__pycache__",
+      ".venv/lib/python3.12/site-packages/tornado/platform/__pycache__",
+      ".venv/lib/python3.12/site-packages/pip/_vendor/__pycache__",
+      ".venv/lib/python3.12/site-packages/pip/_internal/__pycache__",
+      ".venv/lib/python3.12/site-packages/pip/_vendor/cachecontrol/__pycache__",
+      ".venv/lib/python3.12/site-packages/pip/_vendor/rich/__pycache__",
+      ".venv/lib/python3.12/site-packages/pip/_vendor/tomli/__pycache__",
+      ".venv/lib/python3.12/site-packages/pip/_vendor/urllib3/__pycache__",
+      ".venv/lib/python3.12/site-packages/pip/_vendor/packaging/__pycache__",
+      ".venv/lib/python3.12/site-packages/pip/_vendor/pyproject_hooks/__pycache__",
+      ".venv/lib/python3.12/site-packages/pip/_vendor/tomli_w/__pycache__",
+      ".venv/lib/python3.12/site-packages/pip/_vendor/resolvelib/__pycache__",
+      ".venv/lib/python3.12/site-packages/pip/_vendor/requests/__pycache__",
+      ".venv/lib/python3.12/site-packages/pip/_vendor/truststore/__pycache__",
+      ".venv/lib/python3.12/site-packages/pip/_vendor/certifi/__pycache__",
+      ".venv/lib/python3.12/site-packages/pip/_vendor/idna/__pycache__",
+      ".venv/lib/python3.12/site-packages/pip/_vendor/distro/__pycache__",
+      ".venv/lib/python3.12/site-packages/pip/_vendor/distlib/__pycache__",
+      ".venv/lib/python3.12/site-packages/pip/_vendor/pygments/__pycache__",
+      ".venv/lib/python3.12/site-packages/pip/_vendor/pkg_resources/__pycache__",
+      ".venv/lib/python3.12/site-packages/pip/_vendor/dependency_groups/__pycache__",
+      ".venv/lib/python3.12/site-packages/pip/_vendor/msgpack/__pycache__",
+      ".venv/lib/python3.12/site-packages/pip/_vendor/platformdirs/__pycache__",
+      ".venv/lib/python3.12/site-packages/pip/_vendor/cachecontrol/caches/__pycache__",
+      ".venv/lib/python3.12/site-packages/pip/_vendor/urllib3/packages/__pycache__",
+      ".venv/lib/python3.12/site-packages/pip/_vendor/urllib3/util/__pycache__",
+      ".venv/lib/python3.12/site-packages/pip/_vendor/urllib3/contrib/__pycache__",
+      ".venv/lib/python3.12/site-packages/pip/_vendor/urllib3/packages/backports/__pycache__",
+      ".venv/lib/python3.12/site-packages/pip/_vendor/urllib3/contrib/_securetransport/__pycache__",
+      ".venv/lib/python3.12/site-packages/pip/_vendor/packaging/licenses/__pycache__",
+      ".venv/lib/python3.12/site-packages/pip/_vendor/pyproject_hooks/_in_process/__pycache__",
+      ".venv/lib/python3.12/site-packages/pip/_vendor/resolvelib/resolvers/__pycache__",
+      ".venv/lib/python3.12/site-packages/pip/_vendor/pygments/formatters/__pycache__",
+      ".venv/lib/python3.12/site-packages/pip/_vendor/pygments/styles/__pycache__",
+      ".venv/lib/python3.12/site-packages/pip/_vendor/pygments/lexers/__pycache__",
+      ".venv/lib/python3.12/site-packages/pip/_vendor/pygments/filters/__pycache__",
+      ".venv/lib/python3.12/site-packages/pip/_internal/vcs/__pycache__",
+      ".venv/lib/python3.12/site-packages/pip/_internal/models/__pycache__",
+      ".venv/lib/python3.12/site-packages/pip/_internal/distributions/__pycache__",
+      ".venv/lib/python3.12/site-packages/pip/_internal/req/__pycache__",
+      ".venv/lib/python3.12/site-packages/pip/_internal/resolution/__pycache__",
+      ".venv/lib/python3.12/site-packages/pip/_internal/index/__pycache__",
+      ".venv/lib/python3.12/site-packages/pip/_internal/commands/__pycache__",
+      ".venv/lib/python3.12/site-packages/pip/_internal/utils/__pycache__",
+      ".venv/lib/python3.12/site-packages/pip/_internal/cli/__pycache__",
+      ".venv/lib/python3.12/site-packages/pip/_internal/locations/__pycache__",
+      ".venv/lib/python3.12/site-packages/pip/_internal/metadata/__pycache__",
+      ".venv/lib/python3.12/site-packages/pip/_internal/operations/__pycache__",
+      ".venv/lib/python3.12/site-packages/pip/_internal/network/__pycache__",
+      ".venv/lib/python3.12/site-packages/pip/_internal/resolution/legacy/__pycache__",
+      ".venv/lib/python3.12/site-packages/pip/_internal/resolution/resolvelib/__pycache__",
+      ".venv/lib/python3.12/site-packages/pip/_internal/metadata/importlib/__pycache__",
+      ".venv/lib/python3.12/site-packages/pip/_internal/operations/install/__pycache__",
+      ".venv/lib/python3.12/site-packages/pip/_internal/operations/build/__pycache__",
+      ".venv/lib/python3.12/site-packages/pycparser/ply/__pycache__",
+      ".venv/lib/python3.12/site-packages/dns/rdtypes/__pycache__",
+      ".venv/lib/python3.12/site-packages/dns/quic/__pycache__",
+      ".venv/lib/python3.12/site-packages/dns/dnssecalgs/__pycache__",
+      ".venv/lib/python3.12/site-packages/dns/rdtypes/ANY/__pycache__",
+      ".venv/lib/python3.12/site-packages/dns/rdtypes/CH/__pycache__",
+      ".venv/lib/python3.12/site-packages/dns/rdtypes/IN/__pycache__",
+      ".venv/lib/python3.12/site-packages/numpy/char/__pycache__",
+      ".venv/lib/python3.12/site-packages/numpy/_core/__pycache__",
+      ".venv/lib/python3.12/site-packages/numpy/f2py/__pycache__",
+      ".venv/lib/python3.12/site-packages/numpy/_typing/__pycache__",
+      ".venv/lib/python3.12/site-packages/numpy/ctypeslib/__pycache__",
+      ".venv/lib/python3.12/site-packages/numpy/matrixlib/__pycache__",
+      ".venv/lib/python3.12/site-packages/numpy/tests/__pycache__",
+      ".venv/lib/python3.12/site-packages/numpy/lib/__pycache__",
+      ".venv/lib/python3.12/site-packages/numpy/rec/__pycache__",
+      ".venv/lib/python3.12/site-packages/numpy/polynomial/__pycache__",
+      ".venv/lib/python3.12/site-packages/numpy/_utils/__pycache__",
+      ".venv/lib/python3.12/site-packages/numpy/typing/__pycache__",
+      ".venv/lib/python3.12/site-packages/numpy/strings/__pycache__",
+      ".venv/lib/python3.12/site-packages/numpy/ma/__pycache__",
+      ".venv/lib/python3.12/site-packages/numpy/_pyinstaller/__pycache__",
+      ".venv/lib/python3.12/site-packages/numpy/core/__pycache__",
+      ".venv/lib/python3.12/site-packages/numpy/linalg/__pycache__",
+      ".venv/lib/python3.12/site-packages/numpy/testing/__pycache__",
+      ".venv/lib/python3.12/site-packages/numpy/doc/__pycache__",
+      ".venv/lib/python3.12/site-packages/numpy/random/__pycache__",
+      ".venv/lib/python3.12/site-packages/numpy/fft/__pycache__",
+      ".venv/lib/python3.12/site-packages/numpy/_core/tests/__pycache__",
+      ".venv/lib/python3.12/site-packages/numpy/_core/tests/examples/cython/__pycache__",
+      ".venv/lib/python3.12/site-packages/numpy/_core/tests/examples/limited_api/__pycache__",
+      ".venv/lib/python3.12/site-packages/numpy/f2py/tests/__pycache__",
+      ".venv/lib/python3.12/site-packages/numpy/f2py/_backends/__pycache__",
+      ".venv/lib/python3.12/site-packages/numpy/matrixlib/tests/__pycache__",
+      ".venv/lib/python3.12/site-packages/numpy/lib/tests/__pycache__",
+      ".venv/lib/python3.12/site-packages/numpy/polynomial/tests/__pycache__",
+      ".venv/lib/python3.12/site-packages/numpy/typing/tests/__pycache__",
+      ".venv/lib/python3.12/site-packages/numpy/typing/tests/data/pass/__pycache__",
+      ".venv/lib/python3.12/site-packages/numpy/ma/tests/__pycache__",
+      ".venv/lib/python3.12/site-packages/numpy/_pyinstaller/tests/__pycache__",
+      ".venv/lib/python3.12/site-packages/numpy/linalg/tests/__pycache__",
+      ".venv/lib/python3.12/site-packages/numpy/testing/tests/__pycache__",
+      ".venv/lib/python3.12/site-packages/numpy/testing/_private/__pycache__",
+      ".venv/lib/python3.12/site-packages/numpy/random/tests/__pycache__",
+      ".venv/lib/python3.12/site-packages/numpy/random/_examples/cffi/__pycache__",
+      ".venv/lib/python3.12/site-packages/numpy/random/_examples/numba/__pycache__",
+      ".venv/lib/python3.12/site-packages/numpy/random/tests/data/__pycache__",
+      ".venv/lib/python3.12/site-packages/numpy/fft/tests/__pycache__",
+      ".venv/lib/python3.12/site-packages/ipykernel/gui/__pycache__",
+      ".venv/lib/python3.12/site-packages/ipykernel/inprocess/__pycache__",
+      ".venv/lib/python3.12/site-packages/ipykernel/comm/__pycache__",
+      ".venv/lib/python3.12/site-packages/ipykernel/pylab/__pycache__",
+      ".venv/lib/python3.12/site-packages/_pytest/_py/__pycache__",
+      ".venv/lib/python3.12/site-packages/_pytest/assertion/__pycache__",
+      ".venv/lib/python3.12/site-packages/_pytest/mark/__pycache__",
+      ".venv/lib/python3.12/site-packages/_pytest/config/__pycache__",
+      ".venv/lib/python3.12/site-packages/_pytest/_code/__pycache__",
+      ".venv/lib/python3.12/site-packages/_pytest/_io/__pycache__",
+      ".venv/lib/python3.12/site-packages/jupyter_client/ioloop/__pycache__",
+      ".venv/lib/python3.12/site-packages/jupyter_client/ssh/__pycache__",
+      ".venv/lib/python3.12/site-packages/jupyter_client/asynchronous/__pycache__",
+      ".venv/lib/python3.12/site-packages/jupyter_client/blocking/__pycache__",
+      ".venv/lib/python3.12/site-packages/jupyter_client/provisioning/__pycache__",
+      ".venv/lib/python3.12/site-packages/engineio/async_drivers/__pycache__",
+      ".venv/lib/python3.12/site-packages/debugpy/server/__pycache__",
+      ".venv/lib/python3.12/site-packages/debugpy/launcher/__pycache__",
+      ".venv/lib/python3.12/site-packages/debugpy/adapter/__pycache__",
+      ".venv/lib/python3.12/site-packages/debugpy/common/__pycache__",
+      ".venv/lib/python3.12/site-packages/debugpy/_vendored/__pycache__",
+      ".venv/lib/python3.12/site-packages/debugpy/_vendored/pydevd/__pycache__",
+      ".venv/lib/python3.12/site-packages/debugpy/_vendored/pydevd/_pydev_runfiles/__pycache__",
+      ".venv/lib/python3.12/site-packages/debugpy/_vendored/pydevd/pydevd_attach_to_process/__pycache__",
+      ".venv/lib/python3.12/site-packages/debugpy/_vendored/pydevd/pydev_sitecustomize/__pycache__",
+      ".venv/lib/python3.12/site-packages/debugpy/_vendored/pydevd/_pydevd_frame_eval/__pycache__",
+      ".venv/lib/python3.12/site-packages/debugpy/_vendored/pydevd/pydev_ipython/__pycache__",
+      ".venv/lib/python3.12/site-packages/debugpy/_vendored/pydevd/_pydevd_bundle/__pycache__",
+      ".venv/lib/python3.12/site-packages/debugpy/_vendored/pydevd/pydevd_plugins/__pycache__",
+      ".venv/lib/python3.12/site-packages/debugpy/_vendored/pydevd/_pydevd_sys_monitoring/__pycache__",
+      ".venv/lib/python3.12/site-packages/debugpy/_vendored/pydevd/_pydev_bundle/__pycache__",
+      ".venv/lib/python3.12/site-packages/debugpy/_vendored/pydevd/pydevd_attach_to_process/linux_and_mac/__pycache__",
+      ".venv/lib/python3.12/site-packages/debugpy/_vendored/pydevd/pydevd_attach_to_process/winappdbg/__pycache__",
+      ".venv/lib/python3.12/site-packages/debugpy/_vendored/pydevd/pydevd_attach_to_process/winappdbg/win32/__pycache__",
+      ".venv/lib/python3.12/site-packages/debugpy/_vendored/pydevd/_pydevd_frame_eval/vendored/__pycache__",
+      ".venv/lib/python3.12/site-packages/debugpy/_vendored/pydevd/_pydevd_frame_eval/vendored/bytecode/__pycache__",
+      ".venv/lib/python3.12/site-packages/debugpy/_vendored/pydevd/_pydevd_frame_eval/vendored/bytecode/tests/__pycache__",
+      ".venv/lib/python3.12/site-packages/debugpy/_vendored/pydevd/_pydevd_bundle/pydevd_concurrency_analyser/__pycache__",
+      ".venv/lib/python3.12/site-packages/debugpy/_vendored/pydevd/_pydevd_bundle/_debug_adapter/__pycache__",
+      ".venv/lib/python3.12/site-packages/debugpy/_vendored/pydevd/pydevd_plugins/extensions/__pycache__",
+      ".venv/lib/python3.12/site-packages/debugpy/_vendored/pydevd/pydevd_plugins/extensions/types/__pycache__",
+      ".venv/lib/python3.12/site-packages/debugpy/_vendored/pydevd/_pydev_bundle/fsnotify/__pycache__",
+      ".venv/lib/python3.12/site-packages/pygments/formatters/__pycache__",
+      ".venv/lib/python3.12/site-packages/pygments/styles/__pycache__",
+      ".venv/lib/python3.12/site-packages/pygments/lexers/__pycache__",
+      ".venv/lib/python3.12/site-packages/pygments/filters/__pycache__",
+      ".venv/lib/python3.12/site-packages/pydantic/_internal/__pycache__",
+      ".venv/lib/python3.12/site-packages/pydantic/experimental/__pycache__",
+      ".venv/lib/python3.12/site-packages/pydantic/v1/__pycache__",
+      ".venv/lib/python3.12/site-packages/pydantic/plugin/__pycache__",
+      ".venv/lib/python3.12/site-packages/pydantic/deprecated/__pycache__",
+      ".venv/lib/python3.12/site-packages/jedi/plugins/__pycache__",
+      ".venv/lib/python3.12/site-packages/jedi/api/__pycache__",
+      ".venv/lib/python3.12/site-packages/jedi/inference/__pycache__",
+      ".venv/lib/python3.12/site-packages/jedi/api/refactoring/__pycache__",
+      ".venv/lib/python3.12/site-packages/jedi/inference/value/__pycache__",
+      ".venv/lib/python3.12/site-packages/jedi/inference/compiled/__pycache__",
+      ".venv/lib/python3.12/site-packages/jedi/inference/gradual/__pycache__",
+      ".venv/lib/python3.12/site-packages/jedi/inference/compiled/subprocess/__pycache__",
+      ".venv/lib/python3.12/site-packages/traitlets/tests/__pycache__",
+      ".venv/lib/python3.12/site-packages/traitlets/utils/__pycache__",
+      ".venv/lib/python3.12/site-packages/traitlets/config/__pycache__",
+      ".venv/lib/python3.12/site-packages/prompt_toolkit/widgets/__pycache__",
+      ".venv/lib/python3.12/site-packages/prompt_toolkit/styles/__pycache__",
+      ".venv/lib/python3.12/site-packages/prompt_toolkit/formatted_text/__pycache__",
+      ".venv/lib/python3.12/site-packages/prompt_toolkit/key_binding/__pycache__",
+      ".venv/lib/python3.12/site-packages/prompt_toolkit/application/__pycache__",
+      ".venv/lib/python3.12/site-packages/prompt_toolkit/layout/__pycache__",
+      ".venv/lib/python3.12/site-packages/prompt_toolkit/input/__pycache__",
+      ".venv/lib/python3.12/site-packages/prompt_toolkit/eventloop/__pycache__",
+      ".venv/lib/python3.12/site-packages/prompt_toolkit/completion/__pycache__",
+      ".venv/lib/python3.12/site-packages/prompt_toolkit/shortcuts/__pycache__",
+      ".venv/lib/python3.12/site-packages/prompt_toolkit/lexers/__pycache__",
+      ".venv/lib/python3.12/site-packages/prompt_toolkit/contrib/__pycache__",
+      ".venv/lib/python3.12/site-packages/prompt_toolkit/output/__pycache__",
+      ".venv/lib/python3.12/site-packages/prompt_toolkit/filters/__pycache__",
+      ".venv/lib/python3.12/site-packages/prompt_toolkit/clipboard/__pycache__",
+      ".venv/lib/python3.12/site-packages/prompt_toolkit/key_binding/bindings/__pycache__",
+      ".venv/lib/python3.12/site-packages/prompt_toolkit/shortcuts/progress_bar/__pycache__",
+      ".venv/lib/python3.12/site-packages/prompt_toolkit/contrib/regular_languages/__pycache__",
+      ".venv/lib/python3.12/site-packages/prompt_toolkit/contrib/ssh/__pycache__",
+      ".venv/lib/python3.12/site-packages/prompt_toolkit/contrib/telnet/__pycache__",
+      ".venv/lib/python3.12/site-packages/prompt_toolkit/contrib/completers/__pycache__",
+      ".venv/lib/python3.12/site-packages/cryptography/hazmat/__pycache__",
+      ".venv/lib/python3.12/site-packages/cryptography/x509/__pycache__",
+      ".venv/lib/python3.12/site-packages/cryptography/hazmat/primitives/__pycache__",
+      ".venv/lib/python3.12/site-packages/cryptography/hazmat/asn1/__pycache__",
+      ".venv/lib/python3.12/site-packages/cryptography/hazmat/decrepit/__pycache__",
+      ".venv/lib/python3.12/site-packages/cryptography/hazmat/backends/__pycache__",
+      ".venv/lib/python3.12/site-packages/cryptography/hazmat/bindings/__pycache__",
+      ".venv/lib/python3.12/site-packages/cryptography/hazmat/primitives/asymmetric/__pycache__",
+      ".venv/lib/python3.12/site-packages/cryptography/hazmat/primitives/twofactor/__pycache__",
+      ".venv/lib/python3.12/site-packages/cryptography/hazmat/primitives/ciphers/__pycache__",
+      ".venv/lib/python3.12/site-packages/cryptography/hazmat/primitives/serialization/__pycache__",
+      ".venv/lib/python3.12/site-packages/cryptography/hazmat/primitives/kdf/__pycache__",
+      ".venv/lib/python3.12/site-packages/cryptography/hazmat/decrepit/ciphers/__pycache__",
+      ".venv/lib/python3.12/site-packages/cryptography/hazmat/backends/openssl/__pycache__",
+      ".venv/lib/python3.12/site-packages/cryptography/hazmat/bindings/openssl/__pycache__",
+      ".venv/lib/python3.12/site-packages/prometheus_client/aiohttp/__pycache__",
+      ".venv/lib/python3.12/site-packages/prometheus_client/twisted/__pycache__",
+      ".venv/lib/python3.12/site-packages/prometheus_client/bridge/__pycache__",
+      ".venv/lib/python3.12/site-packages/prometheus_client/openmetrics/__pycache__",
+      ".venv/lib/python3.12/site-packages/prometheus_client/django/__pycache__",
+      ".venv/lib/python3.12/site-packages/IPython/lib/__pycache__",
+      ".venv/lib/python3.12/site-packages/IPython/extensions/__pycache__",
+      ".venv/lib/python3.12/site-packages/IPython/terminal/__pycache__",
+      ".venv/lib/python3.12/site-packages/IPython/core/__pycache__",
+      ".venv/lib/python3.12/site-packages/IPython/utils/__pycache__",
+      ".venv/lib/python3.12/site-packages/IPython/external/__pycache__",
+      ".venv/lib/python3.12/site-packages/IPython/testing/__pycache__",
+      ".venv/lib/python3.12/site-packages/IPython/sphinxext/__pycache__",
+      ".venv/lib/python3.12/site-packages/IPython/extensions/deduperreload/__pycache__",
+      ".venv/lib/python3.12/site-packages/IPython/terminal/shortcuts/__pycache__",
+      ".venv/lib/python3.12/site-packages/IPython/terminal/pt_inputhooks/__pycache__",
+      ".venv/lib/python3.12/site-packages/IPython/core/magics/__pycache__",
+      ".venv/lib/python3.12/site-packages/IPython/testing/plugin/__pycache__",
+      ".venv/lib/python3.12/site-packages/werkzeug/wrappers/__pycache__",
+      ".venv/lib/python3.12/site-packages/werkzeug/sansio/__pycache__",
+      ".venv/lib/python3.12/site-packages/werkzeug/debug/__pycache__",
+      ".venv/lib/python3.12/site-packages/werkzeug/routing/__pycache__",
+      ".venv/lib/python3.12/site-packages/werkzeug/middleware/__pycache__",
+      ".venv/lib/python3.12/site-packages/werkzeug/datastructures/__pycache__",
+      ".venv/lib/python3.12/site-packages/jupyter_core/utils/__pycache__",
+      ".venv/lib/python3.12/site-packages/zmq/green/__pycache__",
+      ".venv/lib/python3.12/site-packages/zmq/tests/__pycache__",
+      ".venv/lib/python3.12/site-packages/zmq/ssh/__pycache__",
+      ".venv/lib/python3.12/site-packages/zmq/auth/__pycache__",
+      ".venv/lib/python3.12/site-packages/zmq/backend/__pycache__",
+      ".venv/lib/python3.12/site-packages/zmq/eventloop/__pycache__",
+      ".venv/lib/python3.12/site-packages/zmq/devices/__pycache__",
+      ".venv/lib/python3.12/site-packages/zmq/utils/__pycache__",
+      ".venv/lib/python3.12/site-packages/zmq/sugar/__pycache__",
+      ".venv/lib/python3.12/site-packages/zmq/log/__pycache__",
+      ".venv/lib/python3.12/site-packages/zmq/green/eventloop/__pycache__",
+      ".venv/lib/python3.12/site-packages/zmq/backend/cython/__pycache__",
+      ".venv/lib/python3.12/site-packages/zmq/backend/cffi/__pycache__",
+      ".venv/lib/python3.12/site-packages/flask/json/__pycache__",
+      ".venv/lib/python3.12/site-packages/flask/sansio/__pycache__",
+      ".venv/lib/python3.12/site-packages/tenacity/asyncio/__pycache__",
+      ".venv/lib/python3.12/site-packages/dateutil/zoneinfo/__pycache__",
+      ".venv/lib/python3.12/site-packages/dateutil/parser/__pycache__",
+      ".venv/lib/python3.12/site-packages/dateutil/tz/__pycache__",
+      "_Dev_Resources/Dev_Scripts/repo_tools/system_audit/__pycache__"
+    ]
+  },
+  {
+    "name": "licenses",
+    "paths": [
+      ".venv/lib/python3.12/site-packages/cffi-2.0.0.dist-info/licenses",
+      ".venv/lib/python3.12/site-packages/debugpy-1.8.19.dist-info/licenses",
+      ".venv/lib/python3.12/site-packages/comm-0.2.3.dist-info/licenses",
+      ".venv/lib/python3.12/site-packages/cryptography-46.0.3.dist-info/licenses",
+      ".venv/lib/python3.12/site-packages/wcwidth-0.2.14.dist-info/licenses",
+      ".venv/lib/python3.12/site-packages/packaging/licenses",
+      ".venv/lib/python3.12/site-packages/typing_extensions-4.15.0.dist-info/licenses",
+      ".venv/lib/python3.12/site-packages/parso-0.8.5.dist-info/licenses",
+      ".venv/lib/python3.12/site-packages/ipykernel-7.1.0.dist-info/licenses",
+      ".venv/lib/python3.12/site-packages/jinja2-3.1.6.dist-info/licenses",
+      ".venv/lib/python3.12/site-packages/markupsafe-3.0.3.dist-info/licenses",
+      ".venv/lib/python3.12/site-packages/flask_socketio-5.6.0.dist-info/licenses",
+      ".venv/lib/python3.12/site-packages/typing_inspection-0.4.2.dist-info/licenses",
+      ".venv/lib/python3.12/site-packages/pyzmq-27.1.0.dist-info/licenses",
+      ".venv/lib/python3.12/site-packages/werkzeug-3.1.5.dist-info/licenses",
+      ".venv/lib/python3.12/site-packages/ipython-9.9.0.dist-info/licenses",
+      ".venv/lib/python3.12/site-packages/numpy-2.4.1.dist-info/licenses",
+      ".venv/lib/python3.12/site-packages/jupyter_core-5.9.1.dist-info/licenses",
+      ".venv/lib/python3.12/site-packages/greenlet-3.3.0.dist-info/licenses",
+      ".venv/lib/python3.12/site-packages/matplotlib_inline-0.2.1.dist-info/licenses",
+      ".venv/lib/python3.12/site-packages/python_engineio-4.13.0.dist-info/licenses",
+      ".venv/lib/python3.12/site-packages/pytest_asyncio-1.3.0.dist-info/licenses",
+      ".venv/lib/python3.12/site-packages/flask-3.1.2.dist-info/licenses",
+      ".venv/lib/python3.12/site-packages/annotated_types-0.7.0.dist-info/licenses",
+      ".venv/lib/python3.12/site-packages/dnspython-2.8.0.dist-info/licenses",
+      ".venv/lib/python3.12/site-packages/iniconfig-2.3.0.dist-info/licenses",
+      ".venv/lib/python3.12/site-packages/asttokens-3.0.1.dist-info/licenses",
+      ".venv/lib/python3.12/site-packages/prometheus_client-0.24.0.dist-info/licenses",
+      ".venv/lib/python3.12/site-packages/packaging-25.0.dist-info/licenses",
+      ".venv/lib/python3.12/site-packages/traitlets-5.14.3.dist-info/licenses",
+      ".venv/lib/python3.12/site-packages/prompt_toolkit-3.0.52.dist-info/licenses",
+      ".venv/lib/python3.12/site-packages/tornado-6.5.4.dist-info/licenses",
+      ".venv/lib/python3.12/site-packages/tenacity-9.1.2.dist-info/licenses",
+      ".venv/lib/python3.12/site-packages/python_socketio-5.16.0.dist-info/licenses",
+      ".venv/lib/python3.12/site-packages/pip-25.3.dist-info/licenses",
+      ".venv/lib/python3.12/site-packages/click-8.3.1.dist-info/licenses",
+      ".venv/lib/python3.12/site-packages/pydantic-2.12.5.dist-info/licenses",
+      ".venv/lib/python3.12/site-packages/platformdirs-4.5.1.dist-info/licenses",
+      ".venv/lib/python3.12/site-packages/pytest-9.0.2.dist-info/licenses",
+      ".venv/lib/python3.12/site-packages/h11-0.16.0.dist-info/licenses",
+      ".venv/lib/python3.12/site-packages/eventlet-0.40.4.dist-info/licenses",
+      ".venv/lib/python3.12/site-packages/wsproto-1.3.2.dist-info/licenses",
+      ".venv/lib/python3.12/site-packages/jupyter_client-8.8.0.dist-info/licenses",
+      ".venv/lib/python3.12/site-packages/pygments-2.19.2.dist-info/licenses",
+      ".venv/lib/python3.12/site-packages/pluggy-1.6.0.dist-info/licenses",
+      ".venv/lib/python3.12/site-packages/pydantic_core-2.41.5.dist-info/licenses",
+      ".venv/lib/python3.12/site-packages/structlog-25.5.0.dist-info/licenses",
+      ".venv/lib/python3.12/site-packages/pyzmq-27.1.0.dist-info/licenses/licenses",
+      ".venv/lib/python3.12/site-packages/pip/_vendor/packaging/licenses"
+    ]
+  },
+  {
+    "name": "tests",
+    "paths": [
+      "Logos_System/System_Stack/Meaning_Translation_Protocol/tests",
+      "Logos_System/System_Stack/Advanced_Reasoning_Protocol/mathematical_foundations/math_categories/tests",
+      "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/TropoPraxis/tests",
+      "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/TeloPraxis/tests",
+      "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/AxioPraxis/tests",
+      "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/TopoPraxis/tests",
+      "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/AestheticoPraxis/tests",
+      "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/RelatioPraxis/tests",
+      "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/AnthroPraxis/tests",
+      "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/CosmoPraxis/tests",
+      "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/ErgoPraxis/tests",
+      "Logos_System/System_Stack/Logos_Protocol/Activation_Sequencer/tests",
+      "Logos_System/System_Stack/System_Operations_Protocol/Optimization/tests",
+      "Logos_System/System_Stack/System_Operations_Protocol/alignment_protocols/validation/testing/tests",
+      "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/tests",
+      "PXL_Gate/coq/src/tests",
+      ".venv/lib/python3.12/site-packages/greenlet/tests",
+      ".venv/lib/python3.12/site-packages/numpy/tests",
+      ".venv/lib/python3.12/site-packages/traitlets/tests",
+      ".venv/lib/python3.12/site-packages/zmq/tests",
+      ".venv/lib/python3.12/site-packages/numpy/_core/tests",
+      ".venv/lib/python3.12/site-packages/numpy/f2py/tests",
+      ".venv/lib/python3.12/site-packages/numpy/matrixlib/tests",
+      ".venv/lib/python3.12/site-packages/numpy/lib/tests",
+      ".venv/lib/python3.12/site-packages/numpy/polynomial/tests",
+      ".venv/lib/python3.12/site-packages/numpy/typing/tests",
+      ".venv/lib/python3.12/site-packages/numpy/ma/tests",
+      ".venv/lib/python3.12/site-packages/numpy/_pyinstaller/tests",
+      ".venv/lib/python3.12/site-packages/numpy/linalg/tests",
+      ".venv/lib/python3.12/site-packages/numpy/testing/tests",
+      ".venv/lib/python3.12/site-packages/numpy/random/tests",
+      ".venv/lib/python3.12/site-packages/numpy/fft/tests",
+      ".venv/lib/python3.12/site-packages/debugpy/_vendored/pydevd/_pydevd_frame_eval/vendored/bytecode/tests"
+    ]
+  },
+  {
+    "name": "modal",
+    "paths": [
+      "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/TropoPraxis/modal",
+      "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/TeloPraxis/modal",
+      "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/AxioPraxis/modal",
+      "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/ModalPraxis/modal",
+      "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/ThemiPraxis/modal",
+      "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/GnosiPraxis/modal",
+      "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/AestheticoPraxis/modal",
+      "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/RelatioPraxis/modal",
+      "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/AnthroPraxis/modal",
+      "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/CosmoPraxis/modal",
+      "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/ErgoPraxis/modal",
+      "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/modal",
+      "PXL_Gate/coq/src/modal"
+    ]
+  },
+  {
+    "name": "theorems",
+    "paths": [
+      "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/TropoPraxis/theorems",
+      "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/TeloPraxis/theorems",
+      "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/AxioPraxis/theorems",
+      "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/ModalPraxis/theorems",
+      "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/TopoPraxis/theorems",
+      "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/ThemiPraxis/theorems",
+      "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/GnosiPraxis/theorems",
+      "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/AestheticoPraxis/theorems",
+      "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/ChronoPraxis/theorems",
+      "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/RelatioPraxis/theorems",
+      "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/AnthroPraxis/theorems",
+      "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/CosmoPraxis/theorems",
+      "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/ErgoPraxis/theorems"
+    ]
+  },
+  {
+    "name": "src",
+    "paths": [
+      "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src",
+      "Logos_System/System_Entry_Point/Runtime_Compiler/coq/_build/src",
+      "PXL_Gate/coq/src",
+      "PXL_Gate/coq/_build/src",
+      ".venv/lib/python3.12/site-packages/numpy-2.4.1.dist-info/licenses/numpy/_core/src",
+      ".venv/lib/python3.12/site-packages/numpy-2.4.1.dist-info/licenses/numpy/random/src",
+      ".venv/lib/python3.12/site-packages/numpy/f2py/src",
+      ".venv/lib/python3.12/site-packages/numpy/f2py/tests/src",
+      ".venv/lib/python3.12/site-packages/pip-25.3.dist-info/licenses/src"
+    ]
+  },
+  {
+    "name": "subdomains",
+    "paths": [
+      "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/TropoPraxis/subdomains",
+      "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/TeloPraxis/subdomains",
+      "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/AxioPraxis/subdomains",
+      "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/ThemiPraxis/subdomains",
+      "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/GnosiPraxis/subdomains",
+      "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/AnthroPraxis/subdomains",
+      "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/TheoPraxis/subdomains",
+      "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/CosmoPraxis/subdomains",
+      "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/ErgoPraxis/subdomains"
+    ]
+  },
+  {
+    "name": "systems",
+    "paths": [
+      "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/AxioPraxis/systems",
+      "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/TopoPraxis/systems",
+      "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/ThemiPraxis/systems",
+      "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/GnosiPraxis/systems",
+      "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/AestheticoPraxis/systems",
+      "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/RelatioPraxis/systems",
+      "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/AnthroPraxis/systems",
+      "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/CosmoPraxis/systems"
+    ]
+  },
+  {
+    "name": "backends",
+    "paths": [
+      ".venv/lib/python3.12/site-packages/jedi/third_party/django-stubs/django-stubs/db/backends",
+      ".venv/lib/python3.12/site-packages/jedi/third_party/django-stubs/django-stubs/template/backends",
+      ".venv/lib/python3.12/site-packages/jedi/third_party/django-stubs/django-stubs/core/cache/backends",
+      ".venv/lib/python3.12/site-packages/jedi/third_party/django-stubs/django-stubs/core/mail/backends",
+      ".venv/lib/python3.12/site-packages/jedi/third_party/django-stubs/django-stubs/contrib/sessions/backends",
+      ".venv/lib/python3.12/site-packages/jedi/third_party/typeshed/third_party/2and3/cryptography/hazmat/backends",
+      ".venv/lib/python3.12/site-packages/cryptography/hazmat/backends"
+    ]
+  },
+  {
+    "name": "commands",
+    "paths": [
+      ".venv/lib/python3.12/site-packages/pip/_internal/commands",
+      ".venv/lib/python3.12/site-packages/jedi/third_party/django-stubs/django-stubs/core/management/commands",
+      ".venv/lib/python3.12/site-packages/jedi/third_party/django-stubs/django-stubs/contrib/contenttypes/management/commands",
+      ".venv/lib/python3.12/site-packages/jedi/third_party/django-stubs/django-stubs/contrib/auth/management/commands",
+      ".venv/lib/python3.12/site-packages/jedi/third_party/django-stubs/django-stubs/contrib/sessions/management/commands",
+      ".venv/lib/python3.12/site-packages/jedi/third_party/django-stubs/django-stubs/contrib/sitemaps/management/commands",
+      ".venv/lib/python3.12/site-packages/jedi/third_party/django-stubs/django-stubs/contrib/staticfiles/management/commands"
+    ]
+  },
+  {
+    "name": "data",
+    "paths": [
+      "Logos_System/System_Stack/Synthetic_Cognition_Protocol/data",
+      "Logos_System/System_Stack/Synthetic_Cognition_Protocol/data/data",
+      "Logos_System/System_Stack/Advanced_Reasoning_Protocol/reasoning_engines/bayesian/data",
+      ".venv/lib/python3.12/site-packages/numpy/_core/tests/data",
+      ".venv/lib/python3.12/site-packages/numpy/lib/tests/data",
+      ".venv/lib/python3.12/site-packages/numpy/typing/tests/data",
+      ".venv/lib/python3.12/site-packages/numpy/random/tests/data"
+    ]
+  },
+  {
+    "name": "contrib",
+    "paths": [
+      ".venv/lib/python3.12/site-packages/prompt_toolkit/contrib",
+      ".venv/lib/python3.12/site-packages/pip/_vendor/urllib3/contrib",
+      ".venv/lib/python3.12/site-packages/jedi/third_party/django-stubs/django-stubs/contrib",
+      ".venv/lib/python3.12/site-packages/jedi/third_party/typeshed/third_party/3/jwt/contrib",
+      ".venv/lib/python3.12/site-packages/jedi/third_party/typeshed/third_party/2and3/werkzeug/contrib",
+      ".venv/lib/python3.12/site-packages/jedi/third_party/typeshed/third_party/2and3/requests/packages/urllib3/contrib"
+    ]
+  },
+  {
+    "name": "docs",
+    "paths": [
+      "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/AxioPraxis/docs",
+      "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/TopoPraxis/docs",
+      "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/AestheticoPraxis/docs",
+      "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/RelatioPraxis/docs",
+      "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/AnthroPraxis/docs",
+      "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/CosmoPraxis/docs"
+    ]
+  },
+  {
+    "name": "management",
+    "paths": [
+      ".venv/lib/python3.12/site-packages/jedi/third_party/django-stubs/django-stubs/core/management",
+      ".venv/lib/python3.12/site-packages/jedi/third_party/django-stubs/django-stubs/contrib/contenttypes/management",
+      ".venv/lib/python3.12/site-packages/jedi/third_party/django-stubs/django-stubs/contrib/auth/management",
+      ".venv/lib/python3.12/site-packages/jedi/third_party/django-stubs/django-stubs/contrib/sessions/management",
+      ".venv/lib/python3.12/site-packages/jedi/third_party/django-stubs/django-stubs/contrib/sitemaps/management",
+      ".venv/lib/python3.12/site-packages/jedi/third_party/django-stubs/django-stubs/contrib/staticfiles/management"
+    ]
+  },
+  {
+    "name": "utils",
+    "paths": [
+      ".venv/lib/python3.12/site-packages/traitlets/utils",
+      ".venv/lib/python3.12/site-packages/IPython/utils",
+      ".venv/lib/python3.12/site-packages/jupyter_core/utils",
+      ".venv/lib/python3.12/site-packages/zmq/utils",
+      ".venv/lib/python3.12/site-packages/pip/_internal/utils",
+      ".venv/lib/python3.12/site-packages/jedi/third_party/django-stubs/django-stubs/utils"
+    ]
+  },
+  {
+    "name": "_core",
+    "paths": [
+      "Logos_System/System_Stack/Logos_Protocol/Logos_Agents/I2_Agent/_core",
+      "Logos_System/System_Stack/Logos_Protocol/Logos_Agents/I3_Agent/_core",
+      "Logos_System/System_Stack/Logos_Protocol/Logos_Agents/I1_Agent/_core",
+      ".venv/lib/python3.12/site-packages/numpy/_core",
+      ".venv/lib/python3.12/site-packages/numpy-2.4.1.dist-info/licenses/numpy/_core"
+    ]
+  },
+  {
+    "name": "config",
+    "paths": [
+      "Logos_System/System_Stack/Logos_Protocol/Logos_Agents/I2_Agent/config",
+      "Logos_System/System_Stack/Logos_Protocol/Logos_Agents/I3_Agent/config",
+      "Logos_System/System_Stack/Logos_Protocol/Logos_Agents/I1_Agent/config",
+      ".venv/lib/python3.12/site-packages/_pytest/config",
+      ".venv/lib/python3.12/site-packages/traitlets/config"
+    ]
+  },
+  {
+    "name": "lib",
+    "paths": [
+      ".venv/lib",
+      ".venv/lib/python3.12/site-packages/numpy/lib",
+      ".venv/lib/python3.12/site-packages/IPython/lib",
+      ".venv/lib/python3.12/site-packages/numpy/_core/lib",
+      ".venv/lib/python3.12/site-packages/numpy/random/lib"
+    ]
+  },
+  {
+    "name": "state",
+    "paths": [
+      "PXL_Gate/state",
+      "Logos_System/System_Stack/Meaning_Translation_Protocol/Receiver_Nexus/LLM_Interface/plugins/state",
+      "Logos_System/System_Stack/System_Operations_Protocol/alignment_protocols/state",
+      "Logos_System/System_Entry_Point/Runtime_Compiler/state",
+      "_Dev_Resources/Dev_Notes/state"
+    ]
+  },
+  {
+    "name": "templatetags",
+    "paths": [
+      ".venv/lib/python3.12/site-packages/jedi/third_party/django-stubs/django-stubs/templatetags",
+      ".venv/lib/python3.12/site-packages/jedi/third_party/django-stubs/django-stubs/contrib/flatpages/templatetags",
+      ".venv/lib/python3.12/site-packages/jedi/third_party/django-stubs/django-stubs/contrib/staticfiles/templatetags",
+      ".venv/lib/python3.12/site-packages/jedi/third_party/django-stubs/django-stubs/contrib/admin/templatetags",
+      ".venv/lib/python3.12/site-packages/jedi/third_party/django-stubs/django-stubs/contrib/humanize/templatetags"
+    ]
+  },
+  {
+    "name": "Truth",
+    "paths": [
+      "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/AxioPraxis/subdomains/Truth",
+      "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/ThemiPraxis/subdomains/Truth",
+      "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/GnosiPraxis/subdomains/Truth",
+      "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/ErgoPraxis/subdomains/Truth"
+    ]
+  },
+  {
+    "name": "common",
+    "paths": [
+      ".venv/lib/python3.12/site-packages/debugpy/common",
+      ".venv/lib/python3.12/site-packages/numpy-2.4.1.dist-info/licenses/numpy/_core/src/common",
+      ".venv/lib/python3.12/site-packages/numpy/f2py/tests/src/common",
+      ".venv/lib/python3.12/site-packages/debugpy/_vendored/pydevd/pydevd_attach_to_process/common"
+    ]
+  },
+  {
+    "name": "core",
+    "paths": [
+      "Logos_System/System_Stack/Synthetic_Cognition_Protocol/BDN_System/core",
+      ".venv/lib/python3.12/site-packages/numpy/core",
+      ".venv/lib/python3.12/site-packages/IPython/core",
+      ".venv/lib/python3.12/site-packages/jedi/third_party/django-stubs/django-stubs/core"
+    ]
+  },
+  {
+    "name": "nexus",
+    "paths": [
+      "Logos_System/System_Stack/Advanced_Reasoning_Protocol/nexus",
+      "Logos_System/System_Stack/System_Operations_Protocol/nexus",
+      "Logos_System/System_Stack/Synthetic_Cognition_Protocol/system_utilities/nexus",
+      "Logos_System/System_Stack/Meaning_Translation_Protocol/system_utilities/nexus"
+    ]
+  },
+  {
+    "name": "numpy",
+    "paths": [
+      ".venv/lib/python3.12/site-packages/numpy",
+      ".venv/lib/python3.12/site-packages/numpy-2.4.1.dist-info/licenses/numpy",
+      ".venv/lib/python3.12/site-packages/numpy-2.4.1.dist-info/licenses/numpy/_core/include/numpy",
+      ".venv/lib/python3.12/site-packages/numpy/_core/include/numpy"
+    ]
+  },
+  {
+    "name": "openssl",
+    "paths": [
+      ".venv/lib/python3.12/site-packages/jedi/third_party/typeshed/third_party/2and3/cryptography/hazmat/bindings/openssl",
+      ".venv/lib/python3.12/site-packages/cryptography/hazmat/backends/openssl",
+      ".venv/lib/python3.12/site-packages/cryptography/hazmat/bindings/openssl",
+      ".venv/lib/python3.12/site-packages/cryptography/hazmat/bindings/_rust/openssl"
+    ]
+  },
+  {
+    "name": "urllib",
+    "paths": [
+      ".venv/lib/python3.12/site-packages/eventlet/green/urllib",
+      ".venv/lib/python3.12/site-packages/jedi/third_party/typeshed/stdlib/3/urllib",
+      ".venv/lib/python3.12/site-packages/jedi/third_party/typeshed/third_party/3/six/moves/urllib",
+      ".venv/lib/python3.12/site-packages/jedi/third_party/typeshed/third_party/2/six/moves/urllib"
+    ]
+  },
+  {
+    "name": "bindings",
+    "paths": [
+      ".venv/lib/python3.12/site-packages/jedi/third_party/typeshed/third_party/2and3/cryptography/hazmat/bindings",
+      ".venv/lib/python3.12/site-packages/prompt_toolkit/key_binding/bindings",
+      ".venv/lib/python3.12/site-packages/cryptography/hazmat/bindings"
+    ]
+  },
+  {
+    "name": "cffi",
+    "paths": [
+      ".venv/lib/python3.12/site-packages/cffi",
+      ".venv/lib/python3.12/site-packages/numpy/random/_examples/cffi",
+      ".venv/lib/python3.12/site-packages/zmq/backend/cffi"
+    ]
+  },
+  {
+    "name": "ciphers",
+    "paths": [
+      ".venv/lib/python3.12/site-packages/jedi/third_party/typeshed/third_party/2and3/cryptography/hazmat/primitives/ciphers",
+      ".venv/lib/python3.12/site-packages/cryptography/hazmat/primitives/ciphers",
+      ".venv/lib/python3.12/site-packages/cryptography/hazmat/decrepit/ciphers"
+    ]
+  },
+  {
+    "name": "connections",
+    "paths": [
+      "Logos_System/System_Stack/Logos_Protocol/Logos_Agents/I2_Agent/connections",
+      "Logos_System/System_Stack/Logos_Protocol/Logos_Agents/I3_Agent/connections",
+      "Logos_System/System_Stack/Logos_Protocol/Logos_Agents/I1_Agent/connections"
+    ]
+  },
+  {
+    "name": "cython",
+    "paths": [
+      ".venv/lib/python3.12/site-packages/numpy/_core/tests/examples/cython",
+      ".venv/lib/python3.12/site-packages/numpy/random/_examples/cython",
+      ".venv/lib/python3.12/site-packages/zmq/backend/cython"
+    ]
+  },
+  {
+    "name": "db",
+    "paths": [
+      ".git/objects/db",
+      ".venv/lib/python3.12/site-packages/jedi/third_party/django-stubs/django-stubs/db",
+      ".venv/lib/python3.12/site-packages/jedi/third_party/django-stubs/django-stubs/contrib/gis/db"
+    ]
+  },
+  {
+    "name": "diagnostics",
+    "paths": [
+      "Logos_System/System_Stack/Logos_Protocol/Logos_Agents/I2_Agent/diagnostics",
+      "Logos_System/System_Stack/Logos_Protocol/Logos_Agents/I3_Agent/diagnostics",
+      "Logos_System/System_Stack/Logos_Protocol/Logos_Agents/I1_Agent/diagnostics"
+    ]
+  },
+  {
+    "name": "dummy",
+    "paths": [
+      ".venv/lib/python3.12/site-packages/jedi/third_party/django-stubs/django-stubs/db/backends/dummy",
+      ".venv/lib/python3.12/site-packages/jedi/third_party/typeshed/stdlib/3/multiprocessing/dummy",
+      ".venv/lib/python3.12/site-packages/jedi/third_party/typeshed/stdlib/2/multiprocessing/dummy"
+    ]
+  },
+  {
+    "name": "eventloop",
+    "paths": [
+      ".venv/lib/python3.12/site-packages/prompt_toolkit/eventloop",
+      ".venv/lib/python3.12/site-packages/zmq/eventloop",
+      ".venv/lib/python3.12/site-packages/zmq/green/eventloop"
+    ]
+  },
+  {
+    "name": "extensions",
+    "paths": [
+      ".venv/lib/python3.12/site-packages/IPython/extensions",
+      ".venv/lib/python3.12/site-packages/debugpy/_vendored/pydevd/pydevd_plugins/extensions",
+      ".venv/lib/python3.12/site-packages/jedi/third_party/typeshed/third_party/2and3/markdown/extensions"
+    ]
+  },
+  {
+    "name": "filters",
+    "paths": [
+      ".venv/lib/python3.12/site-packages/pygments/filters",
+      ".venv/lib/python3.12/site-packages/prompt_toolkit/filters",
+      ".venv/lib/python3.12/site-packages/pip/_vendor/pygments/filters"
+    ]
+  },
+  {
+    "name": "heads",
+    "paths": [
+      ".git/refs/heads",
+      ".git/logs/refs/heads",
+      ".git/lfs/cache/locks/refs/heads"
+    ]
+  },
+  {
+    "name": "http",
+    "paths": [
+      ".venv/lib/python3.12/site-packages/eventlet/green/http",
+      ".venv/lib/python3.12/site-packages/jedi/third_party/django-stubs/django-stubs/http",
+      ".venv/lib/python3.12/site-packages/jedi/third_party/typeshed/stdlib/3/http"
+    ]
+  },
+  {
+    "name": "include",
+    "paths": [
+      ".venv/include",
+      ".venv/lib/python3.12/site-packages/numpy-2.4.1.dist-info/licenses/numpy/_core/include",
+      ".venv/lib/python3.12/site-packages/numpy/_core/include"
+    ]
+  },
+  {
+    "name": "json",
+    "paths": [
+      ".venv/lib/python3.12/site-packages/flask/json",
+      ".venv/lib/python3.12/site-packages/jedi/third_party/typeshed/stdlib/3/json",
+      ".venv/lib/python3.12/site-packages/jedi/third_party/typeshed/third_party/2and3/flask/json"
+    ]
+  },
+  {
+    "name": "lexers",
+    "paths": [
+      ".venv/lib/python3.12/site-packages/pygments/lexers",
+      ".venv/lib/python3.12/site-packages/prompt_toolkit/lexers",
+      ".venv/lib/python3.12/site-packages/pip/_vendor/pygments/lexers"
+    ]
+  },
+  {
+    "name": "middleware",
+    "paths": [
+      ".venv/lib/python3.12/site-packages/werkzeug/middleware",
+      ".venv/lib/python3.12/site-packages/jedi/third_party/django-stubs/django-stubs/middleware",
+      ".venv/lib/python3.12/site-packages/jedi/third_party/typeshed/third_party/2and3/werkzeug/middleware"
+    ]
+  },
+  {
+    "name": "models",
+    "paths": [
+      ".venv/lib/python3.12/site-packages/pip/_internal/models",
+      ".venv/lib/python3.12/site-packages/jedi/third_party/django-stubs/django-stubs/db/models",
+      ".venv/lib/python3.12/site-packages/jedi/third_party/django-stubs/django-stubs/contrib/gis/db/models"
+    ]
+  },
+  {
+    "name": "operations",
+    "paths": [
+      "Logos_System/System_Stack/System_Operations_Protocol/operations",
+      ".venv/lib/python3.12/site-packages/pip/_internal/operations",
+      ".venv/lib/python3.12/site-packages/jedi/third_party/django-stubs/django-stubs/db/migrations/operations"
+    ]
+  },
+  {
+    "name": "packages",
+    "paths": [
+      ".venv/lib/python3.12/site-packages/pip/_vendor/urllib3/packages",
+      ".venv/lib/python3.12/site-packages/jedi/third_party/typeshed/third_party/2and3/requests/packages",
+      ".venv/lib/python3.12/site-packages/jedi/third_party/typeshed/third_party/2and3/requests/packages/urllib3/packages"
+    ]
+  },
+  {
+    "name": "packaging",
+    "paths": [
+      ".venv/lib/python3.12/site-packages/packaging",
+      ".venv/lib/python3.12/site-packages/pip/_vendor/packaging",
+      ".venv/lib/python3.12/site-packages/pip-25.3.dist-info/licenses/src/pip/_vendor/packaging"
+    ]
+  },
+  {
+    "name": "pkg_resources",
+    "paths": [
+      ".venv/lib/python3.12/site-packages/pip/_vendor/pkg_resources",
+      ".venv/lib/python3.12/site-packages/pip-25.3.dist-info/licenses/src/pip/_vendor/pkg_resources",
+      ".venv/lib/python3.12/site-packages/jedi/third_party/typeshed/third_party/3/pkg_resources"
+    ]
+  },
+  {
+    "name": "platformdirs",
+    "paths": [
+      ".venv/lib/python3.12/site-packages/platformdirs",
+      ".venv/lib/python3.12/site-packages/pip/_vendor/platformdirs",
+      ".venv/lib/python3.12/site-packages/pip-25.3.dist-info/licenses/src/pip/_vendor/platformdirs"
+    ]
+  },
+  {
+    "name": "protocol_operations",
+    "paths": [
+      "Logos_System/System_Stack/Logos_Protocol/Logos_Agents/I2_Agent/protocol_operations",
+      "Logos_System/System_Stack/Logos_Protocol/Logos_Agents/I3_Agent/protocol_operations",
+      "Logos_System/System_Stack/Logos_Protocol/Logos_Agents/I1_Agent/protocol_operations"
+    ]
+  },
+  {
+    "name": "pygments",
+    "paths": [
+      ".venv/lib/python3.12/site-packages/pygments",
+      ".venv/lib/python3.12/site-packages/pip/_vendor/pygments",
+      ".venv/lib/python3.12/site-packages/pip-25.3.dist-info/licenses/src/pip/_vendor/pygments"
+    ]
+  },
+  {
+    "name": "python3.12",
+    "paths": [
+      ".venv/lib/python3.12",
+      ".venv/include/python3.12",
+      ".venv/include/site/python3.12"
+    ]
+  },
+  {
+    "name": "random",
+    "paths": [
+      ".venv/lib/python3.12/site-packages/numpy/random",
+      ".venv/lib/python3.12/site-packages/numpy-2.4.1.dist-info/licenses/numpy/random",
+      ".venv/lib/python3.12/site-packages/numpy/_core/include/numpy/random"
+    ]
+  },
+  {
+    "name": "refs",
+    "paths": [
+      ".git/refs",
+      ".git/logs/refs",
+      ".git/lfs/cache/locks/refs"
+    ]
+  },
+  {
+    "name": "requests",
+    "paths": [
+      ".venv/lib/python3.12/site-packages/pip/_vendor/requests",
+      ".venv/lib/python3.12/site-packages/pip-25.3.dist-info/licenses/src/pip/_vendor/requests",
+      ".venv/lib/python3.12/site-packages/jedi/third_party/typeshed/third_party/2and3/requests"
+    ]
+  },
+  {
+    "name": "resolvelib",
+    "paths": [
+      ".venv/lib/python3.12/site-packages/pip/_vendor/resolvelib",
+      ".venv/lib/python3.12/site-packages/pip/_internal/resolution/resolvelib",
+      ".venv/lib/python3.12/site-packages/pip-25.3.dist-info/licenses/src/pip/_vendor/resolvelib"
+    ]
+  },
+  {
+    "name": "ssh",
+    "paths": [
+      ".venv/lib/python3.12/site-packages/jupyter_client/ssh",
+      ".venv/lib/python3.12/site-packages/zmq/ssh",
+      ".venv/lib/python3.12/site-packages/prompt_toolkit/contrib/ssh"
+    ]
+  },
+  {
+    "name": "styles",
+    "paths": [
+      ".venv/lib/python3.12/site-packages/pygments/styles",
+      ".venv/lib/python3.12/site-packages/prompt_toolkit/styles",
+      ".venv/lib/python3.12/site-packages/pip/_vendor/pygments/styles"
+    ]
+  },
+  {
+    "name": "system_utilities",
+    "paths": [
+      "Logos_System/System_Stack/Synthetic_Cognition_Protocol/system_utilities",
+      "Logos_System/System_Stack/Meaning_Translation_Protocol/system_utilities",
+      "_Dev_Resources/Dev_Scripts/system_utilities"
+    ]
+  },
+  {
+    "name": "testing",
+    "paths": [
+      "Logos_System/System_Stack/System_Operations_Protocol/alignment_protocols/validation/testing",
+      ".venv/lib/python3.12/site-packages/numpy/testing",
+      ".venv/lib/python3.12/site-packages/IPython/testing"
+    ]
+  },
+  {
+    "name": "urllib3",
+    "paths": [
+      ".venv/lib/python3.12/site-packages/pip/_vendor/urllib3",
+      ".venv/lib/python3.12/site-packages/pip-25.3.dist-info/licenses/src/pip/_vendor/urllib3",
+      ".venv/lib/python3.12/site-packages/jedi/third_party/typeshed/third_party/2and3/requests/packages/urllib3"
+    ]
+  },
+  {
+    "name": "util",
+    "paths": [
+      ".venv/lib/python3.12/site-packages/pip/_vendor/urllib3/util",
+      ".venv/lib/python3.12/site-packages/jedi/third_party/typeshed/third_party/2and3/requests/packages/urllib3/util",
+      ".venv/lib/python3.12/site-packages/jedi/third_party/typeshed/third_party/2and3/google/protobuf/util"
+    ]
+  },
+  {
+    "name": "2",
+    "paths": [
+      ".venv/lib/python3.12/site-packages/jedi/third_party/typeshed/stdlib/2",
+      ".venv/lib/python3.12/site-packages/jedi/third_party/typeshed/third_party/2"
+    ]
+  },
+  {
+    "name": "2and3",
+    "paths": [
+      ".venv/lib/python3.12/site-packages/jedi/third_party/typeshed/stdlib/2and3",
+      ".venv/lib/python3.12/site-packages/jedi/third_party/typeshed/third_party/2and3"
+    ]
+  },
+  {
+    "name": "3",
+    "paths": [
+      ".venv/lib/python3.12/site-packages/jedi/third_party/typeshed/stdlib/3",
+      ".venv/lib/python3.12/site-packages/jedi/third_party/typeshed/third_party/3"
+    ]
+  },
+  {
+    "name": "Documentation",
+    "paths": [
+      "Documentation",
+      "Logos_System/System_Stack/System_Operations_Protocol/Documentation"
+    ]
+  },
+  {
+    "name": "OpenSSL",
+    "paths": [
+      ".venv/lib/python3.12/site-packages/eventlet/green/OpenSSL",
+      ".venv/lib/python3.12/site-packages/jedi/third_party/typeshed/third_party/2/OpenSSL"
+    ]
+  },
+  {
+    "name": "Optimization",
+    "paths": [
+      "Logos_System/System_Stack/System_Operations_Protocol/Optimization",
+      "Logos_System/System_Stack/Advanced_Reasoning_Protocol/mathematical_foundations/math_categories/Optimization"
+    ]
+  },
+  {
+    "name": "PXLd",
+    "paths": [
+      "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/modal/PXLd",
+      "PXL_Gate/coq/src/modal/PXLd"
+    ]
+  },
+  {
+    "name": "Protopraxis",
+    "paths": [
+      "PXL_Gate/Protopraxis",
+      "Logos_System/System_Entry_Point/Runtime_Compiler/Protopraxis"
+    ]
+  },
+  {
+    "name": "_build",
+    "paths": [
+      "Logos_System/System_Entry_Point/Runtime_Compiler/coq/_build",
+      "PXL_Gate/coq/_build"
+    ]
+  },
+  {
+    "name": "_internal",
+    "paths": [
+      ".venv/lib/python3.12/site-packages/pip/_internal",
+      ".venv/lib/python3.12/site-packages/pydantic/_internal"
+    ]
+  },
+  {
+    "name": "_new",
+    "paths": [
+      "Logos_System/System_Entry_Point/Runtime_Compiler/coq/_build/_new",
+      "PXL_Gate/coq/_build/_new"
+    ]
+  },
+  {
+    "name": "_vendor",
+    "paths": [
+      ".venv/lib/python3.12/site-packages/pip/_vendor",
+      ".venv/lib/python3.12/site-packages/pip-25.3.dist-info/licenses/src/pip/_vendor"
+    ]
+  },
+  {
+    "name": "asymmetric",
+    "paths": [
+      ".venv/lib/python3.12/site-packages/jedi/third_party/typeshed/third_party/2and3/cryptography/hazmat/primitives/asymmetric",
+      ".venv/lib/python3.12/site-packages/cryptography/hazmat/primitives/asymmetric"
+    ]
+  },
+  {
+    "name": "asyncio",
+    "paths": [
+      ".venv/lib/python3.12/site-packages/tenacity/asyncio",
+      ".venv/lib/python3.12/site-packages/jedi/third_party/typeshed/stdlib/3/asyncio"
+    ]
+  },
+  {
+    "name": "auth",
+    "paths": [
+      ".venv/lib/python3.12/site-packages/zmq/auth",
+      ".venv/lib/python3.12/site-packages/jedi/third_party/django-stubs/django-stubs/contrib/auth"
+    ]
+  },
+  {
+    "name": "backports",
+    "paths": [
+      ".venv/lib/python3.12/site-packages/pip/_vendor/urllib3/packages/backports",
+      ".venv/lib/python3.12/site-packages/jedi/third_party/typeshed/third_party/2and3/backports"
+    ]
+  },
+  {
+    "name": "baseline",
+    "paths": [
+      "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline",
+      "PXL_Gate/coq/src/baseline"
+    ]
+  },
+  {
+    "name": "cache",
+    "paths": [
+      ".git/lfs/cache",
+      ".venv/lib/python3.12/site-packages/jedi/third_party/django-stubs/django-stubs/core/cache"
+    ]
+  },
+  {
+    "name": "cachecontrol",
+    "paths": [
+      ".venv/lib/python3.12/site-packages/pip/_vendor/cachecontrol",
+      ".venv/lib/python3.12/site-packages/pip-25.3.dist-info/licenses/src/pip/_vendor/cachecontrol"
+    ]
+  },
+  {
+    "name": "certifi",
+    "paths": [
+      ".venv/lib/python3.12/site-packages/pip/_vendor/certifi",
+      ".venv/lib/python3.12/site-packages/pip-25.3.dist-info/licenses/src/pip/_vendor/certifi"
+    ]
+  },
+  {
+    "name": "cli",
+    "paths": [
+      ".venv/lib/python3.12/site-packages/pip/_internal/cli",
+      ".venv/lib/python3.12/site-packages/numpy/f2py/tests/src/cli"
+    ]
+  },
+  {
+    "name": "click",
+    "paths": [
+      ".venv/lib/python3.12/site-packages/click",
+      ".venv/lib/python3.12/site-packages/jedi/third_party/typeshed/third_party/2and3/click"
+    ]
+  },
+  {
+    "name": "code_generator",
+    "paths": [
+      "Logos_System/System_Stack/System_Operations_Protocol/code_generator",
+      "Logos_System/System_Stack/System_Operations_Protocol/IEL_generator/code_generator"
+    ]
+  },
+  {
+    "name": "comm",
+    "paths": [
+      ".venv/lib/python3.12/site-packages/comm",
+      ".venv/lib/python3.12/site-packages/ipykernel/comm"
+    ]
+  },
+  {
+    "name": "command",
+    "paths": [
+      ".venv/lib/python3.12/site-packages/jedi/third_party/typeshed/stdlib/3/distutils/command",
+      ".venv/lib/python3.12/site-packages/jedi/third_party/typeshed/stdlib/2/distutils/command"
+    ]
+  },
+  {
+    "name": "concurrent",
+    "paths": [
+      ".venv/lib/python3.12/site-packages/jedi/third_party/typeshed/stdlib/3/concurrent",
+      ".venv/lib/python3.12/site-packages/jedi/third_party/typeshed/third_party/2/concurrent"
+    ]
+  },
+  {
+    "name": "coq",
+    "paths": [
+      "PXL_Gate/coq",
+      "Logos_System/System_Entry_Point/Runtime_Compiler/coq"
+    ]
+  },
+  {
+    "name": "cryptography",
+    "paths": [
+      ".venv/lib/python3.12/site-packages/cryptography",
+      ".venv/lib/python3.12/site-packages/jedi/third_party/typeshed/third_party/2and3/cryptography"
+    ]
+  },
+  {
+    "name": "dateutil",
+    "paths": [
+      ".venv/lib/python3.12/site-packages/dateutil",
+      ".venv/lib/python3.12/site-packages/jedi/third_party/typeshed/third_party/2and3/dateutil"
+    ]
+  },
+  {
+    "name": "debug",
+    "paths": [
+      ".venv/lib/python3.12/site-packages/werkzeug/debug",
+      ".venv/lib/python3.12/site-packages/jedi/third_party/typeshed/third_party/2and3/werkzeug/debug"
+    ]
+  },
+  {
+    "name": "dependency_groups",
+    "paths": [
+      ".venv/lib/python3.12/site-packages/pip/_vendor/dependency_groups",
+      ".venv/lib/python3.12/site-packages/pip-25.3.dist-info/licenses/src/pip/_vendor/dependency_groups"
+    ]
+  },
+  {
+    "name": "deprecated",
+    "paths": [
+      ".venv/lib/python3.12/site-packages/pydantic/deprecated",
+      ".venv/lib/python3.12/site-packages/jedi/third_party/typeshed/third_party/2and3/deprecated"
+    ]
+  },
+  {
+    "name": "distlib",
+    "paths": [
+      ".venv/lib/python3.12/site-packages/pip/_vendor/distlib",
+      ".venv/lib/python3.12/site-packages/pip-25.3.dist-info/licenses/src/pip/_vendor/distlib"
+    ]
+  },
+  {
+    "name": "distributions",
+    "paths": [
+      ".venv/lib/python3.12/site-packages/numpy-2.4.1.dist-info/licenses/numpy/random/src/distributions",
+      ".venv/lib/python3.12/site-packages/pip/_internal/distributions"
+    ]
+  },
+  {
+    "name": "distro",
+    "paths": [
+      ".venv/lib/python3.12/site-packages/pip/_vendor/distro",
+      ".venv/lib/python3.12/site-packages/pip-25.3.dist-info/licenses/src/pip/_vendor/distro"
+    ]
+  },
+  {
+    "name": "distutils",
+    "paths": [
+      ".venv/lib/python3.12/site-packages/jedi/third_party/typeshed/stdlib/3/distutils",
+      ".venv/lib/python3.12/site-packages/jedi/third_party/typeshed/stdlib/2/distutils"
+    ]
+  },
+  {
+    "name": "django-stubs",
+    "paths": [
+      ".venv/lib/python3.12/site-packages/jedi/third_party/django-stubs",
+      ".venv/lib/python3.12/site-packages/jedi/third_party/django-stubs/django-stubs"
+    ]
+  },
+  {
+    "name": "email",
+    "paths": [
+      ".venv/lib/python3.12/site-packages/jedi/third_party/typeshed/stdlib/3/email",
+      ".venv/lib/python3.12/site-packages/jedi/third_party/typeshed/stdlib/2/email"
+    ]
+  },
+  {
+    "name": "encodings",
+    "paths": [
+      ".venv/lib/python3.12/site-packages/jedi/third_party/typeshed/stdlib/3/encodings",
+      ".venv/lib/python3.12/site-packages/jedi/third_party/typeshed/stdlib/2/encodings"
+    ]
+  },
+  {
+    "name": "examples",
+    "paths": [
+      "Logos_System/System_Stack/System_Operations_Protocol/alignment_protocols/validation/examples",
+      ".venv/lib/python3.12/site-packages/numpy/_core/tests/examples"
+    ]
+  },
+  {
+    "name": "experimental",
+    "paths": [
+      "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/ChronoPraxis/theorems/experimental",
+      ".venv/lib/python3.12/site-packages/pydantic/experimental"
+    ]
+  },
+  {
+    "name": "fft",
+    "paths": [
+      ".venv/lib/python3.12/site-packages/numpy/fft",
+      ".venv/lib/python3.12/site-packages/numpy-2.4.1.dist-info/licenses/numpy/fft"
+    ]
+  },
+  {
+    "name": "fields",
+    "paths": [
+      ".venv/lib/python3.12/site-packages/jedi/third_party/django-stubs/django-stubs/db/models/fields",
+      ".venv/lib/python3.12/site-packages/jedi/third_party/django-stubs/django-stubs/contrib/postgres/fields"
+    ]
+  },
+  {
+    "name": "flask",
+    "paths": [
+      ".venv/lib/python3.12/site-packages/flask",
+      ".venv/lib/python3.12/site-packages/jedi/third_party/typeshed/third_party/2and3/flask"
+    ]
+  },
+  {
+    "name": "formatters",
+    "paths": [
+      ".venv/lib/python3.12/site-packages/pygments/formatters",
+      ".venv/lib/python3.12/site-packages/pip/_vendor/pygments/formatters"
+    ]
+  },
+  {
+    "name": "futures",
+    "paths": [
+      ".venv/lib/python3.12/site-packages/jedi/third_party/typeshed/stdlib/3/concurrent/futures",
+      ".venv/lib/python3.12/site-packages/jedi/third_party/typeshed/third_party/2/concurrent/futures"
+    ]
+  },
+  {
+    "name": "green",
+    "paths": [
+      ".venv/lib/python3.12/site-packages/eventlet/green",
+      ".venv/lib/python3.12/site-packages/zmq/green"
+    ]
+  },
+  {
+    "name": "greenlet",
+    "paths": [
+      ".venv/lib/python3.12/site-packages/greenlet",
+      ".venv/include/site/python3.12/greenlet"
+    ]
+  },
+  {
+    "name": "handlers",
+    "paths": [
+      ".venv/lib/python3.12/site-packages/jedi/third_party/django-stubs/django-stubs/core/handlers",
+      ".venv/lib/python3.12/site-packages/jedi/third_party/django-stubs/django-stubs/contrib/auth/handlers"
+    ]
+  },
+  {
+    "name": "hazmat",
+    "paths": [
+      ".venv/lib/python3.12/site-packages/cryptography/hazmat",
+      ".venv/lib/python3.12/site-packages/jedi/third_party/typeshed/third_party/2and3/cryptography/hazmat"
+    ]
+  },
+  {
+    "name": "idna",
+    "paths": [
+      ".venv/lib/python3.12/site-packages/pip/_vendor/idna",
+      ".venv/lib/python3.12/site-packages/pip-25.3.dist-info/licenses/src/pip/_vendor/idna"
+    ]
+  },
+  {
+    "name": "importlib",
+    "paths": [
+      ".venv/lib/python3.12/site-packages/pip/_internal/metadata/importlib",
+      ".venv/lib/python3.12/site-packages/jedi/third_party/typeshed/stdlib/3/importlib"
+    ]
+  },
+  {
+    "name": "info",
+    "paths": [
+      ".git/info",
+      ".git/objects/info"
+    ]
+  },
+  {
+    "name": "jinja2",
+    "paths": [
+      ".venv/lib/python3.12/site-packages/jinja2",
+      ".venv/lib/python3.12/site-packages/jedi/third_party/typeshed/third_party/2and3/jinja2"
+    ]
+  },
+  {
+    "name": "kdf",
+    "paths": [
+      ".venv/lib/python3.12/site-packages/jedi/third_party/typeshed/third_party/2and3/cryptography/hazmat/primitives/kdf",
+      ".venv/lib/python3.12/site-packages/cryptography/hazmat/primitives/kdf"
+    ]
+  },
+  {
+    "name": "linalg",
+    "paths": [
+      ".venv/lib/python3.12/site-packages/numpy/linalg",
+      ".venv/lib/python3.12/site-packages/numpy-2.4.1.dist-info/licenses/numpy/linalg"
+    ]
+  },
+  {
+    "name": "ma",
+    "paths": [
+      ".venv/lib/python3.12/site-packages/numpy/ma",
+      ".venv/lib/python3.12/site-packages/numpy-2.4.1.dist-info/licenses/numpy/ma"
+    ]
+  },
+  {
+    "name": "markupsafe",
+    "paths": [
+      ".venv/lib/python3.12/site-packages/markupsafe",
+      ".venv/lib/python3.12/site-packages/jedi/third_party/typeshed/third_party/2and3/markupsafe"
+    ]
+  },
+  {
+    "name": "mime",
+    "paths": [
+      ".venv/lib/python3.12/site-packages/jedi/third_party/typeshed/stdlib/3/email/mime",
+      ".venv/lib/python3.12/site-packages/jedi/third_party/typeshed/stdlib/2/email/mime"
+    ]
+  },
+  {
+    "name": "moves",
+    "paths": [
+      ".venv/lib/python3.12/site-packages/jedi/third_party/typeshed/third_party/3/six/moves",
+      ".venv/lib/python3.12/site-packages/jedi/third_party/typeshed/third_party/2/six/moves"
+    ]
+  },
+  {
+    "name": "msgpack",
+    "paths": [
+      ".venv/lib/python3.12/site-packages/pip/_vendor/msgpack",
+      ".venv/lib/python3.12/site-packages/pip-25.3.dist-info/licenses/src/pip/_vendor/msgpack"
+    ]
+  },
+  {
+    "name": "multiprocessing",
+    "paths": [
+      ".venv/lib/python3.12/site-packages/jedi/third_party/typeshed/stdlib/3/multiprocessing",
+      ".venv/lib/python3.12/site-packages/jedi/third_party/typeshed/stdlib/2/multiprocessing"
+    ]
+  },
+  {
+    "name": "option_b",
+    "paths": [
+      "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/option_b",
+      "PXL_Gate/coq/src/option_b"
+    ]
+  },
+  {
+    "name": "origin",
+    "paths": [
+      ".git/refs/remotes/origin",
+      ".git/logs/refs/remotes/origin"
+    ]
+  },
+  {
+    "name": "os",
+    "paths": [
+      ".venv/lib/python3.12/site-packages/jedi/third_party/typeshed/stdlib/3/os",
+      ".venv/lib/python3.12/site-packages/jedi/third_party/typeshed/stdlib/2/os"
+    ]
+  },
+  {
+    "name": "parsers",
+    "paths": [
+      ".venv/lib/python3.12/site-packages/jedi/third_party/typeshed/stdlib/2and3/xml/parsers",
+      ".venv/lib/python3.12/site-packages/jedi/third_party/typeshed/third_party/3/docutils/parsers"
+    ]
+  },
+  {
+    "name": "pgen2",
+    "paths": [
+      ".venv/lib/python3.12/site-packages/parso/pgen2",
+      ".venv/lib/python3.12/site-packages/jedi/third_party/typeshed/stdlib/2and3/lib2to3/pgen2"
+    ]
+  },
+  {
+    "name": "pip",
+    "paths": [
+      ".venv/lib/python3.12/site-packages/pip",
+      ".venv/lib/python3.12/site-packages/pip-25.3.dist-info/licenses/src/pip"
+    ]
+  },
+  {
+    "name": "platform",
+    "paths": [
+      ".venv/lib/python3.12/site-packages/greenlet/platform",
+      ".venv/lib/python3.12/site-packages/tornado/platform"
+    ]
+  },
+  {
+    "name": "plugin",
+    "paths": [
+      ".venv/lib/python3.12/site-packages/pydantic/plugin",
+      ".venv/lib/python3.12/site-packages/IPython/testing/plugin"
+    ]
+  },
+  {
+    "name": "plugins",
+    "paths": [
+      "Logos_System/System_Stack/Meaning_Translation_Protocol/Receiver_Nexus/LLM_Interface/plugins",
+      ".venv/lib/python3.12/site-packages/jedi/plugins"
+    ]
+  },
+  {
+    "name": "primitives",
+    "paths": [
+      ".venv/lib/python3.12/site-packages/jedi/third_party/typeshed/third_party/2and3/cryptography/hazmat/primitives",
+      ".venv/lib/python3.12/site-packages/cryptography/hazmat/primitives"
+    ]
+  },
+  {
+    "name": "proof_logs",
+    "paths": [
+      "PXL_Gate/proof_logs",
+      "Logos_System/System_Entry_Point/Runtime_Compiler/proof_logs"
+    ]
+  },
+  {
+    "name": "pyproject_hooks",
+    "paths": [
+      ".venv/lib/python3.12/site-packages/pip/_vendor/pyproject_hooks",
+      ".venv/lib/python3.12/site-packages/pip-25.3.dist-info/licenses/src/pip/_vendor/pyproject_hooks"
+    ]
+  },
+  {
+    "name": "remotes",
+    "paths": [
+      ".git/refs/remotes",
+      ".git/logs/refs/remotes"
+    ]
+  },
+  {
+    "name": "rich",
+    "paths": [
+      ".venv/lib/python3.12/site-packages/pip/_vendor/rich",
+      ".venv/lib/python3.12/site-packages/pip-25.3.dist-info/licenses/src/pip/_vendor/rich"
+    ]
+  },
+  {
+    "name": "sansio",
+    "paths": [
+      ".venv/lib/python3.12/site-packages/werkzeug/sansio",
+      ".venv/lib/python3.12/site-packages/flask/sansio"
+    ]
+  },
+  {
+    "name": "security",
+    "paths": [
+      ".venv/lib/python3.12/site-packages/jedi/third_party/django-stubs/django-stubs/core/checks/security",
+      "_Dev_Resources/Dev_Scripts/security"
+    ]
+  },
+  {
+    "name": "serialization",
+    "paths": [
+      ".venv/lib/python3.12/site-packages/jedi/third_party/typeshed/third_party/2and3/cryptography/hazmat/primitives/serialization",
+      ".venv/lib/python3.12/site-packages/cryptography/hazmat/primitives/serialization"
+    ]
+  },
+  {
+    "name": "shared",
+    "paths": [
+      "Logos_System/System_Stack/Meaning_Translation_Protocol/system_utilities/shared",
+      ".venv/lib/python3.12/site-packages/werkzeug/debug/shared"
+    ]
+  },
+  {
+    "name": "shortcuts",
+    "paths": [
+      ".venv/lib/python3.12/site-packages/prompt_toolkit/shortcuts",
+      ".venv/lib/python3.12/site-packages/IPython/terminal/shortcuts"
+    ]
+  },
+  {
+    "name": "six",
+    "paths": [
+      ".venv/lib/python3.12/site-packages/jedi/third_party/typeshed/third_party/3/six",
+      ".venv/lib/python3.12/site-packages/jedi/third_party/typeshed/third_party/2/six"
+    ]
+  },
+  {
+    "name": "sqlite3",
+    "paths": [
+      ".venv/lib/python3.12/site-packages/jedi/third_party/django-stubs/django-stubs/db/backends/sqlite3",
+      ".venv/lib/python3.12/site-packages/jedi/third_party/typeshed/stdlib/2and3/sqlite3"
+    ]
+  },
+  {
+    "name": "test",
+    "paths": [
+      ".venv/lib/python3.12/site-packages/tornado/test",
+      ".venv/lib/python3.12/site-packages/jedi/third_party/django-stubs/django-stubs/test"
+    ]
+  },
+  {
+    "name": "third_party",
+    "paths": [
+      ".venv/lib/python3.12/site-packages/jedi/third_party",
+      ".venv/lib/python3.12/site-packages/jedi/third_party/typeshed/third_party"
+    ]
+  },
+  {
+    "name": "tomli",
+    "paths": [
+      ".venv/lib/python3.12/site-packages/pip/_vendor/tomli",
+      ".venv/lib/python3.12/site-packages/pip-25.3.dist-info/licenses/src/pip/_vendor/tomli"
+    ]
+  },
+  {
+    "name": "tomli_w",
+    "paths": [
+      ".venv/lib/python3.12/site-packages/pip/_vendor/tomli_w",
+      ".venv/lib/python3.12/site-packages/pip-25.3.dist-info/licenses/src/pip/_vendor/tomli_w"
+    ]
+  },
+  {
+    "name": "tornado",
+    "paths": [
+      ".venv/lib/python3.12/site-packages/tornado",
+      ".venv/lib/python3.12/site-packages/jedi/third_party/typeshed/third_party/2/tornado"
+    ]
+  },
+  {
+    "name": "truststore",
+    "paths": [
+      ".venv/lib/python3.12/site-packages/pip/_vendor/truststore",
+      ".venv/lib/python3.12/site-packages/pip-25.3.dist-info/licenses/src/pip/_vendor/truststore"
+    ]
+  },
+  {
+    "name": "twofactor",
+    "paths": [
+      ".venv/lib/python3.12/site-packages/jedi/third_party/typeshed/third_party/2and3/cryptography/hazmat/primitives/twofactor",
+      ".venv/lib/python3.12/site-packages/cryptography/hazmat/primitives/twofactor"
+    ]
+  },
+  {
+    "name": "tz",
+    "paths": [
+      ".venv/lib/python3.12/site-packages/dateutil/tz",
+      ".venv/lib/python3.12/site-packages/jedi/third_party/typeshed/third_party/2and3/dateutil/tz"
+    ]
+  },
+  {
+    "name": "ui",
+    "paths": [
+      "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/ui",
+      "PXL_Gate/coq/src/ui"
+    ]
+  },
+  {
+    "name": "urls",
+    "paths": [
+      ".venv/lib/python3.12/site-packages/jedi/third_party/django-stubs/django-stubs/urls",
+      ".venv/lib/python3.12/site-packages/jedi/third_party/django-stubs/django-stubs/conf/urls"
+    ]
+  },
+  {
+    "name": "views",
+    "paths": [
+      ".venv/lib/python3.12/site-packages/jedi/third_party/django-stubs/django-stubs/views",
+      ".venv/lib/python3.12/site-packages/jedi/third_party/django-stubs/django-stubs/contrib/admin/views"
+    ]
+  },
+  {
+    "name": "werkzeug",
+    "paths": [
+      ".venv/lib/python3.12/site-packages/werkzeug",
+      ".venv/lib/python3.12/site-packages/jedi/third_party/typeshed/third_party/2and3/werkzeug"
+    ]
+  },
+  {
+    "name": "x509",
+    "paths": [
+      ".venv/lib/python3.12/site-packages/cryptography/x509",
+      ".venv/lib/python3.12/site-packages/jedi/third_party/typeshed/third_party/2and3/cryptography/x509"
+    ]
+  },
+  {
+    "name": "zoneinfo",
+    "paths": [
+      ".venv/lib/python3.12/site-packages/dateutil/zoneinfo",
+      ".venv/lib/python3.12/site-packages/jedi/third_party/typeshed/stdlib/3.9/zoneinfo"
+    ]
+  }
+]

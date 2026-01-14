@@ -1,0 +1,3 @@
+{
+  "note": "module-level unreachable analysis can be derived from orphaned_files + naming scan"
+}

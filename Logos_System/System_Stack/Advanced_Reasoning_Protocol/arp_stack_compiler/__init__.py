@@ -1,26 +1,14 @@
+# Original init logic backed up at _reports/Init_Reset_20260114_153126/backup_init/Logos_System/System_Stack/Advanced_Reasoning_Protocol/arp_stack_compiler/__init__.py
+# Review and restore exports/side effects before enabling package logic.
+
 """
-LOGOS ARP Stack Compiler
-========================
+LOGOS normalization stub.
 
-Compiles reasoning data from ARP components into structured objects.
+This package initializer is intentionally minimal.
+- No imports
+- No side effects
+- No runtime logic
+
+Repopulation of exports/import paths will occur after normalization.
 """
-
-from .arp_stack_compiler import (
-    ARPStackCompiler,
-    ARPStackCompilation,
-    CompiledDataObject,
-    DataOrigin,
-    CompilationResult,
-    compile_arp_stack,
-    get_arp_compiler_stats,
-)
-
-__all__ = [
-    "ARPStackCompiler",
-    "ARPStackCompilation",
-    "CompiledDataObject",
-    "DataOrigin",
-    "CompilationResult",
-    "compile_arp_stack",
-    "get_arp_compiler_stats",
-]
+__all__ = []

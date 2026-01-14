@@ -1,0 +1,56 @@
+[
+  {
+    "path": "Logos_System/System_Entry_Point/LEGACY_SCRIPTS_NOT_FINAL/serve_pxl.py"
+  },
+  {
+    "path": "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/ui/serve_pxl.py"
+  },
+  {
+    "path": "Logos_System/System_Stack/Logos_Protocol/Logos_Agents/I2_Agent/protocol_operations/ui_io/server.py"
+  },
+  {
+    "path": "Logos_System/System_Stack/Meaning_Translation_Protocol/Receiver_Nexus/Custom_GUI/server.py"
+  },
+  {
+    "path": "Logos_System/System_Stack/Meaning_Translation_Protocol/Receiver_Nexus/LLM_Interface/logos_gpt_server.py"
+  },
+  {
+    "path": "Logos_System/System_Stack/System_Operations_Protocol/deployment/monitoring/api_server.py"
+  },
+  {
+    "path": "Logos_System/System_Stack/System_Operations_Protocol/deployment/monitoring/deploy_core_services.py"
+  },
+  {
+    "path": "Logos_System/System_Stack/System_Operations_Protocol/deployment/monitoring/deploy_full_stack.py"
+  },
+  {
+    "path": "Logos_System/System_Stack/System_Operations_Protocol/deployment/monitoring/health_server.py"
+  },
+  {
+    "path": "Logos_System/System_Stack/System_Operations_Protocol/governance/server.py"
+  },
+  {
+    "path": "PXL_Gate/coq/src/ui/serve_pxl.py"
+  },
+  {
+    "path": "START_LOGOS.py"
+  },
+  {
+    "path": "_Dev_Resources/Dev_Scripts/repo_tools/system_audit/scan_runtime_surface.py"
+  },
+  {
+    "path": "_Dev_Resources/Dev_Scripts/repo_tools/system_audit/scan_side_effects.py"
+  },
+  {
+    "path": "_Dev_Resources/Dev_Scripts/security/session.py"
+  },
+  {
+    "path": "_Dev_Resources/Dev_Scripts/smoke_tests/test_logos_gpt_web_smoke.py"
+  },
+  {
+    "path": "_Dev_Resources/Dev_Scripts/smoke_tests/test_server_nexus_isolation_smoke.py"
+  },
+  {
+    "path": "_Dev_Resources/Dev_Scripts/smoke_tests/test_web_grounding_smoke.py"
+  }
+]

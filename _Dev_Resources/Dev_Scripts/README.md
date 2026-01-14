@@ -63,3 +63,11 @@ This is intentional to reduce accidental destructive operations.
 
 Test note:
 - Some smoke tests may redirect audit outputs to a temp directory via `LOGOS_AUDIT_DIR` to avoid touching tracked `audit/`.
+
+## Repo tools
+
+- `repo_tools/lock_coq_stacks.sh` keeps Coq-related stacks read-only by default.
+  - Guarded paths: `/workspaces/Logos_System/PXL_Gate` and `/workspaces/Logos_System/Logos_System/System_Entry_Point/Runtime_Compiler`.
+  - Status: `./_Dev_Resources/Dev_Scripts/repo_tools/lock_coq_stacks.sh status`.
+  - Lock (default): `./_Dev_Resources/Dev_Scripts/repo_tools/lock_coq_stacks.sh lock`.
+  - Unlock (requires explicit override): `./_Dev_Resources/Dev_Scripts/repo_tools/lock_coq_stacks.sh unlock "edit coq stacks"`.

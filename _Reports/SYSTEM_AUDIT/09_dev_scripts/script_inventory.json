@@ -1,0 +1,269 @@
+[
+  {
+    "path": "_Dev_Resources/Dev_Scripts/__init__.py"
+  },
+  {
+    "path": "_Dev_Resources/Dev_Scripts/repo_tools/run_mvp_acceptance.py"
+  },
+  {
+    "path": "_Dev_Resources/Dev_Scripts/repo_tools/system_audit/_common.py"
+  },
+  {
+    "path": "_Dev_Resources/Dev_Scripts/repo_tools/system_audit/audit_driver.py"
+  },
+  {
+    "path": "_Dev_Resources/Dev_Scripts/repo_tools/system_audit/scan_config_and_schema.py"
+  },
+  {
+    "path": "_Dev_Resources/Dev_Scripts/repo_tools/system_audit/scan_dead_code.py"
+  },
+  {
+    "path": "_Dev_Resources/Dev_Scripts/repo_tools/system_audit/scan_dependencies.py"
+  },
+  {
+    "path": "_Dev_Resources/Dev_Scripts/repo_tools/system_audit/scan_dev_scripts.py"
+  },
+  {
+    "path": "_Dev_Resources/Dev_Scripts/repo_tools/system_audit/scan_duplicates.py"
+  },
+  {
+    "path": "_Dev_Resources/Dev_Scripts/repo_tools/system_audit/scan_imports.py"
+  },
+  {
+    "path": "_Dev_Resources/Dev_Scripts/repo_tools/system_audit/scan_naming.py"
+  },
+  {
+    "path": "_Dev_Resources/Dev_Scripts/repo_tools/system_audit/scan_runtime_surface.py"
+  },
+  {
+    "path": "_Dev_Resources/Dev_Scripts/repo_tools/system_audit/scan_side_effects.py"
+  },
+  {
+    "path": "_Dev_Resources/Dev_Scripts/repo_tools/system_audit/scan_symbols.py"
+  },
+  {
+    "path": "_Dev_Resources/Dev_Scripts/repo_tools/system_audit/scan_tree.py"
+  },
+  {
+    "path": "_Dev_Resources/Dev_Scripts/security/__init__.py"
+  },
+  {
+    "path": "_Dev_Resources/Dev_Scripts/security/session.py"
+  },
+  {
+    "path": "_Dev_Resources/Dev_Scripts/smoke_tests/test_alignment_gate_smoke.py"
+  },
+  {
+    "path": "_Dev_Resources/Dev_Scripts/smoke_tests/test_belief_consolidation_smoke.py"
+  },
+  {
+    "path": "_Dev_Resources/Dev_Scripts/smoke_tests/test_dashboard_smoke.py"
+  },
+  {
+    "path": "_Dev_Resources/Dev_Scripts/smoke_tests/test_evaluator_learning_smoke.py"
+  },
+  {
+    "path": "_Dev_Resources/Dev_Scripts/smoke_tests/test_goal_proposal_smoke.py"
+  },
+  {
+    "path": "_Dev_Resources/Dev_Scripts/smoke_tests/test_llm_advisor_smoke.py"
+  },
+  {
+    "path": "_Dev_Resources/Dev_Scripts/smoke_tests/test_llm_bypass_smoke.py"
+  },
+  {
+    "path": "_Dev_Resources/Dev_Scripts/smoke_tests/test_llm_real_provider_smoke.py"
+  },
+  {
+    "path": "_Dev_Resources/Dev_Scripts/smoke_tests/test_llm_streaming_smoke.py"
+  },
+  {
+    "path": "_Dev_Resources/Dev_Scripts/smoke_tests/test_logos_agi_integration_smoke.py"
+  },
+  {
+    "path": "_Dev_Resources/Dev_Scripts/smoke_tests/test_logos_agi_persistence_smoke.py"
+  },
+  {
+    "path": "_Dev_Resources/Dev_Scripts/smoke_tests/test_logos_gpt_chat_smoke.py"
+  },
+  {
+    "path": "_Dev_Resources/Dev_Scripts/smoke_tests/test_logos_gpt_web_smoke.py"
+  },
+  {
+    "path": "_Dev_Resources/Dev_Scripts/smoke_tests/test_logos_runtime_phase2_smoke.py"
+  },
+  {
+    "path": "_Dev_Resources/Dev_Scripts/smoke_tests/test_logos_runtime_smoke.py"
+  },
+  {
+    "path": "_Dev_Resources/Dev_Scripts/smoke_tests/test_plan_checkpoint_smoke.py"
+  },
+  {
+    "path": "_Dev_Resources/Dev_Scripts/smoke_tests/test_plan_history_update_smoke.py"
+  },
+  {
+    "path": "_Dev_Resources/Dev_Scripts/smoke_tests/test_plan_scoring_smoke.py"
+  },
+  {
+    "path": "_Dev_Resources/Dev_Scripts/smoke_tests/test_plan_validation_smoke.py"
+  },
+  {
+    "path": "_Dev_Resources/Dev_Scripts/smoke_tests/test_retrieval_local_smoke.py"
+  },
+  {
+    "path": "_Dev_Resources/Dev_Scripts/smoke_tests/test_run_ledger_smoke.py"
+  },
+  {
+    "path": "_Dev_Resources/Dev_Scripts/smoke_tests/test_server_nexus_isolation_smoke.py"
+  },
+  {
+    "path": "_Dev_Resources/Dev_Scripts/smoke_tests/test_tool_approval_tamper_smoke.py"
+  },
+  {
+    "path": "_Dev_Resources/Dev_Scripts/smoke_tests/test_tool_improvement_intent_smoke.py"
+  },
+  {
+    "path": "_Dev_Resources/Dev_Scripts/smoke_tests/test_tool_introspection_smoke.py"
+  },
+  {
+    "path": "_Dev_Resources/Dev_Scripts/smoke_tests/test_tool_pipeline_smoke.py"
+  },
+  {
+    "path": "_Dev_Resources/Dev_Scripts/smoke_tests/test_tool_playbook_load_smoke.py"
+  },
+  {
+    "path": "_Dev_Resources/Dev_Scripts/smoke_tests/test_tool_repair_proposal_smoke.py"
+  },
+  {
+    "path": "_Dev_Resources/Dev_Scripts/smoke_tests/test_tool_validation_smoke.py"
+  },
+  {
+    "path": "_Dev_Resources/Dev_Scripts/smoke_tests/test_truth_categories_smoke.py"
+  },
+  {
+    "path": "_Dev_Resources/Dev_Scripts/smoke_tests/test_uwm_smoke.py"
+  },
+  {
+    "path": "_Dev_Resources/Dev_Scripts/smoke_tests/test_web_grounding_smoke.py"
+  },
+  {
+    "path": "_Dev_Resources/Dev_Scripts/system_stack_tbd/could_be_dev/capture_arp_traces_and_backfill.py"
+  },
+  {
+    "path": "_Dev_Resources/Dev_Scripts/system_stack_tbd/could_be_dev/run_cycle_loop.py"
+  },
+  {
+    "path": "_Dev_Resources/Dev_Scripts/system_stack_tbd/could_be_dev/run_simulation_stub.py"
+  },
+  {
+    "path": "_Dev_Resources/Dev_Scripts/system_stack_tbd/could_be_dev/start_agent.py"
+  },
+  {
+    "path": "_Dev_Resources/Dev_Scripts/system_stack_tbd/could_be_dev/system_mode_initializer.py"
+  },
+  {
+    "path": "_Dev_Resources/Dev_Scripts/system_stack_tbd/could_be_dev/test_logos_agi_bootstrap_modes.py"
+  },
+  {
+    "path": "_Dev_Resources/Dev_Scripts/system_stack_tbd/could_be_dev/test_logos_agi_pin_drift.py"
+  },
+  {
+    "path": "_Dev_Resources/Dev_Scripts/system_stack_tbd/could_be_dev/test_logos_agi_replay_proposals.py"
+  },
+  {
+    "path": "_Dev_Resources/Dev_Scripts/system_stack_tbd/could_be_dev/test_stub_beliefs_never_verified.py"
+  },
+  {
+    "path": "_Dev_Resources/Dev_Scripts/system_stack_tbd/need_to_distribute/_bootstrap.py"
+  },
+  {
+    "path": "_Dev_Resources/Dev_Scripts/system_stack_tbd/need_to_distribute/aligned_agent_import.py"
+  },
+  {
+    "path": "_Dev_Resources/Dev_Scripts/system_stack_tbd/need_to_distribute/archive_planner_digests.py"
+  },
+  {
+    "path": "_Dev_Resources/Dev_Scripts/system_stack_tbd/need_to_distribute/boot_aligned_agent.py"
+  },
+  {
+    "path": "_Dev_Resources/Dev_Scripts/system_stack_tbd/need_to_distribute/build_coq_theorem_index.py"
+  },
+  {
+    "path": "_Dev_Resources/Dev_Scripts/system_stack_tbd/need_to_distribute/cycle_ledger.py"
+  },
+  {
+    "path": "_Dev_Resources/Dev_Scripts/system_stack_tbd/need_to_distribute/evidence.py"
+  },
+  {
+    "path": "_Dev_Resources/Dev_Scripts/system_stack_tbd/need_to_distribute/example_connector.py"
+  },
+  {
+    "path": "_Dev_Resources/Dev_Scripts/system_stack_tbd/need_to_distribute/export_tool_registry.py"
+  },
+  {
+    "path": "_Dev_Resources/Dev_Scripts/system_stack_tbd/need_to_distribute/logos_agi_adapter.py"
+  },
+  {
+    "path": "_Dev_Resources/Dev_Scripts/system_stack_tbd/need_to_distribute/nexus_manager.py"
+  },
+  {
+    "path": "_Dev_Resources/Dev_Scripts/system_stack_tbd/need_to_distribute/privative_dual_bijection_kernel.py"
+  },
+  {
+    "path": "_Dev_Resources/Dev_Scripts/system_stack_tbd/need_to_distribute/protocol_probe.py"
+  },
+  {
+    "path": "_Dev_Resources/Dev_Scripts/system_stack_tbd/need_to_distribute/prototype_grounding_workflow.py"
+  },
+  {
+    "path": "_Dev_Resources/Dev_Scripts/system_stack_tbd/need_to_distribute/provenance.py"
+  },
+  {
+    "path": "_Dev_Resources/Dev_Scripts/system_stack_tbd/need_to_distribute/run_recursive_immersion_cycle.py"
+  },
+  {
+    "path": "_Dev_Resources/Dev_Scripts/system_stack_tbd/need_to_distribute/scan_repo.py"
+  },
+  {
+    "path": "_Dev_Resources/Dev_Scripts/system_stack_tbd/need_to_distribute/scp_local_diagnostic.py"
+  },
+  {
+    "path": "_Dev_Resources/Dev_Scripts/system_stack_tbd/need_to_distribute/stress_sop_runtime.py"
+  },
+  {
+    "path": "_Dev_Resources/Dev_Scripts/system_stack_tbd/need_to_distribute/test_belief_quarantine_persistence.py"
+  },
+  {
+    "path": "_Dev_Resources/Dev_Scripts/system_stack_tbd/need_to_distribute/test_belief_tool_policy.py"
+  },
+  {
+    "path": "_Dev_Resources/Dev_Scripts/system_stack_tbd/need_to_distribute/test_grounded_reply_enforcement.py"
+  },
+  {
+    "path": "_Dev_Resources/Dev_Scripts/system_stack_tbd/need_to_distribute/test_plan_history_inprocess_refresh.py"
+  },
+  {
+    "path": "_Dev_Resources/Dev_Scripts/system_stack_tbd/need_to_distribute/test_plan_revision_on_contradiction.py"
+  },
+  {
+    "path": "_Dev_Resources/Dev_Scripts/system_stack_tbd/need_to_distribute/test_proved_grounding.py"
+  },
+  {
+    "path": "_Dev_Resources/Dev_Scripts/system_stack_tbd/need_to_distribute/test_truth_evaluator_ranking.py"
+  },
+  {
+    "path": "_Dev_Resources/Dev_Scripts/system_utilities/__init__.py"
+  },
+  {
+    "path": "_Dev_Resources/Dev_Scripts/system_utilities/message_formats.py"
+  },
+  {
+    "path": "_Dev_Resources/Dev_Scripts/system_utilities/system_imports.py"
+  },
+  {
+    "path": "_Dev_Resources/Dev_Scripts/system_utilities/test_arp_modes.py"
+  },
+  {
+    "path": "_Dev_Resources/Dev_Scripts/system_utilities/token_validator.py"
+  }
+]

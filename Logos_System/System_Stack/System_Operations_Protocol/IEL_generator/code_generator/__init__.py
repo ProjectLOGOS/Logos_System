@@ -1,8 +1,14 @@
-"""
-SOP Code Generator Package
-==========================
+# Original init logic backed up at _reports/Init_Reset_20260114_153126/backup_init/Logos_System/System_Stack/System_Operations_Protocol/IEL_generator/code_generator/__init__.py
+# Review and restore exports/side effects before enabling package logic.
 
-Package for SOP autonomous code generation and self-improvement.
 """
+LOGOS normalization stub.
 
-__version__ = "1.0.0"
+This package initializer is intentionally minimal.
+- No imports
+- No side effects
+- No runtime logic
+
+Repopulation of exports/import paths will occur after normalization.
+"""
+__all__ = []

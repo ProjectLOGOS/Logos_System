@@ -1,31 +1,14 @@
-"""Governance utilities for LOGOS AGI."""
+# Original init logic backed up at _reports/Init_Reset_20260114_153126/backup_init/Logos_System/System_Stack/Logos_Protocol/Runtime_Operations/Governance/__init__.py
+# Review and restore exports/side effects before enabling package logic.
 
-from ...Unified_Working_Memory.World_Modeling.commitment_ledger import (  # noqa: F401
-    DEFAULT_LEDGER_PATH,
-    LEDGER_VERSION,
-    ensure_active_commitment,
-    load_or_create_ledger,
-    mark_commitment_status,
-    record_event,
-    validate_ledger,
-    write_ledger,
-)
-from ....System_Operations_Protocol.Optimization.prioritization import (  # noqa: F401
-    propose_candidate_commitments,
-    score_commitment,
-    select_next_active_commitment,
-)
+"""
+LOGOS normalization stub.
 
-__all__ = [
-    "DEFAULT_LEDGER_PATH",
-    "LEDGER_VERSION",
-    "ensure_active_commitment",
-    "load_or_create_ledger",
-    "mark_commitment_status",
-    "record_event",
-    "validate_ledger",
-    "write_ledger",
-    "propose_candidate_commitments",
-    "score_commitment",
-    "select_next_active_commitment",
-]
+This package initializer is intentionally minimal.
+- No imports
+- No side effects
+- No runtime logic
+
+Repopulation of exports/import paths will occur after normalization.
+"""
+__all__ = []

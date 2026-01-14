@@ -1,7 +1,14 @@
-"""Protopraxis proof suite exposed for the consolidated LOGOS Agent."""
+# Original init logic backed up at _reports/Init_Reset_20260114_153126/backup_init/PXL_Gate/Protopraxis/__init__.py
+# Review and restore exports/side effects before enabling package logic.
 
-from __future__ import annotations
+"""
+LOGOS normalization stub.
 
-from ..ui import run_coq_pipeline
+This package initializer is intentionally minimal.
+- No imports
+- No side effects
+- No runtime logic
 
-__all__ = ["run_coq_pipeline"]
+Repopulation of exports/import paths will occur after normalization.
+"""
+__all__ = []

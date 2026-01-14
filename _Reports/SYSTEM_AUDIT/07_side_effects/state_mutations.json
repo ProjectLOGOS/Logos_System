@@ -1,0 +1,355 @@
+{
+  "subprocess_calls": [
+    {
+      "path": "Logos_System/System_Entry_Point/LEGACY_SCRIPTS_NOT_FINAL/serve_pxl.py"
+    },
+    {
+      "path": "Logos_System/System_Entry_Point/LEGACY_SCRIPTS_NOT_FINAL/test_lem_discharge.py"
+    },
+    {
+      "path": "Logos_System/System_Entry_Point/Orchestration_Tools/compute_identity_hash.py"
+    },
+    {
+      "path": "Logos_System/System_Entry_Point/Orchestration_Tools/lib_loader.py"
+    },
+    {
+      "path": "Logos_System/System_Entry_Point/Orchestration_Tools/proof_gate_tools.py"
+    },
+    {
+      "path": "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/ui/PXL_Proof_Compile.py"
+    },
+    {
+      "path": "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/ui/run_coq_pipeline.py"
+    },
+    {
+      "path": "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/ui/serve_pxl.py"
+    },
+    {
+      "path": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/nexus/example_usage.py"
+    },
+    {
+      "path": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/nexus/integration_test.py"
+    },
+    {
+      "path": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/nexus/test_arp_nexus.py"
+    },
+    {
+      "path": "Logos_System/System_Stack/Logos_Protocol/Activation_Sequencer/Agent_Integration/test_determinism.py"
+    },
+    {
+      "path": "Logos_System/System_Stack/Logos_Protocol/Activation_Sequencer/Identity_Generator/Agent_ID_Spin_Up/agent_identity.py"
+    },
+    {
+      "path": "Logos_System/System_Stack/Logos_Protocol/Activation_Sequencer/Identity_Generator/Agent_ID_Spin_Up/run_conscious_sim.py"
+    },
+    {
+      "path": "Logos_System/System_Stack/Logos_Protocol/External_Enhancements/Cognition_Wrapper_Memgpt.py"
+    },
+    {
+      "path": "Logos_System/System_Stack/Logos_Protocol/External_Enhancements/Cognition_Wrapper_Micropsi.py"
+    },
+    {
+      "path": "Logos_System/System_Stack/Logos_Protocol/External_Enhancements/Cognition_Wrapper_Openai.py"
+    },
+    {
+      "path": "Logos_System/System_Stack/Logos_Protocol/External_Enhancements/Cognition_Wrapper_Pgmpy.py"
+    },
+    {
+      "path": "Logos_System/System_Stack/Logos_Protocol/External_Enhancements/Cognition_Wrapper_Pydantic.py"
+    },
+    {
+      "path": "Logos_System/System_Stack/Logos_Protocol/External_Enhancements/Cognition_Wrapper_Sympy.py"
+    },
+    {
+      "path": "Logos_System/System_Stack/Logos_Protocol/External_Enhancements/Graph_Wrapper_Networkx.py"
+    },
+    {
+      "path": "Logos_System/System_Stack/Logos_Protocol/External_Enhancements/Graph_Wrapper_Pyvis.py"
+    },
+    {
+      "path": "Logos_System/System_Stack/Logos_Protocol/External_Enhancements/Graph_Wrapper_Rdflib.py"
+    },
+    {
+      "path": "Logos_System/System_Stack/Logos_Protocol/External_Enhancements/ML_Wrapper_Arch.py"
+    },
+    {
+      "path": "Logos_System/System_Stack/Logos_Protocol/External_Enhancements/ML_Wrapper_Prophet.py"
+    },
+    {
+      "path": "Logos_System/System_Stack/Logos_Protocol/External_Enhancements/ML_Wrapper_Sklearn.py"
+    },
+    {
+      "path": "Logos_System/System_Stack/Logos_Protocol/External_Enhancements/ML_Wrapper_Statsmodels.py"
+    },
+    {
+      "path": "Logos_System/System_Stack/Logos_Protocol/External_Enhancements/ML_Wrapper_Torch.py"
+    },
+    {
+      "path": "Logos_System/System_Stack/Logos_Protocol/External_Enhancements/NLP_Wrapper_Nltk.py"
+    },
+    {
+      "path": "Logos_System/System_Stack/Logos_Protocol/External_Enhancements/NLP_Wrapper_Sentence_Transformers.py"
+    },
+    {
+      "path": "Logos_System/System_Stack/Logos_Protocol/External_Enhancements/NLP_Wrapper_Spacy.py"
+    },
+    {
+      "path": "Logos_System/System_Stack/Logos_Protocol/External_Enhancements/NLP_Wrapper_Transformers.py"
+    },
+    {
+      "path": "Logos_System/System_Stack/Logos_Protocol/External_Enhancements/Visualization_Wrapper_Matplotlib.py"
+    },
+    {
+      "path": "Logos_System/System_Stack/Logos_Protocol/External_Enhancements/Visualization_Wrapper_Plotly.py"
+    },
+    {
+      "path": "Logos_System/System_Stack/Logos_Protocol/External_Enhancements/Visualization_Wrapper_Seaborn.py"
+    },
+    {
+      "path": "Logos_System/System_Stack/Meaning_Translation_Protocol/Receiver_Nexus/Custom_GUI/server.py"
+    },
+    {
+      "path": "Logos_System/System_Stack/Meaning_Translation_Protocol/Receiver_Nexus/LLM_Interface/logos_gpt_server.py"
+    },
+    {
+      "path": "Logos_System/System_Stack/Meaning_Translation_Protocol/Receiver_Nexus/LLM_Interface/logos_interface.py"
+    },
+    {
+      "path": "Logos_System/System_Stack/Meaning_Translation_Protocol/Receiver_Nexus/LLM_Interface/run_logos_gpt_acceptance.py"
+    },
+    {
+      "path": "Logos_System/System_Stack/Synthetic_Cognition_Protocol/MVS_System/fractal_orbit_cli.py"
+    },
+    {
+      "path": "Logos_System/System_Stack/Synthetic_Cognition_Protocol/MVS_System/fractal_orbit_demo.py"
+    },
+    {
+      "path": "Logos_System/System_Stack/Synthetic_Cognition_Protocol/consciousness/simulated_consciousness_runtime.py"
+    },
+    {
+      "path": "Logos_System/System_Stack/Synthetic_Cognition_Protocol/system_utilities/test_scp_recovery_mode_gate.py"
+    },
+    {
+      "path": "Logos_System/System_Stack/System_Operations_Protocol/IEL_generator/iel_runtime_interface.py"
+    },
+    {
+      "path": "Logos_System/System_Stack/System_Operations_Protocol/Optimization/tests/test_hardening.py"
+    },
+    {
+      "path": "Logos_System/System_Stack/System_Operations_Protocol/Optimization/tests/test_logos_agi_persistence_smoke.py"
+    },
+    {
+      "path": "Logos_System/System_Stack/System_Operations_Protocol/Optimization/tests/test_nexus_capability_governance.py"
+    },
+    {
+      "path": "Logos_System/System_Stack/System_Operations_Protocol/Optimization/tests/test_simulation_cli.py"
+    },
+    {
+      "path": "Logos_System/System_Stack/System_Operations_Protocol/Optimization/tool_chain_executor.py"
+    },
+    {
+      "path": "Logos_System/System_Stack/System_Operations_Protocol/Optimization/tool_invention.py"
+    },
+    {
+      "path": "Logos_System/System_Stack/System_Operations_Protocol/Optimization/tool_proposal_pipeline.py"
+    },
+    {
+      "path": "Logos_System/System_Stack/System_Operations_Protocol/Optimization/tool_repair_proposal.py"
+    },
+    {
+      "path": "Logos_System/System_Stack/System_Operations_Protocol/alignment_protocols/validation/testing/test_end_to_end_pipeline.py"
+    },
+    {
+      "path": "Logos_System/System_Stack/System_Operations_Protocol/alignment_protocols/validation/testing/test_integration.py"
+    },
+    {
+      "path": "Logos_System/System_Stack/System_Operations_Protocol/alignment_protocols/validation/testing/test_reference_monitor.py"
+    },
+    {
+      "path": "Logos_System/System_Stack/System_Operations_Protocol/alignment_protocols/validation/testing/validate_production.py"
+    },
+    {
+      "path": "Logos_System/System_Stack/System_Operations_Protocol/code_generator/development_environment.py"
+    },
+    {
+      "path": "Logos_System/System_Stack/System_Operations_Protocol/code_generator/self_improvement_integration.py"
+    },
+    {
+      "path": "Logos_System/System_Stack/System_Operations_Protocol/deployment/configuration/LOGOS.py"
+    },
+    {
+      "path": "Logos_System/System_Stack/System_Operations_Protocol/deployment/monitoring/api_server.py"
+    },
+    {
+      "path": "Logos_System/System_Stack/System_Operations_Protocol/deployment/monitoring/deploy_core_services.py"
+    },
+    {
+      "path": "Logos_System/System_Stack/System_Operations_Protocol/deployment/monitoring/deploy_full_stack.py"
+    },
+    {
+      "path": "Logos_System/System_Stack/System_Operations_Protocol/deployment/monitoring/health_server.py"
+    },
+    {
+      "path": "Logos_System/System_Stack/System_Operations_Protocol/governance/server.py"
+    },
+    {
+      "path": "Logos_System/System_Stack/System_Operations_Protocol/infrastructure/agent_system/initialize_agent_system.py"
+    },
+    {
+      "path": "Logos_System/System_Stack/System_Operations_Protocol/infrastructure/agent_system/logos_agent_system.py"
+    },
+    {
+      "path": "Logos_System/System_Stack/System_Operations_Protocol/infrastructure/agent_system/maintenance.py"
+    },
+    {
+      "path": "Logos_System/System_Stack/System_Operations_Protocol/infrastructure/agent_system/protocol_integration.py"
+    },
+    {
+      "path": "Logos_System/System_Stack/System_Operations_Protocol/nexus/legacy_sop_nexus.py"
+    },
+    {
+      "path": "Logos_System/System_Stack/System_Operations_Protocol/nexus/sop_nexus.py"
+    },
+    {
+      "path": "PXL_Gate/coq/src/ui/PXL_Proof_Compile.py"
+    },
+    {
+      "path": "PXL_Gate/coq/src/ui/run_coq_pipeline.py"
+    },
+    {
+      "path": "PXL_Gate/coq/src/ui/serve_pxl.py"
+    },
+    {
+      "path": "START_LOGOS.py"
+    },
+    {
+      "path": "_Dev_Resources/Dev_Notes/state/tool_invention/proposals/tool_invention_tool_chain_executor_20251227T190646Z_0.py"
+    },
+    {
+      "path": "_Dev_Resources/Dev_Scripts/repo_tools/run_mvp_acceptance.py"
+    },
+    {
+      "path": "_Dev_Resources/Dev_Scripts/repo_tools/system_audit/audit_driver.py"
+    },
+    {
+      "path": "_Dev_Resources/Dev_Scripts/repo_tools/system_audit/scan_side_effects.py"
+    },
+    {
+      "path": "_Dev_Resources/Dev_Scripts/smoke_tests/test_alignment_gate_smoke.py"
+    },
+    {
+      "path": "_Dev_Resources/Dev_Scripts/smoke_tests/test_belief_consolidation_smoke.py"
+    },
+    {
+      "path": "_Dev_Resources/Dev_Scripts/smoke_tests/test_goal_proposal_smoke.py"
+    },
+    {
+      "path": "_Dev_Resources/Dev_Scripts/smoke_tests/test_llm_advisor_smoke.py"
+    },
+    {
+      "path": "_Dev_Resources/Dev_Scripts/smoke_tests/test_llm_bypass_smoke.py"
+    },
+    {
+      "path": "_Dev_Resources/Dev_Scripts/smoke_tests/test_llm_streaming_smoke.py"
+    },
+    {
+      "path": "_Dev_Resources/Dev_Scripts/smoke_tests/test_logos_agi_integration_smoke.py"
+    },
+    {
+      "path": "_Dev_Resources/Dev_Scripts/smoke_tests/test_logos_agi_persistence_smoke.py"
+    },
+    {
+      "path": "_Dev_Resources/Dev_Scripts/smoke_tests/test_logos_gpt_chat_smoke.py"
+    },
+    {
+      "path": "_Dev_Resources/Dev_Scripts/smoke_tests/test_logos_gpt_web_smoke.py"
+    },
+    {
+      "path": "_Dev_Resources/Dev_Scripts/smoke_tests/test_plan_checkpoint_smoke.py"
+    },
+    {
+      "path": "_Dev_Resources/Dev_Scripts/smoke_tests/test_plan_validation_smoke.py"
+    },
+    {
+      "path": "_Dev_Resources/Dev_Scripts/smoke_tests/test_run_ledger_smoke.py"
+    },
+    {
+      "path": "_Dev_Resources/Dev_Scripts/smoke_tests/test_server_nexus_isolation_smoke.py"
+    },
+    {
+      "path": "_Dev_Resources/Dev_Scripts/smoke_tests/test_tool_approval_tamper_smoke.py"
+    },
+    {
+      "path": "_Dev_Resources/Dev_Scripts/smoke_tests/test_tool_improvement_intent_smoke.py"
+    },
+    {
+      "path": "_Dev_Resources/Dev_Scripts/smoke_tests/test_tool_introspection_smoke.py"
+    },
+    {
+      "path": "_Dev_Resources/Dev_Scripts/smoke_tests/test_tool_pipeline_smoke.py"
+    },
+    {
+      "path": "_Dev_Resources/Dev_Scripts/smoke_tests/test_tool_repair_proposal_smoke.py"
+    },
+    {
+      "path": "_Dev_Resources/Dev_Scripts/smoke_tests/test_truth_categories_smoke.py"
+    },
+    {
+      "path": "_Dev_Resources/Dev_Scripts/smoke_tests/test_uwm_smoke.py"
+    },
+    {
+      "path": "_Dev_Resources/Dev_Scripts/smoke_tests/test_web_grounding_smoke.py"
+    },
+    {
+      "path": "_Dev_Resources/Dev_Scripts/system_stack_tbd/could_be_dev/run_cycle_loop.py"
+    },
+    {
+      "path": "_Dev_Resources/Dev_Scripts/system_stack_tbd/could_be_dev/start_agent.py"
+    },
+    {
+      "path": "_Dev_Resources/Dev_Scripts/system_stack_tbd/could_be_dev/test_logos_agi_bootstrap_modes.py"
+    },
+    {
+      "path": "_Dev_Resources/Dev_Scripts/system_stack_tbd/could_be_dev/test_logos_agi_pin_drift.py"
+    },
+    {
+      "path": "_Dev_Resources/Dev_Scripts/system_stack_tbd/could_be_dev/test_logos_agi_replay_proposals.py"
+    },
+    {
+      "path": "_Dev_Resources/Dev_Scripts/system_stack_tbd/could_be_dev/test_stub_beliefs_never_verified.py"
+    },
+    {
+      "path": "_Dev_Resources/Dev_Scripts/system_stack_tbd/need_to_distribute/aligned_agent_import.py"
+    },
+    {
+      "path": "_Dev_Resources/Dev_Scripts/system_stack_tbd/need_to_distribute/boot_aligned_agent.py"
+    },
+    {
+      "path": "_Dev_Resources/Dev_Scripts/system_stack_tbd/need_to_distribute/build_coq_theorem_index.py"
+    },
+    {
+      "path": "_Dev_Resources/Dev_Scripts/system_stack_tbd/need_to_distribute/logos_agi_adapter.py"
+    },
+    {
+      "path": "_Dev_Resources/Dev_Scripts/system_stack_tbd/need_to_distribute/nexus_manager.py"
+    },
+    {
+      "path": "_Dev_Resources/Dev_Scripts/system_stack_tbd/need_to_distribute/provenance.py"
+    },
+    {
+      "path": "_Dev_Resources/Dev_Scripts/system_stack_tbd/need_to_distribute/scan_repo.py"
+    },
+    {
+      "path": "_Dev_Resources/Dev_Scripts/system_stack_tbd/need_to_distribute/scp_local_diagnostic.py"
+    },
+    {
+      "path": "_Dev_Resources/Dev_Scripts/system_stack_tbd/need_to_distribute/stress_sop_runtime.py"
+    },
+    {
+      "path": "_Dev_Resources/Dev_Scripts/system_stack_tbd/need_to_distribute/test_plan_revision_on_contradiction.py"
+    },
+    {
+      "path": "_Dev_Resources/Dev_Scripts/system_stack_tbd/need_to_distribute/test_proved_grounding.py"
+    }
+  ]
+}

@@ -1,0 +1,5732 @@
+[
+  {
+    "file": "START_LOGOS.py",
+    "kind": "Assign",
+    "line": 20,
+    "name": "REPO_ROOT"
+  },
+  {
+    "file": "START_LOGOS.py",
+    "kind": "Assign",
+    "line": 21,
+    "name": "MONO_ROOT"
+  },
+  {
+    "file": "START_LOGOS.py",
+    "kind": "Assign",
+    "line": 22,
+    "name": "SYSTEM_STACK_ROOT"
+  },
+  {
+    "file": "START_LOGOS.py",
+    "kind": "Assign",
+    "line": 30,
+    "name": "PXL_ROOT"
+  },
+  {
+    "file": "START_LOGOS.py",
+    "kind": "Assign",
+    "line": 31,
+    "name": "LOGOS_ROOT"
+  },
+  {
+    "file": "START_LOGOS.py",
+    "kind": "Assign",
+    "line": 34,
+    "name": "ATTESTATION_PATH"
+  },
+  {
+    "file": "START_LOGOS.py",
+    "kind": "Assign",
+    "line": 50,
+    "name": "unlock"
+  },
+  {
+    "file": "START_LOGOS.py",
+    "kind": "Assign",
+    "line": 51,
+    "name": "agents"
+  },
+  {
+    "file": "Logos_System/System_Stack/Synthetic_Cognition_Protocol/consciousness/reflexive_evaluator.py",
+    "kind": "Assign",
+    "line": 49,
+    "name": "logger"
+  },
+  {
+    "file": "Logos_System/System_Stack/Synthetic_Cognition_Protocol/consciousness/reflexive_evaluator.py",
+    "kind": "Assign",
+    "line": 302,
+    "name": "__all__"
+  },
+  {
+    "file": "Logos_System/System_Stack/Synthetic_Cognition_Protocol/consciousness/simulated_consciousness_runtime.py",
+    "kind": "Assign",
+    "line": 34,
+    "name": "logger"
+  },
+  {
+    "file": "Logos_System/System_Stack/Synthetic_Cognition_Protocol/consciousness/simulated_consciousness_runtime.py",
+    "kind": "Assign",
+    "line": 37,
+    "name": "ARTIFACT_DIR"
+  },
+  {
+    "file": "Logos_System/System_Stack/Synthetic_Cognition_Protocol/consciousness/simulated_consciousness_runtime.py",
+    "kind": "Assign",
+    "line": 39,
+    "name": "LOG_FILE"
+  },
+  {
+    "file": "Logos_System/System_Stack/Synthetic_Cognition_Protocol/consciousness/agentic_consciousness_core.py",
+    "kind": "Assign",
+    "line": 31,
+    "name": "logger"
+  },
+  {
+    "file": "Logos_System/System_Stack/Synthetic_Cognition_Protocol/consciousness/agentic_consciousness_core.py",
+    "kind": "Assign",
+    "line": 79,
+    "name": "TFAT_AVAILABLE"
+  },
+  {
+    "file": "Logos_System/System_Stack/Synthetic_Cognition_Protocol/consciousness/agentic_consciousness_core.py",
+    "kind": "Assign",
+    "line": 80,
+    "name": "tfat_core"
+  },
+  {
+    "file": "Logos_System/System_Stack/Synthetic_Cognition_Protocol/consciousness/agentic_consciousness_core.py",
+    "kind": "Assign",
+    "line": 85,
+    "name": "logger"
+  },
+  {
+    "file": "Logos_System/System_Stack/Synthetic_Cognition_Protocol/consciousness/logos_core_foundations.py",
+    "kind": "Assign",
+    "line": 32,
+    "name": "logger"
+  },
+  {
+    "file": "Logos_System/System_Stack/Synthetic_Cognition_Protocol/consciousness/consciousness_safety_adapter.py",
+    "kind": "Assign",
+    "line": 37,
+    "name": "logger"
+  },
+  {
+    "file": "Logos_System/System_Stack/Synthetic_Cognition_Protocol/consciousness/consciousness_safety_adapter.py",
+    "kind": "Assign",
+    "line": 587,
+    "name": "__all__"
+  },
+  {
+    "file": "Logos_System/System_Stack/Synthetic_Cognition_Protocol/consciousness/fractal_consciousness_core.py",
+    "kind": "Assign",
+    "line": 30,
+    "name": "logger"
+  },
+  {
+    "file": "Logos_System/System_Stack/Synthetic_Cognition_Protocol/MVS_System/dual_bijection_demo.py",
+    "kind": "Assign",
+    "line": 1,
+    "name": "A"
+  },
+  {
+    "file": "Logos_System/System_Stack/Synthetic_Cognition_Protocol/MVS_System/dual_bijection_demo.py",
+    "kind": "Assign",
+    "line": 2,
+    "name": "A_inverse"
+  },
+  {
+    "file": "Logos_System/System_Stack/Synthetic_Cognition_Protocol/MVS_System/dual_bijection_demo.py",
+    "kind": "Assign",
+    "line": 4,
+    "name": "B"
+  },
+  {
+    "file": "Logos_System/System_Stack/Synthetic_Cognition_Protocol/MVS_System/dual_bijection_demo.py",
+    "kind": "Assign",
+    "line": 5,
+    "name": "B_inverse"
+  },
+  {
+    "file": "Logos_System/System_Stack/Synthetic_Cognition_Protocol/MVS_System/dual_bijection_coherence_analysis.py",
+    "kind": "Assign",
+    "line": 24,
+    "name": "A"
+  },
+  {
+    "file": "Logos_System/System_Stack/Synthetic_Cognition_Protocol/MVS_System/dual_bijection_coherence_analysis.py",
+    "kind": "Assign",
+    "line": 25,
+    "name": "A_inverse"
+  },
+  {
+    "file": "Logos_System/System_Stack/Synthetic_Cognition_Protocol/MVS_System/dual_bijection_coherence_analysis.py",
+    "kind": "Assign",
+    "line": 27,
+    "name": "B"
+  },
+  {
+    "file": "Logos_System/System_Stack/Synthetic_Cognition_Protocol/MVS_System/dual_bijection_coherence_analysis.py",
+    "kind": "Assign",
+    "line": 28,
+    "name": "B_inverse"
+  },
+  {
+    "file": "Logos_System/System_Stack/Synthetic_Cognition_Protocol/MVS_System/fractal_orbit_demo.py",
+    "kind": "Assign",
+    "line": 44,
+    "name": "logger"
+  },
+  {
+    "file": "Logos_System/System_Stack/Synthetic_Cognition_Protocol/MVS_System/fractal_orbit_cli.py",
+    "kind": "Assign",
+    "line": 49,
+    "name": "logger"
+  },
+  {
+    "file": "Logos_System/System_Stack/Synthetic_Cognition_Protocol/MVS_System/fractal_orbit_toolkit.py",
+    "kind": "Assign",
+    "line": 43,
+    "name": "_MODULE_DIR"
+  },
+  {
+    "file": "Logos_System/System_Stack/Synthetic_Cognition_Protocol/MVS_System/fractal_orbit_toolkit.py",
+    "kind": "Assign",
+    "line": 44,
+    "name": "_SCP_DIR"
+  },
+  {
+    "file": "Logos_System/System_Stack/Synthetic_Cognition_Protocol/MVS_System/fractal_orbit_toolkit.py",
+    "kind": "Assign",
+    "line": 45,
+    "name": "_REPO_ROOT"
+  },
+  {
+    "file": "Logos_System/System_Stack/Synthetic_Cognition_Protocol/MVS_System/fractal_orbit_toolkit.py",
+    "kind": "Assign",
+    "line": 140,
+    "name": "logger"
+  },
+  {
+    "file": "Logos_System/System_Stack/Synthetic_Cognition_Protocol/MVS_System/fractal_orbit_toolkit.py",
+    "kind": "Assign",
+    "line": 839,
+    "name": "__all__"
+  },
+  {
+    "file": "Logos_System/System_Stack/Synthetic_Cognition_Protocol/BDN_System/mvf_node_operator.py",
+    "kind": "Assign",
+    "line": 29,
+    "name": "T"
+  },
+  {
+    "file": "Logos_System/System_Stack/Synthetic_Cognition_Protocol/system_utilities/nexus/scp_nexus.py",
+    "kind": "Assign",
+    "line": 25,
+    "name": "logos_agi_root"
+  },
+  {
+    "file": "Logos_System/System_Stack/Synthetic_Cognition_Protocol/system_utilities/nexus/scp_nexus.py",
+    "kind": "Assign",
+    "line": 29,
+    "name": "logger"
+  },
+  {
+    "file": "Logos_System/System_Stack/Synthetic_Cognition_Protocol/system_utilities/nexus/scp_nexus.py",
+    "kind": "Assign",
+    "line": 724,
+    "name": "scp_nexus"
+  },
+  {
+    "file": "Logos_System/System_Stack/Synthetic_Cognition_Protocol/system_utilities/nexus/scp_nexus.py",
+    "kind": "Assign",
+    "line": 735,
+    "name": "__all__"
+  },
+  {
+    "file": "Logos_System/System_Stack/Synthetic_Cognition_Protocol/MVS_System/data_c_values/data_structures.py",
+    "kind": "Assign",
+    "line": 480,
+    "name": "MVSCoordinateList"
+  },
+  {
+    "file": "Logos_System/System_Stack/Synthetic_Cognition_Protocol/MVS_System/data_c_values/data_structures.py",
+    "kind": "Assign",
+    "line": 481,
+    "name": "BDNGenealogyChain"
+  },
+  {
+    "file": "Logos_System/System_Stack/Synthetic_Cognition_Protocol/MVS_System/data_c_values/data_structures.py",
+    "kind": "Assign",
+    "line": 482,
+    "name": "ModalInferenceChain"
+  },
+  {
+    "file": "Logos_System/System_Stack/Synthetic_Cognition_Protocol/MVS_System/data_c_values/data_structures.py",
+    "kind": "Assign",
+    "line": 483,
+    "name": "CreativeHypothesisList"
+  },
+  {
+    "file": "Logos_System/System_Stack/Synthetic_Cognition_Protocol/MVS_System/data_c_values/data_structures.py",
+    "kind": "Assign",
+    "line": 484,
+    "name": "NovelProblemList"
+  },
+  {
+    "file": "Logos_System/System_Stack/Synthetic_Cognition_Protocol/MVS_System/data_c_values/data_structures.py",
+    "kind": "Assign",
+    "line": 488,
+    "name": "__all__"
+  },
+  {
+    "file": "Logos_System/System_Stack/Synthetic_Cognition_Protocol/MVS_System/fractal_orbital/fractal_mvs.py",
+    "kind": "Assign",
+    "line": 73,
+    "name": "logger"
+  },
+  {
+    "file": "Logos_System/System_Stack/Synthetic_Cognition_Protocol/MVS_System/fractal_orbital/fractal_mvs.py",
+    "kind": "Assign",
+    "line": 1312,
+    "name": "__all__"
+  },
+  {
+    "file": "Logos_System/System_Stack/Synthetic_Cognition_Protocol/MVS_System/fractal_orbital/fractal_navigator.py",
+    "kind": "Assign",
+    "line": 16,
+    "name": "logger"
+  },
+  {
+    "file": "Logos_System/System_Stack/Synthetic_Cognition_Protocol/MVS_System/fractal_orbital/integration_harmonizer.py",
+    "kind": "Assign",
+    "line": 635,
+    "name": "__all__"
+  },
+  {
+    "file": "Logos_System/System_Stack/Synthetic_Cognition_Protocol/MVS_System/fractal_orbital/symbolic_math.py",
+    "kind": "Assign",
+    "line": 548,
+    "name": "SymbolicMath"
+  },
+  {
+    "file": "Logos_System/System_Stack/Synthetic_Cognition_Protocol/MVS_System/mvs_calculators/validation_schemas_system.py",
+    "kind": "Assign",
+    "line": 774,
+    "name": "schemas"
+  },
+  {
+    "file": "Logos_System/System_Stack/Synthetic_Cognition_Protocol/MVS_System/predictors/divergence_calculator.py",
+    "kind": "Assign",
+    "line": 15,
+    "name": "logger"
+  },
+  {
+    "file": "Logos_System/System_Stack/Synthetic_Cognition_Protocol/MVS_System/predictors/causal_chain_node_predictor.py",
+    "kind": "Assign",
+    "line": 12,
+    "name": "logger"
+  },
+  {
+    "file": "Logos_System/System_Stack/Synthetic_Cognition_Protocol/MVS_System/predictors/divergence_engine.py",
+    "kind": "Assign",
+    "line": 17,
+    "name": "ThonocVerifier"
+  },
+  {
+    "file": "Logos_System/System_Stack/Synthetic_Cognition_Protocol/MVS_System/predictors/divergence_engine.py",
+    "kind": "Assign",
+    "line": 18,
+    "name": "OntologicalNode"
+  },
+  {
+    "file": "Logos_System/System_Stack/Synthetic_Cognition_Protocol/MVS_System/predictors/prediction_module.py",
+    "kind": "Assign",
+    "line": 24,
+    "name": "ThonocVerifier"
+  },
+  {
+    "file": "Logos_System/System_Stack/Synthetic_Cognition_Protocol/MVS_System/predictors/class_fractal_orbital_predictor.py",
+    "kind": "Assign",
+    "line": 23,
+    "name": "BayesianTrinityInferencer"
+  },
+  {
+    "file": "Logos_System/System_Stack/Synthetic_Cognition_Protocol/MVS_System/predictors/class_fractal_orbital_predictor.py",
+    "kind": "Assign",
+    "line": 37,
+    "name": "OntologicalNode"
+  },
+  {
+    "file": "Logos_System/System_Stack/Synthetic_Cognition_Protocol/MVS_System/predictors/class_fractal_orbital_predictor.py",
+    "kind": "Assign",
+    "line": 39,
+    "name": "ThonocVerifier"
+  },
+  {
+    "file": "Logos_System/System_Stack/Synthetic_Cognition_Protocol/MVS_System/predictors/etgc_prior_checker.py",
+    "kind": "Assign",
+    "line": 59,
+    "name": "__all__"
+  },
+  {
+    "file": "Logos_System/System_Stack/Synthetic_Cognition_Protocol/MVS_System/mathematics/fractal_mvs.py",
+    "kind": "Assign",
+    "line": 39,
+    "name": "TrinityVector"
+  },
+  {
+    "file": "Logos_System/System_Stack/Synthetic_Cognition_Protocol/MVS_System/mathematics/fractal_mvs.py",
+    "kind": "Assign",
+    "line": 76,
+    "name": "logger"
+  },
+  {
+    "file": "Logos_System/System_Stack/Synthetic_Cognition_Protocol/MVS_System/mathematics/fractal_mvs.py",
+    "kind": "Assign",
+    "line": 1315,
+    "name": "__all__"
+  },
+  {
+    "file": "Logos_System/System_Stack/Synthetic_Cognition_Protocol/MVS_System/mathematics/trinity_alignment.py",
+    "kind": "Assign",
+    "line": 67,
+    "name": "logger"
+  },
+  {
+    "file": "Logos_System/System_Stack/Synthetic_Cognition_Protocol/MVS_System/mathematics/trinity_alignment.py",
+    "kind": "Assign",
+    "line": 880,
+    "name": "__all__"
+  },
+  {
+    "file": "Logos_System/System_Stack/Synthetic_Cognition_Protocol/BDN_System/integration/logos_bridge.py",
+    "kind": "Assign",
+    "line": 90,
+    "name": "logger"
+  },
+  {
+    "file": "Logos_System/System_Stack/Synthetic_Cognition_Protocol/BDN_System/integration/logos_bridge.py",
+    "kind": "Assign",
+    "line": 1242,
+    "name": "__all__"
+  },
+  {
+    "file": "Logos_System/System_Stack/Synthetic_Cognition_Protocol/BDN_System/integration/trinity_alignment.py",
+    "kind": "Assign",
+    "line": 65,
+    "name": "logger"
+  },
+  {
+    "file": "Logos_System/System_Stack/Synthetic_Cognition_Protocol/BDN_System/integration/trinity_alignment.py",
+    "kind": "Assign",
+    "line": 878,
+    "name": "__all__"
+  },
+  {
+    "file": "Logos_System/System_Stack/Synthetic_Cognition_Protocol/BDN_System/core/banach_data_nodes.py",
+    "kind": "Assign",
+    "line": 64,
+    "name": "logger"
+  },
+  {
+    "file": "Logos_System/System_Stack/Synthetic_Cognition_Protocol/BDN_System/core/banach_data_nodes.py",
+    "kind": "Assign",
+    "line": 1161,
+    "name": "__all__"
+  },
+  {
+    "file": "Logos_System/System_Stack/Synthetic_Cognition_Protocol/BDN_System/core/logos_nodes_connections.py",
+    "kind": "Assign",
+    "line": 36,
+    "name": "nodes"
+  },
+  {
+    "file": "Logos_System/System_Stack/Synthetic_Cognition_Protocol/BDN_System/core/logos_nodes_connections.py",
+    "kind": "Assign",
+    "line": 42,
+    "name": "logos_validator"
+  },
+  {
+    "file": "Logos_System/System_Stack/Synthetic_Cognition_Protocol/BDN_System/core/logos_nodes_connections.py",
+    "kind": "Assign",
+    "line": 43,
+    "name": "onto_validator"
+  },
+  {
+    "file": "Logos_System/System_Stack/Synthetic_Cognition_Protocol/BDN_System/core/logos_nodes_connections.py",
+    "kind": "Assign",
+    "line": 44,
+    "name": "trinity_agents"
+  },
+  {
+    "file": "Logos_System/System_Stack/Synthetic_Cognition_Protocol/BDN_System/core/logos_nodes_connections.py",
+    "kind": "Assign",
+    "line": 47,
+    "name": "errors"
+  },
+  {
+    "file": "Logos_System/System_Stack/Synthetic_Cognition_Protocol/BDN_System/core/trinity_vectors.py",
+    "kind": "Assign",
+    "line": 9,
+    "name": "__all__"
+  },
+  {
+    "file": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/nexus/arp_nexus.py",
+    "kind": "Assign",
+    "line": 45,
+    "name": "logger"
+  },
+  {
+    "file": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/nexus/arp_nexus.py",
+    "kind": "Assign",
+    "line": 603,
+    "name": "arp_nexus"
+  },
+  {
+    "file": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/nexus/arp_nexus.py",
+    "kind": "Assign",
+    "line": 605,
+    "name": "__all__"
+  },
+  {
+    "file": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/mathematical_foundations/__init__.py",
+    "kind": "Assign",
+    "line": 43,
+    "name": "__version__"
+  },
+  {
+    "file": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/mathematical_foundations/__init__.py",
+    "kind": "Assign",
+    "line": 44,
+    "name": "__all__"
+  },
+  {
+    "file": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_toolkit/iel_overlay.py",
+    "kind": "Assign",
+    "line": 1113,
+    "name": "iel_overlay_engine"
+  },
+  {
+    "file": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_toolkit/iel_overlay.py",
+    "kind": "Assign",
+    "line": 1184,
+    "name": "__all__"
+  },
+  {
+    "file": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_toolkit/iel_registry.py",
+    "kind": "Assign",
+    "line": 106,
+    "name": "_registry"
+  },
+  {
+    "file": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_toolkit/__init__.py",
+    "kind": "Assign",
+    "line": 7,
+    "name": "__all__"
+  },
+  {
+    "file": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/arp_stack_compiler/arp_operations.py",
+    "kind": "Assign",
+    "line": 40,
+    "name": "logger"
+  },
+  {
+    "file": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/arp_stack_compiler/arp_stack_compiler.py",
+    "kind": "Assign",
+    "line": 59,
+    "name": "logger"
+  },
+  {
+    "file": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/arp_stack_compiler/__init__.py",
+    "kind": "Assign",
+    "line": 18,
+    "name": "__all__"
+  },
+  {
+    "file": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/__init__.py",
+    "kind": "Assign",
+    "line": 11,
+    "name": "logger"
+  },
+  {
+    "file": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/__init__.py",
+    "kind": "Assign",
+    "line": 13,
+    "name": "__version__"
+  },
+  {
+    "file": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/__init__.py",
+    "kind": "Assign",
+    "line": 91,
+    "name": "__all__"
+  },
+  {
+    "file": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/reasoning_engines/__init__.py",
+    "kind": "Assign",
+    "line": 63,
+    "name": "TRANSLATION_AVAILABLE"
+  },
+  {
+    "file": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/reasoning_engines/__init__.py",
+    "kind": "Assign",
+    "line": 64,
+    "name": "BAYESIAN_ENHANCED_AVAILABLE"
+  },
+  {
+    "file": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/reasoning_engines/__init__.py",
+    "kind": "Assign",
+    "line": 65,
+    "name": "SEMANTIC_TRANSFORMER_AVAILABLE"
+  },
+  {
+    "file": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/reasoning_engines/__init__.py",
+    "kind": "Assign",
+    "line": 139,
+    "name": "__all__"
+  },
+  {
+    "file": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/mathematical_foundations/math_categories/logos_mathematical_core.py",
+    "kind": "Assign",
+    "line": 29,
+    "name": "logger"
+  },
+  {
+    "file": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/mathematical_foundations/math_categories/logos_mathematical_core.py",
+    "kind": "Assign",
+    "line": 550,
+    "name": "__all__"
+  },
+  {
+    "file": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/mathematical_foundations/math_categories/__init__.py",
+    "kind": "Assign",
+    "line": 78,
+    "name": "ENHANCED_COMPONENTS_AVAILABLE"
+  },
+  {
+    "file": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/mathematical_foundations/math_categories/__init__.py",
+    "kind": "Assign",
+    "line": 80,
+    "name": "__all__"
+  },
+  {
+    "file": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/mathematical_foundations/pxl/relation_mapper.py",
+    "kind": "Assign",
+    "line": 745,
+    "name": "pxl_relation_mapper"
+  },
+  {
+    "file": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/mathematical_foundations/pxl/relation_mapper.py",
+    "kind": "Assign",
+    "line": 748,
+    "name": "__all__"
+  },
+  {
+    "file": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/mathematical_foundations/pxl/pxl_schema.py",
+    "kind": "Assign",
+    "line": 873,
+    "name": "pxl_schema_validator"
+  },
+  {
+    "file": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/mathematical_foundations/pxl/pxl_schema.py",
+    "kind": "Assign",
+    "line": 876,
+    "name": "__all__"
+  },
+  {
+    "file": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/mathematical_foundations/pxl/pxl_postprocessor.py",
+    "kind": "Assign",
+    "line": 1106,
+    "name": "pxl_postprocessor"
+  },
+  {
+    "file": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/mathematical_foundations/pxl/pxl_postprocessor.py",
+    "kind": "Assign",
+    "line": 1109,
+    "name": "__all__"
+  },
+  {
+    "file": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/mathematical_foundations/pxl/consistency_checker.py",
+    "kind": "Assign",
+    "line": 927,
+    "name": "pxl_consistency_checker"
+  },
+  {
+    "file": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/mathematical_foundations/pxl/consistency_checker.py",
+    "kind": "Assign",
+    "line": 930,
+    "name": "__all__"
+  },
+  {
+    "file": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/mathematical_foundations/pxl/__init__.py",
+    "kind": "Assign",
+    "line": 37,
+    "name": "__all__"
+  },
+  {
+    "file": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/mathematical_foundations/pxl/__init__.py",
+    "kind": "Assign",
+    "line": 49,
+    "name": "__version__"
+  },
+  {
+    "file": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/mathematical_foundations/pxl/__init__.py",
+    "kind": "Assign",
+    "line": 50,
+    "name": "__enhanced__"
+  },
+  {
+    "file": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/mathematical_foundations/formalisms/safety_formalisms.py",
+    "kind": "Assign",
+    "line": 21,
+    "name": "logger"
+  },
+  {
+    "file": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/mathematical_foundations/formalisms/coherence_formalism.py",
+    "kind": "Assign",
+    "line": 24,
+    "name": "logger"
+  },
+  {
+    "file": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/mathematical_foundations/formalisms/__init__.py",
+    "kind": "Assign",
+    "line": 29,
+    "name": "logger"
+  },
+  {
+    "file": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/mathematical_foundations/formalisms/__init__.py",
+    "kind": "Assign",
+    "line": 451,
+    "name": "_global_formalisms_instance"
+  },
+  {
+    "file": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/mathematical_foundations/formalisms/trinity_framework.py",
+    "kind": "Assign",
+    "line": 37,
+    "name": "logger"
+  },
+  {
+    "file": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/mathematical_foundations/pxl/arithmopraxis/arithmetic_engine.py",
+    "kind": "Assign",
+    "line": 463,
+    "name": "ArithmeticEngine"
+  },
+  {
+    "file": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/mathematical_foundations/pxl/arithmopraxis/proof_engine.py",
+    "kind": "Assign",
+    "line": 582,
+    "name": "ProofEngine"
+  },
+  {
+    "file": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/mathematical_foundations/pxl/arithmopraxis/__init__.py",
+    "kind": "Assign",
+    "line": 11,
+    "name": "__all__"
+  },
+  {
+    "file": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_toolkit/iel/iel_synthesizer.py",
+    "kind": "Assign",
+    "line": 1534,
+    "name": "iel_domain_synthesizer"
+  },
+  {
+    "file": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_toolkit/iel/iel_synthesizer.py",
+    "kind": "Assign",
+    "line": 1537,
+    "name": "__all__"
+  },
+  {
+    "file": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_toolkit/iel/iel_error_handler.py",
+    "kind": "Assign",
+    "line": 1079,
+    "name": "iel_error_handler_instance"
+  },
+  {
+    "file": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_toolkit/iel/iel_error_handler.py",
+    "kind": "Assign",
+    "line": 1082,
+    "name": "__all__"
+  },
+  {
+    "file": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_toolkit/iel/iel_schema.py",
+    "kind": "Assign",
+    "line": 73,
+    "name": "T"
+  },
+  {
+    "file": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_toolkit/iel/iel_schema.py",
+    "kind": "Assign",
+    "line": 74,
+    "name": "K"
+  },
+  {
+    "file": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_toolkit/iel/iel_schema.py",
+    "kind": "Assign",
+    "line": 75,
+    "name": "D"
+  },
+  {
+    "file": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_toolkit/iel/iel_schema.py",
+    "kind": "Assign",
+    "line": 76,
+    "name": "R"
+  },
+  {
+    "file": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_toolkit/iel/iel_schema.py",
+    "kind": "Assign",
+    "line": 1105,
+    "name": "iel_schema_validator"
+  },
+  {
+    "file": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_toolkit/iel/iel_schema.py",
+    "kind": "Assign",
+    "line": 1108,
+    "name": "__all__"
+  },
+  {
+    "file": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/ZelosPraxis/__init__.py",
+    "kind": "Assign",
+    "line": 96,
+    "name": "__all__"
+  },
+  {
+    "file": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/TropoPraxis/__init__.py",
+    "kind": "Assign",
+    "line": 11,
+    "name": "logger"
+  },
+  {
+    "file": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/TropoPraxis/__init__.py",
+    "kind": "Assign",
+    "line": 98,
+    "name": "__all__"
+  },
+  {
+    "file": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/TeloPraxis/__init__.py",
+    "kind": "Assign",
+    "line": 11,
+    "name": "logger"
+  },
+  {
+    "file": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/TeloPraxis/__init__.py",
+    "kind": "Assign",
+    "line": 108,
+    "name": "__all__"
+  },
+  {
+    "file": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/AxioPraxis/__init__.py",
+    "kind": "Assign",
+    "line": 19,
+    "name": "logger"
+  },
+  {
+    "file": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/AxioPraxis/__init__.py",
+    "kind": "Assign",
+    "line": 99,
+    "name": "__all__"
+  },
+  {
+    "file": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/ModalPraxis/__init__.py",
+    "kind": "Assign",
+    "line": 11,
+    "name": "logger"
+  },
+  {
+    "file": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/ModalPraxis/__init__.py",
+    "kind": "Assign",
+    "line": 103,
+    "name": "__all__"
+  },
+  {
+    "file": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/PraxeoPraxis/__init__.py",
+    "kind": "Assign",
+    "line": 11,
+    "name": "logger"
+  },
+  {
+    "file": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/PraxeoPraxis/__init__.py",
+    "kind": "Assign",
+    "line": 98,
+    "name": "__all__"
+  },
+  {
+    "file": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/TopoPraxis/__init__.py",
+    "kind": "Assign",
+    "line": 11,
+    "name": "logger"
+  },
+  {
+    "file": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/TopoPraxis/__init__.py",
+    "kind": "Assign",
+    "line": 98,
+    "name": "__all__"
+  },
+  {
+    "file": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/ThemiPraxis/__init__.py",
+    "kind": "Assign",
+    "line": 11,
+    "name": "logger"
+  },
+  {
+    "file": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/ThemiPraxis/__init__.py",
+    "kind": "Assign",
+    "line": 98,
+    "name": "__all__"
+  },
+  {
+    "file": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/GnosiPraxis/__init__.py",
+    "kind": "Assign",
+    "line": 19,
+    "name": "logger"
+  },
+  {
+    "file": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/GnosiPraxis/__init__.py",
+    "kind": "Assign",
+    "line": 109,
+    "name": "__all__"
+  },
+  {
+    "file": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/GlorioPraxis/__init__.py",
+    "kind": "Assign",
+    "line": 88,
+    "name": "glorio_praxis"
+  },
+  {
+    "file": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/GlorioPraxis/__init__.py",
+    "kind": "Assign",
+    "line": 90,
+    "name": "__all__"
+  },
+  {
+    "file": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/AestheticoPraxis/__init__.py",
+    "kind": "Assign",
+    "line": 33,
+    "name": "logger"
+  },
+  {
+    "file": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/AestheticoPraxis/__init__.py",
+    "kind": "Assign",
+    "line": 105,
+    "name": "aesthetico_praxis"
+  },
+  {
+    "file": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/AestheticoPraxis/__init__.py",
+    "kind": "Assign",
+    "line": 107,
+    "name": "__all__"
+  },
+  {
+    "file": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/MakarPraxis/__init__.py",
+    "kind": "Assign",
+    "line": 90,
+    "name": "makar_praxis"
+  },
+  {
+    "file": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/MakarPraxis/__init__.py",
+    "kind": "Assign",
+    "line": 92,
+    "name": "__all__"
+  },
+  {
+    "file": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/ChronoPraxis/__init__.py",
+    "kind": "Assign",
+    "line": 11,
+    "name": "logger"
+  },
+  {
+    "file": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/ChronoPraxis/__init__.py",
+    "kind": "Assign",
+    "line": 98,
+    "name": "__all__"
+  },
+  {
+    "file": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/RelatioPraxis/__init__.py",
+    "kind": "Assign",
+    "line": 11,
+    "name": "logger"
+  },
+  {
+    "file": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/RelatioPraxis/__init__.py",
+    "kind": "Assign",
+    "line": 98,
+    "name": "__all__"
+  },
+  {
+    "file": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/AnthroPraxis/__init__.py",
+    "kind": "Assign",
+    "line": 19,
+    "name": "logger"
+  },
+  {
+    "file": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/AnthroPraxis/__init__.py",
+    "kind": "Assign",
+    "line": 108,
+    "name": "__all__"
+  },
+  {
+    "file": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/TheoPraxis/__init__.py",
+    "kind": "Assign",
+    "line": 11,
+    "name": "logger"
+  },
+  {
+    "file": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/TheoPraxis/__init__.py",
+    "kind": "Assign",
+    "line": 98,
+    "name": "__all__"
+  },
+  {
+    "file": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/CosmoPraxis/__init__.py",
+    "kind": "Assign",
+    "line": 11,
+    "name": "logger"
+  },
+  {
+    "file": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/CosmoPraxis/__init__.py",
+    "kind": "Assign",
+    "line": 103,
+    "name": "__all__"
+  },
+  {
+    "file": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/ErgoPraxis/__init__.py",
+    "kind": "Assign",
+    "line": 11,
+    "name": "logger"
+  },
+  {
+    "file": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/ErgoPraxis/__init__.py",
+    "kind": "Assign",
+    "line": 103,
+    "name": "__all__"
+  },
+  {
+    "file": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/ChronoPraxis/chronopraxis/__init__.py",
+    "kind": "Assign",
+    "line": 15,
+    "name": "__all__"
+  },
+  {
+    "file": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/reasoning_engines/bayesian/__init__.py",
+    "kind": "Assign",
+    "line": 55,
+    "name": "TrinityVectorInference"
+  },
+  {
+    "file": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/reasoning_engines/bayesian/__init__.py",
+    "kind": "Assign",
+    "line": 56,
+    "name": "BayesianInferencer"
+  },
+  {
+    "file": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/reasoning_engines/bayesian/__init__.py",
+    "kind": "Assign",
+    "line": 58,
+    "name": "__all__"
+  },
+  {
+    "file": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/reasoning_engines/temporal_modal/Temporal_Flow_Analyzer.py",
+    "kind": "Assign",
+    "line": 17,
+    "name": "logger"
+  },
+  {
+    "file": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/reasoning_engines/temporal_modal/Temporal_Flow_Analyzer.py",
+    "kind": "Assign",
+    "line": 86,
+    "name": "tfat_integration"
+  },
+  {
+    "file": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/reasoning_engines/temporal_modal/bugfix.py",
+    "kind": "Assign",
+    "line": 17,
+    "name": "logger"
+  },
+  {
+    "file": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/reasoning_engines/temporal_modal/bugfix.py",
+    "kind": "Assign",
+    "line": 86,
+    "name": "tfat_integration"
+  },
+  {
+    "file": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/reasoning_engines/temporal_modal/coherence.py",
+    "kind": "Assign",
+    "line": 18,
+    "name": "logger"
+  },
+  {
+    "file": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/reasoning_engines/temporal_modal/coherence.py",
+    "kind": "Assign",
+    "line": 158,
+    "name": "coherence_engine"
+  },
+  {
+    "file": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/reasoning_engines/temporal_modal/modal_validator.py",
+    "kind": "Assign",
+    "line": 589,
+    "name": "modal_logic_engine"
+  },
+  {
+    "file": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/reasoning_engines/temporal_modal/modal_validator.py",
+    "kind": "Assign",
+    "line": 592,
+    "name": "__all__"
+  },
+  {
+    "file": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/reasoning_engines/bayesian/bayesian_enhanced/bayes_update_real_time.py",
+    "kind": "Assign",
+    "line": 10,
+    "name": "CONFIDENCE_THRESHOLD"
+  },
+  {
+    "file": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/reasoning_engines/bayesian/bayesian_enhanced/bayes_update_real_time.py",
+    "kind": "Assign",
+    "line": 11,
+    "name": "MAX_ITERATIONS"
+  },
+  {
+    "file": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/reasoning_engines/bayesian/bayesian_enhanced/bayes_update_real_time.py",
+    "kind": "Assign",
+    "line": 13,
+    "name": "_DEFAULT_PRIORS_PATH"
+  },
+  {
+    "file": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/reasoning_engines/bayesian/bayesian_enhanced/bayesian_ml.py",
+    "kind": "Assign",
+    "line": 240,
+    "name": "__all__"
+  },
+  {
+    "file": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/reasoning_engines/bayesian/bayesian_enhanced/bayesian_updates.py",
+    "kind": "Assign",
+    "line": 21,
+    "name": "CONFIDENCE_THRESHOLD"
+  },
+  {
+    "file": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/reasoning_engines/bayesian/bayesian_enhanced/bayesian_updates.py",
+    "kind": "Assign",
+    "line": 22,
+    "name": "MAX_ITERATIONS"
+  },
+  {
+    "file": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/reasoning_engines/bayesian/bayesian_enhanced/bayesian_updates.py",
+    "kind": "Assign",
+    "line": 24,
+    "name": "_DEFAULT_PRIORS_PATH"
+  },
+  {
+    "file": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/reasoning_engines/bayesian/bayesian_enhanced/bayesian_updates.py",
+    "kind": "Assign",
+    "line": 212,
+    "name": "__all__"
+  },
+  {
+    "file": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/reasoning_engines/bayesian/bayesian_enhanced/mcmc_engine.py",
+    "kind": "Assign",
+    "line": 13,
+    "name": "logger"
+  },
+  {
+    "file": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/reasoning_engines/bayesian/bayesian_enhanced/__init__.py",
+    "kind": "Assign",
+    "line": 55,
+    "name": "__all__"
+  },
+  {
+    "file": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/reasoning_engines/bayesian/bayesian_enhanced/bayesian_interface.py",
+    "kind": "Assign",
+    "line": 228,
+    "name": "__all__"
+  },
+  {
+    "file": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/reasoning_engines/bayesian/bayesian_enhanced/bayesian_data_parser.py",
+    "kind": "Assign",
+    "line": 23,
+    "name": "_analytics_enabled"
+  },
+  {
+    "file": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/reasoning_engines/bayesian/bayesian_enhanced/bayesian_data_parser.py",
+    "kind": "Assign",
+    "line": 30,
+    "name": "StatsInterfaceUnavailable"
+  },
+  {
+    "file": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/reasoning_engines/bayesian/bayesian_enhanced/bayesian_data_parser.py",
+    "kind": "Assign",
+    "line": 39,
+    "name": "linear_regression"
+  },
+  {
+    "file": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/reasoning_engines/bayesian/bayesian_enhanced/bayesian_data_parser.py",
+    "kind": "Assign",
+    "line": 40,
+    "name": "logistic_regression"
+  },
+  {
+    "file": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/reasoning_engines/bayesian/bayesian_enhanced/bayesian_data_parser.py",
+    "kind": "Assign",
+    "line": 41,
+    "name": "partial_correlation"
+  },
+  {
+    "file": "Logos_System/System_Stack/Logos_Protocol/External_Enhancements/External_Enhancements_Registry.py",
+    "kind": "AnnAssign",
+    "line": 15,
+    "name": "_REGISTRY"
+  },
+  {
+    "file": "Logos_System/System_Stack/Logos_Protocol/External_Enhancements/ML_Wrapper_Torch.py",
+    "kind": "Assign",
+    "line": 4,
+    "name": "__LOGOS_WRAPPER__"
+  },
+  {
+    "file": "Logos_System/System_Stack/Logos_Protocol/External_Enhancements/ML_Wrapper_Torch.py",
+    "kind": "Assign",
+    "line": 5,
+    "name": "__WRAPPER_ID__"
+  },
+  {
+    "file": "Logos_System/System_Stack/Logos_Protocol/External_Enhancements/ML_Wrapper_Torch.py",
+    "kind": "Assign",
+    "line": 6,
+    "name": "__WRAPS__"
+  },
+  {
+    "file": "Logos_System/System_Stack/Logos_Protocol/External_Enhancements/ML_Wrapper_Torch.py",
+    "kind": "Assign",
+    "line": 7,
+    "name": "__IMPORT_NAME__"
+  },
+  {
+    "file": "Logos_System/System_Stack/Logos_Protocol/External_Enhancements/ML_Wrapper_Torch.py",
+    "kind": "Assign",
+    "line": 8,
+    "name": "__ROLE__"
+  },
+  {
+    "file": "Logos_System/System_Stack/Logos_Protocol/External_Enhancements/ML_Wrapper_Torch.py",
+    "kind": "Assign",
+    "line": 9,
+    "name": "__VERSION__"
+  },
+  {
+    "file": "Logos_System/System_Stack/Logos_Protocol/External_Enhancements/Cognition_Wrapper_Micropsi.py",
+    "kind": "Assign",
+    "line": 4,
+    "name": "__LOGOS_WRAPPER__"
+  },
+  {
+    "file": "Logos_System/System_Stack/Logos_Protocol/External_Enhancements/Cognition_Wrapper_Micropsi.py",
+    "kind": "Assign",
+    "line": 5,
+    "name": "__WRAPPER_ID__"
+  },
+  {
+    "file": "Logos_System/System_Stack/Logos_Protocol/External_Enhancements/Cognition_Wrapper_Micropsi.py",
+    "kind": "Assign",
+    "line": 6,
+    "name": "__WRAPS__"
+  },
+  {
+    "file": "Logos_System/System_Stack/Logos_Protocol/External_Enhancements/Cognition_Wrapper_Micropsi.py",
+    "kind": "Assign",
+    "line": 7,
+    "name": "__IMPORT_NAME__"
+  },
+  {
+    "file": "Logos_System/System_Stack/Logos_Protocol/External_Enhancements/Cognition_Wrapper_Micropsi.py",
+    "kind": "Assign",
+    "line": 8,
+    "name": "__ROLE__"
+  },
+  {
+    "file": "Logos_System/System_Stack/Logos_Protocol/External_Enhancements/Cognition_Wrapper_Micropsi.py",
+    "kind": "Assign",
+    "line": 9,
+    "name": "__VERSION__"
+  },
+  {
+    "file": "Logos_System/System_Stack/Logos_Protocol/External_Enhancements/Graph_Wrapper_Networkx.py",
+    "kind": "Assign",
+    "line": 4,
+    "name": "__LOGOS_WRAPPER__"
+  },
+  {
+    "file": "Logos_System/System_Stack/Logos_Protocol/External_Enhancements/Graph_Wrapper_Networkx.py",
+    "kind": "Assign",
+    "line": 5,
+    "name": "__WRAPPER_ID__"
+  },
+  {
+    "file": "Logos_System/System_Stack/Logos_Protocol/External_Enhancements/Graph_Wrapper_Networkx.py",
+    "kind": "Assign",
+    "line": 6,
+    "name": "__WRAPS__"
+  },
+  {
+    "file": "Logos_System/System_Stack/Logos_Protocol/External_Enhancements/Graph_Wrapper_Networkx.py",
+    "kind": "Assign",
+    "line": 7,
+    "name": "__IMPORT_NAME__"
+  },
+  {
+    "file": "Logos_System/System_Stack/Logos_Protocol/External_Enhancements/Graph_Wrapper_Networkx.py",
+    "kind": "Assign",
+    "line": 8,
+    "name": "__ROLE__"
+  },
+  {
+    "file": "Logos_System/System_Stack/Logos_Protocol/External_Enhancements/Graph_Wrapper_Networkx.py",
+    "kind": "Assign",
+    "line": 9,
+    "name": "__VERSION__"
+  },
+  {
+    "file": "Logos_System/System_Stack/Logos_Protocol/External_Enhancements/Cognition_Wrapper_Openai.py",
+    "kind": "Assign",
+    "line": 4,
+    "name": "__LOGOS_WRAPPER__"
+  },
+  {
+    "file": "Logos_System/System_Stack/Logos_Protocol/External_Enhancements/Cognition_Wrapper_Openai.py",
+    "kind": "Assign",
+    "line": 5,
+    "name": "__WRAPPER_ID__"
+  },
+  {
+    "file": "Logos_System/System_Stack/Logos_Protocol/External_Enhancements/Cognition_Wrapper_Openai.py",
+    "kind": "Assign",
+    "line": 6,
+    "name": "__WRAPS__"
+  },
+  {
+    "file": "Logos_System/System_Stack/Logos_Protocol/External_Enhancements/Cognition_Wrapper_Openai.py",
+    "kind": "Assign",
+    "line": 7,
+    "name": "__IMPORT_NAME__"
+  },
+  {
+    "file": "Logos_System/System_Stack/Logos_Protocol/External_Enhancements/Cognition_Wrapper_Openai.py",
+    "kind": "Assign",
+    "line": 8,
+    "name": "__ROLE__"
+  },
+  {
+    "file": "Logos_System/System_Stack/Logos_Protocol/External_Enhancements/Cognition_Wrapper_Openai.py",
+    "kind": "Assign",
+    "line": 9,
+    "name": "__VERSION__"
+  },
+  {
+    "file": "Logos_System/System_Stack/Logos_Protocol/External_Enhancements/Graph_Wrapper_Pyvis.py",
+    "kind": "Assign",
+    "line": 4,
+    "name": "__LOGOS_WRAPPER__"
+  },
+  {
+    "file": "Logos_System/System_Stack/Logos_Protocol/External_Enhancements/Graph_Wrapper_Pyvis.py",
+    "kind": "Assign",
+    "line": 5,
+    "name": "__WRAPPER_ID__"
+  },
+  {
+    "file": "Logos_System/System_Stack/Logos_Protocol/External_Enhancements/Graph_Wrapper_Pyvis.py",
+    "kind": "Assign",
+    "line": 6,
+    "name": "__WRAPS__"
+  },
+  {
+    "file": "Logos_System/System_Stack/Logos_Protocol/External_Enhancements/Graph_Wrapper_Pyvis.py",
+    "kind": "Assign",
+    "line": 7,
+    "name": "__IMPORT_NAME__"
+  },
+  {
+    "file": "Logos_System/System_Stack/Logos_Protocol/External_Enhancements/Graph_Wrapper_Pyvis.py",
+    "kind": "Assign",
+    "line": 8,
+    "name": "__ROLE__"
+  },
+  {
+    "file": "Logos_System/System_Stack/Logos_Protocol/External_Enhancements/Graph_Wrapper_Pyvis.py",
+    "kind": "Assign",
+    "line": 9,
+    "name": "__VERSION__"
+  },
+  {
+    "file": "Logos_System/System_Stack/Logos_Protocol/External_Enhancements/Visualization_Wrapper_Matplotlib.py",
+    "kind": "Assign",
+    "line": 4,
+    "name": "__LOGOS_WRAPPER__"
+  },
+  {
+    "file": "Logos_System/System_Stack/Logos_Protocol/External_Enhancements/Visualization_Wrapper_Matplotlib.py",
+    "kind": "Assign",
+    "line": 5,
+    "name": "__WRAPPER_ID__"
+  },
+  {
+    "file": "Logos_System/System_Stack/Logos_Protocol/External_Enhancements/Visualization_Wrapper_Matplotlib.py",
+    "kind": "Assign",
+    "line": 6,
+    "name": "__WRAPS__"
+  },
+  {
+    "file": "Logos_System/System_Stack/Logos_Protocol/External_Enhancements/Visualization_Wrapper_Matplotlib.py",
+    "kind": "Assign",
+    "line": 7,
+    "name": "__IMPORT_NAME__"
+  },
+  {
+    "file": "Logos_System/System_Stack/Logos_Protocol/External_Enhancements/Visualization_Wrapper_Matplotlib.py",
+    "kind": "Assign",
+    "line": 8,
+    "name": "__ROLE__"
+  },
+  {
+    "file": "Logos_System/System_Stack/Logos_Protocol/External_Enhancements/Visualization_Wrapper_Matplotlib.py",
+    "kind": "Assign",
+    "line": 9,
+    "name": "__VERSION__"
+  },
+  {
+    "file": "Logos_System/System_Stack/Logos_Protocol/External_Enhancements/NLP_Wrapper_Sentence_Transformers.py",
+    "kind": "Assign",
+    "line": 4,
+    "name": "__LOGOS_WRAPPER__"
+  },
+  {
+    "file": "Logos_System/System_Stack/Logos_Protocol/External_Enhancements/NLP_Wrapper_Sentence_Transformers.py",
+    "kind": "Assign",
+    "line": 5,
+    "name": "__WRAPPER_ID__"
+  },
+  {
+    "file": "Logos_System/System_Stack/Logos_Protocol/External_Enhancements/NLP_Wrapper_Sentence_Transformers.py",
+    "kind": "Assign",
+    "line": 6,
+    "name": "__WRAPS__"
+  },
+  {
+    "file": "Logos_System/System_Stack/Logos_Protocol/External_Enhancements/NLP_Wrapper_Sentence_Transformers.py",
+    "kind": "Assign",
+    "line": 7,
+    "name": "__IMPORT_NAME__"
+  },
+  {
+    "file": "Logos_System/System_Stack/Logos_Protocol/External_Enhancements/NLP_Wrapper_Sentence_Transformers.py",
+    "kind": "Assign",
+    "line": 8,
+    "name": "__ROLE__"
+  },
+  {
+    "file": "Logos_System/System_Stack/Logos_Protocol/External_Enhancements/NLP_Wrapper_Sentence_Transformers.py",
+    "kind": "Assign",
+    "line": 9,
+    "name": "__VERSION__"
+  },
+  {
+    "file": "Logos_System/System_Stack/Logos_Protocol/External_Enhancements/NLP_Wrapper_Transformers.py",
+    "kind": "Assign",
+    "line": 4,
+    "name": "__LOGOS_WRAPPER__"
+  },
+  {
+    "file": "Logos_System/System_Stack/Logos_Protocol/External_Enhancements/NLP_Wrapper_Transformers.py",
+    "kind": "Assign",
+    "line": 5,
+    "name": "__WRAPPER_ID__"
+  },
+  {
+    "file": "Logos_System/System_Stack/Logos_Protocol/External_Enhancements/NLP_Wrapper_Transformers.py",
+    "kind": "Assign",
+    "line": 6,
+    "name": "__WRAPS__"
+  },
+  {
+    "file": "Logos_System/System_Stack/Logos_Protocol/External_Enhancements/NLP_Wrapper_Transformers.py",
+    "kind": "Assign",
+    "line": 7,
+    "name": "__IMPORT_NAME__"
+  },
+  {
+    "file": "Logos_System/System_Stack/Logos_Protocol/External_Enhancements/NLP_Wrapper_Transformers.py",
+    "kind": "Assign",
+    "line": 8,
+    "name": "__ROLE__"
+  },
+  {
+    "file": "Logos_System/System_Stack/Logos_Protocol/External_Enhancements/NLP_Wrapper_Transformers.py",
+    "kind": "Assign",
+    "line": 9,
+    "name": "__VERSION__"
+  },
+  {
+    "file": "Logos_System/System_Stack/Logos_Protocol/External_Enhancements/Cognition_Wrapper_Pydantic.py",
+    "kind": "Assign",
+    "line": 4,
+    "name": "__LOGOS_WRAPPER__"
+  },
+  {
+    "file": "Logos_System/System_Stack/Logos_Protocol/External_Enhancements/Cognition_Wrapper_Pydantic.py",
+    "kind": "Assign",
+    "line": 5,
+    "name": "__WRAPPER_ID__"
+  },
+  {
+    "file": "Logos_System/System_Stack/Logos_Protocol/External_Enhancements/Cognition_Wrapper_Pydantic.py",
+    "kind": "Assign",
+    "line": 6,
+    "name": "__WRAPS__"
+  },
+  {
+    "file": "Logos_System/System_Stack/Logos_Protocol/External_Enhancements/Cognition_Wrapper_Pydantic.py",
+    "kind": "Assign",
+    "line": 7,
+    "name": "__IMPORT_NAME__"
+  },
+  {
+    "file": "Logos_System/System_Stack/Logos_Protocol/External_Enhancements/Cognition_Wrapper_Pydantic.py",
+    "kind": "Assign",
+    "line": 8,
+    "name": "__ROLE__"
+  },
+  {
+    "file": "Logos_System/System_Stack/Logos_Protocol/External_Enhancements/Cognition_Wrapper_Pydantic.py",
+    "kind": "Assign",
+    "line": 9,
+    "name": "__VERSION__"
+  },
+  {
+    "file": "Logos_System/System_Stack/Logos_Protocol/External_Enhancements/Visualization_Wrapper_Plotly.py",
+    "kind": "Assign",
+    "line": 4,
+    "name": "__LOGOS_WRAPPER__"
+  },
+  {
+    "file": "Logos_System/System_Stack/Logos_Protocol/External_Enhancements/Visualization_Wrapper_Plotly.py",
+    "kind": "Assign",
+    "line": 5,
+    "name": "__WRAPPER_ID__"
+  },
+  {
+    "file": "Logos_System/System_Stack/Logos_Protocol/External_Enhancements/Visualization_Wrapper_Plotly.py",
+    "kind": "Assign",
+    "line": 6,
+    "name": "__WRAPS__"
+  },
+  {
+    "file": "Logos_System/System_Stack/Logos_Protocol/External_Enhancements/Visualization_Wrapper_Plotly.py",
+    "kind": "Assign",
+    "line": 7,
+    "name": "__IMPORT_NAME__"
+  },
+  {
+    "file": "Logos_System/System_Stack/Logos_Protocol/External_Enhancements/Visualization_Wrapper_Plotly.py",
+    "kind": "Assign",
+    "line": 8,
+    "name": "__ROLE__"
+  },
+  {
+    "file": "Logos_System/System_Stack/Logos_Protocol/External_Enhancements/Visualization_Wrapper_Plotly.py",
+    "kind": "Assign",
+    "line": 9,
+    "name": "__VERSION__"
+  },
+  {
+    "file": "Logos_System/System_Stack/Logos_Protocol/External_Enhancements/Cognition_Wrapper_Memgpt.py",
+    "kind": "Assign",
+    "line": 4,
+    "name": "__LOGOS_WRAPPER__"
+  },
+  {
+    "file": "Logos_System/System_Stack/Logos_Protocol/External_Enhancements/Cognition_Wrapper_Memgpt.py",
+    "kind": "Assign",
+    "line": 5,
+    "name": "__WRAPPER_ID__"
+  },
+  {
+    "file": "Logos_System/System_Stack/Logos_Protocol/External_Enhancements/Cognition_Wrapper_Memgpt.py",
+    "kind": "Assign",
+    "line": 6,
+    "name": "__WRAPS__"
+  },
+  {
+    "file": "Logos_System/System_Stack/Logos_Protocol/External_Enhancements/Cognition_Wrapper_Memgpt.py",
+    "kind": "Assign",
+    "line": 7,
+    "name": "__IMPORT_NAME__"
+  },
+  {
+    "file": "Logos_System/System_Stack/Logos_Protocol/External_Enhancements/Cognition_Wrapper_Memgpt.py",
+    "kind": "Assign",
+    "line": 8,
+    "name": "__ROLE__"
+  },
+  {
+    "file": "Logos_System/System_Stack/Logos_Protocol/External_Enhancements/Cognition_Wrapper_Memgpt.py",
+    "kind": "Assign",
+    "line": 9,
+    "name": "__VERSION__"
+  },
+  {
+    "file": "Logos_System/System_Stack/Logos_Protocol/External_Enhancements/NLP_Wrapper_Nltk.py",
+    "kind": "Assign",
+    "line": 4,
+    "name": "__LOGOS_WRAPPER__"
+  },
+  {
+    "file": "Logos_System/System_Stack/Logos_Protocol/External_Enhancements/NLP_Wrapper_Nltk.py",
+    "kind": "Assign",
+    "line": 5,
+    "name": "__WRAPPER_ID__"
+  },
+  {
+    "file": "Logos_System/System_Stack/Logos_Protocol/External_Enhancements/NLP_Wrapper_Nltk.py",
+    "kind": "Assign",
+    "line": 6,
+    "name": "__WRAPS__"
+  },
+  {
+    "file": "Logos_System/System_Stack/Logos_Protocol/External_Enhancements/NLP_Wrapper_Nltk.py",
+    "kind": "Assign",
+    "line": 7,
+    "name": "__IMPORT_NAME__"
+  },
+  {
+    "file": "Logos_System/System_Stack/Logos_Protocol/External_Enhancements/NLP_Wrapper_Nltk.py",
+    "kind": "Assign",
+    "line": 8,
+    "name": "__ROLE__"
+  },
+  {
+    "file": "Logos_System/System_Stack/Logos_Protocol/External_Enhancements/NLP_Wrapper_Nltk.py",
+    "kind": "Assign",
+    "line": 9,
+    "name": "__VERSION__"
+  },
+  {
+    "file": "Logos_System/System_Stack/Logos_Protocol/External_Enhancements/Cognition_Wrapper_Pgmpy.py",
+    "kind": "Assign",
+    "line": 4,
+    "name": "__LOGOS_WRAPPER__"
+  },
+  {
+    "file": "Logos_System/System_Stack/Logos_Protocol/External_Enhancements/Cognition_Wrapper_Pgmpy.py",
+    "kind": "Assign",
+    "line": 5,
+    "name": "__WRAPPER_ID__"
+  },
+  {
+    "file": "Logos_System/System_Stack/Logos_Protocol/External_Enhancements/Cognition_Wrapper_Pgmpy.py",
+    "kind": "Assign",
+    "line": 6,
+    "name": "__WRAPS__"
+  },
+  {
+    "file": "Logos_System/System_Stack/Logos_Protocol/External_Enhancements/Cognition_Wrapper_Pgmpy.py",
+    "kind": "Assign",
+    "line": 7,
+    "name": "__IMPORT_NAME__"
+  },
+  {
+    "file": "Logos_System/System_Stack/Logos_Protocol/External_Enhancements/Cognition_Wrapper_Pgmpy.py",
+    "kind": "Assign",
+    "line": 8,
+    "name": "__ROLE__"
+  },
+  {
+    "file": "Logos_System/System_Stack/Logos_Protocol/External_Enhancements/Cognition_Wrapper_Pgmpy.py",
+    "kind": "Assign",
+    "line": 9,
+    "name": "__VERSION__"
+  },
+  {
+    "file": "Logos_System/System_Stack/Logos_Protocol/External_Enhancements/Graph_Wrapper_Rdflib.py",
+    "kind": "Assign",
+    "line": 4,
+    "name": "__LOGOS_WRAPPER__"
+  },
+  {
+    "file": "Logos_System/System_Stack/Logos_Protocol/External_Enhancements/Graph_Wrapper_Rdflib.py",
+    "kind": "Assign",
+    "line": 5,
+    "name": "__WRAPPER_ID__"
+  },
+  {
+    "file": "Logos_System/System_Stack/Logos_Protocol/External_Enhancements/Graph_Wrapper_Rdflib.py",
+    "kind": "Assign",
+    "line": 6,
+    "name": "__WRAPS__"
+  },
+  {
+    "file": "Logos_System/System_Stack/Logos_Protocol/External_Enhancements/Graph_Wrapper_Rdflib.py",
+    "kind": "Assign",
+    "line": 7,
+    "name": "__IMPORT_NAME__"
+  },
+  {
+    "file": "Logos_System/System_Stack/Logos_Protocol/External_Enhancements/Graph_Wrapper_Rdflib.py",
+    "kind": "Assign",
+    "line": 8,
+    "name": "__ROLE__"
+  },
+  {
+    "file": "Logos_System/System_Stack/Logos_Protocol/External_Enhancements/Graph_Wrapper_Rdflib.py",
+    "kind": "Assign",
+    "line": 9,
+    "name": "__VERSION__"
+  },
+  {
+    "file": "Logos_System/System_Stack/Logos_Protocol/External_Enhancements/ML_Wrapper_Arch.py",
+    "kind": "Assign",
+    "line": 4,
+    "name": "__LOGOS_WRAPPER__"
+  },
+  {
+    "file": "Logos_System/System_Stack/Logos_Protocol/External_Enhancements/ML_Wrapper_Arch.py",
+    "kind": "Assign",
+    "line": 5,
+    "name": "__WRAPPER_ID__"
+  },
+  {
+    "file": "Logos_System/System_Stack/Logos_Protocol/External_Enhancements/ML_Wrapper_Arch.py",
+    "kind": "Assign",
+    "line": 6,
+    "name": "__WRAPS__"
+  },
+  {
+    "file": "Logos_System/System_Stack/Logos_Protocol/External_Enhancements/ML_Wrapper_Arch.py",
+    "kind": "Assign",
+    "line": 7,
+    "name": "__IMPORT_NAME__"
+  },
+  {
+    "file": "Logos_System/System_Stack/Logos_Protocol/External_Enhancements/ML_Wrapper_Arch.py",
+    "kind": "Assign",
+    "line": 8,
+    "name": "__ROLE__"
+  },
+  {
+    "file": "Logos_System/System_Stack/Logos_Protocol/External_Enhancements/ML_Wrapper_Arch.py",
+    "kind": "Assign",
+    "line": 9,
+    "name": "__VERSION__"
+  },
+  {
+    "file": "Logos_System/System_Stack/Logos_Protocol/External_Enhancements/Cognition_Wrapper_Sympy.py",
+    "kind": "Assign",
+    "line": 4,
+    "name": "__LOGOS_WRAPPER__"
+  },
+  {
+    "file": "Logos_System/System_Stack/Logos_Protocol/External_Enhancements/Cognition_Wrapper_Sympy.py",
+    "kind": "Assign",
+    "line": 5,
+    "name": "__WRAPPER_ID__"
+  },
+  {
+    "file": "Logos_System/System_Stack/Logos_Protocol/External_Enhancements/Cognition_Wrapper_Sympy.py",
+    "kind": "Assign",
+    "line": 6,
+    "name": "__WRAPS__"
+  },
+  {
+    "file": "Logos_System/System_Stack/Logos_Protocol/External_Enhancements/Cognition_Wrapper_Sympy.py",
+    "kind": "Assign",
+    "line": 7,
+    "name": "__IMPORT_NAME__"
+  },
+  {
+    "file": "Logos_System/System_Stack/Logos_Protocol/External_Enhancements/Cognition_Wrapper_Sympy.py",
+    "kind": "Assign",
+    "line": 8,
+    "name": "__ROLE__"
+  },
+  {
+    "file": "Logos_System/System_Stack/Logos_Protocol/External_Enhancements/Cognition_Wrapper_Sympy.py",
+    "kind": "Assign",
+    "line": 9,
+    "name": "__VERSION__"
+  },
+  {
+    "file": "Logos_System/System_Stack/Logos_Protocol/External_Enhancements/Visualization_Wrapper_Seaborn.py",
+    "kind": "Assign",
+    "line": 4,
+    "name": "__LOGOS_WRAPPER__"
+  },
+  {
+    "file": "Logos_System/System_Stack/Logos_Protocol/External_Enhancements/Visualization_Wrapper_Seaborn.py",
+    "kind": "Assign",
+    "line": 5,
+    "name": "__WRAPPER_ID__"
+  },
+  {
+    "file": "Logos_System/System_Stack/Logos_Protocol/External_Enhancements/Visualization_Wrapper_Seaborn.py",
+    "kind": "Assign",
+    "line": 6,
+    "name": "__WRAPS__"
+  },
+  {
+    "file": "Logos_System/System_Stack/Logos_Protocol/External_Enhancements/Visualization_Wrapper_Seaborn.py",
+    "kind": "Assign",
+    "line": 7,
+    "name": "__IMPORT_NAME__"
+  },
+  {
+    "file": "Logos_System/System_Stack/Logos_Protocol/External_Enhancements/Visualization_Wrapper_Seaborn.py",
+    "kind": "Assign",
+    "line": 8,
+    "name": "__ROLE__"
+  },
+  {
+    "file": "Logos_System/System_Stack/Logos_Protocol/External_Enhancements/Visualization_Wrapper_Seaborn.py",
+    "kind": "Assign",
+    "line": 9,
+    "name": "__VERSION__"
+  },
+  {
+    "file": "Logos_System/System_Stack/Logos_Protocol/External_Enhancements/ML_Wrapper_Statsmodels.py",
+    "kind": "Assign",
+    "line": 4,
+    "name": "__LOGOS_WRAPPER__"
+  },
+  {
+    "file": "Logos_System/System_Stack/Logos_Protocol/External_Enhancements/ML_Wrapper_Statsmodels.py",
+    "kind": "Assign",
+    "line": 5,
+    "name": "__WRAPPER_ID__"
+  },
+  {
+    "file": "Logos_System/System_Stack/Logos_Protocol/External_Enhancements/ML_Wrapper_Statsmodels.py",
+    "kind": "Assign",
+    "line": 6,
+    "name": "__WRAPS__"
+  },
+  {
+    "file": "Logos_System/System_Stack/Logos_Protocol/External_Enhancements/ML_Wrapper_Statsmodels.py",
+    "kind": "Assign",
+    "line": 7,
+    "name": "__IMPORT_NAME__"
+  },
+  {
+    "file": "Logos_System/System_Stack/Logos_Protocol/External_Enhancements/ML_Wrapper_Statsmodels.py",
+    "kind": "Assign",
+    "line": 8,
+    "name": "__ROLE__"
+  },
+  {
+    "file": "Logos_System/System_Stack/Logos_Protocol/External_Enhancements/ML_Wrapper_Statsmodels.py",
+    "kind": "Assign",
+    "line": 9,
+    "name": "__VERSION__"
+  },
+  {
+    "file": "Logos_System/System_Stack/Logos_Protocol/External_Enhancements/ML_Wrapper_Prophet.py",
+    "kind": "Assign",
+    "line": 4,
+    "name": "__LOGOS_WRAPPER__"
+  },
+  {
+    "file": "Logos_System/System_Stack/Logos_Protocol/External_Enhancements/ML_Wrapper_Prophet.py",
+    "kind": "Assign",
+    "line": 5,
+    "name": "__WRAPPER_ID__"
+  },
+  {
+    "file": "Logos_System/System_Stack/Logos_Protocol/External_Enhancements/ML_Wrapper_Prophet.py",
+    "kind": "Assign",
+    "line": 6,
+    "name": "__WRAPS__"
+  },
+  {
+    "file": "Logos_System/System_Stack/Logos_Protocol/External_Enhancements/ML_Wrapper_Prophet.py",
+    "kind": "Assign",
+    "line": 7,
+    "name": "__IMPORT_NAME__"
+  },
+  {
+    "file": "Logos_System/System_Stack/Logos_Protocol/External_Enhancements/ML_Wrapper_Prophet.py",
+    "kind": "Assign",
+    "line": 8,
+    "name": "__ROLE__"
+  },
+  {
+    "file": "Logos_System/System_Stack/Logos_Protocol/External_Enhancements/ML_Wrapper_Prophet.py",
+    "kind": "Assign",
+    "line": 9,
+    "name": "__VERSION__"
+  },
+  {
+    "file": "Logos_System/System_Stack/Logos_Protocol/External_Enhancements/NLP_Wrapper_Spacy.py",
+    "kind": "Assign",
+    "line": 4,
+    "name": "__LOGOS_WRAPPER__"
+  },
+  {
+    "file": "Logos_System/System_Stack/Logos_Protocol/External_Enhancements/NLP_Wrapper_Spacy.py",
+    "kind": "Assign",
+    "line": 5,
+    "name": "__WRAPPER_ID__"
+  },
+  {
+    "file": "Logos_System/System_Stack/Logos_Protocol/External_Enhancements/NLP_Wrapper_Spacy.py",
+    "kind": "Assign",
+    "line": 6,
+    "name": "__WRAPS__"
+  },
+  {
+    "file": "Logos_System/System_Stack/Logos_Protocol/External_Enhancements/NLP_Wrapper_Spacy.py",
+    "kind": "Assign",
+    "line": 7,
+    "name": "__IMPORT_NAME__"
+  },
+  {
+    "file": "Logos_System/System_Stack/Logos_Protocol/External_Enhancements/NLP_Wrapper_Spacy.py",
+    "kind": "Assign",
+    "line": 8,
+    "name": "__ROLE__"
+  },
+  {
+    "file": "Logos_System/System_Stack/Logos_Protocol/External_Enhancements/NLP_Wrapper_Spacy.py",
+    "kind": "Assign",
+    "line": 9,
+    "name": "__VERSION__"
+  },
+  {
+    "file": "Logos_System/System_Stack/Logos_Protocol/External_Enhancements/ML_Wrapper_Sklearn.py",
+    "kind": "Assign",
+    "line": 4,
+    "name": "__LOGOS_WRAPPER__"
+  },
+  {
+    "file": "Logos_System/System_Stack/Logos_Protocol/External_Enhancements/ML_Wrapper_Sklearn.py",
+    "kind": "Assign",
+    "line": 5,
+    "name": "__WRAPPER_ID__"
+  },
+  {
+    "file": "Logos_System/System_Stack/Logos_Protocol/External_Enhancements/ML_Wrapper_Sklearn.py",
+    "kind": "Assign",
+    "line": 6,
+    "name": "__WRAPS__"
+  },
+  {
+    "file": "Logos_System/System_Stack/Logos_Protocol/External_Enhancements/ML_Wrapper_Sklearn.py",
+    "kind": "Assign",
+    "line": 7,
+    "name": "__IMPORT_NAME__"
+  },
+  {
+    "file": "Logos_System/System_Stack/Logos_Protocol/External_Enhancements/ML_Wrapper_Sklearn.py",
+    "kind": "Assign",
+    "line": 8,
+    "name": "__ROLE__"
+  },
+  {
+    "file": "Logos_System/System_Stack/Logos_Protocol/External_Enhancements/ML_Wrapper_Sklearn.py",
+    "kind": "Assign",
+    "line": 9,
+    "name": "__VERSION__"
+  },
+  {
+    "file": "Logos_System/System_Stack/Logos_Protocol/Logos_Core/__init__.py",
+    "kind": "Assign",
+    "line": 44,
+    "name": "__all__"
+  },
+  {
+    "file": "Logos_System/System_Stack/Logos_Protocol/Logos_Core/onto_lattice.py",
+    "kind": "Assign",
+    "line": 94,
+    "name": "DEFAULT_LATTICE"
+  },
+  {
+    "file": "Logos_System/System_Stack/Logos_Protocol/Unified_Working_Memory/Analysis_Processors/ml_components.py",
+    "kind": "Assign",
+    "line": 11,
+    "name": "logger"
+  },
+  {
+    "file": "Logos_System/System_Stack/Logos_Protocol/Unified_Working_Memory/Analysis_Processors/ml_components.py",
+    "kind": "Assign",
+    "line": 21,
+    "name": "_sk_cluster"
+  },
+  {
+    "file": "Logos_System/System_Stack/Logos_Protocol/Unified_Working_Memory/Analysis_Processors/ml_components.py",
+    "kind": "Assign",
+    "line": 22,
+    "name": "_sk_decomposition"
+  },
+  {
+    "file": "Logos_System/System_Stack/Logos_Protocol/Unified_Working_Memory/Analysis_Processors/ml_components.py",
+    "kind": "Assign",
+    "line": 23,
+    "name": "_sk_ensemble"
+  },
+  {
+    "file": "Logos_System/System_Stack/Logos_Protocol/Unified_Working_Memory/Analysis_Processors/ml_components.py",
+    "kind": "Assign",
+    "line": 24,
+    "name": "_sk_text"
+  },
+  {
+    "file": "Logos_System/System_Stack/Logos_Protocol/Unified_Working_Memory/Analysis_Processors/ml_components.py",
+    "kind": "Assign",
+    "line": 26,
+    "name": "_sk_modules"
+  },
+  {
+    "file": "Logos_System/System_Stack/Logos_Protocol/Unified_Working_Memory/Analysis_Processors/ml_components.py",
+    "kind": "Assign",
+    "line": 41,
+    "name": "_umap_module"
+  },
+  {
+    "file": "Logos_System/System_Stack/Logos_Protocol/Unified_Working_Memory/Analysis_Processors/ml_components.py",
+    "kind": "Assign",
+    "line": 42,
+    "name": "UMAP_AVAILABLE"
+  },
+  {
+    "file": "Logos_System/System_Stack/Logos_Protocol/Unified_Working_Memory/Analysis_Processors/analytics.py",
+    "kind": "Assign",
+    "line": 8,
+    "name": "_ANALYTICS_FLAG"
+  },
+  {
+    "file": "Logos_System/System_Stack/Logos_Protocol/Unified_Working_Memory/Analysis_Processors/analytics.py",
+    "kind": "Assign",
+    "line": 9,
+    "name": "_STATSMODELS_FLAG"
+  },
+  {
+    "file": "Logos_System/System_Stack/Logos_Protocol/Unified_Working_Memory/Analysis_Processors/analytics.py",
+    "kind": "Assign",
+    "line": 34,
+    "name": "ENABLE_ANALYTICS"
+  },
+  {
+    "file": "Logos_System/System_Stack/Logos_Protocol/Unified_Working_Memory/Analysis_Processors/analytics.py",
+    "kind": "Assign",
+    "line": 35,
+    "name": "ENABLE_STATS_MODELS"
+  },
+  {
+    "file": "Logos_System/System_Stack/Logos_Protocol/Unified_Working_Memory/Analysis_Processors/__init__.py",
+    "kind": "Assign",
+    "line": 10,
+    "name": "__all__"
+  },
+  {
+    "file": "Logos_System/System_Stack/Logos_Protocol/Unified_Working_Memory/World_Modeling/commitment_ledger.py",
+    "kind": "Assign",
+    "line": 13,
+    "name": "LEDGER_VERSION"
+  },
+  {
+    "file": "Logos_System/System_Stack/Logos_Protocol/Unified_Working_Memory/World_Modeling/commitment_ledger.py",
+    "kind": "Assign",
+    "line": 14,
+    "name": "DEFAULT_LEDGER_PATH"
+  },
+  {
+    "file": "Logos_System/System_Stack/Logos_Protocol/Unified_Working_Memory/World_Modeling/commitment_ledger.py",
+    "kind": "Assign",
+    "line": 15,
+    "name": "MAX_COMMITMENTS"
+  },
+  {
+    "file": "Logos_System/System_Stack/Logos_Protocol/Unified_Working_Memory/World_Modeling/commitment_ledger.py",
+    "kind": "Assign",
+    "line": 16,
+    "name": "MAX_HISTORY_EVENTS"
+  },
+  {
+    "file": "Logos_System/System_Stack/Logos_Protocol/Unified_Working_Memory/World_Modeling/commitment_ledger.py",
+    "kind": "Assign",
+    "line": 17,
+    "name": "JUSTIFICATION_MAX"
+  },
+  {
+    "file": "Logos_System/System_Stack/Logos_Protocol/Unified_Working_Memory/World_Modeling/commitment_ledger.py",
+    "kind": "Assign",
+    "line": 18,
+    "name": "SUMMARY_MAX"
+  },
+  {
+    "file": "Logos_System/System_Stack/Logos_Protocol/Unified_Working_Memory/World_Modeling/commitment_ledger.py",
+    "kind": "Assign",
+    "line": 19,
+    "name": "BLOCKER_MAX"
+  },
+  {
+    "file": "Logos_System/System_Stack/Logos_Protocol/Unified_Working_Memory/World_Modeling/world_model.py",
+    "kind": "Assign",
+    "line": 12,
+    "name": "SNAPSHOT_VERSION"
+  },
+  {
+    "file": "Logos_System/System_Stack/Logos_Protocol/Unified_Working_Memory/World_Modeling/world_model.py",
+    "kind": "Assign",
+    "line": 13,
+    "name": "DEFAULT_IDENTITY_PATH"
+  },
+  {
+    "file": "Logos_System/System_Stack/Logos_Protocol/Unified_Working_Memory/World_Modeling/world_model.py",
+    "kind": "Assign",
+    "line": 14,
+    "name": "DEFAULT_SNAPSHOT_PATH"
+  },
+  {
+    "file": "Logos_System/System_Stack/Logos_Protocol/Unified_Working_Memory/World_Modeling/world_model.py",
+    "kind": "Assign",
+    "line": 15,
+    "name": "DEFAULT_CATALOG_PATH"
+  },
+  {
+    "file": "Logos_System/System_Stack/Logos_Protocol/Unified_Working_Memory/World_Modeling/world_model.py",
+    "kind": "Assign",
+    "line": 16,
+    "name": "DEFAULT_PLANNER_DIGEST_POINTER"
+  },
+  {
+    "file": "Logos_System/System_Stack/Logos_Protocol/Unified_Working_Memory/World_Modeling/world_model.py",
+    "kind": "Assign",
+    "line": 17,
+    "name": "DEFAULT_MISSION_PROFILE_PATH"
+  },
+  {
+    "file": "Logos_System/System_Stack/Logos_Protocol/Unified_Working_Memory/World_Modeling/world_model.py",
+    "kind": "Assign",
+    "line": 18,
+    "name": "DEFAULT_BELIEFS_FEED_PATH"
+  },
+  {
+    "file": "Logos_System/System_Stack/Logos_Protocol/Unified_Working_Memory/World_Modeling/world_model.py",
+    "kind": "Assign",
+    "line": 19,
+    "name": "MAX_TIER_ENTRIES"
+  },
+  {
+    "file": "Logos_System/System_Stack/Logos_Protocol/Unified_Working_Memory/World_Modeling/world_model.py",
+    "kind": "Assign",
+    "line": 20,
+    "name": "CATALOG_TAIL_LINES"
+  },
+  {
+    "file": "Logos_System/System_Stack/Logos_Protocol/Unified_Working_Memory/World_Modeling/world_model.py",
+    "kind": "Assign",
+    "line": 21,
+    "name": "NOTES_MAX_CHARS"
+  },
+  {
+    "file": "Logos_System/System_Stack/Logos_Protocol/Runtime_Operations/Orchestration/bridge.py",
+    "kind": "Assign",
+    "line": 18,
+    "name": "logger"
+  },
+  {
+    "file": "Logos_System/System_Stack/Logos_Protocol/Runtime_Operations/Orchestration/bridge.py",
+    "kind": "Assign",
+    "line": 101,
+    "name": "protocol_bridge"
+  },
+  {
+    "file": "Logos_System/System_Stack/Logos_Protocol/Runtime_Operations/Orchestration/__init__.py",
+    "kind": "Assign",
+    "line": 37,
+    "name": "__all__"
+  },
+  {
+    "file": "Logos_System/System_Stack/Logos_Protocol/Runtime_Operations/Orchestration/__init__.py",
+    "kind": "Assign",
+    "line": 42,
+    "name": "_modal_evaluator_shim"
+  },
+  {
+    "file": "Logos_System/System_Stack/Logos_Protocol/Runtime_Operations/Orchestration/__init__.py",
+    "kind": "Assign",
+    "line": 174,
+    "name": "this_dir"
+  },
+  {
+    "file": "Logos_System/System_Stack/Logos_Protocol/Runtime_Operations/Diagnostics/regression_checker.py",
+    "kind": "Assign",
+    "line": 64,
+    "name": "CHECKER"
+  },
+  {
+    "file": "Logos_System/System_Stack/Logos_Protocol/Runtime_Operations/Diagnostics/self_diagnosis.py",
+    "kind": "Assign",
+    "line": 20,
+    "name": "logger"
+  },
+  {
+    "file": "Logos_System/System_Stack/Logos_Protocol/Runtime_Operations/Diagnostics/self_diagnosis.py",
+    "kind": "Assign",
+    "line": 384,
+    "name": "self_diagnosis_tool"
+  },
+  {
+    "file": "Logos_System/System_Stack/Logos_Protocol/Runtime_Operations/Governance/__init__.py",
+    "kind": "Assign",
+    "line": 19,
+    "name": "__all__"
+  },
+  {
+    "file": "Logos_System/System_Stack/Logos_Protocol/Activation_Sequencer/tests/test_integration_identity.py",
+    "kind": "Assign",
+    "line": 8,
+    "name": "ROOT"
+  },
+  {
+    "file": "Logos_System/System_Stack/Logos_Protocol/Activation_Sequencer/tests/test_integration_identity.py",
+    "kind": "Assign",
+    "line": 9,
+    "name": "STATE_DIR"
+  },
+  {
+    "file": "Logos_System/System_Stack/Logos_Protocol/Activation_Sequencer/tests/test_lock_unlock.py",
+    "kind": "Assign",
+    "line": 8,
+    "name": "ROOT"
+  },
+  {
+    "file": "Logos_System/System_Stack/Logos_Protocol/Activation_Sequencer/tests/test_lock_unlock.py",
+    "kind": "Assign",
+    "line": 9,
+    "name": "ARTIFACT_DIR"
+  },
+  {
+    "file": "Logos_System/System_Stack/Logos_Protocol/Activation_Sequencer/tests/test_lock_unlock.py",
+    "kind": "Assign",
+    "line": 11,
+    "name": "LOG_FILE"
+  },
+  {
+    "file": "Logos_System/System_Stack/Logos_Protocol/Activation_Sequencer/Identity_Generator/Agent_ID_Spin_Up/persist_identity.py",
+    "kind": "Assign",
+    "line": 12,
+    "name": "ROOT"
+  },
+  {
+    "file": "Logos_System/System_Stack/Logos_Protocol/Activation_Sequencer/Identity_Generator/Agent_ID_Spin_Up/persist_identity.py",
+    "kind": "Assign",
+    "line": 13,
+    "name": "DISCHARGE"
+  },
+  {
+    "file": "Logos_System/System_Stack/Logos_Protocol/Activation_Sequencer/Identity_Generator/Agent_ID_Spin_Up/persist_identity.py",
+    "kind": "Assign",
+    "line": 24,
+    "name": "formal_identity"
+  },
+  {
+    "file": "Logos_System/System_Stack/Logos_Protocol/Activation_Sequencer/Identity_Generator/Agent_ID_Spin_Up/persist_identity.py",
+    "kind": "Assign",
+    "line": 31,
+    "name": "payload"
+  },
+  {
+    "file": "Logos_System/System_Stack/Logos_Protocol/Activation_Sequencer/Identity_Generator/Agent_ID_Spin_Up/persist_identity.py",
+    "kind": "Assign",
+    "line": 39,
+    "name": "targets"
+  },
+  {
+    "file": "Logos_System/System_Stack/Logos_Protocol/Activation_Sequencer/Identity_Generator/Agent_ID_Spin_Up/audit_and_emit.py",
+    "kind": "Assign",
+    "line": 15,
+    "name": "_CONFIG_PATH"
+  },
+  {
+    "file": "Logos_System/System_Stack/Logos_Protocol/Activation_Sequencer/Identity_Generator/Agent_ID_Spin_Up/run_conscious_sim.py",
+    "kind": "Assign",
+    "line": 9,
+    "name": "ROOT"
+  },
+  {
+    "file": "Logos_System/System_Stack/Logos_Protocol/Activation_Sequencer/Identity_Generator/Agent_ID_Spin_Up/agent_planner.py",
+    "kind": "AnnAssign",
+    "line": 24,
+    "name": "BASE_SAFE_ACTIONS"
+  },
+  {
+    "file": "Logos_System/System_Stack/Logos_Protocol/Activation_Sequencer/Identity_Generator/Agent_ID_Spin_Up/agent_planner.py",
+    "kind": "AnnAssign",
+    "line": 48,
+    "name": "MISSION_OBJECTIVES"
+  },
+  {
+    "file": "Logos_System/System_Stack/Logos_Protocol/Activation_Sequencer/Identity_Generator/Agent_ID_Spin_Up/schemas.py",
+    "kind": "Assign",
+    "line": 11,
+    "name": "_ALLOWED_TRUTH_VALUES"
+  },
+  {
+    "file": "Logos_System/System_Stack/Logos_Protocol/Activation_Sequencer/Identity_Generator/Agent_ID_Spin_Up/schemas.py",
+    "kind": "Assign",
+    "line": 258,
+    "name": "__all__"
+  },
+  {
+    "file": "Logos_System/System_Stack/Logos_Protocol/Activation_Sequencer/Identity_Generator/Agent_ID_Spin_Up/identity_loader.py",
+    "kind": "Assign",
+    "line": 15,
+    "name": "STATE_DIR"
+  },
+  {
+    "file": "Logos_System/System_Stack/Logos_Protocol/Activation_Sequencer/Identity_Generator/Agent_ID_Spin_Up/identity_loader.py",
+    "kind": "Assign",
+    "line": 16,
+    "name": "CANONICAL_PATH"
+  },
+  {
+    "file": "Logos_System/System_Stack/Logos_Protocol/Activation_Sequencer/Identity_Generator/Agent_ID_Spin_Up/uwm.py",
+    "kind": "Assign",
+    "line": 12,
+    "name": "SNAPSHOT_VERSION"
+  },
+  {
+    "file": "Logos_System/System_Stack/Logos_Protocol/Activation_Sequencer/Identity_Generator/Agent_ID_Spin_Up/uwm.py",
+    "kind": "Assign",
+    "line": 13,
+    "name": "DEFAULT_IDENTITY_PATH"
+  },
+  {
+    "file": "Logos_System/System_Stack/Logos_Protocol/Activation_Sequencer/Identity_Generator/Agent_ID_Spin_Up/uwm.py",
+    "kind": "Assign",
+    "line": 14,
+    "name": "DEFAULT_SNAPSHOT_PATH"
+  },
+  {
+    "file": "Logos_System/System_Stack/Logos_Protocol/Activation_Sequencer/Identity_Generator/Agent_ID_Spin_Up/uwm.py",
+    "kind": "Assign",
+    "line": 15,
+    "name": "DEFAULT_CATALOG_PATH"
+  },
+  {
+    "file": "Logos_System/System_Stack/Logos_Protocol/Activation_Sequencer/Identity_Generator/Agent_ID_Spin_Up/uwm.py",
+    "kind": "Assign",
+    "line": 16,
+    "name": "DEFAULT_PLANNER_DIGEST_POINTER"
+  },
+  {
+    "file": "Logos_System/System_Stack/Logos_Protocol/Activation_Sequencer/Identity_Generator/Agent_ID_Spin_Up/uwm.py",
+    "kind": "Assign",
+    "line": 17,
+    "name": "DEFAULT_MISSION_PROFILE_PATH"
+  },
+  {
+    "file": "Logos_System/System_Stack/Logos_Protocol/Activation_Sequencer/Identity_Generator/Agent_ID_Spin_Up/uwm.py",
+    "kind": "Assign",
+    "line": 18,
+    "name": "DEFAULT_BELIEFS_FEED_PATH"
+  },
+  {
+    "file": "Logos_System/System_Stack/Logos_Protocol/Activation_Sequencer/Identity_Generator/Agent_ID_Spin_Up/uwm.py",
+    "kind": "Assign",
+    "line": 19,
+    "name": "MAX_TIER_ENTRIES"
+  },
+  {
+    "file": "Logos_System/System_Stack/Logos_Protocol/Activation_Sequencer/Identity_Generator/Agent_ID_Spin_Up/uwm.py",
+    "kind": "Assign",
+    "line": 20,
+    "name": "CATALOG_TAIL_LINES"
+  },
+  {
+    "file": "Logos_System/System_Stack/Logos_Protocol/Activation_Sequencer/Identity_Generator/Agent_ID_Spin_Up/uwm.py",
+    "kind": "Assign",
+    "line": 21,
+    "name": "NOTES_MAX_CHARS"
+  },
+  {
+    "file": "Logos_System/System_Stack/Logos_Protocol/Activation_Sequencer/Identity_Generator/Agent_ID_Spin_Up/attestation.py",
+    "kind": "Assign",
+    "line": 130,
+    "name": "__all__"
+  },
+  {
+    "file": "Logos_System/System_Stack/Logos_Protocol/Logos_Agents/I2_Agent/_core/bridge_principle_operator.py",
+    "kind": "Assign",
+    "line": 27,
+    "name": "logger"
+  },
+  {
+    "file": "Logos_System/System_Stack/Logos_Protocol/Logos_Agents/I2_Agent/config/constants.py",
+    "kind": "Assign",
+    "line": 4,
+    "name": "AGENT_I1"
+  },
+  {
+    "file": "Logos_System/System_Stack/Logos_Protocol/Logos_Agents/I2_Agent/config/constants.py",
+    "kind": "Assign",
+    "line": 5,
+    "name": "AGENT_I2"
+  },
+  {
+    "file": "Logos_System/System_Stack/Logos_Protocol/Logos_Agents/I2_Agent/config/constants.py",
+    "kind": "Assign",
+    "line": 6,
+    "name": "AGENT_I3"
+  },
+  {
+    "file": "Logos_System/System_Stack/Logos_Protocol/Logos_Agents/I2_Agent/config/constants.py",
+    "kind": "Assign",
+    "line": 7,
+    "name": "AGENT_LOGOS"
+  },
+  {
+    "file": "Logos_System/System_Stack/Logos_Protocol/Logos_Agents/I2_Agent/config/constants.py",
+    "kind": "Assign",
+    "line": 9,
+    "name": "PRIORITY_NORMAL"
+  },
+  {
+    "file": "Logos_System/System_Stack/Logos_Protocol/Logos_Agents/I2_Agent/config/constants.py",
+    "kind": "Assign",
+    "line": 10,
+    "name": "PRIORITY_HIGH"
+  },
+  {
+    "file": "Logos_System/System_Stack/Logos_Protocol/Logos_Agents/I2_Agent/config/constants.py",
+    "kind": "Assign",
+    "line": 12,
+    "name": "DECISION_ALLOW"
+  },
+  {
+    "file": "Logos_System/System_Stack/Logos_Protocol/Logos_Agents/I2_Agent/config/constants.py",
+    "kind": "Assign",
+    "line": 13,
+    "name": "DECISION_ANNOTATE"
+  },
+  {
+    "file": "Logos_System/System_Stack/Logos_Protocol/Logos_Agents/I2_Agent/config/constants.py",
+    "kind": "Assign",
+    "line": 14,
+    "name": "DECISION_DECOMPOSE"
+  },
+  {
+    "file": "Logos_System/System_Stack/Logos_Protocol/Logos_Agents/I2_Agent/config/constants.py",
+    "kind": "Assign",
+    "line": 15,
+    "name": "DECISION_QUARANTINE"
+  },
+  {
+    "file": "Logos_System/System_Stack/Logos_Protocol/Logos_Agents/I2_Agent/config/constants.py",
+    "kind": "Assign",
+    "line": 16,
+    "name": "DECISION_ESCALATE"
+  },
+  {
+    "file": "Logos_System/System_Stack/Logos_Protocol/Logos_Agents/I2_Agent/protocol_operations/ui_io/server.py",
+    "kind": "Assign",
+    "line": 6,
+    "name": "app"
+  },
+  {
+    "file": "Logos_System/System_Stack/Logos_Protocol/Logos_Agents/I2_Agent/protocol_operations/privation_handler/privation_classifier.py",
+    "kind": "Assign",
+    "line": 37,
+    "name": "NEGATION_TOKENS"
+  },
+  {
+    "file": "Logos_System/System_Stack/Logos_Protocol/Logos_Agents/I2_Agent/protocol_operations/privation_handler/privation_classifier.py",
+    "kind": "Assign",
+    "line": 38,
+    "name": "NULLITY_TOKENS"
+  },
+  {
+    "file": "Logos_System/System_Stack/Logos_Protocol/Logos_Agents/I2_Agent/protocol_operations/privation_handler/privation_classifier.py",
+    "kind": "Assign",
+    "line": 39,
+    "name": "CONTRADICTION_TOKENS"
+  },
+  {
+    "file": "Logos_System/System_Stack/Logos_Protocol/Logos_Agents/I2_Agent/protocol_operations/privation_handler/privation_classifier.py",
+    "kind": "Assign",
+    "line": 40,
+    "name": "AXIOLOGY_TOKENS"
+  },
+  {
+    "file": "Logos_System/System_Stack/Logos_Protocol/Logos_Agents/I2_Agent/protocol_operations/privation_handler/privation_classifier.py",
+    "kind": "Assign",
+    "line": 41,
+    "name": "TELEOLOGY_TOKENS"
+  },
+  {
+    "file": "Logos_System/System_Stack/Logos_Protocol/Logos_Agents/I2_Agent/protocol_operations/privation_handler/privation_classifier.py",
+    "kind": "Assign",
+    "line": 42,
+    "name": "AGENTIC_TOKENS"
+  },
+  {
+    "file": "Logos_System/System_Stack/Logos_Protocol/Logos_Agents/I2_Agent/protocol_operations/privation_handler/privation_classifier.py",
+    "kind": "Assign",
+    "line": 43,
+    "name": "GIBBERISH_HEURISTIC_THRESHOLD"
+  },
+  {
+    "file": "Logos_System/System_Stack/Logos_Protocol/Logos_Agents/I2_Agent/protocol_operations/privation_handler/privation_analyst.py",
+    "kind": "Assign",
+    "line": 26,
+    "name": "_BASE_DIR"
+  },
+  {
+    "file": "Logos_System/System_Stack/Logos_Protocol/Logos_Agents/I2_Agent/protocol_operations/privation_handler/privation_analyst.py",
+    "kind": "Assign",
+    "line": 27,
+    "name": "_DEFAULT_CATALOG"
+  },
+  {
+    "file": "Logos_System/System_Stack/Logos_Protocol/Logos_Agents/I2_Agent/protocol_operations/privation_handler/privation_analyst.py",
+    "kind": "Assign",
+    "line": 28,
+    "name": "CATALOG_DIR"
+  },
+  {
+    "file": "Logos_System/System_Stack/Logos_Protocol/Logos_Agents/I2_Agent/protocol_operations/privation_handler/privation_analyst.py",
+    "kind": "Assign",
+    "line": 30,
+    "name": "IEL_BIJECTION_JSON_CANDIDATES"
+  },
+  {
+    "file": "Logos_System/System_Stack/Logos_Protocol/Logos_Agents/I2_Agent/protocol_operations/privation_handler/privation_analyst.py",
+    "kind": "Assign",
+    "line": 36,
+    "name": "PRIVATION_MD_CANDIDATES"
+  },
+  {
+    "file": "Logos_System/System_Stack/Logos_Protocol/Logos_Agents/I2_Agent/protocol_operations/privation_handler/privation_analyst.py",
+    "kind": "Assign",
+    "line": 43,
+    "name": "DEFAULT_IEL_DOMAIN_MAP"
+  },
+  {
+    "file": "Logos_System/System_Stack/Logos_Protocol/Logos_Agents/I3_Agent/config/constants.py",
+    "kind": "Assign",
+    "line": 4,
+    "name": "AGENT_I1"
+  },
+  {
+    "file": "Logos_System/System_Stack/Logos_Protocol/Logos_Agents/I3_Agent/config/constants.py",
+    "kind": "Assign",
+    "line": 5,
+    "name": "AGENT_I2"
+  },
+  {
+    "file": "Logos_System/System_Stack/Logos_Protocol/Logos_Agents/I3_Agent/config/constants.py",
+    "kind": "Assign",
+    "line": 6,
+    "name": "AGENT_I3"
+  },
+  {
+    "file": "Logos_System/System_Stack/Logos_Protocol/Logos_Agents/I3_Agent/config/constants.py",
+    "kind": "Assign",
+    "line": 7,
+    "name": "AGENT_LOGOS"
+  },
+  {
+    "file": "Logos_System/System_Stack/Logos_Protocol/Logos_Agents/I3_Agent/config/constants.py",
+    "kind": "Assign",
+    "line": 9,
+    "name": "PRIORITY_NORMAL"
+  },
+  {
+    "file": "Logos_System/System_Stack/Logos_Protocol/Logos_Agents/I3_Agent/config/constants.py",
+    "kind": "Assign",
+    "line": 10,
+    "name": "PRIORITY_HIGH"
+  },
+  {
+    "file": "Logos_System/System_Stack/Logos_Protocol/Logos_Agents/I3_Agent/config/constants.py",
+    "kind": "Assign",
+    "line": 12,
+    "name": "DECISION_ALLOW"
+  },
+  {
+    "file": "Logos_System/System_Stack/Logos_Protocol/Logos_Agents/I3_Agent/config/constants.py",
+    "kind": "Assign",
+    "line": 13,
+    "name": "DECISION_ANNOTATE"
+  },
+  {
+    "file": "Logos_System/System_Stack/Logos_Protocol/Logos_Agents/I3_Agent/config/constants.py",
+    "kind": "Assign",
+    "line": 14,
+    "name": "DECISION_DECOMPOSE"
+  },
+  {
+    "file": "Logos_System/System_Stack/Logos_Protocol/Logos_Agents/I3_Agent/config/constants.py",
+    "kind": "Assign",
+    "line": 15,
+    "name": "DECISION_QUARANTINE"
+  },
+  {
+    "file": "Logos_System/System_Stack/Logos_Protocol/Logos_Agents/I3_Agent/config/constants.py",
+    "kind": "Assign",
+    "line": 16,
+    "name": "DECISION_ESCALATE"
+  },
+  {
+    "file": "Logos_System/System_Stack/Logos_Protocol/Logos_Agents/I1_Agent/config/constants.py",
+    "kind": "Assign",
+    "line": 4,
+    "name": "AGENT_I1"
+  },
+  {
+    "file": "Logos_System/System_Stack/Logos_Protocol/Logos_Agents/I1_Agent/config/constants.py",
+    "kind": "Assign",
+    "line": 5,
+    "name": "AGENT_I2"
+  },
+  {
+    "file": "Logos_System/System_Stack/Logos_Protocol/Logos_Agents/I1_Agent/config/constants.py",
+    "kind": "Assign",
+    "line": 6,
+    "name": "AGENT_I3"
+  },
+  {
+    "file": "Logos_System/System_Stack/Logos_Protocol/Logos_Agents/I1_Agent/config/constants.py",
+    "kind": "Assign",
+    "line": 7,
+    "name": "AGENT_LOGOS"
+  },
+  {
+    "file": "Logos_System/System_Stack/Logos_Protocol/Logos_Agents/I1_Agent/config/constants.py",
+    "kind": "Assign",
+    "line": 9,
+    "name": "PRIORITY_NORMAL"
+  },
+  {
+    "file": "Logos_System/System_Stack/Logos_Protocol/Logos_Agents/I1_Agent/config/constants.py",
+    "kind": "Assign",
+    "line": 10,
+    "name": "PRIORITY_HIGH"
+  },
+  {
+    "file": "Logos_System/System_Stack/Logos_Protocol/Logos_Agents/I1_Agent/config/constants.py",
+    "kind": "Assign",
+    "line": 12,
+    "name": "DECISION_ALLOW"
+  },
+  {
+    "file": "Logos_System/System_Stack/Logos_Protocol/Logos_Agents/I1_Agent/config/constants.py",
+    "kind": "Assign",
+    "line": 13,
+    "name": "DECISION_ANNOTATE"
+  },
+  {
+    "file": "Logos_System/System_Stack/Logos_Protocol/Logos_Agents/I1_Agent/config/constants.py",
+    "kind": "Assign",
+    "line": 14,
+    "name": "DECISION_DECOMPOSE"
+  },
+  {
+    "file": "Logos_System/System_Stack/Logos_Protocol/Logos_Agents/I1_Agent/config/constants.py",
+    "kind": "Assign",
+    "line": 15,
+    "name": "DECISION_QUARANTINE"
+  },
+  {
+    "file": "Logos_System/System_Stack/Logos_Protocol/Logos_Agents/I1_Agent/config/constants.py",
+    "kind": "Assign",
+    "line": 16,
+    "name": "DECISION_ESCALATE"
+  },
+  {
+    "file": "Logos_System/System_Stack/Logos_Protocol/Logos_Agents/I1_Agent/protocol_operations/scp_transform/transform_registry.py",
+    "kind": "Assign",
+    "line": 7,
+    "name": "TransformFn"
+  },
+  {
+    "file": "Logos_System/System_Stack/Meaning_Translation_Protocol/system_utilities/system_utils.py",
+    "kind": "Assign",
+    "line": 19,
+    "name": "__all__"
+  },
+  {
+    "file": "Logos_System/System_Stack/Meaning_Translation_Protocol/system_utilities/system_utils.py",
+    "kind": "Assign",
+    "line": 34,
+    "name": "logger"
+  },
+  {
+    "file": "Logos_System/System_Stack/Meaning_Translation_Protocol/system_utilities/system_utils.py",
+    "kind": "Assign",
+    "line": 58,
+    "name": "structured_logger"
+  },
+  {
+    "file": "Logos_System/System_Stack/Meaning_Translation_Protocol/system_utilities/system_utils.py",
+    "kind": "Assign",
+    "line": 62,
+    "name": "METRICS_REGISTRY"
+  },
+  {
+    "file": "Logos_System/System_Stack/Meaning_Translation_Protocol/system_utilities/system_utils.py",
+    "kind": "Assign",
+    "line": 63,
+    "name": "EVENT_COUNTER"
+  },
+  {
+    "file": "Logos_System/System_Stack/Meaning_Translation_Protocol/system_utilities/system_utils.py",
+    "kind": "Assign",
+    "line": 69,
+    "name": "REQUEST_COUNTER"
+  },
+  {
+    "file": "Logos_System/System_Stack/Meaning_Translation_Protocol/system_utilities/system_utils.py",
+    "kind": "Assign",
+    "line": 75,
+    "name": "REQUEST_LATENCY"
+  },
+  {
+    "file": "Logos_System/System_Stack/Meaning_Translation_Protocol/core_processing/registry.py",
+    "kind": "Assign",
+    "line": 23,
+    "name": "LOGGER"
+  },
+  {
+    "file": "Logos_System/System_Stack/Meaning_Translation_Protocol/core_processing/registry.py",
+    "kind": "Assign",
+    "line": 60,
+    "name": "HandlerFunc"
+  },
+  {
+    "file": "Logos_System/System_Stack/Meaning_Translation_Protocol/core_processing/registry.py",
+    "kind": "Assign",
+    "line": 218,
+    "name": "uip_registry"
+  },
+  {
+    "file": "Logos_System/System_Stack/Meaning_Translation_Protocol/core_processing/registry.py",
+    "kind": "Assign",
+    "line": 243,
+    "name": "__all__"
+  },
+  {
+    "file": "Logos_System/System_Stack/Meaning_Translation_Protocol/core_processing/adaptive_engine.py",
+    "kind": "Assign",
+    "line": 18,
+    "name": "LOGGER"
+  },
+  {
+    "file": "Logos_System/System_Stack/Meaning_Translation_Protocol/core_processing/adaptive_engine.py",
+    "kind": "Assign",
+    "line": 169,
+    "name": "adaptive_processor"
+  },
+  {
+    "file": "Logos_System/System_Stack/Meaning_Translation_Protocol/core_processing/adaptive_engine.py",
+    "kind": "Assign",
+    "line": 171,
+    "name": "__all__"
+  },
+  {
+    "file": "Logos_System/System_Stack/Meaning_Translation_Protocol/core_processing/sanitizer.py",
+    "kind": "Assign",
+    "line": 8,
+    "name": "logger"
+  },
+  {
+    "file": "Logos_System/System_Stack/Meaning_Translation_Protocol/core_processing/sanitizer.py",
+    "kind": "Assign",
+    "line": 62,
+    "name": "sanitizer"
+  },
+  {
+    "file": "Logos_System/System_Stack/Meaning_Translation_Protocol/core_processing/sanitizer.py",
+    "kind": "Assign",
+    "line": 64,
+    "name": "__all__"
+  },
+  {
+    "file": "Logos_System/System_Stack/Meaning_Translation_Protocol/core_processing/language_processor.py",
+    "kind": "Assign",
+    "line": 46,
+    "name": "LOGGER"
+  },
+  {
+    "file": "Logos_System/System_Stack/Meaning_Translation_Protocol/core_processing/language_processor.py",
+    "kind": "Assign",
+    "line": 532,
+    "name": "language_processor"
+  },
+  {
+    "file": "Logos_System/System_Stack/Meaning_Translation_Protocol/core_processing/language_processor.py",
+    "kind": "Assign",
+    "line": 534,
+    "name": "__all__"
+  },
+  {
+    "file": "Logos_System/System_Stack/Meaning_Translation_Protocol/core_processing/mcmc_engine.py",
+    "kind": "Assign",
+    "line": 16,
+    "name": "LOGGER"
+  },
+  {
+    "file": "Logos_System/System_Stack/Meaning_Translation_Protocol/core_processing/mcmc_engine.py",
+    "kind": "Assign",
+    "line": 97,
+    "name": "__all__"
+  },
+  {
+    "file": "Logos_System/System_Stack/Meaning_Translation_Protocol/interface_runtime/router.py",
+    "kind": "Assign",
+    "line": 17,
+    "name": "logger"
+  },
+  {
+    "file": "Logos_System/System_Stack/Meaning_Translation_Protocol/interface_runtime/router.py",
+    "kind": "Assign",
+    "line": 172,
+    "name": "interaction_router"
+  },
+  {
+    "file": "Logos_System/System_Stack/Meaning_Translation_Protocol/interface_runtime/router.py",
+    "kind": "Assign",
+    "line": 174,
+    "name": "__all__"
+  },
+  {
+    "file": "Logos_System/System_Stack/Meaning_Translation_Protocol/interface_runtime/progressive_router.py",
+    "kind": "Assign",
+    "line": 31,
+    "name": "LOGGER"
+  },
+  {
+    "file": "Logos_System/System_Stack/Meaning_Translation_Protocol/interface_runtime/progressive_router.py",
+    "kind": "Assign",
+    "line": 230,
+    "name": "progressive_router"
+  },
+  {
+    "file": "Logos_System/System_Stack/Meaning_Translation_Protocol/interface_runtime/progressive_router.py",
+    "kind": "Assign",
+    "line": 232,
+    "name": "__all__"
+  },
+  {
+    "file": "Logos_System/System_Stack/Meaning_Translation_Protocol/language_modules/tranlsation_bridge.py",
+    "kind": "Assign",
+    "line": 58,
+    "name": "logger"
+  },
+  {
+    "file": "Logos_System/System_Stack/Meaning_Translation_Protocol/language_modules/translation_engine.py",
+    "kind": "Assign",
+    "line": 13,
+    "name": "logger"
+  },
+  {
+    "file": "Logos_System/System_Stack/Meaning_Translation_Protocol/language_modules/__init__.py",
+    "kind": "Assign",
+    "line": 34,
+    "name": "__all__"
+  },
+  {
+    "file": "Logos_System/System_Stack/Meaning_Translation_Protocol/symbolic_translation/lambda_engine.py",
+    "kind": "Assign",
+    "line": 16,
+    "name": "logger"
+  },
+  {
+    "file": "Logos_System/System_Stack/Meaning_Translation_Protocol/symbolic_translation/lambda_engine.py",
+    "kind": "Assign",
+    "line": 593,
+    "name": "T"
+  },
+  {
+    "file": "Logos_System/System_Stack/Meaning_Translation_Protocol/symbolic_translation/lambda_engine.py",
+    "kind": "Assign",
+    "line": 594,
+    "name": "E"
+  },
+  {
+    "file": "Logos_System/System_Stack/Meaning_Translation_Protocol/symbolic_translation/lambda_engine.py",
+    "kind": "Assign",
+    "line": 595,
+    "name": "R"
+  },
+  {
+    "file": "Logos_System/System_Stack/Meaning_Translation_Protocol/symbolic_translation/lambda_onto_calculus_engine.py",
+    "kind": "Assign",
+    "line": 39,
+    "name": "ONTO_LOGIC_BIJECTION"
+  },
+  {
+    "file": "Logos_System/System_Stack/Meaning_Translation_Protocol/symbolic_translation/lambda_onto_calculus_engine.py",
+    "kind": "Assign",
+    "line": 45,
+    "name": "LOGIC_ONTO_BIJECTION"
+  },
+  {
+    "file": "Logos_System/System_Stack/Meaning_Translation_Protocol/symbolic_translation/__init__.py",
+    "kind": "Assign",
+    "line": 62,
+    "name": "__all__"
+  },
+  {
+    "file": "Logos_System/System_Stack/Meaning_Translation_Protocol/symbolic_translation/lambda_engine_definitions.py",
+    "kind": "Assign",
+    "line": 17,
+    "name": "T"
+  },
+  {
+    "file": "Logos_System/System_Stack/Meaning_Translation_Protocol/symbolic_translation/lambda_engine_definitions.py",
+    "kind": "Assign",
+    "line": 18,
+    "name": "E"
+  },
+  {
+    "file": "Logos_System/System_Stack/Meaning_Translation_Protocol/symbolic_translation/lambda_engine_definitions.py",
+    "kind": "Assign",
+    "line": 19,
+    "name": "R"
+  },
+  {
+    "file": "Logos_System/System_Stack/Meaning_Translation_Protocol/Receiver_Nexus/Custom_GUI/server.py",
+    "kind": "Assign",
+    "line": 24,
+    "name": "DEMOS_DIR"
+  },
+  {
+    "file": "Logos_System/System_Stack/Meaning_Translation_Protocol/Receiver_Nexus/Custom_GUI/server.py",
+    "kind": "Assign",
+    "line": 25,
+    "name": "REPO_ROOT"
+  },
+  {
+    "file": "Logos_System/System_Stack/Meaning_Translation_Protocol/Receiver_Nexus/Custom_GUI/server.py",
+    "kind": "Assign",
+    "line": 28,
+    "name": "BASELINE_DIR"
+  },
+  {
+    "file": "Logos_System/System_Stack/Meaning_Translation_Protocol/Receiver_Nexus/Custom_GUI/server.py",
+    "kind": "Assign",
+    "line": 30,
+    "name": "app"
+  },
+  {
+    "file": "Logos_System/System_Stack/Meaning_Translation_Protocol/Receiver_Nexus/LLM_Interface/logos_interface.py",
+    "kind": "Assign",
+    "line": 25,
+    "name": "REPO_ROOT"
+  },
+  {
+    "file": "Logos_System/System_Stack/Meaning_Translation_Protocol/Receiver_Nexus/LLM_Interface/logos_interface.py",
+    "kind": "Assign",
+    "line": 26,
+    "name": "STATE_DIR"
+  },
+  {
+    "file": "Logos_System/System_Stack/Meaning_Translation_Protocol/Receiver_Nexus/LLM_Interface/logos_interface.py",
+    "kind": "Assign",
+    "line": 48,
+    "name": "LOGOS_OPERATIONS"
+  },
+  {
+    "file": "Logos_System/System_Stack/Meaning_Translation_Protocol/Receiver_Nexus/LLM_Interface/logos_interface.py",
+    "kind": "Assign",
+    "line": 219,
+    "name": "ROUTER_SYSTEM_PROMPT"
+  },
+  {
+    "file": "Logos_System/System_Stack/Meaning_Translation_Protocol/Receiver_Nexus/LLM_Interface/logos_interface.py",
+    "kind": "Assign",
+    "line": 313,
+    "name": "SYNTHESIZE_SYSTEM_PROMPT"
+  },
+  {
+    "file": "Logos_System/System_Stack/Meaning_Translation_Protocol/Receiver_Nexus/LLM_Interface/reasoning_agent.py",
+    "kind": "Assign",
+    "line": 15,
+    "name": "DEBUG"
+  },
+  {
+    "file": "Logos_System/System_Stack/Meaning_Translation_Protocol/Receiver_Nexus/LLM_Interface/reasoning_agent.py",
+    "kind": "Assign",
+    "line": 36,
+    "name": "REPO_ROOT"
+  },
+  {
+    "file": "Logos_System/System_Stack/Meaning_Translation_Protocol/Receiver_Nexus/LLM_Interface/reasoning_agent.py",
+    "kind": "Assign",
+    "line": 43,
+    "name": "SYSTEM_PROMPT"
+  },
+  {
+    "file": "Logos_System/System_Stack/Meaning_Translation_Protocol/Receiver_Nexus/LLM_Interface/logos_gpt_chat.py",
+    "kind": "Assign",
+    "line": 14,
+    "name": "REPO_ROOT"
+  },
+  {
+    "file": "Logos_System/System_Stack/Meaning_Translation_Protocol/Receiver_Nexus/LLM_Interface/logos_gpt_chat.py",
+    "kind": "Assign",
+    "line": 18,
+    "name": "AUDIT_ROOT"
+  },
+  {
+    "file": "Logos_System/System_Stack/Meaning_Translation_Protocol/Receiver_Nexus/LLM_Interface/logos_gpt_chat.py",
+    "kind": "Assign",
+    "line": 59,
+    "name": "DEFAULT_MAX_TURNS"
+  },
+  {
+    "file": "Logos_System/System_Stack/Meaning_Translation_Protocol/Receiver_Nexus/LLM_Interface/logos_gpt_chat.py",
+    "kind": "Assign",
+    "line": 60,
+    "name": "MAX_PROPOSALS"
+  },
+  {
+    "file": "Logos_System/System_Stack/Meaning_Translation_Protocol/Receiver_Nexus/LLM_Interface/logos_gpt_chat.py",
+    "kind": "Assign",
+    "line": 61,
+    "name": "HIGH_IMPACT_TOOLS"
+  },
+  {
+    "file": "Logos_System/System_Stack/Meaning_Translation_Protocol/Receiver_Nexus/LLM_Interface/logos_gpt_server.py",
+    "kind": "Assign",
+    "line": 19,
+    "name": "REPO_ROOT"
+  },
+  {
+    "file": "Logos_System/System_Stack/Meaning_Translation_Protocol/Receiver_Nexus/LLM_Interface/logos_gpt_server.py",
+    "kind": "Assign",
+    "line": 22,
+    "name": "scripts_dir"
+  },
+  {
+    "file": "Logos_System/System_Stack/Meaning_Translation_Protocol/Receiver_Nexus/LLM_Interface/logos_gpt_server.py",
+    "kind": "Assign",
+    "line": 26,
+    "name": "AUDIT_ROOT"
+  },
+  {
+    "file": "Logos_System/System_Stack/Meaning_Translation_Protocol/Receiver_Nexus/LLM_Interface/logos_gpt_server.py",
+    "kind": "Assign",
+    "line": 61,
+    "name": "MAX_PROPOSALS"
+  },
+  {
+    "file": "Logos_System/System_Stack/Meaning_Translation_Protocol/Receiver_Nexus/LLM_Interface/logos_gpt_server.py",
+    "kind": "Assign",
+    "line": 62,
+    "name": "LOW_IMPACT_TOOLS"
+  },
+  {
+    "file": "Logos_System/System_Stack/Meaning_Translation_Protocol/Receiver_Nexus/LLM_Interface/logos_gpt_server.py",
+    "kind": "Assign",
+    "line": 63,
+    "name": "HIGH_IMPACT_TOOLS"
+  },
+  {
+    "file": "Logos_System/System_Stack/Meaning_Translation_Protocol/Receiver_Nexus/LLM_Interface/logos_gpt_server.py",
+    "kind": "Assign",
+    "line": 64,
+    "name": "STATE_PATH"
+  },
+  {
+    "file": "Logos_System/System_Stack/Meaning_Translation_Protocol/Receiver_Nexus/LLM_Interface/logos_gpt_server.py",
+    "kind": "Assign",
+    "line": 65,
+    "name": "AUDIT_DIR"
+  },
+  {
+    "file": "Logos_System/System_Stack/Meaning_Translation_Protocol/Receiver_Nexus/LLM_Interface/logos_gpt_server.py",
+    "kind": "Assign",
+    "line": 66,
+    "name": "APPROVAL_TTL_SECONDS"
+  },
+  {
+    "file": "Logos_System/System_Stack/Meaning_Translation_Protocol/Receiver_Nexus/LLM_Interface/logos_gpt_server.py",
+    "kind": "Assign",
+    "line": 70,
+    "name": "_tool_schema"
+  },
+  {
+    "file": "Logos_System/System_Stack/Meaning_Translation_Protocol/Receiver_Nexus/LLM_Interface/logos_gpt_server.py",
+    "kind": "Assign",
+    "line": 71,
+    "name": "_requires_uip_map"
+  },
+  {
+    "file": "Logos_System/System_Stack/Meaning_Translation_Protocol/Receiver_Nexus/LLM_Interface/logos_gpt_server.py",
+    "kind": "Assign",
+    "line": 76,
+    "name": "METRICS"
+  },
+  {
+    "file": "Logos_System/System_Stack/Meaning_Translation_Protocol/Receiver_Nexus/LLM_Interface/logos_gpt_server.py",
+    "kind": "AnnAssign",
+    "line": 85,
+    "name": "LAST_PROVIDER_STATUS"
+  },
+  {
+    "file": "Logos_System/System_Stack/Meaning_Translation_Protocol/Receiver_Nexus/LLM_Interface/logos_gpt_server.py",
+    "kind": "AnnAssign",
+    "line": 102,
+    "name": "SESSIONS"
+  },
+  {
+    "file": "Logos_System/System_Stack/Meaning_Translation_Protocol/Receiver_Nexus/LLM_Interface/logos_gpt_server.py",
+    "kind": "Assign",
+    "line": 103,
+    "name": "app"
+  },
+  {
+    "file": "Logos_System/System_Stack/Meaning_Translation_Protocol/Receiver_Nexus/LLM_Interface/run_logos_gpt_acceptance.py",
+    "kind": "Assign",
+    "line": 15,
+    "name": "REPO_ROOT"
+  },
+  {
+    "file": "Logos_System/System_Stack/Meaning_Translation_Protocol/Receiver_Nexus/LLM_Interface/run_logos_gpt_acceptance.py",
+    "kind": "Assign",
+    "line": 16,
+    "name": "AUDIT_ROOT"
+  },
+  {
+    "file": "Logos_System/System_Stack/Meaning_Translation_Protocol/Receiver_Nexus/LLM_Interface/run_logos_gpt_acceptance.py",
+    "kind": "Assign",
+    "line": 17,
+    "name": "AUDIT_DIR"
+  },
+  {
+    "file": "Logos_System/System_Stack/Meaning_Translation_Protocol/Receiver_Nexus/LLM_Interface/run_logos_gpt_acceptance.py",
+    "kind": "AnnAssign",
+    "line": 19,
+    "name": "COMMANDS"
+  },
+  {
+    "file": "Logos_System/System_Stack/Meaning_Translation_Protocol/Receiver_Nexus/LLM_Interface/run_logos_gpt_acceptance.py",
+    "kind": "Assign",
+    "line": 37,
+    "name": "TAIL_LINES"
+  },
+  {
+    "file": "Logos_System/System_Stack/Meaning_Translation_Protocol/Receiver_Nexus/LLM_Interface/plugins/uip_integration_plugin.py",
+    "kind": "Assign",
+    "line": 77,
+    "name": "_READINESS"
+  },
+  {
+    "file": "Logos_System/System_Stack/Meaning_Translation_Protocol/Receiver_Nexus/LLM_Interface/plugins/guardrails.py",
+    "kind": "Assign",
+    "line": 11,
+    "name": "F"
+  },
+  {
+    "file": "Logos_System/System_Stack/Meaning_Translation_Protocol/Receiver_Nexus/LLM_Interface/plugins/guardrails.py",
+    "kind": "Assign",
+    "line": 12,
+    "name": "STATE_FILE"
+  },
+  {
+    "file": "Logos_System/System_Stack/Meaning_Translation_Protocol/Receiver_Nexus/LLM_Interface/plugins/guardrails.py",
+    "kind": "Assign",
+    "line": 46,
+    "name": "__all__"
+  },
+  {
+    "file": "Logos_System/System_Stack/Meaning_Translation_Protocol/Receiver_Nexus/LLM_Interface/plugins/enhanced_uip_integration_plugin.py",
+    "kind": "Assign",
+    "line": 87,
+    "name": "_READINESS"
+  },
+  {
+    "file": "Logos_System/System_Stack/Meaning_Translation_Protocol/Receiver_Nexus/LLM_Interface/plugins/llm_backend.py",
+    "kind": "Assign",
+    "line": 35,
+    "name": "Provider"
+  },
+  {
+    "file": "Logos_System/System_Stack/Meaning_Translation_Protocol/system_utilities/nexus/uip_nexus.py",
+    "kind": "Assign",
+    "line": 30,
+    "name": "logger"
+  },
+  {
+    "file": "Logos_System/System_Stack/Meaning_Translation_Protocol/system_utilities/nexus/uip_nexus.py",
+    "kind": "Assign",
+    "line": 458,
+    "name": "uip_nexus"
+  },
+  {
+    "file": "Logos_System/System_Stack/Meaning_Translation_Protocol/system_utilities/nexus/uip_nexus.py",
+    "kind": "Assign",
+    "line": 469,
+    "name": "__all__"
+  },
+  {
+    "file": "Logos_System/System_Stack/Meaning_Translation_Protocol/system_utilities/nexus/uip_operations.py",
+    "kind": "Assign",
+    "line": 26,
+    "name": "logger"
+  },
+  {
+    "file": "Logos_System/System_Stack/Meaning_Translation_Protocol/system_utilities/shared/message_formats.py",
+    "kind": "Assign",
+    "line": 229,
+    "name": "message_router"
+  },
+  {
+    "file": "Logos_System/System_Stack/Meaning_Translation_Protocol/system_utilities/shared/message_formats.py",
+    "kind": "Assign",
+    "line": 232,
+    "name": "__all__"
+  },
+  {
+    "file": "Logos_System/System_Stack/Meaning_Translation_Protocol/system_utilities/shared/system_imports.py",
+    "kind": "Assign",
+    "line": 29,
+    "name": "log_dir"
+  },
+  {
+    "file": "Logos_System/System_Stack/Meaning_Translation_Protocol/system_utilities/shared/system_imports.py",
+    "kind": "Assign",
+    "line": 40,
+    "name": "__all__"
+  },
+  {
+    "file": "Logos_System/System_Stack/System_Operations_Protocol/nexus/sop_nexus.py",
+    "kind": "Assign",
+    "line": 80,
+    "name": "logger"
+  },
+  {
+    "file": "Logos_System/System_Stack/System_Operations_Protocol/nexus/sop_operations.py",
+    "kind": "Assign",
+    "line": 28,
+    "name": "logger"
+  },
+  {
+    "file": "Logos_System/System_Stack/System_Operations_Protocol/nexus/legacy_sop_nexus.py",
+    "kind": "Assign",
+    "line": 54,
+    "name": "logger"
+  },
+  {
+    "file": "Logos_System/System_Stack/System_Operations_Protocol/governance/server.py",
+    "kind": "Assign",
+    "line": 13,
+    "name": "app"
+  },
+  {
+    "file": "Logos_System/System_Stack/System_Operations_Protocol/governance/server.py",
+    "kind": "Assign",
+    "line": 21,
+    "name": "CFG"
+  },
+  {
+    "file": "Logos_System/System_Stack/System_Operations_Protocol/governance/server.py",
+    "kind": "Assign",
+    "line": 22,
+    "name": "PIN"
+  },
+  {
+    "file": "Logos_System/System_Stack/System_Operations_Protocol/governance/server.py",
+    "kind": "Assign",
+    "line": 25,
+    "name": "RM"
+  },
+  {
+    "file": "Logos_System/System_Stack/System_Operations_Protocol/governance/enhanced_reference_monitor.py",
+    "kind": "Assign",
+    "line": 374,
+    "name": "__all__"
+  },
+  {
+    "file": "Logos_System/System_Stack/System_Operations_Protocol/governance/capabilities.py",
+    "kind": "Assign",
+    "line": 17,
+    "name": "logger"
+  },
+  {
+    "file": "Logos_System/System_Stack/System_Operations_Protocol/governance/capabilities.py",
+    "kind": "Assign",
+    "line": 184,
+    "name": "capability_reporting"
+  },
+  {
+    "file": "Logos_System/System_Stack/System_Operations_Protocol/code_generator/development_environment.py",
+    "kind": "Assign",
+    "line": 5201,
+    "name": "sop_code_env"
+  },
+  {
+    "file": "Logos_System/System_Stack/System_Operations_Protocol/code_generator/self_improvement_integration.py",
+    "kind": "Assign",
+    "line": 30,
+    "name": "logger"
+  },
+  {
+    "file": "Logos_System/System_Stack/System_Operations_Protocol/code_generator/self_improvement_integration.py",
+    "kind": "Assign",
+    "line": 711,
+    "name": "sop_improvement_manager"
+  },
+  {
+    "file": "Logos_System/System_Stack/System_Operations_Protocol/code_generator/gen_worldview_ontoprops.py",
+    "kind": "Assign",
+    "line": 7,
+    "name": "SRC"
+  },
+  {
+    "file": "Logos_System/System_Stack/System_Operations_Protocol/code_generator/gen_worldview_ontoprops.py",
+    "kind": "Assign",
+    "line": 8,
+    "name": "OUT"
+  },
+  {
+    "file": "Logos_System/System_Stack/System_Operations_Protocol/code_generator/gen_worldview_ontoprops.py",
+    "kind": "Assign",
+    "line": 9,
+    "name": "BASE"
+  },
+  {
+    "file": "Logos_System/System_Stack/System_Operations_Protocol/code_generator/gen_worldview_ontoprops.py",
+    "kind": "Assign",
+    "line": 10,
+    "name": "OUTDIR"
+  },
+  {
+    "file": "Logos_System/System_Stack/System_Operations_Protocol/code_generator/gen_worldview_ontoprops.py",
+    "kind": "Assign",
+    "line": 11,
+    "name": "cj"
+  },
+  {
+    "file": "Logos_System/System_Stack/System_Operations_Protocol/code_generator/gen_worldview_ontoprops.py",
+    "kind": "Assign",
+    "line": 16,
+    "name": "pillar_iel"
+  },
+  {
+    "file": "Logos_System/System_Stack/System_Operations_Protocol/code_generator/gen_worldview_ontoprops.py",
+    "kind": "Assign",
+    "line": 31,
+    "name": "group_pillar"
+  },
+  {
+    "file": "Logos_System/System_Stack/System_Operations_Protocol/code_generator/gen_worldview_ontoprops.py",
+    "kind": "Assign",
+    "line": 70,
+    "name": "data"
+  },
+  {
+    "file": "Logos_System/System_Stack/System_Operations_Protocol/code_generator/gen_worldview_ontoprops.py",
+    "kind": "Assign",
+    "line": 71,
+    "name": "props"
+  },
+  {
+    "file": "Logos_System/System_Stack/System_Operations_Protocol/code_generator/gen_worldview_ontoprops.py",
+    "kind": "Assign",
+    "line": 74,
+    "name": "records"
+  },
+  {
+    "file": "Logos_System/System_Stack/System_Operations_Protocol/code_generator/gen_worldview_ontoprops.py",
+    "kind": "Assign",
+    "line": 92,
+    "name": "bucket"
+  },
+  {
+    "file": "Logos_System/System_Stack/System_Operations_Protocol/code_generator/gen_worldview_ontoprops.py",
+    "kind": "Assign",
+    "line": 121,
+    "name": "norm"
+  },
+  {
+    "file": "Logos_System/System_Stack/System_Operations_Protocol/code_generator/gen_worldview_ontoprops.py",
+    "kind": "Assign",
+    "line": 122,
+    "name": "out"
+  },
+  {
+    "file": "Logos_System/System_Stack/System_Operations_Protocol/code_generator/gen_worldview_ontoprops.py",
+    "kind": "Assign",
+    "line": 134,
+    "name": "coq_files"
+  },
+  {
+    "file": "Logos_System/System_Stack/System_Operations_Protocol/code_generator/gen_worldview_ontoprops.py",
+    "kind": "Assign",
+    "line": 135,
+    "name": "per_iel"
+  },
+  {
+    "file": "Logos_System/System_Stack/System_Operations_Protocol/code_generator/gen_worldview_ontoprops.py",
+    "kind": "Assign",
+    "line": 136,
+    "name": "per_pillar"
+  },
+  {
+    "file": "Logos_System/System_Stack/System_Operations_Protocol/code_generator/gen_worldview_ontoprops.py",
+    "kind": "Assign",
+    "line": 137,
+    "name": "bad_complex"
+  },
+  {
+    "file": "Logos_System/System_Stack/System_Operations_Protocol/code_generator/gen_worldview_ontoprops.py",
+    "kind": "Assign",
+    "line": 212,
+    "name": "pillar_map"
+  },
+  {
+    "file": "Logos_System/System_Stack/System_Operations_Protocol/code_generator/gen_worldview_ontoprops.py",
+    "kind": "Assign",
+    "line": 232,
+    "name": "rep"
+  },
+  {
+    "file": "Logos_System/System_Stack/System_Operations_Protocol/code_generator/ontoprops_remap.py",
+    "kind": "Assign",
+    "line": 8,
+    "name": "props"
+  },
+  {
+    "file": "Logos_System/System_Stack/System_Operations_Protocol/code_generator/ontoprops_remap.py",
+    "kind": "Assign",
+    "line": 9,
+    "name": "gc"
+  },
+  {
+    "file": "Logos_System/System_Stack/System_Operations_Protocol/code_generator/ontoprops_remap.py",
+    "kind": "Assign",
+    "line": 17,
+    "name": "causal"
+  },
+  {
+    "file": "Logos_System/System_Stack/System_Operations_Protocol/code_generator/ontoprops_remap.py",
+    "kind": "Assign",
+    "line": 23,
+    "name": "vol"
+  },
+  {
+    "file": "Logos_System/System_Stack/System_Operations_Protocol/IEL_generator/iel_runtime_interface.py",
+    "kind": "Assign",
+    "line": 18,
+    "name": "logger"
+  },
+  {
+    "file": "Logos_System/System_Stack/System_Operations_Protocol/IEL_generator/__init__.py",
+    "kind": "Assign",
+    "line": 39,
+    "name": "__all__"
+  },
+  {
+    "file": "Logos_System/System_Stack/System_Operations_Protocol/IEL_generator/entry.py",
+    "kind": "AnnAssign",
+    "line": 38,
+    "name": "_GLOBAL_CORE"
+  },
+  {
+    "file": "Logos_System/System_Stack/System_Operations_Protocol/IEL_generator/entry.py",
+    "kind": "Assign",
+    "line": 80,
+    "name": "__all__"
+  },
+  {
+    "file": "Logos_System/System_Stack/System_Operations_Protocol/IEL_generator/autonomous_learning.py",
+    "kind": "Assign",
+    "line": 30,
+    "name": "logger"
+  },
+  {
+    "file": "Logos_System/System_Stack/System_Operations_Protocol/IEL_generator/autonomous_learning.py",
+    "kind": "Assign",
+    "line": 586,
+    "name": "_global_learning_manager"
+  },
+  {
+    "file": "Logos_System/System_Stack/System_Operations_Protocol/Optimization/tool_repair_proposal.py",
+    "kind": "Assign",
+    "line": 19,
+    "name": "REPO_ROOT"
+  },
+  {
+    "file": "Logos_System/System_Stack/System_Operations_Protocol/Optimization/tool_repair_proposal.py",
+    "kind": "Assign",
+    "line": 24,
+    "name": "DEFAULT_OUTPUT"
+  },
+  {
+    "file": "Logos_System/System_Stack/System_Operations_Protocol/Optimization/tool_repair_proposal.py",
+    "kind": "Assign",
+    "line": 25,
+    "name": "AUDIT_ROOT"
+  },
+  {
+    "file": "Logos_System/System_Stack/System_Operations_Protocol/Optimization/tool_repair_proposal.py",
+    "kind": "Assign",
+    "line": 26,
+    "name": "AUDIT_LOG"
+  },
+  {
+    "file": "Logos_System/System_Stack/System_Operations_Protocol/Optimization/tool_optimizer.py",
+    "kind": "Assign",
+    "line": 13,
+    "name": "KEYWORDS"
+  },
+  {
+    "file": "Logos_System/System_Stack/System_Operations_Protocol/Optimization/tool_optimizer.py",
+    "kind": "Assign",
+    "line": 26,
+    "name": "REGISTRY_MAX"
+  },
+  {
+    "file": "Logos_System/System_Stack/System_Operations_Protocol/Optimization/tool_optimizer.py",
+    "kind": "Assign",
+    "line": 27,
+    "name": "PROFILES_MAX"
+  },
+  {
+    "file": "Logos_System/System_Stack/System_Operations_Protocol/Optimization/tool_optimizer.py",
+    "kind": "Assign",
+    "line": 28,
+    "name": "PROFILE_STEPS_MAX"
+  },
+  {
+    "file": "Logos_System/System_Stack/System_Operations_Protocol/Optimization/tool_optimizer.py",
+    "kind": "Assign",
+    "line": 29,
+    "name": "NOTES_MAX"
+  },
+  {
+    "file": "Logos_System/System_Stack/System_Operations_Protocol/Optimization/tool_optimizer.py",
+    "kind": "Assign",
+    "line": 30,
+    "name": "DEFAULT_DIGEST_LIMIT"
+  },
+  {
+    "file": "Logos_System/System_Stack/System_Operations_Protocol/Optimization/tool_optimizer.py",
+    "kind": "Assign",
+    "line": 32,
+    "name": "TASK_CLASSES"
+  },
+  {
+    "file": "Logos_System/System_Stack/System_Operations_Protocol/Optimization/tool_optimizer.py",
+    "kind": "AnnAssign",
+    "line": 41,
+    "name": "DEFAULT_CHAINS"
+  },
+  {
+    "file": "Logos_System/System_Stack/System_Operations_Protocol/Optimization/tool_optimizer.py",
+    "kind": "AnnAssign",
+    "line": 50,
+    "name": "PRECONDITIONS"
+  },
+  {
+    "file": "Logos_System/System_Stack/System_Operations_Protocol/Optimization/tool_optimizer.py",
+    "kind": "AnnAssign",
+    "line": 77,
+    "name": "POSTCONDITIONS"
+  },
+  {
+    "file": "Logos_System/System_Stack/System_Operations_Protocol/Optimization/tool_introspection.py",
+    "kind": "Assign",
+    "line": 18,
+    "name": "REPO_ROOT"
+  },
+  {
+    "file": "Logos_System/System_Stack/System_Operations_Protocol/Optimization/tool_introspection.py",
+    "kind": "Assign",
+    "line": 22,
+    "name": "AUDIT_ROOT"
+  },
+  {
+    "file": "Logos_System/System_Stack/System_Operations_Protocol/Optimization/tool_introspection.py",
+    "kind": "Assign",
+    "line": 27,
+    "name": "APPROVED_DIR"
+  },
+  {
+    "file": "Logos_System/System_Stack/System_Operations_Protocol/Optimization/tool_introspection.py",
+    "kind": "Assign",
+    "line": 28,
+    "name": "LEDGER_DIR"
+  },
+  {
+    "file": "Logos_System/System_Stack/System_Operations_Protocol/Optimization/tool_invention.py",
+    "kind": "Assign",
+    "line": 18,
+    "name": "MAX_TOOLS_PER_CYCLE"
+  },
+  {
+    "file": "Logos_System/System_Stack/System_Operations_Protocol/Optimization/tool_invention.py",
+    "kind": "AnnAssign",
+    "line": 19,
+    "name": "GAP_DEFINITIONS"
+  },
+  {
+    "file": "Logos_System/System_Stack/System_Operations_Protocol/Optimization/io_normalizer.py",
+    "kind": "Assign",
+    "line": 40,
+    "name": "NORMALIZER"
+  },
+  {
+    "file": "Logos_System/System_Stack/System_Operations_Protocol/Optimization/check_run_cycle_prereqs.py",
+    "kind": "Assign",
+    "line": 11,
+    "name": "REPO_ROOT"
+  },
+  {
+    "file": "Logos_System/System_Stack/System_Operations_Protocol/Optimization/check_run_cycle_prereqs.py",
+    "kind": "Assign",
+    "line": 12,
+    "name": "repo_str"
+  },
+  {
+    "file": "Logos_System/System_Stack/System_Operations_Protocol/Optimization/check_run_cycle_prereqs.py",
+    "kind": "Assign",
+    "line": 16,
+    "name": "LOGOS_AGI_PATH"
+  },
+  {
+    "file": "Logos_System/System_Stack/System_Operations_Protocol/Optimization/check_run_cycle_prereqs.py",
+    "kind": "Assign",
+    "line": 27,
+    "name": "REQUIRED"
+  },
+  {
+    "file": "Logos_System/System_Stack/System_Operations_Protocol/Optimization/check_run_cycle_prereqs.py",
+    "kind": "Assign",
+    "line": 31,
+    "name": "OPTIONAL"
+  },
+  {
+    "file": "Logos_System/System_Stack/System_Operations_Protocol/Optimization/test_tool_fallback_proposal.py",
+    "kind": "Assign",
+    "line": 11,
+    "name": "REPO_ROOT"
+  },
+  {
+    "file": "Logos_System/System_Stack/System_Operations_Protocol/Optimization/prioritization.py",
+    "kind": "Assign",
+    "line": 19,
+    "name": "SELECTABLE_STATUSES"
+  },
+  {
+    "file": "Logos_System/System_Stack/System_Operations_Protocol/Optimization/prioritization.py",
+    "kind": "Assign",
+    "line": 363,
+    "name": "TYPE_SCORES"
+  },
+  {
+    "file": "Logos_System/System_Stack/System_Operations_Protocol/Optimization/prioritization.py",
+    "kind": "Assign",
+    "line": 574,
+    "name": "__all__"
+  },
+  {
+    "file": "Logos_System/System_Stack/System_Operations_Protocol/Optimization/tool_chain_executor.py",
+    "kind": "Assign",
+    "line": 67,
+    "name": "EXECUTOR"
+  },
+  {
+    "file": "Logos_System/System_Stack/System_Operations_Protocol/Optimization/tool_proposal_pipeline.py",
+    "kind": "Assign",
+    "line": 22,
+    "name": "scripts_dir"
+  },
+  {
+    "file": "Logos_System/System_Stack/System_Operations_Protocol/Optimization/tool_proposal_pipeline.py",
+    "kind": "Assign",
+    "line": 23,
+    "name": "external_dir"
+  },
+  {
+    "file": "Logos_System/System_Stack/System_Operations_Protocol/Optimization/__init__.py",
+    "kind": "Assign",
+    "line": 6,
+    "name": "__all__"
+  },
+  {
+    "file": "Logos_System/System_Stack/System_Operations_Protocol/code_generator/meta_reasoning/__init__.py",
+    "kind": "Assign",
+    "line": 11,
+    "name": "__all__"
+  },
+  {
+    "file": "Logos_System/System_Stack/System_Operations_Protocol/IEL_generator/code_generator/development_environment.py",
+    "kind": "Assign",
+    "line": 32,
+    "name": "sop_code_env"
+  },
+  {
+    "file": "Logos_System/System_Stack/System_Operations_Protocol/IEL_generator/code_generator/self_improvement_integration.py",
+    "kind": "Assign",
+    "line": 28,
+    "name": "logger"
+  },
+  {
+    "file": "Logos_System/System_Stack/System_Operations_Protocol/IEL_generator/code_generator/self_improvement_integration.py",
+    "kind": "Assign",
+    "line": 310,
+    "name": "sop_improvement_manager"
+  },
+  {
+    "file": "Logos_System/System_Stack/System_Operations_Protocol/IEL_generator/code_generator/__init__.py",
+    "kind": "Assign",
+    "line": 8,
+    "name": "__version__"
+  },
+  {
+    "file": "Logos_System/System_Stack/System_Operations_Protocol/deployment/monitoring/deploy_full_stack.py",
+    "kind": "Assign",
+    "line": 26,
+    "name": "logger"
+  },
+  {
+    "file": "Logos_System/System_Stack/System_Operations_Protocol/deployment/monitoring/api_server.py",
+    "kind": "Assign",
+    "line": 7,
+    "name": "app"
+  },
+  {
+    "file": "Logos_System/System_Stack/System_Operations_Protocol/deployment/monitoring/deploy_core_services.py",
+    "kind": "Assign",
+    "line": 18,
+    "name": "logger"
+  },
+  {
+    "file": "Logos_System/System_Stack/System_Operations_Protocol/deployment/monitoring/health_server.py",
+    "kind": "Assign",
+    "line": 6,
+    "name": "app"
+  },
+  {
+    "file": "Logos_System/System_Stack/System_Operations_Protocol/deployment/configuration/system_imports.py",
+    "kind": "Assign",
+    "line": 32,
+    "name": "__all__"
+  },
+  {
+    "file": "Logos_System/System_Stack/System_Operations_Protocol/deployment/configuration/iel_integration.py",
+    "kind": "Assign",
+    "line": 13,
+    "name": "current_dir"
+  },
+  {
+    "file": "Logos_System/System_Stack/System_Operations_Protocol/deployment/configuration/iel_integration.py",
+    "kind": "Assign",
+    "line": 14,
+    "name": "iel_path"
+  },
+  {
+    "file": "Logos_System/System_Stack/System_Operations_Protocol/deployment/configuration/iel_integration.py",
+    "kind": "Assign",
+    "line": 142,
+    "name": "_iel_integration"
+  },
+  {
+    "file": "Logos_System/System_Stack/System_Operations_Protocol/deployment/configuration/unified_classes.py",
+    "kind": "Assign",
+    "line": 92,
+    "name": "__all__"
+  },
+  {
+    "file": "Logos_System/System_Stack/System_Operations_Protocol/deployment/configuration/worker_kernel.py",
+    "kind": "Assign",
+    "line": 57,
+    "name": "__all__"
+  },
+  {
+    "file": "Logos_System/System_Stack/System_Operations_Protocol/deployment/configuration/logos_monitor.py",
+    "kind": "Assign",
+    "line": 13,
+    "name": "LOGOS_ROOT"
+  },
+  {
+    "file": "Logos_System/System_Stack/System_Operations_Protocol/deployment/configuration/entry.py",
+    "kind": "Assign",
+    "line": 17,
+    "name": "current_dir"
+  },
+  {
+    "file": "Logos_System/System_Stack/System_Operations_Protocol/deployment/configuration/entry.py",
+    "kind": "Assign",
+    "line": 18,
+    "name": "parent_dir"
+  },
+  {
+    "file": "Logos_System/System_Stack/System_Operations_Protocol/deployment/configuration/entry.py",
+    "kind": "Assign",
+    "line": 92,
+    "name": "logger"
+  },
+  {
+    "file": "Logos_System/System_Stack/System_Operations_Protocol/deployment/configuration/entry.py",
+    "kind": "Assign",
+    "line": 559,
+    "name": "_global_core"
+  },
+  {
+    "file": "Logos_System/System_Stack/System_Operations_Protocol/deployment/boot/extensions_loader.py",
+    "kind": "Assign",
+    "line": 14,
+    "name": "logger"
+  },
+  {
+    "file": "Logos_System/System_Stack/System_Operations_Protocol/deployment/boot/extensions_loader.py",
+    "kind": "Assign",
+    "line": 509,
+    "name": "extensions_manager"
+  },
+  {
+    "file": "Logos_System/System_Stack/System_Operations_Protocol/deployment/boot/__init__.py",
+    "kind": "Assign",
+    "line": 6,
+    "name": "__version__"
+  },
+  {
+    "file": "Logos_System/System_Stack/System_Operations_Protocol/alignment_protocols/coherence/__init__.py",
+    "kind": "Assign",
+    "line": 11,
+    "name": "__all__"
+  },
+  {
+    "file": "Logos_System/System_Stack/System_Operations_Protocol/alignment_protocols/validation/testing/test_reference_monitor.py",
+    "kind": "Assign",
+    "line": 17,
+    "name": "current_dir"
+  },
+  {
+    "file": "Logos_System/System_Stack/System_Operations_Protocol/alignment_protocols/safety/integrity_framework/integrity_safeguard.py",
+    "kind": "Assign",
+    "line": 47,
+    "name": "logger"
+  },
+  {
+    "file": "Logos_System/System_Stack/System_Operations_Protocol/alignment_protocols/safety/integrity_framework/integrity_safeguard.py",
+    "kind": "Assign",
+    "line": 1392,
+    "name": "_global_safety_system"
+  },
+  {
+    "file": "Logos_System/System_Stack/System_Operations_Protocol/alignment_protocols/safety/ultima_framework/ultima_safety.py",
+    "kind": "Assign",
+    "line": 47,
+    "name": "logger"
+  },
+  {
+    "file": "Logos_System/System_Stack/System_Operations_Protocol/alignment_protocols/safety/ultima_framework/ultima_safety.py",
+    "kind": "Assign",
+    "line": 1510,
+    "name": "_global_safety_system"
+  },
+  {
+    "file": "Logos_System/System_Stack/System_Operations_Protocol/infrastructure/agent_system/logos_agent_system.py",
+    "kind": "Assign",
+    "line": 36,
+    "name": "logger"
+  },
+  {
+    "file": "Logos_System/System_Stack/System_Operations_Protocol/infrastructure/agent_system/logos_agent_system.py",
+    "kind": "AnnAssign",
+    "line": 1244,
+    "name": "agent_registry"
+  },
+  {
+    "file": "Logos_System/System_Stack/System_Operations_Protocol/infrastructure/agent_system/shared_resources.py",
+    "kind": "Assign",
+    "line": 32,
+    "name": "SOP_ROOT"
+  },
+  {
+    "file": "Logos_System/System_Stack/System_Operations_Protocol/infrastructure/agent_system/shared_resources.py",
+    "kind": "Assign",
+    "line": 33,
+    "name": "RUNTIME_BASE_DIR"
+  },
+  {
+    "file": "Logos_System/System_Stack/System_Operations_Protocol/infrastructure/agent_system/shared_resources.py",
+    "kind": "Assign",
+    "line": 34,
+    "name": "RUNTIME_STATE_DIR"
+  },
+  {
+    "file": "Logos_System/System_Stack/System_Operations_Protocol/infrastructure/agent_system/shared_resources.py",
+    "kind": "Assign",
+    "line": 35,
+    "name": "RESOURCE_CONFIG"
+  },
+  {
+    "file": "Logos_System/System_Stack/System_Operations_Protocol/infrastructure/agent_system/protocol_integration.py",
+    "kind": "Assign",
+    "line": 28,
+    "name": "logger"
+  },
+  {
+    "file": "Logos_System/System_Stack/System_Operations_Protocol/infrastructure/agent_system/initialize_agent_system.py",
+    "kind": "Assign",
+    "line": 28,
+    "name": "logger"
+  },
+  {
+    "file": "Logos_System/System_Stack/System_Operations_Protocol/infrastructure/agent_system/initialize_agent_system.py",
+    "kind": "Assign",
+    "line": 30,
+    "name": "INITIALIZATION_ERRORS"
+  },
+  {
+    "file": "Logos_System/System_Stack/System_Operations_Protocol/infrastructure/agent_system/initialize_agent_system.py",
+    "kind": "Assign",
+    "line": 39,
+    "name": "PROCESSING_ERRORS"
+  },
+  {
+    "file": "Logos_System/System_Stack/System_Operations_Protocol/infrastructure/agent_system/boot_system.py",
+    "kind": "Assign",
+    "line": 18,
+    "name": "CONFIG_DEFAULT_PATH"
+  },
+  {
+    "file": "Logos_System/System_Stack/System_Operations_Protocol/infrastructure/agent_system/base_nexus.py",
+    "kind": "Assign",
+    "line": 25,
+    "name": "logger"
+  },
+  {
+    "file": "Logos_System/System_Stack/System_Operations_Protocol/infrastructure/agent_system/agent_nexus.py",
+    "kind": "Assign",
+    "line": 28,
+    "name": "logger"
+  },
+  {
+    "file": "Logos_System/System_Stack/System_Operations_Protocol/infrastructure/agent_system/agent_nexus.py",
+    "kind": "Assign",
+    "line": 815,
+    "name": "logos_agent_nexus"
+  },
+  {
+    "file": "Logos_System/System_Stack/System_Operations_Protocol/infrastructure/agent_system/agent_nexus.py",
+    "kind": "Assign",
+    "line": 826,
+    "name": "__all__"
+  },
+  {
+    "file": "Logos_System/System_Stack/System_Operations_Protocol/Optimization/tests/test_bayesian_data_handler.py",
+    "kind": "Assign",
+    "line": 80,
+    "name": "bayesian_data_parser"
+  },
+  {
+    "file": "Logos_System/System_Stack/System_Operations_Protocol/Optimization/tests/test_pai.py",
+    "kind": "Assign",
+    "line": 11,
+    "name": "REPO_ROOT"
+  },
+  {
+    "file": "Logos_System/System_Stack/System_Operations_Protocol/Optimization/tests/test_simulation_cli.py",
+    "kind": "Assign",
+    "line": 10,
+    "name": "REPO_ROOT"
+  },
+  {
+    "file": "Logos_System/System_Stack/System_Operations_Protocol/Optimization/tests/test_simulation_cli.py",
+    "kind": "Assign",
+    "line": 11,
+    "name": "SCRIPT_PATH"
+  },
+  {
+    "file": "Logos_System/System_Stack/System_Operations_Protocol/Optimization/tests/test_verify_pai.py",
+    "kind": "Assign",
+    "line": 11,
+    "name": "REPO_ROOT"
+  },
+  {
+    "file": "Logos_System/System_Entry_Point/Recusion_Grounding/recursion_identity_runtime.py",
+    "kind": "Assign",
+    "line": 20,
+    "name": "SHARED_RESOURCES_DIR"
+  },
+  {
+    "file": "Logos_System/System_Entry_Point/Orchestration_Tools/runtime_protocol.py",
+    "kind": "Assign",
+    "line": 15,
+    "name": "PHASE_0_PATH_SETUP"
+  },
+  {
+    "file": "Logos_System/System_Entry_Point/Orchestration_Tools/runtime_protocol.py",
+    "kind": "Assign",
+    "line": 16,
+    "name": "PHASE_1_PROOF_GATE"
+  },
+  {
+    "file": "Logos_System/System_Entry_Point/Orchestration_Tools/runtime_protocol.py",
+    "kind": "Assign",
+    "line": 17,
+    "name": "PHASE_2_IDENTITY_AUDIT"
+  },
+  {
+    "file": "Logos_System/System_Entry_Point/Orchestration_Tools/runtime_protocol.py",
+    "kind": "Assign",
+    "line": 18,
+    "name": "PHASE_3_TELEMETRY_DASHBOARD"
+  },
+  {
+    "file": "Logos_System/System_Entry_Point/Orchestration_Tools/runtime_protocol.py",
+    "kind": "Assign",
+    "line": 19,
+    "name": "PHASE_4_UI_SERVICES"
+  },
+  {
+    "file": "Logos_System/System_Entry_Point/Orchestration_Tools/runtime_protocol.py",
+    "kind": "Assign",
+    "line": 20,
+    "name": "PHASE_5_STACK_LOAD"
+  },
+  {
+    "file": "Logos_System/System_Entry_Point/Orchestration_Tools/runtime_protocol.py",
+    "kind": "Assign",
+    "line": 21,
+    "name": "PHASE_6_SIGNAL_LOOP"
+  },
+  {
+    "file": "Logos_System/System_Entry_Point/Orchestration_Tools/runtime_protocol.py",
+    "kind": "Assign",
+    "line": 24,
+    "name": "MODALITY_PASSIVE"
+  },
+  {
+    "file": "Logos_System/System_Entry_Point/Orchestration_Tools/runtime_protocol.py",
+    "kind": "Assign",
+    "line": 25,
+    "name": "MODALITY_ACTIVE"
+  },
+  {
+    "file": "Logos_System/System_Entry_Point/Orchestration_Tools/runtime_protocol.py",
+    "kind": "Assign",
+    "line": 28,
+    "name": "ALLOWED_RUNTIME_ROOTS"
+  },
+  {
+    "file": "Logos_System/System_Entry_Point/Orchestration_Tools/runtime_protocol.py",
+    "kind": "Assign",
+    "line": 30,
+    "name": "REPO_ROOT"
+  },
+  {
+    "file": "Logos_System/System_Entry_Point/Orchestration_Tools/runtime_protocol.py",
+    "kind": "Assign",
+    "line": 31,
+    "name": "LOG_PATH"
+  },
+  {
+    "file": "Logos_System/System_Entry_Point/Orchestration_Tools/runtime_protocol.py",
+    "kind": "AnnAssign",
+    "line": 33,
+    "name": "_state"
+  },
+  {
+    "file": "Logos_System/System_Entry_Point/Orchestration_Tools/runtime_protocol.py",
+    "kind": "Assign",
+    "line": 39,
+    "name": "_runtime_roots_logged"
+  },
+  {
+    "file": "Logos_System/System_Entry_Point/Orchestration_Tools/lib_loader.py",
+    "kind": "Assign",
+    "line": 24,
+    "name": "AUTO_INSTALL"
+  },
+  {
+    "file": "Logos_System/System_Entry_Point/Orchestration_Tools/lib_loader.py",
+    "kind": "Assign",
+    "line": 25,
+    "name": "REGULATE_ACCESS"
+  },
+  {
+    "file": "Logos_System/System_Entry_Point/Orchestration_Tools/lib_loader.py",
+    "kind": "AnnAssign",
+    "line": 28,
+    "name": "REGISTRY"
+  },
+  {
+    "file": "Logos_System/System_Entry_Point/Orchestration_Tools/lib_loader.py",
+    "kind": "AnnAssign",
+    "line": 30,
+    "name": "ENABLED"
+  },
+  {
+    "file": "Logos_System/System_Entry_Point/Orchestration_Tools/lib_loader.py",
+    "kind": "Assign",
+    "line": 32,
+    "name": "REQUIREMENTS_FILE"
+  },
+  {
+    "file": "Logos_System/System_Entry_Point/Orchestration_Tools/lib_loader.py",
+    "kind": "Assign",
+    "line": 124,
+    "name": "__all__"
+  },
+  {
+    "file": "Logos_System/System_Entry_Point/Orchestration_Tools/compute_identity_hash.py",
+    "kind": "Assign",
+    "line": 21,
+    "name": "ROOT"
+  },
+  {
+    "file": "Logos_System/System_Entry_Point/Orchestration_Tools/compute_identity_hash.py",
+    "kind": "Assign",
+    "line": 22,
+    "name": "IDENTITY_PATH"
+  },
+  {
+    "file": "Logos_System/System_Entry_Point/Orchestration_Tools/compute_identity_hash.py",
+    "kind": "AnnAssign",
+    "line": 23,
+    "name": "FILE_LIST"
+  },
+  {
+    "file": "Logos_System/System_Entry_Point/LEGACY_SCRIPTS_NOT_FINAL/run_integration.py",
+    "kind": "Assign",
+    "line": 11,
+    "name": "ROOT"
+  },
+  {
+    "file": "Logos_System/System_Entry_Point/LEGACY_SCRIPTS_NOT_FINAL/run_integration.py",
+    "kind": "Assign",
+    "line": 17,
+    "name": "candidates"
+  },
+  {
+    "file": "Logos_System/System_Entry_Point/LEGACY_SCRIPTS_NOT_FINAL/run_integration.py",
+    "kind": "Assign",
+    "line": 22,
+    "name": "bridge_path"
+  },
+  {
+    "file": "Logos_System/System_Entry_Point/LEGACY_SCRIPTS_NOT_FINAL/run_integration.py",
+    "kind": "Assign",
+    "line": 36,
+    "name": "BRIDGE_PATH"
+  },
+  {
+    "file": "Logos_System/System_Entry_Point/LEGACY_SCRIPTS_NOT_FINAL/serve_pxl.py",
+    "kind": "Assign",
+    "line": 19,
+    "name": "app"
+  },
+  {
+    "file": "Logos_System/System_Entry_Point/LEGACY_SCRIPTS_NOT_FINAL/serve_pxl.py",
+    "kind": "Assign",
+    "line": 22,
+    "name": "sertop_process"
+  },
+  {
+    "file": "Logos_System/System_Entry_Point/LEGACY_SCRIPTS_NOT_FINAL/serve_pxl.py",
+    "kind": "Assign",
+    "line": 23,
+    "name": "sertop_queue"
+  },
+  {
+    "file": "Logos_System/System_Entry_Point/LEGACY_SCRIPTS_NOT_FINAL/serve_pxl.py",
+    "kind": "Assign",
+    "line": 24,
+    "name": "sertop_lock"
+  },
+  {
+    "file": "Logos_System/System_Entry_Point/LEGACY_SCRIPTS_NOT_FINAL/serve_pxl.py",
+    "kind": "Assign",
+    "line": 131,
+    "name": "sertop_available"
+  },
+  {
+    "file": "Logos_System/System_Entry_Point/LEGACY_SCRIPTS_NOT_FINAL/serve_pxl.py",
+    "kind": "Assign",
+    "line": 132,
+    "name": "KERNEL_HASH"
+  },
+  {
+    "file": "Logos_System/System_Entry_Point/LEGACY_SCRIPTS_NOT_FINAL/test_lem_discharge.py",
+    "kind": "Assign",
+    "line": 14,
+    "name": "REPO_ROOT"
+  },
+  {
+    "file": "Logos_System/System_Entry_Point/LEGACY_SCRIPTS_NOT_FINAL/test_lem_discharge.py",
+    "kind": "Assign",
+    "line": 15,
+    "name": "BASELINE_DIR"
+  },
+  {
+    "file": "Logos_System/System_Entry_Point/LEGACY_SCRIPTS_NOT_FINAL/test_lem_discharge.py",
+    "kind": "AnnAssign",
+    "line": 17,
+    "name": "ALLOWED_ADMITS"
+  },
+  {
+    "file": "Logos_System/System_Entry_Point/LEGACY_SCRIPTS_NOT_FINAL/test_lem_discharge.py",
+    "kind": "AnnAssign",
+    "line": 19,
+    "name": "REQUIRED_FULLY_PROVED"
+  },
+  {
+    "file": "Logos_System/System_Entry_Point/LEGACY_SCRIPTS_NOT_FINAL/test_lem_discharge.py",
+    "kind": "AnnAssign",
+    "line": 27,
+    "name": "REQUIRED_OMNI_MODULES"
+  },
+  {
+    "file": "Logos_System/System_Entry_Point/LEGACY_SCRIPTS_NOT_FINAL/test_lem_discharge.py",
+    "kind": "AnnAssign",
+    "line": 37,
+    "name": "REQUIRED_OMNI_CONSTANTS"
+  },
+  {
+    "file": "Logos_System/System_Entry_Point/LEGACY_SCRIPTS_NOT_FINAL/test_lem_discharge.py",
+    "kind": "Assign",
+    "line": 60,
+    "name": "_STATEMENT_KEYWORDS"
+  },
+  {
+    "file": "Logos_System/System_Entry_Point/LEGACY_SCRIPTS_NOT_FINAL/test_lem_discharge.py",
+    "kind": "Assign",
+    "line": 155,
+    "name": "_STATEMENT_DECL_RE"
+  },
+  {
+    "file": "Logos_System/System_Entry_Point/Runtime_Compiler/Protopraxis/__init__.py",
+    "kind": "Assign",
+    "line": 7,
+    "name": "__all__"
+  },
+  {
+    "file": "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/ui/run_coq_pipeline.py",
+    "kind": "Assign",
+    "line": 19,
+    "name": "REPO_ROOT"
+  },
+  {
+    "file": "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/ui/run_coq_pipeline.py",
+    "kind": "Assign",
+    "line": 20,
+    "name": "PROTOPRAXIS_ROOT"
+  },
+  {
+    "file": "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/ui/run_coq_pipeline.py",
+    "kind": "Assign",
+    "line": 28,
+    "name": "COQ_ROOT"
+  },
+  {
+    "file": "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/ui/lem_portal.py",
+    "kind": "Assign",
+    "line": 8,
+    "name": "PORTAL_STATE"
+  },
+  {
+    "file": "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/ui/audit_and_emit.py",
+    "kind": "Assign",
+    "line": 15,
+    "name": "_CONFIG_PATH"
+  },
+  {
+    "file": "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/ui/serve_pxl.py",
+    "kind": "Assign",
+    "line": 19,
+    "name": "app"
+  },
+  {
+    "file": "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/ui/serve_pxl.py",
+    "kind": "Assign",
+    "line": 22,
+    "name": "sertop_process"
+  },
+  {
+    "file": "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/ui/serve_pxl.py",
+    "kind": "Assign",
+    "line": 23,
+    "name": "sertop_queue"
+  },
+  {
+    "file": "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/ui/serve_pxl.py",
+    "kind": "Assign",
+    "line": 24,
+    "name": "sertop_lock"
+  },
+  {
+    "file": "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/ui/serve_pxl.py",
+    "kind": "Assign",
+    "line": 131,
+    "name": "sertop_available"
+  },
+  {
+    "file": "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/ui/serve_pxl.py",
+    "kind": "Assign",
+    "line": 132,
+    "name": "KERNEL_HASH"
+  },
+  {
+    "file": "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/ui/PXL_Proof_Compile.py",
+    "kind": "Assign",
+    "line": 15,
+    "name": "GREEN"
+  },
+  {
+    "file": "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/ui/PXL_Proof_Compile.py",
+    "kind": "Assign",
+    "line": 16,
+    "name": "RED"
+  },
+  {
+    "file": "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/ui/PXL_Proof_Compile.py",
+    "kind": "Assign",
+    "line": 17,
+    "name": "BOLD"
+  },
+  {
+    "file": "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/ui/PXL_Proof_Compile.py",
+    "kind": "Assign",
+    "line": 18,
+    "name": "RESET"
+  },
+  {
+    "file": "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/ui/PXL_Proof_Compile.py",
+    "kind": "Assign",
+    "line": 20,
+    "name": "OK"
+  },
+  {
+    "file": "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/ui/PXL_Proof_Compile.py",
+    "kind": "Assign",
+    "line": 21,
+    "name": "FAIL"
+  },
+  {
+    "file": "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/ui/PXL_Proof_Compile.py",
+    "kind": "Assign",
+    "line": 22,
+    "name": "LOADPATH_WARN_RE"
+  },
+  {
+    "file": "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/ui/PXL_Proof_Compile.py",
+    "kind": "Assign",
+    "line": 24,
+    "name": "LEM_KEYWORDS"
+  },
+  {
+    "file": "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/ui/PXL_Proof_Compile.py",
+    "kind": "Assign",
+    "line": 25,
+    "name": "SAFETY_GATE_KEYWORDS"
+  },
+  {
+    "file": "PXL_Gate/Protopraxis/__init__.py",
+    "kind": "Assign",
+    "line": 7,
+    "name": "__all__"
+  },
+  {
+    "file": "PXL_Gate/coq/src/ui/run_coq_pipeline.py",
+    "kind": "Assign",
+    "line": 19,
+    "name": "REPO_ROOT"
+  },
+  {
+    "file": "PXL_Gate/coq/src/ui/run_coq_pipeline.py",
+    "kind": "Assign",
+    "line": 20,
+    "name": "PROTOPRAXIS_ROOT"
+  },
+  {
+    "file": "PXL_Gate/coq/src/ui/run_coq_pipeline.py",
+    "kind": "Assign",
+    "line": 28,
+    "name": "COQ_ROOT"
+  },
+  {
+    "file": "PXL_Gate/coq/src/ui/lem_portal.py",
+    "kind": "Assign",
+    "line": 8,
+    "name": "PORTAL_STATE"
+  },
+  {
+    "file": "PXL_Gate/coq/src/ui/audit_and_emit.py",
+    "kind": "Assign",
+    "line": 15,
+    "name": "_CONFIG_PATH"
+  },
+  {
+    "file": "PXL_Gate/coq/src/ui/serve_pxl.py",
+    "kind": "Assign",
+    "line": 19,
+    "name": "app"
+  },
+  {
+    "file": "PXL_Gate/coq/src/ui/serve_pxl.py",
+    "kind": "Assign",
+    "line": 22,
+    "name": "sertop_process"
+  },
+  {
+    "file": "PXL_Gate/coq/src/ui/serve_pxl.py",
+    "kind": "Assign",
+    "line": 23,
+    "name": "sertop_queue"
+  },
+  {
+    "file": "PXL_Gate/coq/src/ui/serve_pxl.py",
+    "kind": "Assign",
+    "line": 24,
+    "name": "sertop_lock"
+  },
+  {
+    "file": "PXL_Gate/coq/src/ui/serve_pxl.py",
+    "kind": "Assign",
+    "line": 131,
+    "name": "sertop_available"
+  },
+  {
+    "file": "PXL_Gate/coq/src/ui/serve_pxl.py",
+    "kind": "Assign",
+    "line": 132,
+    "name": "KERNEL_HASH"
+  },
+  {
+    "file": "PXL_Gate/coq/src/ui/PXL_Proof_Compile.py",
+    "kind": "Assign",
+    "line": 15,
+    "name": "GREEN"
+  },
+  {
+    "file": "PXL_Gate/coq/src/ui/PXL_Proof_Compile.py",
+    "kind": "Assign",
+    "line": 16,
+    "name": "RED"
+  },
+  {
+    "file": "PXL_Gate/coq/src/ui/PXL_Proof_Compile.py",
+    "kind": "Assign",
+    "line": 17,
+    "name": "BOLD"
+  },
+  {
+    "file": "PXL_Gate/coq/src/ui/PXL_Proof_Compile.py",
+    "kind": "Assign",
+    "line": 18,
+    "name": "RESET"
+  },
+  {
+    "file": "PXL_Gate/coq/src/ui/PXL_Proof_Compile.py",
+    "kind": "Assign",
+    "line": 20,
+    "name": "OK"
+  },
+  {
+    "file": "PXL_Gate/coq/src/ui/PXL_Proof_Compile.py",
+    "kind": "Assign",
+    "line": 21,
+    "name": "FAIL"
+  },
+  {
+    "file": "PXL_Gate/coq/src/ui/PXL_Proof_Compile.py",
+    "kind": "Assign",
+    "line": 22,
+    "name": "LOADPATH_WARN_RE"
+  },
+  {
+    "file": "PXL_Gate/coq/src/ui/PXL_Proof_Compile.py",
+    "kind": "Assign",
+    "line": 24,
+    "name": "LEM_KEYWORDS"
+  },
+  {
+    "file": "PXL_Gate/coq/src/ui/PXL_Proof_Compile.py",
+    "kind": "Assign",
+    "line": 25,
+    "name": "SAFETY_GATE_KEYWORDS"
+  },
+  {
+    "file": "_Dev_Resources/Dev_Notes/state/tool_invention/proposals/tool_invention_io_normalizer_20251227T190705Z_0.py",
+    "kind": "Assign",
+    "line": 51,
+    "name": "NORMALIZER"
+  },
+  {
+    "file": "_Dev_Resources/Dev_Notes/state/tool_invention/proposals/tool_invention_regression_checker_20251227T190646Z_2.py",
+    "kind": "Assign",
+    "line": 81,
+    "name": "CHECKER"
+  },
+  {
+    "file": "_Dev_Resources/Dev_Notes/state/tool_invention/proposals/tool_invention_io_normalizer_20251227T190646Z_1.py",
+    "kind": "Assign",
+    "line": 51,
+    "name": "NORMALIZER"
+  },
+  {
+    "file": "_Dev_Resources/Dev_Notes/state/tool_invention/proposals/tool_invention_tool_chain_executor_20251227T190646Z_0.py",
+    "kind": "Assign",
+    "line": 78,
+    "name": "EXECUTOR"
+  },
+  {
+    "file": "_Dev_Resources/Dev_Scripts/system_utilities/message_formats.py",
+    "kind": "Assign",
+    "line": 229,
+    "name": "message_router"
+  },
+  {
+    "file": "_Dev_Resources/Dev_Scripts/system_utilities/message_formats.py",
+    "kind": "Assign",
+    "line": 232,
+    "name": "__all__"
+  },
+  {
+    "file": "_Dev_Resources/Dev_Scripts/system_utilities/system_imports.py",
+    "kind": "Assign",
+    "line": 54,
+    "name": "T"
+  },
+  {
+    "file": "_Dev_Resources/Dev_Scripts/system_utilities/system_imports.py",
+    "kind": "Assign",
+    "line": 55,
+    "name": "JsonDict"
+  },
+  {
+    "file": "_Dev_Resources/Dev_Scripts/system_utilities/system_imports.py",
+    "kind": "Assign",
+    "line": 56,
+    "name": "StringOrPath"
+  },
+  {
+    "file": "_Dev_Resources/Dev_Scripts/system_utilities/system_imports.py",
+    "kind": "Assign",
+    "line": 59,
+    "name": "DEFAULT_TIMEOUT"
+  },
+  {
+    "file": "_Dev_Resources/Dev_Scripts/system_utilities/system_imports.py",
+    "kind": "Assign",
+    "line": 60,
+    "name": "MAX_RETRIES"
+  },
+  {
+    "file": "_Dev_Resources/Dev_Scripts/system_utilities/system_imports.py",
+    "kind": "Assign",
+    "line": 61,
+    "name": "BATCH_SIZE"
+  },
+  {
+    "file": "_Dev_Resources/Dev_Scripts/system_utilities/system_imports.py",
+    "kind": "Assign",
+    "line": 63,
+    "name": "__all__"
+  },
+  {
+    "file": "_Dev_Resources/Dev_Scripts/repo_tools/run_mvp_acceptance.py",
+    "kind": "Assign",
+    "line": 22,
+    "name": "REPO_ROOT"
+  },
+  {
+    "file": "_Dev_Resources/Dev_Scripts/repo_tools/run_mvp_acceptance.py",
+    "kind": "Assign",
+    "line": 23,
+    "name": "AUDIT_ROOT"
+  },
+  {
+    "file": "_Dev_Resources/Dev_Scripts/repo_tools/run_mvp_acceptance.py",
+    "kind": "Assign",
+    "line": 24,
+    "name": "AUDIT_DIR"
+  },
+  {
+    "file": "_Dev_Resources/Dev_Scripts/repo_tools/run_mvp_acceptance.py",
+    "kind": "AnnAssign",
+    "line": 26,
+    "name": "COMMANDS"
+  },
+  {
+    "file": "_Dev_Resources/Dev_Scripts/repo_tools/run_mvp_acceptance.py",
+    "kind": "Assign",
+    "line": 44,
+    "name": "TAIL_LINES"
+  },
+  {
+    "file": "_Dev_Resources/Dev_Scripts/security/session.py",
+    "kind": "Assign",
+    "line": 9,
+    "name": "SESSION_COOKIE_NAME"
+  },
+  {
+    "file": "_Dev_Resources/Dev_Scripts/security/session.py",
+    "kind": "Assign",
+    "line": 10,
+    "name": "SESSION_SECRET_ENV"
+  },
+  {
+    "file": "_Dev_Resources/Dev_Scripts/security/session.py",
+    "kind": "Assign",
+    "line": 11,
+    "name": "SESSION_COOKIE_MAX_AGE"
+  },
+  {
+    "file": "_Dev_Resources/Dev_Scripts/security/session.py",
+    "kind": "Assign",
+    "line": 12,
+    "name": "SESSION_COOKIE_SECURE"
+  },
+  {
+    "file": "_Dev_Resources/Dev_Scripts/smoke_tests/test_llm_bypass_smoke.py",
+    "kind": "Assign",
+    "line": 11,
+    "name": "REPO_ROOT"
+  },
+  {
+    "file": "_Dev_Resources/Dev_Scripts/smoke_tests/test_llm_bypass_smoke.py",
+    "kind": "Assign",
+    "line": 12,
+    "name": "STATE_DIR"
+  },
+  {
+    "file": "_Dev_Resources/Dev_Scripts/smoke_tests/test_llm_bypass_smoke.py",
+    "kind": "Assign",
+    "line": 13,
+    "name": "START_AGENT"
+  },
+  {
+    "file": "_Dev_Resources/Dev_Scripts/smoke_tests/test_llm_bypass_smoke.py",
+    "kind": "Assign",
+    "line": 14,
+    "name": "SCP_STATE"
+  },
+  {
+    "file": "_Dev_Resources/Dev_Scripts/smoke_tests/test_tool_pipeline_smoke.py",
+    "kind": "Assign",
+    "line": 12,
+    "name": "scripts_dir"
+  },
+  {
+    "file": "_Dev_Resources/Dev_Scripts/smoke_tests/test_tool_pipeline_smoke.py",
+    "kind": "Assign",
+    "line": 13,
+    "name": "repo_root"
+  },
+  {
+    "file": "_Dev_Resources/Dev_Scripts/smoke_tests/test_server_nexus_isolation_smoke.py",
+    "kind": "Assign",
+    "line": 21,
+    "name": "REPO_ROOT"
+  },
+  {
+    "file": "_Dev_Resources/Dev_Scripts/smoke_tests/test_tool_approval_tamper_smoke.py",
+    "kind": "Assign",
+    "line": 10,
+    "name": "scripts_dir"
+  },
+  {
+    "file": "_Dev_Resources/Dev_Scripts/smoke_tests/test_tool_approval_tamper_smoke.py",
+    "kind": "Assign",
+    "line": 11,
+    "name": "repo_root"
+  },
+  {
+    "file": "_Dev_Resources/Dev_Scripts/smoke_tests/test_dashboard_smoke.py",
+    "kind": "Assign",
+    "line": 9,
+    "name": "ROOT"
+  },
+  {
+    "file": "_Dev_Resources/Dev_Scripts/smoke_tests/test_uwm_smoke.py",
+    "kind": "Assign",
+    "line": 11,
+    "name": "scripts_dir"
+  },
+  {
+    "file": "_Dev_Resources/Dev_Scripts/smoke_tests/test_uwm_smoke.py",
+    "kind": "Assign",
+    "line": 12,
+    "name": "repo_root"
+  },
+  {
+    "file": "_Dev_Resources/Dev_Scripts/smoke_tests/test_uwm_smoke.py",
+    "kind": "Assign",
+    "line": 13,
+    "name": "state_dir"
+  },
+  {
+    "file": "_Dev_Resources/Dev_Scripts/smoke_tests/test_logos_gpt_chat_smoke.py",
+    "kind": "Assign",
+    "line": 11,
+    "name": "REPO_ROOT"
+  },
+  {
+    "file": "_Dev_Resources/Dev_Scripts/smoke_tests/test_logos_gpt_chat_smoke.py",
+    "kind": "Assign",
+    "line": 12,
+    "name": "CHAT"
+  },
+  {
+    "file": "_Dev_Resources/Dev_Scripts/smoke_tests/test_logos_gpt_chat_smoke.py",
+    "kind": "Assign",
+    "line": 13,
+    "name": "STATE_DIR"
+  },
+  {
+    "file": "_Dev_Resources/Dev_Scripts/smoke_tests/test_logos_gpt_chat_smoke.py",
+    "kind": "Assign",
+    "line": 14,
+    "name": "SCP_STATE"
+  },
+  {
+    "file": "_Dev_Resources/Dev_Scripts/smoke_tests/test_logos_gpt_chat_smoke.py",
+    "kind": "Assign",
+    "line": 15,
+    "name": "AUDIT_ROOT"
+  },
+  {
+    "file": "_Dev_Resources/Dev_Scripts/smoke_tests/test_logos_gpt_chat_smoke.py",
+    "kind": "Assign",
+    "line": 16,
+    "name": "RUN_LEDGER_DIR"
+  },
+  {
+    "file": "_Dev_Resources/Dev_Scripts/smoke_tests/test_llm_advisor_smoke.py",
+    "kind": "Assign",
+    "line": 11,
+    "name": "REPO_ROOT"
+  },
+  {
+    "file": "_Dev_Resources/Dev_Scripts/smoke_tests/test_llm_advisor_smoke.py",
+    "kind": "Assign",
+    "line": 12,
+    "name": "STATE_DIR"
+  },
+  {
+    "file": "_Dev_Resources/Dev_Scripts/smoke_tests/test_llm_advisor_smoke.py",
+    "kind": "Assign",
+    "line": 13,
+    "name": "START_AGENT"
+  },
+  {
+    "file": "_Dev_Resources/Dev_Scripts/smoke_tests/test_llm_advisor_smoke.py",
+    "kind": "Assign",
+    "line": 14,
+    "name": "SCP_STATE"
+  },
+  {
+    "file": "_Dev_Resources/Dev_Scripts/smoke_tests/test_run_ledger_smoke.py",
+    "kind": "Assign",
+    "line": 10,
+    "name": "REPO_ROOT"
+  },
+  {
+    "file": "_Dev_Resources/Dev_Scripts/smoke_tests/test_run_ledger_smoke.py",
+    "kind": "Assign",
+    "line": 13,
+    "name": "STATE_DIR"
+  },
+  {
+    "file": "_Dev_Resources/Dev_Scripts/smoke_tests/test_run_ledger_smoke.py",
+    "kind": "Assign",
+    "line": 14,
+    "name": "AUDIT_DIR"
+  },
+  {
+    "file": "_Dev_Resources/Dev_Scripts/smoke_tests/test_tool_validation_smoke.py",
+    "kind": "Assign",
+    "line": 11,
+    "name": "REPO_ROOT"
+  },
+  {
+    "file": "_Dev_Resources/Dev_Scripts/smoke_tests/test_retrieval_local_smoke.py",
+    "kind": "Assign",
+    "line": 10,
+    "name": "REPO_ROOT"
+  },
+  {
+    "file": "_Dev_Resources/Dev_Scripts/smoke_tests/test_logos_runtime_smoke.py",
+    "kind": "Assign",
+    "line": 11,
+    "name": "REPO_ROOT"
+  },
+  {
+    "file": "_Dev_Resources/Dev_Scripts/smoke_tests/test_llm_real_provider_smoke.py",
+    "kind": "Assign",
+    "line": 14,
+    "name": "REPO_ROOT"
+  },
+  {
+    "file": "_Dev_Resources/Dev_Scripts/smoke_tests/test_llm_real_provider_smoke.py",
+    "kind": "Assign",
+    "line": 22,
+    "name": "FORBIDDEN_KEYS"
+  },
+  {
+    "file": "_Dev_Resources/Dev_Scripts/smoke_tests/test_logos_agi_integration_smoke.py",
+    "kind": "Assign",
+    "line": 9,
+    "name": "REPO_ROOT"
+  },
+  {
+    "file": "_Dev_Resources/Dev_Scripts/smoke_tests/test_logos_agi_integration_smoke.py",
+    "kind": "Assign",
+    "line": 10,
+    "name": "STATE_DIR"
+  },
+  {
+    "file": "_Dev_Resources/Dev_Scripts/smoke_tests/test_logos_gpt_web_smoke.py",
+    "kind": "Assign",
+    "line": 17,
+    "name": "REPO_ROOT"
+  },
+  {
+    "file": "_Dev_Resources/Dev_Scripts/smoke_tests/test_goal_proposal_smoke.py",
+    "kind": "Assign",
+    "line": 11,
+    "name": "scripts_dir"
+  },
+  {
+    "file": "_Dev_Resources/Dev_Scripts/smoke_tests/test_goal_proposal_smoke.py",
+    "kind": "Assign",
+    "line": 12,
+    "name": "repo_root"
+  },
+  {
+    "file": "_Dev_Resources/Dev_Scripts/smoke_tests/test_goal_proposal_smoke.py",
+    "kind": "Assign",
+    "line": 13,
+    "name": "state_dir"
+  },
+  {
+    "file": "_Dev_Resources/Dev_Scripts/smoke_tests/test_tool_improvement_intent_smoke.py",
+    "kind": "Assign",
+    "line": 10,
+    "name": "scripts_dir"
+  },
+  {
+    "file": "_Dev_Resources/Dev_Scripts/smoke_tests/test_tool_improvement_intent_smoke.py",
+    "kind": "Assign",
+    "line": 11,
+    "name": "repo_root"
+  },
+  {
+    "file": "_Dev_Resources/Dev_Scripts/smoke_tests/test_logos_agi_persistence_smoke.py",
+    "kind": "Assign",
+    "line": 11,
+    "name": "REPO_ROOT"
+  },
+  {
+    "file": "_Dev_Resources/Dev_Scripts/smoke_tests/test_logos_agi_persistence_smoke.py",
+    "kind": "Assign",
+    "line": 12,
+    "name": "DEFAULT_STATE_DIR"
+  },
+  {
+    "file": "_Dev_Resources/Dev_Scripts/smoke_tests/test_alignment_gate_smoke.py",
+    "kind": "Assign",
+    "line": 10,
+    "name": "REPO_ROOT"
+  },
+  {
+    "file": "_Dev_Resources/Dev_Scripts/smoke_tests/test_alignment_gate_smoke.py",
+    "kind": "Assign",
+    "line": 11,
+    "name": "PYTHON_BIN"
+  },
+  {
+    "file": "_Dev_Resources/Dev_Scripts/smoke_tests/test_tool_playbook_load_smoke.py",
+    "kind": "Assign",
+    "line": 9,
+    "name": "REPO_ROOT"
+  },
+  {
+    "file": "_Dev_Resources/Dev_Scripts/smoke_tests/test_web_grounding_smoke.py",
+    "kind": "Assign",
+    "line": 15,
+    "name": "REPO_ROOT"
+  },
+  {
+    "file": "_Dev_Resources/Dev_Scripts/smoke_tests/test_llm_streaming_smoke.py",
+    "kind": "Assign",
+    "line": 13,
+    "name": "REPO_ROOT"
+  },
+  {
+    "file": "_Dev_Resources/Dev_Scripts/smoke_tests/test_llm_streaming_smoke.py",
+    "kind": "Assign",
+    "line": 17,
+    "name": "AUDIT_ROOT"
+  },
+  {
+    "file": "_Dev_Resources/Dev_Scripts/smoke_tests/test_llm_streaming_smoke.py",
+    "kind": "Assign",
+    "line": 18,
+    "name": "LEDGER_DIR"
+  },
+  {
+    "file": "_Dev_Resources/Dev_Scripts/repo_tools/system_audit/scan_config_and_schema.py",
+    "kind": "Assign",
+    "line": 10,
+    "name": "CONFIG_SUFFIXES"
+  },
+  {
+    "file": "_Dev_Resources/Dev_Scripts/repo_tools/system_audit/scan_config_and_schema.py",
+    "kind": "Assign",
+    "line": 11,
+    "name": "SCHEMA_HINTS"
+  },
+  {
+    "file": "_Dev_Resources/Dev_Scripts/repo_tools/system_audit/scan_side_effects.py",
+    "kind": "Assign",
+    "line": 9,
+    "name": "WRITE_HINTS"
+  },
+  {
+    "file": "_Dev_Resources/Dev_Scripts/repo_tools/system_audit/scan_side_effects.py",
+    "kind": "Assign",
+    "line": 10,
+    "name": "SUBPROCESS_HINTS"
+  },
+  {
+    "file": "_Dev_Resources/Dev_Scripts/repo_tools/system_audit/scan_side_effects.py",
+    "kind": "Assign",
+    "line": 11,
+    "name": "NETWORK_HINTS"
+  },
+  {
+    "file": "_Dev_Resources/Dev_Scripts/repo_tools/system_audit/audit_driver.py",
+    "kind": "Assign",
+    "line": 7,
+    "name": "SCANS"
+  },
+  {
+    "file": "_Dev_Resources/Dev_Scripts/repo_tools/system_audit/scan_runtime_surface.py",
+    "kind": "Assign",
+    "line": 9,
+    "name": "ENTRYPOINT_NAMES"
+  },
+  {
+    "file": "_Dev_Resources/Dev_Scripts/repo_tools/system_audit/scan_runtime_surface.py",
+    "kind": "Assign",
+    "line": 10,
+    "name": "SERVER_HINTS"
+  },
+  {
+    "file": "_Dev_Resources/Dev_Scripts/repo_tools/system_audit/scan_dev_scripts.py",
+    "kind": "Assign",
+    "line": 10,
+    "name": "DEV_SCRIPTS_DIR"
+  },
+  {
+    "file": "_Dev_Resources/Dev_Scripts/repo_tools/system_audit/_common.py",
+    "kind": "Assign",
+    "line": 14,
+    "name": "TITLE_CASE_WITH_UNDERSCORES_RE"
+  },
+  {
+    "file": "_Dev_Resources/Dev_Scripts/repo_tools/system_audit/_common.py",
+    "kind": "Assign",
+    "line": 16,
+    "name": "DEFAULT_EXCLUDE_DIRS"
+  },
+  {
+    "file": "_Dev_Resources/Dev_Scripts/repo_tools/system_audit/_common.py",
+    "kind": "Assign",
+    "line": 24,
+    "name": "DEFAULT_EXCLUDE_PREFIXES"
+  },
+  {
+    "file": "_Dev_Resources/Dev_Scripts/system_stack_tbd/need_to_distribute/scan_repo.py",
+    "kind": "Assign",
+    "line": 17,
+    "name": "REPO_ROOT"
+  },
+  {
+    "file": "_Dev_Resources/Dev_Scripts/system_stack_tbd/need_to_distribute/scan_repo.py",
+    "kind": "Assign",
+    "line": 18,
+    "name": "STATE_DIR"
+  },
+  {
+    "file": "_Dev_Resources/Dev_Scripts/system_stack_tbd/need_to_distribute/aligned_agent_import.py",
+    "kind": "Assign",
+    "line": 26,
+    "name": "REPO_URL"
+  },
+  {
+    "file": "_Dev_Resources/Dev_Scripts/system_stack_tbd/need_to_distribute/aligned_agent_import.py",
+    "kind": "Assign",
+    "line": 27,
+    "name": "REPO_DIR"
+  },
+  {
+    "file": "_Dev_Resources/Dev_Scripts/system_stack_tbd/need_to_distribute/aligned_agent_import.py",
+    "kind": "Assign",
+    "line": 28,
+    "name": "DEST_DIR"
+  },
+  {
+    "file": "_Dev_Resources/Dev_Scripts/system_stack_tbd/need_to_distribute/aligned_agent_import.py",
+    "kind": "Assign",
+    "line": 29,
+    "name": "STATE_FILE"
+  },
+  {
+    "file": "_Dev_Resources/Dev_Scripts/system_stack_tbd/need_to_distribute/aligned_agent_import.py",
+    "kind": "Assign",
+    "line": 30,
+    "name": "PIN_PATH"
+  },
+  {
+    "file": "_Dev_Resources/Dev_Scripts/system_stack_tbd/need_to_distribute/evidence.py",
+    "kind": "Assign",
+    "line": 12,
+    "name": "_ALLOWED_TYPES"
+  },
+  {
+    "file": "_Dev_Resources/Dev_Scripts/system_stack_tbd/need_to_distribute/test_proved_grounding.py",
+    "kind": "Assign",
+    "line": 10,
+    "name": "scripts_dir"
+  },
+  {
+    "file": "_Dev_Resources/Dev_Scripts/system_stack_tbd/need_to_distribute/test_proved_grounding.py",
+    "kind": "Assign",
+    "line": 11,
+    "name": "repo_root"
+  },
+  {
+    "file": "_Dev_Resources/Dev_Scripts/system_stack_tbd/need_to_distribute/privative_dual_bijection_kernel.py",
+    "kind": "Assign",
+    "line": 17,
+    "name": "logger"
+  },
+  {
+    "file": "_Dev_Resources/Dev_Scripts/system_stack_tbd/need_to_distribute/prototype_grounding_workflow.py",
+    "kind": "Assign",
+    "line": 12,
+    "name": "REPO_ROOT"
+  },
+  {
+    "file": "_Dev_Resources/Dev_Scripts/system_stack_tbd/need_to_distribute/prototype_grounding_workflow.py",
+    "kind": "Assign",
+    "line": 13,
+    "name": "PLANNER_DIGEST_LOG"
+  },
+  {
+    "file": "_Dev_Resources/Dev_Scripts/system_stack_tbd/need_to_distribute/prototype_grounding_workflow.py",
+    "kind": "Assign",
+    "line": 14,
+    "name": "PLANNER_ARCHIVE_DIR"
+  },
+  {
+    "file": "_Dev_Resources/Dev_Scripts/system_stack_tbd/need_to_distribute/prototype_grounding_workflow.py",
+    "kind": "Assign",
+    "line": 40,
+    "name": "ALIGNMENT_LOG"
+  },
+  {
+    "file": "_Dev_Resources/Dev_Scripts/system_stack_tbd/need_to_distribute/cycle_ledger.py",
+    "kind": "Assign",
+    "line": 10,
+    "name": "LEDGER_SCHEMA_VERSION"
+  },
+  {
+    "file": "_Dev_Resources/Dev_Scripts/system_stack_tbd/need_to_distribute/archive_planner_digests.py",
+    "kind": "Assign",
+    "line": 11,
+    "name": "REPO_ROOT"
+  },
+  {
+    "file": "_Dev_Resources/Dev_Scripts/system_stack_tbd/need_to_distribute/archive_planner_digests.py",
+    "kind": "Assign",
+    "line": 12,
+    "name": "STATE_ROOT"
+  },
+  {
+    "file": "_Dev_Resources/Dev_Scripts/system_stack_tbd/need_to_distribute/archive_planner_digests.py",
+    "kind": "Assign",
+    "line": 13,
+    "name": "DEFAULT_LOG"
+  },
+  {
+    "file": "_Dev_Resources/Dev_Scripts/system_stack_tbd/need_to_distribute/archive_planner_digests.py",
+    "kind": "Assign",
+    "line": 14,
+    "name": "DEFAULT_ARCHIVE_DIR"
+  },
+  {
+    "file": "_Dev_Resources/Dev_Scripts/system_stack_tbd/need_to_distribute/protocol_probe.py",
+    "kind": "Assign",
+    "line": 17,
+    "name": "REPO_DIR"
+  },
+  {
+    "file": "_Dev_Resources/Dev_Scripts/system_stack_tbd/need_to_distribute/protocol_probe.py",
+    "kind": "Assign",
+    "line": 18,
+    "name": "STATE_ROOT"
+  },
+  {
+    "file": "_Dev_Resources/Dev_Scripts/system_stack_tbd/need_to_distribute/protocol_probe.py",
+    "kind": "Assign",
+    "line": 19,
+    "name": "STATE_FILE"
+  },
+  {
+    "file": "_Dev_Resources/Dev_Scripts/system_stack_tbd/need_to_distribute/protocol_probe.py",
+    "kind": "Assign",
+    "line": 20,
+    "name": "MISSION_FILE"
+  },
+  {
+    "file": "_Dev_Resources/Dev_Scripts/system_stack_tbd/need_to_distribute/protocol_probe.py",
+    "kind": "AnnAssign",
+    "line": 22,
+    "name": "MISSION"
+  },
+  {
+    "file": "_Dev_Resources/Dev_Scripts/system_stack_tbd/need_to_distribute/protocol_probe.py",
+    "kind": "AnnAssign",
+    "line": 29,
+    "name": "BASE_PACKAGES"
+  },
+  {
+    "file": "_Dev_Resources/Dev_Scripts/system_stack_tbd/need_to_distribute/protocol_probe.py",
+    "kind": "Assign",
+    "line": 57,
+    "name": "READ_ONLY_FNS"
+  },
+  {
+    "file": "_Dev_Resources/Dev_Scripts/system_stack_tbd/need_to_distribute/protocol_probe.py",
+    "kind": "Assign",
+    "line": 65,
+    "name": "HOOK_FUNCTIONS"
+  },
+  {
+    "file": "_Dev_Resources/Dev_Scripts/system_stack_tbd/need_to_distribute/protocol_probe.py",
+    "kind": "Assign",
+    "line": 71,
+    "name": "DEFAULT_TIMEOUT"
+  },
+  {
+    "file": "_Dev_Resources/Dev_Scripts/system_stack_tbd/need_to_distribute/protocol_probe.py",
+    "kind": "Assign",
+    "line": 73,
+    "name": "SCP_DEEP"
+  },
+  {
+    "file": "_Dev_Resources/Dev_Scripts/system_stack_tbd/need_to_distribute/example_connector.py",
+    "kind": "Assign",
+    "line": 24,
+    "name": "connect_agent"
+  },
+  {
+    "file": "_Dev_Resources/Dev_Scripts/system_stack_tbd/need_to_distribute/example_connector.py",
+    "kind": "Assign",
+    "line": 25,
+    "name": "connect_to_agent"
+  },
+  {
+    "file": "_Dev_Resources/Dev_Scripts/system_stack_tbd/need_to_distribute/stress_sop_runtime.py",
+    "kind": "Assign",
+    "line": 18,
+    "name": "REPO_ROOT"
+  },
+  {
+    "file": "_Dev_Resources/Dev_Scripts/system_stack_tbd/need_to_distribute/stress_sop_runtime.py",
+    "kind": "Assign",
+    "line": 34,
+    "name": "AgentRegistry"
+  },
+  {
+    "file": "_Dev_Resources/Dev_Scripts/system_stack_tbd/need_to_distribute/stress_sop_runtime.py",
+    "kind": "Assign",
+    "line": 35,
+    "name": "initialize_agent_system"
+  },
+  {
+    "file": "_Dev_Resources/Dev_Scripts/system_stack_tbd/need_to_distribute/stress_sop_runtime.py",
+    "kind": "Assign",
+    "line": 61,
+    "name": "_shared_resources_spec"
+  },
+  {
+    "file": "_Dev_Resources/Dev_Scripts/system_stack_tbd/need_to_distribute/scp_local_diagnostic.py",
+    "kind": "Assign",
+    "line": 15,
+    "name": "REPO_ROOT"
+  },
+  {
+    "file": "_Dev_Resources/Dev_Scripts/system_stack_tbd/need_to_distribute/run_recursive_immersion_cycle.py",
+    "kind": "Assign",
+    "line": 42,
+    "name": "REPO_ROOT"
+  },
+  {
+    "file": "_Dev_Resources/Dev_Scripts/system_stack_tbd/need_to_distribute/run_recursive_immersion_cycle.py",
+    "kind": "Assign",
+    "line": 43,
+    "name": "SANDBOX_DIR"
+  },
+  {
+    "file": "_Dev_Resources/Dev_Scripts/system_stack_tbd/need_to_distribute/run_recursive_immersion_cycle.py",
+    "kind": "Assign",
+    "line": 45,
+    "name": "AGENT_ID"
+  },
+  {
+    "file": "_Dev_Resources/Dev_Scripts/system_stack_tbd/need_to_distribute/run_recursive_immersion_cycle.py",
+    "kind": "Assign",
+    "line": 46,
+    "name": "AGENT_HASH"
+  },
+  {
+    "file": "_Dev_Resources/Dev_Scripts/system_stack_tbd/need_to_distribute/run_recursive_immersion_cycle.py",
+    "kind": "Assign",
+    "line": 48,
+    "name": "SCHEMA_VERSION"
+  },
+  {
+    "file": "_Dev_Resources/Dev_Scripts/system_stack_tbd/need_to_distribute/run_recursive_immersion_cycle.py",
+    "kind": "Assign",
+    "line": 67,
+    "name": "SYSTEM_PRIMING"
+  },
+  {
+    "file": "_Dev_Resources/Dev_Scripts/system_stack_tbd/need_to_distribute/run_recursive_immersion_cycle.py",
+    "kind": "Assign",
+    "line": 108,
+    "name": "PROMPT_P1"
+  },
+  {
+    "file": "_Dev_Resources/Dev_Scripts/system_stack_tbd/need_to_distribute/run_recursive_immersion_cycle.py",
+    "kind": "Assign",
+    "line": 126,
+    "name": "PROMPT_P2"
+  },
+  {
+    "file": "_Dev_Resources/Dev_Scripts/system_stack_tbd/need_to_distribute/run_recursive_immersion_cycle.py",
+    "kind": "Assign",
+    "line": 138,
+    "name": "PROMPT_P3"
+  },
+  {
+    "file": "_Dev_Resources/Dev_Scripts/system_stack_tbd/need_to_distribute/run_recursive_immersion_cycle.py",
+    "kind": "Assign",
+    "line": 149,
+    "name": "PROMPT_P4"
+  },
+  {
+    "file": "_Dev_Resources/Dev_Scripts/system_stack_tbd/need_to_distribute/run_recursive_immersion_cycle.py",
+    "kind": "Assign",
+    "line": 165,
+    "name": "PROMPT_P5"
+  },
+  {
+    "file": "_Dev_Resources/Dev_Scripts/system_stack_tbd/need_to_distribute/run_recursive_immersion_cycle.py",
+    "kind": "Assign",
+    "line": 178,
+    "name": "PROMPT_P6"
+  },
+  {
+    "file": "_Dev_Resources/Dev_Scripts/system_stack_tbd/need_to_distribute/run_recursive_immersion_cycle.py",
+    "kind": "Assign",
+    "line": 188,
+    "name": "PROMPT_P7"
+  },
+  {
+    "file": "_Dev_Resources/Dev_Scripts/system_stack_tbd/need_to_distribute/run_recursive_immersion_cycle.py",
+    "kind": "Assign",
+    "line": 203,
+    "name": "PROMPT_P8"
+  },
+  {
+    "file": "_Dev_Resources/Dev_Scripts/system_stack_tbd/need_to_distribute/run_recursive_immersion_cycle.py",
+    "kind": "Assign",
+    "line": 219,
+    "name": "PROMPT_P9"
+  },
+  {
+    "file": "_Dev_Resources/Dev_Scripts/system_stack_tbd/need_to_distribute/run_recursive_immersion_cycle.py",
+    "kind": "Assign",
+    "line": 231,
+    "name": "PROMPT_P10"
+  },
+  {
+    "file": "_Dev_Resources/Dev_Scripts/system_stack_tbd/need_to_distribute/run_recursive_immersion_cycle.py",
+    "kind": "AnnAssign",
+    "line": 246,
+    "name": "PROBES"
+  },
+  {
+    "file": "_Dev_Resources/Dev_Scripts/system_stack_tbd/need_to_distribute/run_recursive_immersion_cycle.py",
+    "kind": "Assign",
+    "line": 265,
+    "name": "LOGOS_ENDPOINT"
+  },
+  {
+    "file": "_Dev_Resources/Dev_Scripts/system_stack_tbd/need_to_distribute/run_recursive_immersion_cycle.py",
+    "kind": "Assign",
+    "line": 266,
+    "name": "LOGOS_ROUTE"
+  },
+  {
+    "file": "_Dev_Resources/Dev_Scripts/system_stack_tbd/need_to_distribute/run_recursive_immersion_cycle.py",
+    "kind": "Assign",
+    "line": 338,
+    "name": "SECTION_RE"
+  },
+  {
+    "file": "_Dev_Resources/Dev_Scripts/system_stack_tbd/need_to_distribute/run_recursive_immersion_cycle.py",
+    "kind": "Assign",
+    "line": 343,
+    "name": "GOAL_LANGUAGE_RE"
+  },
+  {
+    "file": "_Dev_Resources/Dev_Scripts/system_stack_tbd/need_to_distribute/boot_aligned_agent.py",
+    "kind": "Assign",
+    "line": 26,
+    "name": "REPO_ROOT"
+  },
+  {
+    "file": "_Dev_Resources/Dev_Scripts/system_stack_tbd/need_to_distribute/boot_aligned_agent.py",
+    "kind": "Assign",
+    "line": 27,
+    "name": "BASELINE_DIR"
+  },
+  {
+    "file": "_Dev_Resources/Dev_Scripts/system_stack_tbd/need_to_distribute/boot_aligned_agent.py",
+    "kind": "Assign",
+    "line": 41,
+    "name": "STATE_DIR"
+  },
+  {
+    "file": "_Dev_Resources/Dev_Scripts/system_stack_tbd/need_to_distribute/boot_aligned_agent.py",
+    "kind": "Assign",
+    "line": 44,
+    "name": "AGENT_NAMESPACE"
+  },
+  {
+    "file": "_Dev_Resources/Dev_Scripts/system_stack_tbd/need_to_distribute/boot_aligned_agent.py",
+    "kind": "Assign",
+    "line": 45,
+    "name": "AGENT_HANDLE"
+  },
+  {
+    "file": "_Dev_Resources/Dev_Scripts/system_stack_tbd/need_to_distribute/boot_aligned_agent.py",
+    "kind": "Assign",
+    "line": 46,
+    "name": "AGENT_ID_INPUT"
+  },
+  {
+    "file": "_Dev_Resources/Dev_Scripts/system_stack_tbd/need_to_distribute/boot_aligned_agent.py",
+    "kind": "Assign",
+    "line": 47,
+    "name": "EXPECTED_AGENT_HASH"
+  },
+  {
+    "file": "_Dev_Resources/Dev_Scripts/system_stack_tbd/need_to_distribute/_bootstrap.py",
+    "kind": "Assign",
+    "line": 11,
+    "name": "REPO_ROOT"
+  },
+  {
+    "file": "_Dev_Resources/Dev_Scripts/system_stack_tbd/need_to_distribute/nexus_manager.py",
+    "kind": "Assign",
+    "line": 13,
+    "name": "MAX_SESSIONS"
+  },
+  {
+    "file": "_Dev_Resources/Dev_Scripts/system_stack_tbd/need_to_distribute/nexus_manager.py",
+    "kind": "Assign",
+    "line": 14,
+    "name": "IDLE_TTL_SECONDS"
+  },
+  {
+    "file": "_Dev_Resources/Dev_Scripts/system_stack_tbd/need_to_distribute/nexus_manager.py",
+    "kind": "Assign",
+    "line": 72,
+    "name": "NEXUS_MANAGER"
+  },
+  {
+    "file": "_Dev_Resources/Dev_Scripts/system_stack_tbd/need_to_distribute/test_plan_history_inprocess_refresh.py",
+    "kind": "Assign",
+    "line": 11,
+    "name": "SCRIPTS_DIR"
+  },
+  {
+    "file": "_Dev_Resources/Dev_Scripts/system_stack_tbd/need_to_distribute/test_plan_history_inprocess_refresh.py",
+    "kind": "Assign",
+    "line": 12,
+    "name": "REPO_ROOT"
+  },
+  {
+    "file": "_Dev_Resources/Dev_Scripts/system_stack_tbd/need_to_distribute/test_truth_evaluator_ranking.py",
+    "kind": "Assign",
+    "line": 8,
+    "name": "scripts_dir"
+  },
+  {
+    "file": "_Dev_Resources/Dev_Scripts/system_stack_tbd/need_to_distribute/test_truth_evaluator_ranking.py",
+    "kind": "Assign",
+    "line": 9,
+    "name": "repo_root"
+  },
+  {
+    "file": "_Dev_Resources/Dev_Scripts/system_stack_tbd/need_to_distribute/test_truth_evaluator_ranking.py",
+    "kind": "Assign",
+    "line": 10,
+    "name": "logos_dir"
+  },
+  {
+    "file": "_Dev_Resources/Dev_Scripts/system_stack_tbd/need_to_distribute/test_grounded_reply_enforcement.py",
+    "kind": "Assign",
+    "line": 11,
+    "name": "REPO_ROOT"
+  },
+  {
+    "file": "_Dev_Resources/Dev_Scripts/system_stack_tbd/could_be_dev/system_mode_initializer.py",
+    "kind": "Assign",
+    "line": 17,
+    "name": "REPO_DIR"
+  },
+  {
+    "file": "_Dev_Resources/Dev_Scripts/system_stack_tbd/could_be_dev/system_mode_initializer.py",
+    "kind": "Assign",
+    "line": 18,
+    "name": "REPO_ROOT"
+  },
+  {
+    "file": "_Dev_Resources/Dev_Scripts/system_stack_tbd/could_be_dev/system_mode_initializer.py",
+    "kind": "Assign",
+    "line": 19,
+    "name": "LOGOS_PATH"
+  },
+  {
+    "file": "_Dev_Resources/Dev_Scripts/system_stack_tbd/could_be_dev/system_mode_initializer.py",
+    "kind": "Assign",
+    "line": 20,
+    "name": "STATE_ROOT"
+  },
+  {
+    "file": "_Dev_Resources/Dev_Scripts/system_stack_tbd/could_be_dev/system_mode_initializer.py",
+    "kind": "Assign",
+    "line": 21,
+    "name": "STATE_FILE"
+  },
+  {
+    "file": "_Dev_Resources/Dev_Scripts/system_stack_tbd/could_be_dev/system_mode_initializer.py",
+    "kind": "AnnAssign",
+    "line": 43,
+    "name": "MISSION_PROFILES"
+  },
+  {
+    "file": "_Dev_Resources/Dev_Scripts/system_stack_tbd/could_be_dev/system_mode_initializer.py",
+    "kind": "Assign",
+    "line": 91,
+    "name": "DEFAULT_MODE_KEY"
+  },
+  {
+    "file": "_Dev_Resources/Dev_Scripts/system_stack_tbd/could_be_dev/system_mode_initializer.py",
+    "kind": "Assign",
+    "line": 92,
+    "name": "ACTIVE_MODE"
+  },
+  {
+    "file": "_Dev_Resources/Dev_Scripts/system_stack_tbd/could_be_dev/capture_arp_traces_and_backfill.py",
+    "kind": "Assign",
+    "line": 45,
+    "name": "AGENT_ID"
+  },
+  {
+    "file": "_Dev_Resources/Dev_Scripts/system_stack_tbd/could_be_dev/capture_arp_traces_and_backfill.py",
+    "kind": "Assign",
+    "line": 46,
+    "name": "AGENT_HASH"
+  },
+  {
+    "file": "_Dev_Resources/Dev_Scripts/system_stack_tbd/could_be_dev/capture_arp_traces_and_backfill.py",
+    "kind": "Assign",
+    "line": 48,
+    "name": "REPO_ROOT"
+  },
+  {
+    "file": "_Dev_Resources/Dev_Scripts/system_stack_tbd/could_be_dev/capture_arp_traces_and_backfill.py",
+    "kind": "Assign",
+    "line": 49,
+    "name": "SANDBOX_DIR"
+  },
+  {
+    "file": "_Dev_Resources/Dev_Scripts/system_stack_tbd/could_be_dev/capture_arp_traces_and_backfill.py",
+    "kind": "Assign",
+    "line": 52,
+    "name": "PHASE2_FIXTURE_SPEC_NAME"
+  },
+  {
+    "file": "_Dev_Resources/Dev_Scripts/system_stack_tbd/could_be_dev/capture_arp_traces_and_backfill.py",
+    "kind": "AnnAssign",
+    "line": 54,
+    "name": "SCENARIOS"
+  },
+  {
+    "file": "_Dev_Resources/Dev_Scripts/system_stack_tbd/could_be_dev/capture_arp_traces_and_backfill.py",
+    "kind": "AnnAssign",
+    "line": 87,
+    "name": "BLUEPRINTS"
+  },
+  {
+    "file": "_Dev_Resources/Dev_Scripts/system_stack_tbd/could_be_dev/run_simulation_stub.py",
+    "kind": "Assign",
+    "line": 13,
+    "name": "REPO_ROOT"
+  },
+  {
+    "file": "_Dev_Resources/Dev_Scripts/system_stack_tbd/could_be_dev/run_cycle_loop.py",
+    "kind": "Assign",
+    "line": 16,
+    "name": "REPO_ROOT"
+  },
+  {
+    "file": "_Dev_Resources/Dev_Scripts/system_stack_tbd/could_be_dev/run_cycle_loop.py",
+    "kind": "Assign",
+    "line": 17,
+    "name": "RUN_CYCLE"
+  },
+  {
+    "file": "_Dev_Resources/Dev_Scripts/system_stack_tbd/could_be_dev/run_cycle_loop.py",
+    "kind": "Assign",
+    "line": 18,
+    "name": "PREREQ_CHECK"
+  },
+  {
+    "file": "_Dev_Resources/Dev_Scripts/system_stack_tbd/could_be_dev/run_cycle_loop.py",
+    "kind": "Assign",
+    "line": 19,
+    "name": "LOGOS_AGI_PATH"
+  },
+  {
+    "file": "_Dev_Resources/Dev_Scripts/system_stack_tbd/could_be_dev/run_cycle_loop.py",
+    "kind": "Assign",
+    "line": 20,
+    "name": "STATE_DIR"
+  },
+  {
+    "file": "_Dev_Resources/Dev_Scripts/system_stack_tbd/could_be_dev/run_cycle_loop.py",
+    "kind": "Assign",
+    "line": 21,
+    "name": "ARCHIVE_DIR"
+  },
+  {
+    "file": "_Dev_Resources/Dev_Scripts/system_stack_tbd/could_be_dev/run_cycle_loop.py",
+    "kind": "Assign",
+    "line": 22,
+    "name": "DEFAULT_LOG_DIR"
+  },
+  {
+    "file": "_Dev_Resources/Dev_Scripts/system_stack_tbd/could_be_dev/run_cycle_loop.py",
+    "kind": "Assign",
+    "line": 23,
+    "name": "DEFAULT_HISTORY_PATH"
+  },
+  {
+    "file": "_Dev_Resources/Dev_Scripts/system_stack_tbd/could_be_dev/run_cycle_loop.py",
+    "kind": "Assign",
+    "line": 24,
+    "name": "GOAL_DEFAULT"
+  },
+  {
+    "file": "_Dev_Resources/Dev_Scripts/system_stack_tbd/could_be_dev/start_agent.py",
+    "kind": "Assign",
+    "line": 167,
+    "name": "AnyCallable"
+  },
+  {
+    "file": "_Dev_Resources/Dev_Scripts/system_stack_tbd/could_be_dev/start_agent.py",
+    "kind": "Assign",
+    "line": 168,
+    "name": "Decorator"
+  },
+  {
+    "file": "_Dev_Resources/Dev_Scripts/system_stack_tbd/could_be_dev/start_agent.py",
+    "kind": "Assign",
+    "line": 171,
+    "name": "SOP_AVAILABLE"
+  },
+  {
+    "file": "_Dev_Resources/Dev_Scripts/system_stack_tbd/could_be_dev/start_agent.py",
+    "kind": "Assign",
+    "line": 172,
+    "name": "trigger_self_improvement"
+  },
+  {
+    "file": "_Dev_Resources/Dev_Scripts/system_stack_tbd/could_be_dev/start_agent.py",
+    "kind": "Assign",
+    "line": 174,
+    "name": "REPO_ROOT"
+  },
+  {
+    "file": "_Dev_Resources/Dev_Scripts/system_stack_tbd/could_be_dev/start_agent.py",
+    "kind": "Assign",
+    "line": 190,
+    "name": "STATE_DIR"
+  },
+  {
+    "file": "_Dev_Resources/Dev_Scripts/system_stack_tbd/could_be_dev/start_agent.py",
+    "kind": "Assign",
+    "line": 191,
+    "name": "AUDIT_DIR"
+  },
+  {
+    "file": "_Dev_Resources/Dev_Scripts/system_stack_tbd/could_be_dev/start_agent.py",
+    "kind": "Assign",
+    "line": 192,
+    "name": "MISSION_FILE"
+  },
+  {
+    "file": "_Dev_Resources/Dev_Scripts/system_stack_tbd/could_be_dev/start_agent.py",
+    "kind": "Assign",
+    "line": 193,
+    "name": "AGENT_STATE_FILE"
+  },
+  {
+    "file": "_Dev_Resources/Dev_Scripts/system_stack_tbd/could_be_dev/start_agent.py",
+    "kind": "Assign",
+    "line": 194,
+    "name": "TRAINING_INDEX_PATH"
+  },
+  {
+    "file": "_Dev_Resources/Dev_Scripts/system_stack_tbd/could_be_dev/start_agent.py",
+    "kind": "Assign",
+    "line": 195,
+    "name": "ALLOW_TRAINING_INDEX_WRITE"
+  },
+  {
+    "file": "_Dev_Resources/Dev_Scripts/system_stack_tbd/could_be_dev/start_agent.py",
+    "kind": "Assign",
+    "line": 197,
+    "name": "LOGOS_CORE_PATH"
+  },
+  {
+    "file": "_Dev_Resources/Dev_Scripts/system_stack_tbd/could_be_dev/start_agent.py",
+    "kind": "Assign",
+    "line": 295,
+    "name": "SANDBOX"
+  },
+  {
+    "file": "_Dev_Resources/Dev_Scripts/system_stack_tbd/could_be_dev/start_agent.py",
+    "kind": "Assign",
+    "line": 308,
+    "name": "MISSION_PROFILE"
+  },
+  {
+    "file": "_Dev_Resources/Dev_Scripts/system_stack_tbd/could_be_dev/start_agent.py",
+    "kind": "Assign",
+    "line": 309,
+    "name": "MISSION_LABEL"
+  },
+  {
+    "file": "_Dev_Resources/Dev_Scripts/system_stack_tbd/could_be_dev/start_agent.py",
+    "kind": "Assign",
+    "line": 310,
+    "name": "SAFE_INTERFACES_ONLY"
+  },
+  {
+    "file": "_Dev_Resources/Dev_Scripts/system_stack_tbd/could_be_dev/start_agent.py",
+    "kind": "Assign",
+    "line": 312,
+    "name": "TOOL_OPTIMIZER_TEMPLATE_ID"
+  },
+  {
+    "file": "_Dev_Resources/Dev_Scripts/system_stack_tbd/could_be_dev/start_agent.py",
+    "kind": "Assign",
+    "line": 313,
+    "name": "TOOL_OPTIMIZER_TITLE"
+  },
+  {
+    "file": "_Dev_Resources/Dev_Scripts/system_stack_tbd/could_be_dev/start_agent.py",
+    "kind": "Assign",
+    "line": 314,
+    "name": "TOOL_INVENTION_TEMPLATE_ID"
+  },
+  {
+    "file": "_Dev_Resources/Dev_Scripts/system_stack_tbd/could_be_dev/start_agent.py",
+    "kind": "Assign",
+    "line": 315,
+    "name": "TOOL_INVENTION_TITLE"
+  },
+  {
+    "file": "_Dev_Resources/Dev_Scripts/system_stack_tbd/could_be_dev/start_agent.py",
+    "kind": "Assign",
+    "line": 383,
+    "name": "require_safe_interfaces"
+  },
+  {
+    "file": "_Dev_Resources/Dev_Scripts/system_stack_tbd/could_be_dev/start_agent.py",
+    "kind": "Assign",
+    "line": 384,
+    "name": "restrict_writes_to"
+  },
+  {
+    "file": "_Dev_Resources/Dev_Scripts/system_stack_tbd/could_be_dev/start_agent.py",
+    "kind": "AnnAssign",
+    "line": 694,
+    "name": "TOOLS"
+  },
+  {
+    "file": "_Dev_Resources/Dev_Scripts/system_stack_tbd/could_be_dev/start_agent.py",
+    "kind": "Assign",
+    "line": 857,
+    "name": "REFLECTION_CACHE_NAME"
+  },
+  {
+    "file": "_Dev_Resources/Dev_Scripts/system_stack_tbd/could_be_dev/start_agent.py",
+    "kind": "Assign",
+    "line": 969,
+    "name": "PROMOTION_WRAPPER"
+  },
+  {
+    "file": "_Dev_Resources/Dev_Scripts/system_stack_tbd/could_be_dev/start_agent.py",
+    "kind": "Assign",
+    "line": 978,
+    "name": "DOC_EXTENSIONS"
+  },
+  {
+    "file": "_Dev_Resources/Dev_Scripts/system_stack_tbd/could_be_dev/start_agent.py",
+    "kind": "Assign",
+    "line": 980,
+    "name": "RETRIEVE_FORBIDDEN_PARTS"
+  },
+  {
+    "file": "_Dev_Resources/Dev_Scripts/system_stack_tbd/could_be_dev/start_agent.py",
+    "kind": "Assign",
+    "line": 988,
+    "name": "RETRIEVE_MAX_SNIPPET_CHARS"
+  },
+  {
+    "file": "_Dev_Resources/Dev_Scripts/system_stack_tbd/could_be_dev/start_agent.py",
+    "kind": "AnnAssign",
+    "line": 995,
+    "name": "TOOL_EMISSION_POLICY"
+  },
+  {
+    "file": "_Dev_Resources/Dev_Scripts/system_stack_tbd/could_be_dev/test_logos_agi_replay_proposals.py",
+    "kind": "Assign",
+    "line": 10,
+    "name": "REPO_ROOT"
+  },
+  {
+    "file": "_Dev_Resources/Dev_Scripts/system_stack_tbd/could_be_dev/test_logos_agi_replay_proposals.py",
+    "kind": "Assign",
+    "line": 11,
+    "name": "STATE_DIR"
+  }
+]

@@ -1,15 +1,14 @@
+# Original init logic backed up at _reports/Init_Reset_20260114_153126/backup_init/Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/ChronoPraxis/chronopraxis/__init__.py
+# Review and restore exports/side effects before enabling package logic.
+
 """
-Chronopraxis Domain: Temporal Reasoning Praxis
+LOGOS normalization stub.
 
-This domain focuses on the praxis of temporal reasoning, including:
-- Temporal logic systems
-- Time modeling and representation
-- Sequence analysis and prediction
-- Causality and temporal dependencies
+This package initializer is intentionally minimal.
+- No imports
+- No side effects
+- No runtime logic
+
+Repopulation of exports/import paths will occur after normalization.
 """
-
-from .sequence_analysis import SequenceAnalyzer
-from .temporal_logic import TemporalLogic
-from .time_modeling import TimeModel
-
-__all__ = ["TemporalLogic", "TimeModel", "SequenceAnalyzer"]
+__all__ = []
