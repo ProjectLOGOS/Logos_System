@@ -1,0 +1,11 @@
+{
+  "version": "phase-4-crawl-queue/1",
+  "ts": "2026-01-15T03:46:17Z",
+  "report_dir": "/workspaces/Logos_System/_Reports/Audit_Normalize_Rerun_20260115T034617Z",
+  "planning_inputs": [],
+  "tasks": [],
+  "notes": [
+    "Phase 4 is read-only: this file is a queue stub and may be enriched later.",
+    "No routing is permitted before Phase 5."
+  ]
+}

@@ -12,7 +12,7 @@ def scan_symbols(repo: Path) -> Dict[str, Any]:
     functions: List[Dict[str, Any]] = []
     globals_: List[Dict[str, Any]] = []
 
-    for p in iter_files(repo, suffixes=(".py",)):
+    for p in iter_files(repo, suffix=".py"):
         src = read_text(p)
         try:
             tree = ast.parse(src, filename=str(p))

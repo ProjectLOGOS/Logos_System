@@ -1,0 +1,69 @@
+{
+  "generated_utc": "2026-01-14T17:37:14Z",
+  "repo_root": "/workspaces/Logos_System",
+  "entries": {
+    "orphan_classification_pass_1": {
+      "primary": "_Reports/Audit_Normalize/Runtime_Contents/Orphan_Classification_Pass_1.json",
+      "alternates": []
+    },
+    "inspect_decide_semantic_classification": {
+      "primary": "_Reports/Audit_Normalize/Runtime_Contents/Inspect_Decide_Semantic_Classification.json",
+      "alternates": []
+    },
+    "semantic_merge_candidates": {
+      "primary": "_Reports/Audit_Normalize/Runtime_Contents/Semantic_Merge_Candidates.json",
+      "alternates": [
+        "_Reports/Audit_Normalize/Runtime_Contents/Semantic_Merge_Candidates_Pass_2.json"
+      ]
+    },
+    "duplicate_files": {
+      "primary": "_Reports/SYSTEM_AUDIT/04_duplicates/duplicate_files.json",
+      "alternates": []
+    },
+    "duplicate_directories": {
+      "primary": "_Reports/SYSTEM_AUDIT/04_duplicates/duplicate_directories.json",
+      "alternates": []
+    },
+    "semantic_duplicates": {
+      "primary": "_Reports/SYSTEM_AUDIT/04_duplicates/semantic_duplicates.json",
+      "alternates": []
+    },
+    "naming_file_names": {
+      "primary": "_Reports/SYSTEM_AUDIT/05_naming_violations/file_names.json",
+      "alternates": []
+    },
+    "naming_directory_names": {
+      "primary": "_Reports/SYSTEM_AUDIT/05_naming_violations/directory_names.json",
+      "alternates": []
+    },
+    "naming_module_names": {
+      "primary": "_Reports/SYSTEM_AUDIT/05_naming_violations/module_names.json",
+      "alternates": []
+    },
+    "orphaned_files_raw": {
+      "primary": "_Reports/SYSTEM_AUDIT/10_dead_code/orphaned_files.json",
+      "alternates": []
+    },
+    "unreachable_modules": {
+      "primary": "_Reports/SYSTEM_AUDIT/10_dead_code/unreachable_modules.json",
+      "alternates": []
+    },
+    "entrypoints": {
+      "primary": "_Reports/SYSTEM_AUDIT/06_runtime_surface/entrypoints.json",
+      "alternates": []
+    },
+    "servers": {
+      "primary": "_Reports/SYSTEM_AUDIT/06_runtime_surface/servers.json",
+      "alternates": []
+    },
+    "cli_tools": {
+      "primary": "_Reports/SYSTEM_AUDIT/06_runtime_surface/cli_tools.json",
+      "alternates": []
+    },
+    "filesystem_writes": {
+      "primary": "_Reports/SYSTEM_AUDIT/07_side_effects/filesystem_writes.json",
+      "alternates": []
+    }
+  },
+  "missing": []
+}

@@ -1,24 +1,44 @@
-#!/usr/bin/env python3
 from __future__ import annotations
 
-import ast
-import hashlib
-import json
-import os
-import re
-import sys
 from dataclasses import dataclass
 from pathlib import Path
-from typing import Any, Dict, Iterable, List, Optional, Tuple
+import ast
+import json
+import re
+from typing import Union, Iterable, Optional, Tuple
 
-TITLE_CASE_WITH_UNDERSCORES_RE = re.compile(r"^[A-Z][A-Za-z0-9]*(?:_[A-Z][A-Za-z0-9]*)*$")
 
+@dataclass(frozen=True, slots=True)
+class ImportRecord:
+    """
+    Minimal record shape expected by scan_imports.py:
+      importer_file, line, col, kind, module, name, level
+    """
+
+    importer_file: str
+    line: int
+    col: int
+    kind: str  # "import" | "from"
+    module: str  # e.g. "os.path" for `from os import path`; "" if unknown
+    name: str  # imported symbol/module name (alias.name)
+    level: int  # relative import level for ImportFrom; 0 otherwise
+
+
+# Exclusion defaults mirror the legacy system_audit helpers
 DEFAULT_EXCLUDE_DIRS = {
-    ".git", ".hg", ".svn",
-    "__pycache__", ".pytest_cache", ".mypy_cache",
-    ".venv", "venv", "env",
+    ".git",
+    ".hg",
+    ".svn",
+    "__pycache__",
+    ".pytest_cache",
+    ".mypy_cache",
+    ".venv",
+    "venv",
+    "env",
     "node_modules",
-    "_build", "dist", "build",
+    "_build",
+    "dist",
+    "build",
 }
 
 DEFAULT_EXCLUDE_PREFIXES = (
@@ -26,22 +46,23 @@ DEFAULT_EXCLUDE_PREFIXES = (
     str(Path("_reports")),
 )
 
-def sha256_file(path: Path, chunk_size: int = 1024 * 1024) -> str:
-    h = hashlib.sha256()
-    with path.open("rb") as f:
-        while True:
-            b = f.read(chunk_size)
-            if not b:
-                break
-            h.update(b)
-    return h.hexdigest()
 
-def write_json(path: Path, obj: Any) -> None:
-    path.parent.mkdir(parents=True, exist_ok=True)
-    path.write_text(json.dumps(obj, indent=2, sort_keys=True, ensure_ascii=False) + "\n", encoding="utf-8")
+def iter_files(root: Path, suffix: str = ".py", suffixes=None):
+    """Yield files matching suffix or suffixes (tuple) under root."""
+    patterns = []
+    if suffixes:
+        for s in suffixes:
+            patterns.append(f"*{s}")
+    else:
+        patterns.append(f"*{suffix}")
 
-def read_text(path: Path) -> str:
-    return path.read_text(encoding="utf-8", errors="replace")
+    seen = set()
+    for pat in patterns:
+        for p in root.rglob(pat):
+            if p.is_file() and p not in seen:
+                seen.add(p)
+                yield p
+
 
 def is_excluded_path(path: Path, repo_root: Path, extra_excludes: Optional[Iterable[str]] = None) -> bool:
     rel = path.relative_to(repo_root)
@@ -57,15 +78,9 @@ def is_excluded_path(path: Path, repo_root: Path, extra_excludes: Optional[Itera
                 return True
     return False
 
-def iter_files(repo_root: Path, suffixes: Optional[Tuple[str, ...]] = None, extra_excludes: Optional[Iterable[str]] = None) -> Iterable[Path]:
-    for p in repo_root.rglob("*"):
-        if not p.is_file():
-            continue
-        if is_excluded_path(p, repo_root, extra_excludes=extra_excludes):
-            continue
-        if suffixes and p.suffix not in suffixes:
-            continue
-        yield p
+
+TITLE_CASE_WITH_UNDERSCORES_RE = re.compile(r"^[A-Z][A-Za-z0-9]*(?:_[A-Z][A-Za-z0-9]*)*$")
+
 
 def title_case_violation(name: str) -> bool:
     # Ignore dotfiles and some known build artifacts
@@ -73,58 +88,71 @@ def title_case_violation(name: str) -> bool:
         return False
     return TITLE_CASE_WITH_UNDERSCORES_RE.match(name) is None
 
-@dataclass
-class PyImport:
-    importer_file: str
-    line: int
-    col: int
-    kind: str  # "import" | "from"
-    module: str
-    name: Optional[str]
-    level: int  # relative import level
 
-def parse_python_imports(py_path: Path, repo_root: Path) -> List[PyImport]:
-    src = read_text(py_path)
-    out: List[PyImport] = []
+def read_text(path: Union[str, Path]) -> str:
+    """Read text with utf-8 and fallback replacement on errors."""
+    p = Path(path)
     try:
-        tree = ast.parse(src, filename=str(py_path))
+        return p.read_text(encoding="utf-8")
+    except UnicodeDecodeError:
+        return p.read_text(encoding="utf-8", errors="replace")
+
+def parse_python_imports(py_file: Union[str, Path], repo: Path | None = None) -> list[ImportRecord]:
+    """
+    Parse a Python file and return a list of ImportRecord objects.
+    This function is intentionally "shape-stable" for scan_imports.py.
+    Fail-closed: syntax errors return empty list (caller logs per-file failures).
+    """
+
+    p = Path(py_file)
+    try:
+        src = p.read_text(encoding="utf-8")
+    except UnicodeDecodeError:
+        src = p.read_text(encoding="utf-8", errors="replace")
+
+    try:
+        tree = ast.parse(src, filename=str(p))
     except SyntaxError:
-        return out
-    rel_file = str(py_path.relative_to(repo_root))
+        return []
+
+    out: list[ImportRecord] = []
+    importer_file = str(p)
+
     for node in ast.walk(tree):
         if isinstance(node, ast.Import):
             for alias in node.names:
-                out.append(PyImport(
-                    importer_file=rel_file,
-                    line=getattr(node, "lineno", 0),
-                    col=getattr(node, "col_offset", 0),
-                    kind="import",
-                    module=alias.name,
-                    name=alias.asname,
-                    level=0
-                ))
+                out.append(
+                    ImportRecord(
+                        importer_file=importer_file,
+                        line=int(getattr(node, "lineno", 0) or 0),
+                        col=int(getattr(node, "col_offset", 0) or 0),
+                        kind="import",
+                        module="",
+                        name=str(alias.name),
+                        level=0,
+                    )
+                )
         elif isinstance(node, ast.ImportFrom):
             mod = node.module or ""
+            lvl = int(getattr(node, "level", 0) or 0)
             for alias in node.names:
-                out.append(PyImport(
-                    importer_file=rel_file,
-                    line=getattr(node, "lineno", 0),
-                    col=getattr(node, "col_offset", 0),
-                    kind="from",
-                    module=mod,
-                    name=alias.name,
-                    level=int(getattr(node, "level", 0) or 0)
-                ))
+                out.append(
+                    ImportRecord(
+                        importer_file=importer_file,
+                        line=int(getattr(node, "lineno", 0) or 0),
+                        col=int(getattr(node, "col_offset", 0) or 0),
+                        kind="from",
+                        module=str(mod),
+                        name=str(alias.name),
+                        level=lvl,
+                    )
+                )
+
     return out
 
-def normalize_module_to_path(module: str) -> str:
-    return module.replace(".", "/")
+def normalize_module_to_path(module: str):
+    return module.replace(".", "/") + ".py"
 
-def looks_like_stdlib(mod: str) -> bool:
-    # Heuristic only; final classification uses importlib metadata where possible.
-    return mod in {
-        "json","datetime","pathlib","typing","re","os","sys","hashlib","subprocess","time","math",
-        "itertools","functools","collections","logging","asyncio","dataclasses","enum","uuid",
-        "http","urllib","socket","threading","multiprocessing","queue","statistics","fractions",
-        "traceback","contextlib","copy","pprint","csv","gzip","bz2","lzma","shutil","tempfile",
-    }
+def write_json(path: Path, data):
+    path.parent.mkdir(parents=True, exist_ok=True)
+    path.write_text(json.dumps(data, indent=2), encoding="utf-8")

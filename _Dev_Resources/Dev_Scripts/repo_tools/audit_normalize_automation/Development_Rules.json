@@ -1,0 +1,147 @@
+{
+  "version": "codespace-rules/1",
+  "source": "Documentation/Devlopment_Rules.md",
+  "generated_utc": "2026-01-15T04:05:00Z",
+  "routing": [
+    "All reports and similar inbound artifacts go to _Reports/; do not create any _reports directories.",
+    "All dev/support inbound items go to _Dev_Resources/ in the appropriate subdirectory.",
+    "If no suitable subdirectory exists under _Reports/ or _Dev_Resources/, create a new one at that root and place the inbound item there.",
+    "System documentation meant to ship with the codebase (readmes, tech sheets, ops/function docs) goes to Documentation/.",
+    "Hazardous or in-transition items go to _Dev_Resources/QUARANTINE/."
+  ],
+  "naming": [
+    "Use Title_Case_Underscore for new files or directories under governed roots.",
+    "For scripts, filename must match the header Name field; renames require approval and alignment with the header.",
+    "Maintain a log mapping script filenames to headers for lookup and purpose briefing."
+  ],
+  "notes": [
+    "Keep using existing _Reports/ and _Dev_Resources/ roots; do not add new top-level variants.",
+    "When adding new subdirectories, prefer concise names that reflect the content type."
+  ],
+  "coq_stack_guardrails": {
+    "default": "locked read-only via _Dev_Resources/Dev_Scripts/repo_tools/lock_coq_stacks.sh lock",
+    "guarded_paths": [
+      "/workspaces/Logos_System/PXL_Gate",
+      "/workspaces/Logos_System/Logos_System/System_Entry_Point/Runtime_Compiler"
+    ],
+    "status_cmd": "_Dev_Resources/Dev_Scripts/repo_tools/lock_coq_stacks.sh status",
+    "unlock_cmd": "_Dev_Resources/Dev_Scripts/repo_tools/lock_coq_stacks.sh unlock \"edit coq stacks\"",
+    "relock_cmd": "_Dev_Resources/Dev_Scripts/repo_tools/lock_coq_stacks.sh lock"
+  },
+  "audit_normalize_workflow": {
+    "tasks_root": "SYSTEM_AUDIT (11 total tasks)",
+    "completion_rule": "Commit and sync after each task; also after finishing a category across tasks."
+  },
+  "legacy_audit_moves": {
+    "destination": "_Dev_Resources/Dev_Scripts/LEGACY_SCRIPTS_TO_EXAMINE/INSPECT_DECIDE",
+    "reports_root": "_Reports/Legacy_Move_<timestamp>",
+    "required_inputs": ["orphaned_files.json", "unreachable_modules.json"],
+    "artifacts": ["audit_sources.txt", "move_manifest.jsonl", "moved_files.txt", "skipped_files.txt"],
+    "process": [
+      "Copy with origin metadata (root/subsystem, relative path, UTC move time).",
+      "Write sidecar metadata for unsupported formats, then remove the original.",
+      "Skip referenced files, directories, missing files, or existing destinations.",
+      "After move, ensure sources are deleted; keep manifest; run best-effort python3 -m compileall -q ."
+    ]
+  },
+  "doc_visibility": "When creating or appending docs, include the link in chat for visibility.",
+  "legacy_script_normalization_tagging": {
+    "destination": "_Dev_Resources/Dev_Scripts/LEGACY_SCRIPTS_TO_EXAMINE/INSPECT_DECIDE/",
+    "preserve_path": "Preserve full repo-relative path inside destination.",
+    "origin_metadata": "Include root protocol category, immediate subdirectory, and full repo-relative path.",
+    "inline_header": "For comment-capable files, prepend origin header; for others, create .origin.json sidecar with same metadata."
+  },
+  "script_header_normalization": {
+    "status": "Deferred until Script_Crawl phase",
+    "scope": ["System_Entry_Point", "System_Stack", "Dev_Scripts", "Reports", "Tools"],
+    "template": "See Documentation/Devlopment_Rules.md for full header fields and layout."
+  },
+  "script_rewrite_rule": {
+    "when": "Any script touched for promotion or reintegration during Audit & Normalize",
+    "requirements": [
+      "Full rewrite (no incremental patches).",
+      "Title_Case_With_Underscores naming and standardized header.",
+      "Explicit imports (no wildcards); lint/syntax clean.",
+      "Clear runtime classification (dev tooling, test harness, runtime module, adapter/interface).",
+      "Log as a rewrite event with source reference."
+    ],
+    "exclusions": "Scripts only archived or quarantined remain frozen artifacts."
+  },
+  "config_and_proof_sidecars": {
+    "config": "For json/yaml/toml/ini, do not embed headers; create <name>.header.md with Python-header-equivalent fields.",
+    "coq": "Coq .v files are immutable; document via <file>.v.header.md using the provided template."
+  },
+  "legacy_protocol_names": "Legacy protocol names in existing headers/comments are documentation-only; replace with canonical naming when editing for other reasons (no mass rewrites outside approved phases).",
+  "automated_normalization_appendix": {
+    "title": "APPENDIX — AUTOMATED NORMALIZATION & REWRITE ENFORCEMENT RULES (PHASE 5)",
+    "scope": "Applies to all automated audit/normalize processes; additive to base Development Rules; contract enforced.",
+    "contract_enforced": true,
+    "rewrite_threshold": {
+      "rule": "Escalate to FULL REWRITE when triggered; patches are forbidden once escalated.",
+      "conditions": [
+        "More than three errors detected in a single file (syntax, structural, invalid imports, inconsistent naming, abbreviation misuse, rule violations).",
+        "Mixed or conflicting abbreviation usage detected.",
+        "Incorrect long-form expansion of a known abbreviation detected.",
+        "Multiple patch-level edits would be required to achieve compliance.",
+        "Deterministic formatting or naming guarantees are not met."
+      ]
+    },
+    "full_rewrite_protocol": {
+      "requirements": [
+        "Output must be syntactically valid.",
+        "Output must be deterministic: same input -> same output, no randomness, no environment-dependent behavior.",
+        "Comply with all Development Rules (naming, placement, headers, exclusion zones).",
+        "Normalize and enforce all abbreviations across identifiers, comments, docstrings, headers, protocol references; use canonical long form; correct incorrect expansions; forbid mixed usage.",
+        "Install standardized file header; remove legacy headers that violate current rules.",
+        "Preserve functional intent unless explicitly forbidden by rules.",
+        "Never touch guarded paths (see exclusion zones)."
+      ]
+    },
+    "original_preservation": {
+      "applies_to": "PASS only",
+      "rules": [
+        "Preserve the original file unchanged.",
+        "Write rewritten file as a separate artifact.",
+        "Naming must clearly distinguish original vs rewritten.",
+        "UNKNOWN and FAIL groups must not be rewritten."
+      ]
+    },
+    "move_rename_requirements": {
+      "context": "Rewrite-driven move/rename",
+      "rules": [
+        "MOVE/RENAME must be manifest-driven.",
+        "Destination names must follow Title_Case_With_Underscores.",
+        "Destination headers must match final filenames.",
+        "Original relative path must be recorded in the manifest.",
+        "Execution occurs only after batch approval."
+      ]
+    },
+    "test_generation": {
+      "applies_to": "PASS only",
+      "rules": [
+        "Generate a test script for each rewritten file.",
+        "Place tests under /workspaces/Logos_System/_Dev_Resources/AUTO_SCRIPT_TESTS.",
+        "Tests must be deterministic and minimal-safe (import/smoke by default).",
+        "Write a per-file manifest.",
+        "Maintain a global run-all-tests script."
+      ]
+    },
+    "exclusion_zones": {
+      "fail_closed": true,
+      "paths": [
+        "PXL_Gate/",
+        "Runtime_Compiler/",
+        "Any Coq proof, build, or lock-and-key artifact"
+      ],
+      "rule": "Automation must never modify, move, rename, rewrite, or inspect contents of exclusion zones; attempts hard-fail the run."
+    },
+    "governance_auditability": {
+      "rules": [
+        "Log all rewrite actions.",
+        "Pre-rewrite content must be recoverable.",
+        "Decisions must be explainable via artifacts.",
+        "Silence is a failure condition."
+      ]
+    }
+  }
+}

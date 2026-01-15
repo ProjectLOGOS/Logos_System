@@ -1,0 +1,38 @@
+--- /workspaces/Logos_System/_Dev_Resources/Dev_Scripts/LEGACY_SCRIPTS_TO_EXAMINE/INSPECT_DECIDE/_Dev_Resources/Dev_Scripts/repo_tools/system_audit/_common.py
++++ /workspaces/Logos_System/_Dev_Resources/Dev_Scripts/LEGACY_SCRIPTS_TO_EXAMINE/INSPECT_DECIDE/_Dev_Resources/Dev_Scripts/repo_tools/system_audit/_common.py (prod header)
+@@ -1,4 +1,35 @@
+ #!/usr/bin/env python3
++# ============================
++# LOGOS PRODUCTION HEADER
++# ============================
++# File: /workspaces/Logos_System/_Dev_Resources/Dev_Scripts/LEGACY_SCRIPTS_TO_EXAMINE/INSPECT_DECIDE/_Dev_Resources/Dev_Scripts/repo_tools/system_audit/_common.py
++# Role: Repository Audit Utility
++# Layer: DEV_RESOURCES
++# Tags: AUDIT, ENTRY_UNKNOWN, INSPECT_DECIDE, REWRITE_PROMOTE
++#
++# Purpose:
++#   TODO: describe module responsibility.
++#
++# Inputs:
++#   - (auto) CLI args / environment (if applicable)
++#
++# Outputs:
++#   - (auto) filesystem artifacts (if applicable)
++#
++# Runtime Status:
++#   Not required for core runtime execution; developer-invoked utility.
++#
++# Side Effects:
++#   filesystem
++#
++# Governance:
++#   - Fail-closed on missing dependencies or invalid state.
++#   - Do not modify Coq stacks unless explicitly unlocked by policy.
++#   - Canonical abbreviations enforced: ARP, BDN, ETGC, IEL, LEM, MTP, MVS, PXL, SCP, SMP, SOP, TLM, UWM.
++#
++# Generated: 2026-01-14T20:18:29Z (UTC)
++# ============================
++
+ # LOGOS_HEADER: v1
+ # updated_utc: 2026-01-14T20:07:43Z
+ # path: /workspaces/Logos_System/_Dev_Resources/Dev_Scripts/LEGACY_SCRIPTS_TO_EXAMINE/INSPECT_DECIDE/_Dev_Resources/Dev_Scripts/repo_tools/system_audit/_common.py

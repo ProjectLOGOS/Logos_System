@@ -1,662 +1,662 @@
 [
   {
-    "name": "ui",
-    "package_dir": "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/ui"
+    "package_dir": "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/ui",
+    "name": "ui"
   },
   {
-    "name": "arp_stack_compiler",
-    "package_dir": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/arp_stack_compiler"
+    "package_dir": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/arp_stack_compiler",
+    "name": "arp_stack_compiler"
   },
   {
-    "name": "iel_domains",
-    "package_dir": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains"
+    "package_dir": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains",
+    "name": "iel_domains"
   },
   {
-    "name": "docs",
-    "package_dir": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/AestheticoPraxis/docs"
+    "package_dir": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/AestheticoPraxis/docs",
+    "name": "docs"
   },
   {
-    "name": "modal",
-    "package_dir": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/AestheticoPraxis/modal"
+    "package_dir": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/AestheticoPraxis/modal",
+    "name": "modal"
   },
   {
-    "name": "systems",
-    "package_dir": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/AestheticoPraxis/systems"
+    "package_dir": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/AestheticoPraxis/systems",
+    "name": "systems"
   },
   {
-    "name": "tests",
-    "package_dir": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/AestheticoPraxis/tests"
+    "package_dir": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/AestheticoPraxis/tests",
+    "name": "tests"
   },
   {
-    "name": "theorems",
-    "package_dir": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/AestheticoPraxis/theorems"
+    "package_dir": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/AestheticoPraxis/theorems",
+    "name": "theorems"
   },
   {
-    "name": "docs",
-    "package_dir": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/AnthroPraxis/docs"
+    "package_dir": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/AnthroPraxis/docs",
+    "name": "docs"
   },
   {
-    "name": "modal",
-    "package_dir": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/AnthroPraxis/modal"
+    "package_dir": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/AnthroPraxis/modal",
+    "name": "modal"
   },
   {
-    "name": "subdomains",
-    "package_dir": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/AnthroPraxis/subdomains"
+    "package_dir": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/AnthroPraxis/subdomains",
+    "name": "subdomains"
   },
   {
-    "name": "systems",
-    "package_dir": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/AnthroPraxis/systems"
+    "package_dir": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/AnthroPraxis/systems",
+    "name": "systems"
   },
   {
-    "name": "tests",
-    "package_dir": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/AnthroPraxis/tests"
+    "package_dir": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/AnthroPraxis/tests",
+    "name": "tests"
   },
   {
-    "name": "theorems",
-    "package_dir": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/AnthroPraxis/theorems"
+    "package_dir": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/AnthroPraxis/theorems",
+    "name": "theorems"
   },
   {
-    "name": "docs",
-    "package_dir": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/AxioPraxis/docs"
+    "package_dir": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/AxioPraxis/docs",
+    "name": "docs"
   },
   {
-    "name": "modal",
-    "package_dir": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/AxioPraxis/modal"
+    "package_dir": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/AxioPraxis/modal",
+    "name": "modal"
   },
   {
-    "name": "subdomains",
-    "package_dir": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/AxioPraxis/subdomains"
+    "package_dir": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/AxioPraxis/subdomains",
+    "name": "subdomains"
   },
   {
-    "name": "systems",
-    "package_dir": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/AxioPraxis/systems"
+    "package_dir": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/AxioPraxis/systems",
+    "name": "systems"
   },
   {
-    "name": "tests",
-    "package_dir": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/AxioPraxis/tests"
+    "package_dir": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/AxioPraxis/tests",
+    "name": "tests"
   },
   {
-    "name": "theorems",
-    "package_dir": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/AxioPraxis/theorems"
+    "package_dir": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/AxioPraxis/theorems",
+    "name": "theorems"
   },
   {
-    "name": "chronopraxis",
-    "package_dir": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/ChronoPraxis/chronopraxis"
+    "package_dir": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/ChronoPraxis/chronopraxis",
+    "name": "chronopraxis"
   },
   {
-    "name": "domains",
-    "package_dir": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/ChronoPraxis/domains"
+    "package_dir": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/ChronoPraxis/domains",
+    "name": "domains"
   },
   {
-    "name": "interfaces",
-    "package_dir": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/ChronoPraxis/interfaces"
+    "package_dir": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/ChronoPraxis/interfaces",
+    "name": "interfaces"
   },
   {
-    "name": "substrate",
-    "package_dir": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/ChronoPraxis/substrate"
+    "package_dir": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/ChronoPraxis/substrate",
+    "name": "substrate"
   },
   {
-    "name": "chronostate",
-    "package_dir": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/ChronoPraxis/substrate/chronostate"
+    "package_dir": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/ChronoPraxis/substrate/chronostate",
+    "name": "chronostate"
   },
   {
-    "name": "tactics",
-    "package_dir": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/ChronoPraxis/tactics"
+    "package_dir": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/ChronoPraxis/tactics",
+    "name": "tactics"
   },
   {
-    "name": "theorems",
-    "package_dir": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/ChronoPraxis/theorems"
+    "package_dir": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/ChronoPraxis/theorems",
+    "name": "theorems"
   },
   {
-    "name": "experimental",
-    "package_dir": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/ChronoPraxis/theorems/experimental"
+    "package_dir": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/ChronoPraxis/theorems/experimental",
+    "name": "experimental"
   },
   {
-    "name": "docs",
-    "package_dir": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/CosmoPraxis/docs"
+    "package_dir": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/CosmoPraxis/docs",
+    "name": "docs"
   },
   {
-    "name": "modal",
-    "package_dir": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/CosmoPraxis/modal"
+    "package_dir": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/CosmoPraxis/modal",
+    "name": "modal"
   },
   {
-    "name": "subdomains",
-    "package_dir": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/CosmoPraxis/subdomains"
+    "package_dir": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/CosmoPraxis/subdomains",
+    "name": "subdomains"
   },
   {
-    "name": "systems",
-    "package_dir": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/CosmoPraxis/systems"
+    "package_dir": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/CosmoPraxis/systems",
+    "name": "systems"
   },
   {
-    "name": "tests",
-    "package_dir": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/CosmoPraxis/tests"
+    "package_dir": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/CosmoPraxis/tests",
+    "name": "tests"
   },
   {
-    "name": "theorems",
-    "package_dir": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/CosmoPraxis/theorems"
+    "package_dir": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/CosmoPraxis/theorems",
+    "name": "theorems"
   },
   {
-    "name": "modal",
-    "package_dir": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/ErgoPraxis/modal"
+    "package_dir": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/ErgoPraxis/modal",
+    "name": "modal"
   },
   {
-    "name": "subdomains",
-    "package_dir": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/ErgoPraxis/subdomains"
+    "package_dir": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/ErgoPraxis/subdomains",
+    "name": "subdomains"
   },
   {
-    "name": "tests",
-    "package_dir": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/ErgoPraxis/tests"
+    "package_dir": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/ErgoPraxis/tests",
+    "name": "tests"
   },
   {
-    "name": "theorems",
-    "package_dir": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/ErgoPraxis/theorems"
+    "package_dir": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/ErgoPraxis/theorems",
+    "name": "theorems"
   },
   {
-    "name": "modal",
-    "package_dir": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/GnosiPraxis/modal"
+    "package_dir": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/GnosiPraxis/modal",
+    "name": "modal"
   },
   {
-    "name": "subdomains",
-    "package_dir": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/GnosiPraxis/subdomains"
+    "package_dir": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/GnosiPraxis/subdomains",
+    "name": "subdomains"
   },
   {
-    "name": "systems",
-    "package_dir": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/GnosiPraxis/systems"
+    "package_dir": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/GnosiPraxis/systems",
+    "name": "systems"
   },
   {
-    "name": "theorems",
-    "package_dir": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/GnosiPraxis/theorems"
+    "package_dir": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/GnosiPraxis/theorems",
+    "name": "theorems"
   },
   {
-    "name": "modal",
-    "package_dir": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/ModalPraxis/modal"
+    "package_dir": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/ModalPraxis/modal",
+    "name": "modal"
   },
   {
-    "name": "theorems",
-    "package_dir": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/ModalPraxis/theorems"
+    "package_dir": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/ModalPraxis/theorems",
+    "name": "theorems"
   },
   {
-    "name": "docs",
-    "package_dir": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/RelatioPraxis/docs"
+    "package_dir": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/RelatioPraxis/docs",
+    "name": "docs"
   },
   {
-    "name": "modal",
-    "package_dir": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/RelatioPraxis/modal"
+    "package_dir": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/RelatioPraxis/modal",
+    "name": "modal"
   },
   {
-    "name": "systems",
-    "package_dir": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/RelatioPraxis/systems"
+    "package_dir": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/RelatioPraxis/systems",
+    "name": "systems"
   },
   {
-    "name": "tests",
-    "package_dir": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/RelatioPraxis/tests"
+    "package_dir": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/RelatioPraxis/tests",
+    "name": "tests"
   },
   {
-    "name": "theorems",
-    "package_dir": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/RelatioPraxis/theorems"
+    "package_dir": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/RelatioPraxis/theorems",
+    "name": "theorems"
   },
   {
-    "name": "modal",
-    "package_dir": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/TeloPraxis/modal"
+    "package_dir": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/TeloPraxis/modal",
+    "name": "modal"
   },
   {
-    "name": "subdomains",
-    "package_dir": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/TeloPraxis/subdomains"
+    "package_dir": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/TeloPraxis/subdomains",
+    "name": "subdomains"
   },
   {
-    "name": "tests",
-    "package_dir": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/TeloPraxis/tests"
+    "package_dir": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/TeloPraxis/tests",
+    "name": "tests"
   },
   {
-    "name": "theorems",
-    "package_dir": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/TeloPraxis/theorems"
+    "package_dir": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/TeloPraxis/theorems",
+    "name": "theorems"
   },
   {
-    "name": "modal",
-    "package_dir": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/ThemiPraxis/modal"
+    "package_dir": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/ThemiPraxis/modal",
+    "name": "modal"
   },
   {
-    "name": "subdomains",
-    "package_dir": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/ThemiPraxis/subdomains"
+    "package_dir": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/ThemiPraxis/subdomains",
+    "name": "subdomains"
   },
   {
-    "name": "systems",
-    "package_dir": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/ThemiPraxis/systems"
+    "package_dir": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/ThemiPraxis/systems",
+    "name": "systems"
   },
   {
-    "name": "theorems",
-    "package_dir": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/ThemiPraxis/theorems"
+    "package_dir": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/ThemiPraxis/theorems",
+    "name": "theorems"
   },
   {
-    "name": "subdomains",
-    "package_dir": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/TheoPraxis/subdomains"
+    "package_dir": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/TheoPraxis/subdomains",
+    "name": "subdomains"
   },
   {
-    "name": "docs",
-    "package_dir": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/TopoPraxis/docs"
+    "package_dir": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/TopoPraxis/docs",
+    "name": "docs"
   },
   {
-    "name": "systems",
-    "package_dir": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/TopoPraxis/systems"
+    "package_dir": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/TopoPraxis/systems",
+    "name": "systems"
   },
   {
-    "name": "tests",
-    "package_dir": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/TopoPraxis/tests"
+    "package_dir": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/TopoPraxis/tests",
+    "name": "tests"
   },
   {
-    "name": "theorems",
-    "package_dir": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/TopoPraxis/theorems"
+    "package_dir": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/TopoPraxis/theorems",
+    "name": "theorems"
   },
   {
-    "name": "infra",
-    "package_dir": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/TropoPraxis/infra"
+    "package_dir": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/TropoPraxis/infra",
+    "name": "infra"
   },
   {
-    "name": "adaptive",
-    "package_dir": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/TropoPraxis/infra/adaptive"
+    "package_dir": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/TropoPraxis/infra/adaptive",
+    "name": "adaptive"
   },
   {
-    "name": "modal",
-    "package_dir": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/TropoPraxis/modal"
+    "package_dir": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/TropoPraxis/modal",
+    "name": "modal"
   },
   {
-    "name": "subdomains",
-    "package_dir": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/TropoPraxis/subdomains"
+    "package_dir": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/TropoPraxis/subdomains",
+    "name": "subdomains"
   },
   {
-    "name": "tests",
-    "package_dir": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/TropoPraxis/tests"
+    "package_dir": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/TropoPraxis/tests",
+    "name": "tests"
   },
   {
-    "name": "theorems",
-    "package_dir": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/TropoPraxis/theorems"
+    "package_dir": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/TropoPraxis/theorems",
+    "name": "theorems"
   },
   {
-    "name": "iel_toolkit",
-    "package_dir": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_toolkit"
+    "package_dir": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_toolkit",
+    "name": "iel_toolkit"
   },
   {
-    "name": "iel",
-    "package_dir": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_toolkit/iel"
+    "package_dir": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_toolkit/iel",
+    "name": "iel"
   },
   {
-    "name": "mathematical_foundations",
-    "package_dir": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/mathematical_foundations"
+    "package_dir": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/mathematical_foundations",
+    "name": "mathematical_foundations"
   },
   {
-    "name": "formalisms",
-    "package_dir": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/mathematical_foundations/formalisms"
+    "package_dir": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/mathematical_foundations/formalisms",
+    "name": "formalisms"
   },
   {
-    "name": "math_categories",
-    "package_dir": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/mathematical_foundations/math_categories"
+    "package_dir": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/mathematical_foundations/math_categories",
+    "name": "math_categories"
   },
   {
-    "name": "tests",
-    "package_dir": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/mathematical_foundations/math_categories/tests"
+    "package_dir": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/mathematical_foundations/math_categories/tests",
+    "name": "tests"
   },
   {
-    "name": "scripts",
-    "package_dir": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/mathematical_foundations/math_categories/tests/scripts"
+    "package_dir": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/mathematical_foundations/math_categories/tests/scripts",
+    "name": "scripts"
   },
   {
-    "name": "pxl",
-    "package_dir": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/mathematical_foundations/pxl"
+    "package_dir": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/mathematical_foundations/pxl",
+    "name": "pxl"
   },
   {
-    "name": "arithmopraxis",
-    "package_dir": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/mathematical_foundations/pxl/arithmopraxis"
+    "package_dir": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/mathematical_foundations/pxl/arithmopraxis",
+    "name": "arithmopraxis"
   },
   {
-    "name": "nexus",
-    "package_dir": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/nexus"
+    "package_dir": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/nexus",
+    "name": "nexus"
   },
   {
-    "name": "reasoning_engines",
-    "package_dir": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/reasoning_engines"
+    "package_dir": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/reasoning_engines",
+    "name": "reasoning_engines"
   },
   {
-    "name": "bayesian",
-    "package_dir": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/reasoning_engines/bayesian"
+    "package_dir": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/reasoning_engines/bayesian",
+    "name": "bayesian"
   },
   {
-    "name": "bayesian_enhanced",
-    "package_dir": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/reasoning_engines/bayesian/bayesian_enhanced"
+    "package_dir": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/reasoning_engines/bayesian/bayesian_enhanced",
+    "name": "bayesian_enhanced"
   },
   {
-    "name": "data",
-    "package_dir": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/reasoning_engines/bayesian/data"
+    "package_dir": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/reasoning_engines/bayesian/data",
+    "name": "data"
   },
   {
-    "name": "bayesian_ml",
-    "package_dir": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/reasoning_engines/bayesian/data/bayesian_ml"
+    "package_dir": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/reasoning_engines/bayesian/data/bayesian_ml",
+    "name": "bayesian_ml"
   },
   {
-    "name": "temporal_modal",
-    "package_dir": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/reasoning_engines/temporal_modal"
+    "package_dir": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/reasoning_engines/temporal_modal",
+    "name": "temporal_modal"
   },
   {
-    "name": "tests",
-    "package_dir": "Logos_System/System_Stack/Logos_Protocol/Activation_Sequencer/tests"
+    "package_dir": "Logos_System/System_Stack/Logos_Protocol/Activation_Sequencer/tests",
+    "name": "tests"
   },
   {
-    "name": "_core",
-    "package_dir": "Logos_System/System_Stack/Logos_Protocol/Logos_Agents/I1_Agent/_core"
+    "package_dir": "Logos_System/System_Stack/Logos_Protocol/Logos_Agents/I1_Agent/_core",
+    "name": "_core"
   },
   {
-    "name": "config",
-    "package_dir": "Logos_System/System_Stack/Logos_Protocol/Logos_Agents/I1_Agent/config"
+    "package_dir": "Logos_System/System_Stack/Logos_Protocol/Logos_Agents/I1_Agent/config",
+    "name": "config"
   },
   {
-    "name": "connections",
-    "package_dir": "Logos_System/System_Stack/Logos_Protocol/Logos_Agents/I1_Agent/connections"
+    "package_dir": "Logos_System/System_Stack/Logos_Protocol/Logos_Agents/I1_Agent/connections",
+    "name": "connections"
   },
   {
-    "name": "diagnostics",
-    "package_dir": "Logos_System/System_Stack/Logos_Protocol/Logos_Agents/I1_Agent/diagnostics"
+    "package_dir": "Logos_System/System_Stack/Logos_Protocol/Logos_Agents/I1_Agent/diagnostics",
+    "name": "diagnostics"
   },
   {
-    "name": "protocol_operations",
-    "package_dir": "Logos_System/System_Stack/Logos_Protocol/Logos_Agents/I1_Agent/protocol_operations"
+    "package_dir": "Logos_System/System_Stack/Logos_Protocol/Logos_Agents/I1_Agent/protocol_operations",
+    "name": "protocol_operations"
   },
   {
-    "name": "scp_analysis",
-    "package_dir": "Logos_System/System_Stack/Logos_Protocol/Logos_Agents/I1_Agent/protocol_operations/scp_analysis"
+    "package_dir": "Logos_System/System_Stack/Logos_Protocol/Logos_Agents/I1_Agent/protocol_operations/scp_analysis",
+    "name": "scp_analysis"
   },
   {
-    "name": "scp_bdn_adapter",
-    "package_dir": "Logos_System/System_Stack/Logos_Protocol/Logos_Agents/I1_Agent/protocol_operations/scp_bdn_adapter"
+    "package_dir": "Logos_System/System_Stack/Logos_Protocol/Logos_Agents/I1_Agent/protocol_operations/scp_bdn_adapter",
+    "name": "scp_bdn_adapter"
   },
   {
-    "name": "scp_cycle",
-    "package_dir": "Logos_System/System_Stack/Logos_Protocol/Logos_Agents/I1_Agent/protocol_operations/scp_cycle"
+    "package_dir": "Logos_System/System_Stack/Logos_Protocol/Logos_Agents/I1_Agent/protocol_operations/scp_cycle",
+    "name": "scp_cycle"
   },
   {
-    "name": "scp_integrations",
-    "package_dir": "Logos_System/System_Stack/Logos_Protocol/Logos_Agents/I1_Agent/protocol_operations/scp_integrations"
+    "package_dir": "Logos_System/System_Stack/Logos_Protocol/Logos_Agents/I1_Agent/protocol_operations/scp_integrations",
+    "name": "scp_integrations"
   },
   {
-    "name": "scp_mvs_adapter",
-    "package_dir": "Logos_System/System_Stack/Logos_Protocol/Logos_Agents/I1_Agent/protocol_operations/scp_mvs_adapter"
+    "package_dir": "Logos_System/System_Stack/Logos_Protocol/Logos_Agents/I1_Agent/protocol_operations/scp_mvs_adapter",
+    "name": "scp_mvs_adapter"
   },
   {
-    "name": "scp_predict",
-    "package_dir": "Logos_System/System_Stack/Logos_Protocol/Logos_Agents/I1_Agent/protocol_operations/scp_predict"
+    "package_dir": "Logos_System/System_Stack/Logos_Protocol/Logos_Agents/I1_Agent/protocol_operations/scp_predict",
+    "name": "scp_predict"
   },
   {
-    "name": "scp_runtime",
-    "package_dir": "Logos_System/System_Stack/Logos_Protocol/Logos_Agents/I1_Agent/protocol_operations/scp_runtime"
+    "package_dir": "Logos_System/System_Stack/Logos_Protocol/Logos_Agents/I1_Agent/protocol_operations/scp_runtime",
+    "name": "scp_runtime"
   },
   {
-    "name": "scp_tests",
-    "package_dir": "Logos_System/System_Stack/Logos_Protocol/Logos_Agents/I1_Agent/protocol_operations/scp_tests"
+    "package_dir": "Logos_System/System_Stack/Logos_Protocol/Logos_Agents/I1_Agent/protocol_operations/scp_tests",
+    "name": "scp_tests"
   },
   {
-    "name": "scp_transform",
-    "package_dir": "Logos_System/System_Stack/Logos_Protocol/Logos_Agents/I1_Agent/protocol_operations/scp_transform"
+    "package_dir": "Logos_System/System_Stack/Logos_Protocol/Logos_Agents/I1_Agent/protocol_operations/scp_transform",
+    "name": "scp_transform"
   },
   {
-    "name": "_core",
-    "package_dir": "Logos_System/System_Stack/Logos_Protocol/Logos_Agents/I2_Agent/_core"
+    "package_dir": "Logos_System/System_Stack/Logos_Protocol/Logos_Agents/I2_Agent/_core",
+    "name": "_core"
   },
   {
-    "name": "llm_io",
-    "package_dir": "Logos_System/System_Stack/Logos_Protocol/Logos_Agents/I2_Agent/protocol_operations/llm_io"
+    "package_dir": "Logos_System/System_Stack/Logos_Protocol/Logos_Agents/I2_Agent/protocol_operations/llm_io",
+    "name": "llm_io"
   },
   {
-    "name": "privation_library",
-    "package_dir": "Logos_System/System_Stack/Logos_Protocol/Logos_Agents/I2_Agent/protocol_operations/privation_handler/privation_library"
+    "package_dir": "Logos_System/System_Stack/Logos_Protocol/Logos_Agents/I2_Agent/protocol_operations/privation_handler/privation_library",
+    "name": "privation_library"
   },
   {
-    "name": "ui_io",
-    "package_dir": "Logos_System/System_Stack/Logos_Protocol/Logos_Agents/I2_Agent/protocol_operations/ui_io"
+    "package_dir": "Logos_System/System_Stack/Logos_Protocol/Logos_Agents/I2_Agent/protocol_operations/ui_io",
+    "name": "ui_io"
   },
   {
-    "name": "_core",
-    "package_dir": "Logos_System/System_Stack/Logos_Protocol/Logos_Agents/I3_Agent/_core"
+    "package_dir": "Logos_System/System_Stack/Logos_Protocol/Logos_Agents/I3_Agent/_core",
+    "name": "_core"
   },
   {
-    "name": "arp_cycle",
-    "package_dir": "Logos_System/System_Stack/Logos_Protocol/Logos_Agents/I3_Agent/protocol_operations/arp_cycle"
+    "package_dir": "Logos_System/System_Stack/Logos_Protocol/Logos_Agents/I3_Agent/protocol_operations/arp_cycle",
+    "name": "arp_cycle"
   },
   {
-    "name": "arp_planner",
-    "package_dir": "Logos_System/System_Stack/Logos_Protocol/Logos_Agents/I3_Agent/protocol_operations/arp_planner"
+    "package_dir": "Logos_System/System_Stack/Logos_Protocol/Logos_Agents/I3_Agent/protocol_operations/arp_planner",
+    "name": "arp_planner"
   },
   {
-    "name": "arp_runtime",
-    "package_dir": "Logos_System/System_Stack/Logos_Protocol/Logos_Agents/I3_Agent/protocol_operations/arp_runtime"
+    "package_dir": "Logos_System/System_Stack/Logos_Protocol/Logos_Agents/I3_Agent/protocol_operations/arp_runtime",
+    "name": "arp_runtime"
   },
   {
-    "name": "arp_tests",
-    "package_dir": "Logos_System/System_Stack/Logos_Protocol/Logos_Agents/I3_Agent/protocol_operations/arp_tests"
+    "package_dir": "Logos_System/System_Stack/Logos_Protocol/Logos_Agents/I3_Agent/protocol_operations/arp_tests",
+    "name": "arp_tests"
   },
   {
-    "name": "plugins",
-    "package_dir": "Logos_System/System_Stack/Meaning_Translation_Protocol/Receiver_Nexus/LLM_Interface/plugins"
+    "package_dir": "Logos_System/System_Stack/Meaning_Translation_Protocol/Receiver_Nexus/LLM_Interface/plugins",
+    "name": "plugins"
   },
   {
-    "name": "core_processing",
-    "package_dir": "Logos_System/System_Stack/Meaning_Translation_Protocol/core_processing"
+    "package_dir": "Logos_System/System_Stack/Meaning_Translation_Protocol/core_processing",
+    "name": "core_processing"
   },
   {
-    "name": "interface_runtime",
-    "package_dir": "Logos_System/System_Stack/Meaning_Translation_Protocol/interface_runtime"
+    "package_dir": "Logos_System/System_Stack/Meaning_Translation_Protocol/interface_runtime",
+    "name": "interface_runtime"
   },
   {
-    "name": "language_modules",
-    "package_dir": "Logos_System/System_Stack/Meaning_Translation_Protocol/language_modules"
+    "package_dir": "Logos_System/System_Stack/Meaning_Translation_Protocol/language_modules",
+    "name": "language_modules"
   },
   {
-    "name": "smp_packetizer",
-    "package_dir": "Logos_System/System_Stack/Meaning_Translation_Protocol/smp_packetizer"
+    "package_dir": "Logos_System/System_Stack/Meaning_Translation_Protocol/smp_packetizer",
+    "name": "smp_packetizer"
   },
   {
-    "name": "symbolic_translation",
-    "package_dir": "Logos_System/System_Stack/Meaning_Translation_Protocol/symbolic_translation"
+    "package_dir": "Logos_System/System_Stack/Meaning_Translation_Protocol/symbolic_translation",
+    "name": "symbolic_translation"
   },
   {
-    "name": "system_utilities",
-    "package_dir": "Logos_System/System_Stack/Meaning_Translation_Protocol/system_utilities"
+    "package_dir": "Logos_System/System_Stack/Meaning_Translation_Protocol/system_utilities",
+    "name": "system_utilities"
   },
   {
-    "name": "nexus",
-    "package_dir": "Logos_System/System_Stack/Meaning_Translation_Protocol/system_utilities/nexus"
+    "package_dir": "Logos_System/System_Stack/Meaning_Translation_Protocol/system_utilities/nexus",
+    "name": "nexus"
   },
   {
-    "name": "shared",
-    "package_dir": "Logos_System/System_Stack/Meaning_Translation_Protocol/system_utilities/shared"
+    "package_dir": "Logos_System/System_Stack/Meaning_Translation_Protocol/system_utilities/shared",
+    "name": "shared"
   },
   {
-    "name": "core",
-    "package_dir": "Logos_System/System_Stack/Synthetic_Cognition_Protocol/BDN_System/core"
+    "package_dir": "Logos_System/System_Stack/Synthetic_Cognition_Protocol/BDN_System/core",
+    "name": "core"
   },
   {
-    "name": "integration",
-    "package_dir": "Logos_System/System_Stack/Synthetic_Cognition_Protocol/BDN_System/integration"
+    "package_dir": "Logos_System/System_Stack/Synthetic_Cognition_Protocol/BDN_System/integration",
+    "name": "integration"
   },
   {
-    "name": "data_c_values",
-    "package_dir": "Logos_System/System_Stack/Synthetic_Cognition_Protocol/MVS_System/data_c_values"
+    "package_dir": "Logos_System/System_Stack/Synthetic_Cognition_Protocol/MVS_System/data_c_values",
+    "name": "data_c_values"
   },
   {
-    "name": "fractal_orbital",
-    "package_dir": "Logos_System/System_Stack/Synthetic_Cognition_Protocol/MVS_System/fractal_orbital"
+    "package_dir": "Logos_System/System_Stack/Synthetic_Cognition_Protocol/MVS_System/fractal_orbital",
+    "name": "fractal_orbital"
   },
   {
-    "name": "mathematics",
-    "package_dir": "Logos_System/System_Stack/Synthetic_Cognition_Protocol/MVS_System/mathematics"
+    "package_dir": "Logos_System/System_Stack/Synthetic_Cognition_Protocol/MVS_System/mathematics",
+    "name": "mathematics"
   },
   {
-    "name": "mvs_calculators",
-    "package_dir": "Logos_System/System_Stack/Synthetic_Cognition_Protocol/MVS_System/mvs_calculators"
+    "package_dir": "Logos_System/System_Stack/Synthetic_Cognition_Protocol/MVS_System/mvs_calculators",
+    "name": "mvs_calculators"
   },
   {
-    "name": "predictors",
-    "package_dir": "Logos_System/System_Stack/Synthetic_Cognition_Protocol/MVS_System/predictors"
+    "package_dir": "Logos_System/System_Stack/Synthetic_Cognition_Protocol/MVS_System/predictors",
+    "name": "predictors"
   },
   {
-    "name": "consciousness",
-    "package_dir": "Logos_System/System_Stack/Synthetic_Cognition_Protocol/consciousness"
+    "package_dir": "Logos_System/System_Stack/Synthetic_Cognition_Protocol/consciousness",
+    "name": "consciousness"
   },
   {
-    "name": "data",
-    "package_dir": "Logos_System/System_Stack/Synthetic_Cognition_Protocol/data"
+    "package_dir": "Logos_System/System_Stack/Synthetic_Cognition_Protocol/data",
+    "name": "data"
   },
   {
-    "name": "data",
-    "package_dir": "Logos_System/System_Stack/Synthetic_Cognition_Protocol/data/data"
+    "package_dir": "Logos_System/System_Stack/Synthetic_Cognition_Protocol/data/data",
+    "name": "data"
   },
   {
-    "name": "data_library",
-    "package_dir": "Logos_System/System_Stack/Synthetic_Cognition_Protocol/data/data/data_library"
+    "package_dir": "Logos_System/System_Stack/Synthetic_Cognition_Protocol/data/data/data_library",
+    "name": "data_library"
   },
   {
-    "name": "system_utilities",
-    "package_dir": "Logos_System/System_Stack/Synthetic_Cognition_Protocol/system_utilities"
+    "package_dir": "Logos_System/System_Stack/Synthetic_Cognition_Protocol/system_utilities",
+    "name": "system_utilities"
   },
   {
-    "name": "nexus",
-    "package_dir": "Logos_System/System_Stack/Synthetic_Cognition_Protocol/system_utilities/nexus"
+    "package_dir": "Logos_System/System_Stack/Synthetic_Cognition_Protocol/system_utilities/nexus",
+    "name": "nexus"
   },
   {
-    "name": "protocol_txts",
-    "package_dir": "Logos_System/System_Stack/System_Operations_Protocol/Documentation/Project_Notes/protocol_txts"
+    "package_dir": "Logos_System/System_Stack/System_Operations_Protocol/Documentation/Project_Notes/protocol_txts",
+    "name": "protocol_txts"
   },
   {
-    "name": "IEL_generator",
-    "package_dir": "Logos_System/System_Stack/System_Operations_Protocol/IEL_generator"
+    "package_dir": "Logos_System/System_Stack/System_Operations_Protocol/IEL_generator",
+    "name": "IEL_generator"
   },
   {
-    "name": "code_generator",
-    "package_dir": "Logos_System/System_Stack/System_Operations_Protocol/IEL_generator/code_generator"
+    "package_dir": "Logos_System/System_Stack/System_Operations_Protocol/IEL_generator/code_generator",
+    "name": "code_generator"
   },
   {
-    "name": "ontoprop_paring",
-    "package_dir": "Logos_System/System_Stack/System_Operations_Protocol/IEL_generator/ontoprop_paring"
+    "package_dir": "Logos_System/System_Stack/System_Operations_Protocol/IEL_generator/ontoprop_paring",
+    "name": "ontoprop_paring"
   },
   {
-    "name": "tests",
-    "package_dir": "Logos_System/System_Stack/System_Operations_Protocol/Optimization/tests"
+    "package_dir": "Logos_System/System_Stack/System_Operations_Protocol/Optimization/tests",
+    "name": "tests"
   },
   {
-    "name": "alignment_protocols",
-    "package_dir": "Logos_System/System_Stack/System_Operations_Protocol/alignment_protocols"
+    "package_dir": "Logos_System/System_Stack/System_Operations_Protocol/alignment_protocols",
+    "name": "alignment_protocols"
   },
   {
-    "name": "coherence",
-    "package_dir": "Logos_System/System_Stack/System_Operations_Protocol/alignment_protocols/coherence"
+    "package_dir": "Logos_System/System_Stack/System_Operations_Protocol/alignment_protocols/coherence",
+    "name": "coherence"
   },
   {
-    "name": "compliance",
-    "package_dir": "Logos_System/System_Stack/System_Operations_Protocol/alignment_protocols/compliance"
+    "package_dir": "Logos_System/System_Stack/System_Operations_Protocol/alignment_protocols/compliance",
+    "name": "compliance"
   },
   {
-    "name": "persistence",
-    "package_dir": "Logos_System/System_Stack/System_Operations_Protocol/alignment_protocols/persistence"
+    "package_dir": "Logos_System/System_Stack/System_Operations_Protocol/alignment_protocols/persistence",
+    "name": "persistence"
   },
   {
-    "name": "policies",
-    "package_dir": "Logos_System/System_Stack/System_Operations_Protocol/alignment_protocols/policies"
+    "package_dir": "Logos_System/System_Stack/System_Operations_Protocol/alignment_protocols/policies",
+    "name": "policies"
   },
   {
-    "name": "safety",
-    "package_dir": "Logos_System/System_Stack/System_Operations_Protocol/alignment_protocols/safety"
+    "package_dir": "Logos_System/System_Stack/System_Operations_Protocol/alignment_protocols/safety",
+    "name": "safety"
   },
   {
-    "name": "integrity_framework",
-    "package_dir": "Logos_System/System_Stack/System_Operations_Protocol/alignment_protocols/safety/integrity_framework"
+    "package_dir": "Logos_System/System_Stack/System_Operations_Protocol/alignment_protocols/safety/integrity_framework",
+    "name": "integrity_framework"
   },
   {
-    "name": "obdc",
-    "package_dir": "Logos_System/System_Stack/System_Operations_Protocol/alignment_protocols/safety/obdc"
+    "package_dir": "Logos_System/System_Stack/System_Operations_Protocol/alignment_protocols/safety/obdc",
+    "name": "obdc"
   },
   {
-    "name": "ultima_framework",
-    "package_dir": "Logos_System/System_Stack/System_Operations_Protocol/alignment_protocols/safety/ultima_framework"
+    "package_dir": "Logos_System/System_Stack/System_Operations_Protocol/alignment_protocols/safety/ultima_framework",
+    "name": "ultima_framework"
   },
   {
-    "name": "state",
-    "package_dir": "Logos_System/System_Stack/System_Operations_Protocol/alignment_protocols/state"
+    "package_dir": "Logos_System/System_Stack/System_Operations_Protocol/alignment_protocols/state",
+    "name": "state"
   },
   {
-    "name": "validation",
-    "package_dir": "Logos_System/System_Stack/System_Operations_Protocol/alignment_protocols/validation"
+    "package_dir": "Logos_System/System_Stack/System_Operations_Protocol/alignment_protocols/validation",
+    "name": "validation"
   },
   {
-    "name": "examples",
-    "package_dir": "Logos_System/System_Stack/System_Operations_Protocol/alignment_protocols/validation/examples"
+    "package_dir": "Logos_System/System_Stack/System_Operations_Protocol/alignment_protocols/validation/examples",
+    "name": "examples"
   },
   {
-    "name": "testing",
-    "package_dir": "Logos_System/System_Stack/System_Operations_Protocol/alignment_protocols/validation/testing"
+    "package_dir": "Logos_System/System_Stack/System_Operations_Protocol/alignment_protocols/validation/testing",
+    "name": "testing"
   },
   {
-    "name": "tests",
-    "package_dir": "Logos_System/System_Stack/System_Operations_Protocol/alignment_protocols/validation/testing/tests"
+    "package_dir": "Logos_System/System_Stack/System_Operations_Protocol/alignment_protocols/validation/testing/tests",
+    "name": "tests"
   },
   {
-    "name": "code_generator",
-    "package_dir": "Logos_System/System_Stack/System_Operations_Protocol/code_generator"
+    "package_dir": "Logos_System/System_Stack/System_Operations_Protocol/code_generator",
+    "name": "code_generator"
   },
   {
-    "name": "meta_reasoning",
-    "package_dir": "Logos_System/System_Stack/System_Operations_Protocol/code_generator/meta_reasoning"
+    "package_dir": "Logos_System/System_Stack/System_Operations_Protocol/code_generator/meta_reasoning",
+    "name": "meta_reasoning"
   },
   {
-    "name": "data_storage",
-    "package_dir": "Logos_System/System_Stack/System_Operations_Protocol/data_storage"
+    "package_dir": "Logos_System/System_Stack/System_Operations_Protocol/data_storage",
+    "name": "data_storage"
   },
   {
-    "name": "knowledge",
-    "package_dir": "Logos_System/System_Stack/System_Operations_Protocol/data_storage/knowledge"
+    "package_dir": "Logos_System/System_Stack/System_Operations_Protocol/data_storage/knowledge",
+    "name": "knowledge"
   },
   {
-    "name": "deployment",
-    "package_dir": "Logos_System/System_Stack/System_Operations_Protocol/deployment"
+    "package_dir": "Logos_System/System_Stack/System_Operations_Protocol/deployment",
+    "name": "deployment"
   },
   {
-    "name": "boot",
-    "package_dir": "Logos_System/System_Stack/System_Operations_Protocol/deployment/boot"
+    "package_dir": "Logos_System/System_Stack/System_Operations_Protocol/deployment/boot",
+    "name": "boot"
   },
   {
-    "name": "configuration",
-    "package_dir": "Logos_System/System_Stack/System_Operations_Protocol/deployment/configuration"
+    "package_dir": "Logos_System/System_Stack/System_Operations_Protocol/deployment/configuration",
+    "name": "configuration"
   },
   {
-    "name": "monitoring",
-    "package_dir": "Logos_System/System_Stack/System_Operations_Protocol/deployment/monitoring"
+    "package_dir": "Logos_System/System_Stack/System_Operations_Protocol/deployment/monitoring",
+    "name": "monitoring"
   },
   {
-    "name": "docker_orchestration",
-    "package_dir": "Logos_System/System_Stack/System_Operations_Protocol/deployment/monitoring/docker_orchestration"
+    "package_dir": "Logos_System/System_Stack/System_Operations_Protocol/deployment/monitoring/docker_orchestration",
+    "name": "docker_orchestration"
   },
   {
-    "name": "governance",
-    "package_dir": "Logos_System/System_Stack/System_Operations_Protocol/governance"
+    "package_dir": "Logos_System/System_Stack/System_Operations_Protocol/governance",
+    "name": "governance"
   },
   {
-    "name": "agent_system",
-    "package_dir": "Logos_System/System_Stack/System_Operations_Protocol/infrastructure/agent_system"
+    "package_dir": "Logos_System/System_Stack/System_Operations_Protocol/infrastructure/agent_system",
+    "name": "agent_system"
   },
   {
-    "name": "nexus",
-    "package_dir": "Logos_System/System_Stack/System_Operations_Protocol/nexus"
+    "package_dir": "Logos_System/System_Stack/System_Operations_Protocol/nexus",
+    "name": "nexus"
   },
   {
-    "name": "operations",
-    "package_dir": "Logos_System/System_Stack/System_Operations_Protocol/operations"
+    "package_dir": "PXL_Gate/coq/src/ui",
+    "name": "ui"
   },
   {
-    "name": "ui",
-    "package_dir": "PXL_Gate/coq/src/ui"
+    "package_dir": "_Dev_Resources/Dev_Scripts/repo_tools/audit_normalize_automation/phase_5",
+    "name": "phase_5"
   },
   {
-    "name": "security",
-    "package_dir": "_Dev_Resources/Dev_Scripts/security"
+    "package_dir": "_Dev_Resources/Dev_Scripts/security",
+    "name": "security"
   },
   {
-    "name": "system_utilities",
-    "package_dir": "_Dev_Resources/Dev_Scripts/system_utilities"
+    "package_dir": "_Dev_Resources/Dev_Scripts/system_utilities",
+    "name": "system_utilities"
   }
 ]

@@ -1,0 +1,15 @@
+FILE: /workspaces/Logos_System/_Dev_Resources/Dev_Scripts/LEGACY_SCRIPTS_TO_EXAMINE/INSPECT_DECIDE/_Dev_Resources/Dev_Scripts/repo_tools/system_audit/audit_driver.py
+  bytes=1556
+  has_summary_header=False
+  alias_hits=[]
+
+FILE: /workspaces/Logos_System/_Dev_Resources/Dev_Scripts/LEGACY_SCRIPTS_TO_EXAMINE/INSPECT_DECIDE/_Dev_Resources/LEGACY_SCRIPTS_TO_EXAMINE/INSPECT_DECIDE/export_tool_registry.py
+  bytes=3930
+  has_summary_header=False
+  alias_hits=[]
+
+FILE: /workspaces/Logos_System/_Dev_Resources/Dev_Scripts/LEGACY_SCRIPTS_TO_EXAMINE/INSPECT_DECIDE/_Dev_Resources/LEGACY_SCRIPTS_TO_EXAMINE/INSPECT_DECIDE/scp_local_diagnostic.py
+  bytes=6987
+  has_summary_header=False
+  alias_hits=[]
+

@@ -1,0 +1,7 @@
+{
+  "script": "_Dev_Resources/LEGACY_SCRIPTS_TO_EXAMINE/test_stub_beliefs_never_verified.py",
+  "phase_1": "PASS",
+  "phase_2": "PASS",
+  "phase_3": "PASS",
+  "routed_to": "DEFER_TO_PHASE_5"
+}

@@ -1,0 +1,2082 @@
+[
+  {
+    "path": "Logos_System/System_Entry_Point/LEGACY_SCRIPTS_NOT_FINAL/lem_portal_cli.py",
+    "classification": "LEGACY_EXPERIMENTAL"
+  },
+  {
+    "path": "Logos_System/System_Entry_Point/LEGACY_SCRIPTS_NOT_FINAL/run_integration.py",
+    "classification": "LEGACY_EXPERIMENTAL"
+  },
+  {
+    "path": "Logos_System/System_Entry_Point/LEGACY_SCRIPTS_NOT_FINAL/serve_pxl.py",
+    "classification": "LEGACY_EXPERIMENTAL"
+  },
+  {
+    "path": "Logos_System/System_Entry_Point/LEGACY_SCRIPTS_NOT_FINAL/test_lem_discharge.py",
+    "classification": "LEGACY_EXPERIMENTAL"
+  },
+  {
+    "path": "Logos_System/System_Entry_Point/Orchestration_Tools/compute_identity_hash.py",
+    "classification": "UNKNOWN_REVIEW"
+  },
+  {
+    "path": "Logos_System/System_Entry_Point/Orchestration_Tools/lib_loader.py",
+    "classification": "UNKNOWN_REVIEW"
+  },
+  {
+    "path": "Logos_System/System_Entry_Point/Orchestration_Tools/proof_gate_tools.py",
+    "classification": "UNKNOWN_REVIEW"
+  },
+  {
+    "path": "Logos_System/System_Entry_Point/Orchestration_Tools/runtime_protocol.py",
+    "classification": "UNKNOWN_REVIEW"
+  },
+  {
+    "path": "Logos_System/System_Entry_Point/Recusion_Grounding/recursion_identity_runtime.py",
+    "classification": "UNKNOWN_REVIEW"
+  },
+  {
+    "path": "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/ui/PXL_Proof_Compile.py",
+    "classification": "UNKNOWN_REVIEW"
+  },
+  {
+    "path": "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/ui/audit_and_emit.py",
+    "classification": "UNKNOWN_REVIEW"
+  },
+  {
+    "path": "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/ui/lem_portal.py",
+    "classification": "UNKNOWN_REVIEW"
+  },
+  {
+    "path": "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/ui/run_coq_pipeline.py",
+    "classification": "UNKNOWN_REVIEW"
+  },
+  {
+    "path": "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/ui/serve_pxl.py",
+    "classification": "UNKNOWN_REVIEW"
+  },
+  {
+    "path": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/arp_stack_compiler/arp_bootstrap.py",
+    "classification": "UNKNOWN_REVIEW"
+  },
+  {
+    "path": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/arp_stack_compiler/arp_operations.py",
+    "classification": "UNKNOWN_REVIEW"
+  },
+  {
+    "path": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/arp_stack_compiler/arp_stack_compiler.py",
+    "classification": "UNKNOWN_REVIEW"
+  },
+  {
+    "path": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/AnthroPraxis/collaboration.py",
+    "classification": "UNKNOWN_REVIEW"
+  },
+  {
+    "path": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/AnthroPraxis/ethics.py",
+    "classification": "UNKNOWN_REVIEW"
+  },
+  {
+    "path": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/AnthroPraxis/interaction_models.py",
+    "classification": "UNKNOWN_REVIEW"
+  },
+  {
+    "path": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/AxioPraxis/axiom_systems.py",
+    "classification": "UNKNOWN_REVIEW"
+  },
+  {
+    "path": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/AxioPraxis/consistency_checker.py",
+    "classification": "UNKNOWN_REVIEW"
+  },
+  {
+    "path": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/AxioPraxis/foundational_logic.py",
+    "classification": "UNKNOWN_REVIEW"
+  },
+  {
+    "path": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/ChronoPraxis/chronopraxis/sequence_analysis.py",
+    "classification": "UNKNOWN_REVIEW"
+  },
+  {
+    "path": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/ChronoPraxis/chronopraxis/temporal_logic.py",
+    "classification": "UNKNOWN_REVIEW"
+  },
+  {
+    "path": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/ChronoPraxis/chronopraxis/time_modeling.py",
+    "classification": "UNKNOWN_REVIEW"
+  },
+  {
+    "path": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/CosmoPraxis/cosmic_systems.py",
+    "classification": "UNKNOWN_REVIEW"
+  },
+  {
+    "path": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/CosmoPraxis/space_time_framework.py",
+    "classification": "UNKNOWN_REVIEW"
+  },
+  {
+    "path": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/CosmoPraxis/universal_logic.py",
+    "classification": "UNKNOWN_REVIEW"
+  },
+  {
+    "path": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/ErgoPraxis/action_system.py",
+    "classification": "UNKNOWN_REVIEW"
+  },
+  {
+    "path": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/ErgoPraxis/ergonomic_optimizer.py",
+    "classification": "UNKNOWN_REVIEW"
+  },
+  {
+    "path": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/ErgoPraxis/resource_manager.py",
+    "classification": "UNKNOWN_REVIEW"
+  },
+  {
+    "path": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/GnosiPraxis/belief_network.py",
+    "classification": "UNKNOWN_REVIEW"
+  },
+  {
+    "path": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/GnosiPraxis/epistemological_framework.py",
+    "classification": "UNKNOWN_REVIEW"
+  },
+  {
+    "path": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/GnosiPraxis/knowledge_system.py",
+    "classification": "UNKNOWN_REVIEW"
+  },
+  {
+    "path": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/ModalPraxis/modal_logic.py",
+    "classification": "UNKNOWN_REVIEW"
+  },
+  {
+    "path": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/ModalPraxis/modal_reasoner.py",
+    "classification": "UNKNOWN_REVIEW"
+  },
+  {
+    "path": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/ModalPraxis/multi_modal_system.py",
+    "classification": "UNKNOWN_REVIEW"
+  },
+  {
+    "path": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_toolkit/iel/iel_error_handler.py",
+    "classification": "UNKNOWN_REVIEW"
+  },
+  {
+    "path": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_toolkit/iel/iel_schema.py",
+    "classification": "UNKNOWN_REVIEW"
+  },
+  {
+    "path": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_toolkit/iel/iel_synthesizer.py",
+    "classification": "UNKNOWN_REVIEW"
+  },
+  {
+    "path": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_toolkit/iel_overlay.py",
+    "classification": "UNKNOWN_REVIEW"
+  },
+  {
+    "path": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_toolkit/iel_registry.py",
+    "classification": "UNKNOWN_REVIEW"
+  },
+  {
+    "path": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/mathematical_foundations/formalisms/coherence_formalism.py",
+    "classification": "UNKNOWN_REVIEW"
+  },
+  {
+    "path": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/mathematical_foundations/formalisms/safety_formalisms.py",
+    "classification": "UNKNOWN_REVIEW"
+  },
+  {
+    "path": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/mathematical_foundations/formalisms/three_pillars_alt.py",
+    "classification": "UNKNOWN_REVIEW"
+  },
+  {
+    "path": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/mathematical_foundations/formalisms/three_pillars_framework.py",
+    "classification": "UNKNOWN_REVIEW"
+  },
+  {
+    "path": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/mathematical_foundations/formalisms/trinity_framework.py",
+    "classification": "UNKNOWN_REVIEW"
+  },
+  {
+    "path": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/mathematical_foundations/math_categories/logos_mathematical_core.py",
+    "classification": "UNKNOWN_REVIEW"
+  },
+  {
+    "path": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/mathematical_foundations/pxl/arithmopraxis/arithmetic_engine.py",
+    "classification": "UNKNOWN_REVIEW"
+  },
+  {
+    "path": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/mathematical_foundations/pxl/arithmopraxis/proof_engine.py",
+    "classification": "UNKNOWN_REVIEW"
+  },
+  {
+    "path": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/mathematical_foundations/pxl/arithmopraxis/symbolic_math.py",
+    "classification": "UNKNOWN_REVIEW"
+  },
+  {
+    "path": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/mathematical_foundations/pxl/consistency_checker.py",
+    "classification": "UNKNOWN_REVIEW"
+  },
+  {
+    "path": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/mathematical_foundations/pxl/pxl_postprocessor.py",
+    "classification": "UNKNOWN_REVIEW"
+  },
+  {
+    "path": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/mathematical_foundations/pxl/pxl_schema.py",
+    "classification": "UNKNOWN_REVIEW"
+  },
+  {
+    "path": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/mathematical_foundations/pxl/relation_mapper.py",
+    "classification": "UNKNOWN_REVIEW"
+  },
+  {
+    "path": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/nexus/arp_nexus.py",
+    "classification": "UNKNOWN_REVIEW"
+  },
+  {
+    "path": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/nexus/example_usage.py",
+    "classification": "LEGACY_EXPERIMENTAL"
+  },
+  {
+    "path": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/nexus/integration_test.py",
+    "classification": "UNKNOWN_REVIEW"
+  },
+  {
+    "path": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/nexus/test_arp_nexus.py",
+    "classification": "LEGACY_EXPERIMENTAL"
+  },
+  {
+    "path": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/reasoning_engines/bayesian/bayesian_enhanced/bayes_update_real_time.py",
+    "classification": "UNKNOWN_REVIEW"
+  },
+  {
+    "path": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/reasoning_engines/bayesian/bayesian_enhanced/bayesian_data_parser.py",
+    "classification": "UNKNOWN_REVIEW"
+  },
+  {
+    "path": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/reasoning_engines/bayesian/bayesian_enhanced/bayesian_inference.py",
+    "classification": "UNKNOWN_REVIEW"
+  },
+  {
+    "path": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/reasoning_engines/bayesian/bayesian_enhanced/bayesian_inferencer.py",
+    "classification": "UNKNOWN_REVIEW"
+  },
+  {
+    "path": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/reasoning_engines/bayesian/bayesian_enhanced/bayesian_interface.py",
+    "classification": "UNKNOWN_REVIEW"
+  },
+  {
+    "path": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/reasoning_engines/bayesian/bayesian_enhanced/bayesian_ml.py",
+    "classification": "UNKNOWN_REVIEW"
+  },
+  {
+    "path": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/reasoning_engines/bayesian/bayesian_enhanced/bayesian_nexus.py",
+    "classification": "UNKNOWN_REVIEW"
+  },
+  {
+    "path": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/reasoning_engines/bayesian/bayesian_enhanced/bayesian_recursion.py",
+    "classification": "UNKNOWN_REVIEW"
+  },
+  {
+    "path": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/reasoning_engines/bayesian/bayesian_enhanced/bayesian_updates.py",
+    "classification": "UNKNOWN_REVIEW"
+  },
+  {
+    "path": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/reasoning_engines/bayesian/bayesian_enhanced/hierarchical_bayes_network.py",
+    "classification": "UNKNOWN_REVIEW"
+  },
+  {
+    "path": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/reasoning_engines/bayesian/bayesian_enhanced/mcmc_engine.py",
+    "classification": "UNKNOWN_REVIEW"
+  },
+  {
+    "path": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/reasoning_engines/temporal_modal/Temporal_Flow_Analyzer.py",
+    "classification": "UNKNOWN_REVIEW"
+  },
+  {
+    "path": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/reasoning_engines/temporal_modal/bugfix.py",
+    "classification": "UNKNOWN_REVIEW"
+  },
+  {
+    "path": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/reasoning_engines/temporal_modal/coherence.py",
+    "classification": "UNKNOWN_REVIEW"
+  },
+  {
+    "path": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/reasoning_engines/temporal_modal/modal_validator.py",
+    "classification": "UNKNOWN_REVIEW"
+  },
+  {
+    "path": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/reasoning_engines/temporal_modal/temporal_predictor.py",
+    "classification": "UNKNOWN_REVIEW"
+  },
+  {
+    "path": "Logos_System/System_Stack/Logos_Protocol/Activation_Sequencer/Agent_Integration/coordinator.py",
+    "classification": "CANONICAL_UNWIRED"
+  },
+  {
+    "path": "Logos_System/System_Stack/Logos_Protocol/Activation_Sequencer/Agent_Integration/dispatch.py",
+    "classification": "CANONICAL_UNWIRED"
+  },
+  {
+    "path": "Logos_System/System_Stack/Logos_Protocol/Activation_Sequencer/Agent_Integration/test_determinism.py",
+    "classification": "CANONICAL_UNWIRED"
+  },
+  {
+    "path": "Logos_System/System_Stack/Logos_Protocol/Activation_Sequencer/Agent_Integration/types.py",
+    "classification": "CANONICAL_UNWIRED"
+  },
+  {
+    "path": "Logos_System/System_Stack/Logos_Protocol/Activation_Sequencer/Identity_Generator/Agent_ID_Spin_Up/agent_identity.py",
+    "classification": "CANONICAL_UNWIRED"
+  },
+  {
+    "path": "Logos_System/System_Stack/Logos_Protocol/Activation_Sequencer/Identity_Generator/Agent_ID_Spin_Up/agent_planner.py",
+    "classification": "CANONICAL_UNWIRED"
+  },
+  {
+    "path": "Logos_System/System_Stack/Logos_Protocol/Activation_Sequencer/Identity_Generator/Agent_ID_Spin_Up/attestation.py",
+    "classification": "CANONICAL_UNWIRED"
+  },
+  {
+    "path": "Logos_System/System_Stack/Logos_Protocol/Activation_Sequencer/Identity_Generator/Agent_ID_Spin_Up/audit_and_emit.py",
+    "classification": "CANONICAL_UNWIRED"
+  },
+  {
+    "path": "Logos_System/System_Stack/Logos_Protocol/Activation_Sequencer/Identity_Generator/Agent_ID_Spin_Up/consciousness_safety_adapter.py",
+    "classification": "CANONICAL_UNWIRED"
+  },
+  {
+    "path": "Logos_System/System_Stack/Logos_Protocol/Activation_Sequencer/Identity_Generator/Agent_ID_Spin_Up/identity_loader.py",
+    "classification": "CANONICAL_UNWIRED"
+  },
+  {
+    "path": "Logos_System/System_Stack/Logos_Protocol/Activation_Sequencer/Identity_Generator/Agent_ID_Spin_Up/persist_identity.py",
+    "classification": "CANONICAL_UNWIRED"
+  },
+  {
+    "path": "Logos_System/System_Stack/Logos_Protocol/Activation_Sequencer/Identity_Generator/Agent_ID_Spin_Up/run_conscious_sim.py",
+    "classification": "CANONICAL_UNWIRED"
+  },
+  {
+    "path": "Logos_System/System_Stack/Logos_Protocol/Activation_Sequencer/Identity_Generator/Agent_ID_Spin_Up/schemas.py",
+    "classification": "CANONICAL_UNWIRED"
+  },
+  {
+    "path": "Logos_System/System_Stack/Logos_Protocol/Activation_Sequencer/Identity_Generator/Agent_ID_Spin_Up/uwm.py",
+    "classification": "CANONICAL_UNWIRED"
+  },
+  {
+    "path": "Logos_System/System_Stack/Logos_Protocol/Activation_Sequencer/tests/test_integration_identity.py",
+    "classification": "CANONICAL_UNWIRED"
+  },
+  {
+    "path": "Logos_System/System_Stack/Logos_Protocol/Activation_Sequencer/tests/test_lock_unlock.py",
+    "classification": "CANONICAL_UNWIRED"
+  },
+  {
+    "path": "Logos_System/System_Stack/Logos_Protocol/External_Enhancements/Cognition_Wrapper_Memgpt.py",
+    "classification": "CANONICAL_UNWIRED"
+  },
+  {
+    "path": "Logos_System/System_Stack/Logos_Protocol/External_Enhancements/Cognition_Wrapper_Micropsi.py",
+    "classification": "CANONICAL_UNWIRED"
+  },
+  {
+    "path": "Logos_System/System_Stack/Logos_Protocol/External_Enhancements/Cognition_Wrapper_Openai.py",
+    "classification": "CANONICAL_UNWIRED"
+  },
+  {
+    "path": "Logos_System/System_Stack/Logos_Protocol/External_Enhancements/Cognition_Wrapper_Pgmpy.py",
+    "classification": "CANONICAL_UNWIRED"
+  },
+  {
+    "path": "Logos_System/System_Stack/Logos_Protocol/External_Enhancements/Cognition_Wrapper_Pydantic.py",
+    "classification": "CANONICAL_UNWIRED"
+  },
+  {
+    "path": "Logos_System/System_Stack/Logos_Protocol/External_Enhancements/Cognition_Wrapper_Sympy.py",
+    "classification": "CANONICAL_UNWIRED"
+  },
+  {
+    "path": "Logos_System/System_Stack/Logos_Protocol/External_Enhancements/Constraint_Stubs.py",
+    "classification": "CANONICAL_UNWIRED"
+  },
+  {
+    "path": "Logos_System/System_Stack/Logos_Protocol/External_Enhancements/External_Enhancements_Registry.py",
+    "classification": "CANONICAL_UNWIRED"
+  },
+  {
+    "path": "Logos_System/System_Stack/Logos_Protocol/External_Enhancements/Graph_Wrapper_Networkx.py",
+    "classification": "CANONICAL_UNWIRED"
+  },
+  {
+    "path": "Logos_System/System_Stack/Logos_Protocol/External_Enhancements/Graph_Wrapper_Pyvis.py",
+    "classification": "CANONICAL_UNWIRED"
+  },
+  {
+    "path": "Logos_System/System_Stack/Logos_Protocol/External_Enhancements/Graph_Wrapper_Rdflib.py",
+    "classification": "CANONICAL_UNWIRED"
+  },
+  {
+    "path": "Logos_System/System_Stack/Logos_Protocol/External_Enhancements/ML_Wrapper_Arch.py",
+    "classification": "CANONICAL_UNWIRED"
+  },
+  {
+    "path": "Logos_System/System_Stack/Logos_Protocol/External_Enhancements/ML_Wrapper_Prophet.py",
+    "classification": "CANONICAL_UNWIRED"
+  },
+  {
+    "path": "Logos_System/System_Stack/Logos_Protocol/External_Enhancements/ML_Wrapper_Sklearn.py",
+    "classification": "CANONICAL_UNWIRED"
+  },
+  {
+    "path": "Logos_System/System_Stack/Logos_Protocol/External_Enhancements/ML_Wrapper_Statsmodels.py",
+    "classification": "CANONICAL_UNWIRED"
+  },
+  {
+    "path": "Logos_System/System_Stack/Logos_Protocol/External_Enhancements/ML_Wrapper_Torch.py",
+    "classification": "CANONICAL_UNWIRED"
+  },
+  {
+    "path": "Logos_System/System_Stack/Logos_Protocol/External_Enhancements/NLP_Wrapper_Nltk.py",
+    "classification": "CANONICAL_UNWIRED"
+  },
+  {
+    "path": "Logos_System/System_Stack/Logos_Protocol/External_Enhancements/NLP_Wrapper_Sentence_Transformers.py",
+    "classification": "CANONICAL_UNWIRED"
+  },
+  {
+    "path": "Logos_System/System_Stack/Logos_Protocol/External_Enhancements/NLP_Wrapper_Spacy.py",
+    "classification": "CANONICAL_UNWIRED"
+  },
+  {
+    "path": "Logos_System/System_Stack/Logos_Protocol/External_Enhancements/NLP_Wrapper_Transformers.py",
+    "classification": "CANONICAL_UNWIRED"
+  },
+  {
+    "path": "Logos_System/System_Stack/Logos_Protocol/External_Enhancements/Register_All_Wrappers.py",
+    "classification": "CANONICAL_UNWIRED"
+  },
+  {
+    "path": "Logos_System/System_Stack/Logos_Protocol/External_Enhancements/Visualization_Wrapper_Matplotlib.py",
+    "classification": "CANONICAL_UNWIRED"
+  },
+  {
+    "path": "Logos_System/System_Stack/Logos_Protocol/External_Enhancements/Visualization_Wrapper_Plotly.py",
+    "classification": "CANONICAL_UNWIRED"
+  },
+  {
+    "path": "Logos_System/System_Stack/Logos_Protocol/External_Enhancements/Visualization_Wrapper_Seaborn.py",
+    "classification": "CANONICAL_UNWIRED"
+  },
+  {
+    "path": "Logos_System/System_Stack/Logos_Protocol/Logos_Agents/Agent_Resources/__init__ .py",
+    "classification": "CANONICAL_UNWIRED"
+  },
+  {
+    "path": "Logos_System/System_Stack/Logos_Protocol/Logos_Agents/I1_Agent/__init__ .py",
+    "classification": "CANONICAL_UNWIRED"
+  },
+  {
+    "path": "Logos_System/System_Stack/Logos_Protocol/Logos_Agents/I1_Agent/_core/OmniProperty_Integration.py",
+    "classification": "CANONICAL_UNWIRED"
+  },
+  {
+    "path": "Logos_System/System_Stack/Logos_Protocol/Logos_Agents/I1_Agent/_core/Sign_Principal_Operator.py",
+    "classification": "CANONICAL_UNWIRED"
+  },
+  {
+    "path": "Logos_System/System_Stack/Logos_Protocol/Logos_Agents/I1_Agent/config/constants.py",
+    "classification": "CANONICAL_UNWIRED"
+  },
+  {
+    "path": "Logos_System/System_Stack/Logos_Protocol/Logos_Agents/I1_Agent/config/hashing.py",
+    "classification": "CANONICAL_UNWIRED"
+  },
+  {
+    "path": "Logos_System/System_Stack/Logos_Protocol/Logos_Agents/I1_Agent/config/logging_utils.py",
+    "classification": "CANONICAL_UNWIRED"
+  },
+  {
+    "path": "Logos_System/System_Stack/Logos_Protocol/Logos_Agents/I1_Agent/config/packet_types.py",
+    "classification": "CANONICAL_UNWIRED"
+  },
+  {
+    "path": "Logos_System/System_Stack/Logos_Protocol/Logos_Agents/I1_Agent/config/schema_utils.py",
+    "classification": "CANONICAL_UNWIRED"
+  },
+  {
+    "path": "Logos_System/System_Stack/Logos_Protocol/Logos_Agents/I1_Agent/config/time_utils.py",
+    "classification": "CANONICAL_UNWIRED"
+  },
+  {
+    "path": "Logos_System/System_Stack/Logos_Protocol/Logos_Agents/I1_Agent/connections/id_handler.py",
+    "classification": "CANONICAL_UNWIRED"
+  },
+  {
+    "path": "Logos_System/System_Stack/Logos_Protocol/Logos_Agents/I1_Agent/connections/router.py",
+    "classification": "CANONICAL_UNWIRED"
+  },
+  {
+    "path": "Logos_System/System_Stack/Logos_Protocol/Logos_Agents/I1_Agent/diagnostics/errors.py",
+    "classification": "CANONICAL_UNWIRED"
+  },
+  {
+    "path": "Logos_System/System_Stack/Logos_Protocol/Logos_Agents/I1_Agent/diagnostics/health.py",
+    "classification": "CANONICAL_UNWIRED"
+  },
+  {
+    "path": "Logos_System/System_Stack/Logos_Protocol/Logos_Agents/I1_Agent/protocol_operations/scp_analysis/analysis_runner.py",
+    "classification": "CANONICAL_UNWIRED"
+  },
+  {
+    "path": "Logos_System/System_Stack/Logos_Protocol/Logos_Agents/I1_Agent/protocol_operations/scp_analysis/trajectory_types.py",
+    "classification": "CANONICAL_UNWIRED"
+  },
+  {
+    "path": "Logos_System/System_Stack/Logos_Protocol/Logos_Agents/I1_Agent/protocol_operations/scp_bdn_adapter/bdn_adapter.py",
+    "classification": "CANONICAL_UNWIRED"
+  },
+  {
+    "path": "Logos_System/System_Stack/Logos_Protocol/Logos_Agents/I1_Agent/protocol_operations/scp_bdn_adapter/bdn_types.py",
+    "classification": "CANONICAL_UNWIRED"
+  },
+  {
+    "path": "Logos_System/System_Stack/Logos_Protocol/Logos_Agents/I1_Agent/protocol_operations/scp_cycle/cycle_runner.py",
+    "classification": "CANONICAL_UNWIRED"
+  },
+  {
+    "path": "Logos_System/System_Stack/Logos_Protocol/Logos_Agents/I1_Agent/protocol_operations/scp_cycle/policy.py",
+    "classification": "CANONICAL_UNWIRED"
+  },
+  {
+    "path": "Logos_System/System_Stack/Logos_Protocol/Logos_Agents/I1_Agent/protocol_operations/scp_integrations/iterative_loop.py",
+    "classification": "CANONICAL_UNWIRED"
+  },
+  {
+    "path": "Logos_System/System_Stack/Logos_Protocol/Logos_Agents/I1_Agent/protocol_operations/scp_integrations/pipeline_runner.py",
+    "classification": "CANONICAL_UNWIRED"
+  },
+  {
+    "path": "Logos_System/System_Stack/Logos_Protocol/Logos_Agents/I1_Agent/protocol_operations/scp_mvs_adapter/mvs_adapter.py",
+    "classification": "CANONICAL_UNWIRED"
+  },
+  {
+    "path": "Logos_System/System_Stack/Logos_Protocol/Logos_Agents/I1_Agent/protocol_operations/scp_mvs_adapter/mvs_types.py",
+    "classification": "CANONICAL_UNWIRED"
+  },
+  {
+    "path": "Logos_System/System_Stack/Logos_Protocol/Logos_Agents/I1_Agent/protocol_operations/scp_predict/predict_integration.py",
+    "classification": "CANONICAL_UNWIRED"
+  },
+  {
+    "path": "Logos_System/System_Stack/Logos_Protocol/Logos_Agents/I1_Agent/protocol_operations/scp_predict/risk_estimator.py",
+    "classification": "CANONICAL_UNWIRED"
+  },
+  {
+    "path": "Logos_System/System_Stack/Logos_Protocol/Logos_Agents/I1_Agent/protocol_operations/scp_runtime/result_packet.py",
+    "classification": "CANONICAL_UNWIRED"
+  },
+  {
+    "path": "Logos_System/System_Stack/Logos_Protocol/Logos_Agents/I1_Agent/protocol_operations/scp_runtime/smp_intake.py",
+    "classification": "CANONICAL_UNWIRED"
+  },
+  {
+    "path": "Logos_System/System_Stack/Logos_Protocol/Logos_Agents/I1_Agent/protocol_operations/scp_runtime/work_order.py",
+    "classification": "CANONICAL_UNWIRED"
+  },
+  {
+    "path": "Logos_System/System_Stack/Logos_Protocol/Logos_Agents/I1_Agent/protocol_operations/scp_tests/run_pipeline_smoke.py",
+    "classification": "CANONICAL_UNWIRED"
+  },
+  {
+    "path": "Logos_System/System_Stack/Logos_Protocol/Logos_Agents/I1_Agent/protocol_operations/scp_tests/sample_smp.py",
+    "classification": "CANONICAL_UNWIRED"
+  },
+  {
+    "path": "Logos_System/System_Stack/Logos_Protocol/Logos_Agents/I1_Agent/protocol_operations/scp_transform/iterative_loop.py",
+    "classification": "CANONICAL_UNWIRED"
+  },
+  {
+    "path": "Logos_System/System_Stack/Logos_Protocol/Logos_Agents/I1_Agent/protocol_operations/scp_transform/transform_registry.py",
+    "classification": "CANONICAL_UNWIRED"
+  },
+  {
+    "path": "Logos_System/System_Stack/Logos_Protocol/Logos_Agents/I1_Agent/protocol_operations/scp_transform/transform_types.py",
+    "classification": "CANONICAL_UNWIRED"
+  },
+  {
+    "path": "Logos_System/System_Stack/Logos_Protocol/Logos_Agents/I2_Agent/__init__ .py",
+    "classification": "CANONICAL_UNWIRED"
+  },
+  {
+    "path": "Logos_System/System_Stack/Logos_Protocol/Logos_Agents/I2_Agent/_core/3OT_mediator.py",
+    "classification": "CANONICAL_UNWIRED"
+  },
+  {
+    "path": "Logos_System/System_Stack/Logos_Protocol/Logos_Agents/I2_Agent/_core/bridge_principle_operator.py",
+    "classification": "CANONICAL_UNWIRED"
+  },
+  {
+    "path": "Logos_System/System_Stack/Logos_Protocol/Logos_Agents/I2_Agent/_core/omniproperty_integration.py",
+    "classification": "CANONICAL_UNWIRED"
+  },
+  {
+    "path": "Logos_System/System_Stack/Logos_Protocol/Logos_Agents/I2_Agent/config/constants.py",
+    "classification": "CANONICAL_UNWIRED"
+  },
+  {
+    "path": "Logos_System/System_Stack/Logos_Protocol/Logos_Agents/I2_Agent/config/hashing.py",
+    "classification": "CANONICAL_UNWIRED"
+  },
+  {
+    "path": "Logos_System/System_Stack/Logos_Protocol/Logos_Agents/I2_Agent/config/logging_utils.py",
+    "classification": "CANONICAL_UNWIRED"
+  },
+  {
+    "path": "Logos_System/System_Stack/Logos_Protocol/Logos_Agents/I2_Agent/config/packet_types.py",
+    "classification": "CANONICAL_UNWIRED"
+  },
+  {
+    "path": "Logos_System/System_Stack/Logos_Protocol/Logos_Agents/I2_Agent/config/schema_utils.py",
+    "classification": "CANONICAL_UNWIRED"
+  },
+  {
+    "path": "Logos_System/System_Stack/Logos_Protocol/Logos_Agents/I2_Agent/config/time_utils.py",
+    "classification": "CANONICAL_UNWIRED"
+  },
+  {
+    "path": "Logos_System/System_Stack/Logos_Protocol/Logos_Agents/I2_Agent/connections/id_handler.py",
+    "classification": "CANONICAL_UNWIRED"
+  },
+  {
+    "path": "Logos_System/System_Stack/Logos_Protocol/Logos_Agents/I2_Agent/connections/router.py",
+    "classification": "CANONICAL_UNWIRED"
+  },
+  {
+    "path": "Logos_System/System_Stack/Logos_Protocol/Logos_Agents/I2_Agent/diagnostics/errors.py",
+    "classification": "CANONICAL_UNWIRED"
+  },
+  {
+    "path": "Logos_System/System_Stack/Logos_Protocol/Logos_Agents/I2_Agent/diagnostics/health.py",
+    "classification": "CANONICAL_UNWIRED"
+  },
+  {
+    "path": "Logos_System/System_Stack/Logos_Protocol/Logos_Agents/I2_Agent/protocol_operations/llm_io/client.py",
+    "classification": "CANONICAL_UNWIRED"
+  },
+  {
+    "path": "Logos_System/System_Stack/Logos_Protocol/Logos_Agents/I2_Agent/protocol_operations/llm_io/config.py",
+    "classification": "CANONICAL_UNWIRED"
+  },
+  {
+    "path": "Logos_System/System_Stack/Logos_Protocol/Logos_Agents/I2_Agent/protocol_operations/llm_io/exports.py",
+    "classification": "CANONICAL_UNWIRED"
+  },
+  {
+    "path": "Logos_System/System_Stack/Logos_Protocol/Logos_Agents/I2_Agent/protocol_operations/llm_io/providers_llama.py",
+    "classification": "CANONICAL_UNWIRED"
+  },
+  {
+    "path": "Logos_System/System_Stack/Logos_Protocol/Logos_Agents/I2_Agent/protocol_operations/llm_io/providers_openai.py",
+    "classification": "CANONICAL_UNWIRED"
+  },
+  {
+    "path": "Logos_System/System_Stack/Logos_Protocol/Logos_Agents/I2_Agent/protocol_operations/llm_io/types.py",
+    "classification": "CANONICAL_UNWIRED"
+  },
+  {
+    "path": "Logos_System/System_Stack/Logos_Protocol/Logos_Agents/I2_Agent/protocol_operations/privation_handler/privation_analyst.py",
+    "classification": "CANONICAL_UNWIRED"
+  },
+  {
+    "path": "Logos_System/System_Stack/Logos_Protocol/Logos_Agents/I2_Agent/protocol_operations/privation_handler/privation_classifier.py",
+    "classification": "CANONICAL_UNWIRED"
+  },
+  {
+    "path": "Logos_System/System_Stack/Logos_Protocol/Logos_Agents/I2_Agent/protocol_operations/privation_handler/privation_gate.py",
+    "classification": "CANONICAL_UNWIRED"
+  },
+  {
+    "path": "Logos_System/System_Stack/Logos_Protocol/Logos_Agents/I2_Agent/protocol_operations/privation_handler/privation_override.py",
+    "classification": "CANONICAL_UNWIRED"
+  },
+  {
+    "path": "Logos_System/System_Stack/Logos_Protocol/Logos_Agents/I2_Agent/protocol_operations/privation_handler/privation_transformer.py",
+    "classification": "CANONICAL_UNWIRED"
+  },
+  {
+    "path": "Logos_System/System_Stack/Logos_Protocol/Logos_Agents/I2_Agent/protocol_operations/smp.py",
+    "classification": "CANONICAL_UNWIRED"
+  },
+  {
+    "path": "Logos_System/System_Stack/Logos_Protocol/Logos_Agents/I2_Agent/protocol_operations/ui_io/adapter.py",
+    "classification": "CANONICAL_UNWIRED"
+  },
+  {
+    "path": "Logos_System/System_Stack/Logos_Protocol/Logos_Agents/I2_Agent/protocol_operations/ui_io/server.py",
+    "classification": "CANONICAL_UNWIRED"
+  },
+  {
+    "path": "Logos_System/System_Stack/Logos_Protocol/Logos_Agents/I3_Agent/__init__ .py",
+    "classification": "CANONICAL_UNWIRED"
+  },
+  {
+    "path": "Logos_System/System_Stack/Logos_Protocol/Logos_Agents/I3_Agent/_core/Mind_Principal_Operator.py",
+    "classification": "CANONICAL_UNWIRED"
+  },
+  {
+    "path": "Logos_System/System_Stack/Logos_Protocol/Logos_Agents/I3_Agent/_core/Omni_Property_Integration.py",
+    "classification": "CANONICAL_UNWIRED"
+  },
+  {
+    "path": "Logos_System/System_Stack/Logos_Protocol/Logos_Agents/I3_Agent/config/constants.py",
+    "classification": "CANONICAL_UNWIRED"
+  },
+  {
+    "path": "Logos_System/System_Stack/Logos_Protocol/Logos_Agents/I3_Agent/config/hashing.py",
+    "classification": "CANONICAL_UNWIRED"
+  },
+  {
+    "path": "Logos_System/System_Stack/Logos_Protocol/Logos_Agents/I3_Agent/config/logging_utils.py",
+    "classification": "CANONICAL_UNWIRED"
+  },
+  {
+    "path": "Logos_System/System_Stack/Logos_Protocol/Logos_Agents/I3_Agent/config/packet_types.py",
+    "classification": "CANONICAL_UNWIRED"
+  },
+  {
+    "path": "Logos_System/System_Stack/Logos_Protocol/Logos_Agents/I3_Agent/config/schema_utils.py",
+    "classification": "CANONICAL_UNWIRED"
+  },
+  {
+    "path": "Logos_System/System_Stack/Logos_Protocol/Logos_Agents/I3_Agent/config/time_utils.py",
+    "classification": "CANONICAL_UNWIRED"
+  },
+  {
+    "path": "Logos_System/System_Stack/Logos_Protocol/Logos_Agents/I3_Agent/connections/id_handler.py",
+    "classification": "CANONICAL_UNWIRED"
+  },
+  {
+    "path": "Logos_System/System_Stack/Logos_Protocol/Logos_Agents/I3_Agent/connections/router.py",
+    "classification": "CANONICAL_UNWIRED"
+  },
+  {
+    "path": "Logos_System/System_Stack/Logos_Protocol/Logos_Agents/I3_Agent/diagnostics/errors.py",
+    "classification": "CANONICAL_UNWIRED"
+  },
+  {
+    "path": "Logos_System/System_Stack/Logos_Protocol/Logos_Agents/I3_Agent/diagnostics/health.py",
+    "classification": "CANONICAL_UNWIRED"
+  },
+  {
+    "path": "Logos_System/System_Stack/Logos_Protocol/Logos_Agents/I3_Agent/protocol_operations/arp_cycle/cycle_runner.py",
+    "classification": "CANONICAL_UNWIRED"
+  },
+  {
+    "path": "Logos_System/System_Stack/Logos_Protocol/Logos_Agents/I3_Agent/protocol_operations/arp_cycle/policy.py",
+    "classification": "CANONICAL_UNWIRED"
+  },
+  {
+    "path": "Logos_System/System_Stack/Logos_Protocol/Logos_Agents/I3_Agent/protocol_operations/arp_planner/baseline_planner.py",
+    "classification": "CANONICAL_UNWIRED"
+  },
+  {
+    "path": "Logos_System/System_Stack/Logos_Protocol/Logos_Agents/I3_Agent/protocol_operations/arp_planner/plan_evaluator.py",
+    "classification": "CANONICAL_UNWIRED"
+  },
+  {
+    "path": "Logos_System/System_Stack/Logos_Protocol/Logos_Agents/I3_Agent/protocol_operations/arp_runtime/evaluation_packet.py",
+    "classification": "CANONICAL_UNWIRED"
+  },
+  {
+    "path": "Logos_System/System_Stack/Logos_Protocol/Logos_Agents/I3_Agent/protocol_operations/arp_runtime/plan_packet.py",
+    "classification": "CANONICAL_UNWIRED"
+  },
+  {
+    "path": "Logos_System/System_Stack/Logos_Protocol/Logos_Agents/I3_Agent/protocol_operations/arp_runtime/task_intake.py",
+    "classification": "CANONICAL_UNWIRED"
+  },
+  {
+    "path": "Logos_System/System_Stack/Logos_Protocol/Logos_Agents/I3_Agent/protocol_operations/arp_runtime/work_order.py",
+    "classification": "CANONICAL_UNWIRED"
+  },
+  {
+    "path": "Logos_System/System_Stack/Logos_Protocol/Logos_Agents/I3_Agent/protocol_operations/arp_tests/run_cycle_smoke.py",
+    "classification": "CANONICAL_UNWIRED"
+  },
+  {
+    "path": "Logos_System/System_Stack/Logos_Protocol/Logos_Agents/I3_Agent/protocol_operations/arp_tests/sample_task.py",
+    "classification": "CANONICAL_UNWIRED"
+  },
+  {
+    "path": "Logos_System/System_Stack/Logos_Protocol/Logos_Agents/__init__ .py",
+    "classification": "CANONICAL_UNWIRED"
+  },
+  {
+    "path": "Logos_System/System_Stack/Logos_Protocol/Logos_Core/iel_overlays.py",
+    "classification": "CANONICAL_UNWIRED"
+  },
+  {
+    "path": "Logos_System/System_Stack/Logos_Protocol/Logos_Core/onto_lattice.py",
+    "classification": "CANONICAL_UNWIRED"
+  },
+  {
+    "path": "Logos_System/System_Stack/Logos_Protocol/Logos_Core/reflexive_evaluator.py",
+    "classification": "CANONICAL_UNWIRED"
+  },
+  {
+    "path": "Logos_System/System_Stack/Logos_Protocol/Logos_Core/triune_commutator.py",
+    "classification": "CANONICAL_UNWIRED"
+  },
+  {
+    "path": "Logos_System/System_Stack/Logos_Protocol/Runtime_Operations/Diagnostics/regression_checker.py",
+    "classification": "CANONICAL_UNWIRED"
+  },
+  {
+    "path": "Logos_System/System_Stack/Logos_Protocol/Runtime_Operations/Diagnostics/self_diagnosis.py",
+    "classification": "CANONICAL_UNWIRED"
+  },
+  {
+    "path": "Logos_System/System_Stack/Logos_Protocol/Runtime_Operations/Governance/Constraint_Context.py",
+    "classification": "CANONICAL_UNWIRED"
+  },
+  {
+    "path": "Logos_System/System_Stack/Logos_Protocol/Runtime_Operations/Governance/Constraint_Result.py",
+    "classification": "CANONICAL_UNWIRED"
+  },
+  {
+    "path": "Logos_System/System_Stack/Logos_Protocol/Runtime_Operations/Governance/ETGC_Validator.py",
+    "classification": "CANONICAL_UNWIRED"
+  },
+  {
+    "path": "Logos_System/System_Stack/Logos_Protocol/Runtime_Operations/Governance/Privation_Filter.py",
+    "classification": "CANONICAL_UNWIRED"
+  },
+  {
+    "path": "Logos_System/System_Stack/Logos_Protocol/Runtime_Operations/Governance/TLM_Confirmation.py",
+    "classification": "CANONICAL_UNWIRED"
+  },
+  {
+    "path": "Logos_System/System_Stack/Logos_Protocol/Runtime_Operations/Governance/Trinitarian_Optimizer.py",
+    "classification": "CANONICAL_UNWIRED"
+  },
+  {
+    "path": "Logos_System/System_Stack/Logos_Protocol/Runtime_Operations/Governance/Triune_Principal_Validator.py",
+    "classification": "CANONICAL_UNWIRED"
+  },
+  {
+    "path": "Logos_System/System_Stack/Logos_Protocol/Runtime_Operations/Orchestration/bridge.py",
+    "classification": "CANONICAL_UNWIRED"
+  },
+  {
+    "path": "Logos_System/System_Stack/Logos_Protocol/Runtime_Operations/Orchestration/logos_daemon.py",
+    "classification": "CANONICAL_UNWIRED"
+  },
+  {
+    "path": "Logos_System/System_Stack/Logos_Protocol/Unified_Working_Memory/Analysis_Processors/analytics.py",
+    "classification": "CANONICAL_UNWIRED"
+  },
+  {
+    "path": "Logos_System/System_Stack/Logos_Protocol/Unified_Working_Memory/Analysis_Processors/arima_wrapper.py",
+    "classification": "CANONICAL_UNWIRED"
+  },
+  {
+    "path": "Logos_System/System_Stack/Logos_Protocol/Unified_Working_Memory/Analysis_Processors/causal_architect.py",
+    "classification": "CANONICAL_UNWIRED"
+  },
+  {
+    "path": "Logos_System/System_Stack/Logos_Protocol/Unified_Working_Memory/Analysis_Processors/deep_learning_adapter.py",
+    "classification": "CANONICAL_UNWIRED"
+  },
+  {
+    "path": "Logos_System/System_Stack/Logos_Protocol/Unified_Working_Memory/Analysis_Processors/forecasting_nexus.py",
+    "classification": "CANONICAL_UNWIRED"
+  },
+  {
+    "path": "Logos_System/System_Stack/Logos_Protocol/Unified_Working_Memory/Analysis_Processors/garch_wrapper.py",
+    "classification": "CANONICAL_UNWIRED"
+  },
+  {
+    "path": "Logos_System/System_Stack/Logos_Protocol/Unified_Working_Memory/Analysis_Processors/kalman_filter.py",
+    "classification": "CANONICAL_UNWIRED"
+  },
+  {
+    "path": "Logos_System/System_Stack/Logos_Protocol/Unified_Working_Memory/Analysis_Processors/ml_components.py",
+    "classification": "CANONICAL_UNWIRED"
+  },
+  {
+    "path": "Logos_System/System_Stack/Logos_Protocol/Unified_Working_Memory/Analysis_Processors/pytorch_ml_adapters.py",
+    "classification": "CANONICAL_UNWIRED"
+  },
+  {
+    "path": "Logos_System/System_Stack/Logos_Protocol/Unified_Working_Memory/Analysis_Processors/state_space_utils.py",
+    "classification": "CANONICAL_UNWIRED"
+  },
+  {
+    "path": "Logos_System/System_Stack/Logos_Protocol/Unified_Working_Memory/Analysis_Processors/stats_interface.py",
+    "classification": "CANONICAL_UNWIRED"
+  },
+  {
+    "path": "Logos_System/System_Stack/Logos_Protocol/Unified_Working_Memory/Analysis_Processors/torch_adapters.py",
+    "classification": "CANONICAL_UNWIRED"
+  },
+  {
+    "path": "Logos_System/System_Stack/Logos_Protocol/Unified_Working_Memory/Analysis_Processors/ts_kalman_filter.py",
+    "classification": "CANONICAL_UNWIRED"
+  },
+  {
+    "path": "Logos_System/System_Stack/Logos_Protocol/Unified_Working_Memory/World_Modeling/commitment_ledger.py",
+    "classification": "CANONICAL_UNWIRED"
+  },
+  {
+    "path": "Logos_System/System_Stack/Logos_Protocol/Unified_Working_Memory/World_Modeling/world_model.py",
+    "classification": "CANONICAL_UNWIRED"
+  },
+  {
+    "path": "Logos_System/System_Stack/Meaning_Translation_Protocol/Receiver_Nexus/Custom_GUI/server.py",
+    "classification": "CANONICAL_UNWIRED"
+  },
+  {
+    "path": "Logos_System/System_Stack/Meaning_Translation_Protocol/Receiver_Nexus/LLM_Interface/llm_advisor.py",
+    "classification": "CANONICAL_UNWIRED"
+  },
+  {
+    "path": "Logos_System/System_Stack/Meaning_Translation_Protocol/Receiver_Nexus/LLM_Interface/logos_gpt_chat.py",
+    "classification": "CANONICAL_UNWIRED"
+  },
+  {
+    "path": "Logos_System/System_Stack/Meaning_Translation_Protocol/Receiver_Nexus/LLM_Interface/logos_gpt_server.py",
+    "classification": "CANONICAL_UNWIRED"
+  },
+  {
+    "path": "Logos_System/System_Stack/Meaning_Translation_Protocol/Receiver_Nexus/LLM_Interface/logos_interface.py",
+    "classification": "CANONICAL_UNWIRED"
+  },
+  {
+    "path": "Logos_System/System_Stack/Meaning_Translation_Protocol/Receiver_Nexus/LLM_Interface/plugins/_uip_connector_stubs.py",
+    "classification": "CANONICAL_UNWIRED"
+  },
+  {
+    "path": "Logos_System/System_Stack/Meaning_Translation_Protocol/Receiver_Nexus/LLM_Interface/plugins/enhanced_uip_integration_plugin.py",
+    "classification": "CANONICAL_UNWIRED"
+  },
+  {
+    "path": "Logos_System/System_Stack/Meaning_Translation_Protocol/Receiver_Nexus/LLM_Interface/plugins/guardrails.py",
+    "classification": "CANONICAL_UNWIRED"
+  },
+  {
+    "path": "Logos_System/System_Stack/Meaning_Translation_Protocol/Receiver_Nexus/LLM_Interface/plugins/llm_backend.py",
+    "classification": "CANONICAL_UNWIRED"
+  },
+  {
+    "path": "Logos_System/System_Stack/Meaning_Translation_Protocol/Receiver_Nexus/LLM_Interface/plugins/uip_integration_plugin.py",
+    "classification": "CANONICAL_UNWIRED"
+  },
+  {
+    "path": "Logos_System/System_Stack/Meaning_Translation_Protocol/Receiver_Nexus/LLM_Interface/reasoning_agent.py",
+    "classification": "CANONICAL_UNWIRED"
+  },
+  {
+    "path": "Logos_System/System_Stack/Meaning_Translation_Protocol/Receiver_Nexus/LLM_Interface/run_logos_gpt_acceptance.py",
+    "classification": "CANONICAL_UNWIRED"
+  },
+  {
+    "path": "Logos_System/System_Stack/Meaning_Translation_Protocol/core_processing/adaptive_engine.py",
+    "classification": "CANONICAL_UNWIRED"
+  },
+  {
+    "path": "Logos_System/System_Stack/Meaning_Translation_Protocol/core_processing/language_processor.py",
+    "classification": "CANONICAL_UNWIRED"
+  },
+  {
+    "path": "Logos_System/System_Stack/Meaning_Translation_Protocol/core_processing/mcmc_engine.py",
+    "classification": "CANONICAL_UNWIRED"
+  },
+  {
+    "path": "Logos_System/System_Stack/Meaning_Translation_Protocol/core_processing/registry.py",
+    "classification": "CANONICAL_UNWIRED"
+  },
+  {
+    "path": "Logos_System/System_Stack/Meaning_Translation_Protocol/core_processing/sanitizer.py",
+    "classification": "CANONICAL_UNWIRED"
+  },
+  {
+    "path": "Logos_System/System_Stack/Meaning_Translation_Protocol/interface_runtime/interface_runtime.py",
+    "classification": "CANONICAL_UNWIRED"
+  },
+  {
+    "path": "Logos_System/System_Stack/Meaning_Translation_Protocol/interface_runtime/progressive_router.py",
+    "classification": "CANONICAL_UNWIRED"
+  },
+  {
+    "path": "Logos_System/System_Stack/Meaning_Translation_Protocol/interface_runtime/router.py",
+    "classification": "CANONICAL_UNWIRED"
+  },
+  {
+    "path": "Logos_System/System_Stack/Meaning_Translation_Protocol/language_modules/natural_language_processor.py",
+    "classification": "CANONICAL_UNWIRED"
+  },
+  {
+    "path": "Logos_System/System_Stack/Meaning_Translation_Protocol/language_modules/semantic_transformers.py",
+    "classification": "CANONICAL_UNWIRED"
+  },
+  {
+    "path": "Logos_System/System_Stack/Meaning_Translation_Protocol/language_modules/tranlsation_bridge.py",
+    "classification": "CANONICAL_UNWIRED"
+  },
+  {
+    "path": "Logos_System/System_Stack/Meaning_Translation_Protocol/language_modules/translation_engine.py",
+    "classification": "CANONICAL_UNWIRED"
+  },
+  {
+    "path": "Logos_System/System_Stack/Meaning_Translation_Protocol/symbolic_translation/lambda_engine.py",
+    "classification": "CANONICAL_UNWIRED"
+  },
+  {
+    "path": "Logos_System/System_Stack/Meaning_Translation_Protocol/symbolic_translation/lambda_engine_definitions.py",
+    "classification": "CANONICAL_UNWIRED"
+  },
+  {
+    "path": "Logos_System/System_Stack/Meaning_Translation_Protocol/symbolic_translation/lambda_onto_calculus_engine.py",
+    "classification": "CANONICAL_UNWIRED"
+  },
+  {
+    "path": "Logos_System/System_Stack/Meaning_Translation_Protocol/symbolic_translation/lambda_parser.py",
+    "classification": "CANONICAL_UNWIRED"
+  },
+  {
+    "path": "Logos_System/System_Stack/Meaning_Translation_Protocol/symbolic_translation/logos_lambda_core.py",
+    "classification": "CANONICAL_UNWIRED"
+  },
+  {
+    "path": "Logos_System/System_Stack/Meaning_Translation_Protocol/symbolic_translation/logos_lambda_integration.py",
+    "classification": "CANONICAL_UNWIRED"
+  },
+  {
+    "path": "Logos_System/System_Stack/Meaning_Translation_Protocol/system_utilities/nexus/uip_nexus.py",
+    "classification": "CANONICAL_UNWIRED"
+  },
+  {
+    "path": "Logos_System/System_Stack/Meaning_Translation_Protocol/system_utilities/nexus/uip_operations.py",
+    "classification": "CANONICAL_UNWIRED"
+  },
+  {
+    "path": "Logos_System/System_Stack/Meaning_Translation_Protocol/system_utilities/shared/message_formats.py",
+    "classification": "CANONICAL_UNWIRED"
+  },
+  {
+    "path": "Logos_System/System_Stack/Meaning_Translation_Protocol/system_utilities/shared/system_imports.py",
+    "classification": "CANONICAL_UNWIRED"
+  },
+  {
+    "path": "Logos_System/System_Stack/Meaning_Translation_Protocol/system_utilities/system_utils.py",
+    "classification": "CANONICAL_UNWIRED"
+  },
+  {
+    "path": "Logos_System/System_Stack/Meaning_Translation_Protocol/tests/test_registry_and_response.py",
+    "classification": "CANONICAL_UNWIRED"
+  },
+  {
+    "path": "Logos_System/System_Stack/Synthetic_Cognition_Protocol/BDN_System/bdn_runtime.py",
+    "classification": "CANONICAL_UNWIRED"
+  },
+  {
+    "path": "Logos_System/System_Stack/Synthetic_Cognition_Protocol/BDN_System/core/banach_data_nodes.py",
+    "classification": "CANONICAL_UNWIRED"
+  },
+  {
+    "path": "Logos_System/System_Stack/Synthetic_Cognition_Protocol/BDN_System/core/class_extrapolator.py",
+    "classification": "CANONICAL_UNWIRED"
+  },
+  {
+    "path": "Logos_System/System_Stack/Synthetic_Cognition_Protocol/BDN_System/core/fractal_orbital_node_generator.py",
+    "classification": "CANONICAL_UNWIRED"
+  },
+  {
+    "path": "Logos_System/System_Stack/Synthetic_Cognition_Protocol/BDN_System/core/logos_nodes_connections.py",
+    "classification": "CANONICAL_UNWIRED"
+  },
+  {
+    "path": "Logos_System/System_Stack/Synthetic_Cognition_Protocol/BDN_System/core/persistence_manager.py",
+    "classification": "CANONICAL_UNWIRED"
+  },
+  {
+    "path": "Logos_System/System_Stack/Synthetic_Cognition_Protocol/BDN_System/core/trinity_vectors.py",
+    "classification": "CANONICAL_UNWIRED"
+  },
+  {
+    "path": "Logos_System/System_Stack/Synthetic_Cognition_Protocol/BDN_System/integration/logos_bridge.py",
+    "classification": "CANONICAL_UNWIRED"
+  },
+  {
+    "path": "Logos_System/System_Stack/Synthetic_Cognition_Protocol/BDN_System/integration/trinity_alignment.py",
+    "classification": "CANONICAL_UNWIRED"
+  },
+  {
+    "path": "Logos_System/System_Stack/Synthetic_Cognition_Protocol/BDN_System/mvf_node_operator.py",
+    "classification": "CANONICAL_UNWIRED"
+  },
+  {
+    "path": "Logos_System/System_Stack/Synthetic_Cognition_Protocol/MVS_System/advanced_fractal_analyzer.py",
+    "classification": "CANONICAL_UNWIRED"
+  },
+  {
+    "path": "Logos_System/System_Stack/Synthetic_Cognition_Protocol/MVS_System/comprehensive_fractal_analysis.py",
+    "classification": "CANONICAL_UNWIRED"
+  },
+  {
+    "path": "Logos_System/System_Stack/Synthetic_Cognition_Protocol/MVS_System/consciousness_fractal_analysis.py",
+    "classification": "CANONICAL_UNWIRED"
+  },
+  {
+    "path": "Logos_System/System_Stack/Synthetic_Cognition_Protocol/MVS_System/data_c_values/data_structures.py",
+    "classification": "CANONICAL_UNWIRED"
+  },
+  {
+    "path": "Logos_System/System_Stack/Synthetic_Cognition_Protocol/MVS_System/dual_bijection_agent_experiment.py",
+    "classification": "CANONICAL_UNWIRED"
+  },
+  {
+    "path": "Logos_System/System_Stack/Synthetic_Cognition_Protocol/MVS_System/dual_bijection_coherence_analysis.py",
+    "classification": "CANONICAL_UNWIRED"
+  },
+  {
+    "path": "Logos_System/System_Stack/Synthetic_Cognition_Protocol/MVS_System/dual_bijection_demo.py",
+    "classification": "CANONICAL_UNWIRED"
+  },
+  {
+    "path": "Logos_System/System_Stack/Synthetic_Cognition_Protocol/MVS_System/fractal_mvs.py",
+    "classification": "CANONICAL_UNWIRED"
+  },
+  {
+    "path": "Logos_System/System_Stack/Synthetic_Cognition_Protocol/MVS_System/fractal_orbit_cli.py",
+    "classification": "CANONICAL_UNWIRED"
+  },
+  {
+    "path": "Logos_System/System_Stack/Synthetic_Cognition_Protocol/MVS_System/fractal_orbit_demo.py",
+    "classification": "CANONICAL_UNWIRED"
+  },
+  {
+    "path": "Logos_System/System_Stack/Synthetic_Cognition_Protocol/MVS_System/fractal_orbit_toolkit.py",
+    "classification": "CANONICAL_UNWIRED"
+  },
+  {
+    "path": "Logos_System/System_Stack/Synthetic_Cognition_Protocol/MVS_System/fractal_orbital/fractal_mvs.py",
+    "classification": "CANONICAL_UNWIRED"
+  },
+  {
+    "path": "Logos_System/System_Stack/Synthetic_Cognition_Protocol/MVS_System/fractal_orbital/fractal_navigator.py",
+    "classification": "CANONICAL_UNWIRED"
+  },
+  {
+    "path": "Logos_System/System_Stack/Synthetic_Cognition_Protocol/MVS_System/fractal_orbital/fractal_orbital_node_class.py",
+    "classification": "CANONICAL_UNWIRED"
+  },
+  {
+    "path": "Logos_System/System_Stack/Synthetic_Cognition_Protocol/MVS_System/fractal_orbital/integration_harmonizer.py",
+    "classification": "CANONICAL_UNWIRED"
+  },
+  {
+    "path": "Logos_System/System_Stack/Synthetic_Cognition_Protocol/MVS_System/fractal_orbital/orbital_prediction_log_cli.py",
+    "classification": "CANONICAL_UNWIRED"
+  },
+  {
+    "path": "Logos_System/System_Stack/Synthetic_Cognition_Protocol/MVS_System/fractal_orbital/symbolic_math.py",
+    "classification": "CANONICAL_UNWIRED"
+  },
+  {
+    "path": "Logos_System/System_Stack/Synthetic_Cognition_Protocol/MVS_System/mathematics/fractal_mvs.py",
+    "classification": "CANONICAL_UNWIRED"
+  },
+  {
+    "path": "Logos_System/System_Stack/Synthetic_Cognition_Protocol/MVS_System/mathematics/privation_mathematics.py",
+    "classification": "CANONICAL_UNWIRED"
+  },
+  {
+    "path": "Logos_System/System_Stack/Synthetic_Cognition_Protocol/MVS_System/mathematics/trinitarian_optimization_theorem.py",
+    "classification": "CANONICAL_UNWIRED"
+  },
+  {
+    "path": "Logos_System/System_Stack/Synthetic_Cognition_Protocol/MVS_System/mathematics/trinity_alignment.py",
+    "classification": "CANONICAL_UNWIRED"
+  },
+  {
+    "path": "Logos_System/System_Stack/Synthetic_Cognition_Protocol/MVS_System/modal_vector_sync.py",
+    "classification": "CANONICAL_UNWIRED"
+  },
+  {
+    "path": "Logos_System/System_Stack/Synthetic_Cognition_Protocol/MVS_System/mvs_calculators/bijective_mapping.py",
+    "classification": "CANONICAL_UNWIRED"
+  },
+  {
+    "path": "Logos_System/System_Stack/Synthetic_Cognition_Protocol/MVS_System/mvs_calculators/etgc_validator.py",
+    "classification": "CANONICAL_UNWIRED"
+  },
+  {
+    "path": "Logos_System/System_Stack/Synthetic_Cognition_Protocol/MVS_System/mvs_calculators/fractal_mvs.py",
+    "classification": "CANONICAL_UNWIRED"
+  },
+  {
+    "path": "Logos_System/System_Stack/Synthetic_Cognition_Protocol/MVS_System/mvs_calculators/ontological_validator.py",
+    "classification": "CANONICAL_UNWIRED"
+  },
+  {
+    "path": "Logos_System/System_Stack/Synthetic_Cognition_Protocol/MVS_System/mvs_calculators/ontology_inducer.py",
+    "classification": "CANONICAL_UNWIRED"
+  },
+  {
+    "path": "Logos_System/System_Stack/Synthetic_Cognition_Protocol/MVS_System/mvs_calculators/validation_schemas_system.py",
+    "classification": "CANONICAL_UNWIRED"
+  },
+  {
+    "path": "Logos_System/System_Stack/Synthetic_Cognition_Protocol/MVS_System/predictors/causal_chain_node_predictor.py",
+    "classification": "CANONICAL_UNWIRED"
+  },
+  {
+    "path": "Logos_System/System_Stack/Synthetic_Cognition_Protocol/MVS_System/predictors/causal_trace_operator.py",
+    "classification": "CANONICAL_UNWIRED"
+  },
+  {
+    "path": "Logos_System/System_Stack/Synthetic_Cognition_Protocol/MVS_System/predictors/class_fractal_orbital_predictor.py",
+    "classification": "CANONICAL_UNWIRED"
+  },
+  {
+    "path": "Logos_System/System_Stack/Synthetic_Cognition_Protocol/MVS_System/predictors/divergence_calculator.py",
+    "classification": "CANONICAL_UNWIRED"
+  },
+  {
+    "path": "Logos_System/System_Stack/Synthetic_Cognition_Protocol/MVS_System/predictors/divergence_engine.py",
+    "classification": "CANONICAL_UNWIRED"
+  },
+  {
+    "path": "Logos_System/System_Stack/Synthetic_Cognition_Protocol/MVS_System/predictors/etgc_prior_checker.py",
+    "classification": "CANONICAL_UNWIRED"
+  },
+  {
+    "path": "Logos_System/System_Stack/Synthetic_Cognition_Protocol/MVS_System/predictors/fractal_mapping.py",
+    "classification": "CANONICAL_UNWIRED"
+  },
+  {
+    "path": "Logos_System/System_Stack/Synthetic_Cognition_Protocol/MVS_System/predictors/fractal_nexus.py",
+    "classification": "CANONICAL_UNWIRED"
+  },
+  {
+    "path": "Logos_System/System_Stack/Synthetic_Cognition_Protocol/MVS_System/predictors/modal_support.py",
+    "classification": "CANONICAL_UNWIRED"
+  },
+  {
+    "path": "Logos_System/System_Stack/Synthetic_Cognition_Protocol/MVS_System/predictors/orbital_recursion_engine.py",
+    "classification": "CANONICAL_UNWIRED"
+  },
+  {
+    "path": "Logos_System/System_Stack/Synthetic_Cognition_Protocol/MVS_System/predictors/prediction_analyzer_exporter.py",
+    "classification": "CANONICAL_UNWIRED"
+  },
+  {
+    "path": "Logos_System/System_Stack/Synthetic_Cognition_Protocol/MVS_System/predictors/prediction_module.py",
+    "classification": "CANONICAL_UNWIRED"
+  },
+  {
+    "path": "Logos_System/System_Stack/Synthetic_Cognition_Protocol/MVS_System/pxl_fractal_orbital_analysis.py",
+    "classification": "CANONICAL_UNWIRED"
+  },
+  {
+    "path": "Logos_System/System_Stack/Synthetic_Cognition_Protocol/MVS_System/pxl_modal_fractal_boundary_analysis.py",
+    "classification": "CANONICAL_UNWIRED"
+  },
+  {
+    "path": "Logos_System/System_Stack/Synthetic_Cognition_Protocol/MVS_System/resurrection_s2_demo.py",
+    "classification": "CANONICAL_UNWIRED"
+  },
+  {
+    "path": "Logos_System/System_Stack/Synthetic_Cognition_Protocol/MVS_System/simple_julia.py",
+    "classification": "CANONICAL_UNWIRED"
+  },
+  {
+    "path": "Logos_System/System_Stack/Synthetic_Cognition_Protocol/MVS_System/test_dual_bijection.py",
+    "classification": "CANONICAL_UNWIRED"
+  },
+  {
+    "path": "Logos_System/System_Stack/Synthetic_Cognition_Protocol/consciousness/agentic_consciousness_core.py",
+    "classification": "CANONICAL_UNWIRED"
+  },
+  {
+    "path": "Logos_System/System_Stack/Synthetic_Cognition_Protocol/consciousness/consciousness_safety_adapter.py",
+    "classification": "CANONICAL_UNWIRED"
+  },
+  {
+    "path": "Logos_System/System_Stack/Synthetic_Cognition_Protocol/consciousness/emergence_core.py",
+    "classification": "CANONICAL_UNWIRED"
+  },
+  {
+    "path": "Logos_System/System_Stack/Synthetic_Cognition_Protocol/consciousness/fractal_consciousness_core.py",
+    "classification": "CANONICAL_UNWIRED"
+  },
+  {
+    "path": "Logos_System/System_Stack/Synthetic_Cognition_Protocol/consciousness/logos_core_foundations.py",
+    "classification": "CANONICAL_UNWIRED"
+  },
+  {
+    "path": "Logos_System/System_Stack/Synthetic_Cognition_Protocol/consciousness/reflexive_evaluator.py",
+    "classification": "CANONICAL_UNWIRED"
+  },
+  {
+    "path": "Logos_System/System_Stack/Synthetic_Cognition_Protocol/consciousness/simulated_consciousness_runtime.py",
+    "classification": "CANONICAL_UNWIRED"
+  },
+  {
+    "path": "Logos_System/System_Stack/Synthetic_Cognition_Protocol/system_utilities/nexus/scp_nexus.py",
+    "classification": "CANONICAL_UNWIRED"
+  },
+  {
+    "path": "Logos_System/System_Stack/Synthetic_Cognition_Protocol/system_utilities/test_scp_recovery_mode_gate.py",
+    "classification": "CANONICAL_UNWIRED"
+  },
+  {
+    "path": "Logos_System/System_Stack/System_Operations_Protocol/IEL_generator/autonomous_learning.py",
+    "classification": "UNKNOWN_REVIEW"
+  },
+  {
+    "path": "Logos_System/System_Stack/System_Operations_Protocol/IEL_generator/code_generator/development_environment.py",
+    "classification": "UNKNOWN_REVIEW"
+  },
+  {
+    "path": "Logos_System/System_Stack/System_Operations_Protocol/IEL_generator/code_generator/self_improvement_integration.py",
+    "classification": "UNKNOWN_REVIEW"
+  },
+  {
+    "path": "Logos_System/System_Stack/System_Operations_Protocol/IEL_generator/code_generator/skill_acquisition.py",
+    "classification": "UNKNOWN_REVIEW"
+  },
+  {
+    "path": "Logos_System/System_Stack/System_Operations_Protocol/IEL_generator/entry.py",
+    "classification": "UNKNOWN_REVIEW"
+  },
+  {
+    "path": "Logos_System/System_Stack/System_Operations_Protocol/IEL_generator/iel_evaluator.py",
+    "classification": "UNKNOWN_REVIEW"
+  },
+  {
+    "path": "Logos_System/System_Stack/System_Operations_Protocol/IEL_generator/iel_generator.py",
+    "classification": "UNKNOWN_REVIEW"
+  },
+  {
+    "path": "Logos_System/System_Stack/System_Operations_Protocol/IEL_generator/iel_registry.py",
+    "classification": "UNKNOWN_REVIEW"
+  },
+  {
+    "path": "Logos_System/System_Stack/System_Operations_Protocol/IEL_generator/iel_runtime_interface.py",
+    "classification": "UNKNOWN_REVIEW"
+  },
+  {
+    "path": "Logos_System/System_Stack/System_Operations_Protocol/IEL_generator/iel_signer.py",
+    "classification": "UNKNOWN_REVIEW"
+  },
+  {
+    "path": "Logos_System/System_Stack/System_Operations_Protocol/Optimization/check_run_cycle_prereqs.py",
+    "classification": "UNKNOWN_REVIEW"
+  },
+  {
+    "path": "Logos_System/System_Stack/System_Operations_Protocol/Optimization/io_normalizer.py",
+    "classification": "UNKNOWN_REVIEW"
+  },
+  {
+    "path": "Logos_System/System_Stack/System_Operations_Protocol/Optimization/prioritization.py",
+    "classification": "UNKNOWN_REVIEW"
+  },
+  {
+    "path": "Logos_System/System_Stack/System_Operations_Protocol/Optimization/test_tool_fallback_proposal.py",
+    "classification": "LEGACY_EXPERIMENTAL"
+  },
+  {
+    "path": "Logos_System/System_Stack/System_Operations_Protocol/Optimization/tests/test_agent_planner.py",
+    "classification": "LEGACY_EXPERIMENTAL"
+  },
+  {
+    "path": "Logos_System/System_Stack/System_Operations_Protocol/Optimization/tests/test_bayesian_data_handler.py",
+    "classification": "LEGACY_EXPERIMENTAL"
+  },
+  {
+    "path": "Logos_System/System_Stack/System_Operations_Protocol/Optimization/tests/test_hardening.py",
+    "classification": "LEGACY_EXPERIMENTAL"
+  },
+  {
+    "path": "Logos_System/System_Stack/System_Operations_Protocol/Optimization/tests/test_logos_agi_adapter.py",
+    "classification": "LEGACY_EXPERIMENTAL"
+  },
+  {
+    "path": "Logos_System/System_Stack/System_Operations_Protocol/Optimization/tests/test_logos_agi_persistence_smoke.py",
+    "classification": "LEGACY_EXPERIMENTAL"
+  },
+  {
+    "path": "Logos_System/System_Stack/System_Operations_Protocol/Optimization/tests/test_nexus_capability_governance.py",
+    "classification": "LEGACY_EXPERIMENTAL"
+  },
+  {
+    "path": "Logos_System/System_Stack/System_Operations_Protocol/Optimization/tests/test_pai.py",
+    "classification": "LEGACY_EXPERIMENTAL"
+  },
+  {
+    "path": "Logos_System/System_Stack/System_Operations_Protocol/Optimization/tests/test_perception_ingestors.py",
+    "classification": "LEGACY_EXPERIMENTAL"
+  },
+  {
+    "path": "Logos_System/System_Stack/System_Operations_Protocol/Optimization/tests/test_simulation_cli.py",
+    "classification": "LEGACY_EXPERIMENTAL"
+  },
+  {
+    "path": "Logos_System/System_Stack/System_Operations_Protocol/Optimization/tests/test_verify_pai.py",
+    "classification": "LEGACY_EXPERIMENTAL"
+  },
+  {
+    "path": "Logos_System/System_Stack/System_Operations_Protocol/Optimization/tool_chain_executor.py",
+    "classification": "UNKNOWN_REVIEW"
+  },
+  {
+    "path": "Logos_System/System_Stack/System_Operations_Protocol/Optimization/tool_introspection.py",
+    "classification": "UNKNOWN_REVIEW"
+  },
+  {
+    "path": "Logos_System/System_Stack/System_Operations_Protocol/Optimization/tool_invention.py",
+    "classification": "UNKNOWN_REVIEW"
+  },
+  {
+    "path": "Logos_System/System_Stack/System_Operations_Protocol/Optimization/tool_optimizer.py",
+    "classification": "UNKNOWN_REVIEW"
+  },
+  {
+    "path": "Logos_System/System_Stack/System_Operations_Protocol/Optimization/tool_proposal_pipeline.py",
+    "classification": "UNKNOWN_REVIEW"
+  },
+  {
+    "path": "Logos_System/System_Stack/System_Operations_Protocol/Optimization/tool_repair_proposal.py",
+    "classification": "UNKNOWN_REVIEW"
+  },
+  {
+    "path": "Logos_System/System_Stack/System_Operations_Protocol/alignment_protocols/coherence/coherence_metrics.py",
+    "classification": "UNKNOWN_REVIEW"
+  },
+  {
+    "path": "Logos_System/System_Stack/System_Operations_Protocol/alignment_protocols/coherence/coherence_optimizer.py",
+    "classification": "UNKNOWN_REVIEW"
+  },
+  {
+    "path": "Logos_System/System_Stack/System_Operations_Protocol/alignment_protocols/coherence/policy.py",
+    "classification": "UNKNOWN_REVIEW"
+  },
+  {
+    "path": "Logos_System/System_Stack/System_Operations_Protocol/alignment_protocols/compliance/integration_harmonizer.py",
+    "classification": "UNKNOWN_REVIEW"
+  },
+  {
+    "path": "Logos_System/System_Stack/System_Operations_Protocol/alignment_protocols/persistence/persistence.py",
+    "classification": "UNKNOWN_REVIEW"
+  },
+  {
+    "path": "Logos_System/System_Stack/System_Operations_Protocol/alignment_protocols/policies/privative_policies.py",
+    "classification": "UNKNOWN_REVIEW"
+  },
+  {
+    "path": "Logos_System/System_Stack/System_Operations_Protocol/alignment_protocols/safety/integrity_framework/integrity_safeguard.py",
+    "classification": "UNKNOWN_REVIEW"
+  },
+  {
+    "path": "Logos_System/System_Stack/System_Operations_Protocol/alignment_protocols/safety/obdc/kernel.py",
+    "classification": "UNKNOWN_REVIEW"
+  },
+  {
+    "path": "Logos_System/System_Stack/System_Operations_Protocol/alignment_protocols/safety/privative_policies.py",
+    "classification": "UNKNOWN_REVIEW"
+  },
+  {
+    "path": "Logos_System/System_Stack/System_Operations_Protocol/alignment_protocols/safety/ultima_framework/ultima_safety.py",
+    "classification": "UNKNOWN_REVIEW"
+  },
+  {
+    "path": "Logos_System/System_Stack/System_Operations_Protocol/alignment_protocols/validation/examples/demo_integrated_ml.py",
+    "classification": "LEGACY_EXPERIMENTAL"
+  },
+  {
+    "path": "Logos_System/System_Stack/System_Operations_Protocol/alignment_protocols/validation/testing/integration_test_suite.py",
+    "classification": "UNKNOWN_REVIEW"
+  },
+  {
+    "path": "Logos_System/System_Stack/System_Operations_Protocol/alignment_protocols/validation/testing/test_end_to_end_pipeline.py",
+    "classification": "LEGACY_EXPERIMENTAL"
+  },
+  {
+    "path": "Logos_System/System_Stack/System_Operations_Protocol/alignment_protocols/validation/testing/test_integration.py",
+    "classification": "LEGACY_EXPERIMENTAL"
+  },
+  {
+    "path": "Logos_System/System_Stack/System_Operations_Protocol/alignment_protocols/validation/testing/test_reference_monitor.py",
+    "classification": "LEGACY_EXPERIMENTAL"
+  },
+  {
+    "path": "Logos_System/System_Stack/System_Operations_Protocol/alignment_protocols/validation/testing/test_self_improvement_cycle.py",
+    "classification": "LEGACY_EXPERIMENTAL"
+  },
+  {
+    "path": "Logos_System/System_Stack/System_Operations_Protocol/alignment_protocols/validation/testing/tests/test_self_improvement_cycle.py",
+    "classification": "LEGACY_EXPERIMENTAL"
+  },
+  {
+    "path": "Logos_System/System_Stack/System_Operations_Protocol/alignment_protocols/validation/testing/validate_production.py",
+    "classification": "UNKNOWN_REVIEW"
+  },
+  {
+    "path": "Logos_System/System_Stack/System_Operations_Protocol/code_generator/development_environment.py",
+    "classification": "UNKNOWN_REVIEW"
+  },
+  {
+    "path": "Logos_System/System_Stack/System_Operations_Protocol/code_generator/gen_ontoprops_dedup.py",
+    "classification": "UNKNOWN_REVIEW"
+  },
+  {
+    "path": "Logos_System/System_Stack/System_Operations_Protocol/code_generator/gen_worldview_ontoprops.py",
+    "classification": "UNKNOWN_REVIEW"
+  },
+  {
+    "path": "Logos_System/System_Stack/System_Operations_Protocol/code_generator/knowledge_catalog.py",
+    "classification": "UNKNOWN_REVIEW"
+  },
+  {
+    "path": "Logos_System/System_Stack/System_Operations_Protocol/code_generator/meta_reasoning/iel_evaluator.py",
+    "classification": "UNKNOWN_REVIEW"
+  },
+  {
+    "path": "Logos_System/System_Stack/System_Operations_Protocol/code_generator/meta_reasoning/iel_generator.py",
+    "classification": "UNKNOWN_REVIEW"
+  },
+  {
+    "path": "Logos_System/System_Stack/System_Operations_Protocol/code_generator/meta_reasoning/iel_registry.py",
+    "classification": "UNKNOWN_REVIEW"
+  },
+  {
+    "path": "Logos_System/System_Stack/System_Operations_Protocol/code_generator/meta_reasoning/iel_signer.py",
+    "classification": "UNKNOWN_REVIEW"
+  },
+  {
+    "path": "Logos_System/System_Stack/System_Operations_Protocol/code_generator/ontoprops_remap.py",
+    "classification": "UNKNOWN_REVIEW"
+  },
+  {
+    "path": "Logos_System/System_Stack/System_Operations_Protocol/code_generator/scan_bypass.py",
+    "classification": "UNKNOWN_REVIEW"
+  },
+  {
+    "path": "Logos_System/System_Stack/System_Operations_Protocol/code_generator/self_improvement_integration.py",
+    "classification": "UNKNOWN_REVIEW"
+  },
+  {
+    "path": "Logos_System/System_Stack/System_Operations_Protocol/data_storage/system_memory.py",
+    "classification": "UNKNOWN_REVIEW"
+  },
+  {
+    "path": "Logos_System/System_Stack/System_Operations_Protocol/deployment/boot/extensions_loader.py",
+    "classification": "UNKNOWN_REVIEW"
+  },
+  {
+    "path": "Logos_System/System_Stack/System_Operations_Protocol/deployment/configuration/LOGOS.py",
+    "classification": "UNKNOWN_REVIEW"
+  },
+  {
+    "path": "Logos_System/System_Stack/System_Operations_Protocol/deployment/configuration/check_imports.py",
+    "classification": "UNKNOWN_REVIEW"
+  },
+  {
+    "path": "Logos_System/System_Stack/System_Operations_Protocol/deployment/configuration/demo_gui.py",
+    "classification": "UNKNOWN_REVIEW"
+  },
+  {
+    "path": "Logos_System/System_Stack/System_Operations_Protocol/deployment/configuration/entry.py",
+    "classification": "UNKNOWN_REVIEW"
+  },
+  {
+    "path": "Logos_System/System_Stack/System_Operations_Protocol/deployment/configuration/iel_integration.py",
+    "classification": "UNKNOWN_REVIEW"
+  },
+  {
+    "path": "Logos_System/System_Stack/System_Operations_Protocol/deployment/configuration/kernel.py",
+    "classification": "UNKNOWN_REVIEW"
+  },
+  {
+    "path": "Logos_System/System_Stack/System_Operations_Protocol/deployment/configuration/logos_monitor.py",
+    "classification": "UNKNOWN_REVIEW"
+  },
+  {
+    "path": "Logos_System/System_Stack/System_Operations_Protocol/deployment/configuration/system_imports.py",
+    "classification": "UNKNOWN_REVIEW"
+  },
+  {
+    "path": "Logos_System/System_Stack/System_Operations_Protocol/deployment/configuration/unified_classes.py",
+    "classification": "UNKNOWN_REVIEW"
+  },
+  {
+    "path": "Logos_System/System_Stack/System_Operations_Protocol/deployment/configuration/worker_kernel.py",
+    "classification": "UNKNOWN_REVIEW"
+  },
+  {
+    "path": "Logos_System/System_Stack/System_Operations_Protocol/deployment/monitoring/api_server.py",
+    "classification": "UNKNOWN_REVIEW"
+  },
+  {
+    "path": "Logos_System/System_Stack/System_Operations_Protocol/deployment/monitoring/deploy_core_services.py",
+    "classification": "UNKNOWN_REVIEW"
+  },
+  {
+    "path": "Logos_System/System_Stack/System_Operations_Protocol/deployment/monitoring/deploy_full_stack.py",
+    "classification": "UNKNOWN_REVIEW"
+  },
+  {
+    "path": "Logos_System/System_Stack/System_Operations_Protocol/deployment/monitoring/health_server.py",
+    "classification": "UNKNOWN_REVIEW"
+  },
+  {
+    "path": "Logos_System/System_Stack/System_Operations_Protocol/governance/capabilities.py",
+    "classification": "UNKNOWN_REVIEW"
+  },
+  {
+    "path": "Logos_System/System_Stack/System_Operations_Protocol/governance/core_service.py",
+    "classification": "UNKNOWN_REVIEW"
+  },
+  {
+    "path": "Logos_System/System_Stack/System_Operations_Protocol/governance/enhanced_reference_monitor.py",
+    "classification": "UNKNOWN_REVIEW"
+  },
+  {
+    "path": "Logos_System/System_Stack/System_Operations_Protocol/governance/persistence.py",
+    "classification": "UNKNOWN_REVIEW"
+  },
+  {
+    "path": "Logos_System/System_Stack/System_Operations_Protocol/governance/reference_monitor.py",
+    "classification": "UNKNOWN_REVIEW"
+  },
+  {
+    "path": "Logos_System/System_Stack/System_Operations_Protocol/governance/server.py",
+    "classification": "UNKNOWN_REVIEW"
+  },
+  {
+    "path": "Logos_System/System_Stack/System_Operations_Protocol/infrastructure/agent_system/agent_nexus.py",
+    "classification": "UNKNOWN_REVIEW"
+  },
+  {
+    "path": "Logos_System/System_Stack/System_Operations_Protocol/infrastructure/agent_system/base_nexus.py",
+    "classification": "UNKNOWN_REVIEW"
+  },
+  {
+    "path": "Logos_System/System_Stack/System_Operations_Protocol/infrastructure/agent_system/boot_system.py",
+    "classification": "UNKNOWN_REVIEW"
+  },
+  {
+    "path": "Logos_System/System_Stack/System_Operations_Protocol/infrastructure/agent_system/initialize_agent_system.py",
+    "classification": "UNKNOWN_REVIEW"
+  },
+  {
+    "path": "Logos_System/System_Stack/System_Operations_Protocol/infrastructure/agent_system/local_scp.py",
+    "classification": "UNKNOWN_REVIEW"
+  },
+  {
+    "path": "Logos_System/System_Stack/System_Operations_Protocol/infrastructure/agent_system/logos_agent_system.py",
+    "classification": "UNKNOWN_REVIEW"
+  },
+  {
+    "path": "Logos_System/System_Stack/System_Operations_Protocol/infrastructure/agent_system/maintenance.py",
+    "classification": "UNKNOWN_REVIEW"
+  },
+  {
+    "path": "Logos_System/System_Stack/System_Operations_Protocol/infrastructure/agent_system/protocol_integration.py",
+    "classification": "UNKNOWN_REVIEW"
+  },
+  {
+    "path": "Logos_System/System_Stack/System_Operations_Protocol/infrastructure/agent_system/shared_resources.py",
+    "classification": "UNKNOWN_REVIEW"
+  },
+  {
+    "path": "Logos_System/System_Stack/System_Operations_Protocol/nexus/legacy_sop_nexus.py",
+    "classification": "UNKNOWN_REVIEW"
+  },
+  {
+    "path": "Logos_System/System_Stack/System_Operations_Protocol/nexus/sop_nexus.py",
+    "classification": "UNKNOWN_REVIEW"
+  },
+  {
+    "path": "Logos_System/System_Stack/System_Operations_Protocol/nexus/sop_operations.py",
+    "classification": "UNKNOWN_REVIEW"
+  },
+  {
+    "path": "PXL_Gate/coq/src/ui/PXL_Proof_Compile.py",
+    "classification": "UNKNOWN_REVIEW"
+  },
+  {
+    "path": "PXL_Gate/coq/src/ui/audit_and_emit.py",
+    "classification": "UNKNOWN_REVIEW"
+  },
+  {
+    "path": "PXL_Gate/coq/src/ui/lem_portal.py",
+    "classification": "UNKNOWN_REVIEW"
+  },
+  {
+    "path": "PXL_Gate/coq/src/ui/run_coq_pipeline.py",
+    "classification": "UNKNOWN_REVIEW"
+  },
+  {
+    "path": "PXL_Gate/coq/src/ui/serve_pxl.py",
+    "classification": "UNKNOWN_REVIEW"
+  },
+  {
+    "path": "_Dev_Resources/Dev_Notes/state/tool_invention/proposals/tool_invention_io_normalizer_20251227T190646Z_1.py",
+    "classification": "UNKNOWN_REVIEW"
+  },
+  {
+    "path": "_Dev_Resources/Dev_Notes/state/tool_invention/proposals/tool_invention_io_normalizer_20251227T190705Z_0.py",
+    "classification": "UNKNOWN_REVIEW"
+  },
+  {
+    "path": "_Dev_Resources/Dev_Notes/state/tool_invention/proposals/tool_invention_regression_checker_20251227T190646Z_2.py",
+    "classification": "UNKNOWN_REVIEW"
+  },
+  {
+    "path": "_Dev_Resources/Dev_Notes/state/tool_invention/proposals/tool_invention_tool_chain_executor_20251227T190646Z_0.py",
+    "classification": "UNKNOWN_REVIEW"
+  },
+  {
+    "path": "_Dev_Resources/Dev_Scripts/repo_tools/run_mvp_acceptance.py",
+    "classification": "UNKNOWN_REVIEW"
+  },
+  {
+    "path": "_Dev_Resources/Dev_Scripts/repo_tools/system_audit/_common.py",
+    "classification": "UNKNOWN_REVIEW"
+  },
+  {
+    "path": "_Dev_Resources/Dev_Scripts/repo_tools/system_audit/audit_driver.py",
+    "classification": "UNKNOWN_REVIEW"
+  },
+  {
+    "path": "_Dev_Resources/Dev_Scripts/repo_tools/system_audit/scan_config_and_schema.py",
+    "classification": "UNKNOWN_REVIEW"
+  },
+  {
+    "path": "_Dev_Resources/Dev_Scripts/repo_tools/system_audit/scan_dead_code.py",
+    "classification": "UNKNOWN_REVIEW"
+  },
+  {
+    "path": "_Dev_Resources/Dev_Scripts/repo_tools/system_audit/scan_dependencies.py",
+    "classification": "UNKNOWN_REVIEW"
+  },
+  {
+    "path": "_Dev_Resources/Dev_Scripts/repo_tools/system_audit/scan_dev_scripts.py",
+    "classification": "UNKNOWN_REVIEW"
+  },
+  {
+    "path": "_Dev_Resources/Dev_Scripts/repo_tools/system_audit/scan_duplicates.py",
+    "classification": "UNKNOWN_REVIEW"
+  },
+  {
+    "path": "_Dev_Resources/Dev_Scripts/repo_tools/system_audit/scan_imports.py",
+    "classification": "UNKNOWN_REVIEW"
+  },
+  {
+    "path": "_Dev_Resources/Dev_Scripts/repo_tools/system_audit/scan_naming.py",
+    "classification": "UNKNOWN_REVIEW"
+  },
+  {
+    "path": "_Dev_Resources/Dev_Scripts/repo_tools/system_audit/scan_runtime_surface.py",
+    "classification": "UNKNOWN_REVIEW"
+  },
+  {
+    "path": "_Dev_Resources/Dev_Scripts/repo_tools/system_audit/scan_side_effects.py",
+    "classification": "UNKNOWN_REVIEW"
+  },
+  {
+    "path": "_Dev_Resources/Dev_Scripts/repo_tools/system_audit/scan_symbols.py",
+    "classification": "UNKNOWN_REVIEW"
+  },
+  {
+    "path": "_Dev_Resources/Dev_Scripts/repo_tools/system_audit/scan_tree.py",
+    "classification": "UNKNOWN_REVIEW"
+  },
+  {
+    "path": "_Dev_Resources/Dev_Scripts/security/session.py",
+    "classification": "UNKNOWN_REVIEW"
+  },
+  {
+    "path": "_Dev_Resources/Dev_Scripts/smoke_tests/test_alignment_gate_smoke.py",
+    "classification": "LEGACY_EXPERIMENTAL"
+  },
+  {
+    "path": "_Dev_Resources/Dev_Scripts/smoke_tests/test_belief_consolidation_smoke.py",
+    "classification": "LEGACY_EXPERIMENTAL"
+  },
+  {
+    "path": "_Dev_Resources/Dev_Scripts/smoke_tests/test_dashboard_smoke.py",
+    "classification": "LEGACY_EXPERIMENTAL"
+  },
+  {
+    "path": "_Dev_Resources/Dev_Scripts/smoke_tests/test_evaluator_learning_smoke.py",
+    "classification": "LEGACY_EXPERIMENTAL"
+  },
+  {
+    "path": "_Dev_Resources/Dev_Scripts/smoke_tests/test_goal_proposal_smoke.py",
+    "classification": "LEGACY_EXPERIMENTAL"
+  },
+  {
+    "path": "_Dev_Resources/Dev_Scripts/smoke_tests/test_llm_advisor_smoke.py",
+    "classification": "LEGACY_EXPERIMENTAL"
+  },
+  {
+    "path": "_Dev_Resources/Dev_Scripts/smoke_tests/test_llm_bypass_smoke.py",
+    "classification": "LEGACY_EXPERIMENTAL"
+  },
+  {
+    "path": "_Dev_Resources/Dev_Scripts/smoke_tests/test_llm_real_provider_smoke.py",
+    "classification": "LEGACY_EXPERIMENTAL"
+  },
+  {
+    "path": "_Dev_Resources/Dev_Scripts/smoke_tests/test_llm_streaming_smoke.py",
+    "classification": "LEGACY_EXPERIMENTAL"
+  },
+  {
+    "path": "_Dev_Resources/Dev_Scripts/smoke_tests/test_logos_agi_integration_smoke.py",
+    "classification": "LEGACY_EXPERIMENTAL"
+  },
+  {
+    "path": "_Dev_Resources/Dev_Scripts/smoke_tests/test_logos_agi_persistence_smoke.py",
+    "classification": "LEGACY_EXPERIMENTAL"
+  },
+  {
+    "path": "_Dev_Resources/Dev_Scripts/smoke_tests/test_logos_gpt_chat_smoke.py",
+    "classification": "LEGACY_EXPERIMENTAL"
+  },
+  {
+    "path": "_Dev_Resources/Dev_Scripts/smoke_tests/test_logos_gpt_web_smoke.py",
+    "classification": "LEGACY_EXPERIMENTAL"
+  },
+  {
+    "path": "_Dev_Resources/Dev_Scripts/smoke_tests/test_logos_runtime_phase2_smoke.py",
+    "classification": "LEGACY_EXPERIMENTAL"
+  },
+  {
+    "path": "_Dev_Resources/Dev_Scripts/smoke_tests/test_logos_runtime_smoke.py",
+    "classification": "LEGACY_EXPERIMENTAL"
+  },
+  {
+    "path": "_Dev_Resources/Dev_Scripts/smoke_tests/test_plan_checkpoint_smoke.py",
+    "classification": "LEGACY_EXPERIMENTAL"
+  },
+  {
+    "path": "_Dev_Resources/Dev_Scripts/smoke_tests/test_plan_history_update_smoke.py",
+    "classification": "LEGACY_EXPERIMENTAL"
+  },
+  {
+    "path": "_Dev_Resources/Dev_Scripts/smoke_tests/test_plan_scoring_smoke.py",
+    "classification": "LEGACY_EXPERIMENTAL"
+  },
+  {
+    "path": "_Dev_Resources/Dev_Scripts/smoke_tests/test_plan_validation_smoke.py",
+    "classification": "LEGACY_EXPERIMENTAL"
+  },
+  {
+    "path": "_Dev_Resources/Dev_Scripts/smoke_tests/test_retrieval_local_smoke.py",
+    "classification": "LEGACY_EXPERIMENTAL"
+  },
+  {
+    "path": "_Dev_Resources/Dev_Scripts/smoke_tests/test_run_ledger_smoke.py",
+    "classification": "LEGACY_EXPERIMENTAL"
+  },
+  {
+    "path": "_Dev_Resources/Dev_Scripts/smoke_tests/test_server_nexus_isolation_smoke.py",
+    "classification": "LEGACY_EXPERIMENTAL"
+  },
+  {
+    "path": "_Dev_Resources/Dev_Scripts/smoke_tests/test_tool_approval_tamper_smoke.py",
+    "classification": "LEGACY_EXPERIMENTAL"
+  },
+  {
+    "path": "_Dev_Resources/Dev_Scripts/smoke_tests/test_tool_improvement_intent_smoke.py",
+    "classification": "LEGACY_EXPERIMENTAL"
+  },
+  {
+    "path": "_Dev_Resources/Dev_Scripts/smoke_tests/test_tool_introspection_smoke.py",
+    "classification": "LEGACY_EXPERIMENTAL"
+  },
+  {
+    "path": "_Dev_Resources/Dev_Scripts/smoke_tests/test_tool_pipeline_smoke.py",
+    "classification": "LEGACY_EXPERIMENTAL"
+  },
+  {
+    "path": "_Dev_Resources/Dev_Scripts/smoke_tests/test_tool_playbook_load_smoke.py",
+    "classification": "LEGACY_EXPERIMENTAL"
+  },
+  {
+    "path": "_Dev_Resources/Dev_Scripts/smoke_tests/test_tool_repair_proposal_smoke.py",
+    "classification": "LEGACY_EXPERIMENTAL"
+  },
+  {
+    "path": "_Dev_Resources/Dev_Scripts/smoke_tests/test_tool_validation_smoke.py",
+    "classification": "LEGACY_EXPERIMENTAL"
+  },
+  {
+    "path": "_Dev_Resources/Dev_Scripts/smoke_tests/test_truth_categories_smoke.py",
+    "classification": "LEGACY_EXPERIMENTAL"
+  },
+  {
+    "path": "_Dev_Resources/Dev_Scripts/smoke_tests/test_uwm_smoke.py",
+    "classification": "LEGACY_EXPERIMENTAL"
+  },
+  {
+    "path": "_Dev_Resources/Dev_Scripts/smoke_tests/test_web_grounding_smoke.py",
+    "classification": "LEGACY_EXPERIMENTAL"
+  },
+  {
+    "path": "_Dev_Resources/Dev_Scripts/system_stack_tbd/could_be_dev/capture_arp_traces_and_backfill.py",
+    "classification": "UNKNOWN_REVIEW"
+  },
+  {
+    "path": "_Dev_Resources/Dev_Scripts/system_stack_tbd/could_be_dev/run_cycle_loop.py",
+    "classification": "UNKNOWN_REVIEW"
+  },
+  {
+    "path": "_Dev_Resources/Dev_Scripts/system_stack_tbd/could_be_dev/run_simulation_stub.py",
+    "classification": "UNKNOWN_REVIEW"
+  },
+  {
+    "path": "_Dev_Resources/Dev_Scripts/system_stack_tbd/could_be_dev/start_agent.py",
+    "classification": "UNKNOWN_REVIEW"
+  },
+  {
+    "path": "_Dev_Resources/Dev_Scripts/system_stack_tbd/could_be_dev/system_mode_initializer.py",
+    "classification": "UNKNOWN_REVIEW"
+  },
+  {
+    "path": "_Dev_Resources/Dev_Scripts/system_stack_tbd/could_be_dev/test_logos_agi_bootstrap_modes.py",
+    "classification": "LEGACY_EXPERIMENTAL"
+  },
+  {
+    "path": "_Dev_Resources/Dev_Scripts/system_stack_tbd/could_be_dev/test_logos_agi_pin_drift.py",
+    "classification": "LEGACY_EXPERIMENTAL"
+  },
+  {
+    "path": "_Dev_Resources/Dev_Scripts/system_stack_tbd/could_be_dev/test_logos_agi_replay_proposals.py",
+    "classification": "LEGACY_EXPERIMENTAL"
+  },
+  {
+    "path": "_Dev_Resources/Dev_Scripts/system_stack_tbd/could_be_dev/test_stub_beliefs_never_verified.py",
+    "classification": "LEGACY_EXPERIMENTAL"
+  },
+  {
+    "path": "_Dev_Resources/Dev_Scripts/system_stack_tbd/need_to_distribute/_bootstrap.py",
+    "classification": "UNKNOWN_REVIEW"
+  },
+  {
+    "path": "_Dev_Resources/Dev_Scripts/system_stack_tbd/need_to_distribute/aligned_agent_import.py",
+    "classification": "UNKNOWN_REVIEW"
+  },
+  {
+    "path": "_Dev_Resources/Dev_Scripts/system_stack_tbd/need_to_distribute/archive_planner_digests.py",
+    "classification": "UNKNOWN_REVIEW"
+  },
+  {
+    "path": "_Dev_Resources/Dev_Scripts/system_stack_tbd/need_to_distribute/boot_aligned_agent.py",
+    "classification": "UNKNOWN_REVIEW"
+  },
+  {
+    "path": "_Dev_Resources/Dev_Scripts/system_stack_tbd/need_to_distribute/build_coq_theorem_index.py",
+    "classification": "UNKNOWN_REVIEW"
+  },
+  {
+    "path": "_Dev_Resources/Dev_Scripts/system_stack_tbd/need_to_distribute/cycle_ledger.py",
+    "classification": "UNKNOWN_REVIEW"
+  },
+  {
+    "path": "_Dev_Resources/Dev_Scripts/system_stack_tbd/need_to_distribute/evidence.py",
+    "classification": "UNKNOWN_REVIEW"
+  },
+  {
+    "path": "_Dev_Resources/Dev_Scripts/system_stack_tbd/need_to_distribute/example_connector.py",
+    "classification": "LEGACY_EXPERIMENTAL"
+  },
+  {
+    "path": "_Dev_Resources/Dev_Scripts/system_stack_tbd/need_to_distribute/export_tool_registry.py",
+    "classification": "UNKNOWN_REVIEW"
+  },
+  {
+    "path": "_Dev_Resources/Dev_Scripts/system_stack_tbd/need_to_distribute/logos_agi_adapter.py",
+    "classification": "UNKNOWN_REVIEW"
+  },
+  {
+    "path": "_Dev_Resources/Dev_Scripts/system_stack_tbd/need_to_distribute/nexus_manager.py",
+    "classification": "UNKNOWN_REVIEW"
+  },
+  {
+    "path": "_Dev_Resources/Dev_Scripts/system_stack_tbd/need_to_distribute/privative_dual_bijection_kernel.py",
+    "classification": "UNKNOWN_REVIEW"
+  },
+  {
+    "path": "_Dev_Resources/Dev_Scripts/system_stack_tbd/need_to_distribute/protocol_probe.py",
+    "classification": "UNKNOWN_REVIEW"
+  },
+  {
+    "path": "_Dev_Resources/Dev_Scripts/system_stack_tbd/need_to_distribute/prototype_grounding_workflow.py",
+    "classification": "UNKNOWN_REVIEW"
+  },
+  {
+    "path": "_Dev_Resources/Dev_Scripts/system_stack_tbd/need_to_distribute/provenance.py",
+    "classification": "UNKNOWN_REVIEW"
+  },
+  {
+    "path": "_Dev_Resources/Dev_Scripts/system_stack_tbd/need_to_distribute/run_recursive_immersion_cycle.py",
+    "classification": "UNKNOWN_REVIEW"
+  },
+  {
+    "path": "_Dev_Resources/Dev_Scripts/system_stack_tbd/need_to_distribute/scan_repo.py",
+    "classification": "UNKNOWN_REVIEW"
+  },
+  {
+    "path": "_Dev_Resources/Dev_Scripts/system_stack_tbd/need_to_distribute/scp_local_diagnostic.py",
+    "classification": "UNKNOWN_REVIEW"
+  },
+  {
+    "path": "_Dev_Resources/Dev_Scripts/system_stack_tbd/need_to_distribute/stress_sop_runtime.py",
+    "classification": "UNKNOWN_REVIEW"
+  },
+  {
+    "path": "_Dev_Resources/Dev_Scripts/system_stack_tbd/need_to_distribute/test_belief_quarantine_persistence.py",
+    "classification": "LEGACY_EXPERIMENTAL"
+  },
+  {
+    "path": "_Dev_Resources/Dev_Scripts/system_stack_tbd/need_to_distribute/test_belief_tool_policy.py",
+    "classification": "LEGACY_EXPERIMENTAL"
+  },
+  {
+    "path": "_Dev_Resources/Dev_Scripts/system_stack_tbd/need_to_distribute/test_grounded_reply_enforcement.py",
+    "classification": "LEGACY_EXPERIMENTAL"
+  },
+  {
+    "path": "_Dev_Resources/Dev_Scripts/system_stack_tbd/need_to_distribute/test_plan_history_inprocess_refresh.py",
+    "classification": "LEGACY_EXPERIMENTAL"
+  },
+  {
+    "path": "_Dev_Resources/Dev_Scripts/system_stack_tbd/need_to_distribute/test_plan_revision_on_contradiction.py",
+    "classification": "LEGACY_EXPERIMENTAL"
+  },
+  {
+    "path": "_Dev_Resources/Dev_Scripts/system_stack_tbd/need_to_distribute/test_proved_grounding.py",
+    "classification": "LEGACY_EXPERIMENTAL"
+  },
+  {
+    "path": "_Dev_Resources/Dev_Scripts/system_stack_tbd/need_to_distribute/test_truth_evaluator_ranking.py",
+    "classification": "LEGACY_EXPERIMENTAL"
+  },
+  {
+    "path": "_Dev_Resources/Dev_Scripts/system_utilities/message_formats.py",
+    "classification": "UNKNOWN_REVIEW"
+  },
+  {
+    "path": "_Dev_Resources/Dev_Scripts/system_utilities/system_imports.py",
+    "classification": "UNKNOWN_REVIEW"
+  },
+  {
+    "path": "_Dev_Resources/Dev_Scripts/system_utilities/test_arp_modes.py",
+    "classification": "LEGACY_EXPERIMENTAL"
+  },
+  {
+    "path": "_Dev_Resources/Dev_Scripts/system_utilities/token_validator.py",
+    "classification": "UNKNOWN_REVIEW"
+  }
+]

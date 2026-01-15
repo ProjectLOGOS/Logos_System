@@ -1,0 +1,31 @@
+{
+  "schema_version": "audit_normalize/phase_5_queue/1",
+  "notes": "Phase 5 queue is a deterministic, evidence-derived plan. Phase 5 Step 1 defines the contract only; execution occurs in Step 2+.",
+  "required_top_level_keys": [
+    "version",
+    "generated_utc",
+    "source_phase_4",
+    "tasks"
+  ],
+  "task_required_keys": [
+    "task_id",
+    "action",
+    "src_path",
+    "dest_path",
+    "reason",
+    "evidence"
+  ],
+  "allowed_actions": [
+    "NOOP",
+    "MOVE",
+    "RENAME",
+    "MERGE",
+    "DELETE"
+  ],
+  "constraints": {
+    "no_coq_mutation": true,
+    "no_filesystem_mutation_in_step_1": true,
+    "fail_closed_on_unknown_action": true,
+    "paths_are_repo_relative": true
+  }
+}

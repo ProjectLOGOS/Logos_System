@@ -1,4 +1,17 @@
 #!/usr/bin/env python3
+# LOGOS_HEADER: v1
+# updated_utc: 2026-01-14T20:07:43Z
+# path: /workspaces/Logos_System/_Dev_Resources/Dev_Scripts/LEGACY_SCRIPTS_TO_EXAMINE/INSPECT_DECIDE/_Dev_Resources/Dev_Scripts/smoke_tests/test_llm_real_provider_smoke.py
+# role: dev_tool
+# phase: audit_normalize
+# origin: INSPECT_DECIDE
+# intended_bucket: REWRITE_PROMOTE
+# side_effects: unknown
+# entrypoints: unknown
+# depends_on: 
+# notes: 
+# END_LOGOS_HEADER
+
 """Smoke tests for real LLM providers (advisor-only).
 
 Skips cleanly when no provider keys are present.

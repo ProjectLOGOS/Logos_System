@@ -1,0 +1,72 @@
+{
+  "generated_from_repo": "/workspaces/Logos_System",
+  "legacy_alias_map_pass_1": {
+    "method": "legacy_token_occurrence_with_local_cooccurrence_window",
+    "legacy_tokens": [
+      "THONOC",
+      "TELOS",
+      "TETRAGNOS",
+      "ARCHON"
+    ],
+    "protocol_tokens": [
+      "ETG",
+      "ETGC",
+      "SCP",
+      "UIP",
+      "ARP",
+      "SOP",
+      "TLM",
+      "3OT",
+      "MESH",
+      "TRIUNE",
+      "TRINITY",
+      "VECTOR",
+      "VECTORS",
+      "EXISTENCE",
+      "TRUTH",
+      "GOODNESS",
+      "COHERENCE"
+    ],
+    "total_files_with_legacy_tokens": 0,
+    "files": {},
+    "records": [],
+    "note": "records capped at 2000 for size; counts are complete."
+  },
+  "family_seeded_indices_pass_1": [
+    {
+      "family": "ETG_ETGC",
+      "tokens": [
+        "ETG",
+        "ETGC",
+        "Existence",
+        "Truth",
+        "Goodness",
+        "Coherence",
+        "Transcendental",
+        "ETGC_Check",
+        "ETG_Check"
+      ],
+      "total_files": 0,
+      "top_100": []
+    },
+    {
+      "family": "TRIUNE_VECTOR",
+      "tokens": [
+        "Triune",
+        "Trinity",
+        "Vector",
+        "Vectors",
+        "MVS",
+        "Modal_Vector_Space",
+        "Axis",
+        "Axes",
+        "Sign",
+        "Mind",
+        "Bridge",
+        "Mesh"
+      ],
+      "total_files": 0,
+      "top_100": []
+    }
+  ]
+}

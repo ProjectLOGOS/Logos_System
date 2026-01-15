@@ -1,0 +1,235 @@
+{
+  "method": "token_jaccard_over_function_span_excluding_boilerplate_names",
+  "stop_names": [
+    "__main__",
+    "_tail",
+    "build_parser",
+    "cli",
+    "entrypoint",
+    "get_args",
+    "main",
+    "parse_args",
+    "run"
+  ],
+  "threshold": 0.55,
+  "total_names_with_2plus_occurrences": 25,
+  "total_candidates": 9,
+  "top_100": [
+    {
+      "function": "_run_with_payload",
+      "a": {
+        "name": "_run_with_payload",
+        "path": "_Dev_Resources/Dev_Scripts/smoke_tests/test_llm_advisor_smoke.py",
+        "line": 17,
+        "end_line": 97,
+        "protocol": "UNKNOWN"
+      },
+      "b": {
+        "name": "_run_with_payload",
+        "path": "_Dev_Resources/Dev_Scripts/smoke_tests/test_llm_bypass_smoke.py",
+        "line": 17,
+        "end_line": 97,
+        "protocol": "UNKNOWN"
+      },
+      "token_jaccard": 0.8333,
+      "protocol_match": true,
+      "signals": {
+        "a_tokens": 63,
+        "b_tokens": 58,
+        "shared_tokens": 55
+      }
+    },
+    {
+      "function": "_free_port",
+      "a": {
+        "name": "_free_port",
+        "path": "_Dev_Resources/Dev_Scripts/smoke_tests/test_logos_gpt_web_smoke.py",
+        "line": 20,
+        "end_line": 100,
+        "protocol": "UNKNOWN"
+      },
+      "b": {
+        "name": "_free_port",
+        "path": "_Dev_Resources/Dev_Scripts/smoke_tests/test_web_grounding_smoke.py",
+        "line": 18,
+        "end_line": 98,
+        "protocol": "UNKNOWN"
+      },
+      "token_jaccard": 0.7264,
+      "protocol_match": true,
+      "signals": {
+        "a_tokens": 88,
+        "b_tokens": 95,
+        "shared_tokens": 77
+      }
+    },
+    {
+      "function": "_load_state",
+      "a": {
+        "name": "_load_state",
+        "path": "_Dev_Resources/Dev_Scripts/smoke_tests/test_llm_advisor_smoke.py",
+        "line": 47,
+        "end_line": 127,
+        "protocol": "UNKNOWN"
+      },
+      "b": {
+        "name": "_load_state",
+        "path": "_Dev_Resources/Dev_Scripts/smoke_tests/test_llm_bypass_smoke.py",
+        "line": 47,
+        "end_line": 127,
+        "protocol": "UNKNOWN"
+      },
+      "token_jaccard": 0.72,
+      "protocol_match": true,
+      "signals": {
+        "a_tokens": 45,
+        "b_tokens": 41,
+        "shared_tokens": 36
+      }
+    },
+    {
+      "function": "scan",
+      "a": {
+        "name": "scan",
+        "path": "_Dev_Resources/Dev_Scripts/repo_tools/system_audit/scan_runtime_surface.py",
+        "line": 12,
+        "end_line": 92,
+        "protocol": "UNKNOWN"
+      },
+      "b": {
+        "name": "scan",
+        "path": "_Dev_Resources/Dev_Scripts/repo_tools/system_audit/scan_side_effects.py",
+        "line": 13,
+        "end_line": 93,
+        "protocol": "UNKNOWN"
+      },
+      "token_jaccard": 0.7083,
+      "protocol_match": true,
+      "signals": {
+        "a_tokens": 41,
+        "b_tokens": 41,
+        "shared_tokens": 34
+      }
+    },
+    {
+      "function": "_post",
+      "a": {
+        "name": "_post",
+        "path": "_Dev_Resources/Dev_Scripts/smoke_tests/test_logos_gpt_web_smoke.py",
+        "line": 40,
+        "end_line": 120,
+        "protocol": "UNKNOWN"
+      },
+      "b": {
+        "name": "_post",
+        "path": "_Dev_Resources/Dev_Scripts/smoke_tests/test_web_grounding_smoke.py",
+        "line": 40,
+        "end_line": 120,
+        "protocol": "UNKNOWN"
+      },
+      "token_jaccard": 0.7041,
+      "protocol_match": true,
+      "signals": {
+        "a_tokens": 79,
+        "b_tokens": 88,
+        "shared_tokens": 69
+      }
+    },
+    {
+      "function": "_wait",
+      "a": {
+        "name": "_wait",
+        "path": "_Dev_Resources/Dev_Scripts/smoke_tests/test_logos_gpt_web_smoke.py",
+        "line": 28,
+        "end_line": 108,
+        "protocol": "UNKNOWN"
+      },
+      "b": {
+        "name": "_wait",
+        "path": "_Dev_Resources/Dev_Scripts/smoke_tests/test_web_grounding_smoke.py",
+        "line": 26,
+        "end_line": 106,
+        "protocol": "UNKNOWN"
+      },
+      "token_jaccard": 0.6981,
+      "protocol_match": true,
+      "signals": {
+        "a_tokens": 88,
+        "b_tokens": 92,
+        "shared_tokens": 74
+      }
+    },
+    {
+      "function": "run_pipeline_cmd",
+      "a": {
+        "name": "run_pipeline_cmd",
+        "path": "_Dev_Resources/Dev_Scripts/smoke_tests/test_tool_approval_tamper_smoke.py",
+        "line": 16,
+        "end_line": 96,
+        "protocol": "UNKNOWN"
+      },
+      "b": {
+        "name": "run_pipeline_cmd",
+        "path": "_Dev_Resources/Dev_Scripts/smoke_tests/test_tool_pipeline_smoke.py",
+        "line": 20,
+        "end_line": 100,
+        "protocol": "UNKNOWN"
+      },
+      "token_jaccard": 0.5857,
+      "protocol_match": true,
+      "signals": {
+        "a_tokens": 50,
+        "b_tokens": 61,
+        "shared_tokens": 41
+      }
+    },
+    {
+      "function": "_load_state",
+      "a": {
+        "name": "_load_state",
+        "path": "_Dev_Resources/Dev_Scripts/smoke_tests/test_llm_advisor_smoke.py",
+        "line": 47,
+        "end_line": 127,
+        "protocol": "UNKNOWN"
+      },
+      "b": {
+        "name": "_load_state",
+        "path": "_Dev_Resources/Dev_Scripts/smoke_tests/test_logos_gpt_chat_smoke.py",
+        "line": 67,
+        "end_line": 147,
+        "protocol": "UNKNOWN"
+      },
+      "token_jaccard": 0.5538,
+      "protocol_match": true,
+      "signals": {
+        "a_tokens": 45,
+        "b_tokens": 56,
+        "shared_tokens": 36
+      }
+    },
+    {
+      "function": "_env_with_paths",
+      "a": {
+        "name": "_env_with_paths",
+        "path": "_Dev_Resources/Dev_Scripts/smoke_tests/test_alignment_gate_smoke.py",
+        "line": 14,
+        "end_line": 94,
+        "protocol": "UNKNOWN"
+      },
+      "b": {
+        "name": "_env_with_paths",
+        "path": "_Dev_Resources/Dev_Scripts/smoke_tests/test_run_ledger_smoke.py",
+        "line": 17,
+        "end_line": 97,
+        "protocol": "UNKNOWN"
+      },
+      "token_jaccard": 0.55,
+      "protocol_match": true,
+      "signals": {
+        "a_tokens": 59,
+        "b_tokens": 65,
+        "shared_tokens": 44
+      }
+    }
+  ]
+}

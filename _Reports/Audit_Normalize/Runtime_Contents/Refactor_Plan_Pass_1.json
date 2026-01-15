@@ -1,0 +1,68 @@
+{
+  "generated_utc": "2026-01-14T17:35:37Z",
+  "phase": "Audit_Normalize",
+  "pass": "Refactor_Plan_Pass_1",
+  "inputs": {
+    "orphan_classification": "",
+    "inspect_decide": "",
+    "duplicate_files": "",
+    "duplicate_directories": "",
+    "semantic_duplicates": "",
+    "naming_file_violations": "",
+    "naming_dir_violations": "",
+    "naming_module_violations": ""
+  },
+  "summary_counts": {
+    "orphan_classification": {
+      "present": false,
+      "count": 0
+    },
+    "inspect_decide": {
+      "present": false,
+      "count": 0
+    },
+    "duplicate_files": {
+      "present": false,
+      "count": 0
+    },
+    "duplicate_directories": {
+      "present": false,
+      "count": 0
+    },
+    "semantic_duplicates": {
+      "present": false,
+      "count": 0
+    },
+    "naming_file_violations": {
+      "present": false,
+      "count": 0
+    },
+    "naming_dir_violations": {
+      "present": false,
+      "count": 0
+    },
+    "naming_module_violations": {
+      "present": false,
+      "count": 0
+    }
+  },
+  "constraints": {
+    "fail_closed": true,
+    "coq_files_immutable": true,
+    "coq_documentation_sidecar_only": true,
+    "logos_token_excluded_from_legacy_scans": true,
+    "naming_convention": "Title_Case_With_Underscores",
+    "header_policy": {
+      "py_inline_headers_deferred_until": "Script_Crawl",
+      "json_yaml_sidecar": true,
+      "coq_v_sidecar_only": true
+    }
+  },
+  "next_actions": [
+    "Define Crawl Phase 1 as read-only inspection + tagging + plan enrichment",
+    "Build Move_Queue_Pass_1 (Dev_Scripts first; exclude Coq and PXL_Gate unless explicitly instructed)",
+    "Build Rename_Queue_Pass_1 from naming violation lists (batched, reversible)",
+    "Build Merge_Queue_Pass_1 from semantic duplicates and user-provided semantic merge candidates",
+    "Run import-resolution reclass pass (stdlib/site-packages vs internal) before using unresolved imports for moves"
+  ]
+}

@@ -1,0 +1,9 @@
+Traceback (most recent call last):
+  File "/workspaces/Logos_System/_Dev_Resources/Dev_Scripts/repo_tools/Header_Tools/Generate_Production_Headers.py", line 55, in <module>
+    raise SystemExit(main())
+                     ^^^^^^
+  File "/workspaces/Logos_System/_Dev_Resources/Dev_Scripts/repo_tools/Header_Tools/Generate_Production_Headers.py", line 35, in main
+    enforce_abbrev_policy(text)
+  File "/workspaces/Logos_System/_Dev_Resources/Dev_Scripts/repo_tools/Header_Tools/Header_Lib.py", line 181, in enforce_abbrev_policy
+    raise ValueError(f"Forbidden alias '{bad}' found; must use '{good}'")
+ValueError: Forbidden alias 'EGTC' found; must use 'ETGC'

@@ -1,0 +1,39 @@
+{
+  "method": "legacy_token_to_protocol_remap_pass_1",
+  "excluded_tokens": [
+    "LOGOS"
+  ],
+  "legacy_map": {
+    "ARCHON": {
+      "target_protocol": "SOP",
+      "overlaps": []
+    },
+    "TELOS": {
+      "target_protocol": "SCP",
+      "overlaps": [
+        "ARP"
+      ]
+    },
+    "TETRAGNOS": {
+      "target_protocol": "MTP",
+      "overlaps": [
+        "I2"
+      ]
+    },
+    "THONOC": {
+      "target_protocol": "SCP",
+      "overlaps": [
+        "ARP"
+      ]
+    },
+    "KYREX": {
+      "target_protocol": "MTP",
+      "overlaps": [
+        "I2"
+      ]
+    }
+  },
+  "total_files_matched": 0,
+  "files": {},
+  "records": []
+}

@@ -13,7 +13,7 @@ def scan_python_dependencies(repo: Path) -> Dict[str, Any]:
     stdlib: Set[str] = set()
     local_like: Set[str] = set()
 
-    for p in iter_files(repo, suffixes=(".py",)):
+    for p in iter_files(repo, suffix=".py"):
         for imp in parse_python_imports(p, repo):
             if imp.level:
                 continue

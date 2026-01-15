@@ -1,0 +1,29 @@
+{
+  "version": "router-state/1",
+  "scripts": {
+    "_Dev_Resources/LEGACY_SCRIPTS_TO_EXAMINE/system_mode_initializer.py": {
+      "fail_count": 0,
+      "unknown_count": 0
+    },
+    "_Dev_Resources/LEGACY_SCRIPTS_TO_EXAMINE/export_tool_registry.py": {
+      "fail_count": 0,
+      "unknown_count": 0
+    },
+    "_Dev_Resources/LEGACY_SCRIPTS_TO_EXAMINE/test_stub_beliefs_never_verified.py": {
+      "fail_count": 0,
+      "unknown_count": 0
+    },
+    "_Dev_Resources/LEGACY_SCRIPTS_TO_EXAMINE/run_mvp_acceptance.py": {
+      "fail_count": 0,
+      "unknown_count": 0
+    },
+    "_Dev_Resources/LEGACY_SCRIPTS_TO_EXAMINE/scan_repo.py": {
+      "fail_count": 0,
+      "unknown_count": 0
+    },
+    "_Dev_Resources/LEGACY_SCRIPTS_TO_EXAMINE/test_tool_pipeline_smoke.py": {
+      "fail_count": 0,
+      "unknown_count": 0
+    }
+  }
+}

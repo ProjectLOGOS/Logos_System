@@ -1,0 +1,268 @@
+[
+  {
+    "path": "_Dev_Resources/LEGACY_SCRIPTS_TO_EXAMINE/could_be_dev/system_mode_initializer.py",
+    "bucket": "UNCLASSIFIED_REVIEW",
+    "reasons": [
+      "insufficient signal"
+    ]
+  },
+  {
+    "path": "_Dev_Resources/LEGACY_SCRIPTS_TO_EXAMINE/could_be_dev/test_stub_beliefs_never_verified.py",
+    "bucket": "UNCLASSIFIED_REVIEW",
+    "reasons": [
+      "insufficient signal"
+    ]
+  },
+  {
+    "path": "_Dev_Resources/LEGACY_SCRIPTS_TO_EXAMINE/could_be_dev/test_logos_agi_bootstrap_modes.py",
+    "bucket": "UNCLASSIFIED_REVIEW",
+    "reasons": [
+      "insufficient signal"
+    ]
+  },
+  {
+    "path": "_Dev_Resources/LEGACY_SCRIPTS_TO_EXAMINE/could_be_dev/capture_arp_traces_and_backfill.py",
+    "bucket": "UNCLASSIFIED_REVIEW",
+    "reasons": [
+      "insufficient signal"
+    ]
+  },
+  {
+    "path": "_Dev_Resources/LEGACY_SCRIPTS_TO_EXAMINE/could_be_dev/run_simulation_stub.py",
+    "bucket": "UNCLASSIFIED_REVIEW",
+    "reasons": [
+      "insufficient signal"
+    ]
+  },
+  {
+    "path": "_Dev_Resources/LEGACY_SCRIPTS_TO_EXAMINE/could_be_dev/run_cycle_loop.py",
+    "bucket": "UNCLASSIFIED_REVIEW",
+    "reasons": [
+      "insufficient signal"
+    ]
+  },
+  {
+    "path": "_Dev_Resources/LEGACY_SCRIPTS_TO_EXAMINE/could_be_dev/start_agent.py",
+    "bucket": "ASSUMED_ARP",
+    "reasons": [
+      "class-heavy or reasoning indicators"
+    ]
+  },
+  {
+    "path": "_Dev_Resources/LEGACY_SCRIPTS_TO_EXAMINE/could_be_dev/test_logos_agi_pin_drift.py",
+    "bucket": "UNCLASSIFIED_REVIEW",
+    "reasons": [
+      "insufficient signal"
+    ]
+  },
+  {
+    "path": "_Dev_Resources/LEGACY_SCRIPTS_TO_EXAMINE/could_be_dev/test_logos_agi_replay_proposals.py",
+    "bucket": "UNCLASSIFIED_REVIEW",
+    "reasons": [
+      "insufficient signal"
+    ]
+  },
+  {
+    "path": "_Dev_Resources/LEGACY_SCRIPTS_TO_EXAMINE/INSPECT_DECIDE/message_formats.py",
+    "bucket": "ASSUMED_ARP",
+    "reasons": [
+      "class-heavy or reasoning indicators"
+    ]
+  },
+  {
+    "path": "_Dev_Resources/LEGACY_SCRIPTS_TO_EXAMINE/INSPECT_DECIDE/export_tool_registry.py",
+    "bucket": "UNCLASSIFIED_REVIEW",
+    "reasons": [
+      "insufficient signal"
+    ]
+  },
+  {
+    "path": "_Dev_Resources/LEGACY_SCRIPTS_TO_EXAMINE/INSPECT_DECIDE/system_imports.py",
+    "bucket": "UNCLASSIFIED_REVIEW",
+    "reasons": [
+      "insufficient signal"
+    ]
+  },
+  {
+    "path": "_Dev_Resources/LEGACY_SCRIPTS_TO_EXAMINE/INSPECT_DECIDE/scan_repo.py",
+    "bucket": "UNCLASSIFIED_REVIEW",
+    "reasons": [
+      "insufficient signal"
+    ]
+  },
+  {
+    "path": "_Dev_Resources/LEGACY_SCRIPTS_TO_EXAMINE/INSPECT_DECIDE/aligned_agent_import.py",
+    "bucket": "UNCLASSIFIED_REVIEW",
+    "reasons": [
+      "insufficient signal"
+    ]
+  },
+  {
+    "path": "_Dev_Resources/LEGACY_SCRIPTS_TO_EXAMINE/INSPECT_DECIDE/provenance.py",
+    "bucket": "UNCLASSIFIED_REVIEW",
+    "reasons": [
+      "insufficient signal"
+    ]
+  },
+  {
+    "path": "_Dev_Resources/LEGACY_SCRIPTS_TO_EXAMINE/INSPECT_DECIDE/test_arp_modes.py",
+    "bucket": "UNCLASSIFIED_REVIEW",
+    "reasons": [
+      "insufficient signal"
+    ]
+  },
+  {
+    "path": "_Dev_Resources/LEGACY_SCRIPTS_TO_EXAMINE/INSPECT_DECIDE/evidence.py",
+    "bucket": "UNCLASSIFIED_REVIEW",
+    "reasons": [
+      "insufficient signal"
+    ]
+  },
+  {
+    "path": "_Dev_Resources/LEGACY_SCRIPTS_TO_EXAMINE/INSPECT_DECIDE/test_proved_grounding.py",
+    "bucket": "ASSUMED_SCP",
+    "reasons": [
+      "ontological/grounding naming"
+    ]
+  },
+  {
+    "path": "_Dev_Resources/LEGACY_SCRIPTS_TO_EXAMINE/INSPECT_DECIDE/privative_dual_bijection_kernel.py",
+    "bucket": "UNCLASSIFIED_REVIEW",
+    "reasons": [
+      "insufficient signal"
+    ]
+  },
+  {
+    "path": "_Dev_Resources/LEGACY_SCRIPTS_TO_EXAMINE/INSPECT_DECIDE/prototype_grounding_workflow.py",
+    "bucket": "ASSUMED_SCP",
+    "reasons": [
+      "ontological/grounding naming"
+    ]
+  },
+  {
+    "path": "_Dev_Resources/LEGACY_SCRIPTS_TO_EXAMINE/INSPECT_DECIDE/cycle_ledger.py",
+    "bucket": "UNCLASSIFIED_REVIEW",
+    "reasons": [
+      "insufficient signal"
+    ]
+  },
+  {
+    "path": "_Dev_Resources/LEGACY_SCRIPTS_TO_EXAMINE/INSPECT_DECIDE/build_coq_theorem_index.py",
+    "bucket": "UNCLASSIFIED_REVIEW",
+    "reasons": [
+      "insufficient signal"
+    ]
+  },
+  {
+    "path": "_Dev_Resources/LEGACY_SCRIPTS_TO_EXAMINE/INSPECT_DECIDE/archive_planner_digests.py",
+    "bucket": "ASSUMED_ARP",
+    "reasons": [
+      "class-heavy or reasoning indicators"
+    ]
+  },
+  {
+    "path": "_Dev_Resources/LEGACY_SCRIPTS_TO_EXAMINE/INSPECT_DECIDE/protocol_probe.py",
+    "bucket": "UNCLASSIFIED_REVIEW",
+    "reasons": [
+      "insufficient signal"
+    ]
+  },
+  {
+    "path": "_Dev_Resources/LEGACY_SCRIPTS_TO_EXAMINE/INSPECT_DECIDE/test_belief_quarantine_persistence.py",
+    "bucket": "UNCLASSIFIED_REVIEW",
+    "reasons": [
+      "insufficient signal"
+    ]
+  },
+  {
+    "path": "_Dev_Resources/LEGACY_SCRIPTS_TO_EXAMINE/INSPECT_DECIDE/example_connector.py",
+    "bucket": "UNCLASSIFIED_REVIEW",
+    "reasons": [
+      "insufficient signal"
+    ]
+  },
+  {
+    "path": "_Dev_Resources/LEGACY_SCRIPTS_TO_EXAMINE/INSPECT_DECIDE/stress_sop_runtime.py",
+    "bucket": "ASSUMED_SOP",
+    "reasons": [
+      "orchestration/state indicators"
+    ]
+  },
+  {
+    "path": "_Dev_Resources/LEGACY_SCRIPTS_TO_EXAMINE/INSPECT_DECIDE/scp_local_diagnostic.py",
+    "bucket": "UNCLASSIFIED_REVIEW",
+    "reasons": [
+      "insufficient signal"
+    ]
+  },
+  {
+    "path": "_Dev_Resources/LEGACY_SCRIPTS_TO_EXAMINE/INSPECT_DECIDE/run_recursive_immersion_cycle.py",
+    "bucket": "UNCLASSIFIED_REVIEW",
+    "reasons": [
+      "insufficient signal"
+    ]
+  },
+  {
+    "path": "_Dev_Resources/LEGACY_SCRIPTS_TO_EXAMINE/INSPECT_DECIDE/boot_aligned_agent.py",
+    "bucket": "ASSUMED_ARP",
+    "reasons": [
+      "class-heavy or reasoning indicators"
+    ]
+  },
+  {
+    "path": "_Dev_Resources/LEGACY_SCRIPTS_TO_EXAMINE/INSPECT_DECIDE/_bootstrap.py",
+    "bucket": "UNCLASSIFIED_REVIEW",
+    "reasons": [
+      "insufficient signal"
+    ]
+  },
+  {
+    "path": "_Dev_Resources/LEGACY_SCRIPTS_TO_EXAMINE/INSPECT_DECIDE/nexus_manager.py",
+    "bucket": "UNCLASSIFIED_REVIEW",
+    "reasons": [
+      "insufficient signal"
+    ]
+  },
+  {
+    "path": "_Dev_Resources/LEGACY_SCRIPTS_TO_EXAMINE/INSPECT_DECIDE/test_belief_tool_policy.py",
+    "bucket": "UNCLASSIFIED_REVIEW",
+    "reasons": [
+      "insufficient signal"
+    ]
+  },
+  {
+    "path": "_Dev_Resources/LEGACY_SCRIPTS_TO_EXAMINE/INSPECT_DECIDE/test_plan_history_inprocess_refresh.py",
+    "bucket": "ASSUMED_ARP",
+    "reasons": [
+      "class-heavy or reasoning indicators"
+    ]
+  },
+  {
+    "path": "_Dev_Resources/LEGACY_SCRIPTS_TO_EXAMINE/INSPECT_DECIDE/test_truth_evaluator_ranking.py",
+    "bucket": "UNCLASSIFIED_REVIEW",
+    "reasons": [
+      "insufficient signal"
+    ]
+  },
+  {
+    "path": "_Dev_Resources/LEGACY_SCRIPTS_TO_EXAMINE/INSPECT_DECIDE/test_plan_revision_on_contradiction.py",
+    "bucket": "ASSUMED_ARP",
+    "reasons": [
+      "class-heavy or reasoning indicators"
+    ]
+  },
+  {
+    "path": "_Dev_Resources/LEGACY_SCRIPTS_TO_EXAMINE/INSPECT_DECIDE/test_grounded_reply_enforcement.py",
+    "bucket": "ASSUMED_SCP",
+    "reasons": [
+      "ontological/grounding naming"
+    ]
+  },
+  {
+    "path": "_Dev_Resources/LEGACY_SCRIPTS_TO_EXAMINE/INSPECT_DECIDE/logos_agi_adapter.py",
+    "bucket": "ASSUMED_ARP",
+    "reasons": [
+      "class-heavy or reasoning indicators"
+    ]
+  }
+]

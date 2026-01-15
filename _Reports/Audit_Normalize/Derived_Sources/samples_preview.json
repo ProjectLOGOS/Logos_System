@@ -1,0 +1,63 @@
+{
+  "call_graph": {
+    "calls": "Path",
+    "line": 22,
+    "script": "_Dev_Resources/Dev_Scripts/repo_tools/run_mvp_acceptance.py"
+  },
+  "import_graph": {
+    "key": "imports",
+    "value": {
+      "importer_file": "/workspaces/Logos_System/START_LOGOS.py",
+      "line": 10,
+      "col": 0,
+      "kind": "import",
+      "module": "",
+      "name": "argparse",
+      "level": 0
+    }
+  },
+  "top_level_symbol_index": {
+    "key": "classes",
+    "value": {
+      "file": "Logos_System/System_Stack/Synthetic_Cognition_Protocol/consciousness/reflexive_evaluator.py",
+      "line": 52,
+      "class_name": "ReflexiveSelfEvaluator",
+      "bases": [],
+      "methods": [
+        "__init__",
+        "evaluate_self_identity",
+        "verify_modal_self_possibility",
+        "detect_privation_failures",
+        "self_reflexive_report",
+        "sync_from_kernels",
+        "continuous_self_monitoring"
+      ],
+      "decorators": []
+    }
+  },
+  "dependency_map": {
+    "key": "inter_system",
+    "value": {
+      "key": "top_level_system_surfaces",
+      "value": "PXL_Gate"
+    }
+  },
+  "canonical_file_path_map": {
+    "id": 1,
+    "path": "Logos_System",
+    "type": "dir"
+  },
+  "known_naming_violations": {
+    "key": "directory_names",
+    "value": {
+      "path": ".github/workflows",
+      "name": "workflows"
+    }
+  },
+  "known_side_effects": {
+    "key": "filesystem_writes",
+    "value": {
+      "path": "Logos_System/System_Entry_Point/LEGACY_SCRIPTS_NOT_FINAL/serve_pxl.py"
+    }
+  }
+}

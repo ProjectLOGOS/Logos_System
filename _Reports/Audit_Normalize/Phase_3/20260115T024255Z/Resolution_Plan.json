@@ -1,0 +1,10 @@
+{
+  "source_index": "_Reports/Audit_Normalize/Phase_2/20260115T002052Z/Audit_Input_Index.json",
+  "script_count": 5,
+  "actions": {
+    "rename_candidates": [],
+    "move_candidates": [],
+    "merge_candidates": [],
+    "archive_candidates": []
+  }
+}

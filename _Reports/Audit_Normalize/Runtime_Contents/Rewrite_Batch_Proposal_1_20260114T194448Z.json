@@ -1,0 +1,611 @@
+{
+  "phase": "REWRITE_PLANNING",
+  "planning_only": true,
+  "source_triage": "_Reports/Audit_Normalize/Runtime_Contents/INSPECT_DECIDE_Triage_20260114T193844Z.json",
+  "candidate_count": 32,
+  "candidates": [
+    {
+      "rel": "_Dev_Resources/Dev_Scripts/repo_tools/run_mvp_acceptance.py",
+      "inspect_path": "_Dev_Resources/Dev_Scripts/LEGACY_SCRIPTS_TO_EXAMINE/INSPECT_DECIDE/_Dev_Resources/Dev_Scripts/repo_tools/run_mvp_acceptance.py",
+      "bytes": 3811,
+      "bucket_suggested": "MERGE_CANDIDATE",
+      "signals": {
+        "side_effect_hit": true,
+        "runtime_hint_hit": false,
+        "test_hint_hit": false
+      },
+      "inspect_sha256": "7fe8d55c42ed95da9a2911acca7f28836af6e17cd7458c90564901651923c82e",
+      "counterpart_path": null,
+      "counterpart_sha256": null,
+      "same_content": false,
+      "similarity_ratio": null
+    },
+    {
+      "rel": "_Dev_Resources/Dev_Scripts/smoke_tests/test_tool_approval_tamper_smoke.py",
+      "inspect_path": "_Dev_Resources/Dev_Scripts/LEGACY_SCRIPTS_TO_EXAMINE/INSPECT_DECIDE/_Dev_Resources/Dev_Scripts/smoke_tests/test_tool_approval_tamper_smoke.py",
+      "bytes": 4162,
+      "bucket_suggested": "MERGE_CANDIDATE",
+      "signals": {
+        "side_effect_hit": true,
+        "runtime_hint_hit": false,
+        "test_hint_hit": false
+      },
+      "inspect_sha256": "9cd29b79897914f74a277144bfee087813e62f96a8d5900310ccf4dcd329414d",
+      "counterpart_path": null,
+      "counterpart_sha256": null,
+      "same_content": false,
+      "similarity_ratio": null
+    },
+    {
+      "rel": "_Dev_Resources/Dev_Scripts/repo_tools/system_audit/scan_config_and_schema.py",
+      "inspect_path": "_Dev_Resources/Dev_Scripts/LEGACY_SCRIPTS_TO_EXAMINE/INSPECT_DECIDE/_Dev_Resources/Dev_Scripts/repo_tools/system_audit/scan_config_and_schema.py",
+      "bytes": 1696,
+      "bucket_suggested": "REWRITE_PROMOTE",
+      "signals": {
+        "side_effect_hit": false,
+        "runtime_hint_hit": true,
+        "test_hint_hit": false
+      },
+      "inspect_sha256": "34fc7cbc30f7224184b7fe789811721b08967099979ffab67af975361a5c48b0",
+      "counterpart_path": null,
+      "counterpart_sha256": null,
+      "same_content": false,
+      "similarity_ratio": null
+    },
+    {
+      "rel": "_Dev_Resources/Dev_Scripts/repo_tools/system_audit/scan_side_effects.py",
+      "inspect_path": "_Dev_Resources/Dev_Scripts/LEGACY_SCRIPTS_TO_EXAMINE/INSPECT_DECIDE/_Dev_Resources/Dev_Scripts/repo_tools/system_audit/scan_side_effects.py",
+      "bytes": 1791,
+      "bucket_suggested": "MERGE_CANDIDATE",
+      "signals": {
+        "side_effect_hit": true,
+        "runtime_hint_hit": false,
+        "test_hint_hit": false
+      },
+      "inspect_sha256": "c4640e2c879e9e34082a590e6581cf35071d8067262c263e59ac6278c8041343",
+      "counterpart_path": null,
+      "counterpart_sha256": null,
+      "same_content": false,
+      "similarity_ratio": null
+    },
+    {
+      "rel": "_Dev_Resources/Dev_Scripts/repo_tools/system_audit/audit_driver.py",
+      "inspect_path": "_Dev_Resources/Dev_Scripts/LEGACY_SCRIPTS_TO_EXAMINE/INSPECT_DECIDE/_Dev_Resources/Dev_Scripts/repo_tools/system_audit/audit_driver.py",
+      "bytes": 1556,
+      "bucket_suggested": "REWRITE_PROMOTE",
+      "signals": {
+        "side_effect_hit": true,
+        "runtime_hint_hit": true,
+        "test_hint_hit": false
+      },
+      "inspect_sha256": "6c4ab02a5b70b2a5525040eb22209e75e69bbaf6e5587bbe75fdc8a438b44392",
+      "counterpart_path": null,
+      "counterpart_sha256": null,
+      "same_content": false,
+      "similarity_ratio": null
+    },
+    {
+      "rel": "_Dev_Resources/Dev_Scripts/repo_tools/system_audit/_common.py",
+      "inspect_path": "_Dev_Resources/Dev_Scripts/LEGACY_SCRIPTS_TO_EXAMINE/INSPECT_DECIDE/_Dev_Resources/Dev_Scripts/repo_tools/system_audit/_common.py",
+      "bytes": 4364,
+      "bucket_suggested": "MERGE_CANDIDATE",
+      "signals": {
+        "side_effect_hit": true,
+        "runtime_hint_hit": false,
+        "test_hint_hit": false
+      },
+      "inspect_sha256": "6154b77f8a510a5d40aa38251452e69d40de04f4022f38454053a090621b1795",
+      "counterpart_path": null,
+      "counterpart_sha256": null,
+      "same_content": false,
+      "similarity_ratio": null
+    },
+    {
+      "rel": "_Dev_Resources/LEGACY_SCRIPTS_TO_EXAMINE/could_be_dev/system_mode_initializer.py",
+      "inspect_path": "_Dev_Resources/Dev_Scripts/LEGACY_SCRIPTS_TO_EXAMINE/INSPECT_DECIDE/_Dev_Resources/LEGACY_SCRIPTS_TO_EXAMINE/could_be_dev/system_mode_initializer.py",
+      "bytes": 4962,
+      "bucket_suggested": "REWRITE_PROMOTE",
+      "signals": {
+        "side_effect_hit": true,
+        "runtime_hint_hit": true,
+        "test_hint_hit": false
+      },
+      "inspect_sha256": "71a10540e0bcbed27fae683b886d5f29702961272d77b548db7f13aed7735e9c",
+      "counterpart_path": null,
+      "counterpart_sha256": null,
+      "same_content": false,
+      "similarity_ratio": null
+    },
+    {
+      "rel": "_Dev_Resources/LEGACY_SCRIPTS_TO_EXAMINE/could_be_dev/test_stub_beliefs_never_verified.py",
+      "inspect_path": "_Dev_Resources/Dev_Scripts/LEGACY_SCRIPTS_TO_EXAMINE/INSPECT_DECIDE/_Dev_Resources/LEGACY_SCRIPTS_TO_EXAMINE/could_be_dev/test_stub_beliefs_never_verified.py",
+      "bytes": 2743,
+      "bucket_suggested": "MERGE_CANDIDATE",
+      "signals": {
+        "side_effect_hit": true,
+        "runtime_hint_hit": false,
+        "test_hint_hit": false
+      },
+      "inspect_sha256": "0fadb97a5574a6886221259d9da283b91e4300e73d385c8d9392f47ebf9ef715",
+      "counterpart_path": null,
+      "counterpart_sha256": null,
+      "same_content": false,
+      "similarity_ratio": null
+    },
+    {
+      "rel": "_Dev_Resources/LEGACY_SCRIPTS_TO_EXAMINE/could_be_dev/test_logos_agi_bootstrap_modes.py",
+      "inspect_path": "_Dev_Resources/Dev_Scripts/LEGACY_SCRIPTS_TO_EXAMINE/INSPECT_DECIDE/_Dev_Resources/LEGACY_SCRIPTS_TO_EXAMINE/could_be_dev/test_logos_agi_bootstrap_modes.py",
+      "bytes": 2734,
+      "bucket_suggested": "MERGE_CANDIDATE",
+      "signals": {
+        "side_effect_hit": true,
+        "runtime_hint_hit": false,
+        "test_hint_hit": false
+      },
+      "inspect_sha256": "45d057719eb66914bc20340e241233a423df887210e370ad4b072fe8b584682f",
+      "counterpart_path": null,
+      "counterpart_sha256": null,
+      "same_content": false,
+      "similarity_ratio": null
+    },
+    {
+      "rel": "_Dev_Resources/LEGACY_SCRIPTS_TO_EXAMINE/could_be_dev/capture_arp_traces_and_backfill.py",
+      "inspect_path": "_Dev_Resources/Dev_Scripts/LEGACY_SCRIPTS_TO_EXAMINE/INSPECT_DECIDE/_Dev_Resources/LEGACY_SCRIPTS_TO_EXAMINE/could_be_dev/capture_arp_traces_and_backfill.py",
+      "bytes": 13121,
+      "bucket_suggested": "REWRITE_PROMOTE",
+      "signals": {
+        "side_effect_hit": true,
+        "runtime_hint_hit": true,
+        "test_hint_hit": false
+      },
+      "inspect_sha256": "d4d43e41a85f55da6d6ee7be1b4e82a1e9b2f3672dd404644b6fe0c77ef05144",
+      "counterpart_path": null,
+      "counterpart_sha256": null,
+      "same_content": false,
+      "similarity_ratio": null
+    },
+    {
+      "rel": "_Dev_Resources/LEGACY_SCRIPTS_TO_EXAMINE/could_be_dev/run_simulation_stub.py",
+      "inspect_path": "_Dev_Resources/Dev_Scripts/LEGACY_SCRIPTS_TO_EXAMINE/INSPECT_DECIDE/_Dev_Resources/LEGACY_SCRIPTS_TO_EXAMINE/could_be_dev/run_simulation_stub.py",
+      "bytes": 2855,
+      "bucket_suggested": "MERGE_CANDIDATE",
+      "signals": {
+        "side_effect_hit": true,
+        "runtime_hint_hit": false,
+        "test_hint_hit": false
+      },
+      "inspect_sha256": "f6daaf24baf9bd02ab26e35d7ff64b6143052b7f19eb90680dbc6b084009928d",
+      "counterpart_path": null,
+      "counterpart_sha256": null,
+      "same_content": false,
+      "similarity_ratio": null
+    },
+    {
+      "rel": "_Dev_Resources/LEGACY_SCRIPTS_TO_EXAMINE/could_be_dev/run_cycle_loop.py",
+      "inspect_path": "_Dev_Resources/Dev_Scripts/LEGACY_SCRIPTS_TO_EXAMINE/INSPECT_DECIDE/_Dev_Resources/LEGACY_SCRIPTS_TO_EXAMINE/could_be_dev/run_cycle_loop.py",
+      "bytes": 10918,
+      "bucket_suggested": "REWRITE_PROMOTE",
+      "signals": {
+        "side_effect_hit": true,
+        "runtime_hint_hit": true,
+        "test_hint_hit": false
+      },
+      "inspect_sha256": "242dcb1c6f51b7bfd294ddd6d1095706516c03f663710edc1cf7e8132a6f8436",
+      "counterpart_path": null,
+      "counterpart_sha256": null,
+      "same_content": false,
+      "similarity_ratio": null
+    },
+    {
+      "rel": "_Dev_Resources/LEGACY_SCRIPTS_TO_EXAMINE/could_be_dev/test_logos_agi_replay_proposals.py",
+      "inspect_path": "_Dev_Resources/Dev_Scripts/LEGACY_SCRIPTS_TO_EXAMINE/INSPECT_DECIDE/_Dev_Resources/LEGACY_SCRIPTS_TO_EXAMINE/could_be_dev/test_logos_agi_replay_proposals.py",
+      "bytes": 3774,
+      "bucket_suggested": "REWRITE_PROMOTE",
+      "signals": {
+        "side_effect_hit": true,
+        "runtime_hint_hit": true,
+        "test_hint_hit": false
+      },
+      "inspect_sha256": "25bb9115ff95b31af5ee31a54551023b360a0de5e81127b84b8076a44cdf7b4c",
+      "counterpart_path": null,
+      "counterpart_sha256": null,
+      "same_content": false,
+      "similarity_ratio": null
+    },
+    {
+      "rel": "_Dev_Resources/LEGACY_SCRIPTS_TO_EXAMINE/INSPECT_DECIDE/export_tool_registry.py",
+      "inspect_path": "_Dev_Resources/Dev_Scripts/LEGACY_SCRIPTS_TO_EXAMINE/INSPECT_DECIDE/_Dev_Resources/LEGACY_SCRIPTS_TO_EXAMINE/INSPECT_DECIDE/export_tool_registry.py",
+      "bytes": 3930,
+      "bucket_suggested": "REWRITE_PROMOTE",
+      "signals": {
+        "side_effect_hit": true,
+        "runtime_hint_hit": true,
+        "test_hint_hit": false
+      },
+      "inspect_sha256": "c4bf09f110e30ac4dc2f068a2f389ae7de56216607b9652f471597afff719a51",
+      "counterpart_path": null,
+      "counterpart_sha256": null,
+      "same_content": false,
+      "similarity_ratio": null
+    },
+    {
+      "rel": "_Dev_Resources/LEGACY_SCRIPTS_TO_EXAMINE/INSPECT_DECIDE/scan_repo.py",
+      "inspect_path": "_Dev_Resources/Dev_Scripts/LEGACY_SCRIPTS_TO_EXAMINE/INSPECT_DECIDE/_Dev_Resources/LEGACY_SCRIPTS_TO_EXAMINE/INSPECT_DECIDE/scan_repo.py",
+      "bytes": 8277,
+      "bucket_suggested": "REWRITE_PROMOTE",
+      "signals": {
+        "side_effect_hit": true,
+        "runtime_hint_hit": true,
+        "test_hint_hit": false
+      },
+      "inspect_sha256": "35dfed0be039c429787e15b6cf2852476a0b8b6b19cb926ce145f9c6ff52ba19",
+      "counterpart_path": null,
+      "counterpart_sha256": null,
+      "same_content": false,
+      "similarity_ratio": null
+    },
+    {
+      "rel": "_Dev_Resources/LEGACY_SCRIPTS_TO_EXAMINE/INSPECT_DECIDE/aligned_agent_import.py",
+      "inspect_path": "_Dev_Resources/Dev_Scripts/LEGACY_SCRIPTS_TO_EXAMINE/INSPECT_DECIDE/_Dev_Resources/LEGACY_SCRIPTS_TO_EXAMINE/INSPECT_DECIDE/aligned_agent_import.py",
+      "bytes": 13840,
+      "bucket_suggested": "REWRITE_PROMOTE",
+      "signals": {
+        "side_effect_hit": true,
+        "runtime_hint_hit": true,
+        "test_hint_hit": false
+      },
+      "inspect_sha256": "aa70e2e19891d673a635f060ecf0b38bae2f99b16583d5cf6a25bf0b59d7a043",
+      "counterpart_path": null,
+      "counterpart_sha256": null,
+      "same_content": false,
+      "similarity_ratio": null
+    },
+    {
+      "rel": "_Dev_Resources/LEGACY_SCRIPTS_TO_EXAMINE/INSPECT_DECIDE/provenance.py",
+      "inspect_path": "_Dev_Resources/Dev_Scripts/LEGACY_SCRIPTS_TO_EXAMINE/INSPECT_DECIDE/_Dev_Resources/LEGACY_SCRIPTS_TO_EXAMINE/INSPECT_DECIDE/provenance.py",
+      "bytes": 3313,
+      "bucket_suggested": "MERGE_CANDIDATE",
+      "signals": {
+        "side_effect_hit": true,
+        "runtime_hint_hit": false,
+        "test_hint_hit": false
+      },
+      "inspect_sha256": "08b855edece4f7804049c4e7afdf44eafd8752cf21dad280b2900032417387a9",
+      "counterpart_path": null,
+      "counterpart_sha256": null,
+      "same_content": false,
+      "similarity_ratio": null
+    },
+    {
+      "rel": "_Dev_Resources/LEGACY_SCRIPTS_TO_EXAMINE/INSPECT_DECIDE/test_arp_modes.py",
+      "inspect_path": "_Dev_Resources/Dev_Scripts/LEGACY_SCRIPTS_TO_EXAMINE/INSPECT_DECIDE/_Dev_Resources/LEGACY_SCRIPTS_TO_EXAMINE/INSPECT_DECIDE/test_arp_modes.py",
+      "bytes": 9700,
+      "bucket_suggested": "REWRITE_PROMOTE",
+      "signals": {
+        "side_effect_hit": true,
+        "runtime_hint_hit": true,
+        "test_hint_hit": false
+      },
+      "inspect_sha256": "9a0f5db21d35d5d09455ba8b6446ab360382d52401bff87073f3540f976ecb9e",
+      "counterpart_path": null,
+      "counterpart_sha256": null,
+      "same_content": false,
+      "similarity_ratio": null
+    },
+    {
+      "rel": "_Dev_Resources/LEGACY_SCRIPTS_TO_EXAMINE/INSPECT_DECIDE/evidence.py",
+      "inspect_path": "_Dev_Resources/Dev_Scripts/LEGACY_SCRIPTS_TO_EXAMINE/INSPECT_DECIDE/_Dev_Resources/LEGACY_SCRIPTS_TO_EXAMINE/INSPECT_DECIDE/evidence.py",
+      "bytes": 4872,
+      "bucket_suggested": "MERGE_CANDIDATE",
+      "signals": {
+        "side_effect_hit": true,
+        "runtime_hint_hit": false,
+        "test_hint_hit": false
+      },
+      "inspect_sha256": "d9cc4930fb68bf3c68e6c8b4fe412eb9740e5f81800a91c152210dceab3e6c12",
+      "counterpart_path": null,
+      "counterpart_sha256": null,
+      "same_content": false,
+      "similarity_ratio": null
+    },
+    {
+      "rel": "_Dev_Resources/LEGACY_SCRIPTS_TO_EXAMINE/INSPECT_DECIDE/test_proved_grounding.py",
+      "inspect_path": "_Dev_Resources/Dev_Scripts/LEGACY_SCRIPTS_TO_EXAMINE/INSPECT_DECIDE/_Dev_Resources/LEGACY_SCRIPTS_TO_EXAMINE/INSPECT_DECIDE/test_proved_grounding.py",
+      "bytes": 4182,
+      "bucket_suggested": "REWRITE_PROMOTE",
+      "signals": {
+        "side_effect_hit": true,
+        "runtime_hint_hit": true,
+        "test_hint_hit": false
+      },
+      "inspect_sha256": "d3039ba2188a7cf378f4d4accfe9c3245485d6d6533babd761f66bfa19a62e34",
+      "counterpart_path": null,
+      "counterpart_sha256": null,
+      "same_content": false,
+      "similarity_ratio": null
+    },
+    {
+      "rel": "_Dev_Resources/LEGACY_SCRIPTS_TO_EXAMINE/INSPECT_DECIDE/prototype_grounding_workflow.py",
+      "inspect_path": "_Dev_Resources/Dev_Scripts/LEGACY_SCRIPTS_TO_EXAMINE/INSPECT_DECIDE/_Dev_Resources/LEGACY_SCRIPTS_TO_EXAMINE/INSPECT_DECIDE/prototype_grounding_workflow.py",
+      "bytes": 8610,
+      "bucket_suggested": "REWRITE_PROMOTE",
+      "signals": {
+        "side_effect_hit": true,
+        "runtime_hint_hit": true,
+        "test_hint_hit": false
+      },
+      "inspect_sha256": "f3d8f3a0bee2b92aafb8978f3eed7e2a5e1debb1ab68f643ec3702ba703a48b7",
+      "counterpart_path": null,
+      "counterpart_sha256": null,
+      "same_content": false,
+      "similarity_ratio": null
+    },
+    {
+      "rel": "_Dev_Resources/LEGACY_SCRIPTS_TO_EXAMINE/INSPECT_DECIDE/cycle_ledger.py",
+      "inspect_path": "_Dev_Resources/Dev_Scripts/LEGACY_SCRIPTS_TO_EXAMINE/INSPECT_DECIDE/_Dev_Resources/LEGACY_SCRIPTS_TO_EXAMINE/INSPECT_DECIDE/cycle_ledger.py",
+      "bytes": 4210,
+      "bucket_suggested": "REWRITE_PROMOTE",
+      "signals": {
+        "side_effect_hit": true,
+        "runtime_hint_hit": true,
+        "test_hint_hit": false
+      },
+      "inspect_sha256": "2054db5da3e27854d153ea600029c84d4dcf6ce192e021ac2a4e329a481a99d6",
+      "counterpart_path": null,
+      "counterpart_sha256": null,
+      "same_content": false,
+      "similarity_ratio": null
+    },
+    {
+      "rel": "_Dev_Resources/LEGACY_SCRIPTS_TO_EXAMINE/INSPECT_DECIDE/build_coq_theorem_index.py",
+      "inspect_path": "_Dev_Resources/Dev_Scripts/LEGACY_SCRIPTS_TO_EXAMINE/INSPECT_DECIDE/_Dev_Resources/LEGACY_SCRIPTS_TO_EXAMINE/INSPECT_DECIDE/build_coq_theorem_index.py",
+      "bytes": 3623,
+      "bucket_suggested": "MERGE_CANDIDATE",
+      "signals": {
+        "side_effect_hit": true,
+        "runtime_hint_hit": false,
+        "test_hint_hit": false
+      },
+      "inspect_sha256": "4816157e49ed6f9092232b40afc2ec1ff71ee0d36bdede1f35d8a5cd23e6fdb8",
+      "counterpart_path": null,
+      "counterpart_sha256": null,
+      "same_content": false,
+      "similarity_ratio": null
+    },
+    {
+      "rel": "_Dev_Resources/LEGACY_SCRIPTS_TO_EXAMINE/INSPECT_DECIDE/archive_planner_digests.py",
+      "inspect_path": "_Dev_Resources/Dev_Scripts/LEGACY_SCRIPTS_TO_EXAMINE/INSPECT_DECIDE/_Dev_Resources/LEGACY_SCRIPTS_TO_EXAMINE/INSPECT_DECIDE/archive_planner_digests.py",
+      "bytes": 1967,
+      "bucket_suggested": "MERGE_CANDIDATE",
+      "signals": {
+        "side_effect_hit": true,
+        "runtime_hint_hit": false,
+        "test_hint_hit": false
+      },
+      "inspect_sha256": "507ee05dfc58db658456c33c885ef0dc30ed0c04b03508d1966264770d484771",
+      "counterpart_path": null,
+      "counterpart_sha256": null,
+      "same_content": false,
+      "similarity_ratio": null
+    },
+    {
+      "rel": "_Dev_Resources/LEGACY_SCRIPTS_TO_EXAMINE/INSPECT_DECIDE/protocol_probe.py",
+      "inspect_path": "_Dev_Resources/Dev_Scripts/LEGACY_SCRIPTS_TO_EXAMINE/INSPECT_DECIDE/_Dev_Resources/LEGACY_SCRIPTS_TO_EXAMINE/INSPECT_DECIDE/protocol_probe.py",
+      "bytes": 13730,
+      "bucket_suggested": "REWRITE_PROMOTE",
+      "signals": {
+        "side_effect_hit": true,
+        "runtime_hint_hit": true,
+        "test_hint_hit": false
+      },
+      "inspect_sha256": "c29ed55bb828e5ab769d77ab6c36444c801862f1080de6771033565e09cd6c28",
+      "counterpart_path": null,
+      "counterpart_sha256": null,
+      "same_content": false,
+      "similarity_ratio": null
+    },
+    {
+      "rel": "_Dev_Resources/LEGACY_SCRIPTS_TO_EXAMINE/INSPECT_DECIDE/stress_sop_runtime.py",
+      "inspect_path": "_Dev_Resources/Dev_Scripts/LEGACY_SCRIPTS_TO_EXAMINE/INSPECT_DECIDE/_Dev_Resources/LEGACY_SCRIPTS_TO_EXAMINE/INSPECT_DECIDE/stress_sop_runtime.py",
+      "bytes": 15069,
+      "bucket_suggested": "REWRITE_PROMOTE",
+      "signals": {
+        "side_effect_hit": true,
+        "runtime_hint_hit": true,
+        "test_hint_hit": false
+      },
+      "inspect_sha256": "b70c444b026a337ed195d13e223110763db5c677538e8ec5424b7cc4520658ac",
+      "counterpart_path": null,
+      "counterpart_sha256": null,
+      "same_content": false,
+      "similarity_ratio": null
+    },
+    {
+      "rel": "_Dev_Resources/LEGACY_SCRIPTS_TO_EXAMINE/INSPECT_DECIDE/scp_local_diagnostic.py",
+      "inspect_path": "_Dev_Resources/Dev_Scripts/LEGACY_SCRIPTS_TO_EXAMINE/INSPECT_DECIDE/_Dev_Resources/LEGACY_SCRIPTS_TO_EXAMINE/INSPECT_DECIDE/scp_local_diagnostic.py",
+      "bytes": 6987,
+      "bucket_suggested": "REWRITE_PROMOTE",
+      "signals": {
+        "side_effect_hit": true,
+        "runtime_hint_hit": true,
+        "test_hint_hit": false
+      },
+      "inspect_sha256": "f32d50240f9e1f5c24e193c73b156f6c8cf76963b611fa405465043fe9796d3d",
+      "counterpart_path": null,
+      "counterpart_sha256": null,
+      "same_content": false,
+      "similarity_ratio": null
+    },
+    {
+      "rel": "_Dev_Resources/LEGACY_SCRIPTS_TO_EXAMINE/INSPECT_DECIDE/run_recursive_immersion_cycle.py",
+      "inspect_path": "_Dev_Resources/Dev_Scripts/LEGACY_SCRIPTS_TO_EXAMINE/INSPECT_DECIDE/_Dev_Resources/LEGACY_SCRIPTS_TO_EXAMINE/INSPECT_DECIDE/run_recursive_immersion_cycle.py",
+      "bytes": 17066,
+      "bucket_suggested": "REWRITE_PROMOTE",
+      "signals": {
+        "side_effect_hit": true,
+        "runtime_hint_hit": true,
+        "test_hint_hit": false
+      },
+      "inspect_sha256": "afcdaeb8fb130b56f550f707c6b4b924630af0afb5579def0d0dc42cbc236cc3",
+      "counterpart_path": null,
+      "counterpart_sha256": null,
+      "same_content": false,
+      "similarity_ratio": null
+    },
+    {
+      "rel": "_Dev_Resources/LEGACY_SCRIPTS_TO_EXAMINE/INSPECT_DECIDE/boot_aligned_agent.py",
+      "inspect_path": "_Dev_Resources/Dev_Scripts/LEGACY_SCRIPTS_TO_EXAMINE/INSPECT_DECIDE/_Dev_Resources/LEGACY_SCRIPTS_TO_EXAMINE/INSPECT_DECIDE/boot_aligned_agent.py",
+      "bytes": 10829,
+      "bucket_suggested": "REWRITE_PROMOTE",
+      "signals": {
+        "side_effect_hit": true,
+        "runtime_hint_hit": true,
+        "test_hint_hit": false
+      },
+      "inspect_sha256": "8fa6a805b55b53e0a2ee5fd0e7a55e24b9e40424d1382be29f24f99c2aedf3b6",
+      "counterpart_path": null,
+      "counterpart_sha256": null,
+      "same_content": false,
+      "similarity_ratio": null
+    },
+    {
+      "rel": "_Dev_Resources/LEGACY_SCRIPTS_TO_EXAMINE/INSPECT_DECIDE/nexus_manager.py",
+      "inspect_path": "_Dev_Resources/Dev_Scripts/LEGACY_SCRIPTS_TO_EXAMINE/INSPECT_DECIDE/_Dev_Resources/LEGACY_SCRIPTS_TO_EXAMINE/INSPECT_DECIDE/nexus_manager.py",
+      "bytes": 2399,
+      "bucket_suggested": "REWRITE_PROMOTE",
+      "signals": {
+        "side_effect_hit": true,
+        "runtime_hint_hit": true,
+        "test_hint_hit": false
+      },
+      "inspect_sha256": "6c0eee2015d3851a6c0686dfc7f3874148a9e361ef922e23f0c0e8dc6ad98bdf",
+      "counterpart_path": null,
+      "counterpart_sha256": null,
+      "same_content": false,
+      "similarity_ratio": null
+    },
+    {
+      "rel": "_Dev_Resources/LEGACY_SCRIPTS_TO_EXAMINE/INSPECT_DECIDE/test_plan_revision_on_contradiction.py",
+      "inspect_path": "_Dev_Resources/Dev_Scripts/LEGACY_SCRIPTS_TO_EXAMINE/INSPECT_DECIDE/_Dev_Resources/LEGACY_SCRIPTS_TO_EXAMINE/INSPECT_DECIDE/test_plan_revision_on_contradiction.py",
+      "bytes": 7115,
+      "bucket_suggested": "MERGE_CANDIDATE",
+      "signals": {
+        "side_effect_hit": true,
+        "runtime_hint_hit": false,
+        "test_hint_hit": false
+      },
+      "inspect_sha256": "028bbc404f486187ab56a76314e7fee0a2d145baee920e11db1bf58a37113988",
+      "counterpart_path": null,
+      "counterpart_sha256": null,
+      "same_content": false,
+      "similarity_ratio": null
+    },
+    {
+      "rel": "_Dev_Resources/LEGACY_SCRIPTS_TO_EXAMINE/INSPECT_DECIDE/logos_agi_adapter.py",
+      "inspect_path": "_Dev_Resources/Dev_Scripts/LEGACY_SCRIPTS_TO_EXAMINE/INSPECT_DECIDE/_Dev_Resources/LEGACY_SCRIPTS_TO_EXAMINE/INSPECT_DECIDE/logos_agi_adapter.py",
+      "bytes": 48556,
+      "bucket_suggested": "REWRITE_PROMOTE",
+      "signals": {
+        "side_effect_hit": true,
+        "runtime_hint_hit": true,
+        "test_hint_hit": false
+      },
+      "inspect_sha256": "aec75adbd98227310e670c5602824da4dcfe2f458d4d9c4fa455995c3fc9ea40",
+      "counterpart_path": null,
+      "counterpart_sha256": null,
+      "same_content": false,
+      "similarity_ratio": null
+    }
+  ],
+  "clusters": [],
+  "batch_1_recommendation": [
+    {
+      "rel": "_Dev_Resources/Dev_Scripts/repo_tools/system_audit/audit_driver.py",
+      "inspect_path": "_Dev_Resources/Dev_Scripts/LEGACY_SCRIPTS_TO_EXAMINE/INSPECT_DECIDE/_Dev_Resources/Dev_Scripts/repo_tools/system_audit/audit_driver.py",
+      "bytes": 1556,
+      "signals": {
+        "side_effect_hit": true,
+        "runtime_hint_hit": true,
+        "test_hint_hit": false
+      },
+      "reason": "No existing counterpart found; prioritized for runtime adjacency and small-batch rewrite/promotion."
+    },
+    {
+      "rel": "_Dev_Resources/LEGACY_SCRIPTS_TO_EXAMINE/INSPECT_DECIDE/nexus_manager.py",
+      "inspect_path": "_Dev_Resources/Dev_Scripts/LEGACY_SCRIPTS_TO_EXAMINE/INSPECT_DECIDE/_Dev_Resources/LEGACY_SCRIPTS_TO_EXAMINE/INSPECT_DECIDE/nexus_manager.py",
+      "bytes": 2399,
+      "signals": {
+        "side_effect_hit": true,
+        "runtime_hint_hit": true,
+        "test_hint_hit": false
+      },
+      "reason": "No existing counterpart found; prioritized for runtime adjacency and small-batch rewrite/promotion."
+    },
+    {
+      "rel": "_Dev_Resources/LEGACY_SCRIPTS_TO_EXAMINE/could_be_dev/test_logos_agi_replay_proposals.py",
+      "inspect_path": "_Dev_Resources/Dev_Scripts/LEGACY_SCRIPTS_TO_EXAMINE/INSPECT_DECIDE/_Dev_Resources/LEGACY_SCRIPTS_TO_EXAMINE/could_be_dev/test_logos_agi_replay_proposals.py",
+      "bytes": 3774,
+      "signals": {
+        "side_effect_hit": true,
+        "runtime_hint_hit": true,
+        "test_hint_hit": false
+      },
+      "reason": "No existing counterpart found; prioritized for runtime adjacency and small-batch rewrite/promotion."
+    },
+    {
+      "rel": "_Dev_Resources/LEGACY_SCRIPTS_TO_EXAMINE/INSPECT_DECIDE/export_tool_registry.py",
+      "inspect_path": "_Dev_Resources/Dev_Scripts/LEGACY_SCRIPTS_TO_EXAMINE/INSPECT_DECIDE/_Dev_Resources/LEGACY_SCRIPTS_TO_EXAMINE/INSPECT_DECIDE/export_tool_registry.py",
+      "bytes": 3930,
+      "signals": {
+        "side_effect_hit": true,
+        "runtime_hint_hit": true,
+        "test_hint_hit": false
+      },
+      "reason": "No existing counterpart found; prioritized for runtime adjacency and small-batch rewrite/promotion."
+    },
+    {
+      "rel": "_Dev_Resources/LEGACY_SCRIPTS_TO_EXAMINE/INSPECT_DECIDE/test_proved_grounding.py",
+      "inspect_path": "_Dev_Resources/Dev_Scripts/LEGACY_SCRIPTS_TO_EXAMINE/INSPECT_DECIDE/_Dev_Resources/LEGACY_SCRIPTS_TO_EXAMINE/INSPECT_DECIDE/test_proved_grounding.py",
+      "bytes": 4182,
+      "signals": {
+        "side_effect_hit": true,
+        "runtime_hint_hit": true,
+        "test_hint_hit": false
+      },
+      "reason": "No existing counterpart found; prioritized for runtime adjacency and small-batch rewrite/promotion."
+    },
+    {
+      "rel": "_Dev_Resources/LEGACY_SCRIPTS_TO_EXAMINE/INSPECT_DECIDE/cycle_ledger.py",
+      "inspect_path": "_Dev_Resources/Dev_Scripts/LEGACY_SCRIPTS_TO_EXAMINE/INSPECT_DECIDE/_Dev_Resources/LEGACY_SCRIPTS_TO_EXAMINE/INSPECT_DECIDE/cycle_ledger.py",
+      "bytes": 4210,
+      "signals": {
+        "side_effect_hit": true,
+        "runtime_hint_hit": true,
+        "test_hint_hit": false
+      },
+      "reason": "No existing counterpart found; prioritized for runtime adjacency and small-batch rewrite/promotion."
+    },
+    {
+      "rel": "_Dev_Resources/LEGACY_SCRIPTS_TO_EXAMINE/could_be_dev/system_mode_initializer.py",
+      "inspect_path": "_Dev_Resources/Dev_Scripts/LEGACY_SCRIPTS_TO_EXAMINE/INSPECT_DECIDE/_Dev_Resources/LEGACY_SCRIPTS_TO_EXAMINE/could_be_dev/system_mode_initializer.py",
+      "bytes": 4962,
+      "signals": {
+        "side_effect_hit": true,
+        "runtime_hint_hit": true,
+        "test_hint_hit": false
+      },
+      "reason": "No existing counterpart found; prioritized for runtime adjacency and small-batch rewrite/promotion."
+    },
+    {
+      "rel": "_Dev_Resources/LEGACY_SCRIPTS_TO_EXAMINE/INSPECT_DECIDE/scp_local_diagnostic.py",
+      "inspect_path": "_Dev_Resources/Dev_Scripts/LEGACY_SCRIPTS_TO_EXAMINE/INSPECT_DECIDE/_Dev_Resources/LEGACY_SCRIPTS_TO_EXAMINE/INSPECT_DECIDE/scp_local_diagnostic.py",
+      "bytes": 6987,
+      "signals": {
+        "side_effect_hit": true,
+        "runtime_hint_hit": true,
+        "test_hint_hit": false
+      },
+      "reason": "No existing counterpart found; prioritized for runtime adjacency and small-batch rewrite/promotion."
+    }
+  ]
+}

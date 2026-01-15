@@ -14,7 +14,7 @@ def build_import_graph(repo: Path) -> Dict[str, Any]:
     unresolved: List[Dict[str, Any]] = []
 
     # map file-> module-ish path for local resolution heuristics
-    py_files = list(iter_files(repo, suffixes=(".py",)))
+    py_files = list(iter_files(repo, suffix=".py"))
     file_set = {str(p.relative_to(repo)) for p in py_files}
 
     def resolve_local(mod: str) -> str | None:

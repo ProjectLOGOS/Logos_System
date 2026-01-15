@@ -8,7 +8,7 @@ from typing import Any, Dict, List, Set
 from _common import iter_files, parse_python_imports, write_json, normalize_module_to_path
 
 def build_reverse_importers(repo: Path) -> Dict[str, Set[str]]:
-    py_files = list(iter_files(repo, suffixes=(".py",)))
+    py_files = list(iter_files(repo, suffix=".py"))
     file_set = {str(p.relative_to(repo)) for p in py_files}
 
     def resolve_local(mod: str) -> str | None:
@@ -33,7 +33,7 @@ def build_reverse_importers(repo: Path) -> Dict[str, Set[str]]:
     return rev
 
 def find_orphans(repo: Path) -> Dict[str, Any]:
-    py_files = sorted([str(p.relative_to(repo)) for p in iter_files(repo, suffixes=(".py",))])
+    py_files = sorted([str(p.relative_to(repo)) for p in iter_files(repo, suffix=".py")])
     rev = build_reverse_importers(repo)
 
     # Seeds: entrypoints + any file named __main__.py or START_LOGOS.py
@@ -44,7 +44,7 @@ def find_orphans(repo: Path) -> Dict[str, Any]:
     # Forward graph inferred from reverse: to walk forward we need adjacency; approximate by scanning imports again
     file_set = set(py_files)
     adj = defaultdict(set)
-    for p in iter_files(repo, suffixes=(".py",)):
+    for p in iter_files(repo, suffix=".py"):
         src = str(p.relative_to(repo))
         for imp in parse_python_imports(p, repo):
             if imp.level:

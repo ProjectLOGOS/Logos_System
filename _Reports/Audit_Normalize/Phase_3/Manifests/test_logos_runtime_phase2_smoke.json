@@ -1,0 +1,7 @@
+{
+  "script": "_Dev_Resources/Dev_Scripts/LEGACY_SCRIPTS_TO_EXAMINE/INSPECT_DECIDE/_Dev_Resources/Dev_Scripts/smoke_tests/test_logos_runtime_phase2_smoke.py",
+  "phase_1": "FAIL",
+  "phase_2": "FAIL",
+  "phase_3": "FAIL",
+  "routed_to": "_Dev_Resources/AUTOMATION_UNKNOWN_GROUP"
+}

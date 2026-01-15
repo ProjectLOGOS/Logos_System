@@ -1,0 +1,9 @@
+_Dev_Resources/Dev_Scripts/repo_tools/audit_normalize_automation/runner.py:12:INSPECT_ROOT = Path("_Dev_Resources/Dev_Scripts/LEGACY_SCRIPTS_TO_EXAMINE/INSPECT_DECIDE")
+_Dev_Resources/Dev_Scripts/repo_tools/audit_normalize_automation/runner.py:16:UNKNOWN_GROUP = Path("_Dev_Resources/AUTOMATION_UNKNOWN_GROUP")
+_Dev_Resources/Dev_Scripts/repo_tools/audit_normalize_automation/runner.py:18:BETA_LIMIT = 5
+_Dev_Resources/Dev_Scripts/repo_tools/audit_normalize_automation/runner.py:28:	all_candidates = list(INSPECT_ROOT.rglob("*.py"))
+_Dev_Resources/Dev_Scripts/repo_tools/audit_normalize_automation/runner.py:47:	scripts = scripts[:BETA_LIMIT]
+_Dev_Resources/Dev_Scripts/repo_tools/audit_normalize_automation/runner.py:65:			UNKNOWN_GROUP.mkdir(parents=True, exist_ok=True)
+_Dev_Resources/Dev_Scripts/repo_tools/audit_normalize_automation/runner.py:66:			shutil.copy2(script, UNKNOWN_GROUP / script.name)
+_Dev_Resources/Dev_Scripts/repo_tools/audit_normalize_automation/runner.py:91:			dest = UNKNOWN_GROUP
+_Dev_Resources/Dev_Scripts/repo_tools/audit_normalize_automation/runner.py:103:		shutil.copy2(script, dest / script.name)

@@ -1,0 +1,47 @@
+{
+  "test_stub_beliefs_never_verified": {
+    "phase_1_path": "_Reports/Audit_Normalize/Phase_1/test_stub_beliefs_never_verified/20260114T231424Z",
+    "artifacts": [
+      "_Reports/Audit_Normalize/Phase_1/test_stub_beliefs_never_verified/20260114T231424Z/scan_symbols.py.log",
+      "_Reports/Audit_Normalize/Phase_1/test_stub_beliefs_never_verified/20260114T231424Z/scan_tree.py.log",
+      "_Reports/Audit_Normalize/Phase_1/test_stub_beliefs_never_verified/20260114T231424Z/scan_imports.py.log",
+      "_Reports/Audit_Normalize/Phase_1/test_stub_beliefs_never_verified/20260114T231424Z/scan_naming.py.log"
+    ]
+  },
+  "run_mvp_acceptance": {
+    "phase_1_path": "_Reports/Audit_Normalize/Phase_1/run_mvp_acceptance/20260114T231510Z",
+    "artifacts": [
+      "_Reports/Audit_Normalize/Phase_1/run_mvp_acceptance/20260114T231510Z/scan_symbols.py.log",
+      "_Reports/Audit_Normalize/Phase_1/run_mvp_acceptance/20260114T231510Z/scan_tree.py.log",
+      "_Reports/Audit_Normalize/Phase_1/run_mvp_acceptance/20260114T231510Z/scan_imports.py.log",
+      "_Reports/Audit_Normalize/Phase_1/run_mvp_acceptance/20260114T231510Z/scan_naming.py.log"
+    ]
+  },
+  "export_tool_registry": {
+    "phase_1_path": "_Reports/Audit_Normalize/Phase_1/export_tool_registry/20260114T231338Z",
+    "artifacts": [
+      "_Reports/Audit_Normalize/Phase_1/export_tool_registry/20260114T231338Z/scan_symbols.py.log",
+      "_Reports/Audit_Normalize/Phase_1/export_tool_registry/20260114T231338Z/scan_tree.py.log",
+      "_Reports/Audit_Normalize/Phase_1/export_tool_registry/20260114T231338Z/scan_imports.py.log",
+      "_Reports/Audit_Normalize/Phase_1/export_tool_registry/20260114T231338Z/scan_naming.py.log"
+    ]
+  },
+  "scan_repo": {
+    "phase_1_path": "_Reports/Audit_Normalize/Phase_1/scan_repo/20260114T231555Z",
+    "artifacts": [
+      "_Reports/Audit_Normalize/Phase_1/scan_repo/20260114T231555Z/scan_symbols.py.log",
+      "_Reports/Audit_Normalize/Phase_1/scan_repo/20260114T231555Z/scan_tree.py.log",
+      "_Reports/Audit_Normalize/Phase_1/scan_repo/20260114T231555Z/scan_imports.py.log",
+      "_Reports/Audit_Normalize/Phase_1/scan_repo/20260114T231555Z/scan_naming.py.log"
+    ]
+  },
+  "system_mode_initializer": {
+    "phase_1_path": "_Reports/Audit_Normalize/Phase_1/system_mode_initializer/20260114T233736Z",
+    "artifacts": [
+      "_Reports/Audit_Normalize/Phase_1/system_mode_initializer/20260114T233736Z/scan_symbols.py.log",
+      "_Reports/Audit_Normalize/Phase_1/system_mode_initializer/20260114T233736Z/scan_tree.py.log",
+      "_Reports/Audit_Normalize/Phase_1/system_mode_initializer/20260114T233736Z/scan_imports.py.log",
+      "_Reports/Audit_Normalize/Phase_1/system_mode_initializer/20260114T233736Z/scan_naming.py.log"
+    ]
+  }
+}

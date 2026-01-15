@@ -1,0 +1,32 @@
+--- /workspaces/Logos_System/_Reports/Audit_Normalize/Runtime_Contents/Rewrite_Sub_Batch_1A_20260114T194819Z/export_tool_registry.py.orig	2026-01-13 05:31:50.153775709 +0000
++++ /workspaces/Logos_System/_Dev_Resources/Dev_Scripts/LEGACY_SCRIPTS_TO_EXAMINE/INSPECT_DECIDE/_Dev_Resources/LEGACY_SCRIPTS_TO_EXAMINE/INSPECT_DECIDE/export_tool_registry.py	2026-01-14 19:54:10.793210616 +0000
+@@ -1,3 +1,29 @@
++# ============================
++# LOGOS FILE HEADER (STANDARD)
++# ============================
++# File: _Dev_Resources/Dev_Scripts/LEGACY_SCRIPTS_TO_EXAMINE/INSPECT_DECIDE/_Dev_Resources/LEGACY_SCRIPTS_TO_EXAMINE/INSPECT_DECIDE/export_tool_registry.py
++# Generated: 2026-01-14T19:54:10Z (UTC)
++#
++# SUMMARY:
++#   Legacy dev/runtime-adjacent utility script captured during Audit & Normalize.
++#   Header-standardized under Rewrite_Sub_Batch_1A.
++#
++# PURPOSE:
++#   Preserve existing behavior; standardize documentation + naming/abbreviation policy markers.
++#
++# EXECUTION PATH:
++#   Developer-invoked utility (audit/registry/diagnostic); not a critical runtime entrypoint.
++#
++# SIDE EFFECTS:
++#   Review below; do not expand side effects. Fail-closed on unsafe operations.
++#
++# GOVERNANCE:
++#   - Fail-closed required.
++#   - Do not touch Coq stacks.
++#   - Canon abbreviations: ETGC, SMP, MVS, BDN, PXL, IEL, SOP, SCP, ARP, MTP, TLM, UWM, LEM.
++#   - Alias forbidden: EGTC (must be ETGC).
++# ============================
++
+ """
+ Snapshot the native tool catalog from scripts.start_agent
+ into docs/agent_tool_registry.json/README.

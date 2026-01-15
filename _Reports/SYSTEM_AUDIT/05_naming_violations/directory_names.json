@@ -1,882 +1,930 @@
 [
   {
-    "name": "workflows",
-    "path": ".github/workflows"
+    "path": ".github/workflows",
+    "name": "workflows"
   },
   {
-    "name": "attestations",
-    "path": "Logos_System/System_Entry_Point/Proof_Logs/attestations"
+    "path": "Logos_System/System_Entry_Point/Proof_Logs/attestations",
+    "name": "attestations"
   },
   {
-    "name": "coq",
-    "path": "Logos_System/System_Entry_Point/Runtime_Compiler/coq"
+    "path": "Logos_System/System_Entry_Point/Runtime_Compiler/coq",
+    "name": "coq"
   },
   {
-    "name": "src",
-    "path": "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src"
+    "path": "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src",
+    "name": "src"
   },
   {
-    "name": "baseline",
-    "path": "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline"
+    "path": "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline",
+    "name": "baseline"
   },
   {
-    "name": "modal",
-    "path": "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/modal"
+    "path": "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/modal",
+    "name": "modal"
   },
   {
-    "name": "option_b",
-    "path": "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/option_b"
+    "path": "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/option_b",
+    "name": "option_b"
   },
   {
-    "name": "tests",
-    "path": "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/tests"
+    "path": "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/tests",
+    "name": "tests"
   },
   {
-    "name": "ui",
-    "path": "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/ui"
+    "path": "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/ui",
+    "name": "ui"
   },
   {
-    "name": "proof_logs",
-    "path": "Logos_System/System_Entry_Point/Runtime_Compiler/proof_logs"
+    "path": "Logos_System/System_Entry_Point/Runtime_Compiler/proof_logs",
+    "name": "proof_logs"
   },
   {
-    "name": "state",
-    "path": "Logos_System/System_Entry_Point/Runtime_Compiler/state"
+    "path": "Logos_System/System_Entry_Point/Runtime_Compiler/state",
+    "name": "state"
   },
   {
-    "name": "arp_stack_compiler",
-    "path": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/arp_stack_compiler"
+    "path": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/arp_stack_compiler",
+    "name": "arp_stack_compiler"
   },
   {
-    "name": "iel_domains",
-    "path": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains"
+    "path": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains",
+    "name": "iel_domains"
   },
   {
-    "name": "docs",
-    "path": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/AestheticoPraxis/docs"
+    "path": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/AestheticoPraxis/docs",
+    "name": "docs"
   },
   {
-    "name": "modal",
-    "path": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/AestheticoPraxis/modal"
+    "path": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/AestheticoPraxis/modal",
+    "name": "modal"
   },
   {
-    "name": "systems",
-    "path": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/AestheticoPraxis/systems"
+    "path": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/AestheticoPraxis/systems",
+    "name": "systems"
   },
   {
-    "name": "tests",
-    "path": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/AestheticoPraxis/tests"
+    "path": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/AestheticoPraxis/tests",
+    "name": "tests"
   },
   {
-    "name": "theorems",
-    "path": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/AestheticoPraxis/theorems"
+    "path": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/AestheticoPraxis/theorems",
+    "name": "theorems"
   },
   {
-    "name": "docs",
-    "path": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/AnthroPraxis/docs"
+    "path": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/AnthroPraxis/docs",
+    "name": "docs"
   },
   {
-    "name": "modal",
-    "path": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/AnthroPraxis/modal"
+    "path": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/AnthroPraxis/modal",
+    "name": "modal"
   },
   {
-    "name": "subdomains",
-    "path": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/AnthroPraxis/subdomains"
+    "path": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/AnthroPraxis/subdomains",
+    "name": "subdomains"
   },
   {
-    "name": "systems",
-    "path": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/AnthroPraxis/systems"
+    "path": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/AnthroPraxis/systems",
+    "name": "systems"
   },
   {
-    "name": "tests",
-    "path": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/AnthroPraxis/tests"
+    "path": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/AnthroPraxis/tests",
+    "name": "tests"
   },
   {
-    "name": "theorems",
-    "path": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/AnthroPraxis/theorems"
+    "path": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/AnthroPraxis/theorems",
+    "name": "theorems"
   },
   {
-    "name": "docs",
-    "path": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/AxioPraxis/docs"
+    "path": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/AxioPraxis/docs",
+    "name": "docs"
   },
   {
-    "name": "modal",
-    "path": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/AxioPraxis/modal"
+    "path": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/AxioPraxis/modal",
+    "name": "modal"
   },
   {
-    "name": "subdomains",
-    "path": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/AxioPraxis/subdomains"
+    "path": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/AxioPraxis/subdomains",
+    "name": "subdomains"
   },
   {
-    "name": "systems",
-    "path": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/AxioPraxis/systems"
+    "path": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/AxioPraxis/systems",
+    "name": "systems"
   },
   {
-    "name": "tests",
-    "path": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/AxioPraxis/tests"
+    "path": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/AxioPraxis/tests",
+    "name": "tests"
   },
   {
-    "name": "theorems",
-    "path": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/AxioPraxis/theorems"
+    "path": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/AxioPraxis/theorems",
+    "name": "theorems"
   },
   {
-    "name": "chronopraxis",
-    "path": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/ChronoPraxis/chronopraxis"
+    "path": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/ChronoPraxis/chronopraxis",
+    "name": "chronopraxis"
   },
   {
-    "name": "domains",
-    "path": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/ChronoPraxis/domains"
+    "path": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/ChronoPraxis/domains",
+    "name": "domains"
   },
   {
-    "name": "interfaces",
-    "path": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/ChronoPraxis/interfaces"
+    "path": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/ChronoPraxis/interfaces",
+    "name": "interfaces"
   },
   {
-    "name": "substrate",
-    "path": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/ChronoPraxis/substrate"
+    "path": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/ChronoPraxis/substrate",
+    "name": "substrate"
   },
   {
-    "name": "chronostate",
-    "path": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/ChronoPraxis/substrate/chronostate"
+    "path": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/ChronoPraxis/substrate/chronostate",
+    "name": "chronostate"
   },
   {
-    "name": "tactics",
-    "path": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/ChronoPraxis/tactics"
+    "path": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/ChronoPraxis/tactics",
+    "name": "tactics"
   },
   {
-    "name": "theorems",
-    "path": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/ChronoPraxis/theorems"
+    "path": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/ChronoPraxis/theorems",
+    "name": "theorems"
   },
   {
-    "name": "experimental",
-    "path": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/ChronoPraxis/theorems/experimental"
+    "path": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/ChronoPraxis/theorems/experimental",
+    "name": "experimental"
   },
   {
-    "name": "docs",
-    "path": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/CosmoPraxis/docs"
+    "path": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/CosmoPraxis/docs",
+    "name": "docs"
   },
   {
-    "name": "modal",
-    "path": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/CosmoPraxis/modal"
+    "path": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/CosmoPraxis/modal",
+    "name": "modal"
   },
   {
-    "name": "subdomains",
-    "path": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/CosmoPraxis/subdomains"
+    "path": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/CosmoPraxis/subdomains",
+    "name": "subdomains"
   },
   {
-    "name": "systems",
-    "path": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/CosmoPraxis/systems"
+    "path": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/CosmoPraxis/systems",
+    "name": "systems"
   },
   {
-    "name": "tests",
-    "path": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/CosmoPraxis/tests"
+    "path": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/CosmoPraxis/tests",
+    "name": "tests"
   },
   {
-    "name": "theorems",
-    "path": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/CosmoPraxis/theorems"
+    "path": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/CosmoPraxis/theorems",
+    "name": "theorems"
   },
   {
-    "name": "modal",
-    "path": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/ErgoPraxis/modal"
+    "path": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/ErgoPraxis/modal",
+    "name": "modal"
   },
   {
-    "name": "subdomains",
-    "path": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/ErgoPraxis/subdomains"
+    "path": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/ErgoPraxis/subdomains",
+    "name": "subdomains"
   },
   {
-    "name": "tests",
-    "path": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/ErgoPraxis/tests"
+    "path": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/ErgoPraxis/tests",
+    "name": "tests"
   },
   {
-    "name": "theorems",
-    "path": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/ErgoPraxis/theorems"
+    "path": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/ErgoPraxis/theorems",
+    "name": "theorems"
   },
   {
-    "name": "modal",
-    "path": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/GnosiPraxis/modal"
+    "path": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/GnosiPraxis/modal",
+    "name": "modal"
   },
   {
-    "name": "subdomains",
-    "path": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/GnosiPraxis/subdomains"
+    "path": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/GnosiPraxis/subdomains",
+    "name": "subdomains"
   },
   {
-    "name": "systems",
-    "path": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/GnosiPraxis/systems"
+    "path": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/GnosiPraxis/systems",
+    "name": "systems"
   },
   {
-    "name": "theorems",
-    "path": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/GnosiPraxis/theorems"
+    "path": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/GnosiPraxis/theorems",
+    "name": "theorems"
   },
   {
-    "name": "modal",
-    "path": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/ModalPraxis/modal"
+    "path": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/ModalPraxis/modal",
+    "name": "modal"
   },
   {
-    "name": "theorems",
-    "path": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/ModalPraxis/theorems"
+    "path": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/ModalPraxis/theorems",
+    "name": "theorems"
   },
   {
-    "name": "docs",
-    "path": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/RelatioPraxis/docs"
+    "path": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/RelatioPraxis/docs",
+    "name": "docs"
   },
   {
-    "name": "modal",
-    "path": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/RelatioPraxis/modal"
+    "path": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/RelatioPraxis/modal",
+    "name": "modal"
   },
   {
-    "name": "systems",
-    "path": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/RelatioPraxis/systems"
+    "path": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/RelatioPraxis/systems",
+    "name": "systems"
   },
   {
-    "name": "tests",
-    "path": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/RelatioPraxis/tests"
+    "path": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/RelatioPraxis/tests",
+    "name": "tests"
   },
   {
-    "name": "theorems",
-    "path": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/RelatioPraxis/theorems"
+    "path": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/RelatioPraxis/theorems",
+    "name": "theorems"
   },
   {
-    "name": "modal",
-    "path": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/TeloPraxis/modal"
+    "path": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/TeloPraxis/modal",
+    "name": "modal"
   },
   {
-    "name": "subdomains",
-    "path": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/TeloPraxis/subdomains"
+    "path": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/TeloPraxis/subdomains",
+    "name": "subdomains"
   },
   {
-    "name": "tests",
-    "path": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/TeloPraxis/tests"
+    "path": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/TeloPraxis/tests",
+    "name": "tests"
   },
   {
-    "name": "theorems",
-    "path": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/TeloPraxis/theorems"
+    "path": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/TeloPraxis/theorems",
+    "name": "theorems"
   },
   {
-    "name": "modal",
-    "path": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/ThemiPraxis/modal"
+    "path": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/ThemiPraxis/modal",
+    "name": "modal"
   },
   {
-    "name": "subdomains",
-    "path": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/ThemiPraxis/subdomains"
+    "path": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/ThemiPraxis/subdomains",
+    "name": "subdomains"
   },
   {
-    "name": "systems",
-    "path": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/ThemiPraxis/systems"
+    "path": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/ThemiPraxis/systems",
+    "name": "systems"
   },
   {
-    "name": "theorems",
-    "path": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/ThemiPraxis/theorems"
+    "path": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/ThemiPraxis/theorems",
+    "name": "theorems"
   },
   {
-    "name": "subdomains",
-    "path": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/TheoPraxis/subdomains"
+    "path": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/TheoPraxis/subdomains",
+    "name": "subdomains"
   },
   {
-    "name": "docs",
-    "path": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/TopoPraxis/docs"
+    "path": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/TopoPraxis/docs",
+    "name": "docs"
   },
   {
-    "name": "systems",
-    "path": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/TopoPraxis/systems"
+    "path": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/TopoPraxis/systems",
+    "name": "systems"
   },
   {
-    "name": "tests",
-    "path": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/TopoPraxis/tests"
+    "path": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/TopoPraxis/tests",
+    "name": "tests"
   },
   {
-    "name": "theorems",
-    "path": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/TopoPraxis/theorems"
+    "path": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/TopoPraxis/theorems",
+    "name": "theorems"
   },
   {
-    "name": "infra",
-    "path": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/TropoPraxis/infra"
+    "path": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/TropoPraxis/infra",
+    "name": "infra"
   },
   {
-    "name": "adaptive",
-    "path": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/TropoPraxis/infra/adaptive"
+    "path": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/TropoPraxis/infra/adaptive",
+    "name": "adaptive"
   },
   {
-    "name": "modal",
-    "path": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/TropoPraxis/modal"
+    "path": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/TropoPraxis/modal",
+    "name": "modal"
   },
   {
-    "name": "subdomains",
-    "path": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/TropoPraxis/subdomains"
+    "path": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/TropoPraxis/subdomains",
+    "name": "subdomains"
   },
   {
-    "name": "tests",
-    "path": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/TropoPraxis/tests"
+    "path": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/TropoPraxis/tests",
+    "name": "tests"
   },
   {
-    "name": "theorems",
-    "path": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/TropoPraxis/theorems"
+    "path": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_domains/TropoPraxis/theorems",
+    "name": "theorems"
   },
   {
-    "name": "iel_toolkit",
-    "path": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_toolkit"
+    "path": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_toolkit",
+    "name": "iel_toolkit"
   },
   {
-    "name": "iel",
-    "path": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_toolkit/iel"
+    "path": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_toolkit/iel",
+    "name": "iel"
   },
   {
-    "name": "mathematical_foundations",
-    "path": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/mathematical_foundations"
+    "path": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/mathematical_foundations",
+    "name": "mathematical_foundations"
   },
   {
-    "name": "formalisms",
-    "path": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/mathematical_foundations/formalisms"
+    "path": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/mathematical_foundations/formalisms",
+    "name": "formalisms"
   },
   {
-    "name": "math_categories",
-    "path": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/mathematical_foundations/math_categories"
+    "path": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/mathematical_foundations/math_categories",
+    "name": "math_categories"
   },
   {
-    "name": "tests",
-    "path": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/mathematical_foundations/math_categories/tests"
+    "path": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/mathematical_foundations/math_categories/tests",
+    "name": "tests"
   },
   {
-    "name": "scripts",
-    "path": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/mathematical_foundations/math_categories/tests/scripts"
+    "path": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/mathematical_foundations/math_categories/tests/scripts",
+    "name": "scripts"
   },
   {
-    "name": "pxl",
-    "path": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/mathematical_foundations/pxl"
+    "path": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/mathematical_foundations/pxl",
+    "name": "pxl"
   },
   {
-    "name": "arithmopraxis",
-    "path": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/mathematical_foundations/pxl/arithmopraxis"
+    "path": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/mathematical_foundations/pxl/arithmopraxis",
+    "name": "arithmopraxis"
   },
   {
-    "name": "nexus",
-    "path": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/nexus"
+    "path": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/nexus",
+    "name": "nexus"
   },
   {
-    "name": "reasoning_engines",
-    "path": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/reasoning_engines"
+    "path": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/reasoning_engines",
+    "name": "reasoning_engines"
   },
   {
-    "name": "bayesian",
-    "path": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/reasoning_engines/bayesian"
+    "path": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/reasoning_engines/bayesian",
+    "name": "bayesian"
   },
   {
-    "name": "bayesian_enhanced",
-    "path": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/reasoning_engines/bayesian/bayesian_enhanced"
+    "path": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/reasoning_engines/bayesian/bayesian_enhanced",
+    "name": "bayesian_enhanced"
   },
   {
-    "name": "data",
-    "path": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/reasoning_engines/bayesian/data"
+    "path": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/reasoning_engines/bayesian/data",
+    "name": "data"
   },
   {
-    "name": "bayesian_ml",
-    "path": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/reasoning_engines/bayesian/data/bayesian_ml"
+    "path": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/reasoning_engines/bayesian/data/bayesian_ml",
+    "name": "bayesian_ml"
   },
   {
-    "name": "temporal_modal",
-    "path": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/reasoning_engines/temporal_modal"
+    "path": "Logos_System/System_Stack/Advanced_Reasoning_Protocol/reasoning_engines/temporal_modal",
+    "name": "temporal_modal"
   },
   {
-    "name": "tests",
-    "path": "Logos_System/System_Stack/Logos_Protocol/Activation_Sequencer/tests"
+    "path": "Logos_System/System_Stack/Logos_Protocol/Activation_Sequencer/tests",
+    "name": "tests"
   },
   {
-    "name": "_core",
-    "path": "Logos_System/System_Stack/Logos_Protocol/Logos_Agents/I1_Agent/_core"
+    "path": "Logos_System/System_Stack/Logos_Protocol/Logos_Agents/I1_Agent/_core",
+    "name": "_core"
   },
   {
-    "name": "config",
-    "path": "Logos_System/System_Stack/Logos_Protocol/Logos_Agents/I1_Agent/config"
+    "path": "Logos_System/System_Stack/Logos_Protocol/Logos_Agents/I1_Agent/config",
+    "name": "config"
   },
   {
-    "name": "connections",
-    "path": "Logos_System/System_Stack/Logos_Protocol/Logos_Agents/I1_Agent/connections"
+    "path": "Logos_System/System_Stack/Logos_Protocol/Logos_Agents/I1_Agent/connections",
+    "name": "connections"
   },
   {
-    "name": "diagnostics",
-    "path": "Logos_System/System_Stack/Logos_Protocol/Logos_Agents/I1_Agent/diagnostics"
+    "path": "Logos_System/System_Stack/Logos_Protocol/Logos_Agents/I1_Agent/diagnostics",
+    "name": "diagnostics"
   },
   {
-    "name": "protocol_operations",
-    "path": "Logos_System/System_Stack/Logos_Protocol/Logos_Agents/I1_Agent/protocol_operations"
+    "path": "Logos_System/System_Stack/Logos_Protocol/Logos_Agents/I1_Agent/protocol_operations",
+    "name": "protocol_operations"
   },
   {
-    "name": "scp_analysis",
-    "path": "Logos_System/System_Stack/Logos_Protocol/Logos_Agents/I1_Agent/protocol_operations/scp_analysis"
+    "path": "Logos_System/System_Stack/Logos_Protocol/Logos_Agents/I1_Agent/protocol_operations/scp_analysis",
+    "name": "scp_analysis"
   },
   {
-    "name": "scp_bdn_adapter",
-    "path": "Logos_System/System_Stack/Logos_Protocol/Logos_Agents/I1_Agent/protocol_operations/scp_bdn_adapter"
+    "path": "Logos_System/System_Stack/Logos_Protocol/Logos_Agents/I1_Agent/protocol_operations/scp_bdn_adapter",
+    "name": "scp_bdn_adapter"
   },
   {
-    "name": "scp_cycle",
-    "path": "Logos_System/System_Stack/Logos_Protocol/Logos_Agents/I1_Agent/protocol_operations/scp_cycle"
+    "path": "Logos_System/System_Stack/Logos_Protocol/Logos_Agents/I1_Agent/protocol_operations/scp_cycle",
+    "name": "scp_cycle"
   },
   {
-    "name": "scp_integrations",
-    "path": "Logos_System/System_Stack/Logos_Protocol/Logos_Agents/I1_Agent/protocol_operations/scp_integrations"
+    "path": "Logos_System/System_Stack/Logos_Protocol/Logos_Agents/I1_Agent/protocol_operations/scp_integrations",
+    "name": "scp_integrations"
   },
   {
-    "name": "scp_mvs_adapter",
-    "path": "Logos_System/System_Stack/Logos_Protocol/Logos_Agents/I1_Agent/protocol_operations/scp_mvs_adapter"
+    "path": "Logos_System/System_Stack/Logos_Protocol/Logos_Agents/I1_Agent/protocol_operations/scp_mvs_adapter",
+    "name": "scp_mvs_adapter"
   },
   {
-    "name": "scp_predict",
-    "path": "Logos_System/System_Stack/Logos_Protocol/Logos_Agents/I1_Agent/protocol_operations/scp_predict"
+    "path": "Logos_System/System_Stack/Logos_Protocol/Logos_Agents/I1_Agent/protocol_operations/scp_predict",
+    "name": "scp_predict"
   },
   {
-    "name": "scp_runtime",
-    "path": "Logos_System/System_Stack/Logos_Protocol/Logos_Agents/I1_Agent/protocol_operations/scp_runtime"
+    "path": "Logos_System/System_Stack/Logos_Protocol/Logos_Agents/I1_Agent/protocol_operations/scp_runtime",
+    "name": "scp_runtime"
   },
   {
-    "name": "scp_tests",
-    "path": "Logos_System/System_Stack/Logos_Protocol/Logos_Agents/I1_Agent/protocol_operations/scp_tests"
+    "path": "Logos_System/System_Stack/Logos_Protocol/Logos_Agents/I1_Agent/protocol_operations/scp_tests",
+    "name": "scp_tests"
   },
   {
-    "name": "scp_transform",
-    "path": "Logos_System/System_Stack/Logos_Protocol/Logos_Agents/I1_Agent/protocol_operations/scp_transform"
+    "path": "Logos_System/System_Stack/Logos_Protocol/Logos_Agents/I1_Agent/protocol_operations/scp_transform",
+    "name": "scp_transform"
   },
   {
-    "name": "_core",
-    "path": "Logos_System/System_Stack/Logos_Protocol/Logos_Agents/I2_Agent/_core"
+    "path": "Logos_System/System_Stack/Logos_Protocol/Logos_Agents/I2_Agent/_core",
+    "name": "_core"
   },
   {
-    "name": "config",
-    "path": "Logos_System/System_Stack/Logos_Protocol/Logos_Agents/I2_Agent/config"
+    "path": "Logos_System/System_Stack/Logos_Protocol/Logos_Agents/I2_Agent/config",
+    "name": "config"
   },
   {
-    "name": "connections",
-    "path": "Logos_System/System_Stack/Logos_Protocol/Logos_Agents/I2_Agent/connections"
+    "path": "Logos_System/System_Stack/Logos_Protocol/Logos_Agents/I2_Agent/connections",
+    "name": "connections"
   },
   {
-    "name": "diagnostics",
-    "path": "Logos_System/System_Stack/Logos_Protocol/Logos_Agents/I2_Agent/diagnostics"
+    "path": "Logos_System/System_Stack/Logos_Protocol/Logos_Agents/I2_Agent/diagnostics",
+    "name": "diagnostics"
   },
   {
-    "name": "protocol_operations",
-    "path": "Logos_System/System_Stack/Logos_Protocol/Logos_Agents/I2_Agent/protocol_operations"
+    "path": "Logos_System/System_Stack/Logos_Protocol/Logos_Agents/I2_Agent/protocol_operations",
+    "name": "protocol_operations"
   },
   {
-    "name": "llm_io",
-    "path": "Logos_System/System_Stack/Logos_Protocol/Logos_Agents/I2_Agent/protocol_operations/llm_io"
+    "path": "Logos_System/System_Stack/Logos_Protocol/Logos_Agents/I2_Agent/protocol_operations/llm_io",
+    "name": "llm_io"
   },
   {
-    "name": "privation_handler",
-    "path": "Logos_System/System_Stack/Logos_Protocol/Logos_Agents/I2_Agent/protocol_operations/privation_handler"
+    "path": "Logos_System/System_Stack/Logos_Protocol/Logos_Agents/I2_Agent/protocol_operations/privation_handler",
+    "name": "privation_handler"
   },
   {
-    "name": "privation_library",
-    "path": "Logos_System/System_Stack/Logos_Protocol/Logos_Agents/I2_Agent/protocol_operations/privation_handler/privation_library"
+    "path": "Logos_System/System_Stack/Logos_Protocol/Logos_Agents/I2_Agent/protocol_operations/privation_handler/privation_library",
+    "name": "privation_library"
   },
   {
-    "name": "ui_io",
-    "path": "Logos_System/System_Stack/Logos_Protocol/Logos_Agents/I2_Agent/protocol_operations/ui_io"
+    "path": "Logos_System/System_Stack/Logos_Protocol/Logos_Agents/I2_Agent/protocol_operations/ui_io",
+    "name": "ui_io"
   },
   {
-    "name": "_core",
-    "path": "Logos_System/System_Stack/Logos_Protocol/Logos_Agents/I3_Agent/_core"
+    "path": "Logos_System/System_Stack/Logos_Protocol/Logos_Agents/I3_Agent/_core",
+    "name": "_core"
   },
   {
-    "name": "config",
-    "path": "Logos_System/System_Stack/Logos_Protocol/Logos_Agents/I3_Agent/config"
+    "path": "Logos_System/System_Stack/Logos_Protocol/Logos_Agents/I3_Agent/config",
+    "name": "config"
   },
   {
-    "name": "connections",
-    "path": "Logos_System/System_Stack/Logos_Protocol/Logos_Agents/I3_Agent/connections"
+    "path": "Logos_System/System_Stack/Logos_Protocol/Logos_Agents/I3_Agent/connections",
+    "name": "connections"
   },
   {
-    "name": "diagnostics",
-    "path": "Logos_System/System_Stack/Logos_Protocol/Logos_Agents/I3_Agent/diagnostics"
+    "path": "Logos_System/System_Stack/Logos_Protocol/Logos_Agents/I3_Agent/diagnostics",
+    "name": "diagnostics"
   },
   {
-    "name": "protocol_operations",
-    "path": "Logos_System/System_Stack/Logos_Protocol/Logos_Agents/I3_Agent/protocol_operations"
+    "path": "Logos_System/System_Stack/Logos_Protocol/Logos_Agents/I3_Agent/protocol_operations",
+    "name": "protocol_operations"
   },
   {
-    "name": "arp_cycle",
-    "path": "Logos_System/System_Stack/Logos_Protocol/Logos_Agents/I3_Agent/protocol_operations/arp_cycle"
+    "path": "Logos_System/System_Stack/Logos_Protocol/Logos_Agents/I3_Agent/protocol_operations/arp_cycle",
+    "name": "arp_cycle"
   },
   {
-    "name": "arp_planner",
-    "path": "Logos_System/System_Stack/Logos_Protocol/Logos_Agents/I3_Agent/protocol_operations/arp_planner"
+    "path": "Logos_System/System_Stack/Logos_Protocol/Logos_Agents/I3_Agent/protocol_operations/arp_planner",
+    "name": "arp_planner"
   },
   {
-    "name": "arp_runtime",
-    "path": "Logos_System/System_Stack/Logos_Protocol/Logos_Agents/I3_Agent/protocol_operations/arp_runtime"
+    "path": "Logos_System/System_Stack/Logos_Protocol/Logos_Agents/I3_Agent/protocol_operations/arp_runtime",
+    "name": "arp_runtime"
   },
   {
-    "name": "arp_tests",
-    "path": "Logos_System/System_Stack/Logos_Protocol/Logos_Agents/I3_Agent/protocol_operations/arp_tests"
+    "path": "Logos_System/System_Stack/Logos_Protocol/Logos_Agents/I3_Agent/protocol_operations/arp_tests",
+    "name": "arp_tests"
   },
   {
-    "name": "plugins",
-    "path": "Logos_System/System_Stack/Meaning_Translation_Protocol/Receiver_Nexus/LLM_Interface/plugins"
+    "path": "Logos_System/System_Stack/Meaning_Translation_Protocol/Receiver_Nexus/LLM_Interface/plugins",
+    "name": "plugins"
   },
   {
-    "name": "state",
-    "path": "Logos_System/System_Stack/Meaning_Translation_Protocol/Receiver_Nexus/LLM_Interface/plugins/state"
+    "path": "Logos_System/System_Stack/Meaning_Translation_Protocol/Receiver_Nexus/LLM_Interface/plugins/state",
+    "name": "state"
   },
   {
-    "name": "core_processing",
-    "path": "Logos_System/System_Stack/Meaning_Translation_Protocol/core_processing"
+    "path": "Logos_System/System_Stack/Meaning_Translation_Protocol/core_processing",
+    "name": "core_processing"
   },
   {
-    "name": "interface_runtime",
-    "path": "Logos_System/System_Stack/Meaning_Translation_Protocol/interface_runtime"
+    "path": "Logos_System/System_Stack/Meaning_Translation_Protocol/interface_runtime",
+    "name": "interface_runtime"
   },
   {
-    "name": "language_modules",
-    "path": "Logos_System/System_Stack/Meaning_Translation_Protocol/language_modules"
+    "path": "Logos_System/System_Stack/Meaning_Translation_Protocol/language_modules",
+    "name": "language_modules"
   },
   {
-    "name": "smp_packetizer",
-    "path": "Logos_System/System_Stack/Meaning_Translation_Protocol/smp_packetizer"
+    "path": "Logos_System/System_Stack/Meaning_Translation_Protocol/smp_packetizer",
+    "name": "smp_packetizer"
   },
   {
-    "name": "symbolic_translation",
-    "path": "Logos_System/System_Stack/Meaning_Translation_Protocol/symbolic_translation"
+    "path": "Logos_System/System_Stack/Meaning_Translation_Protocol/symbolic_translation",
+    "name": "symbolic_translation"
   },
   {
-    "name": "system_utilities",
-    "path": "Logos_System/System_Stack/Meaning_Translation_Protocol/system_utilities"
+    "path": "Logos_System/System_Stack/Meaning_Translation_Protocol/system_utilities",
+    "name": "system_utilities"
   },
   {
-    "name": "nexus",
-    "path": "Logos_System/System_Stack/Meaning_Translation_Protocol/system_utilities/nexus"
+    "path": "Logos_System/System_Stack/Meaning_Translation_Protocol/system_utilities/nexus",
+    "name": "nexus"
   },
   {
-    "name": "shared",
-    "path": "Logos_System/System_Stack/Meaning_Translation_Protocol/system_utilities/shared"
+    "path": "Logos_System/System_Stack/Meaning_Translation_Protocol/system_utilities/shared",
+    "name": "shared"
   },
   {
-    "name": "tests",
-    "path": "Logos_System/System_Stack/Meaning_Translation_Protocol/tests"
+    "path": "Logos_System/System_Stack/Meaning_Translation_Protocol/tests",
+    "name": "tests"
   },
   {
-    "name": "core",
-    "path": "Logos_System/System_Stack/Synthetic_Cognition_Protocol/BDN_System/core"
+    "path": "Logos_System/System_Stack/Synthetic_Cognition_Protocol/BDN_System/core",
+    "name": "core"
   },
   {
-    "name": "integration",
-    "path": "Logos_System/System_Stack/Synthetic_Cognition_Protocol/BDN_System/integration"
+    "path": "Logos_System/System_Stack/Synthetic_Cognition_Protocol/BDN_System/integration",
+    "name": "integration"
   },
   {
-    "name": "data_c_values",
-    "path": "Logos_System/System_Stack/Synthetic_Cognition_Protocol/MVS_System/data_c_values"
+    "path": "Logos_System/System_Stack/Synthetic_Cognition_Protocol/MVS_System/data_c_values",
+    "name": "data_c_values"
   },
   {
-    "name": "fractal_orbital",
-    "path": "Logos_System/System_Stack/Synthetic_Cognition_Protocol/MVS_System/fractal_orbital"
+    "path": "Logos_System/System_Stack/Synthetic_Cognition_Protocol/MVS_System/fractal_orbital",
+    "name": "fractal_orbital"
   },
   {
-    "name": "mathematics",
-    "path": "Logos_System/System_Stack/Synthetic_Cognition_Protocol/MVS_System/mathematics"
+    "path": "Logos_System/System_Stack/Synthetic_Cognition_Protocol/MVS_System/mathematics",
+    "name": "mathematics"
   },
   {
-    "name": "mvs_calculators",
-    "path": "Logos_System/System_Stack/Synthetic_Cognition_Protocol/MVS_System/mvs_calculators"
+    "path": "Logos_System/System_Stack/Synthetic_Cognition_Protocol/MVS_System/mvs_calculators",
+    "name": "mvs_calculators"
   },
   {
-    "name": "predictors",
-    "path": "Logos_System/System_Stack/Synthetic_Cognition_Protocol/MVS_System/predictors"
+    "path": "Logos_System/System_Stack/Synthetic_Cognition_Protocol/MVS_System/predictors",
+    "name": "predictors"
   },
   {
-    "name": "consciousness",
-    "path": "Logos_System/System_Stack/Synthetic_Cognition_Protocol/consciousness"
+    "path": "Logos_System/System_Stack/Synthetic_Cognition_Protocol/consciousness",
+    "name": "consciousness"
   },
   {
-    "name": "data",
-    "path": "Logos_System/System_Stack/Synthetic_Cognition_Protocol/data"
+    "path": "Logos_System/System_Stack/Synthetic_Cognition_Protocol/data",
+    "name": "data"
   },
   {
-    "name": "data",
-    "path": "Logos_System/System_Stack/Synthetic_Cognition_Protocol/data/data"
+    "path": "Logos_System/System_Stack/Synthetic_Cognition_Protocol/data/data",
+    "name": "data"
   },
   {
-    "name": "data_library",
-    "path": "Logos_System/System_Stack/Synthetic_Cognition_Protocol/data/data/data_library"
+    "path": "Logos_System/System_Stack/Synthetic_Cognition_Protocol/data/data/data_library",
+    "name": "data_library"
   },
   {
-    "name": "system_utilities",
-    "path": "Logos_System/System_Stack/Synthetic_Cognition_Protocol/system_utilities"
+    "path": "Logos_System/System_Stack/Synthetic_Cognition_Protocol/system_utilities",
+    "name": "system_utilities"
   },
   {
-    "name": "nexus",
-    "path": "Logos_System/System_Stack/Synthetic_Cognition_Protocol/system_utilities/nexus"
+    "path": "Logos_System/System_Stack/Synthetic_Cognition_Protocol/system_utilities/nexus",
+    "name": "nexus"
   },
   {
-    "name": "protocol_txts",
-    "path": "Logos_System/System_Stack/System_Operations_Protocol/Documentation/Project_Notes/protocol_txts"
+    "path": "Logos_System/System_Stack/System_Operations_Protocol/Documentation/Project_Notes/protocol_txts",
+    "name": "protocol_txts"
   },
   {
-    "name": "IEL_generator",
-    "path": "Logos_System/System_Stack/System_Operations_Protocol/IEL_generator"
+    "path": "Logos_System/System_Stack/System_Operations_Protocol/IEL_generator",
+    "name": "IEL_generator"
   },
   {
-    "name": "code_generator",
-    "path": "Logos_System/System_Stack/System_Operations_Protocol/IEL_generator/code_generator"
+    "path": "Logos_System/System_Stack/System_Operations_Protocol/IEL_generator/code_generator",
+    "name": "code_generator"
   },
   {
-    "name": "ontoprop_paring",
-    "path": "Logos_System/System_Stack/System_Operations_Protocol/IEL_generator/ontoprop_paring"
+    "path": "Logos_System/System_Stack/System_Operations_Protocol/IEL_generator/ontoprop_paring",
+    "name": "ontoprop_paring"
   },
   {
-    "name": "tests",
-    "path": "Logos_System/System_Stack/System_Operations_Protocol/Optimization/tests"
+    "path": "Logos_System/System_Stack/System_Operations_Protocol/Optimization/tests",
+    "name": "tests"
   },
   {
-    "name": "alignment_protocols",
-    "path": "Logos_System/System_Stack/System_Operations_Protocol/alignment_protocols"
+    "path": "Logos_System/System_Stack/System_Operations_Protocol/alignment_protocols",
+    "name": "alignment_protocols"
   },
   {
-    "name": "coherence",
-    "path": "Logos_System/System_Stack/System_Operations_Protocol/alignment_protocols/coherence"
+    "path": "Logos_System/System_Stack/System_Operations_Protocol/alignment_protocols/coherence",
+    "name": "coherence"
   },
   {
-    "name": "compliance",
-    "path": "Logos_System/System_Stack/System_Operations_Protocol/alignment_protocols/compliance"
+    "path": "Logos_System/System_Stack/System_Operations_Protocol/alignment_protocols/compliance",
+    "name": "compliance"
   },
   {
-    "name": "persistence",
-    "path": "Logos_System/System_Stack/System_Operations_Protocol/alignment_protocols/persistence"
+    "path": "Logos_System/System_Stack/System_Operations_Protocol/alignment_protocols/persistence",
+    "name": "persistence"
   },
   {
-    "name": "policies",
-    "path": "Logos_System/System_Stack/System_Operations_Protocol/alignment_protocols/policies"
+    "path": "Logos_System/System_Stack/System_Operations_Protocol/alignment_protocols/policies",
+    "name": "policies"
   },
   {
-    "name": "safety",
-    "path": "Logos_System/System_Stack/System_Operations_Protocol/alignment_protocols/safety"
+    "path": "Logos_System/System_Stack/System_Operations_Protocol/alignment_protocols/safety",
+    "name": "safety"
   },
   {
-    "name": "integrity_framework",
-    "path": "Logos_System/System_Stack/System_Operations_Protocol/alignment_protocols/safety/integrity_framework"
+    "path": "Logos_System/System_Stack/System_Operations_Protocol/alignment_protocols/safety/integrity_framework",
+    "name": "integrity_framework"
   },
   {
-    "name": "obdc",
-    "path": "Logos_System/System_Stack/System_Operations_Protocol/alignment_protocols/safety/obdc"
+    "path": "Logos_System/System_Stack/System_Operations_Protocol/alignment_protocols/safety/obdc",
+    "name": "obdc"
   },
   {
-    "name": "ultima_framework",
-    "path": "Logos_System/System_Stack/System_Operations_Protocol/alignment_protocols/safety/ultima_framework"
+    "path": "Logos_System/System_Stack/System_Operations_Protocol/alignment_protocols/safety/ultima_framework",
+    "name": "ultima_framework"
   },
   {
-    "name": "state",
-    "path": "Logos_System/System_Stack/System_Operations_Protocol/alignment_protocols/state"
+    "path": "Logos_System/System_Stack/System_Operations_Protocol/alignment_protocols/state",
+    "name": "state"
   },
   {
-    "name": "validation",
-    "path": "Logos_System/System_Stack/System_Operations_Protocol/alignment_protocols/validation"
+    "path": "Logos_System/System_Stack/System_Operations_Protocol/alignment_protocols/validation",
+    "name": "validation"
   },
   {
-    "name": "examples",
-    "path": "Logos_System/System_Stack/System_Operations_Protocol/alignment_protocols/validation/examples"
+    "path": "Logos_System/System_Stack/System_Operations_Protocol/alignment_protocols/validation/examples",
+    "name": "examples"
   },
   {
-    "name": "testing",
-    "path": "Logos_System/System_Stack/System_Operations_Protocol/alignment_protocols/validation/testing"
+    "path": "Logos_System/System_Stack/System_Operations_Protocol/alignment_protocols/validation/testing",
+    "name": "testing"
   },
   {
-    "name": "tests",
-    "path": "Logos_System/System_Stack/System_Operations_Protocol/alignment_protocols/validation/testing/tests"
+    "path": "Logos_System/System_Stack/System_Operations_Protocol/alignment_protocols/validation/testing/tests",
+    "name": "tests"
   },
   {
-    "name": "code_generator",
-    "path": "Logos_System/System_Stack/System_Operations_Protocol/code_generator"
+    "path": "Logos_System/System_Stack/System_Operations_Protocol/code_generator",
+    "name": "code_generator"
   },
   {
-    "name": "meta_reasoning",
-    "path": "Logos_System/System_Stack/System_Operations_Protocol/code_generator/meta_reasoning"
+    "path": "Logos_System/System_Stack/System_Operations_Protocol/code_generator/meta_reasoning",
+    "name": "meta_reasoning"
   },
   {
-    "name": "data_storage",
-    "path": "Logos_System/System_Stack/System_Operations_Protocol/data_storage"
+    "path": "Logos_System/System_Stack/System_Operations_Protocol/data_storage",
+    "name": "data_storage"
   },
   {
-    "name": "knowledge",
-    "path": "Logos_System/System_Stack/System_Operations_Protocol/data_storage/knowledge"
+    "path": "Logos_System/System_Stack/System_Operations_Protocol/data_storage/knowledge",
+    "name": "knowledge"
   },
   {
-    "name": "runtime",
-    "path": "Logos_System/System_Stack/System_Operations_Protocol/data_storage/runtime"
+    "path": "Logos_System/System_Stack/System_Operations_Protocol/data_storage/runtime",
+    "name": "runtime"
   },
   {
-    "name": "run-20251223T044326341182Z",
-    "path": "Logos_System/System_Stack/System_Operations_Protocol/data_storage/runtime/run-20251223T044326341182Z"
+    "path": "Logos_System/System_Stack/System_Operations_Protocol/data_storage/runtime/run-20251223T044326341182Z",
+    "name": "run-20251223T044326341182Z"
   },
   {
-    "name": "run-20251223T044341598361Z",
-    "path": "Logos_System/System_Stack/System_Operations_Protocol/data_storage/runtime/run-20251223T044341598361Z"
+    "path": "Logos_System/System_Stack/System_Operations_Protocol/data_storage/runtime/run-20251223T044341598361Z",
+    "name": "run-20251223T044341598361Z"
   },
   {
-    "name": "run-20251223T050049193704Z",
-    "path": "Logos_System/System_Stack/System_Operations_Protocol/data_storage/runtime/run-20251223T050049193704Z"
+    "path": "Logos_System/System_Stack/System_Operations_Protocol/data_storage/runtime/run-20251223T050049193704Z",
+    "name": "run-20251223T050049193704Z"
   },
   {
-    "name": "run-20251223T162019022316Z",
-    "path": "Logos_System/System_Stack/System_Operations_Protocol/data_storage/runtime/run-20251223T162019022316Z"
+    "path": "Logos_System/System_Stack/System_Operations_Protocol/data_storage/runtime/run-20251223T162019022316Z",
+    "name": "run-20251223T162019022316Z"
   },
   {
-    "name": "run-20251223T162019826344Z",
-    "path": "Logos_System/System_Stack/System_Operations_Protocol/data_storage/runtime/run-20251223T162019826344Z"
+    "path": "Logos_System/System_Stack/System_Operations_Protocol/data_storage/runtime/run-20251223T162019826344Z",
+    "name": "run-20251223T162019826344Z"
   },
   {
-    "name": "run-20251223T162039735734Z",
-    "path": "Logos_System/System_Stack/System_Operations_Protocol/data_storage/runtime/run-20251223T162039735734Z"
+    "path": "Logos_System/System_Stack/System_Operations_Protocol/data_storage/runtime/run-20251223T162039735734Z",
+    "name": "run-20251223T162039735734Z"
   },
   {
-    "name": "deployment",
-    "path": "Logos_System/System_Stack/System_Operations_Protocol/deployment"
+    "path": "Logos_System/System_Stack/System_Operations_Protocol/deployment",
+    "name": "deployment"
   },
   {
-    "name": "boot",
-    "path": "Logos_System/System_Stack/System_Operations_Protocol/deployment/boot"
+    "path": "Logos_System/System_Stack/System_Operations_Protocol/deployment/boot",
+    "name": "boot"
   },
   {
-    "name": "configuration",
-    "path": "Logos_System/System_Stack/System_Operations_Protocol/deployment/configuration"
+    "path": "Logos_System/System_Stack/System_Operations_Protocol/deployment/configuration",
+    "name": "configuration"
   },
   {
-    "name": "monitoring",
-    "path": "Logos_System/System_Stack/System_Operations_Protocol/deployment/monitoring"
+    "path": "Logos_System/System_Stack/System_Operations_Protocol/deployment/monitoring",
+    "name": "monitoring"
   },
   {
-    "name": "docker_orchestration",
-    "path": "Logos_System/System_Stack/System_Operations_Protocol/deployment/monitoring/docker_orchestration"
+    "path": "Logos_System/System_Stack/System_Operations_Protocol/deployment/monitoring/docker_orchestration",
+    "name": "docker_orchestration"
   },
   {
-    "name": "governance",
-    "path": "Logos_System/System_Stack/System_Operations_Protocol/governance"
+    "path": "Logos_System/System_Stack/System_Operations_Protocol/governance",
+    "name": "governance"
   },
   {
-    "name": "infrastructure",
-    "path": "Logos_System/System_Stack/System_Operations_Protocol/infrastructure"
+    "path": "Logos_System/System_Stack/System_Operations_Protocol/infrastructure",
+    "name": "infrastructure"
   },
   {
-    "name": "agent_system",
-    "path": "Logos_System/System_Stack/System_Operations_Protocol/infrastructure/agent_system"
+    "path": "Logos_System/System_Stack/System_Operations_Protocol/infrastructure/agent_system",
+    "name": "agent_system"
   },
   {
-    "name": "nexus",
-    "path": "Logos_System/System_Stack/System_Operations_Protocol/nexus"
+    "path": "Logos_System/System_Stack/System_Operations_Protocol/nexus",
+    "name": "nexus"
   },
   {
-    "name": "operations",
-    "path": "Logos_System/System_Stack/System_Operations_Protocol/operations"
+    "path": "PXL_Gate/coq",
+    "name": "coq"
   },
   {
-    "name": "coq",
-    "path": "PXL_Gate/coq"
+    "path": "PXL_Gate/coq/src",
+    "name": "src"
   },
   {
-    "name": "src",
-    "path": "PXL_Gate/coq/src"
+    "path": "PXL_Gate/coq/src/baseline",
+    "name": "baseline"
   },
   {
-    "name": "baseline",
-    "path": "PXL_Gate/coq/src/baseline"
+    "path": "PXL_Gate/coq/src/modal",
+    "name": "modal"
   },
   {
-    "name": "modal",
-    "path": "PXL_Gate/coq/src/modal"
+    "path": "PXL_Gate/coq/src/option_b",
+    "name": "option_b"
   },
   {
-    "name": "option_b",
-    "path": "PXL_Gate/coq/src/option_b"
+    "path": "PXL_Gate/coq/src/tests",
+    "name": "tests"
   },
   {
-    "name": "tests",
-    "path": "PXL_Gate/coq/src/tests"
+    "path": "PXL_Gate/coq/src/ui",
+    "name": "ui"
   },
   {
-    "name": "ui",
-    "path": "PXL_Gate/coq/src/ui"
+    "path": "PXL_Gate/proof_logs",
+    "name": "proof_logs"
   },
   {
-    "name": "proof_logs",
-    "path": "PXL_Gate/proof_logs"
+    "path": "PXL_Gate/state",
+    "name": "state"
   },
   {
-    "name": "state",
-    "path": "PXL_Gate/state"
+    "path": "_Dev_Resources",
+    "name": "_Dev_Resources"
   },
   {
-    "name": "_Dev_Resources",
-    "path": "_Dev_Resources"
+    "path": "_Dev_Resources/Dev_Scripts/repo",
+    "name": "repo"
   },
   {
-    "name": "agent_layout",
-    "path": "_Dev_Resources/Dev_Notes/agent_layout"
+    "path": "_Dev_Resources/Dev_Scripts/repo_tools",
+    "name": "repo_tools"
   },
   {
-    "name": "release",
-    "path": "_Dev_Resources/Dev_Notes/release"
+    "path": "_Dev_Resources/Dev_Scripts/repo_tools/_Dev_Resources",
+    "name": "_Dev_Resources"
   },
   {
-    "name": "runtime_protocol",
-    "path": "_Dev_Resources/Dev_Notes/runtime_protocol"
+    "path": "_Dev_Resources/Dev_Scripts/repo_tools/_Dev_Resources/Dev_Scripts/repo_tools",
+    "name": "repo_tools"
   },
   {
-    "name": "sanity_check",
-    "path": "_Dev_Resources/Dev_Notes/sanity_check"
+    "path": "_Dev_Resources/Dev_Scripts/repo_tools/_Dev_Resources/Dev_Scripts/repo_tools/audit_normalize_automation",
+    "name": "audit_normalize_automation"
   },
   {
-    "name": "state",
-    "path": "_Dev_Resources/Dev_Notes/state"
+    "path": "_Dev_Resources/Dev_Scripts/repo_tools/_Dev_Resources/Dev_Scripts/repo_tools/audit_normalize_automation/state",
+    "name": "state"
   },
   {
-    "name": "alignment",
-    "path": "_Dev_Resources/Dev_Notes/state/alignment"
+    "path": "_Dev_Resources/Dev_Scripts/repo_tools/_Reports",
+    "name": "_Reports"
   },
   {
-    "name": "planner_digest_archives",
-    "path": "_Dev_Resources/Dev_Notes/state/planner_digest_archives"
+    "path": "_Dev_Resources/Dev_Scripts/repo_tools/_Reports/Audit_Normalize/Phase_4",
+    "name": "Phase_4"
   },
   {
-    "name": "tool_invention",
-    "path": "_Dev_Resources/Dev_Notes/state/tool_invention"
+    "path": "_Dev_Resources/Dev_Scripts/repo_tools/audit_normalize_automation",
+    "name": "audit_normalize_automation"
   },
   {
-    "name": "proposals",
-    "path": "_Dev_Resources/Dev_Notes/state/tool_invention/proposals"
+    "path": "_Dev_Resources/Dev_Scripts/repo_tools/audit_normalize_automation/compliance",
+    "name": "compliance"
   },
   {
-    "name": "tool_optimizer",
-    "path": "_Dev_Resources/Dev_Notes/state/tool_optimizer"
+    "path": "_Dev_Resources/Dev_Scripts/repo_tools/audit_normalize_automation/phase_5",
+    "name": "phase_5"
   },
   {
-    "name": "repo",
-    "path": "_Dev_Resources/Dev_Scripts/repo"
+    "path": "_Dev_Resources/Dev_Scripts/repo_tools/audit_normalize_automation/phase_5/_schemas",
+    "name": "_schemas"
   },
   {
-    "name": "repo_tools",
-    "path": "_Dev_Resources/Dev_Scripts/repo_tools"
+    "path": "_Dev_Resources/Dev_Scripts/repo_tools/audit_normalize_automation/phases",
+    "name": "phases"
   },
   {
-    "name": "system_audit",
-    "path": "_Dev_Resources/Dev_Scripts/repo_tools/system_audit"
+    "path": "_Dev_Resources/Dev_Scripts/repo_tools/audit_normalize_automation/shared",
+    "name": "shared"
   },
   {
-    "name": "security",
-    "path": "_Dev_Resources/Dev_Scripts/security"
+    "path": "_Dev_Resources/Dev_Scripts/repo_tools/audit_normalize_automation/state",
+    "name": "state"
   },
   {
-    "name": "smoke_tests",
-    "path": "_Dev_Resources/Dev_Scripts/smoke_tests"
+    "path": "_Dev_Resources/Dev_Scripts/repo_tools/system_audit",
+    "name": "system_audit"
   },
   {
-    "name": "system_stack_tbd",
-    "path": "_Dev_Resources/Dev_Scripts/system_stack_tbd"
+    "path": "_Dev_Resources/Dev_Scripts/security",
+    "name": "security"
   },
   {
-    "name": "could_be_dev",
-    "path": "_Dev_Resources/Dev_Scripts/system_stack_tbd/could_be_dev"
+    "path": "_Dev_Resources/Dev_Scripts/smoke_tests",
+    "name": "smoke_tests"
   },
   {
-    "name": "need_to_distribute",
-    "path": "_Dev_Resources/Dev_Scripts/system_stack_tbd/need_to_distribute"
+    "path": "_Dev_Resources/Dev_Scripts/system_audit",
+    "name": "system_audit"
   },
   {
-    "name": "system_utilities",
-    "path": "_Dev_Resources/Dev_Scripts/system_utilities"
+    "path": "_Dev_Resources/Dev_Scripts/system_utilities",
+    "name": "system_utilities"
+  },
+  {
+    "path": "_Dev_Resources/Dev_Scripts/vs_code_helpers",
+    "name": "vs_code_helpers"
+  },
+  {
+    "path": "_Dev_Resources/Docs/Dev_Logs_Current/Dev_docs",
+    "name": "Dev_docs"
+  },
+  {
+    "path": "_Dev_Resources/Docs/Dev_Notes/agent_layout",
+    "name": "agent_layout"
+  },
+  {
+    "path": "_Dev_Resources/Docs/Dev_Notes/release",
+    "name": "release"
+  },
+  {
+    "path": "_Dev_Resources/Docs/Dev_Notes/runtime_protocol",
+    "name": "runtime_protocol"
+  },
+  {
+    "path": "_Dev_Resources/Docs/Dev_Notes/sanity_check",
+    "name": "sanity_check"
+  },
+  {
+    "path": "_Dev_Resources/Docs/Dev_Notes/state",
+    "name": "state"
+  },
+  {
+    "path": "_Dev_Resources/Docs/Dev_Notes/state/alignment",
+    "name": "alignment"
+  },
+  {
+    "path": "_Dev_Resources/Docs/Dev_Notes/state/planner_digest_archives",
+    "name": "planner_digest_archives"
+  },
+  {
+    "path": "_Dev_Resources/Docs/Dev_Notes/state/tool_invention",
+    "name": "tool_invention"
+  },
+  {
+    "path": "_Dev_Resources/Docs/Dev_Notes/state/tool_invention/proposals",
+    "name": "proposals"
+  },
+  {
+    "path": "_Dev_Resources/Docs/Dev_Notes/state/tool_optimizer",
+    "name": "tool_optimizer"
   }
 ]

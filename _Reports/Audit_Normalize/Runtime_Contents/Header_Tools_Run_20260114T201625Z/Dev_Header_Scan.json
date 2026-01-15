@@ -1,0 +1,271 @@
+{
+  "root": "/workspaces/Logos_System/_Dev_Resources/Dev_Scripts/LEGACY_SCRIPTS_TO_EXAMINE/INSPECT_DECIDE",
+  "total_py": 66,
+  "dev_header_v1_count": 66,
+  "rows": [
+    {
+      "path": "/workspaces/Logos_System/_Dev_Resources/Dev_Scripts/LEGACY_SCRIPTS_TO_EXAMINE/INSPECT_DECIDE/_Dev_Resources/Dev_Scripts/repo_tools/run_mvp_acceptance.py",
+      "has_dev_header_v1": true
+    },
+    {
+      "path": "/workspaces/Logos_System/_Dev_Resources/Dev_Scripts/LEGACY_SCRIPTS_TO_EXAMINE/INSPECT_DECIDE/_Dev_Resources/Dev_Scripts/repo_tools/system_audit/_common.py",
+      "has_dev_header_v1": true
+    },
+    {
+      "path": "/workspaces/Logos_System/_Dev_Resources/Dev_Scripts/LEGACY_SCRIPTS_TO_EXAMINE/INSPECT_DECIDE/_Dev_Resources/Dev_Scripts/repo_tools/system_audit/audit_driver.py",
+      "has_dev_header_v1": true
+    },
+    {
+      "path": "/workspaces/Logos_System/_Dev_Resources/Dev_Scripts/LEGACY_SCRIPTS_TO_EXAMINE/INSPECT_DECIDE/_Dev_Resources/Dev_Scripts/repo_tools/system_audit/scan_config_and_schema.py",
+      "has_dev_header_v1": true
+    },
+    {
+      "path": "/workspaces/Logos_System/_Dev_Resources/Dev_Scripts/LEGACY_SCRIPTS_TO_EXAMINE/INSPECT_DECIDE/_Dev_Resources/Dev_Scripts/repo_tools/system_audit/scan_runtime_surface.py",
+      "has_dev_header_v1": true
+    },
+    {
+      "path": "/workspaces/Logos_System/_Dev_Resources/Dev_Scripts/LEGACY_SCRIPTS_TO_EXAMINE/INSPECT_DECIDE/_Dev_Resources/Dev_Scripts/repo_tools/system_audit/scan_side_effects.py",
+      "has_dev_header_v1": true
+    },
+    {
+      "path": "/workspaces/Logos_System/_Dev_Resources/Dev_Scripts/LEGACY_SCRIPTS_TO_EXAMINE/INSPECT_DECIDE/_Dev_Resources/Dev_Scripts/smoke_tests/test_alignment_gate_smoke.py",
+      "has_dev_header_v1": true
+    },
+    {
+      "path": "/workspaces/Logos_System/_Dev_Resources/Dev_Scripts/LEGACY_SCRIPTS_TO_EXAMINE/INSPECT_DECIDE/_Dev_Resources/Dev_Scripts/smoke_tests/test_belief_consolidation_smoke.py",
+      "has_dev_header_v1": true
+    },
+    {
+      "path": "/workspaces/Logos_System/_Dev_Resources/Dev_Scripts/LEGACY_SCRIPTS_TO_EXAMINE/INSPECT_DECIDE/_Dev_Resources/Dev_Scripts/smoke_tests/test_dashboard_smoke.py",
+      "has_dev_header_v1": true
+    },
+    {
+      "path": "/workspaces/Logos_System/_Dev_Resources/Dev_Scripts/LEGACY_SCRIPTS_TO_EXAMINE/INSPECT_DECIDE/_Dev_Resources/Dev_Scripts/smoke_tests/test_evaluator_learning_smoke.py",
+      "has_dev_header_v1": true
+    },
+    {
+      "path": "/workspaces/Logos_System/_Dev_Resources/Dev_Scripts/LEGACY_SCRIPTS_TO_EXAMINE/INSPECT_DECIDE/_Dev_Resources/Dev_Scripts/smoke_tests/test_goal_proposal_smoke.py",
+      "has_dev_header_v1": true
+    },
+    {
+      "path": "/workspaces/Logos_System/_Dev_Resources/Dev_Scripts/LEGACY_SCRIPTS_TO_EXAMINE/INSPECT_DECIDE/_Dev_Resources/Dev_Scripts/smoke_tests/test_llm_advisor_smoke.py",
+      "has_dev_header_v1": true
+    },
+    {
+      "path": "/workspaces/Logos_System/_Dev_Resources/Dev_Scripts/LEGACY_SCRIPTS_TO_EXAMINE/INSPECT_DECIDE/_Dev_Resources/Dev_Scripts/smoke_tests/test_llm_bypass_smoke.py",
+      "has_dev_header_v1": true
+    },
+    {
+      "path": "/workspaces/Logos_System/_Dev_Resources/Dev_Scripts/LEGACY_SCRIPTS_TO_EXAMINE/INSPECT_DECIDE/_Dev_Resources/Dev_Scripts/smoke_tests/test_llm_real_provider_smoke.py",
+      "has_dev_header_v1": true
+    },
+    {
+      "path": "/workspaces/Logos_System/_Dev_Resources/Dev_Scripts/LEGACY_SCRIPTS_TO_EXAMINE/INSPECT_DECIDE/_Dev_Resources/Dev_Scripts/smoke_tests/test_llm_streaming_smoke.py",
+      "has_dev_header_v1": true
+    },
+    {
+      "path": "/workspaces/Logos_System/_Dev_Resources/Dev_Scripts/LEGACY_SCRIPTS_TO_EXAMINE/INSPECT_DECIDE/_Dev_Resources/Dev_Scripts/smoke_tests/test_logos_agi_integration_smoke.py",
+      "has_dev_header_v1": true
+    },
+    {
+      "path": "/workspaces/Logos_System/_Dev_Resources/Dev_Scripts/LEGACY_SCRIPTS_TO_EXAMINE/INSPECT_DECIDE/_Dev_Resources/Dev_Scripts/smoke_tests/test_logos_agi_persistence_smoke.py",
+      "has_dev_header_v1": true
+    },
+    {
+      "path": "/workspaces/Logos_System/_Dev_Resources/Dev_Scripts/LEGACY_SCRIPTS_TO_EXAMINE/INSPECT_DECIDE/_Dev_Resources/Dev_Scripts/smoke_tests/test_logos_gpt_chat_smoke.py",
+      "has_dev_header_v1": true
+    },
+    {
+      "path": "/workspaces/Logos_System/_Dev_Resources/Dev_Scripts/LEGACY_SCRIPTS_TO_EXAMINE/INSPECT_DECIDE/_Dev_Resources/Dev_Scripts/smoke_tests/test_logos_gpt_web_smoke.py",
+      "has_dev_header_v1": true
+    },
+    {
+      "path": "/workspaces/Logos_System/_Dev_Resources/Dev_Scripts/LEGACY_SCRIPTS_TO_EXAMINE/INSPECT_DECIDE/_Dev_Resources/Dev_Scripts/smoke_tests/test_logos_runtime_phase2_smoke.py",
+      "has_dev_header_v1": true
+    },
+    {
+      "path": "/workspaces/Logos_System/_Dev_Resources/Dev_Scripts/LEGACY_SCRIPTS_TO_EXAMINE/INSPECT_DECIDE/_Dev_Resources/Dev_Scripts/smoke_tests/test_logos_runtime_smoke.py",
+      "has_dev_header_v1": true
+    },
+    {
+      "path": "/workspaces/Logos_System/_Dev_Resources/Dev_Scripts/LEGACY_SCRIPTS_TO_EXAMINE/INSPECT_DECIDE/_Dev_Resources/Dev_Scripts/smoke_tests/test_plan_checkpoint_smoke.py",
+      "has_dev_header_v1": true
+    },
+    {
+      "path": "/workspaces/Logos_System/_Dev_Resources/Dev_Scripts/LEGACY_SCRIPTS_TO_EXAMINE/INSPECT_DECIDE/_Dev_Resources/Dev_Scripts/smoke_tests/test_plan_history_update_smoke.py",
+      "has_dev_header_v1": true
+    },
+    {
+      "path": "/workspaces/Logos_System/_Dev_Resources/Dev_Scripts/LEGACY_SCRIPTS_TO_EXAMINE/INSPECT_DECIDE/_Dev_Resources/Dev_Scripts/smoke_tests/test_plan_scoring_smoke.py",
+      "has_dev_header_v1": true
+    },
+    {
+      "path": "/workspaces/Logos_System/_Dev_Resources/Dev_Scripts/LEGACY_SCRIPTS_TO_EXAMINE/INSPECT_DECIDE/_Dev_Resources/Dev_Scripts/smoke_tests/test_plan_validation_smoke.py",
+      "has_dev_header_v1": true
+    },
+    {
+      "path": "/workspaces/Logos_System/_Dev_Resources/Dev_Scripts/LEGACY_SCRIPTS_TO_EXAMINE/INSPECT_DECIDE/_Dev_Resources/Dev_Scripts/smoke_tests/test_retrieval_local_smoke.py",
+      "has_dev_header_v1": true
+    },
+    {
+      "path": "/workspaces/Logos_System/_Dev_Resources/Dev_Scripts/LEGACY_SCRIPTS_TO_EXAMINE/INSPECT_DECIDE/_Dev_Resources/Dev_Scripts/smoke_tests/test_run_ledger_smoke.py",
+      "has_dev_header_v1": true
+    },
+    {
+      "path": "/workspaces/Logos_System/_Dev_Resources/Dev_Scripts/LEGACY_SCRIPTS_TO_EXAMINE/INSPECT_DECIDE/_Dev_Resources/Dev_Scripts/smoke_tests/test_server_nexus_isolation_smoke.py",
+      "has_dev_header_v1": true
+    },
+    {
+      "path": "/workspaces/Logos_System/_Dev_Resources/Dev_Scripts/LEGACY_SCRIPTS_TO_EXAMINE/INSPECT_DECIDE/_Dev_Resources/Dev_Scripts/smoke_tests/test_tool_approval_tamper_smoke.py",
+      "has_dev_header_v1": true
+    },
+    {
+      "path": "/workspaces/Logos_System/_Dev_Resources/Dev_Scripts/LEGACY_SCRIPTS_TO_EXAMINE/INSPECT_DECIDE/_Dev_Resources/Dev_Scripts/smoke_tests/test_tool_improvement_intent_smoke.py",
+      "has_dev_header_v1": true
+    },
+    {
+      "path": "/workspaces/Logos_System/_Dev_Resources/Dev_Scripts/LEGACY_SCRIPTS_TO_EXAMINE/INSPECT_DECIDE/_Dev_Resources/Dev_Scripts/smoke_tests/test_tool_introspection_smoke.py",
+      "has_dev_header_v1": true
+    },
+    {
+      "path": "/workspaces/Logos_System/_Dev_Resources/Dev_Scripts/LEGACY_SCRIPTS_TO_EXAMINE/INSPECT_DECIDE/_Dev_Resources/Dev_Scripts/smoke_tests/test_tool_pipeline_smoke.py",
+      "has_dev_header_v1": true
+    },
+    {
+      "path": "/workspaces/Logos_System/_Dev_Resources/Dev_Scripts/LEGACY_SCRIPTS_TO_EXAMINE/INSPECT_DECIDE/_Dev_Resources/Dev_Scripts/smoke_tests/test_tool_playbook_load_smoke.py",
+      "has_dev_header_v1": true
+    },
+    {
+      "path": "/workspaces/Logos_System/_Dev_Resources/Dev_Scripts/LEGACY_SCRIPTS_TO_EXAMINE/INSPECT_DECIDE/_Dev_Resources/Dev_Scripts/smoke_tests/test_tool_repair_proposal_smoke.py",
+      "has_dev_header_v1": true
+    },
+    {
+      "path": "/workspaces/Logos_System/_Dev_Resources/Dev_Scripts/LEGACY_SCRIPTS_TO_EXAMINE/INSPECT_DECIDE/_Dev_Resources/Dev_Scripts/smoke_tests/test_tool_validation_smoke.py",
+      "has_dev_header_v1": true
+    },
+    {
+      "path": "/workspaces/Logos_System/_Dev_Resources/Dev_Scripts/LEGACY_SCRIPTS_TO_EXAMINE/INSPECT_DECIDE/_Dev_Resources/Dev_Scripts/smoke_tests/test_truth_categories_smoke.py",
+      "has_dev_header_v1": true
+    },
+    {
+      "path": "/workspaces/Logos_System/_Dev_Resources/Dev_Scripts/LEGACY_SCRIPTS_TO_EXAMINE/INSPECT_DECIDE/_Dev_Resources/Dev_Scripts/smoke_tests/test_uwm_smoke.py",
+      "has_dev_header_v1": true
+    },
+    {
+      "path": "/workspaces/Logos_System/_Dev_Resources/Dev_Scripts/LEGACY_SCRIPTS_TO_EXAMINE/INSPECT_DECIDE/_Dev_Resources/Dev_Scripts/smoke_tests/test_web_grounding_smoke.py",
+      "has_dev_header_v1": true
+    },
+    {
+      "path": "/workspaces/Logos_System/_Dev_Resources/Dev_Scripts/LEGACY_SCRIPTS_TO_EXAMINE/INSPECT_DECIDE/_Dev_Resources/LEGACY_SCRIPTS_TO_EXAMINE/INSPECT_DECIDE/aligned_agent_import.py",
+      "has_dev_header_v1": true
+    },
+    {
+      "path": "/workspaces/Logos_System/_Dev_Resources/Dev_Scripts/LEGACY_SCRIPTS_TO_EXAMINE/INSPECT_DECIDE/_Dev_Resources/LEGACY_SCRIPTS_TO_EXAMINE/INSPECT_DECIDE/archive_planner_digests.py",
+      "has_dev_header_v1": true
+    },
+    {
+      "path": "/workspaces/Logos_System/_Dev_Resources/Dev_Scripts/LEGACY_SCRIPTS_TO_EXAMINE/INSPECT_DECIDE/_Dev_Resources/LEGACY_SCRIPTS_TO_EXAMINE/INSPECT_DECIDE/boot_aligned_agent.py",
+      "has_dev_header_v1": true
+    },
+    {
+      "path": "/workspaces/Logos_System/_Dev_Resources/Dev_Scripts/LEGACY_SCRIPTS_TO_EXAMINE/INSPECT_DECIDE/_Dev_Resources/LEGACY_SCRIPTS_TO_EXAMINE/INSPECT_DECIDE/build_coq_theorem_index.py",
+      "has_dev_header_v1": true
+    },
+    {
+      "path": "/workspaces/Logos_System/_Dev_Resources/Dev_Scripts/LEGACY_SCRIPTS_TO_EXAMINE/INSPECT_DECIDE/_Dev_Resources/LEGACY_SCRIPTS_TO_EXAMINE/INSPECT_DECIDE/cycle_ledger.py",
+      "has_dev_header_v1": true
+    },
+    {
+      "path": "/workspaces/Logos_System/_Dev_Resources/Dev_Scripts/LEGACY_SCRIPTS_TO_EXAMINE/INSPECT_DECIDE/_Dev_Resources/LEGACY_SCRIPTS_TO_EXAMINE/INSPECT_DECIDE/evidence.py",
+      "has_dev_header_v1": true
+    },
+    {
+      "path": "/workspaces/Logos_System/_Dev_Resources/Dev_Scripts/LEGACY_SCRIPTS_TO_EXAMINE/INSPECT_DECIDE/_Dev_Resources/LEGACY_SCRIPTS_TO_EXAMINE/INSPECT_DECIDE/export_tool_registry.py",
+      "has_dev_header_v1": true
+    },
+    {
+      "path": "/workspaces/Logos_System/_Dev_Resources/Dev_Scripts/LEGACY_SCRIPTS_TO_EXAMINE/INSPECT_DECIDE/_Dev_Resources/LEGACY_SCRIPTS_TO_EXAMINE/INSPECT_DECIDE/logos_agi_adapter.py",
+      "has_dev_header_v1": true
+    },
+    {
+      "path": "/workspaces/Logos_System/_Dev_Resources/Dev_Scripts/LEGACY_SCRIPTS_TO_EXAMINE/INSPECT_DECIDE/_Dev_Resources/LEGACY_SCRIPTS_TO_EXAMINE/INSPECT_DECIDE/nexus_manager.py",
+      "has_dev_header_v1": true
+    },
+    {
+      "path": "/workspaces/Logos_System/_Dev_Resources/Dev_Scripts/LEGACY_SCRIPTS_TO_EXAMINE/INSPECT_DECIDE/_Dev_Resources/LEGACY_SCRIPTS_TO_EXAMINE/INSPECT_DECIDE/protocol_probe.py",
+      "has_dev_header_v1": true
+    },
+    {
+      "path": "/workspaces/Logos_System/_Dev_Resources/Dev_Scripts/LEGACY_SCRIPTS_TO_EXAMINE/INSPECT_DECIDE/_Dev_Resources/LEGACY_SCRIPTS_TO_EXAMINE/INSPECT_DECIDE/prototype_grounding_workflow.py",
+      "has_dev_header_v1": true
+    },
+    {
+      "path": "/workspaces/Logos_System/_Dev_Resources/Dev_Scripts/LEGACY_SCRIPTS_TO_EXAMINE/INSPECT_DECIDE/_Dev_Resources/LEGACY_SCRIPTS_TO_EXAMINE/INSPECT_DECIDE/provenance.py",
+      "has_dev_header_v1": true
+    },
+    {
+      "path": "/workspaces/Logos_System/_Dev_Resources/Dev_Scripts/LEGACY_SCRIPTS_TO_EXAMINE/INSPECT_DECIDE/_Dev_Resources/LEGACY_SCRIPTS_TO_EXAMINE/INSPECT_DECIDE/run_recursive_immersion_cycle.py",
+      "has_dev_header_v1": true
+    },
+    {
+      "path": "/workspaces/Logos_System/_Dev_Resources/Dev_Scripts/LEGACY_SCRIPTS_TO_EXAMINE/INSPECT_DECIDE/_Dev_Resources/LEGACY_SCRIPTS_TO_EXAMINE/INSPECT_DECIDE/scan_repo.py",
+      "has_dev_header_v1": true
+    },
+    {
+      "path": "/workspaces/Logos_System/_Dev_Resources/Dev_Scripts/LEGACY_SCRIPTS_TO_EXAMINE/INSPECT_DECIDE/_Dev_Resources/LEGACY_SCRIPTS_TO_EXAMINE/INSPECT_DECIDE/scp_local_diagnostic.py",
+      "has_dev_header_v1": true
+    },
+    {
+      "path": "/workspaces/Logos_System/_Dev_Resources/Dev_Scripts/LEGACY_SCRIPTS_TO_EXAMINE/INSPECT_DECIDE/_Dev_Resources/LEGACY_SCRIPTS_TO_EXAMINE/INSPECT_DECIDE/stress_sop_runtime.py",
+      "has_dev_header_v1": true
+    },
+    {
+      "path": "/workspaces/Logos_System/_Dev_Resources/Dev_Scripts/LEGACY_SCRIPTS_TO_EXAMINE/INSPECT_DECIDE/_Dev_Resources/LEGACY_SCRIPTS_TO_EXAMINE/INSPECT_DECIDE/test_arp_modes.py",
+      "has_dev_header_v1": true
+    },
+    {
+      "path": "/workspaces/Logos_System/_Dev_Resources/Dev_Scripts/LEGACY_SCRIPTS_TO_EXAMINE/INSPECT_DECIDE/_Dev_Resources/LEGACY_SCRIPTS_TO_EXAMINE/INSPECT_DECIDE/test_plan_revision_on_contradiction.py",
+      "has_dev_header_v1": true
+    },
+    {
+      "path": "/workspaces/Logos_System/_Dev_Resources/Dev_Scripts/LEGACY_SCRIPTS_TO_EXAMINE/INSPECT_DECIDE/_Dev_Resources/LEGACY_SCRIPTS_TO_EXAMINE/INSPECT_DECIDE/test_proved_grounding.py",
+      "has_dev_header_v1": true
+    },
+    {
+      "path": "/workspaces/Logos_System/_Dev_Resources/Dev_Scripts/LEGACY_SCRIPTS_TO_EXAMINE/INSPECT_DECIDE/_Dev_Resources/LEGACY_SCRIPTS_TO_EXAMINE/could_be_dev/capture_arp_traces_and_backfill.py",
+      "has_dev_header_v1": true
+    },
+    {
+      "path": "/workspaces/Logos_System/_Dev_Resources/Dev_Scripts/LEGACY_SCRIPTS_TO_EXAMINE/INSPECT_DECIDE/_Dev_Resources/LEGACY_SCRIPTS_TO_EXAMINE/could_be_dev/run_cycle_loop.py",
+      "has_dev_header_v1": true
+    },
+    {
+      "path": "/workspaces/Logos_System/_Dev_Resources/Dev_Scripts/LEGACY_SCRIPTS_TO_EXAMINE/INSPECT_DECIDE/_Dev_Resources/LEGACY_SCRIPTS_TO_EXAMINE/could_be_dev/run_simulation_stub.py",
+      "has_dev_header_v1": true
+    },
+    {
+      "path": "/workspaces/Logos_System/_Dev_Resources/Dev_Scripts/LEGACY_SCRIPTS_TO_EXAMINE/INSPECT_DECIDE/_Dev_Resources/LEGACY_SCRIPTS_TO_EXAMINE/could_be_dev/start_agent.py",
+      "has_dev_header_v1": true
+    },
+    {
+      "path": "/workspaces/Logos_System/_Dev_Resources/Dev_Scripts/LEGACY_SCRIPTS_TO_EXAMINE/INSPECT_DECIDE/_Dev_Resources/LEGACY_SCRIPTS_TO_EXAMINE/could_be_dev/system_mode_initializer.py",
+      "has_dev_header_v1": true
+    },
+    {
+      "path": "/workspaces/Logos_System/_Dev_Resources/Dev_Scripts/LEGACY_SCRIPTS_TO_EXAMINE/INSPECT_DECIDE/_Dev_Resources/LEGACY_SCRIPTS_TO_EXAMINE/could_be_dev/test_logos_agi_bootstrap_modes.py",
+      "has_dev_header_v1": true
+    },
+    {
+      "path": "/workspaces/Logos_System/_Dev_Resources/Dev_Scripts/LEGACY_SCRIPTS_TO_EXAMINE/INSPECT_DECIDE/_Dev_Resources/LEGACY_SCRIPTS_TO_EXAMINE/could_be_dev/test_logos_agi_pin_drift.py",
+      "has_dev_header_v1": true
+    },
+    {
+      "path": "/workspaces/Logos_System/_Dev_Resources/Dev_Scripts/LEGACY_SCRIPTS_TO_EXAMINE/INSPECT_DECIDE/_Dev_Resources/LEGACY_SCRIPTS_TO_EXAMINE/could_be_dev/test_logos_agi_replay_proposals.py",
+      "has_dev_header_v1": true
+    },
+    {
+      "path": "/workspaces/Logos_System/_Dev_Resources/Dev_Scripts/LEGACY_SCRIPTS_TO_EXAMINE/INSPECT_DECIDE/_Dev_Resources/LEGACY_SCRIPTS_TO_EXAMINE/could_be_dev/test_stub_beliefs_never_verified.py",
+      "has_dev_header_v1": true
+    }
+  ]
+}
