@@ -1,3 +1,19 @@
+# MODULE_META:
+#   module_id: SCM-019
+#   layer: SEMANTIC_AXIOM
+#   role: MONOLITH_RUNTIME_AXIOMS
+#   phase_origin: PHASE_AXIOMATIZATION
+#   description: Monolithic runtime axioms defined in Monolith_Runtime.py.
+#   contracts: []
+#   allowed_imports: []
+#   prohibited_behaviors: [IO, NETWORK, TIME, RANDOM]
+#   entrypoints: [run]
+#   callable_surface: INTERNAL
+#   state_mutation: NONE
+#   runtime_spine_binding: NONE
+#   depends_on_contexts: []
+#   invoked_by: [Canonical_System_Bootstrap_Pipeline]
+
 import json
 from pathlib import Path
 from importlib.machinery import SourceFileLoader
