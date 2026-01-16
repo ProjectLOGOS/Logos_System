@@ -2,312 +2,301 @@
   "arp_reasoning_engines": {
     "Abductive_Engine": {
       "_init__.py": {
-        "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-        "size": 0
+        "bytes": 0,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
       },
       "abductive_engine.py": {
-        "hash": "40cac2220b45bd13299f3992f69923e7da09e0bd280d81ebefb9364aa40d4633",
-        "size": 25
+        "bytes": 520,
+        "sha256": "9f1dad32742f7f41778b56e2f05117335d73c913acad3910a3285d8829fcd820"
       },
       "abductive_reasoning_engine.py": {
-        "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-        "size": 0
+        "bytes": 505,
+        "sha256": "12f964dbd141f1543e63b27d3d38403af3c94e24f47e2073212eaf5db35874a9"
       }
     },
     "Analogical_Engine": {
       "_init__.py": {
-        "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-        "size": 0
+        "bytes": 0,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
       },
       "analogical_engine.py": {
-        "hash": "40cac2220b45bd13299f3992f69923e7da09e0bd280d81ebefb9364aa40d4633",
-        "size": 25
+        "bytes": 523,
+        "sha256": "e855c55e64820e97468dc5a152443dcbd200cbb96cc0def88c5b4e67e531a472"
       },
       "analogical_reasoning_engine.py": {
-        "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-        "size": 0
+        "bytes": 508,
+        "sha256": "ef098a11c3763452f607c0f05113818647fab9535916ebfe343eac1f5bcb3e5f"
       }
     },
     "Bayesian_Engine": {
       "_init__.py": {
-        "hash": "f9382ab6615e83f430d4139d2468e962edf14a68738471c87155d34df82bc727",
-        "size": 469
+        "bytes": 469,
+        "sha256": "f9382ab6615e83f430d4139d2468e962edf14a68738471c87155d34df82bc727"
       },
       "bayes_update_real_time.py": {
-        "hash": "4e01047ed1a2b227f7f73c8e38e8b83b44bbdcc34c20868defc2f9f61cfadfd8",
-        "size": 4256
+        "bytes": 4771,
+        "sha256": "859cbfc8b970f84adb4b708d665a3ae331c3b56ead8296234987276807893904"
       },
       "bayesian_data_parser.py": {
-        "hash": "d115e2477cac99cb0fd6614f0cc8f88a91cd173d164b34a9b64238c86e1b9dcb",
-        "size": 7230
+        "bytes": 7731,
+        "sha256": "f1927d96796dc8c1fa6e191d9e5e4edc449001b2a7868aee0b6ec821548c173f"
       },
       "bayesian_engine.py": {
-        "hash": "40cac2220b45bd13299f3992f69923e7da09e0bd280d81ebefb9364aa40d4633",
-        "size": 25
+        "bytes": 517,
+        "sha256": "d83bb3523ee8fbfa721e20f147ab0a0545e6e76abdb1b41c69652848a73e2484"
       },
       "bayesian_inference.py": {
-        "hash": "2f670ffb199afa63fad5437952045b29d45dbc592dbe9cc43805cb39d45bc22f",
-        "size": 43273
+        "bytes": 43770,
+        "sha256": "9a6ee084fe43f1a47f6416dbcfbec820dbffb7078be61207d078c3a4f7336bd3"
       },
       "bayesian_inferencer.py": {
-        "hash": "2d862692175380a5d02c2adcc5d6ff05796012bf231ce6050b4d80257055a29a",
-        "size": 1629
+        "bytes": 2113,
+        "sha256": "22be78b8d415dd8183dfd72771c51017bd5a2454940c45eb088be50d3528c713"
       },
       "bayesian_interface.py": {
-        "hash": "2a6db2378f5bd5a009980d72cfaac40336c17a4c74c68d91f69ad9086923eeca",
-        "size": 7457
+        "bytes": 7954,
+        "sha256": "2e3dc1d7be36567f3b650901d2c306496e2746ea7d96c0aab9ed726b832db584"
       },
       "bayesian_ml.py": {
-        "hash": "90bac25e067e0f83049b7ec95f65b96e722ce90849f90a4e55134fa948222fff",
-        "size": 8045
+        "bytes": 8521,
+        "sha256": "cb5c6cff1550a6bfe5b731268d44b7a939087566496d6528d33a512e7bdc2202"
       },
       "bayesian_nexus.py": {
-        "hash": "ed14d6079f1f14186a54df5956219cc24c58d6bf1e3ba38cd0c8547524cd22c3",
-        "size": 3592
+        "bytes": 4077,
+        "sha256": "a0b9333eaf2a79b0ed60e94269ec8bf90b47457e2ffee33b5dcc9ab862e037ee"
       },
       "bayesian_recursion.py": {
-        "hash": "0dfa8c3664d00782747ba4b19685ccd2b7bc9b00b2d6b121fbb07b1818f422f5",
-        "size": 3203
+        "bytes": 3700,
+        "sha256": "149e7cafad876e39822f66fe0be8060beeb5af2febc1d8e505ff85646c61a1bd"
       },
       "bayesian_updates.py": {
-        "hash": "60001dc4673c3de31c324f2a37f51ea96a7906a38cca012f07aab211d44d171d",
-        "size": 7415
+        "bytes": 7904,
+        "sha256": "66d9423e00e81d0628c290a659c4d94919f6d310047329e8c6508c8feb6af6d6"
       },
       "hierarchical_bayes_network.py": {
-        "hash": "9348f73a51fd28555d5ec43dce36ffe80e0b660680810687d88eb490747e669b",
-        "size": 1517
+        "bytes": 2036,
+        "sha256": "3037bda1131565aeb0976590d12ade084ae6a217a296de783767d29c715c7cff"
       }
     },
     "Category_Theoretic_Engine": {
       "_init__.py": {
-        "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-        "size": 0
+        "bytes": 0,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
       },
       "category_theoretic_engine.py": {
-        "hash": "40cac2220b45bd13299f3992f69923e7da09e0bd280d81ebefb9364aa40d4633",
-        "size": 25
+        "bytes": 547,
+        "sha256": "0f3c032cc511dfbf06398e0132ebf05f7302e6903b5a4674da17b9c6e556137a"
       },
       "category_theoretic_reasoning_engine.py": {
-        "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-        "size": 0
+        "bytes": 532,
+        "sha256": "06c73ff253b985b9c45d05b62b09840e5a21dd250971321205d3e823037f5afe"
       }
     },
     "Counterfactual_Engine": {
       "_init__.py": {
-        "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-        "size": 0
+        "bytes": 0,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
       },
       "counterfactual_engine.py": {
-        "hash": "40cac2220b45bd13299f3992f69923e7da09e0bd280d81ebefb9364aa40d4633",
-        "size": 25
+        "bytes": 535,
+        "sha256": "92d6f6a4ea91d4f4ef64d0a626968f42146ffd6941bd463863d2193225e2f815"
       },
       "counterfactual_reasoning_engine.py": {
-        "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-        "size": 0
+        "bytes": 520,
+        "sha256": "faef65d13086b669324881b48e3c8171f2e97e161f773ca1f0cd755be453ce4e"
       }
     },
     "Deductive_Engine": {
       "_init__.py": {
-        "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-        "size": 0
+        "bytes": 0,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
       },
       "deductive_engine.py": {
-        "hash": "40cac2220b45bd13299f3992f69923e7da09e0bd280d81ebefb9364aa40d4633",
-        "size": 25
+        "bytes": 520,
+        "sha256": "299286f835bc88f703293fa3e1a1bf1396bf6e29a6cbbd243ae6b742afe4870d"
       },
       "deductive_reasoning_engine.py": {
-        "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-        "size": 0
+        "bytes": 505,
+        "sha256": "ecf2bf7f1cb8b5cf31f75ff7a3dab3b0f01a0778783653bb26bbabf87fbf3b27"
       }
     },
     "Ethical_Engine": {
       "_init__.py": {
-        "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-        "size": 0
+        "bytes": 0,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
       },
       "ethical_engine.py": {
-        "hash": "40cac2220b45bd13299f3992f69923e7da09e0bd280d81ebefb9364aa40d4633",
-        "size": 25
+        "bytes": 514,
+        "sha256": "cba8693892b4f4c9873881c8d70a4207e83742ae5dd3abebb51045042d5ec147"
       },
       "ethical_reasoning_engine.py": {
-        "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-        "size": 0
+        "bytes": 499,
+        "sha256": "35540b6b4a2ca7c92669f9769bd6936d78bc6d11c2ac26084ec7714e2b5c5e7e"
       }
     },
     "Game_Theoretic_Engine": {
       "_init__.py": {
-        "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-        "size": 0
+        "bytes": 0,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
       },
       "game_theoretic_engine.py": {
-        "hash": "40cac2220b45bd13299f3992f69923e7da09e0bd280d81ebefb9364aa40d4633",
-        "size": 25
+        "bytes": 535,
+        "sha256": "2591e3a1bde79deaf2ae9c13d1cae560d91ebff308d7018e53267c9a4ad057c6"
       },
       "game_theoretic_reasoning_engine.py": {
-        "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-        "size": 0
+        "bytes": 520,
+        "sha256": "fddeba430bb840ade4729c40dc8995899145cf3bcb106da32bd5012ca526548d"
       }
     },
     "Heuristic_Engine": {
       "_init__.py": {
-        "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-        "size": 0
+        "bytes": 0,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
       },
       "heuristic_engine.py": {
-        "hash": "40cac2220b45bd13299f3992f69923e7da09e0bd280d81ebefb9364aa40d4633",
-        "size": 25
+        "bytes": 520,
+        "sha256": "eaaa2501272d731232248ed94d96476161ce82991af39d321f23ea468f801c6f"
       },
       "heuristic_reasoning_engine.py": {
-        "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-        "size": 0
+        "bytes": 505,
+        "sha256": "3086c36e4d3de676bdd717bddbba7712878fa43bef701287c1ffd727c82ed203"
       }
     },
     "Inductive_Engine": {
       "_init__.py": {
-        "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-        "size": 0
+        "bytes": 0,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
       },
       "inductive_engine.py": {
-        "hash": "40cac2220b45bd13299f3992f69923e7da09e0bd280d81ebefb9364aa40d4633",
-        "size": 25
+        "bytes": 520,
+        "sha256": "cd3700fd5bd5437142459ba7b9f4758609b6483b90c15976c4ff13a375c0eec2"
       },
       "inductive_reasoning_engine.py": {
-        "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-        "size": 0
+        "bytes": 505,
+        "sha256": "b3685945aae89ec7c130baccd042056111458ee03d6bc9b023b6067a34efdd19"
       }
     },
     "Meta_Engine": {
       "_init__.py": {
-        "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-        "size": 0
+        "bytes": 0,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
       },
       "meta_engine.py": {
-        "hash": "40cac2220b45bd13299f3992f69923e7da09e0bd280d81ebefb9364aa40d4633",
-        "size": 25
+        "bytes": 505,
+        "sha256": "a5cb6c209e4af65be08aada9af0548526164aa9e090c172513073fe5134cdc7d"
       },
       "meta_reasoning_engine.py": {
-        "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-        "size": 0
+        "bytes": 490,
+        "sha256": "32677ee3e3e2c393b552f3fd9cdc31f125cd5aba760ac65f298f2b65c98a66e6"
       }
     },
     "Modal_Engine": {
       "_init__.py": {
-        "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-        "size": 0
+        "bytes": 0,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
       },
       "modal_engine.py": {
-        "hash": "40cac2220b45bd13299f3992f69923e7da09e0bd280d81ebefb9364aa40d4633",
-        "size": 25
+        "bytes": 508,
+        "sha256": "afa85b98432bc2041420f46d8c09b280c837c9db11eae0944aea83784e26a2d2"
       },
       "modal_reasoning_engine.py": {
-        "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-        "size": 0
+        "bytes": 493,
+        "sha256": "51dc483dcdb2d071cebdfa39ca9d7a814dfd5a810849400dd3cc8114ae74c419"
       }
     },
     "Optimization_Engine": {
       "_init__.py": {
-        "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-        "size": 0
+        "bytes": 0,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
       },
       "optimization_engine.py": {
-        "hash": "40cac2220b45bd13299f3992f69923e7da09e0bd280d81ebefb9364aa40d4633",
-        "size": 25
+        "bytes": 529,
+        "sha256": "8ced5afb8e35134bb8cd1a272f3875686a61265d9a0439a1966c734e712c9fad"
       },
       "optimization_reasoning_engine.py": {
-        "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-        "size": 0
+        "bytes": 514,
+        "sha256": "525edb611188592c7669778a820f97b4e40f49691156a33713a223264178e2e4"
       }
     },
     "PXL_Engine": {
       "coherence.py": {
-        "hash": "18af9da7c7ac4d874dda814ea4173ceca65cca450e7fa954fefdee172e6bf9d1",
-        "size": 6388
+        "bytes": 6856,
+        "sha256": "8cdb86e6fdc3ffba12f7dab318af4c56e2775641baf67b640961404e70621b88"
       },
       "coherence_formalism.py": {
-        "hash": "ea715076810c97b92ac23c4a28990d230f4c3cd99d601f30978d0fc6af9b5ddc",
-        "size": 28427
+        "bytes": 28925,
+        "sha256": "25a5396ae5c4de8fa35156902de496844734004b862bf5a8393d83512b3fa44b"
       },
       "pxl_engine.py": {
-        "hash": "40cac2220b45bd13299f3992f69923e7da09e0bd280d81ebefb9364aa40d4633",
-        "size": 25
+        "bytes": 492,
+        "sha256": "39a3e01fd6b13589e8544ccb46c2e76f527c6e57e99dcc00a5bc07d8dd15d0cb"
       }
     },
     "Temporal_Engine": {
       "_init__.py": {
-        "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-        "size": 0
+        "bytes": 0,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
       },
       "temporal_engine.py": {
-        "hash": "40cac2220b45bd13299f3992f69923e7da09e0bd280d81ebefb9364aa40d4633",
-        "size": 25
+        "bytes": 517,
+        "sha256": "f797312f8c2fbe216e33ebeb4098932ae098002117e7fd02f7a992179bb23e8c"
       },
       "temporal_reasoning_engine.py": {
-        "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-        "size": 0
+        "bytes": 502,
+        "sha256": "82024f3d82f1416e9b81314c7baf480d270b8244e99f1078e45fbbb529ebbc87"
       }
     },
     "Topological_Engine": {
       "_init__.py": {
-        "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-        "size": 0
+        "bytes": 0,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
       },
       "topological_engine.py": {
-        "hash": "40cac2220b45bd13299f3992f69923e7da09e0bd280d81ebefb9364aa40d4633",
-        "size": 25
+        "bytes": 526,
+        "sha256": "353cfc19a0c488f61e45888216d222af8b39b9494683e5fc649ebc029ce8037f"
       },
       "topological_reasoning_engine.py": {
-        "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-        "size": 0
+        "bytes": 511,
+        "sha256": "44686771be58312554833154f3f0d25280926f4fc03b696fce107006338ae1a5"
       }
     }
   },
-  "errors": [
-    "ARP_Nexus should contain exactly one orchestrator, found 6",
-    "Missing SOP_Nexus directory"
-  ],
+  "errors": [],
   "protocol_nexus": {
     "ARP": {
-      "_init__.py": {
-        "hash": "29ea689f969f8a18df56c6e6484f3d1535e49b2d3c59d5514cee108b200846be",
-        "size": 448
-      },
-      "arp_nexus.py": {
-        "hash": "e7ae9ec64d22a245d84c15e0576b9c3f31e036efe10a002f6c285aa5cf5ff162",
-        "size": 24851
-      },
       "arp_nexus_orchestrator.py": {
-        "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-        "size": 0
-      },
-      "example_usage.py": {
-        "hash": "2f7d3cde9793cf21498f16ee290119f217eaaa3ad21305ed47de23ff9e020f03",
-        "size": 6784
-      },
-      "integration_test.py": {
-        "hash": "64e40796d6c0679e86f695d58a82c14ea56b0c1a20caf0b871677240c24e491f",
-        "size": 9630
-      },
-      "test_arp_nexus.py": {
-        "hash": "266f3e869624d88bd2ff66da7cdeecd51ffbef1244066d4aa75f51bf403e3786",
-        "size": 6947
+        "bytes": 536,
+        "sha256": "b571d0343ebd175cd91e32ecddf8f1503eef6706aa088977a59f9ac72f2b219a"
       }
     },
     "CSP": {
       "csp_nexus_orchestrator.py": {
-        "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-        "size": 0
+        "bytes": 530,
+        "sha256": "5900e5e8d404ced8ccec6a5996291daa3b5f5292be7f8ca0d1414e0b9ae07d17"
+      }
+    },
+    "LOGOS": {
+      "logos_protocol_nexus.py": {
+        "bytes": 0,
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
       }
     },
     "MTP": {
       "mtp_nexus_orchestrator.py": {
-        "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-        "size": 0
+        "bytes": 538,
+        "sha256": "2d6bffccea3ad9b0eab49cba2257d5647972319adf3f34c394be98e57c25a6f7"
       }
     },
     "SCP": {
       "scp_nexus_orchestrator.py": {
-        "hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-        "size": 0
+        "bytes": 538,
+        "sha256": "51c01c2fcce8dc3b75e0da7216c7b03451841705bcb9cae642464d4f223ddba2"
+      }
+    },
+    "SOP": {
+      "sop_nexus_orchestrator.py": {
+        "bytes": 567,
+        "sha256": "22939d20ace6f3386006dc352a08938d8cf35213f18df9c6fc48be08d1d6738a"
       }
     }
   }

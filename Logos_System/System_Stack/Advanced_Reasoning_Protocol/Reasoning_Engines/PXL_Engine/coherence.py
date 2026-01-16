@@ -1,3 +1,19 @@
+# MODULE_META:
+#   module_id: COHERENCE
+#   layer: APPLICATION_FUNCTION
+#   role: Coherence module
+#   phase_origin: PHASE_SCOPING_STUB
+#   description: Stub metadata for Coherence module (header placeholder).
+#   contracts: []
+#   allowed_imports: []
+#   prohibited_behaviors: [IO, NETWORK, TIME, RANDOM]
+#   entrypoints: [run]
+#   callable_surface: APPLICATION
+#   state_mutation: NONE
+#   runtime_spine_binding: NONE
+#   depends_on_contexts: []
+#   invoked_by: []
+
 #!/usr/bin/env python3
 """
 Coherence Engine - Logical Consistency Checking

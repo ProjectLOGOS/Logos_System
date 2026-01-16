@@ -1,3 +1,19 @@
+# MODULE_META:
+#   module_id: COHERENCE_FORMALISM
+#   layer: APPLICATION_FUNCTION
+#   role: Coherence formalism module
+#   phase_origin: PHASE_SCOPING_STUB
+#   description: Stub metadata for Coherence formalism module (header placeholder).
+#   contracts: []
+#   allowed_imports: []
+#   prohibited_behaviors: [IO, NETWORK, TIME, RANDOM]
+#   entrypoints: [run]
+#   callable_surface: APPLICATION
+#   state_mutation: NONE
+#   runtime_spine_binding: NONE
+#   depends_on_contexts: []
+#   invoked_by: []
+
 # LOGOS AGI - Coherence Formalism
 # Modal coherence validation and bijection systems
 # Integrated from enhanced_codebase_integrations.py

@@ -1,3 +1,19 @@
+# MODULE_META:
+#   module_id: BAYESIAN_DATA_PARSER
+#   layer: APPLICATION_FUNCTION
+#   role: Bayesian engine data parser
+#   phase_origin: PHASE_SCOPING_STUB
+#   description: Stub metadata for Bayesian engine data parser (header placeholder).
+#   contracts: []
+#   allowed_imports: []
+#   prohibited_behaviors: [IO, NETWORK, TIME, RANDOM]
+#   entrypoints: [run]
+#   callable_surface: APPLICATION
+#   state_mutation: NONE
+#   runtime_spine_binding: NONE
+#   depends_on_contexts: []
+#   invoked_by: []
+
 """
 bayesian_data_parser.py
 

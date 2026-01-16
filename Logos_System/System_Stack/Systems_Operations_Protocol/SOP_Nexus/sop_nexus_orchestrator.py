@@ -1,9 +1,9 @@
 # MODULE_META:
-#   module_id: SCP_NEXUS_ORCHESTRATOR
+#   module_id: SOP_NEXUS_ORCHESTRATOR
 #   layer: ORCHESTRATION
-#   role: Synthetic Cognition Protocol nexus orchestrator
+#   role: Systems Operations Protocol nexus orchestrator
 #   phase_origin: PHASE_SCOPING_STUB
-#   description: Stub metadata for Synthetic Cognition Protocol nexus orchestrator (header placeholder).
+#   description: Stub metadata for Systems Operations Protocol nexus orchestrator (header placeholder).
 #   contracts: []
 #   allowed_imports: []
 #   prohibited_behaviors: [IO, NETWORK, TIME, RANDOM]
@@ -14,3 +14,4 @@
 #   depends_on_contexts: []
 #   invoked_by: []
 
+# STUB: SOP Nexus Orchestrator
