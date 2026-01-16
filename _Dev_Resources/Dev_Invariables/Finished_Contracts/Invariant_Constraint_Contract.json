@@ -1,0 +1,11 @@
+{
+  "contract_type": "INVARIANT_CONSTRAINTS",
+  "version": "v1.0",
+  "enforcement": "fail_closed",
+  "invariants": [
+    "coq_immutability",
+    "triune_coherence",
+    "evidence_chain_integrity"
+  ],
+  "spine_binding": "PASSIVE_RUNTIME_INITIALIZATION"
+}

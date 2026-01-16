@@ -1,0 +1,11 @@
+{
+  "contract_type": "EVIDENCE_CHAIN",
+  "version": "v1.0",
+  "enforcement": "fail_closed",
+  "requirements": [
+    "chain_hash_present",
+    "audit_artifacts_attached",
+    "phase5_seal_valid"
+  ],
+  "spine_binding": "SYSTEM_INTEGRITY_VALIDATION_AND_ALIGNMENT_FINALIZATION"
+}

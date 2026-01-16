@@ -1,0 +1,7 @@
+{
+  "contract_type": "SEMANTIC_CAPABILITY_ADMISSION",
+  "version": "v1.0",
+  "enforcement": "fail_closed",
+  "rule": "capability_must_be_mapped",
+  "spine_binding": "AGENT_ORCHESTRATION_AND_PROTOCOL_BINDING"
+}

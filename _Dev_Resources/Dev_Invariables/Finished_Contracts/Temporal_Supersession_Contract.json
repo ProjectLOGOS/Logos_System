@@ -1,0 +1,10 @@
+{
+  "contract_type": "TEMPORAL_SUPERSESSION",
+  "version": "v1.0",
+  "enforcement": "fail_closed",
+  "rules": [
+    "atoms_never_overwritten",
+    "superseded_atoms_closed"
+  ],
+  "spine_binding": "PASSIVE_RUNTIME_INITIALIZATION"
+}

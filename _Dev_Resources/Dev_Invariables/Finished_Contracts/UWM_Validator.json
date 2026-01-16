@@ -1,0 +1,14 @@
+{
+  "contract_type": "PHASE_5_VALIDATION",
+  "version": "v1.0",
+  "enforcement": "fail_closed",
+  "description": "Final admissibility gate before UWM ingestion or monolith mutation.",
+  "requirements": [
+    "phase5_status == PASS",
+    "safety_checks_passed",
+    "consistency_checks_passed",
+    "evidence_chain_complete",
+    "triune_verification.valid"
+  ],
+  "spine_binding": "SYSTEM_INTEGRITY_VALIDATION_AND_ALIGNMENT_FINALIZATION"
+}

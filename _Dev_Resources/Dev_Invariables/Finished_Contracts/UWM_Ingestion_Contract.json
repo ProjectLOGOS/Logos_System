@@ -1,0 +1,11 @@
+{
+  "contract_type": "UWM_INGESTION",
+  "version": "v1.0",
+  "enforcement": "fail_closed",
+  "requirements": [
+    "phase5_passed",
+    "constraints_passed",
+    "evidence_chain_valid"
+  ],
+  "spine_binding": "PASSIVE_RUNTIME_INITIALIZATION"
+}

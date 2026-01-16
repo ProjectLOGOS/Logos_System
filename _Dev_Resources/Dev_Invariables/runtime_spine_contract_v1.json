@@ -39,6 +39,9 @@
       "constraints": [
         "Agents receive only their bound protocol",
         "No external binding"
+      ],
+      "governance_contracts": [
+        "Semantic_Capability_Admission_Contract"
       ]
     },
     {
@@ -52,6 +55,11 @@
       "constraints": [
         "No external execution allowed",
         "Background only until user input"
+      ],
+      "governance_contracts": [
+        "Invariant_Constraint_Contract",
+        "Temporal_Supersession_Contract",
+        "UWM_Ingestion_Contract"
       ]
     },
     {
@@ -64,6 +72,10 @@
       ],
       "constraints": [
         "Full chain-of-trust check before progressing"
+      ],
+      "governance_contracts": [
+        "Phase_5_Validation_Contract",
+        "Evidence_Chain_Contract"
       ]
     },
     {
@@ -90,6 +102,9 @@
       "constraints": [
         "No passive execution during P1",
         "Real-time processing enforced"
+      ],
+      "governance_contracts": [
+        "Read_Only_Agent_Interface_Contract"
       ]
     },
     {

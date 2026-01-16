@@ -1,0 +1,10 @@
+{
+  "contract_type": "READ_ONLY_AGENT_INTERFACE",
+  "version": "v1.0",
+  "enforcement": "fail_closed",
+  "rules": [
+    "agents_may_not_mutate_uwm",
+    "agents_must_propose_via_pipeline"
+  ],
+  "spine_binding": "ACTIVE_INTERACTION_PRIORITY_SWITCH"
+}

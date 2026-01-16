@@ -69,3 +69,11 @@ Determines and enforces runtime execution modes based on policy, context, and te
 - **Pinned:** Yes (mutation requires formal proof)
 - **Upstream of:** Trinitarian_Logic_Core, Trinitarian_Alignment_Core, Global_Bijective_Recursion_Core
 - **Description:** Establishes that absolute nothingness is impossible and that a necessary existent substrate grounds all contingent reality, providing the non-brute modal anchor for PXL.
+
+- Phase_5_Validation_Contract — Final admissibility gate
+- Invariant_Constraint_Contract — Non-negotiable runtime invariants
+- Evidence_Chain_Contract — Audit and provenance anchoring
+- Read_Only_Agent_Interface_Contract — Agent write prohibition
+- Temporal_Supersession_Contract — Time-safe mutation rules
+- Semantic_Capability_Admission_Contract — Capability gating
+- UWM_Ingestion_Contract — World model mutation gate

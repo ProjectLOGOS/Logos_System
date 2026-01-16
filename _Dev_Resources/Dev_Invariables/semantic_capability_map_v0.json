@@ -80,6 +80,55 @@
         "UNMAPPED"
       ],
       "monolith_admission": "PASS"
+    },
+    "Phase5_Validation_Gate": {
+      "semantic_role": "Final runtime admissibility validation gate",
+      "spine_binding": [
+        "SYSTEM_INTEGRITY_VALIDATION_AND_ALIGNMENT_FINALIZATION"
+      ],
+      "monolith_admission": "PASS"
+    },
+    "Runtime_Invariant_Enforcer": {
+      "semantic_role": "Non-negotiable invariant enforcement layer",
+      "spine_binding": [
+        "PASSIVE_RUNTIME_INITIALIZATION"
+      ],
+      "monolith_admission": "PASS"
+    },
+    "Evidence_Chain_Verifier": {
+      "semantic_role": "Audit and provenance verification layer",
+      "spine_binding": [
+        "SYSTEM_INTEGRITY_VALIDATION_AND_ALIGNMENT_FINALIZATION"
+      ],
+      "monolith_admission": "PASS"
+    },
+    "Agent_Read_Only_Guard": {
+      "semantic_role": "Prevents agent-level world mutation",
+      "spine_binding": [
+        "ACTIVE_INTERACTION_PRIORITY_SWITCH"
+      ],
+      "monolith_admission": "PASS"
+    },
+    "Temporal_Supersession_Manager": {
+      "semantic_role": "Time-safe supersession and replay consistency manager",
+      "spine_binding": [
+        "PASSIVE_RUNTIME_INITIALIZATION"
+      ],
+      "monolith_admission": "PASS"
+    },
+    "Capability_Admission_Gate": {
+      "semantic_role": "Semantic capability admission filter",
+      "spine_binding": [
+        "AGENT_ORCHESTRATION_AND_PROTOCOL_BINDING"
+      ],
+      "monolith_admission": "PASS"
+    },
+    "UWM_Ingestion_Gate": {
+      "semantic_role": "World model mutation gate",
+      "spine_binding": [
+        "PASSIVE_RUNTIME_INITIALIZATION"
+      ],
+      "monolith_admission": "PASS"
     }
   },
   "appendable": true,
