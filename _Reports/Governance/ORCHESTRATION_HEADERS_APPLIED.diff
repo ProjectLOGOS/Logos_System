@@ -1,0 +1,48 @@
+diff --git a/_Dev_Resources/IN_DEV_BLUEPRINTS/MONOLITH/PYTHON_MODULES/ORCHESTRATION_AND_ENTRYPOINTS/Canonical_System_Bootstrap_Pipeline.py b/_Dev_Resources/IN_DEV_BLUEPRINTS/MONOLITH/PYTHON_MODULES/ORCHESTRATION_AND_ENTRYPOINTS/Canonical_System_Bootstrap_Pipeline.py
+index 5888c6f..b1f9daf 100644
+--- a/_Dev_Resources/IN_DEV_BLUEPRINTS/MONOLITH/PYTHON_MODULES/ORCHESTRATION_AND_ENTRYPOINTS/Canonical_System_Bootstrap_Pipeline.py
++++ b/_Dev_Resources/IN_DEV_BLUEPRINTS/MONOLITH/PYTHON_MODULES/ORCHESTRATION_AND_ENTRYPOINTS/Canonical_System_Bootstrap_Pipeline.py
+@@ -1,3 +1,19 @@
++# MODULE_META:
++#   module_id: ORX-001
++#   layer: ORCHESTRATION
++#   role: Canonical system bootstrap and early runtime gating pipeline
++#   phase_origin: PHASE_SYSTEM_BOOTSTRAP
++#   description: Orchestration pipeline defined in Canonical_System_Bootstrap_Pipeline.py.
++#   contracts: []
++#   allowed_imports: [SEMANTIC_AXIOMS, SEMANTIC_CONTEXTS]
++#   prohibited_behaviors: [NETWORK, RANDOM]
++#   entrypoints: [run]
++#   callable_surface: INTERNAL
++#   state_mutation: GLOBAL
++#   runtime_spine_binding: SYSTEM_ENTRY_PRE_AGENT
++#   depends_on_contexts: []
++#   invoked_by: [Logos_System_Entry_Point]
++
+ """
+ Canonical System Bootstrap Pipeline
+ 
+diff --git a/_Dev_Resources/IN_DEV_BLUEPRINTS/MONOLITH/PYTHON_MODULES/ORCHESTRATION_AND_ENTRYPOINTS/Logos_System_Entry_Point.py b/_Dev_Resources/IN_DEV_BLUEPRINTS/MONOLITH/PYTHON_MODULES/ORCHESTRATION_AND_ENTRYPOINTS/Logos_System_Entry_Point.py
+index 984d546..0fda8b3 100644
+--- a/_Dev_Resources/IN_DEV_BLUEPRINTS/MONOLITH/PYTHON_MODULES/ORCHESTRATION_AND_ENTRYPOINTS/Logos_System_Entry_Point.py
++++ b/_Dev_Resources/IN_DEV_BLUEPRINTS/MONOLITH/PYTHON_MODULES/ORCHESTRATION_AND_ENTRYPOINTS/Logos_System_Entry_Point.py
+@@ -1,3 +1,19 @@
++# MODULE_META:
++#   module_id: ORX-002
++#   layer: ORCHESTRATION
++#   role: Primary external system entry point and process initializer
++#   phase_origin: PHASE_SYSTEM_ENTRY
++#   description: Orchestration entry defined in Logos_System_Entry_Point.py.
++#   contracts: []
++#   allowed_imports: [SEMANTIC_AXIOMS, SEMANTIC_CONTEXTS, ORCHESTRATION]
++#   prohibited_behaviors: [RANDOM]
++#   entrypoints: [main]
++#   callable_surface: APPLICATION
++#   state_mutation: GLOBAL
++#   runtime_spine_binding: SYSTEM_ENTRY
++#   depends_on_contexts: []
++#   invoked_by: [OS_CLI]
++
+ """
+ LOGOS System Entry Point
+ 
