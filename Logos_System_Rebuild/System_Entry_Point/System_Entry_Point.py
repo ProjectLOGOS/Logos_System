@@ -1,26 +1,38 @@
 """
-================================================================================
-LOGOS SYSTEM — GOVERNED REWRITE ARTIFACT
+===============================================================================
+FILE: System_Entry_Point.py
+PATH: Logos_System_Rebuild/System_Entry_Point/System_Entry_Point.py
+PROJECT: LOGOS System
+PHASE: Phase-D
+STEP: 2.1 — System Entry Point
+STATUS: GOVERNED — NON-BYPASSABLE
 
-Component Name: System_Entry_Point
-Phase: Phase-D (Rewrite)
-Canonical Role: Runtime Bootstrap Gate (Non-Executing)
-Protocol Context: SOP (System Orchestration Protocol)
+CLASSIFICATION:
+- Runtime Bootstrap Gate
+- Non-Executing Authorization Boundary
 
-Governance Invariants Enforced:
-- Fail-Closed Existence (SCP)
-- No Implicit Execution
-- No Authority Assumption
-- No Logic Ownership
+GOVERNANCE:
+- System_Entry_Point_Execution_Contract.md
+- Runtime_Module_Header_Contract.md
 
-Rewrite Lineage:
-- Rewritten from legacy system entry logic
-- No legacy code imported or reused
+ROLE:
+Provides the canonical START_LOGOS() handoff with no side effects or
+implicit execution.
 
-Execution Notice:
-- Importing this module MUST produce no side effects.
-- Execution occurs ONLY through explicit invocation of START_LOGOS().
-================================================================================
+ORDERING GUARANTEE:
+Executes before Runtime Spine / Lock-and-Key and any protocol or agent
+activation.
+
+PROHIBITIONS:
+- No implicit execution on import
+- No protocol activation
+- No agent creation
+- No external side effects
+- No degraded modes
+
+FAILURE SEMANTICS:
+Any invariant failure raises StartupHalt and halts progression.
+===============================================================================
 """
 
 from typing import Optional, Literal, Dict, Any

@@ -1,0 +1,42 @@
+{
+  "schema_version": "1.0",
+  "applies_to": "all_python_modules_including_init",
+  "required_fields": [
+    "FILE",
+    "PATH",
+    "PROJECT",
+    "PHASE",
+    "STEP",
+    "STATUS",
+    "CLASSIFICATION",
+    "GOVERNANCE",
+    "ROLE",
+    "ORDERING_GUARANTEE",
+    "PROHIBITIONS",
+    "FAILURE_SEMANTICS"
+  ],
+  "field_constraints": {
+    "PROJECT": {
+      "const": "LOGOS System"
+    },
+    "STATUS": {
+      "enum": ["GOVERNED", "GOVERNED — NON-BYPASSABLE"]
+    },
+    "PHASE": {
+      "pattern": "^Phase-[A-Z]$"
+    },
+    "PATH": {
+      "must_match_filesystem": true
+    },
+    "GOVERNANCE": {
+      "type": "array",
+      "min_items": 1
+    }
+  },
+  "enforcement_rules": {
+    "missing_header": "FAIL",
+    "missing_field": "FAIL",
+    "path_mismatch": "FAIL",
+    "schema_mismatch": "FAIL"
+  }
+}
