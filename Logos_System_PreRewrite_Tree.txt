@@ -1,0 +1,2644 @@
+Logos_System
+├── docker-compose.yml
+├── Documentation
+│   ├── Header_Catalog_Module.json
+│   ├── Protocol_Context_Registry.json
+│   ├── PXL_PROOFS_README.md
+│   ├── Phase_Contextual_Embedding_And_Distribution.md
+│   ├── SECURITY.md
+│   ├── Phase_Orchestration_And_Entrypoint.md
+│   ├── CONTRIBUTING.md
+│   ├── Abbreviations.md
+│   ├── Canonical_Contracts_Index.md
+│   ├── Devlopment_Rules.md
+│   ├── README.md
+│   ├── Canonical_Orchestration_Pipeline.md
+│   ├── Development_Rules.md
+│   ├── LOCK_AND_KEY.md
+├── System_Stack
+│   ├── Synthetic_Cognition_Protocol
+│   │   ├── consciousness
+│   │   │   ├── reflexive_evaluator.py
+│   │   │   ├── simulated_consciousness_runtime.py
+│   │   │   ├── emergence_core.py
+│   │   │   ├── agentic_consciousness_core.py
+│   │   │   ├── logos_core_foundations.py
+│   │   │   ├── agent_identity.json
+│   │   │   ├── consciousness_safety_adapter.py
+│   │   │   ├── fractal_consciousness_core.py
+│   │   │   ├── __pycache__
+│   │   │   │   ├── consciousness_safety_adapter.cpython-312.pyc
+│   │   │   │   ├── reflexive_evaluator.cpython-312.pyc
+│   │   │   │   ├── logos_core_foundations.cpython-312.pyc
+│   │   │   │   ├── __init__.cpython-312.pyc
+│   │   │   │   ├── simulated_consciousness_runtime.cpython-312.pyc
+│   │   │   │   ├── emergence_core.cpython-312.pyc
+│   │   │   │   ├── agentic_consciousness_core.cpython-312.pyc
+│   │   │   │   ├── fractal_consciousness_core.cpython-312.pyc
+│   │   │   ├── __init__.py
+│   │   ├── __pycache__
+│   │   │   ├── __init__.cpython-312.pyc
+│   │   ├── MVS_System
+│   │   │   ├── pxl_fractal_orbital_analysis.json
+│   │   │   ├── dual_bijection_demo.py
+│   │   │   ├── pxl_modal_fractal_boundary_analysis.png
+│   │   │   ├── data_c_values
+│   │   │   │   ├── config_ontological_properties.json
+│   │   │   │   ├── first_order_props.txt
+│   │   │   │   ├── __pycache__
+│   │   │   │   │   ├── data_structures.cpython-312.pyc
+│   │   │   │   │   ├── __init__.cpython-312.pyc
+│   │   │   │   ├── second_order_props.txt
+│   │   │   │   ├── onto_prop_web.json
+│   │   │   │   ├── __init__.py
+│   │   │   │   ├── config_ontological_connections.json
+│   │   │   │   ├── data_structures.py
+│   │   │   │   ├── ontoprop_iel_pairing.json
+│   │   │   ├── advanced_fractal_analyzer.py
+│   │   │   ├── modal_vector_sync.py
+│   │   │   ├── dual_bijection_agent_experiment.json
+│   │   │   ├── fractal_orbital
+│   │   │   │   ├── fractal_mvs.py
+│   │   │   │   ├── orbital_prediction_log_cli.py
+│   │   │   │   ├── fractal_navigator.py
+│   │   │   │   ├── fractal_orbital_node_class.py
+│   │   │   │   ├── __pycache__
+│   │   │   │   │   ├── fractal_navigator.cpython-312.pyc
+│   │   │   │   │   ├── fractal_mvs.cpython-312.pyc
+│   │   │   │   │   ├── __init__.cpython-312.pyc
+│   │   │   │   │   ├── fractal_orbital_node_class.cpython-312.pyc
+│   │   │   │   │   ├── symbolic_math.cpython-312.pyc
+│   │   │   │   │   ├── integration_harmonizer.cpython-312.pyc
+│   │   │   │   │   ├── orbital_prediction_log_cli.cpython-312.pyc
+│   │   │   │   ├── integration_harmonizer.py
+│   │   │   │   ├── symbolic_math.py
+│   │   │   │   ├── __init__.py
+│   │   │   ├── dual_bijection_coherence_analysis.py
+│   │   │   ├── fractal_mvs.py
+│   │   │   ├── dual_bijection_coherence_analysis.json
+│   │   │   ├── consciousness_emergence_analysis.json
+│   │   │   ├── test_dual_bijection.py
+│   │   │   ├── mvs_calculators
+│   │   │   │   ├── bijective_mapping.py
+│   │   │   │   ├── etgc_validator.py
+│   │   │   │   ├── fractal_mvs.py
+│   │   │   │   ├── validation_schemas_system.py
+│   │   │   │   ├── ontological_validator.py
+│   │   │   │   ├── __pycache__
+│   │   │   │   │   ├── bijective_mapping.cpython-312.pyc
+│   │   │   │   │   ├── fractal_mvs.cpython-312.pyc
+│   │   │   │   │   ├── ontological_validator.cpython-312.pyc
+│   │   │   │   │   ├── etgc_validator.cpython-312.pyc
+│   │   │   │   │   ├── __init__.cpython-312.pyc
+│   │   │   │   │   ├── ontology_inducer.cpython-312.pyc
+│   │   │   │   │   ├── validation_schemas_system.cpython-312.pyc
+│   │   │   │   ├── ontology_inducer.py
+│   │   │   │   ├── __init__.py
+│   │   │   ├── test_plot.png
+│   │   │   ├── predictors
+│   │   │   │   ├── divergence_calculator.py
+│   │   │   │   ├── orbital_recursion_engine.py
+│   │   │   │   ├── causal_chain_node_predictor.py
+│   │   │   │   ├── fractal_nexus.py
+│   │   │   │   ├── fractal_mapping.py
+│   │   │   │   ├── divergence_engine.py
+│   │   │   │   ├── prediction_analyzer_exporter.py
+│   │   │   │   ├── modal_support.py
+│   │   │   │   ├── __pycache__
+│   │   │   │   │   ├── prediction_module.cpython-312.pyc
+│   │   │   │   │   ├── fractal_nexus.cpython-312.pyc
+│   │   │   │   │   ├── etgc_prior_checker.cpython-312.pyc
+│   │   │   │   │   ├── fractal_mapping.cpython-312.pyc
+│   │   │   │   │   ├── causal_trace_operator.cpython-312.pyc
+│   │   │   │   │   ├── prediction_analyzer_exporter.cpython-312.pyc
+│   │   │   │   │   ├── divergence_calculator.cpython-312.pyc
+│   │   │   │   │   ├── __init__.cpython-312.pyc
+│   │   │   │   │   ├── causal_chain_node_predictor.cpython-312.pyc
+│   │   │   │   │   ├── orbital_recursion_engine.cpython-312.pyc
+│   │   │   │   │   ├── class_fractal_orbital_predictor.cpython-312.pyc
+│   │   │   │   │   ├── modal_support.cpython-312.pyc
+│   │   │   │   │   ├── divergence_engine.cpython-312.pyc
+│   │   │   │   ├── prediction_module.py
+│   │   │   │   ├── causal_trace_operator.py
+│   │   │   │   ├── class_fractal_orbital_predictor.py
+│   │   │   │   ├── etgc_prior_checker.py
+│   │   │   │   ├── __init__.py
+│   │   │   ├── dual_bijection_emergence_analysis.png
+│   │   │   ├── pxl_orbital_analysis_visualization.png
+│   │   │   ├── mathematics
+│   │   │   │   ├── fractal_mvs.py
+│   │   │   │   ├── __pycache__
+│   │   │   │   │   ├── fractal_mvs.cpython-312.pyc
+│   │   │   │   │   ├── privation_mathematics.cpython-312.pyc
+│   │   │   │   │   ├── __init__.cpython-312.pyc
+│   │   │   │   │   ├── trinitarian_optimization_theorem.cpython-312.pyc
+│   │   │   │   │   ├── trinity_alignment.cpython-312.pyc
+│   │   │   │   ├── trinity_alignment.py
+│   │   │   │   ├── __init__.py
+│   │   │   │   ├── trinitarian_optimization_theorem.py
+│   │   │   │   ├── privation_mathematics.py
+│   │   │   ├── CONSCIOUSNESS_EMERGENCE_REPORT.md
+│   │   │   ├── pxl_modal_fractal_boundary_analysis.json
+│   │   │   ├── __pycache__
+│   │   │   │   ├── simple_julia.cpython-312.pyc
+│   │   │   │   ├── pxl_modal_fractal_boundary_analysis.cpython-312.pyc
+│   │   │   │   ├── fractal_mvs.cpython-312.pyc
+│   │   │   │   ├── __init__.cpython-312.pyc
+│   │   │   │   ├── dual_bijection_demo.cpython-312.pyc
+│   │   │   │   ├── fractal_orbit_demo.cpython-312.pyc
+│   │   │   │   ├── resurrection_s2_demo.cpython-312.pyc
+│   │   │   │   ├── test_dual_bijection.cpython-312.pyc
+│   │   │   │   ├── pxl_fractal_orbital_analysis.cpython-312.pyc
+│   │   │   │   ├── dual_bijection_agent_experiment.cpython-312.pyc
+│   │   │   │   ├── consciousness_fractal_analysis.cpython-312.pyc
+│   │   │   │   ├── modal_vector_sync.cpython-312.pyc
+│   │   │   │   ├── dual_bijection_coherence_analysis.cpython-312.pyc
+│   │   │   │   ├── comprehensive_fractal_analysis.cpython-312.pyc
+│   │   │   │   ├── advanced_fractal_analyzer.cpython-312.pyc
+│   │   │   │   ├── fractal_orbit_cli.cpython-312.pyc
+│   │   │   │   ├── fractal_orbit_toolkit.cpython-312.pyc
+│   │   │   ├── FRACTAL_ORBIT_TOOLKIT_README.md
+│   │   │   ├── dual_bijection_agent_experiment.py
+│   │   │   ├── consciousness_emergence_analysis.png
+│   │   │   ├── comprehensive_fractal_analysis.py
+│   │   │   ├── fractal_orbit_demo.py
+│   │   │   ├── consciousness_fractal_analysis.py
+│   │   │   ├── simple_julia.py
+│   │   │   ├── __init__.py
+│   │   │   ├── pxl_modal_fractal_boundary_analysis.py
+│   │   │   ├── pxl_fractal_orbital_analysis.py
+│   │   │   ├── fractal_orbit_cli.py
+│   │   │   ├── fractal_orbit_toolkit.py
+│   │   │   ├── resurrection_s2_demo.py
+│   │   ├── data
+│   │   │   ├── __pycache__
+│   │   │   │   ├── __init__.cpython-312.pyc
+│   │   │   ├── data
+│   │   │   │   ├── __pycache__
+│   │   │   │   │   ├── __init__.cpython-312.pyc
+│   │   │   │   ├── data_library
+│   │   │   │   │   ├── logos_ontological_props_connections.json
+│   │   │   │   │   ├── tasks.json
+│   │   │   │   │   ├── iel_ontological_bijection_optimized.json
+│   │   │   │   │   ├── config_ontological_properties.json
+│   │   │   │   │   ├── first_order_props.txt
+│   │   │   │   │   ├── __pycache__
+│   │   │   │   │   │   ├── __init__.cpython-312.pyc
+│   │   │   │   │   ├── adaptive_state.json
+│   │   │   │   │   ├── config_fractal_store.json
+│   │   │   │   │   ├── config_cosmo_logical.json
+│   │   │   │   │   ├── second_order_props.txt
+│   │   │   │   │   ├── onto_prop_web.json
+│   │   │   │   │   ├── __init__.py
+│   │   │   │   │   ├── config.json
+│   │   │   │   ├── __init__.py
+│   │   │   ├── __init__.py
+│   │   ├── BDN_System
+│   │   │   ├── mvf_node_operator.py
+│   │   │   ├── integration
+│   │   │   │   ├── __pycache__
+│   │   │   │   │   ├── __init__.cpython-312.pyc
+│   │   │   │   │   ├── trinity_alignment.cpython-312.pyc
+│   │   │   │   │   ├── logos_bridge.cpython-312.pyc
+│   │   │   │   ├── logos_bridge.py
+│   │   │   │   ├── trinity_alignment.py
+│   │   │   │   ├── __init__.py
+│   │   │   ├── bdn_runtime.py
+│   │   │   ├── __pycache__
+│   │   │   │   ├── mvf_node_operator.cpython-312.pyc
+│   │   │   │   ├── __init__.cpython-312.pyc
+│   │   │   │   ├── bdn_runtime.cpython-312.pyc
+│   │   │   ├── core
+│   │   │   │   ├── persistence_manager.py
+│   │   │   │   ├── banach_data_nodes.py
+│   │   │   │   ├── fractal_orbital_node_generator.py
+│   │   │   │   ├── class_extrapolator.py
+│   │   │   │   ├── logos_nodes_connections.py
+│   │   │   │   ├── __pycache__
+│   │   │   │   │   ├── class_extrapolator.cpython-312.pyc
+│   │   │   │   │   ├── trinity_vectors.cpython-312.pyc
+│   │   │   │   │   ├── logos_nodes_connections.cpython-312.pyc
+│   │   │   │   │   ├── __init__.cpython-312.pyc
+│   │   │   │   │   ├── fractal_orbital_node_generator.cpython-312.pyc
+│   │   │   │   │   ├── banach_data_nodes.cpython-312.pyc
+│   │   │   │   │   ├── persistence_manager.cpython-312.pyc
+│   │   │   │   ├── __init__.py
+│   │   │   │   ├── trinity_vectors.py
+│   │   │   ├── __init__.py
+│   │   ├── SCP_Nexus
+│   │   │   ├── scp_nexus_orchestrator.py
+│   │   ├── README.md
+│   │   ├── __init__.py
+│   ├── Cognitive_State_Protocol
+│   │   ├── System_Memory_Container
+│   │   ├── Structured_Meaning_Packets
+│   │   │   ├── SMP_Memory_Validator.py
+│   │   │   ├── SMP_Generator.py
+│   │   │   ├── SMP_Evaluator.py
+│   │   ├── __pycache__
+│   │   │   ├── __init__.cpython-312.pyc
+│   │   ├── Memory
+│   │   │   ├── Agent_Memory_Integrations.txt
+│   │   │   ├── Memory_State_Persistence.py
+│   │   │   ├── Memory_Access_Point.py
+│   │   │   ├── Logos_Memory_Nexus.py
+│   │   │   ├── Memory_Recall_Integration.py
+│   │   ├── __init__.py
+│   │   ├── CSP_Nexus
+│   │   │   ├── csp_nexus_orchestrator.py
+│   │   ├── World_Modeling
+│   │   │   ├── commitment_ledger.py
+│   │   │   ├── PXL_World_Model.py
+│   │   │   ├── UWM UPGRADES.txt
+│   │   │   ├── __pycache__
+│   │   │   │   ├── commitment_ledger.cpython-312.pyc
+│   │   │   │   ├── world_model.cpython-312.pyc
+│   │   │   ├── world_model.py
+│   ├── Advanced_Reasoning_Protocol
+│   │   ├── Reasoning_Engines
+│   │   │   ├── Topological_Engine
+│   │   │   │   ├── topological_reasoning_engine.py
+│   │   │   │   ├── _init__.py
+│   │   │   │   ├── topological_engine.py
+│   │   │   ├── Temporal_Engine
+│   │   │   │   ├── temporal_reasoning_engine.py
+│   │   │   │   ├── _init__.py
+│   │   │   │   ├── temporal_engine.py
+│   │   │   ├── Abductive_Engine
+│   │   │   │   ├── abductive_reasoning_engine.py
+│   │   │   │   ├── abductive_engine.py
+│   │   │   │   ├── _init__.py
+│   │   │   ├── Meta_Engine
+│   │   │   │   ├── meta_reasoning_engine.py
+│   │   │   │   ├── _init__.py
+│   │   │   │   ├── meta_engine.py
+│   │   │   ├── PXL_Engine
+│   │   │   │   ├── pxl_engine.py
+│   │   │   │   ├── coherence_formalism.py
+│   │   │   │   ├── coherence.py
+│   │   │   ├── Category_Theoretic_Engine
+│   │   │   │   ├── category_theoretic_reasoning_engine.py
+│   │   │   │   ├── _init__.py
+│   │   │   │   ├── category_theoretic_engine.py
+│   │   │   ├── Modal_Engine
+│   │   │   │   ├── _init__.py
+│   │   │   │   ├── modal_reasoning_engine.py
+│   │   │   │   ├── modal_engine.py
+│   │   │   ├── Deductive_Engine
+│   │   │   │   ├── deductive_engine.py
+│   │   │   │   ├── _init__.py
+│   │   │   │   ├── deductive_reasoning_engine.py
+│   │   │   ├── Ethical_Engine
+│   │   │   │   ├── ethical_reasoning_engine.py
+│   │   │   │   ├── _init__.py
+│   │   │   │   ├── ethical_engine.py
+│   │   │   ├── Inductive_Engine
+│   │   │   │   ├── inductive_reasoning_engine.py
+│   │   │   │   ├── _init__.py
+│   │   │   │   ├── inductive_engine.py
+│   │   │   ├── Bayesian_Engine
+│   │   │   │   ├── bayesian_engine.py
+│   │   │   │   ├── bayesian_ml
+│   │   │   │   │   ├── predictions.csv
+│   │   │   │   │   ├── metadata.json
+│   │   │   │   │   ├── __pycache__
+│   │   │   │   │   │   ├── __init__.cpython-312.pyc
+│   │   │   │   │   ├── __init__.py
+│   │   │   │   ├── bayes_update_real_time.py
+│   │   │   │   ├── bayesian_inference.py
+│   │   │   │   ├── bayesian_recursion.py
+│   │   │   │   ├── bayesian_ml.py
+│   │   │   │   ├── __pycache__
+│   │   │   │   │   ├── __init__.cpython-312.pyc
+│   │   │   │   ├── hierarchical_bayes_network.py
+│   │   │   │   ├── bayesian_inferencer.py
+│   │   │   │   ├── bayesian_updates.py
+│   │   │   │   ├── bayesian_nexus.py
+│   │   │   │   ├── _init__.py
+│   │   │   │   ├── bayesian_interface.py
+│   │   │   │   ├── bayesian_data_parser.py
+│   │   │   ├── Counterfactual_Engine
+│   │   │   │   ├── counterfactual_engine.py
+│   │   │   │   ├── _init__.py
+│   │   │   │   ├── counterfactual_reasoning_engine.py
+│   │   │   ├── Game_Theoretic_Engine
+│   │   │   │   ├── _init__.py
+│   │   │   │   ├── game_theoretic_reasoning_engine.py
+│   │   │   │   ├── game_theoretic_engine.py
+│   │   │   ├── Heuristic_Engine
+│   │   │   │   ├── heuristic_engine.py
+│   │   │   │   ├── _init__.py
+│   │   │   │   ├── heuristic_reasoning_engine.py
+│   │   │   ├── Analogical_Engine
+│   │   │   │   ├── analogical_reasoning_engine.py
+│   │   │   │   ├── analogical_engine.py
+│   │   │   │   ├── _init__.py
+│   │   │   ├── Optimization_Engine
+│   │   │   │   ├── optimization_engine.py
+│   │   │   │   ├── _init__.py
+│   │   │   │   ├── optimization_reasoning_engine.py
+│   │   ├── arp_stack_compiler
+│   │   │   ├── arp_operations.py
+│   │   │   ├── __pycache__
+│   │   │   │   ├── arp_operations.cpython-312.pyc
+│   │   │   │   ├── __init__.cpython-312.pyc
+│   │   │   │   ├── arp_bootstrap.cpython-312.pyc
+│   │   │   │   ├── arp_stack_compiler.cpython-312.pyc
+│   │   │   ├── arp_bootstrap.py
+│   │   │   ├── arp_stack_compiler.py
+│   │   │   ├── __init__.py
+│   │   ├── __pycache__
+│   │   │   ├── __init__.cpython-312.pyc
+│   │   │   ├── arp_bootstrap.cpython-312.pyc
+│   │   ├── formalisms
+│   │   │   ├── relation_mapper.py
+│   │   │   ├── arithmetic_engine.py
+│   │   │   ├── three_pillars_alt.py
+│   │   │   ├── temporal_predictor.py
+│   │   │   ├── Temporal_Flow_Analyzer.py
+│   │   │   ├── pxl_schema.py
+│   │   │   ├── pxl_postprocessor.py
+│   │   │   ├── safety_formalisms.py
+│   │   │   ├── consistency_checker.py
+│   │   │   ├── bugfix.py
+│   │   │   ├── three_pillars_framework.py
+│   │   │   ├── __pycache__
+│   │   │   │   ├── safety_formalisms.cpython-312.pyc
+│   │   │   │   ├── three_pillars_framework.cpython-312.pyc
+│   │   │   │   ├── __init__.cpython-312.pyc
+│   │   │   │   ├── three_pillars_alt.cpython-312.pyc
+│   │   │   │   ├── trinity_framework.cpython-312.pyc
+│   │   │   │   ├── coherence_formalism.cpython-312.pyc
+│   │   │   ├── proof_engine.py
+│   │   │   ├── README.md
+│   │   │   ├── symbolic_math.py
+│   │   │   ├── __init__.py
+│   │   │   ├── modal_validator.py
+│   │   │   ├── trinity_framework.py
+│   │   ├── README.md
+│   │   ├── __init__.py
+│   │   ├── ARP_Nexus
+│   │   │   ├── arp_nexus_orchestrator.py
+│   │   │   ├── archive
+│   ├── Logos_Protocol
+│   │   ├── External_Enhancements
+│   │   │   ├── External_Enhancements_Registry.py
+│   │   │   ├── ML_Wrapper_Torch.py
+│   │   │   ├── Cognition_Wrapper_Micropsi.py
+│   │   │   ├── Graph_Wrapper_Networkx.py
+│   │   │   ├── Cognition_Wrapper_Openai.py
+│   │   │   ├── Graph_Wrapper_Pyvis.py
+│   │   │   ├── Visualization_Wrapper_Matplotlib.py
+│   │   │   ├── NLP_Wrapper_Sentence_Transformers.py
+│   │   │   ├── NLP_Wrapper_Transformers.py
+│   │   │   ├── Cognition_Wrapper_Pydantic.py
+│   │   │   ├── Visualization_Wrapper_Plotly.py
+│   │   │   ├── Cognition_Wrapper_Memgpt.py
+│   │   │   ├── __pycache__
+│   │   │   │   ├── Cognition_Wrapper_Pydantic.cpython-312.pyc
+│   │   │   │   ├── ML_Wrapper_Torch.cpython-312.pyc
+│   │   │   │   ├── Graph_Wrapper_Networkx.cpython-312.pyc
+│   │   │   │   ├── NLP_Wrapper_Nltk.cpython-312.pyc
+│   │   │   │   ├── Register_All_Wrappers.cpython-312.pyc
+│   │   │   │   ├── Graph_Wrapper_Pyvis.cpython-312.pyc
+│   │   │   │   ├── NLP_Wrapper_Spacy.cpython-312.pyc
+│   │   │   │   ├── Cognition_Wrapper_Memgpt.cpython-312.pyc
+│   │   │   │   ├── External_Enhancements_Registry.cpython-312.pyc
+│   │   │   │   ├── Cognition_Wrapper_Sympy.cpython-312.pyc
+│   │   │   │   ├── __init__.cpython-312.pyc
+│   │   │   │   ├── Visualization_Wrapper_Matplotlib.cpython-312.pyc
+│   │   │   │   ├── Visualization_Wrapper_Plotly.cpython-312.pyc
+│   │   │   │   ├── ML_Wrapper_Prophet.cpython-312.pyc
+│   │   │   │   ├── Cognition_Wrapper_Micropsi.cpython-312.pyc
+│   │   │   │   ├── Visualization_Wrapper_Seaborn.cpython-312.pyc
+│   │   │   │   ├── ML_Wrapper_Sklearn.cpython-312.pyc
+│   │   │   │   ├── Graph_Wrapper_Rdflib.cpython-312.pyc
+│   │   │   │   ├── Cognition_Wrapper_Openai.cpython-312.pyc
+│   │   │   │   ├── ML_Wrapper_Statsmodels.cpython-312.pyc
+│   │   │   │   ├── Constraint_Stubs.cpython-312.pyc
+│   │   │   │   ├── Cognition_Wrapper_Pgmpy.cpython-312.pyc
+│   │   │   │   ├── ML_Wrapper_Arch.cpython-312.pyc
+│   │   │   │   ├── NLP_Wrapper_Sentence_Transformers.cpython-312.pyc
+│   │   │   │   ├── NLP_Wrapper_Transformers.cpython-312.pyc
+│   │   │   ├── NLP_Wrapper_Nltk.py
+│   │   │   ├── Cognition_Wrapper_Pgmpy.py
+│   │   │   ├── Graph_Wrapper_Rdflib.py
+│   │   │   ├── ML_Wrapper_Arch.py
+│   │   │   ├── Register_All_Wrappers.py
+│   │   │   ├── Cognition_Wrapper_Sympy.py
+│   │   │   ├── Visualization_Wrapper_Seaborn.py
+│   │   │   ├── ML_Wrapper_Statsmodels.py
+│   │   │   ├── Constraint_Stubs.py
+│   │   │   ├── __init__.py
+│   │   │   ├── External_Libraries_Manifest.json
+│   │   │   ├── ML_Wrapper_Prophet.py
+│   │   │   ├── NLP_Wrapper_Spacy.py
+│   │   │   ├── ML_Wrapper_Sklearn.py
+│   │   ├── Runtime_Operations
+│   │   │   ├── Tetra_Conscious
+│   │   │   │   ├── Fractal_Data_Analyzer.py
+│   │   │   │   ├── FDA_UWM_INTEGRATIONS_ENHANCEMENTS_BINDINGS.txt
+│   │   │   │   ├── PXL_Tetra_Analyst.py
+│   │   │   │   ├── Fractal_Memory_Orchestrator.py
+│   │   │   │   ├── Cognitive_Resistor.py
+│   │   │   ├── Orchestration
+│   │   │   │   ├── logos_daemon.py
+│   │   │   │   ├── __pycache__
+│   │   │   │   │   ├── bridge.cpython-312.pyc
+│   │   │   │   │   ├── __init__.cpython-312.pyc
+│   │   │   │   │   ├── logos_daemon.cpython-312.pyc
+│   │   │   │   │   ├── runtime_protocol.cpython-312.pyc
+│   │   │   │   ├── bridge.py
+│   │   │   │   ├── __init__.py
+│   │   │   ├── __pycache__
+│   │   │   │   ├── __init__.cpython-312.pyc
+│   │   │   ├── Diagnostics
+│   │   │   │   ├── regression_checker.py
+│   │   │   │   ├── self_diagnosis.py
+│   │   │   │   ├── __pycache__
+│   │   │   │   │   ├── __init__.cpython-312.pyc
+│   │   │   │   │   ├── self_diagnosis.cpython-312.pyc
+│   │   │   │   │   ├── regression_checker.cpython-312.pyc
+│   │   │   │   ├── __init__.py
+│   │   │   ├── Governance
+│   │   │   │   ├── ETGC_Validator.py
+│   │   │   │   ├── reflexive_evaluator.py
+│   │   │   │   ├── Trinitarian_Optimizer.py
+│   │   │   │   ├── Privation_Filter.py
+│   │   │   │   ├── Constraint_Context.py
+│   │   │   │   ├── iel_overlays.py
+│   │   │   │   ├── triune_commutator.py
+│   │   │   │   ├── TLM_Confirmation.py
+│   │   │   │   ├── Constraint_Result.py
+│   │   │   │   ├── __pycache__
+│   │   │   │   │   ├── Constraint_Context.cpython-312.pyc
+│   │   │   │   │   ├── Constraint_Result.cpython-312.pyc
+│   │   │   │   │   ├── ETGC_Validator.cpython-312.pyc
+│   │   │   │   │   ├── Trinitarian_Optimizer.cpython-312.pyc
+│   │   │   │   │   ├── Privation_Filter.cpython-312.pyc
+│   │   │   │   │   ├── __init__.cpython-312.pyc
+│   │   │   │   │   ├── Triune_Principal_Validator.cpython-312.pyc
+│   │   │   │   │   ├── TLM_Confirmation.cpython-312.pyc
+│   │   │   │   ├── __init__.py
+│   │   │   │   ├── onto_lattice.py
+│   │   │   │   ├── Triune_Principal_Validator.py
+│   │   ├── Logos_Protocol_Nexus
+│   │   │   ├── logos_protocol_nexus.py
+│   │   ├── Activation_Sequencer
+│   │   │   ├── tests
+│   │   │   │   ├── test_integration_identity.py
+│   │   │   │   ├── __pycache__
+│   │   │   │   │   ├── test_integration_identity.cpython-312.pyc
+│   │   │   │   │   ├── __init__.cpython-312.pyc
+│   │   │   │   │   ├── test_lock_unlock.cpython-312.pyc
+│   │   │   │   ├── test_lock_unlock.py
+│   │   │   │   ├── __init__.py
+│   │   │   ├── Agent_Integration
+│   │   │   │   ├── dispatch.py
+│   │   │   │   ├── types.py
+│   │   │   │   ├── coordinator.py
+│   │   │   │   ├── __pycache__
+│   │   │   │   │   ├── dispatch.cpython-312.pyc
+│   │   │   │   │   ├── types.cpython-312.pyc
+│   │   │   │   │   ├── test_determinism.cpython-312.pyc
+│   │   │   │   │   ├── __init__.cpython-312.pyc
+│   │   │   │   │   ├── coordinator.cpython-312.pyc
+│   │   │   │   ├── __init__.py
+│   │   │   │   ├── test_determinism.py
+│   │   │   ├── Identity_Generator
+│   │   │   │   ├── Agent_ID_Spin_Up
+│   │   │   │   │   ├── persist_identity.py
+│   │   │   │   │   ├── audit_and_emit.py
+│   │   │   │   │   ├── consciousness_safety_adapter.py
+│   │   │   │   │   ├── agent_planner.py
+│   │   │   │   │   ├── schemas.py
+│   │   │   │   │   ├── identity_loader.py
+│   │   │   │   │   ├── uwm.py
+│   │   │   │   │   ├── __pycache__
+│   │   │   │   │   │   ├── consciousness_safety_adapter.cpython-312.pyc
+│   │   │   │   │   │   ├── identity_loader.cpython-312.pyc
+│   │   │   │   │   │   ├── __init__.cpython-312.pyc
+│   │   │   │   │   │   ├── agent_identity.cpython-312.pyc
+│   │   │   │   │   │   ├── agent_planner.cpython-312.pyc
+│   │   │   │   │   │   ├── persist_identity.cpython-312.pyc
+│   │   │   │   │   │   ├── uwm.cpython-312.pyc
+│   │   │   │   │   │   ├── audit_and_emit.cpython-312.pyc
+│   │   │   │   │   │   ├── schemas.cpython-312.pyc
+│   │   │   │   │   │   ├── run_conscious_sim.cpython-312.pyc
+│   │   │   │   │   │   ├── attestation.cpython-312.pyc
+│   │   │   │   │   ├── agent_identity.py
+│   │   │   │   │   ├── __init__.py
+│   │   │   │   │   ├── attestation.py
+│   │   │   │   ├── __pycache__
+│   │   │   │   │   ├── __init__.cpython-312.pyc
+│   │   │   │   ├── __init__.py
+│   │   ├── __init__.py
+│   ├── Systems_Operations_Protocol
+│   │   ├── SOP_Nexus
+│   │   │   ├── sop_nexus_orchestrator.py
+│   ├── Meaning_Translation_Protocol
+│   │   ├── Receiver_Nexus
+│   │   │   ├── Custom_GUI
+│   │   │   │   ├── app.js
+│   │   │   │   ├── __pycache__
+│   │   │   │   │   ├── server.cpython-312.pyc
+│   │   │   │   ├── server.py
+│   │   │   │   ├── index.html
+│   │   │   │   ├── README.md
+│   │   │   ├── LLM_Interface
+│   │   │   │   ├── plugins
+│   │   │   │   │   ├── state
+│   │   │   │   │   │   ├── mission_profile.json
+│   │   │   │   │   ├── uip_integration_plugin.py
+│   │   │   │   │   ├── __pycache__
+│   │   │   │   │   │   ├── enhanced_uip_integration_plugin.cpython-312.pyc
+│   │   │   │   │   │   ├── _uip_connector_stubs.cpython-312.pyc
+│   │   │   │   │   │   ├── guardrails.cpython-312.pyc
+│   │   │   │   │   │   ├── __init__.cpython-312.pyc
+│   │   │   │   │   │   ├── llm_backend.cpython-312.pyc
+│   │   │   │   │   │   ├── uip_integration_plugin.cpython-312.pyc
+│   │   │   │   │   ├── guardrails.py
+│   │   │   │   │   ├── _uip_connector_stubs.py
+│   │   │   │   │   ├── enhanced_uip_integration_plugin.py
+│   │   │   │   │   ├── __init__.py
+│   │   │   │   │   ├── llm_backend.py
+│   │   │   │   ├── PROTOCOL_GROUNDED_INTERFACE.md
+│   │   │   │   ├── llm_advisor.py
+│   │   │   │   ├── requirements.txt
+│   │   │   │   ├── .env.example
+│   │   │   │   ├── logos_interface.py
+│   │   │   │   ├── __pycache__
+│   │   │   │   │   ├── run_logos_gpt_acceptance.cpython-312.pyc
+│   │   │   │   │   ├── logos_gpt_chat.cpython-312.pyc
+│   │   │   │   │   ├── __init__.cpython-312.pyc
+│   │   │   │   │   ├── logos_gpt_server.cpython-312.pyc
+│   │   │   │   │   ├── llm_advisor.cpython-312.pyc
+│   │   │   │   │   ├── logos_interface.cpython-312.pyc
+│   │   │   │   │   ├── reasoning_agent.cpython-312.pyc
+│   │   │   │   ├── reasoning_agent.py
+│   │   │   │   ├── logos_gpt_chat.py
+│   │   │   │   ├── logos_gpt_server.py
+│   │   │   │   ├── run_logos_gpt_acceptance.py
+│   │   │   │   ├── __init__.py
+│   │   ├── tests
+│   │   │   ├── test_registry_and_response.py
+│   │   │   ├── __pycache__
+│   │   │   │   ├── test_registry_and_response.cpython-312.pyc
+│   │   ├── core_processing
+│   │   │   ├── registry.py
+│   │   │   ├── adaptive_engine.py
+│   │   │   ├── sanitizer.py
+│   │   │   ├── language_processor.py
+│   │   │   ├── __pycache__
+│   │   │   │   ├── adaptive_engine.cpython-312.pyc
+│   │   │   │   ├── sanitizer.cpython-312.pyc
+│   │   │   │   ├── __init__.cpython-312.pyc
+│   │   │   │   ├── language_processor.cpython-312.pyc
+│   │   │   │   ├── registry.cpython-312.pyc
+│   │   │   │   ├── mcmc_engine.cpython-312.pyc
+│   │   │   ├── mcmc_engine.py
+│   │   │   ├── __init__.py
+│   │   ├── interface_runtime
+│   │   │   ├── interface_runtime.py
+│   │   │   ├── __pycache__
+│   │   │   │   ├── router.cpython-312.pyc
+│   │   │   │   ├── interface_runtime.cpython-312.pyc
+│   │   │   │   ├── __init__.cpython-312.pyc
+│   │   │   │   ├── progressive_router.cpython-312.pyc
+│   │   │   ├── router.py
+│   │   │   ├── progressive_router.py
+│   │   │   ├── __init__.py
+│   │   ├── smp_packetizer
+│   │   │   ├── __pycache__
+│   │   │   │   ├── __init__.cpython-312.pyc
+│   │   │   ├── __init__.py
+│   │   ├── language_modules
+│   │   │   ├── tranlsation_bridge.py
+│   │   │   ├── __pycache__
+│   │   │   │   ├── semantic_transformers.cpython-312.pyc
+│   │   │   │   ├── __init__.cpython-312.pyc
+│   │   │   │   ├── natural_language_processor.cpython-312.pyc
+│   │   │   │   ├── tranlsation_bridge.cpython-312.pyc
+│   │   │   │   ├── translation_engine.cpython-312.pyc
+│   │   │   ├── semantic_transformers.py
+│   │   │   ├── translation_engine.py
+│   │   │   ├── natural_language_processor.py
+│   │   │   ├── __init__.py
+│   │   ├── __pycache__
+│   │   │   ├── __init__.cpython-312.pyc
+│   │   ├── symbolic_translation
+│   │   │   ├── lambda_engine.py
+│   │   │   ├── lambda_parser.py
+│   │   │   ├── lambda_onto_calculus_engine.py
+│   │   │   ├── __pycache__
+│   │   │   │   ├── lambda_engine.cpython-312.pyc
+│   │   │   │   ├── logos_lambda_integration.cpython-312.pyc
+│   │   │   │   ├── logos_lambda_core.cpython-312.pyc
+│   │   │   │   ├── __init__.cpython-312.pyc
+│   │   │   │   ├── lambda_engine_definitions.cpython-312.pyc
+│   │   │   │   ├── lambda_onto_calculus_engine.cpython-312.pyc
+│   │   │   │   ├── lambda_parser.cpython-312.pyc
+│   │   │   ├── logos_lambda_integration.py
+│   │   │   ├── __init__.py
+│   │   │   ├── lambda_engine_definitions.py
+│   │   │   ├── logos_lambda_core.py
+│   │   ├── MTP_Nexus
+│   │   │   ├── mtp_nexus_orchestrator.py
+│   │   ├── __init__.py
+│   ├── System_Operations_Protocol
+│   │   ├── Documentation
+│   │   │   ├── requirements.txt
+│   │   │   ├── IEL_OVERLAYS_AGENT_REFERENCE.md
+│   │   │   ├── META_ORDER_OF_OPERATIONS.md
+│   │   │   ├── __pycache__
+│   │   │   │   ├── __init__.cpython-312.pyc
+│   │   │   ├── Project_Notes
+│   │   │   │   ├── README_NEW_ARCHITECTURE.md
+│   │   │   │   ├── __pycache__
+│   │   │   │   │   ├── __init__.cpython-312.pyc
+│   │   │   │   ├── protocol_txts
+│   │   │   │   │   ├── user_interactive_protocol.txt
+│   │   │   │   │   ├── __pycache__
+│   │   │   │   │   │   ├── __init__.cpython-312.pyc
+│   │   │   │   │   ├── artificial_general_protocol.txt
+│   │   │   │   │   ├── system_operations_protocol.md
+│   │   │   │   │   ├── __init__.py
+│   │   │   │   ├── __init__.py
+│   │   │   ├── README.md
+│   │   │   ├── __init__.py
+│   │   │   ├── project_narrative.md
+│   │   ├── governance
+│   │   │   ├── reference_monitor.py
+│   │   │   ├── core_service.py
+│   │   │   ├── persistence.py
+│   │   │   ├── __pycache__
+│   │   │   │   ├── core_service.cpython-312.pyc
+│   │   │   │   ├── reference_monitor.cpython-312.pyc
+│   │   │   │   ├── server.cpython-312.pyc
+│   │   │   │   ├── __init__.cpython-312.pyc
+│   │   │   │   ├── capabilities.cpython-312.pyc
+│   │   │   │   ├── enhanced_reference_monitor.cpython-312.pyc
+│   │   │   │   ├── persistence.cpython-312.pyc
+│   │   │   ├── server.py
+│   │   │   ├── enhanced_reference_monitor.py
+│   │   │   ├── capabilities.py
+│   │   │   ├── __init__.py
+│   │   ├── SOP_Nexus
+│   │   │   ├── sop_nexus_orchestrator.py
+│   │   ├── __pycache__
+│   │   │   ├── __init__.cpython-312.pyc
+│   │   ├── deployment
+│   │   │   ├── monitoring
+│   │   │   │   ├── deploy_full_stack.py
+│   │   │   │   ├── Dockerfile.logos-core
+│   │   │   │   ├── api_server.py
+│   │   │   │   ├── deploy_core_services.py
+│   │   │   │   ├── health_server.py
+│   │   │   │   ├── __pycache__
+│   │   │   │   │   ├── deploy_full_stack.cpython-312.pyc
+│   │   │   │   │   ├── health_server.cpython-312.pyc
+│   │   │   │   │   ├── api_server.cpython-312.pyc
+│   │   │   │   │   ├── deploy_core_services.cpython-312.pyc
+│   │   │   │   │   ├── __init__.cpython-312.pyc
+│   │   │   │   ├── docker_orchestration
+│   │   │   │   │   ├── __pycache__
+│   │   │   │   │   │   ├── __init__.cpython-312.pyc
+│   │   │   │   │   ├── __init__.py
+│   │   │   │   ├── __init__.py
+│   │   │   ├── configuration
+│   │   │   │   ├── system_imports.py
+│   │   │   │   ├── runtime_resources.json
+│   │   │   │   ├── iel_integration.py
+│   │   │   │   ├── kernel.py
+│   │   │   │   ├── unified_classes.py
+│   │   │   │   ├── worker_kernel.py
+│   │   │   │   ├── __pycache__
+│   │   │   │   │   ├── entry.cpython-312.pyc
+│   │   │   │   │   ├── iel_integration.cpython-312.pyc
+│   │   │   │   │   ├── unified_classes.cpython-312.pyc
+│   │   │   │   │   ├── check_imports.cpython-312.pyc
+│   │   │   │   │   ├── logos_monitor.cpython-312.pyc
+│   │   │   │   │   ├── __init__.cpython-312.pyc
+│   │   │   │   │   ├── system_imports.cpython-312.pyc
+│   │   │   │   │   ├── worker_kernel.cpython-312.pyc
+│   │   │   │   │   ├── LOGOS.cpython-312.pyc
+│   │   │   │   │   ├── kernel.cpython-312.pyc
+│   │   │   │   │   ├── demo_gui.cpython-312.pyc
+│   │   │   │   ├── demo_gui.py
+│   │   │   │   ├── LOGOS.py
+│   │   │   │   ├── logos_monitor.py
+│   │   │   │   ├── __init__.py
+│   │   │   │   ├── check_imports.py
+│   │   │   │   ├── config.json
+│   │   │   │   ├── entry.py
+│   │   │   ├── __pycache__
+│   │   │   │   ├── __init__.cpython-312.pyc
+│   │   │   ├── __init__.py
+│   │   │   ├── boot
+│   │   │   │   ├── extensions_loader.py
+│   │   │   │   ├── __pycache__
+│   │   │   │   │   ├── __init__.cpython-312.pyc
+│   │   │   │   │   ├── extensions_loader.cpython-312.pyc
+│   │   │   │   ├── __init__.py
+│   │   ├── alignment_protocols
+│   │   │   ├── validation
+│   │   │   │   ├── examples
+│   │   │   │   │   ├── __pycache__
+│   │   │   │   │   │   ├── __init__.cpython-312.pyc
+│   │   │   │   │   │   ├── demo_integrated_ml.cpython-312.pyc
+│   │   │   │   │   ├── demo_integrated_ml.py
+│   │   │   │   │   ├── __init__.py
+│   │   │   │   ├── __pycache__
+│   │   │   │   │   ├── __init__.cpython-312.pyc
+│   │   │   │   ├── testing
+│   │   │   │   │   ├── validate_production.py
+│   │   │   │   │   ├── tests
+│   │   │   │   │   │   ├── test_self_improvement_cycle.py
+│   │   │   │   │   │   ├── __pycache__
+│   │   │   │   │   │   │   ├── test_self_improvement_cycle.cpython-312.pyc
+│   │   │   │   │   │   │   ├── __init__.cpython-312.pyc
+│   │   │   │   │   │   ├── __init__.py
+│   │   │   │   │   ├── test_self_improvement_cycle.py
+│   │   │   │   │   ├── test_end_to_end_pipeline.py
+│   │   │   │   │   ├── test_reference_monitor.py
+│   │   │   │   │   ├── __pycache__
+│   │   │   │   │   │   ├── test_integration.cpython-312.pyc
+│   │   │   │   │   │   ├── validate_production.cpython-312.pyc
+│   │   │   │   │   │   ├── integration_test_suite.cpython-312.pyc
+│   │   │   │   │   │   ├── test_self_improvement_cycle.cpython-312.pyc
+│   │   │   │   │   │   ├── __init__.cpython-312.pyc
+│   │   │   │   │   │   ├── test_end_to_end_pipeline.cpython-312.pyc
+│   │   │   │   │   │   ├── test_reference_monitor.cpython-312.pyc
+│   │   │   │   │   ├── integration_test_suite.py
+│   │   │   │   │   ├── __init__.py
+│   │   │   │   │   ├── test_integration.py
+│   │   │   │   ├── __init__.py
+│   │   │   ├── persistence
+│   │   │   │   ├── persistence.py
+│   │   │   │   ├── __pycache__
+│   │   │   │   │   ├── __init__.cpython-312.pyc
+│   │   │   │   │   ├── persistence.cpython-312.pyc
+│   │   │   │   ├── __init__.py
+│   │   │   ├── state
+│   │   │   │   ├── safeguard_states.pkl
+│   │   │   │   ├── __pycache__
+│   │   │   │   │   ├── __init__.cpython-312.pyc
+│   │   │   │   ├── integrity_hashes.json
+│   │   │   │   ├── __init__.py
+│   │   │   ├── safety
+│   │   │   │   ├── privative_policies.py
+│   │   │   │   ├── __pycache__
+│   │   │   │   │   ├── __init__.cpython-312.pyc
+│   │   │   │   │   ├── privative_policies.cpython-312.pyc
+│   │   │   │   ├── integrity_framework
+│   │   │   │   │   ├── integrity_safeguard.py
+│   │   │   │   │   ├── __pycache__
+│   │   │   │   │   │   ├── integrity_safeguard.cpython-312.pyc
+│   │   │   │   │   │   ├── __init__.cpython-312.pyc
+│   │   │   │   │   ├── __init__.py
+│   │   │   │   ├── obdc
+│   │   │   │   │   ├── kernel.py
+│   │   │   │   │   ├── __pycache__
+│   │   │   │   │   │   ├── __init__.cpython-312.pyc
+│   │   │   │   │   │   ├── kernel.cpython-312.pyc
+│   │   │   │   │   ├── __init__.py
+│   │   │   │   ├── ultima_framework
+│   │   │   │   │   ├── __pycache__
+│   │   │   │   │   │   ├── __init__.cpython-312.pyc
+│   │   │   │   │   │   ├── ultima_safety.cpython-312.pyc
+│   │   │   │   │   ├── ultima_safety.py
+│   │   │   │   │   ├── __init__.py
+│   │   │   │   ├── __init__.py
+│   │   │   ├── compliance
+│   │   │   │   ├── __pycache__
+│   │   │   │   │   ├── __init__.cpython-312.pyc
+│   │   │   │   │   ├── integration_harmonizer.cpython-312.pyc
+│   │   │   │   ├── integration_harmonizer.py
+│   │   │   │   ├── __init__.py
+│   │   │   ├── __pycache__
+│   │   │   │   ├── __init__.cpython-312.pyc
+│   │   │   ├── coherence
+│   │   │   │   ├── coherence_metrics.py
+│   │   │   │   ├── coherence_optimizer.py
+│   │   │   │   ├── __pycache__
+│   │   │   │   │   ├── policy.cpython-312.pyc
+│   │   │   │   │   ├── __init__.cpython-312.pyc
+│   │   │   │   │   ├── coherence_metrics.cpython-312.pyc
+│   │   │   │   │   ├── coherence_optimizer.cpython-312.pyc
+│   │   │   │   ├── __init__.py
+│   │   │   │   ├── policy.py
+│   │   │   ├── policies
+│   │   │   │   ├── privative_policies.py
+│   │   │   │   ├── __pycache__
+│   │   │   │   │   ├── __init__.cpython-312.pyc
+│   │   │   │   │   ├── privative_policies.cpython-312.pyc
+│   │   │   │   ├── __init__.py
+│   │   │   ├── __init__.py
+│   │   ├── README.md
+│   │   ├── __init__.py
+│   │   ├── infrastructure
+│   │   │   ├── agent_system
+│   │   │   │   ├── logos_agent_system.py
+│   │   │   │   ├── maintenance.py
+│   │   │   │   ├── shared_resources.py
+│   │   │   │   ├── protocol_integration.py
+│   │   │   │   ├── local_scp.py
+│   │   │   │   ├── initialize_agent_system.py
+│   │   │   │   ├── boot_system.py
+│   │   │   │   ├── __pycache__
+│   │   │   │   │   ├── maintenance.cpython-312.pyc
+│   │   │   │   │   ├── shared_resources.cpython-312.pyc
+│   │   │   │   │   ├── protocol_integration.cpython-312.pyc
+│   │   │   │   │   ├── base_nexus.cpython-312.pyc
+│   │   │   │   │   ├── __init__.cpython-312.pyc
+│   │   │   │   │   ├── logos_agent_system.cpython-312.pyc
+│   │   │   │   │   ├── boot_system.cpython-312.pyc
+│   │   │   │   │   ├── initialize_agent_system.cpython-312.pyc
+│   │   │   │   │   ├── local_scp.cpython-312.pyc
+│   │   │   │   │   ├── agent_nexus.cpython-312.pyc
+│   │   │   │   ├── __init__.py
+│   │   │   │   ├── base_nexus.py
+│   │   │   │   ├── agent_nexus.py
+│   │   ├── data_storage
+│   │   │   ├── system_memory.py
+│   │   │   ├── __pycache__
+│   │   │   │   ├── system_memory.cpython-312.pyc
+│   │   │   │   ├── __init__.cpython-312.pyc
+│   │   │   ├── knowledge
+│   │   │   │   ├── adaptive_state_20251030_101756.json
+│   │   │   │   ├── __pycache__
+│   │   │   │   │   ├── __init__.cpython-312.pyc
+│   │   │   │   ├── adaptive_state.json
+│   │   │   │   ├── __init__.py
+│   │   │   ├── __init__.py
+│   │   │   ├── runtime
+│   │   │   │   ├── run-20251223T050049193704Z
+│   │   │   │   │   ├── health_snapshots.jsonl
+│   │   │   │   │   ├── scheduler_history.jsonl
+│   │   │   │   │   ├── resource_events.jsonl
+│   │   │   │   ├── run-20251223T162019826344Z
+│   │   │   │   │   ├── health_snapshots.jsonl
+│   │   │   │   │   ├── scheduler_history.jsonl
+│   │   │   │   │   ├── resource_events.jsonl
+│   │   │   │   ├── run-20251223T044341598361Z
+│   │   │   │   │   ├── health_snapshots.jsonl
+│   │   │   │   │   ├── scheduler_history.jsonl
+│   │   │   │   │   ├── resource_events.jsonl
+│   │   │   │   ├── health_snapshots.jsonl
+│   │   │   │   ├── run-20251223T162039735734Z
+│   │   │   │   │   ├── health_snapshots.jsonl
+│   │   │   │   │   ├── scheduler_history.jsonl
+│   │   │   │   │   ├── resource_events.jsonl
+│   │   │   │   ├── scheduler_history.jsonl
+│   │   │   │   ├── resource_events.jsonl
+│   │   │   │   ├── run-20251223T162019022316Z
+│   │   │   │   │   ├── health_snapshots.jsonl
+│   │   │   │   │   ├── scheduler_history.jsonl
+│   │   │   │   │   ├── resource_events.jsonl
+│   │   │   │   ├── run-20251223T044326341182Z
+│   │   │   │   │   ├── health_snapshots.jsonl
+│   │   │   │   │   ├── scheduler_history.jsonl
+│   │   │   │   │   ├── resource_events.jsonl
+│   │   ├── Optimization
+│   │   │   ├── tool_repair_proposal.py
+│   │   │   ├── tool_optimizer.py
+│   │   │   ├── tool_introspection.py
+│   │   │   ├── tool_invention.py
+│   │   │   ├── Test_Logs
+│   │   │   │   ├── thread_safety_telemetry.jsonl
+│   │   │   │   ├── anomaly_telemetry.jsonl
+│   │   │   │   ├── __pycache__
+│   │   │   │   │   ├── __init__.cpython-312.pyc
+│   │   │   │   ├── test_telemetry.jsonl
+│   │   │   │   ├── __init__.py
+│   │   │   │   ├── reference_monitor.jsonl
+│   │   │   ├── tests
+│   │   │   │   ├── test_perception_ingestors.py
+│   │   │   │   ├── test_nexus_capability_governance.py
+│   │   │   │   ├── test_hardening.py
+│   │   │   │   ├── test_logos_agi_adapter.py
+│   │   │   │   ├── test_bayesian_data_handler.py
+│   │   │   │   ├── __pycache__
+│   │   │   │   │   ├── test_pai.cpython-312.pyc
+│   │   │   │   │   ├── test_agent_planner.cpython-312.pyc
+│   │   │   │   │   ├── test_perception_ingestors.cpython-312.pyc
+│   │   │   │   │   ├── test_logos_agi_adapter.cpython-312.pyc
+│   │   │   │   │   ├── __init__.cpython-312.pyc
+│   │   │   │   │   ├── test_simulation_cli.cpython-312.pyc
+│   │   │   │   │   ├── test_logos_agi_persistence_smoke.cpython-312.pyc
+│   │   │   │   │   ├── test_bayesian_data_handler.cpython-312.pyc
+│   │   │   │   │   ├── test_hardening.cpython-312.pyc
+│   │   │   │   │   ├── test_verify_pai.cpython-312.pyc
+│   │   │   │   │   ├── test_nexus_capability_governance.cpython-312.pyc
+│   │   │   │   ├── test_agent_planner.py
+│   │   │   │   ├── __init__.py
+│   │   │   │   ├── test_pai.py
+│   │   │   │   ├── test_logos_agi_persistence_smoke.py
+│   │   │   │   ├── test_simulation_cli.py
+│   │   │   │   ├── test_verify_pai.py
+│   │   │   ├── io_normalizer.py
+│   │   │   ├── check_run_cycle_prereqs.py
+│   │   │   ├── test_tool_fallback_proposal.py
+│   │   │   ├── __pycache__
+│   │   │   │   ├── tool_chain_executor.cpython-312.pyc
+│   │   │   │   ├── tool_invention.cpython-312.pyc
+│   │   │   │   ├── test_tool_fallback_proposal.cpython-312.pyc
+│   │   │   │   ├── __init__.cpython-312.pyc
+│   │   │   │   ├── tool_optimizer.cpython-312.pyc
+│   │   │   │   ├── tool_repair_proposal.cpython-312.pyc
+│   │   │   │   ├── tool_proposal_pipeline.cpython-312.pyc
+│   │   │   │   ├── io_normalizer.cpython-312.pyc
+│   │   │   │   ├── prioritization.cpython-312.pyc
+│   │   │   │   ├── check_run_cycle_prereqs.cpython-312.pyc
+│   │   │   │   ├── tool_introspection.cpython-312.pyc
+│   │   │   ├── prioritization.py
+│   │   │   ├── tool_chain_executor.py
+│   │   │   ├── tool_proposal_pipeline.py
+│   │   │   ├── __init__.py
+│   ├── Logos_Agents
+│   │   ├── Logos_Agent
+│   │   │   ├── code_generator
+│   │   │   │   ├── development_environment.py
+│   │   │   │   ├── self_improvement_integration.py
+│   │   │   │   ├── __pycache__
+│   │   │   │   │   ├── __init__.cpython-312.pyc
+│   │   │   │   │   ├── development_environment.cpython-312.pyc
+│   │   │   │   │   ├── self_improvement_integration.cpython-312.pyc
+│   │   │   │   │   ├── skill_acquisition.cpython-312.pyc
+│   │   │   │   ├── skill_acquisition.py
+│   │   │   │   ├── __init__.py
+│   │   │   ├── module_generator
+│   │   │   │   ├── smoke.ps1
+│   │   │   │   ├── gen_ontoprops_dedup.py
+│   │   │   │   ├── development_environment.py
+│   │   │   │   ├── smoke_api.ps1
+│   │   │   │   ├── sign-route.sh
+│   │   │   │   ├── self_improvement_integration.py
+│   │   │   │   ├── gen_worldview_ontoprops.py
+│   │   │   │   ├── run-tests.sh
+│   │   │   │   ├── smoke_api.sh
+│   │   │   │   ├── deploy.ps1
+│   │   │   │   ├── deploy-enhanced-router.sh
+│   │   │   │   ├── run-tests.ps1
+│   │   │   │   ├── smoke.sh
+│   │   │   │   ├── __pycache__
+│   │   │   │   │   ├── knowledge_catalog.cpython-312.pyc
+│   │   │   │   │   ├── scan_bypass.cpython-312.pyc
+│   │   │   │   │   ├── __init__.cpython-312.pyc
+│   │   │   │   │   ├── development_environment.cpython-312.pyc
+│   │   │   │   │   ├── gen_ontoprops_dedup.cpython-312.pyc
+│   │   │   │   │   ├── self_improvement_integration.cpython-312.pyc
+│   │   │   │   │   ├── gen_worldview_ontoprops.cpython-312.pyc
+│   │   │   │   │   ├── ontoprops_remap.cpython-312.pyc
+│   │   │   │   ├── ontoprops_remap.py
+│   │   │   │   ├── scan_bypass.py
+│   │   │   │   ├── knowledge_catalog.py
+│   │   │   │   ├── __init__.py
+│   │   │   │   ├── development_environment.py.bak
+│   │   │   ├── IEL_Generator
+│   │   │   │   ├── iel_generator.py
+│   │   │   │   ├── iel_signer.py
+│   │   │   │   ├── iel_evaluator.py
+│   │   │   │   ├── iel_synthesizer.py
+│   │   │   │   ├── iel_error_handler.py
+│   │   │   │   ├── iel_registryv2.py
+│   │   │   │   ├── iel_overlay.py
+│   │   │   │   ├── iel_registryv1.py
+│   │   │   │   ├── iel_signing_standard_a8671592ec4be710.key
+│   │   │   │   ├── iel_schema.py
+│   │   │   │   ├── ontoprop_paring
+│   │   │   │   │   ├── config_ontological_properties.json
+│   │   │   │   │   ├── consolidated_ontological_config.json
+│   │   │   │   │   ├── __pycache__
+│   │   │   │   │   │   ├── __init__.cpython-312.pyc
+│   │   │   │   │   ├── __init__.py
+│   │   │   │   │   ├── config_ontological_connections.json
+│   │   │   │   │   ├── ontoprop_iel_pairing.json
+│   │   │   │   ├── __pycache__
+│   │   │   │   │   ├── __init__.cpython-312.pyc
+│   │   │   │   │   ├── iel_registry.cpython-312.pyc
+│   │   │   │   │   ├── iel_overlay.cpython-312.pyc
+│   │   │   │   ├── __init__.py
+│   │   │   │   ├── master.key
+│   │   │   ├── entry.py
+│   │   │   ├── autonomous_learning.py
+│   │   ├── I2_Agent
+│   │   │   ├── connections
+│   │   │   │   ├── id_handler.py
+│   │   │   │   ├── __pycache__
+│   │   │   │   │   ├── router.cpython-312.pyc
+│   │   │   │   │   ├── id_handler.cpython-312.pyc
+│   │   │   │   ├── router.py
+│   │   │   ├── _core
+│   │   │   │   ├── bridge_principle_operator.py
+│   │   │   │   ├── I2_ontological_ID.json
+│   │   │   │   ├── __pycache__
+│   │   │   │   │   ├── __init__.cpython-312.pyc
+│   │   │   │   │   ├── omniproperty_integration.cpython-312.pyc
+│   │   │   │   │   ├── 3OT_mediator.cpython-312.pyc
+│   │   │   │   │   ├── bridge_principle_operator.cpython-312.pyc
+│   │   │   │   ├── omniproperty_integration.py
+│   │   │   │   ├── 3OT_mediator.py
+│   │   │   │   ├── __init__.py
+│   │   │   ├── __pycache__
+│   │   │   │   ├── __init__.cpython-312.pyc
+│   │   │   ├── protocol_operations
+│   │   │   │   ├── smp.py
+│   │   │   │   ├── ui_io
+│   │   │   │   │   ├── adapter.py
+│   │   │   │   │   ├── __pycache__
+│   │   │   │   │   │   ├── server.cpython-312.pyc
+│   │   │   │   │   │   ├── __init__.cpython-312.pyc
+│   │   │   │   │   │   ├── adapter.cpython-312.pyc
+│   │   │   │   │   ├── server.py
+│   │   │   │   │   ├── __init__.py
+│   │   │   │   ├── __pycache__
+│   │   │   │   │   ├── smp.cpython-312.pyc
+│   │   │   │   ├── llm_io
+│   │   │   │   │   ├── providers_llama.py
+│   │   │   │   │   ├── client.py
+│   │   │   │   │   ├── config.py
+│   │   │   │   │   ├── providers_openai.py
+│   │   │   │   │   ├── types.py
+│   │   │   │   │   ├── __pycache__
+│   │   │   │   │   │   ├── config.cpython-312.pyc
+│   │   │   │   │   │   ├── types.cpython-312.pyc
+│   │   │   │   │   │   ├── __init__.cpython-312.pyc
+│   │   │   │   │   │   ├── providers_llama.cpython-312.pyc
+│   │   │   │   │   │   ├── providers_openai.cpython-312.pyc
+│   │   │   │   │   │   ├── exports.cpython-312.pyc
+│   │   │   │   │   │   ├── client.cpython-312.pyc
+│   │   │   │   │   ├── exports.py
+│   │   │   │   │   ├── __init__.py
+│   │   │   │   ├── privation_handler
+│   │   │   │   │   ├── privation_gate.py
+│   │   │   │   │   ├── privation_classifier.py
+│   │   │   │   │   ├── privation_analyst.py
+│   │   │   │   │   ├── privation_transformer.py
+│   │   │   │   │   ├── privation_library
+│   │   │   │   │   │   ├── iel_ontological_bijection_optimized.json
+│   │   │   │   │   │   ├── __pycache__
+│   │   │   │   │   │   │   ├── __init__.cpython-312.pyc
+│   │   │   │   │   │   ├── README_PRIVATIONS.md
+│   │   │   │   │   │   ├── privation_library.json.bak
+│   │   │   │   │   │   ├── privation_library.json
+│   │   │   │   │   │   ├── __init__.py
+│   │   │   │   │   ├── __pycache__
+│   │   │   │   │   │   ├── privation_transformer.cpython-312.pyc
+│   │   │   │   │   │   ├── privation_gate.cpython-312.pyc
+│   │   │   │   │   │   ├── privation_analyst.cpython-312.pyc
+│   │   │   │   │   │   ├── privation_classifier.cpython-312.pyc
+│   │   │   │   │   │   ├── privation_override.cpython-312.pyc
+│   │   │   │   │   ├── privation_override.py
+│   │   │   ├── diagnostics
+│   │   │   │   ├── health.py
+│   │   │   │   ├── __pycache__
+│   │   │   │   │   ├── errors.cpython-312.pyc
+│   │   │   │   │   ├── health.cpython-312.pyc
+│   │   │   │   ├── errors.py
+│   │   │   ├── config
+│   │   │   │   ├── logging_utils.py
+│   │   │   │   ├── constants.py
+│   │   │   │   ├── packet_types.py
+│   │   │   │   ├── hashing.py
+│   │   │   │   ├── __pycache__
+│   │   │   │   │   ├── hashing.cpython-312.pyc
+│   │   │   │   │   ├── schema_utils.cpython-312.pyc
+│   │   │   │   │   ├── packet_types.cpython-312.pyc
+│   │   │   │   │   ├── time_utils.cpython-312.pyc
+│   │   │   │   │   ├── logging_utils.cpython-312.pyc
+│   │   │   │   │   ├── constants.cpython-312.pyc
+│   │   │   │   ├── schema_utils.py
+│   │   │   │   ├── time_utils.py
+│   │   │   ├── __init__.py
+│   │   ├── Agent_Resources
+│   │   │   ├── math_categories
+│   │   │   │   ├── Probability
+│   │   │   │   │   ├── __pycache__
+│   │   │   │   │   │   ├── __init__.cpython-312.pyc
+│   │   │   │   │   ├── Probability.v
+│   │   │   │   │   ├── README.md
+│   │   │   │   │   ├── __init__.py
+│   │   │   │   ├── NumberTheory
+│   │   │   │   │   ├── __pycache__
+│   │   │   │   │   │   ├── __init__.cpython-312.pyc
+│   │   │   │   │   ├── Number.v
+│   │   │   │   │   ├── README.md
+│   │   │   │   │   ├── __init__.py
+│   │   │   │   ├── Algebra
+│   │   │   │   │   ├── Algebra.v
+│   │   │   │   │   ├── __pycache__
+│   │   │   │   │   │   ├── __init__.cpython-312.pyc
+│   │   │   │   │   ├── README.md
+│   │   │   │   │   ├── __init__.py
+│   │   │   │   ├── tests
+│   │   │   │   │   ├── test_arithmopraxis.v
+│   │   │   │   │   ├── __pycache__
+│   │   │   │   │   │   ├── __init__.cpython-312.pyc
+│   │   │   │   │   ├── scripts
+│   │   │   │   │   │   ├── run_scan_ocaml.sh
+│   │   │   │   │   │   ├── __pycache__
+│   │   │   │   │   │   │   ├── __init__.cpython-312.pyc
+│   │   │   │   │   │   ├── __init__.py
+│   │   │   │   │   ├── __init__.py
+│   │   │   │   ├── MeasureTheory
+│   │   │   │   │   ├── Measure.v
+│   │   │   │   │   ├── __pycache__
+│   │   │   │   │   │   ├── __init__.cpython-312.pyc
+│   │   │   │   │   ├── README.md
+│   │   │   │   │   ├── __init__.py
+│   │   │   │   ├── ConstructiveSets
+│   │   │   │   │   ├── Sets.v
+│   │   │   │   │   ├── __pycache__
+│   │   │   │   │   │   ├── __init__.cpython-312.pyc
+│   │   │   │   │   ├── README.md
+│   │   │   │   │   ├── __init__.py
+│   │   │   │   ├── TypeTheory
+│   │   │   │   │   ├── __pycache__
+│   │   │   │   │   │   ├── __init__.cpython-312.pyc
+│   │   │   │   │   ├── Types.v
+│   │   │   │   │   ├── README.md
+│   │   │   │   │   ├── __init__.py
+│   │   │   │   ├── BooleanLogic
+│   │   │   │   │   ├── Boolean.v
+│   │   │   │   │   ├── __pycache__
+│   │   │   │   │   │   ├── __init__.cpython-312.pyc
+│   │   │   │   │   ├── README.md
+│   │   │   │   │   ├── __init__.py
+│   │   │   │   ├── logos_mathematical_core.py
+│   │   │   │   ├── Geometry
+│   │   │   │   │   ├── Geometry.v
+│   │   │   │   │   ├── __pycache__
+│   │   │   │   │   │   ├── __init__.cpython-312.pyc
+│   │   │   │   │   ├── README.md
+│   │   │   │   │   ├── __init__.py
+│   │   │   │   ├── __pycache__
+│   │   │   │   │   ├── __init__.cpython-312.pyc
+│   │   │   │   │   ├── logos_mathematical_core.cpython-312.pyc
+│   │   │   │   ├── Meta
+│   │   │   │   │   ├── Realizability.v
+│   │   │   │   │   ├── __pycache__
+│   │   │   │   │   │   ├── __init__.cpython-312.pyc
+│   │   │   │   │   ├── __init__.py
+│   │   │   │   │   ├── SIGNALS.v
+│   │   │   │   ├── Core
+│   │   │   │   │   ├── Numbers.v
+│   │   │   │   │   ├── __pycache__
+│   │   │   │   │   │   ├── __init__.cpython-312.pyc
+│   │   │   │   │   ├── __init__.py
+│   │   │   │   │   ├── ModalWrap.v
+│   │   │   │   ├── Examples
+│   │   │   │   │   ├── Goldbach
+│   │   │   │   │   │   ├── ScanFeatures.v
+│   │   │   │   │   │   ├── Scan.v
+│   │   │   │   │   │   ├── demo_final.v
+│   │   │   │   │   │   ├── performance_test.v
+│   │   │   │   │   │   ├── Spec.v
+│   │   │   │   │   │   ├── Verify.v
+│   │   │   │   │   │   ├── __pycache__
+│   │   │   │   │   │   │   ├── __init__.cpython-312.pyc
+│   │   │   │   │   │   ├── Extract.v
+│   │   │   │   │   │   ├── __init__.py
+│   │   │   │   │   │   ├── Invariants.v
+│   │   │   │   │   │   ├── TestScan.v
+│   │   │   │   │   │   ├── test_simple_scan.v
+│   │   │   │   │   ├── __pycache__
+│   │   │   │   │   │   ├── __init__.cpython-312.pyc
+│   │   │   │   │   ├── __init__.py
+│   │   │   │   ├── Topology
+│   │   │   │   │   ├── Topology.v
+│   │   │   │   │   ├── __pycache__
+│   │   │   │   │   │   ├── __init__.cpython-312.pyc
+│   │   │   │   │   ├── README.md
+│   │   │   │   │   ├── __init__.py
+│   │   │   │   ├── README.md
+│   │   │   │   ├── __init__.py
+│   │   │   │   ├── Optimization
+│   │   │   │   │   ├── __pycache__
+│   │   │   │   │   │   ├── __init__.cpython-312.pyc
+│   │   │   │   │   ├── README.md
+│   │   │   │   │   ├── Optimize.v
+│   │   │   │   │   ├── __init__.py
+│   │   │   │   ├── CategoryTheory
+│   │   │   │   │   ├── Category.v
+│   │   │   │   │   ├── __pycache__
+│   │   │   │   │   │   ├── __init__.cpython-312.pyc
+│   │   │   │   │   ├── README.md
+│   │   │   │   │   ├── __init__.py
+│   │   │   ├── Logos_Ontological_Properties.json
+│   │   │   ├── Privative_Forms.json
+│   │   │   ├── Simulated_Consciousness_Log.jsonl
+│   │   │   ├── Agent_Omega_Logs.json
+│   │   │   ├── MESH_Visual_Diagram.png
+│   │   │   ├── Logos_Protocol_Manifest.json
+│   │   │   ├── iel_domains
+│   │   │   │   ├── ZelosPraxis
+│   │   │   │   │   ├── __pycache__
+│   │   │   │   │   │   ├── __init__.cpython-312.pyc
+│   │   │   │   │   ├── Core.v
+│   │   │   │   │   ├── __init__.py
+│   │   │   │   ├── TropoPraxis
+│   │   │   │   │   ├── subdomains
+│   │   │   │   │   │   ├── Semantics
+│   │   │   │   │   │   │   ├── Spec.v
+│   │   │   │   │   │   │   ├── __pycache__
+│   │   │   │   │   │   │   │   ├── __init__.cpython-312.pyc
+│   │   │   │   │   │   │   ├── __init__.py
+│   │   │   │   │   │   ├── __pycache__
+│   │   │   │   │   │   │   ├── __init__.cpython-312.pyc
+│   │   │   │   │   │   ├── __init__.py
+│   │   │   │   │   ├── tests
+│   │   │   │   │   │   ├── TropoPraxisTests.v
+│   │   │   │   │   │   ├── __pycache__
+│   │   │   │   │   │   │   ├── __init__.cpython-312.pyc
+│   │   │   │   │   │   ├── __init__.py
+│   │   │   │   │   ├── modal
+│   │   │   │   │   │   ├── __pycache__
+│   │   │   │   │   │   │   ├── __init__.cpython-312.pyc
+│   │   │   │   │   │   ├── FrameSpec.v
+│   │   │   │   │   │   ├── __init__.py
+│   │   │   │   │   ├── theorems
+│   │   │   │   │   │   ├── Conservativity.v
+│   │   │   │   │   │   ├── NormalBase.v
+│   │   │   │   │   │   ├── Cross.v
+│   │   │   │   │   │   ├── Systems.v
+│   │   │   │   │   │   ├── __pycache__
+│   │   │   │   │   │   │   ├── __init__.cpython-312.pyc
+│   │   │   │   │   │   ├── __init__.py
+│   │   │   │   │   ├── __pycache__
+│   │   │   │   │   │   ├── __init__.cpython-312.pyc
+│   │   │   │   │   ├── Registry.v
+│   │   │   │   │   ├── infra
+│   │   │   │   │   │   ├── __pycache__
+│   │   │   │   │   │   │   ├── __init__.cpython-312.pyc
+│   │   │   │   │   │   ├── adaptive
+│   │   │   │   │   │   │   ├── __pycache__
+│   │   │   │   │   │   │   │   ├── __init__.cpython-312.pyc
+│   │   │   │   │   │   │   ├── __init__.py
+│   │   │   │   │   │   │   ├── ModalProbabilistic.v
+│   │   │   │   │   │   ├── __init__.py
+│   │   │   │   │   ├── Core.v
+│   │   │   │   │   ├── README.md
+│   │   │   │   │   ├── __init__.py
+│   │   │   │   ├── TeloPraxis
+│   │   │   │   │   ├── subdomains
+│   │   │   │   │   │   ├── Will
+│   │   │   │   │   │   │   ├── Spec.v
+│   │   │   │   │   │   │   ├── __pycache__
+│   │   │   │   │   │   │   │   ├── __init__.cpython-312.pyc
+│   │   │   │   │   │   │   ├── __init__.py
+│   │   │   │   │   │   ├── __pycache__
+│   │   │   │   │   │   │   ├── __init__.cpython-312.pyc
+│   │   │   │   │   │   ├── __init__.py
+│   │   │   │   │   ├── tests
+│   │   │   │   │   │   ├── TeloPraxisTests.v
+│   │   │   │   │   │   ├── __pycache__
+│   │   │   │   │   │   │   ├── __init__.cpython-312.pyc
+│   │   │   │   │   │   ├── __init__.py
+│   │   │   │   │   ├── modal
+│   │   │   │   │   │   ├── __pycache__
+│   │   │   │   │   │   │   ├── __init__.cpython-312.pyc
+│   │   │   │   │   │   ├── FrameSpec.v
+│   │   │   │   │   │   ├── __init__.py
+│   │   │   │   │   ├── theorems
+│   │   │   │   │   │   ├── Cross.v
+│   │   │   │   │   │   ├── __pycache__
+│   │   │   │   │   │   │   ├── __init__.cpython-312.pyc
+│   │   │   │   │   │   ├── __init__.py
+│   │   │   │   │   ├── __pycache__
+│   │   │   │   │   │   ├── __init__.cpython-312.pyc
+│   │   │   │   │   ├── Core.v
+│   │   │   │   │   ├── README.md
+│   │   │   │   │   ├── __init__.py
+│   │   │   │   ├── AxioPraxis
+│   │   │   │   │   ├── docs
+│   │   │   │   │   │   ├── Axiopraxis_OVERVIEW.md
+│   │   │   │   │   │   ├── __pycache__
+│   │   │   │   │   │   │   ├── __init__.cpython-312.pyc
+│   │   │   │   │   │   ├── __init__.py
+│   │   │   │   │   ├── subdomains
+│   │   │   │   │   │   ├── __pycache__
+│   │   │   │   │   │   │   ├── __init__.cpython-312.pyc
+│   │   │   │   │   │   ├── Registry.v
+│   │   │   │   │   │   ├── Goodness
+│   │   │   │   │   │   │   ├── Spec.v
+│   │   │   │   │   │   │   ├── Smoke.v
+│   │   │   │   │   │   │   ├── Theorems.v
+│   │   │   │   │   │   │   ├── __pycache__
+│   │   │   │   │   │   │   │   ├── __init__.cpython-312.pyc
+│   │   │   │   │   │   │   ├── __init__.py
+│   │   │   │   │   │   ├── Beauty
+│   │   │   │   │   │   │   ├── Smoke.v
+│   │   │   │   │   │   │   ├── Theorems.v
+│   │   │   │   │   │   │   ├── __pycache__
+│   │   │   │   │   │   │   │   ├── __init__.cpython-312.pyc
+│   │   │   │   │   │   │   ├── __init__.py
+│   │   │   │   │   │   ├── __init__.py
+│   │   │   │   │   │   ├── Truth
+│   │   │   │   │   │   │   ├── __pycache__
+│   │   │   │   │   │   │   │   ├── __init__.cpython-312.pyc
+│   │   │   │   │   │   │   ├── __init__.py
+│   │   │   │   │   ├── tests
+│   │   │   │   │   │   ├── Axiopraxis_Smoke.v
+│   │   │   │   │   │   ├── __pycache__
+│   │   │   │   │   │   │   ├── __init__.cpython-312.pyc
+│   │   │   │   │   │   ├── __init__.py
+│   │   │   │   │   ├── axiom_systems.py
+│   │   │   │   │   ├── modal
+│   │   │   │   │   │   ├── __pycache__
+│   │   │   │   │   │   │   ├── __init__.cpython-312.pyc
+│   │   │   │   │   │   ├── FrameSpec.v
+│   │   │   │   │   │   ├── __init__.py
+│   │   │   │   │   ├── consistency_checker.py
+│   │   │   │   │   ├── systems
+│   │   │   │   │   │   ├── Systems.v
+│   │   │   │   │   │   ├── __pycache__
+│   │   │   │   │   │   │   ├── __init__.cpython-312.pyc
+│   │   │   │   │   │   ├── __init__.py
+│   │   │   │   │   ├── foundational_logic.py
+│   │   │   │   │   ├── theorems
+│   │   │   │   │   │   ├── NormalBase.v
+│   │   │   │   │   │   ├── Cross.v
+│   │   │   │   │   │   ├── __pycache__
+│   │   │   │   │   │   │   ├── __init__.cpython-312.pyc
+│   │   │   │   │   │   ├── __init__.py
+│   │   │   │   │   ├── __pycache__
+│   │   │   │   │   │   ├── consistency_checker.cpython-312.pyc
+│   │   │   │   │   │   ├── axiom_systems.cpython-312.pyc
+│   │   │   │   │   │   ├── __init__.cpython-312.pyc
+│   │   │   │   │   │   ├── foundational_logic.cpython-312.pyc
+│   │   │   │   │   ├── __init__.py
+│   │   │   │   ├── ModalPraxis
+│   │   │   │   │   ├── modal
+│   │   │   │   │   │   ├── __pycache__
+│   │   │   │   │   │   │   ├── __init__.cpython-312.pyc
+│   │   │   │   │   │   ├── FrameSpec.v
+│   │   │   │   │   │   ├── __init__.py
+│   │   │   │   │   ├── multi_modal_system.py
+│   │   │   │   │   ├── theorems
+│   │   │   │   │   │   ├── Conservativity.v
+│   │   │   │   │   │   ├── NormalBase.v
+│   │   │   │   │   │   ├── __pycache__
+│   │   │   │   │   │   │   ├── __init__.cpython-312.pyc
+│   │   │   │   │   │   ├── __init__.py
+│   │   │   │   │   ├── __pycache__
+│   │   │   │   │   │   ├── multi_modal_system.cpython-312.pyc
+│   │   │   │   │   │   ├── modal_reasoner.cpython-312.pyc
+│   │   │   │   │   │   ├── __init__.cpython-312.pyc
+│   │   │   │   │   │   ├── modal_logic.cpython-312.pyc
+│   │   │   │   │   ├── ForcesLemmas.v
+│   │   │   │   │   ├── modal_logic.py
+│   │   │   │   │   ├── Registry.v
+│   │   │   │   │   ├── README.md
+│   │   │   │   │   ├── __init__.py
+│   │   │   │   │   ├── modal_reasoner.py
+│   │   │   │   ├── PraxeoPraxis
+│   │   │   │   │   ├── __pycache__
+│   │   │   │   │   │   ├── __init__.cpython-312.pyc
+│   │   │   │   │   ├── Registry.v
+│   │   │   │   │   ├── Core.v
+│   │   │   │   │   ├── __init__.py
+│   │   │   │   ├── TopoPraxis
+│   │   │   │   │   ├── docs
+│   │   │   │   │   │   ├── TopoPraxis_OVERVIEW.md
+│   │   │   │   │   │   ├── __pycache__
+│   │   │   │   │   │   │   ├── __init__.cpython-312.pyc
+│   │   │   │   │   │   ├── __init__.py
+│   │   │   │   │   ├── tests
+│   │   │   │   │   │   ├── TopoPraxis_Smoke.v
+│   │   │   │   │   │   ├── __pycache__
+│   │   │   │   │   │   │   ├── __init__.cpython-312.pyc
+│   │   │   │   │   │   ├── __init__.py
+│   │   │   │   │   ├── systems
+│   │   │   │   │   │   ├── Systems.v
+│   │   │   │   │   │   ├── __pycache__
+│   │   │   │   │   │   │   ├── __init__.cpython-312.pyc
+│   │   │   │   │   │   ├── __init__.py
+│   │   │   │   │   ├── theorems
+│   │   │   │   │   │   ├── NormalBase.v
+│   │   │   │   │   │   ├── __pycache__
+│   │   │   │   │   │   │   ├── __init__.cpython-312.pyc
+│   │   │   │   │   │   ├── __init__.py
+│   │   │   │   │   ├── __pycache__
+│   │   │   │   │   │   ├── __init__.cpython-312.pyc
+│   │   │   │   │   ├── Registry.v
+│   │   │   │   │   ├── FrameSpec.v
+│   │   │   │   │   ├── README.md
+│   │   │   │   │   ├── __init__.py
+│   │   │   │   ├── ThemiPraxis
+│   │   │   │   │   ├── subdomains
+│   │   │   │   │   │   ├── __pycache__
+│   │   │   │   │   │   │   ├── __init__.cpython-312.pyc
+│   │   │   │   │   │   ├── Registry.v
+│   │   │   │   │   │   ├── __init__.py
+│   │   │   │   │   │   ├── Truth
+│   │   │   │   │   │   │   ├── Smoke.v
+│   │   │   │   │   │   │   ├── Theorems.v
+│   │   │   │   │   │   │   ├── __pycache__
+│   │   │   │   │   │   │   │   ├── __init__.cpython-312.pyc
+│   │   │   │   │   │   │   ├── __init__.py
+│   │   │   │   │   ├── modal
+│   │   │   │   │   │   ├── NormFrames.v
+│   │   │   │   │   │   ├── __pycache__
+│   │   │   │   │   │   │   ├── __init__.cpython-312.pyc
+│   │   │   │   │   │   ├── FrameSpec.v
+│   │   │   │   │   │   ├── __init__.py
+│   │   │   │   │   ├── systems
+│   │   │   │   │   │   ├── Systems.v
+│   │   │   │   │   │   ├── __pycache__
+│   │   │   │   │   │   │   ├── __init__.cpython-312.pyc
+│   │   │   │   │   │   ├── __init__.py
+│   │   │   │   │   ├── theorems
+│   │   │   │   │   │   ├── Conservativity.v
+│   │   │   │   │   │   ├── NormalBase.v
+│   │   │   │   │   │   ├── Systems.v
+│   │   │   │   │   │   ├── __pycache__
+│   │   │   │   │   │   │   ├── __init__.cpython-312.pyc
+│   │   │   │   │   │   ├── __init__.py
+│   │   │   │   │   ├── __pycache__
+│   │   │   │   │   │   ├── __init__.cpython-312.pyc
+│   │   │   │   │   ├── Core.v
+│   │   │   │   │   ├── __init__.py
+│   │   │   │   ├── GnosiPraxis
+│   │   │   │   │   ├── epistemological_framework.py
+│   │   │   │   │   ├── subdomains
+│   │   │   │   │   │   ├── __pycache__
+│   │   │   │   │   │   │   ├── __init__.cpython-312.pyc
+│   │   │   │   │   │   ├── Registry.v
+│   │   │   │   │   │   ├── __init__.py
+│   │   │   │   │   │   ├── Truth
+│   │   │   │   │   │   │   ├── Smoke.v
+│   │   │   │   │   │   │   ├── Theorems.v
+│   │   │   │   │   │   │   ├── __pycache__
+│   │   │   │   │   │   │   │   ├── __init__.cpython-312.pyc
+│   │   │   │   │   │   │   ├── __init__.py
+│   │   │   │   │   ├── modal
+│   │   │   │   │   │   ├── __pycache__
+│   │   │   │   │   │   │   ├── __init__.cpython-312.pyc
+│   │   │   │   │   │   ├── FrameSpec.v
+│   │   │   │   │   │   ├── __init__.py
+│   │   │   │   │   ├── systems
+│   │   │   │   │   │   ├── Systems.v
+│   │   │   │   │   │   ├── __pycache__
+│   │   │   │   │   │   │   ├── __init__.cpython-312.pyc
+│   │   │   │   │   │   ├── __init__.py
+│   │   │   │   │   ├── theorems
+│   │   │   │   │   │   ├── Conservativity.v
+│   │   │   │   │   │   ├── NormalBase.v
+│   │   │   │   │   │   ├── Cross.v
+│   │   │   │   │   │   ├── Systems.v
+│   │   │   │   │   │   ├── __pycache__
+│   │   │   │   │   │   │   ├── __init__.cpython-312.pyc
+│   │   │   │   │   │   ├── __init__.py
+│   │   │   │   │   ├── __pycache__
+│   │   │   │   │   │   ├── __init__.cpython-312.pyc
+│   │   │   │   │   │   ├── belief_network.cpython-312.pyc
+│   │   │   │   │   │   ├── epistemological_framework.cpython-312.pyc
+│   │   │   │   │   │   ├── knowledge_system.cpython-312.pyc
+│   │   │   │   │   ├── knowledge_system.py
+│   │   │   │   │   ├── Core.v
+│   │   │   │   │   ├── __init__.py
+│   │   │   │   │   ├── belief_network.py
+│   │   │   │   ├── GlorioPraxis
+│   │   │   │   │   ├── __pycache__
+│   │   │   │   │   │   ├── __init__.cpython-312.pyc
+│   │   │   │   │   ├── Core.v
+│   │   │   │   │   ├── __init__.py
+│   │   │   │   ├── AestheticoPraxis
+│   │   │   │   │   ├── docs
+│   │   │   │   │   │   ├── __pycache__
+│   │   │   │   │   │   │   ├── __init__.cpython-312.pyc
+│   │   │   │   │   │   ├── README.md
+│   │   │   │   │   │   ├── __init__.py
+│   │   │   │   │   ├── tests
+│   │   │   │   │   │   ├── AestheticTests.v
+│   │   │   │   │   │   ├── __pycache__
+│   │   │   │   │   │   │   ├── __init__.cpython-312.pyc
+│   │   │   │   │   │   ├── __init__.py
+│   │   │   │   │   ├── modal
+│   │   │   │   │   │   ├── BeautySpec.v
+│   │   │   │   │   │   ├── __pycache__
+│   │   │   │   │   │   │   ├── __init__.cpython-312.pyc
+│   │   │   │   │   │   ├── __init__.py
+│   │   │   │   │   ├── systems
+│   │   │   │   │   │   ├── __pycache__
+│   │   │   │   │   │   │   ├── __init__.cpython-312.pyc
+│   │   │   │   │   │   ├── __init__.py
+│   │   │   │   │   │   ├── SystemImpl.v
+│   │   │   │   │   ├── theorems
+│   │   │   │   │   │   ├── CoreTheorems.v
+│   │   │   │   │   │   ├── __pycache__
+│   │   │   │   │   │   │   ├── __init__.cpython-312.pyc
+│   │   │   │   │   │   ├── __init__.py
+│   │   │   │   │   ├── __pycache__
+│   │   │   │   │   │   ├── __init__.cpython-312.pyc
+│   │   │   │   │   ├── Registry.v
+│   │   │   │   │   ├── Core.v
+│   │   │   │   │   ├── __init__.py
+│   │   │   │   ├── MakarPraxis
+│   │   │   │   │   ├── __pycache__
+│   │   │   │   │   │   ├── __init__.cpython-312.pyc
+│   │   │   │   │   ├── Core.v
+│   │   │   │   │   ├── __init__.py
+│   │   │   │   ├── ChronoPraxis
+│   │   │   │   │   ├── tactics
+│   │   │   │   │   │   ├── ChronoTactics.v
+│   │   │   │   │   │   ├── __pycache__
+│   │   │   │   │   │   │   ├── __init__.cpython-312.pyc
+│   │   │   │   │   │   ├── __init__.py
+│   │   │   │   │   ├── interfaces
+│   │   │   │   │   │   ├── __pycache__
+│   │   │   │   │   │   │   ├── __init__.cpython-312.pyc
+│   │   │   │   │   │   ├── ChronoPraxis.v
+│   │   │   │   │   │   ├── __init__.py
+│   │   │   │   │   ├── domains
+│   │   │   │   │   │   ├── Compatibilism
+│   │   │   │   │   │   │   ├── CompatibilismTheory.v
+│   │   │   │   │   │   │   ├── __pycache__
+│   │   │   │   │   │   │   │   ├── __init__.cpython-312.pyc
+│   │   │   │   │   │   │   ├── README.md
+│   │   │   │   │   │   │   ├── __init__.py
+│   │   │   │   │   │   ├── ModalOntology
+│   │   │   │   │   │   │   ├── __pycache__
+│   │   │   │   │   │   │   │   ├── __init__.cpython-312.pyc
+│   │   │   │   │   │   │   ├── README.md
+│   │   │   │   │   │   │   ├── __init__.py
+│   │   │   │   │   │   │   ├── ModalCollapse.v
+│   │   │   │   │   │   ├── __pycache__
+│   │   │   │   │   │   │   ├── __init__.cpython-312.pyc
+│   │   │   │   │   │   ├── Empiricism
+│   │   │   │   │   │   │   ├── Relativity.v
+│   │   │   │   │   │   │   ├── __pycache__
+│   │   │   │   │   │   │   │   ├── __init__.cpython-312.pyc
+│   │   │   │   │   │   │   ├── README.md
+│   │   │   │   │   │   │   ├── __init__.py
+│   │   │   │   │   │   │   ├── UnifiedFieldLogic.v
+│   │   │   │   │   │   ├── __init__.py
+│   │   │   │   │   ├── theorems
+│   │   │   │   │   │   ├── MetaTheorems.v
+│   │   │   │   │   │   ├── ModalStrength
+│   │   │   │   │   │   │   ├── ModalAxiomsSound.v
+│   │   │   │   │   │   │   ├── ModalRules.v
+│   │   │   │   │   │   │   ├── __pycache__
+│   │   │   │   │   │   │   │   ├── __init__.cpython-312.pyc
+│   │   │   │   │   │   │   ├── __init__.py
+│   │   │   │   │   │   ├── experimental
+│   │   │   │   │   │   │   ├── __pycache__
+│   │   │   │   │   │   │   │   ├── __init__.cpython-312.pyc
+│   │   │   │   │   │   │   ├── ChronoProofs.v
+│   │   │   │   │   │   │   ├── __init__.py
+│   │   │   │   │   │   ├── __pycache__
+│   │   │   │   │   │   │   ├── __init__.cpython-312.pyc
+│   │   │   │   │   │   ├── __init__.py
+│   │   │   │   │   ├── __pycache__
+│   │   │   │   │   │   ├── __init__.cpython-312.pyc
+│   │   │   │   │   ├── Registry.v
+│   │   │   │   │   ├── substrate
+│   │   │   │   │   │   ├── ChronoPraxis_PXL_Proofs.v
+│   │   │   │   │   │   ├── StateTransitions.v
+│   │   │   │   │   │   ├── ChronoMappings.v
+│   │   │   │   │   │   ├── ChronoPraxis_PXL_Formal.v
+│   │   │   │   │   │   ├── ChronoZAgents.v
+│   │   │   │   │   │   ├── chronostate
+│   │   │   │   │   │   │   ├── StateTransitions.v
+│   │   │   │   │   │   │   ├── __pycache__
+│   │   │   │   │   │   │   │   ├── __init__.cpython-312.pyc
+│   │   │   │   │   │   │   ├── __init__.py
+│   │   │   │   │   │   ├── ChronoAxioms.v
+│   │   │   │   │   │   ├── __pycache__
+│   │   │   │   │   │   │   ├── __init__.cpython-312.pyc
+│   │   │   │   │   │   ├── ChronoModes.v
+│   │   │   │   │   │   ├── ChronoAgents.v
+│   │   │   │   │   │   ├── __init__.py
+│   │   │   │   │   │   ├── Bijection.v
+│   │   │   │   │   ├── ChronoProofs.v
+│   │   │   │   │   ├── chronopraxis
+│   │   │   │   │   │   ├── time_modeling.py
+│   │   │   │   │   │   ├── sequence_analysis.py
+│   │   │   │   │   │   ├── __pycache__
+│   │   │   │   │   │   │   ├── time_modeling.cpython-312.pyc
+│   │   │   │   │   │   │   ├── sequence_analysis.cpython-312.pyc
+│   │   │   │   │   │   │   ├── __init__.cpython-312.pyc
+│   │   │   │   │   │   │   ├── temporal_logic.cpython-312.pyc
+│   │   │   │   │   │   ├── temporal_logic.py
+│   │   │   │   │   │   ├── __init__.py
+│   │   │   │   │   ├── README.md
+│   │   │   │   │   ├── __init__.py
+│   │   │   │   ├── RelatioPraxis
+│   │   │   │   │   ├── docs
+│   │   │   │   │   │   ├── __pycache__
+│   │   │   │   │   │   │   ├── __init__.cpython-312.pyc
+│   │   │   │   │   │   ├── README.md
+│   │   │   │   │   │   ├── __init__.py
+│   │   │   │   │   ├── tests
+│   │   │   │   │   │   ├── RelationalTests.v
+│   │   │   │   │   │   ├── __pycache__
+│   │   │   │   │   │   │   ├── __init__.cpython-312.pyc
+│   │   │   │   │   │   ├── __init__.py
+│   │   │   │   │   ├── modal
+│   │   │   │   │   │   ├── __pycache__
+│   │   │   │   │   │   │   ├── __init__.cpython-312.pyc
+│   │   │   │   │   │   ├── RelationSpec.v
+│   │   │   │   │   │   ├── __init__.py
+│   │   │   │   │   ├── systems
+│   │   │   │   │   │   ├── __pycache__
+│   │   │   │   │   │   │   ├── __init__.cpython-312.pyc
+│   │   │   │   │   │   ├── __init__.py
+│   │   │   │   │   │   ├── SystemImpl.v
+│   │   │   │   │   ├── theorems
+│   │   │   │   │   │   ├── CoreTheorems.v
+│   │   │   │   │   │   ├── __pycache__
+│   │   │   │   │   │   │   ├── __init__.cpython-312.pyc
+│   │   │   │   │   │   ├── __init__.py
+│   │   │   │   │   ├── __pycache__
+│   │   │   │   │   │   ├── __init__.cpython-312.pyc
+│   │   │   │   │   ├── Registry.v
+│   │   │   │   │   ├── Core.v
+│   │   │   │   │   ├── __init__.py
+│   │   │   │   ├── __pycache__
+│   │   │   │   │   ├── __init__.cpython-312.pyc
+│   │   │   │   ├── AnthroPraxis
+│   │   │   │   │   ├── docs
+│   │   │   │   │   │   ├── AnthroPraxis_OVERVIEW.md
+│   │   │   │   │   │   ├── __pycache__
+│   │   │   │   │   │   │   ├── __init__.cpython-312.pyc
+│   │   │   │   │   │   ├── __init__.py
+│   │   │   │   │   ├── subdomains
+│   │   │   │   │   │   ├── Life
+│   │   │   │   │   │   │   ├── Spec.v
+│   │   │   │   │   │   │   ├── Smoke.v
+│   │   │   │   │   │   │   ├── Theorems.v
+│   │   │   │   │   │   │   ├── __pycache__
+│   │   │   │   │   │   │   │   ├── __init__.cpython-312.pyc
+│   │   │   │   │   │   │   ├── __init__.py
+│   │   │   │   │   │   ├── BioPraxis
+│   │   │   │   │   │   │   ├── Spec.v
+│   │   │   │   │   │   │   ├── Smoke.v
+│   │   │   │   │   │   │   ├── Theorems.v
+│   │   │   │   │   │   │   ├── __pycache__
+│   │   │   │   │   │   │   │   ├── __init__.cpython-312.pyc
+│   │   │   │   │   │   │   ├── __init__.py
+│   │   │   │   │   │   ├── __pycache__
+│   │   │   │   │   │   │   ├── __init__.cpython-312.pyc
+│   │   │   │   │   │   ├── Registry.v
+│   │   │   │   │   │   ├── __init__.py
+│   │   │   │   │   ├── tests
+│   │   │   │   │   │   ├── AnthroPraxis_Smoke.v
+│   │   │   │   │   │   ├── AnthroPraxisTests.v
+│   │   │   │   │   │   ├── __pycache__
+│   │   │   │   │   │   │   ├── __init__.cpython-312.pyc
+│   │   │   │   │   │   ├── __init__.py
+│   │   │   │   │   ├── collaboration.py
+│   │   │   │   │   ├── ethics.py
+│   │   │   │   │   ├── modal
+│   │   │   │   │   │   ├── __pycache__
+│   │   │   │   │   │   │   ├── __init__.cpython-312.pyc
+│   │   │   │   │   │   ├── FrameSpec.v
+│   │   │   │   │   │   ├── __init__.py
+│   │   │   │   │   ├── systems
+│   │   │   │   │   │   ├── Systems.v
+│   │   │   │   │   │   ├── __pycache__
+│   │   │   │   │   │   │   ├── __init__.cpython-312.pyc
+│   │   │   │   │   │   ├── __init__.py
+│   │   │   │   │   ├── theorems
+│   │   │   │   │   │   ├── NormalBase.v
+│   │   │   │   │   │   ├── Cross.v
+│   │   │   │   │   │   ├── __pycache__
+│   │   │   │   │   │   │   ├── __init__.cpython-312.pyc
+│   │   │   │   │   │   ├── __init__.py
+│   │   │   │   │   ├── __pycache__
+│   │   │   │   │   │   ├── interaction_models.cpython-312.pyc
+│   │   │   │   │   │   ├── collaboration.cpython-312.pyc
+│   │   │   │   │   │   ├── __init__.cpython-312.pyc
+│   │   │   │   │   │   ├── ethics.cpython-312.pyc
+│   │   │   │   │   ├── Core.v
+│   │   │   │   │   ├── interaction_models.py
+│   │   │   │   │   ├── __init__.py
+│   │   │   │   ├── TheoPraxis
+│   │   │   │   │   ├── subdomains
+│   │   │   │   │   │   ├── __pycache__
+│   │   │   │   │   │   │   ├── __init__.cpython-312.pyc
+│   │   │   │   │   │   ├── Registry.v
+│   │   │   │   │   │   ├── Unity
+│   │   │   │   │   │   │   ├── Spec.v
+│   │   │   │   │   │   │   ├── Smoke.v
+│   │   │   │   │   │   │   ├── Theorems.v
+│   │   │   │   │   │   │   ├── __pycache__
+│   │   │   │   │   │   │   │   ├── __init__.cpython-312.pyc
+│   │   │   │   │   │   │   ├── __init__.py
+│   │   │   │   │   │   ├── __init__.py
+│   │   │   │   │   ├── __pycache__
+│   │   │   │   │   │   ├── __init__.cpython-312.pyc
+│   │   │   │   │   ├── Registry.v
+│   │   │   │   │   ├── README.md
+│   │   │   │   │   ├── __init__.py
+│   │   │   │   ├── CosmoPraxis
+│   │   │   │   │   ├── docs
+│   │   │   │   │   │   ├── CosmoPraxis_OVERVIEW.md
+│   │   │   │   │   │   ├── __pycache__
+│   │   │   │   │   │   │   ├── __init__.cpython-312.pyc
+│   │   │   │   │   │   ├── __init__.py
+│   │   │   │   │   ├── space_time_framework.py
+│   │   │   │   │   ├── cosmic_systems.py
+│   │   │   │   │   ├── subdomains
+│   │   │   │   │   │   ├── Immanence
+│   │   │   │   │   │   │   ├── Spec.v
+│   │   │   │   │   │   │   ├── Smoke.v
+│   │   │   │   │   │   │   ├── Theorems.v
+│   │   │   │   │   │   │   ├── __pycache__
+│   │   │   │   │   │   │   │   ├── __init__.cpython-312.pyc
+│   │   │   │   │   │   │   ├── __init__.py
+│   │   │   │   │   │   ├── Space
+│   │   │   │   │   │   │   ├── Spec.v
+│   │   │   │   │   │   │   ├── Smoke.v
+│   │   │   │   │   │   │   ├── Theorems.v
+│   │   │   │   │   │   │   ├── __pycache__
+│   │   │   │   │   │   │   │   ├── __init__.cpython-312.pyc
+│   │   │   │   │   │   │   ├── __init__.py
+│   │   │   │   │   │   ├── __pycache__
+│   │   │   │   │   │   │   ├── __init__.cpython-312.pyc
+│   │   │   │   │   │   ├── Registry.v
+│   │   │   │   │   │   ├── __init__.py
+│   │   │   │   │   ├── tests
+│   │   │   │   │   │   ├── CosmoPraxis_Smoke.v
+│   │   │   │   │   │   ├── __pycache__
+│   │   │   │   │   │   │   ├── __init__.cpython-312.pyc
+│   │   │   │   │   │   ├── CosmoPraxisTests.v
+│   │   │   │   │   │   ├── __init__.py
+│   │   │   │   │   ├── modal
+│   │   │   │   │   │   ├── __pycache__
+│   │   │   │   │   │   │   ├── __init__.cpython-312.pyc
+│   │   │   │   │   │   ├── FrameSpec.v
+│   │   │   │   │   │   ├── __init__.py
+│   │   │   │   │   ├── systems
+│   │   │   │   │   │   ├── Systems.v
+│   │   │   │   │   │   ├── __pycache__
+│   │   │   │   │   │   │   ├── __init__.cpython-312.pyc
+│   │   │   │   │   │   ├── __init__.py
+│   │   │   │   │   ├── universal_logic.py
+│   │   │   │   │   ├── theorems
+│   │   │   │   │   │   ├── NormalBase.v
+│   │   │   │   │   │   ├── Cross.v
+│   │   │   │   │   │   ├── __pycache__
+│   │   │   │   │   │   │   ├── __init__.cpython-312.pyc
+│   │   │   │   │   │   ├── __init__.py
+│   │   │   │   │   ├── __pycache__
+│   │   │   │   │   │   ├── __init__.cpython-312.pyc
+│   │   │   │   │   │   ├── universal_logic.cpython-312.pyc
+│   │   │   │   │   │   ├── cosmic_systems.cpython-312.pyc
+│   │   │   │   │   │   ├── space_time_framework.cpython-312.pyc
+│   │   │   │   │   ├── Core.v
+│   │   │   │   │   ├── __init__.py
+│   │   │   │   ├── README.md
+│   │   │   │   ├── ErgoPraxis
+│   │   │   │   │   ├── resource_manager.py
+│   │   │   │   │   ├── subdomains
+│   │   │   │   │   │   ├── __pycache__
+│   │   │   │   │   │   │   ├── __init__.cpython-312.pyc
+│   │   │   │   │   │   ├── __init__.py
+│   │   │   │   │   │   ├── Truth
+│   │   │   │   │   │   │   ├── Spec.v
+│   │   │   │   │   │   │   ├── __pycache__
+│   │   │   │   │   │   │   │   ├── __init__.cpython-312.pyc
+│   │   │   │   │   │   │   ├── __init__.py
+│   │   │   │   │   ├── tests
+│   │   │   │   │   │   ├── __pycache__
+│   │   │   │   │   │   │   ├── __init__.cpython-312.pyc
+│   │   │   │   │   │   ├── ErgoPraxisTests.v
+│   │   │   │   │   │   ├── __init__.py
+│   │   │   │   │   ├── ergonomic_optimizer.py
+│   │   │   │   │   ├── modal
+│   │   │   │   │   │   ├── __pycache__
+│   │   │   │   │   │   │   ├── __init__.cpython-312.pyc
+│   │   │   │   │   │   ├── FrameSpec.v
+│   │   │   │   │   │   ├── __init__.py
+│   │   │   │   │   ├── theorems
+│   │   │   │   │   │   ├── Cross.v
+│   │   │   │   │   │   ├── __pycache__
+│   │   │   │   │   │   │   ├── __init__.cpython-312.pyc
+│   │   │   │   │   │   ├── __init__.py
+│   │   │   │   │   ├── __pycache__
+│   │   │   │   │   │   ├── resource_manager.cpython-312.pyc
+│   │   │   │   │   │   ├── __init__.cpython-312.pyc
+│   │   │   │   │   │   ├── ergonomic_optimizer.cpython-312.pyc
+│   │   │   │   │   │   ├── action_system.cpython-312.pyc
+│   │   │   │   │   ├── Core.v
+│   │   │   │   │   ├── README.md
+│   │   │   │   │   ├── __init__.py
+│   │   │   │   │   ├── action_system.py
+│   │   │   │   ├── __init__.py
+│   │   │   ├── __pycache__
+│   │   │   │   ├── __init__.cpython-312.pyc
+│   │   │   ├── ION_Argument_Complete.json
+│   │   │   ├── Three Pillars of Divine Necessity.json
+│   │   │   ├── MESH_Diagram_Appendix.json
+│   │   │   ├── __init__.py
+│   │   │   ├── Three Pillars Formalization Axiomatic and Computational Framework.json
+│   │   │   ├── MESH_Argument.json
+│   │   ├── I3_Agent
+│   │   │   ├── connections
+│   │   │   │   ├── id_handler.py
+│   │   │   │   ├── __pycache__
+│   │   │   │   │   ├── router.cpython-312.pyc
+│   │   │   │   │   ├── id_handler.cpython-312.pyc
+│   │   │   │   ├── router.py
+│   │   │   ├── _core
+│   │   │   │   ├── agent_root_manifest.json
+│   │   │   │   ├── __pycache__
+│   │   │   │   │   ├── Omni_Property_Integration.cpython-312.pyc
+│   │   │   │   │   ├── __init__.cpython-312.pyc
+│   │   │   │   │   ├── Mind_Principal_Operator.cpython-312.pyc
+│   │   │   │   ├── Mind_Principal_Operator.py
+│   │   │   │   ├── Omni_Property_Integration.py
+│   │   │   │   ├── __init__.py
+│   │   │   ├── __pycache__
+│   │   │   │   ├── __init__.cpython-312.pyc
+│   │   │   ├── protocol_operations
+│   │   │   │   ├── arp_planner
+│   │   │   │   │   ├── plan_evaluator.py
+│   │   │   │   │   ├── __pycache__
+│   │   │   │   │   │   ├── baseline_planner.cpython-312.pyc
+│   │   │   │   │   │   ├── __init__.cpython-312.pyc
+│   │   │   │   │   │   ├── plan_evaluator.cpython-312.pyc
+│   │   │   │   │   ├── baseline_planner.py
+│   │   │   │   │   ├── __init__.py
+│   │   │   │   ├── arp_tests
+│   │   │   │   │   ├── __pycache__
+│   │   │   │   │   │   ├── sample_task.cpython-312.pyc
+│   │   │   │   │   │   ├── __init__.cpython-312.pyc
+│   │   │   │   │   │   ├── run_cycle_smoke.cpython-312.pyc
+│   │   │   │   │   ├── sample_task.py
+│   │   │   │   │   ├── run_cycle_smoke.py
+│   │   │   │   │   ├── __init__.py
+│   │   │   │   ├── arp_cycle
+│   │   │   │   │   ├── cycle_runner.py
+│   │   │   │   │   ├── __pycache__
+│   │   │   │   │   │   ├── policy.cpython-312.pyc
+│   │   │   │   │   │   ├── __init__.cpython-312.pyc
+│   │   │   │   │   │   ├── cycle_runner.cpython-312.pyc
+│   │   │   │   │   ├── __init__.py
+│   │   │   │   │   ├── policy.py
+│   │   │   │   ├── arp_runtime
+│   │   │   │   │   ├── work_order.py
+│   │   │   │   │   ├── plan_packet.py
+│   │   │   │   │   ├── evaluation_packet.py
+│   │   │   │   │   ├── task_intake.py
+│   │   │   │   │   ├── __pycache__
+│   │   │   │   │   │   ├── work_order.cpython-312.pyc
+│   │   │   │   │   │   ├── plan_packet.cpython-312.pyc
+│   │   │   │   │   │   ├── __init__.cpython-312.pyc
+│   │   │   │   │   │   ├── task_intake.cpython-312.pyc
+│   │   │   │   │   │   ├── evaluation_packet.cpython-312.pyc
+│   │   │   │   │   ├── __init__.py
+│   │   │   ├── diagnostics
+│   │   │   │   ├── health.py
+│   │   │   │   ├── __pycache__
+│   │   │   │   │   ├── errors.cpython-312.pyc
+│   │   │   │   │   ├── health.cpython-312.pyc
+│   │   │   │   ├── errors.py
+│   │   │   ├── config
+│   │   │   │   ├── logging_utils.py
+│   │   │   │   ├── constants.py
+│   │   │   │   ├── packet_types.py
+│   │   │   │   ├── hashing.py
+│   │   │   │   ├── __pycache__
+│   │   │   │   │   ├── hashing.cpython-312.pyc
+│   │   │   │   │   ├── schema_utils.cpython-312.pyc
+│   │   │   │   │   ├── packet_types.cpython-312.pyc
+│   │   │   │   │   ├── time_utils.cpython-312.pyc
+│   │   │   │   │   ├── logging_utils.cpython-312.pyc
+│   │   │   │   │   ├── constants.cpython-312.pyc
+│   │   │   │   ├── schema_utils.py
+│   │   │   │   ├── time_utils.py
+│   │   │   ├── __init__.py
+│   │   ├── I1_Agent
+│   │   │   ├── connections
+│   │   │   │   ├── id_handler.py
+│   │   │   │   ├── __pycache__
+│   │   │   │   │   ├── router.cpython-312.pyc
+│   │   │   │   │   ├── __init__.cpython-312.pyc
+│   │   │   │   │   ├── id_handler.cpython-312.pyc
+│   │   │   │   ├── router.py
+│   │   │   │   ├── __init__.py
+│   │   │   ├── _core
+│   │   │   │   ├── Sign_Principal_Operator.py
+│   │   │   │   ├── I1_ontology_ID.json
+│   │   │   │   ├── __pycache__
+│   │   │   │   │   ├── OmniProperty_Integration.cpython-312.pyc
+│   │   │   │   │   ├── Sign_Principal_Operator.cpython-312.pyc
+│   │   │   │   │   ├── __init__.cpython-312.pyc
+│   │   │   │   ├── OmniProperty_Integration.py
+│   │   │   │   ├── __init__.py
+│   │   │   ├── __pycache__
+│   │   │   │   ├── __init__.cpython-312.pyc
+│   │   │   ├── protocol_operations
+│   │   │   │   ├── scp_bdn_adapter
+│   │   │   │   │   ├── bdn_adapter.py
+│   │   │   │   │   ├── __pycache__
+│   │   │   │   │   │   ├── bdn_adapter.cpython-312.pyc
+│   │   │   │   │   │   ├── __init__.cpython-312.pyc
+│   │   │   │   │   │   ├── bdn_types.cpython-312.pyc
+│   │   │   │   │   ├── bdn_types.py
+│   │   │   │   │   ├── __init__.py
+│   │   │   │   ├── scp_predict
+│   │   │   │   │   ├── risk_estimator.py
+│   │   │   │   │   ├── __pycache__
+│   │   │   │   │   │   ├── risk_estimator.cpython-312.pyc
+│   │   │   │   │   │   ├── __init__.cpython-312.pyc
+│   │   │   │   │   │   ├── predict_integration.cpython-312.pyc
+│   │   │   │   │   ├── __init__.py
+│   │   │   │   │   ├── predict_integration.py
+│   │   │   │   ├── scp_transform
+│   │   │   │   │   ├── iterative_loop.py
+│   │   │   │   │   ├── transform_registry.py
+│   │   │   │   │   ├── __pycache__
+│   │   │   │   │   │   ├── transform_types.cpython-312.pyc
+│   │   │   │   │   │   ├── iterative_loop.cpython-312.pyc
+│   │   │   │   │   │   ├── transform_registry.cpython-312.pyc
+│   │   │   │   │   │   ├── __init__.cpython-312.pyc
+│   │   │   │   │   ├── transform_types.py
+│   │   │   │   │   ├── __init__.py
+│   │   │   │   ├── scp_tests
+│   │   │   │   │   ├── sample_smp.py
+│   │   │   │   │   ├── __pycache__
+│   │   │   │   │   │   ├── run_pipeline_smoke.cpython-312.pyc
+│   │   │   │   │   │   ├── sample_smp.cpython-312.pyc
+│   │   │   │   │   │   ├── __init__.cpython-312.pyc
+│   │   │   │   │   ├── run_pipeline_smoke.py
+│   │   │   │   │   ├── __init__.py
+│   │   │   │   ├── scp_integrations
+│   │   │   │   │   ├── iterative_loop.py
+│   │   │   │   │   ├── pipeline_runner.py
+│   │   │   │   │   ├── __pycache__
+│   │   │   │   │   │   ├── pipeline_runner.cpython-312.pyc
+│   │   │   │   │   │   ├── iterative_loop.cpython-312.pyc
+│   │   │   │   │   │   ├── __init__.cpython-312.pyc
+│   │   │   │   │   ├── __init__.py
+│   │   │   │   ├── scp_mvs_adapter
+│   │   │   │   │   ├── mvs_types.py
+│   │   │   │   │   ├── mvs_adapter.py
+│   │   │   │   │   ├── __pycache__
+│   │   │   │   │   │   ├── mvs_adapter.cpython-312.pyc
+│   │   │   │   │   │   ├── __init__.cpython-312.pyc
+│   │   │   │   │   │   ├── mvs_types.cpython-312.pyc
+│   │   │   │   │   ├── __init__.py
+│   │   │   │   ├── __pycache__
+│   │   │   │   │   ├── __init__.cpython-312.pyc
+│   │   │   │   ├── scp_analysis
+│   │   │   │   │   ├── trajectory_types.py
+│   │   │   │   │   ├── __pycache__
+│   │   │   │   │   │   ├── trajectory_types.cpython-312.pyc
+│   │   │   │   │   │   ├── __init__.cpython-312.pyc
+│   │   │   │   │   │   ├── analysis_runner.cpython-312.pyc
+│   │   │   │   │   ├── __init__.py
+│   │   │   │   │   ├── analysis_runner.py
+│   │   │   │   ├── scp_runtime
+│   │   │   │   │   ├── work_order.py
+│   │   │   │   │   ├── result_packet.py
+│   │   │   │   │   ├── smp_intake.py
+│   │   │   │   │   ├── __pycache__
+│   │   │   │   │   │   ├── work_order.cpython-312.pyc
+│   │   │   │   │   │   ├── result_packet.cpython-312.pyc
+│   │   │   │   │   │   ├── __init__.cpython-312.pyc
+│   │   │   │   │   │   ├── smp_intake.cpython-312.pyc
+│   │   │   │   │   ├── README.md
+│   │   │   │   │   ├── __init__.py
+│   │   │   │   ├── __init__.py
+│   │   │   │   ├── scp_cycle
+│   │   │   │   │   ├── cycle_runner.py
+│   │   │   │   │   ├── __pycache__
+│   │   │   │   │   │   ├── policy.cpython-312.pyc
+│   │   │   │   │   │   ├── __init__.cpython-312.pyc
+│   │   │   │   │   │   ├── cycle_runner.cpython-312.pyc
+│   │   │   │   │   ├── __init__.py
+│   │   │   │   │   ├── policy.py
+│   │   │   ├── diagnostics
+│   │   │   │   ├── health.py
+│   │   │   │   ├── __pycache__
+│   │   │   │   │   ├── errors.cpython-312.pyc
+│   │   │   │   │   ├── __init__.cpython-312.pyc
+│   │   │   │   │   ├── health.cpython-312.pyc
+│   │   │   │   ├── __init__.py
+│   │   │   │   ├── errors.py
+│   │   │   ├── config
+│   │   │   │   ├── logging_utils.py
+│   │   │   │   ├── constants.py
+│   │   │   │   ├── packet_types.py
+│   │   │   │   ├── hashing.py
+│   │   │   │   ├── __pycache__
+│   │   │   │   │   ├── hashing.cpython-312.pyc
+│   │   │   │   │   ├── schema_utils.cpython-312.pyc
+│   │   │   │   │   ├── __init__.cpython-312.pyc
+│   │   │   │   │   ├── packet_types.cpython-312.pyc
+│   │   │   │   │   ├── time_utils.cpython-312.pyc
+│   │   │   │   │   ├── logging_utils.cpython-312.pyc
+│   │   │   │   │   ├── constants.cpython-312.pyc
+│   │   │   │   ├── schema_utils.py
+│   │   │   │   ├── __init__.py
+│   │   │   │   ├── time_utils.py
+│   │   │   ├── __init__.py
+│   │   ├── __pycache__
+│   │   │   ├── __init__.cpython-312.pyc
+│   │   ├── __init__.py
+├── CoqMakefile
+├── LEGACY_SCRIPTS_TO_EXAMINE
+│   ├── test_evaluator_learning_smoke.py
+│   ├── system_mode_initializer.py
+│   ├── test_llm_bypass_smoke.py
+│   ├── test_tool_pipeline_smoke.py
+│   ├── export_tool_registry.py
+│   ├── test_stub_beliefs_never_verified.py
+│   ├── test_logos_runtime_phase2_smoke.py
+│   ├── _Reports
+│   │   ├── ARP_Pre_Header_Audit
+│   │   │   ├── arp_pre_header_audit.json
+│   │   │   ├── arp_pre_header_audit.md
+│   ├── aligned_agent_import.py
+│   ├── test_arp_modes.py
+│   ├── evidence.py
+│   ├── test_logos_agi_bootstrap_modes.py
+│   ├── test_proved_grounding.py
+│   ├── cycle_ledger.py
+│   ├── build_coq_theorem_index.py
+│   ├── archive_planner_digests.py
+│   ├── legacy_nexu_smp
+│   │   ├── nexus
+│   │   │   ├── sop_nexus.py
+│   │   │   ├── sop_operations.py
+│   │   │   ├── PROTOCOL_OPERATIONS.txt
+│   │   │   ├── legacy_sop_nexus.py
+│   │   │   ├── __pycache__
+│   │   │   │   ├── sop_operations.cpython-312.pyc
+│   │   │   │   ├── sop_nexus.cpython-312.pyc
+│   │   │   │   ├── __init__.cpython-312.pyc
+│   │   │   │   ├── legacy_sop_nexus.cpython-312.pyc
+│   │   │   ├── README.md
+│   │   │   ├── __init__.py
+│   │   ├── system_utilities2
+│   │   │   ├── nexus
+│   │   │   │   ├── uip_nexus.py
+│   │   │   │   ├── uip_operations.py
+│   │   │   │   ├── __pycache__
+│   │   │   │   │   ├── uip_nexus.cpython-312.pyc
+│   │   │   │   │   ├── uip_operations.cpython-312.pyc
+│   │   │   │   │   ├── __init__.cpython-312.pyc
+│   │   │   │   ├── __init__.py
+│   │   │   ├── __pycache__
+│   │   │   │   ├── __init__.cpython-312.pyc
+│   │   │   │   ├── system_utils.cpython-312.pyc
+│   │   │   ├── system_utils.py
+│   │   │   ├── __init__.py
+│   │   │   ├── shared
+│   │   │   │   ├── message_formats.py
+│   │   │   │   ├── system_imports.py
+│   │   │   │   ├── __pycache__
+│   │   │   │   │   ├── __init__.cpython-312.pyc
+│   │   │   │   │   ├── system_imports.cpython-312.pyc
+│   │   │   │   │   ├── message_formats.cpython-312.pyc
+│   │   │   │   ├── __init__.py
+│   │   ├── system_utilities3
+│   │   │   ├── arp_nexus.py
+│   │   │   ├── integration_test.py
+│   │   │   ├── example_usage.py
+│   │   │   ├── test_arp_nexus.py
+│   │   │   ├── README.md
+│   │   ├── system_utilities1
+│   │   │   ├── nexus
+│   │   │   │   ├── scp_nexus.py
+│   │   │   │   ├── scp_convergence.json
+│   │   │   │   ├── __pycache__
+│   │   │   │   │   ├── __init__.cpython-312.pyc
+│   │   │   │   │   ├── scp_nexus.cpython-312.pyc
+│   │   │   │   ├── __init__.py
+│   │   │   ├── test_scp_recovery_mode_gate.py
+│   │   │   ├── PROTOCOL_OPERATIONS.txt
+│   │   │   ├── __pycache__
+│   │   │   │   ├── __init__.cpython-312.pyc
+│   │   │   │   ├── test_scp_recovery_mode_gate.cpython-312.pyc
+│   │   │   ├── README.md
+│   │   │   ├── __init__.py
+│   ├── capture_arp_traces_and_backfill.py
+│   ├── stress_sop_runtime.py
+│   ├── __pycache__
+│   │   ├── test_logos_agi_replay_proposals.cpython-312.pyc
+│   │   ├── archive_planner_digests.cpython-312.pyc
+│   │   ├── run_recursive_immersion_cycle.cpython-312.pyc
+│   │   ├── test_tool_pipeline_smoke.cpython-312.pyc
+│   │   ├── cycle_ledger.cpython-312.pyc
+│   │   ├── prototype_grounding_workflow.cpython-312.pyc
+│   │   ├── test_proved_grounding.cpython-312.pyc
+│   │   ├── start_agent.cpython-312.pyc
+│   │   ├── stress_sop_runtime.cpython-312.pyc
+│   │   ├── provenance.cpython-312.pyc
+│   │   ├── nexus_manager.cpython-312.pyc
+│   │   ├── boot_aligned_agent.cpython-312.pyc
+│   │   ├── scan_repo.cpython-312.pyc
+│   │   ├── export_tool_registry.cpython-312.pyc
+│   │   ├── test_stub_beliefs_never_verified.cpython-312.pyc
+│   │   ├── test_logos_agi_bootstrap_modes.cpython-312.pyc
+│   │   ├── capture_arp_traces_and_backfill.cpython-312.pyc
+│   │   ├── aligned_agent_import.cpython-312.pyc
+│   │   ├── test_logos_agi_pin_drift.cpython-312.pyc
+│   │   ├── run_mvp_acceptance.cpython-312.pyc
+│   │   ├── build_coq_theorem_index.cpython-312.pyc
+│   │   ├── test_plan_revision_on_contradiction.cpython-312.pyc
+│   │   ├── protocol_probe.cpython-312.pyc
+│   │   ├── run_cycle_loop.cpython-312.pyc
+│   │   ├── system_mode_initializer.cpython-312.pyc
+│   │   ├── test_arp_modes.cpython-312.pyc
+│   │   ├── scp_local_diagnostic.cpython-312.pyc
+│   │   ├── run_simulation_stub.cpython-312.pyc
+│   │   ├── logos_agi_adapter.cpython-312.pyc
+│   │   ├── evidence.cpython-312.pyc
+│   ├── boot_aligned_agent.py
+│   ├── nexus_manager.py
+│   ├── start_agent.py
+│   ├── test_plan_revision_on_contradiction.py
+│   ├── test_logos_agi_pin_drift.py
+│   ├── test_logos_agi_replay_proposals.py
+│   ├── logos_agi_adapter.py
+├── __pycache__
+│   ├── __main__.cpython-312.pyc
+├── System_Entry_Point
+│   ├── Proof_Logs
+│   │   ├── attestations
+│   │   │   ├── logos_system_proof.make.log
+│   │   │   ├── logos_system_proof.json
+│   │   │   ├── pxl_proof_gate.make.log
+│   │   │   ├── proof_gate_attestation.json
+│   │   │   ├── pxl_proof_gate.json
+│   ├── Recursion_Grounding
+│   │   ├── run_conscious_sim.py
+│   │   ├── __pycache__
+│   │   │   ├── recursion_identity_runtime.cpython-312.pyc
+│   │   │   ├── __init__.cpython-312.pyc
+│   │   ├── recursion_identity_runtime.py
+│   │   ├── __init__.py
+│   ├── Orchestration_Tools
+│   │   ├── runtime_requirements.json
+│   │   ├── EXT_Lib_Wrappers
+│   │   │   ├── stats_interface.py
+│   │   │   ├── state_space_utils.py
+│   │   │   ├── garch_wrapper.py
+│   │   │   ├── autonomous_learning_guide.md
+│   │   │   ├── ml_components.py
+│   │   │   ├── __pycache__
+│   │   │   │   ├── ml_components.cpython-312.pyc
+│   │   │   │   ├── garch_wrapper.cpython-312.pyc
+│   │   │   │   ├── pytorch_ml_adapters.cpython-312.pyc
+│   │   │   │   ├── torch_adapters.cpython-312.pyc
+│   │   │   │   ├── forecasting_nexus.cpython-312.pyc
+│   │   │   │   ├── __init__.cpython-312.pyc
+│   │   │   │   ├── analytics.cpython-312.pyc
+│   │   │   │   ├── arima_wrapper.cpython-312.pyc
+│   │   │   │   ├── causal_architect.cpython-312.pyc
+│   │   │   │   ├── deep_learning_adapter.cpython-312.pyc
+│   │   │   │   ├── ts_kalman_filter.cpython-312.pyc
+│   │   │   │   ├── stats_interface.cpython-312.pyc
+│   │   │   │   ├── kalman_filter.cpython-312.pyc
+│   │   │   │   ├── state_space_utils.cpython-312.pyc
+│   │   │   ├── analytics.py
+│   │   │   ├── pytorch_ml_adapters.py
+│   │   │   ├── causal_architect.py
+│   │   │   ├── arima_wrapper.py
+│   │   │   ├── forecasting_nexus.py
+│   │   │   ├── torch_adapters.py
+│   │   │   ├── kalman_filter.py
+│   │   │   ├── __init__.py
+│   │   │   ├── deep_learning_adapter.py
+│   │   │   ├── ts_kalman_filter.py
+│   │   ├── proof_gate_tools.py
+│   │   ├── runtime_protocol.py
+│   │   ├── lib_loader.py
+│   │   ├── lock_and_key_orchestrator.sh
+│   │   ├── pxl_identity_guard.sh
+│   │   ├── __pycache__
+│   │   │   ├── runtime_protocol.cpython-312.pyc
+│   │   │   ├── lib_loader.cpython-312.pyc
+│   │   │   ├── proof_gate_tools.cpython-312.pyc
+│   │   │   ├── compute_identity_hash.cpython-312.pyc
+│   │   ├── compute_identity_hash.py
+│   │   ├── dual_proof_gate.sh
+│   │   ├── preflight_identity_guard.sh
+│   ├── LEGACY_SCRIPTS_NOT_FINAL
+│   │   ├── run_integration.py
+│   │   ├── lem_portal_cli.py
+│   │   ├── serve_pxl.py
+│   │   ├── test_lem_discharge.py
+│   │   ├── __pycache__
+│   │   │   ├── test_lem_discharge.cpython-312.pyc
+│   │   │   ├── serve_pxl.cpython-312.pyc
+│   │   │   ├── __init__.cpython-312.pyc
+│   │   │   ├── lem_portal_cli.cpython-312.pyc
+│   │   │   ├── run_integration.cpython-312.pyc
+│   │   ├── __init__.py
+│   ├── Runtime_Compiler
+│   │   ├── PXL_Gate_tree_filtered.txt
+│   │   ├── proof_logs
+│   │   ├── state
+│   │   │   ├── lem_discharge_state.json
+│   │   ├── coq
+│   │   │   ├── _build
+│   │   │   │   ├── _CoqProject
+│   │   │   │   ├── _new
+│   │   │   │   │   ├── falsifiability_test.mli
+│   │   │   │   │   ├── falsifiability_test.ml
+│   │   │   │   ├── Makefile
+│   │   │   │   ├── .Makefile.d
+│   │   │   │   ├── src
+│   │   │   │   ├── Makefile.conf
+│   │   │   ├── _CoqProject
+│   │   │   ├── src
+│   │   │   │   ├── PXL_Derivations_Phase2.vok
+│   │   │   │   ├── PXLv3_shadow.v
+│   │   │   │   ├── PXLv3_shadow.vos
+│   │   │   │   ├── PXLv3.vos
+│   │   │   │   ├── PXL_Kernel_Axioms.vok
+│   │   │   │   ├── PXL_Derivations_Phase2.v
+│   │   │   │   ├── .PXL_Definitions.aux
+│   │   │   │   ├── .PXL_Kernel_Axioms.aux
+│   │   │   │   ├── PXLv3_shadow.vo
+│   │   │   │   ├── tests
+│   │   │   │   │   ├── falsifiability_test.glob
+│   │   │   │   │   ├── .falsifiability_test.aux
+│   │   │   │   │   ├── falsifiability_test.vos
+│   │   │   │   │   ├── falsifiability_test.vok
+│   │   │   │   │   ├── falsifiability_test.vo
+│   │   │   │   │   ├── falsifiability_test.v
+│   │   │   │   ├── PXL_Modal_Axioms_Semantic.glob
+│   │   │   │   ├── PXL_Definitions.glob
+│   │   │   │   ├── PXLv3.vok
+│   │   │   │   ├── PXL_Definitions.v
+│   │   │   │   ├── .PXL_Derivations_Phase2.aux
+│   │   │   │   ├── modal
+│   │   │   │   │   ├── PXL_Modal_Semantic_Kripke.vo
+│   │   │   │   │   ├── PXL_Modal_Semantic_Kripke.v
+│   │   │   │   │   ├── PXL_Modal_Semantic_Kripke.vok
+│   │   │   │   │   ├── PXLd
+│   │   │   │   │   │   ├── S5_Kripke.glob
+│   │   │   │   │   │   ├── S5_Kripke.v
+│   │   │   │   │   │   ├── .S5_Kripke.aux
+│   │   │   │   │   │   ├── S5_Kripke.vos
+│   │   │   │   │   │   ├── S5_Kripke.vo
+│   │   │   │   │   │   ├── S5_Kripke.vok
+│   │   │   │   │   ├── PXL_Modal_Semantic_Kripke.glob
+│   │   │   │   │   ├── PXL_Modal_Semantic_Kripke.vos
+│   │   │   │   │   ├── .PXL_Modal_Semantic_Kripke.aux
+│   │   │   │   ├── .PXL_Modal_Axioms_Semantic.aux
+│   │   │   │   ├── PXL_Modal_Axioms_Semantic.vos
+│   │   │   │   ├── PXLv3_shadow.vok
+│   │   │   │   ├── PXL_Derivations_Phase2.vos
+│   │   │   │   ├── PXLv3.v
+│   │   │   │   ├── PXL_Kernel_Axioms.vo
+│   │   │   │   ├── baseline
+│   │   │   │   │   ├── Echo2_Simulation.vo
+│   │   │   │   │   ├── PXL_TriunePBRS.glob
+│   │   │   │   │   ├── .PXL_Sanity.aux
+│   │   │   │   │   ├── PXL_Sanity_Semantic.vo
+│   │   │   │   │   ├── PXL_Global_Bijection.vo
+│   │   │   │   │   ├── PXL_Global_Bijection.vok
+│   │   │   │   │   ├── test_K.vos
+│   │   │   │   │   ├── PXL_Internal_LEM.v
+│   │   │   │   │   ├── PXL_Arithmetic.vos
+│   │   │   │   │   ├── PXL_Sanity_Semantic.vos
+│   │   │   │   │   ├── .PXLv3_SemanticModal.aux
+│   │   │   │   │   ├── PXL_SemanticModal_Smoke.vos
+│   │   │   │   │   ├── PXL_Bridge_Proofs.vos
+│   │   │   │   │   ├── PXL_OmniKernel.vok
+│   │   │   │   │   ├── PXL_OmniKernel.v
+│   │   │   │   │   ├── PXL_Omni_Bridges.glob
+│   │   │   │   │   ├── PXL_Semantic_Extensions_DomainProduct.vo
+│   │   │   │   │   ├── PXL_OntoGrid.glob
+│   │   │   │   │   ├── PXL_Kernel20_SemanticModal_Profile.vo
+│   │   │   │   │   ├── PXL_Foundations_SemanticPort.vos
+│   │   │   │   │   ├── PXL_OntoGrid_OmniHooks.glob
+│   │   │   │   │   ├── PXL_Goodness_Existence.v
+│   │   │   │   │   ├── PXL_Structural_Derivations.glob
+│   │   │   │   │   ├── PXL_OntoGrid.vok
+│   │   │   │   │   ├── .PXL_Semantic_Profile_Suite.aux
+│   │   │   │   │   ├── PXL_Sanity_Semantic.v
+│   │   │   │   │   ├── .PXL_ObjectLanguage.aux
+│   │   │   │   │   ├── Demo_Unsafe.vok
+│   │   │   │   │   ├── PXL_Omni_Properties.vo
+│   │   │   │   │   ├── PXL_Semantic_Extensions_DomainProduct.glob
+│   │   │   │   │   ├── PXL_Global_Bijection.v
+│   │   │   │   │   ├── .PXL_OntoGrid.aux
+│   │   │   │   │   ├── PXL_Structural_Derivations.v
+│   │   │   │   │   ├── PXL_S2_Axioms.vos
+│   │   │   │   │   ├── Trinitarian_Identity_Closure.vos
+│   │   │   │   │   ├── PXL_Imp_Nothing.glob
+│   │   │   │   │   ├── PXL_Sanity_Semantic.vok
+│   │   │   │   │   ├── PXLv3_head.glob
+│   │   │   │   │   ├── PXL_OmniProofs.vos
+│   │   │   │   │   ├── PXL_Sanity_SemanticPort.vos
+│   │   │   │   │   ├── PXL_OntoGrid_OmniHooks.vos
+│   │   │   │   │   ├── PXL_Trinitarian_Optimization_SemanticPort.vok
+│   │   │   │   │   ├── PXL_Internal_LEM.vo
+│   │   │   │   │   ├── PXL_S2_Axioms.glob
+│   │   │   │   │   ├── PXL_WellFormedness.glob
+│   │   │   │   │   ├── .PXL_WellFormedness.aux
+│   │   │   │   │   ├── PXL_Semantic_Profile_Suite.vok
+│   │   │   │   │   ├── PXL_Axiom_Minimality_Check.glob
+│   │   │   │   │   ├── PXL_Privative.vo
+│   │   │   │   │   ├── .PXL_Semantic_Extensions_DomainProduct.aux
+│   │   │   │   │   ├── .PXL_S2_Axioms.aux
+│   │   │   │   │   ├── PXL_Sanity.glob
+│   │   │   │   │   ├── PXL_S2_Axioms.vok
+│   │   │   │   │   ├── PXL_WellFormedness.v
+│   │   │   │   │   ├── PXL_Goodness_Existence.glob
+│   │   │   │   │   ├── PXL_Sanity_SemanticPort.glob
+│   │   │   │   │   ├── PXLv3_head.vok
+│   │   │   │   │   ├── PXLv3_SemanticModal.vok
+│   │   │   │   │   ├── PXL_Privative.vos
+│   │   │   │   │   ├── PXL_OmniProofs.glob
+│   │   │   │   │   ├── .PXL_Foundations_SemanticPort.aux
+│   │   │   │   │   ├── PXL_SemanticModal_Smoke.glob
+│   │   │   │   │   ├── PXL_Semantic_Extensions_DomainProduct.v
+│   │   │   │   │   ├── .PXL_Global_Bijection.aux
+│   │   │   │   │   ├── PXL_Axiom_Minimality_Check.vos
+│   │   │   │   │   ├── PXL_Proof_Summary.v
+│   │   │   │   │   ├── Trinitarian_Identity_Closure.vok
+│   │   │   │   │   ├── PXL_SemanticModal_Smoke.vo
+│   │   │   │   │   ├── PXL_Foundations_SemanticPort.glob
+│   │   │   │   │   ├── .PXL_Internal_LEM.aux
+│   │   │   │   │   ├── PXLv3_head.vo
+│   │   │   │   │   ├── PXL_Bridge_Proofs.vo
+│   │   │   │   │   ├── Demo_Unsafe.glob
+│   │   │   │   │   ├── Trinitarian_Identity_Closure.vo
+│   │   │   │   │   ├── PXL_Bridge_Proofs_SemanticPort.vos
+│   │   │   │   │   ├── PXL_Kernel20_SemanticModal_Profile.vos
+│   │   │   │   │   ├── PXL_Sanity_Semantic.glob
+│   │   │   │   │   ├── PXL_S2_Axioms.v
+│   │   │   │   │   ├── test_K.glob
+│   │   │   │   │   ├── .PXL_Triune_Principles.aux
+│   │   │   │   │   ├── PXL_Omni_Properties.v
+│   │   │   │   │   ├── PXL_ObjectLanguage.vo
+│   │   │   │   │   ├── PXL_Foundations_SemanticPort.v
+│   │   │   │   │   ├── .Godelian_Theorem_Satisfaction.aux
+│   │   │   │   │   ├── PXL_Proof_Summary.glob
+│   │   │   │   │   ├── PXL_OntoGrid.v
+│   │   │   │   │   ├── PXL_Trinitarian_Optimization.vo
+│   │   │   │   │   ├── PXL_OmniProofs.vo
+│   │   │   │   │   ├── PXL_Axiom_Minimality_Check.vo
+│   │   │   │   │   ├── PXL_Bridge_Proofs_SemanticPort.v
+│   │   │   │   │   ├── PXL_Trinitarian_Optimization_SemanticPort.v
+│   │   │   │   │   ├── LOGOS_Metaphysical_Architecture.vok
+│   │   │   │   │   ├── PXL_OntoGrid_OmniHooks.vo
+│   │   │   │   │   ├── PXL_Sanity_SemanticPort.vo
+│   │   │   │   │   ├── PXL_Structural_Derivations.vos
+│   │   │   │   │   ├── .PXL_Privative.aux
+│   │   │   │   │   ├── PXL_ObjectLanguage.v
+│   │   │   │   │   ├── PXL_Omni_Properties.glob
+│   │   │   │   │   ├── PXL_Semantic_Profile_Suite.v
+│   │   │   │   │   ├── PXL_Structural_Derivations.vok
+│   │   │   │   │   ├── PXL_Omni_Bridges.v
+│   │   │   │   │   ├── PXL_Imp_Nothing.v
+│   │   │   │   │   ├── Echo2_Simulation.v
+│   │   │   │   │   ├── Echo2_Simulation.vos
+│   │   │   │   │   ├── PXL_Sanity.vo
+│   │   │   │   │   ├── .PXL_Omni_Properties.aux
+│   │   │   │   │   ├── Godelian_Theorem_Satisfaction.vos
+│   │   │   │   │   ├── PXL_Imp_Nothing.vok
+│   │   │   │   │   ├── PXL_Proof_Summary.vo
+│   │   │   │   │   ├── PXLv3_SemanticModal.v
+│   │   │   │   │   ├── PXL_Sanity.v
+│   │   │   │   │   ├── PXL_TriunePBRS.vo
+│   │   │   │   │   ├── PXL_Privative.glob
+│   │   │   │   │   ├── PXL_Sanity_SemanticPort.v
+│   │   │   │   │   ├── PXL_WellFormedness.vo
+│   │   │   │   │   ├── Echo2_Simulation.vok
+│   │   │   │   │   ├── PXL_OntoGrid_OmniHooks.v
+│   │   │   │   │   ├── .PXL_Internal_LEM_SemanticPort.aux
+│   │   │   │   │   ├── PXL_Arithmetic.vo
+│   │   │   │   │   ├── PXL_Internal_LEM_SemanticPort.vo
+│   │   │   │   │   ├── PXL_OntoGrid_OmniHooks.vok
+│   │   │   │   │   ├── PXL_OmniKernel.glob
+│   │   │   │   │   ├── PXL_Arithmetic.v
+│   │   │   │   │   ├── PXL_Axiom_Minimality_Check.vok
+│   │   │   │   │   ├── PXL_Triune_Principles.vos
+│   │   │   │   │   ├── PXL_Omni_Bridges.vos
+│   │   │   │   │   ├── .LOGOS_Metaphysical_Architecture.aux
+│   │   │   │   │   ├── .PXL_Trinitarian_Optimization_SemanticPort.aux
+│   │   │   │   │   ├── .PXL_Imp_Nothing.aux
+│   │   │   │   │   ├── .PXL_Sanity_SemanticPort.aux
+│   │   │   │   │   ├── PXL_Sanity.vok
+│   │   │   │   │   ├── PXL_Trinitarian_Optimization.v
+│   │   │   │   │   ├── PXL_Semantic_Profile_Suite.vo
+│   │   │   │   │   ├── PXL_OntoGrid.vo
+│   │   │   │   │   ├── .Demo_Unsafe.aux
+│   │   │   │   │   ├── PXL_Omni_Bridges.vo
+│   │   │   │   │   ├── PXL_Internal_LEM_SemanticPort.glob
+│   │   │   │   │   ├── PXL_Structural_Derivations.vo
+│   │   │   │   │   ├── .PXL_OntoGrid_OmniHooks.aux
+│   │   │   │   │   ├── PXL_Trinitarian_Optimization_SemanticPort.glob
+│   │   │   │   │   ├── PXL_Foundations.vo
+│   │   │   │   │   ├── PXL_ObjectLanguage.vos
+│   │   │   │   │   ├── PXL_Foundations.vos
+│   │   │   │   │   ├── .Trinitarian_Identity_Closure.aux
+│   │   │   │   │   ├── PXL_OmniKernel.vo
+│   │   │   │   │   ├── PXL_Global_Bijection.vos
+│   │   │   │   │   ├── PXL_Bridge_Proofs.vok
+│   │   │   │   │   ├── PXL_Kernel20_SemanticModal_Profile.glob
+│   │   │   │   │   ├── PXL_Kernel20_SemanticModal_Profile.v
+│   │   │   │   │   ├── PXL_Triune_Principles.vok
+│   │   │   │   │   ├── Godelian_Theorem_Satisfaction.vok
+│   │   │   │   │   ├── PXL_TriunePBRS.v
+│   │   │   │   │   ├── PXL_Axiom_Minimality_Check.v
+│   │   │   │   │   ├── PXL_Trinitarian_Optimization_SemanticPort.vos
+│   │   │   │   │   ├── PXL_Privative.vok
+│   │   │   │   │   ├── LOGOS_Metaphysical_Architecture.vos
+│   │   │   │   │   ├── PXL_Internal_LEM_SemanticPort.v
+│   │   │   │   │   ├── PXL_Triune_Principles.v
+│   │   │   │   │   ├── Godelian_Theorem_Satisfaction.vo
+│   │   │   │   │   ├── PXL_Omni_Properties.vos
+│   │   │   │   │   ├── PXL_TriunePBRS.vos
+│   │   │   │   │   ├── PXL_Bridge_Proofs.glob
+│   │   │   │   │   ├── .PXL_Kernel20_SemanticModal_Profile.aux
+│   │   │   │   │   ├── PXL_SemanticModal_Smoke.vok
+│   │   │   │   │   ├── test_K.vok
+│   │   │   │   │   ├── LOGOS_Metaphysical_Architecture.vo
+│   │   │   │   │   ├── PXL_Foundations_SemanticPort.vok
+│   │   │   │   │   ├── .PXL_Arithmetic.aux
+│   │   │   │   │   ├── PXLv3_head.v
+│   │   │   │   │   ├── PXL_Internal_LEM_SemanticPort.vok
+│   │   │   │   │   ├── .PXL_TriunePBRS.aux
+│   │   │   │   │   ├── PXL_Bridge_Proofs_SemanticPort.vok
+│   │   │   │   │   ├── PXL_Arithmetic.glob
+│   │   │   │   │   ├── .PXL_Foundations.aux
+│   │   │   │   │   ├── PXLv3_SemanticModal.glob
+│   │   │   │   │   ├── PXL_Triune_Principles.vo
+│   │   │   │   │   ├── PXL_Trinitarian_Optimization_SemanticPort.vo
+│   │   │   │   │   ├── test_K.v
+│   │   │   │   │   ├── Demo_Unsafe.v
+│   │   │   │   │   ├── PXL_Trinitarian_Optimization.vos
+│   │   │   │   │   ├── PXL_Foundations.glob
+│   │   │   │   │   ├── PXL_Foundations.vok
+│   │   │   │   │   ├── .PXL_Bridge_Proofs_SemanticPort.aux
+│   │   │   │   │   ├── .PXL_Goodness_Existence.aux
+│   │   │   │   │   ├── .PXLv3_head.aux
+│   │   │   │   │   ├── PXL_OmniProofs.v
+│   │   │   │   │   ├── PXL_Bridge_Proofs.v
+│   │   │   │   │   ├── PXL_SemanticModal_Smoke.v
+│   │   │   │   │   ├── PXL_ObjectLanguage.glob
+│   │   │   │   │   ├── PXL_WellFormedness.vos
+│   │   │   │   │   ├── PXLv3_SemanticModal.vo
+│   │   │   │   │   ├── PXL_Foundations.v
+│   │   │   │   │   ├── PXL_Internal_LEM.vos
+│   │   │   │   │   ├── .PXL_Sanity_Semantic.aux
+│   │   │   │   │   ├── .PXL_Structural_Derivations.aux
+│   │   │   │   │   ├── PXL_Omni_Bridges.vok
+│   │   │   │   │   ├── PXL_ObjectLanguage.vok
+│   │   │   │   │   ├── LOGOS_Metaphysical_Architecture.glob
+│   │   │   │   │   ├── PXL_Sanity_SemanticPort.vok
+│   │   │   │   │   ├── PXL_Proof_Summary.vok
+│   │   │   │   │   ├── PXL_Internal_LEM.glob
+│   │   │   │   │   ├── PXL_Imp_Nothing.vos
+│   │   │   │   │   ├── PXL_S2_Axioms.vo
+│   │   │   │   │   ├── PXL_Trinitarian_Optimization.vok
+│   │   │   │   │   ├── PXL_Trinitarian_Optimization.glob
+│   │   │   │   │   ├── .PXL_Bridge_Proofs.aux
+│   │   │   │   │   ├── Echo2_Simulation.glob
+│   │   │   │   │   ├── PXL_Semantic_Extensions_DomainProduct.vok
+│   │   │   │   │   ├── Demo_Unsafe.vos
+│   │   │   │   │   ├── PXL_Internal_LEM_SemanticPort.vos
+│   │   │   │   │   ├── .PXL_OmniKernel.aux
+│   │   │   │   │   ├── LEM_Discharge.v.bak
+│   │   │   │   │   ├── .PXL_SemanticModal_Smoke.aux
+│   │   │   │   │   ├── PXL_OntoGrid.vos
+│   │   │   │   │   ├── PXL_OmniProofs.vok
+│   │   │   │   │   ├── Demo_Unsafe.vo
+│   │   │   │   │   ├── PXL_Triune_Principles.glob
+│   │   │   │   │   ├── .PXL_OmniProofs.aux
+│   │   │   │   │   ├── PXL_Kernel20_SemanticModal_Profile.vok
+│   │   │   │   │   ├── Godelian_Theorem_Satisfaction.glob
+│   │   │   │   │   ├── Trinitarian_Identity_Closure.v
+│   │   │   │   │   ├── Godelian_Theorem_Satisfaction.v
+│   │   │   │   │   ├── PXL_Bridge_Proofs_SemanticPort.vo
+│   │   │   │   │   ├── PXL_Sanity.vos
+│   │   │   │   │   ├── PXL_Semantic_Profile_Suite.vos
+│   │   │   │   │   ├── .PXL_Proof_Summary.aux
+│   │   │   │   │   ├── PXL_OmniKernel.vos
+│   │   │   │   │   ├── PXL_Proof_Summary.vos
+│   │   │   │   │   ├── PXL_Foundations_SemanticPort.vo
+│   │   │   │   │   ├── PXLv3_SemanticModal.vos
+│   │   │   │   │   ├── PXL_Imp_Nothing.vo
+│   │   │   │   │   ├── PXL_TriunePBRS.vok
+│   │   │   │   │   ├── .PXL_Trinitarian_Optimization.aux
+│   │   │   │   │   ├── PXLv3_head.vos
+│   │   │   │   │   ├── .test_K.aux
+│   │   │   │   │   ├── LOGOS_Metaphysical_Architecture.v
+│   │   │   │   │   ├── PXL_Semantic_Extensions_DomainProduct.vos
+│   │   │   │   │   ├── PXL_Omni_Properties.vok
+│   │   │   │   │   ├── PXL_Goodness_Existence.vo
+│   │   │   │   │   ├── PXL_Global_Bijection.glob
+│   │   │   │   │   ├── PXL_Goodness_Existence.vos
+│   │   │   │   │   ├── PXL_Privative.v
+│   │   │   │   │   ├── Trinitarian_Identity_Closure.glob
+│   │   │   │   │   ├── .PXL_Omni_Bridges.aux
+│   │   │   │   │   ├── PXL_Semantic_Profile_Suite.glob
+│   │   │   │   │   ├── test_K.vo
+│   │   │   │   │   ├── PXL_Internal_LEM.vok
+│   │   │   │   │   ├── PXL_Goodness_Existence.vok
+│   │   │   │   │   ├── .PXL_Axiom_Minimality_Check.aux
+│   │   │   │   │   ├── PXL_Arithmetic.vok
+│   │   │   │   │   ├── PXL_WellFormedness.vok
+│   │   │   │   │   ├── PXL_Bridge_Proofs_SemanticPort.glob
+│   │   │   │   │   ├── .Echo2_Simulation.aux
+│   │   │   │   ├── PXL_Modal_Axioms_Semantic.v
+│   │   │   │   ├── PXL_Kernel_Axioms.v
+│   │   │   │   ├── PXLv3.vo
+│   │   │   │   ├── ui
+│   │   │   │   │   ├── run_coq_pipeline.py
+│   │   │   │   │   ├── lem_portal.py
+│   │   │   │   │   ├── audit_and_emit.py
+│   │   │   │   │   ├── LEM_Discharge.v
+│   │   │   │   │   ├── serve_pxl.py
+│   │   │   │   │   ├── LEM_Discharge.vok
+│   │   │   │   │   ├── LEM_Discharge.vo
+│   │   │   │   │   ├── .LEM_Discharge.aux
+│   │   │   │   │   ├── __pycache__
+│   │   │   │   │   │   ├── run_coq_pipeline.cpython-312.pyc
+│   │   │   │   │   │   ├── lem_portal.cpython-312.pyc
+│   │   │   │   │   │   ├── serve_pxl.cpython-312.pyc
+│   │   │   │   │   │   ├── __init__.cpython-312.pyc
+│   │   │   │   │   │   ├── audit_and_emit.cpython-312.pyc
+│   │   │   │   │   │   ├── PXL_Proof_Compile.cpython-312.pyc
+│   │   │   │   │   ├── LEM_Discharge.glob
+│   │   │   │   │   ├── PXL_Proof_Compile.py
+│   │   │   │   │   ├── LEM_Discharge.vos
+│   │   │   │   │   ├── __init__.py
+│   │   │   │   ├── PXLv3_shadow.glob
+│   │   │   │   ├── PXL_Definitions.vos
+│   │   │   │   ├── .PXLv3.aux
+│   │   │   │   ├── PXL_Kernel_Axioms.glob
+│   │   │   │   ├── option_b
+│   │   │   │   │   ├── Omega_Closure.vo
+│   │   │   │   │   ├── .Omega_Closure.aux
+│   │   │   │   │   ├── Modal_Decidability_Skeleton.vos
+│   │   │   │   │   ├── Modal_Syntax.glob
+│   │   │   │   │   ├── Modal_Semantics.vok
+│   │   │   │   │   ├── .Privation_Detector_Skeleton.aux
+│   │   │   │   │   ├── Omega_Closure.vos
+│   │   │   │   │   ├── OptionB_Index.vok
+│   │   │   │   │   ├── OptionB_Index.v
+│   │   │   │   │   ├── .Modal_Syntax.aux
+│   │   │   │   │   ├── Modal_Semantics.v
+│   │   │   │   │   ├── Modal_PXL_Interp.vok
+│   │   │   │   │   ├── Privation_Detector_Skeleton.vos
+│   │   │   │   │   ├── .OptionB_Index.aux
+│   │   │   │   │   ├── .Modal_Decidability_To_Interp.aux
+│   │   │   │   │   ├── Modal_PXL_Interp.v
+│   │   │   │   │   ├── .Modal_PXL_Interp.aux
+│   │   │   │   │   ├── Modal_Decidability_To_Interp.v
+│   │   │   │   │   ├── Modal_Semantics.vo
+│   │   │   │   │   ├── Modal_Decidability_To_Interp.vo
+│   │   │   │   │   ├── .Modal_Decidability_Skeleton.aux
+│   │   │   │   │   ├── Privation_Detector_Skeleton.glob
+│   │   │   │   │   ├── Modal_Syntax.vos
+│   │   │   │   │   ├── Modal_PXL_Interp.glob
+│   │   │   │   │   ├── Modal_PXL_Interp.vo
+│   │   │   │   │   ├── Modal_Decidability_Skeleton.vok
+│   │   │   │   │   ├── .Modal_Semantics.aux
+│   │   │   │   │   ├── Modal_Decidability_To_Interp.glob
+│   │   │   │   │   ├── Modal_Decidability_Skeleton.vo
+│   │   │   │   │   ├── Modal_Semantics.vos
+│   │   │   │   │   ├── Privation_Detector_Skeleton.vok
+│   │   │   │   │   ├── OptionB_Index.vos
+│   │   │   │   │   ├── Modal_Syntax.v
+│   │   │   │   │   ├── Modal_Syntax.vo
+│   │   │   │   │   ├── Modal_Decidability_Skeleton.glob
+│   │   │   │   │   ├── Omega_Closure.v
+│   │   │   │   │   ├── Modal_Decidability_To_Interp.vos
+│   │   │   │   │   ├── Modal_Semantics.glob
+│   │   │   │   │   ├── OptionB_Index.vo
+│   │   │   │   │   ├── Modal_PXL_Interp.vos
+│   │   │   │   │   ├── Modal_Decidability_Skeleton.v
+│   │   │   │   │   ├── Modal_Syntax.vok
+│   │   │   │   │   ├── Modal_Decidability_To_Interp.vok
+│   │   │   │   │   ├── Omega_Closure.glob
+│   │   │   │   │   ├── OptionB_Index.glob
+│   │   │   │   │   ├── Omega_Closure.vok
+│   │   │   │   │   ├── Privation_Detector_Skeleton.vo
+│   │   │   │   │   ├── Privation_Detector_Skeleton.v
+│   │   │   │   ├── PXL_Definitions.vo
+│   │   │   │   ├── PXL_Kernel_Axioms.vos
+│   │   │   │   ├── PXLv3.glob
+│   │   │   │   ├── PXL_Derivations_Phase2.glob
+│   │   │   │   ├── PXL_Modal_Axioms_Semantic.vok
+│   │   │   │   ├── PXL_Modal_Axioms_Semantic.vo
+│   │   │   │   ├── PXL_Definitions.vok
+│   │   │   │   ├── .PXLv3_shadow.aux
+│   │   │   │   ├── PXL_Derivations_Phase2.vo
+│   │   ├── Protopraxis
+│   │   │   ├── PXL_Derived_Attributes.txt
+│   │   │   ├── PXL_Formal_Language_Definition.txt
+│   │   │   ├── PXL_Paradox_Resolution.txt
+│   │   │   ├── __pycache__
+│   │   │   │   ├── __init__.cpython-312.pyc
+│   │   │   ├── PXL_Abstract.txt
+│   │   │   ├── PXL_Theorems.txt
+│   │   │   ├── __init__.py
+│   │   │   ├── PXL_Axioms.txt
+│   │   │   ├── PXL_Domain_Mapping.txt
+│   │   ├── _assumptions.txt
+├── CoqMakefile.conf
