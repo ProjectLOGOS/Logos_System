@@ -1,3 +1,8 @@
+# HEADER_TYPE: CANONICAL_REBUILD_MODULE
+# EXECUTION: CONTROLLED
+# AUTHORITY: GOVERNED
+# ORIGIN: SYSTEMATIC_REWRITE
+
 """Lightweight yet feature-complete enhanced reference monitor stub.
 
 This module provides enough functionality for the repository's safety tests to

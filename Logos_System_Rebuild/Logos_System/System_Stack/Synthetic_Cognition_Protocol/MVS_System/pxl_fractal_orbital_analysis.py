@@ -1,3 +1,8 @@
+# HEADER_TYPE: CANONICAL_REBUILD_MODULE
+# EXECUTION: CONTROLLED
+# AUTHORITY: GOVERNED
+# ORIGIN: SYSTEMATIC_REWRITE
+
 #!/usr/bin/env python3
 """
 PXL Logic Stack: Fractal Orbital Analysis of LOGOS Agent Ontology

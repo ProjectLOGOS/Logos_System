@@ -1,3 +1,10 @@
+# HEADER_TYPE: LEGACY_REWRITE_CANDIDATE
+# EXECUTION: FORBIDDEN
+# IMPORT: FORBIDDEN
+# AUTHORITY: NONE
+# DESTINATION: Logos_System_Rebuild
+# ARCHIVE_AFTER_REWRITE: REQUIRED
+
 """Helpers for loading modal verification components with safe fallbacks."""
 
 from __future__ import annotations

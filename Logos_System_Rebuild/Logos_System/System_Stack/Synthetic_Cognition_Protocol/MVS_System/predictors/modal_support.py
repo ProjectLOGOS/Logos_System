@@ -1,3 +1,8 @@
+# HEADER_TYPE: CANONICAL_REBUILD_MODULE
+# EXECUTION: CONTROLLED
+# AUTHORITY: GOVERNED
+# ORIGIN: SYSTEMATIC_REWRITE
+
 """Helpers for loading modal verification components with safe fallbacks."""
 
 from __future__ import annotations

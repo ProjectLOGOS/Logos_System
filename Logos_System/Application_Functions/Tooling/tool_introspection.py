@@ -1,4 +1,10 @@
-#!/usr/bin/env python3
+# HEADER_TYPE: LEGACY_REWRITE_CANDIDATE
+# EXECUTION: FORBIDDEN
+# IMPORT: FORBIDDEN
+# AUTHORITY: NONE
+# DESTINATION: Logos_System_Rebuild
+# ARCHIVE_AFTER_REWRITE: REQUIRED
+
 """Deterministic tool capability introspection (read-only, audited).
 
 Builds capability records from the authoritative TOOLS registry, approved

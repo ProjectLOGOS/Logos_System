@@ -1,4 +1,10 @@
-#!/usr/bin/env python3
+# HEADER_TYPE: LEGACY_REWRITE_CANDIDATE
+# EXECUTION: FORBIDDEN
+# IMPORT: FORBIDDEN
+# AUTHORITY: NONE
+# DESTINATION: Logos_System_Rebuild
+# ARCHIVE_AFTER_REWRITE: REQUIRED
+
 """Governed Tool Proposal Pipeline: generate → validate → approve → register."""
 
 import scripts.system_stack_tbd.need_to_distribute._bootstrap as _bootstrap  # Ensure repo root in sys.path for logos imports

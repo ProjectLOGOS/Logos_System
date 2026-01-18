@@ -1,6 +1,10 @@
-# causal_inference.py
-# Structural Causal Discovery using PC Algorithm with do-calculus extensions
-# function of essencenode (0,0,0 in mvf) runs continually, predicts new nodes, if dicscovered, sends to banach generator for node generation
+# HEADER_TYPE: LEGACY_REWRITE_CANDIDATE
+# EXECUTION: FORBIDDEN
+# IMPORT: FORBIDDEN
+# AUTHORITY: NONE
+# DESTINATION: Logos_System_Rebuild
+# ARCHIVE_AFTER_REWRITE: REQUIRED
+
 
 from causallearn.search.ConstraintBased.PC import pc
 from causallearn.utils.GraphUtils import GraphUtils

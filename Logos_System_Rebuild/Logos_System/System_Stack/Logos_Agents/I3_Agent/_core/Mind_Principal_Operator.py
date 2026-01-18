@@ -1,3 +1,8 @@
+# HEADER_TYPE: CANONICAL_REBUILD_MODULE
+# EXECUTION: CONTROLLED
+# AUTHORITY: GOVERNED
+# ORIGIN: SYSTEMATIC_REWRITE
+
 """Principal operator for I3: Mind Principle.
 
 Role: causal mechanism for planning/strategy structuring (ARP).

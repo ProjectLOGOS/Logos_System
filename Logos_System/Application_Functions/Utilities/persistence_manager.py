@@ -1,4 +1,10 @@
-# logos_system/services/database/persistence_manager.py
+# HEADER_TYPE: LEGACY_REWRITE_CANDIDATE
+# EXECUTION: FORBIDDEN
+# IMPORT: FORBIDDEN
+# AUTHORITY: NONE
+# DESTINATION: Logos_System_Rebuild
+# ARCHIVE_AFTER_REWRITE: REQUIRED
+
 import json
 import os
 from ..mvf_node_operator import FractalDB

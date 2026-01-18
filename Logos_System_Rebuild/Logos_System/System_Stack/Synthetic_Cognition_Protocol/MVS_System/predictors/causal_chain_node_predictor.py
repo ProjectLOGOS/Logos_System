@@ -1,3 +1,8 @@
+# HEADER_TYPE: CANONICAL_REBUILD_MODULE
+# EXECUTION: CONTROLLED
+# AUTHORITY: GOVERNED
+# ORIGIN: SYSTEMATIC_REWRITE
+
 # causal_inference.py
 # Structural Causal Discovery using PC Algorithm with do-calculus extensions
 # function of essencenode (0,0,0 in mvf) runs continually, predicts new nodes, if dicscovered, sends to banach generator for node generation

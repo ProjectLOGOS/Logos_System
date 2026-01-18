@@ -1,3 +1,8 @@
+# HEADER_TYPE: CANONICAL_REBUILD_MODULE
+# EXECUTION: CONTROLLED
+# AUTHORITY: GOVERNED
+# ORIGIN: SYSTEMATIC_REWRITE
+
 """
 LOGOS Extensions Loader: Boot-time import and initialization of external libs.
 Expanded to include probabilistic/ML/NLP/graph libraries. Loaded via Nexus at startup.

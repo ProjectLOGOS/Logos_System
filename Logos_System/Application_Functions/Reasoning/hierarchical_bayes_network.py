@@ -1,18 +1,10 @@
-# MODULE_META:
-#   module_id: HIERARCHICAL_BAYES_NETWORK
-#   layer: APPLICATION_FUNCTION
-#   role: Hierarchical Bayes network module
-#   phase_origin: PHASE_SCOPING_STUB
-#   description: Stub metadata for Hierarchical Bayes network module (header placeholder).
-#   contracts: []
-#   allowed_imports: []
-#   prohibited_behaviors: [IO, NETWORK, TIME, RANDOM]
-#   entrypoints: [run]
-#   callable_surface: APPLICATION
-#   state_mutation: NONE
-#   runtime_spine_binding: NONE
-#   depends_on_contexts: []
-#   invoked_by: []
+# HEADER_TYPE: LEGACY_REWRITE_CANDIDATE
+# EXECUTION: FORBIDDEN
+# IMPORT: FORBIDDEN
+# AUTHORITY: NONE
+# DESTINATION: Logos_System_Rebuild
+# ARCHIVE_AFTER_REWRITE: REQUIRED
+
 
 """
 hierarchical_bayes_network.py

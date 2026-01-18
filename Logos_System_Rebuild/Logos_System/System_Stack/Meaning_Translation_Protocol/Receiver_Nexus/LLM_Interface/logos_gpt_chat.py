@@ -1,3 +1,8 @@
+# HEADER_TYPE: CANONICAL_REBUILD_MODULE
+# EXECUTION: CONTROLLED
+# AUTHORITY: GOVERNED
+# ORIGIN: SYSTEMATIC_REWRITE
+
 #!/usr/bin/env python3
 """Minimal UIP chat loop for LOGOS-GPT (advisor-only, gated execution)."""
 

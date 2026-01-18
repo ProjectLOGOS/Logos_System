@@ -1,3 +1,10 @@
+# HEADER_TYPE: LEGACY_REWRITE_CANDIDATE
+# EXECUTION: FORBIDDEN
+# IMPORT: FORBIDDEN
+# AUTHORITY: NONE
+# DESTINATION: Logos_System_Rebuild
+# ARCHIVE_AFTER_REWRITE: REQUIRED
+
 """Lightweight yet feature-complete enhanced reference monitor stub.
 
 This module provides enough functionality for the repository's safety tests to

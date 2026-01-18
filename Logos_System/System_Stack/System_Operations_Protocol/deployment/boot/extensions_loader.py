@@ -1,3 +1,10 @@
+# HEADER_TYPE: LEGACY_REWRITE_CANDIDATE
+# EXECUTION: FORBIDDEN
+# IMPORT: FORBIDDEN
+# AUTHORITY: NONE
+# DESTINATION: Logos_System_Rebuild
+# ARCHIVE_AFTER_REWRITE: REQUIRED
+
 """
 LOGOS Extensions Loader: Boot-time import and initialization of external libs.
 Expanded to include probabilistic/ML/NLP/graph libraries. Loaded via Nexus at startup.

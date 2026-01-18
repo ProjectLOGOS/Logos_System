@@ -1,3 +1,10 @@
+# HEADER_TYPE: LEGACY_REWRITE_CANDIDATE
+# EXECUTION: FORBIDDEN
+# IMPORT: FORBIDDEN
+# AUTHORITY: NONE
+# DESTINATION: Logos_System_Rebuild
+# ARCHIVE_AFTER_REWRITE: REQUIRED
+
 """Runtime resource management primitives for the SOP infrastructure.
 
 The historical LOGOS stack treated compute, memory, and IO capacity as

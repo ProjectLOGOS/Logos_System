@@ -1,3 +1,8 @@
+# HEADER_TYPE: CANONICAL_REBUILD_MODULE
+# EXECUTION: CONTROLLED
+# AUTHORITY: GOVERNED
+# ORIGIN: SYSTEMATIC_REWRITE
+
 # IMAE - Infinite Modal Analysis Engine
 # Core system for seeding and tracing causal chains using Mandelbrot-Banach architecture
 

@@ -1,3 +1,8 @@
+# HEADER_TYPE: CANONICAL_REBUILD_MODULE
+# EXECUTION: CONTROLLED
+# AUTHORITY: GOVERNED
+# ORIGIN: SYSTEMATIC_REWRITE
+
 """OmniProperty integration for I3 (Omnipresence).
 
 Role: force multiplier for I3's domain (ARP / planning & advanced reasoning).

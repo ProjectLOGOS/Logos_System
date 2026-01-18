@@ -1,15 +1,10 @@
-# LOGOS_HEADER: v1
-# updated_utc: 2026-01-14T20:07:43Z
-# path: /workspaces/Logos_System/_Dev_Resources/Dev_Scripts/LEGACY_SCRIPTS_TO_EXAMINE/INSPECT_DECIDE/_Dev_Resources/LEGACY_SCRIPTS_TO_EXAMINE/could_be_dev/system_mode_initializer.py
-# role: dev_tool
-# phase: audit_normalize
-# origin: INSPECT_DECIDE
-# intended_bucket: REWRITE_PROMOTE
-# side_effects: unknown
-# entrypoints: unknown
-# depends_on: 
-# notes: 
-# END_LOGOS_HEADER
+# HEADER_TYPE: LEGACY_REWRITE_CANDIDATE
+# EXECUTION: FORBIDDEN
+# IMPORT: FORBIDDEN
+# AUTHORITY: NONE
+# DESTINATION: Logos_System_Rebuild
+# ARCHIVE_AFTER_REWRITE: REQUIRED
+
 
 """Initialize mission profile for Logos agent subsystems.
 

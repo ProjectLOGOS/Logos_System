@@ -1,16 +1,8 @@
-# MODULE_META:
-#   module_id: COUNTERFACTUAL_REASONING_ENGINE
-#   layer: APPLICATION_FUNCTION
-#   role: Counterfactual reasoning engine
-#   phase_origin: PHASE_SCOPING_STUB
-#   description: Stub metadata for Counterfactual reasoning engine (header placeholder).
-#   contracts: []
-#   allowed_imports: []
-#   prohibited_behaviors: [IO, NETWORK, TIME, RANDOM]
-#   entrypoints: [run]
-#   callable_surface: APPLICATION
-#   state_mutation: NONE
-#   runtime_spine_binding: NONE
-#   depends_on_contexts: []
-#   invoked_by: []
+# HEADER_TYPE: LEGACY_REWRITE_CANDIDATE
+# EXECUTION: FORBIDDEN
+# IMPORT: FORBIDDEN
+# AUTHORITY: NONE
+# DESTINATION: Logos_System_Rebuild
+# ARCHIVE_AFTER_REWRITE: REQUIRED
+
 

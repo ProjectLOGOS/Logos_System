@@ -1,4 +1,10 @@
-# --- START OF FILE core/integration/logos_harmonizer.py ---
+# HEADER_TYPE: LEGACY_REWRITE_CANDIDATE
+# EXECUTION: FORBIDDEN
+# IMPORT: FORBIDDEN
+# AUTHORITY: NONE
+# DESTINATION: Logos_System_Rebuild
+# ARCHIVE_AFTER_REWRITE: REQUIRED
+
 
 #!/usr/bin/env python3
 """

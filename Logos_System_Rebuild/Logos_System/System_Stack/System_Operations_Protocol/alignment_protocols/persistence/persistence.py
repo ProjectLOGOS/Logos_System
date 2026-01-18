@@ -1,3 +1,8 @@
+# HEADER_TYPE: CANONICAL_REBUILD_MODULE
+# EXECUTION: CONTROLLED
+# AUTHORITY: GOVERNED
+# ORIGIN: SYSTEMATIC_REWRITE
+
 """
 Persistence Layer - Audit logging for all proof-gated decisions
 Maintains JSONL audit trail as required by fail-closed design

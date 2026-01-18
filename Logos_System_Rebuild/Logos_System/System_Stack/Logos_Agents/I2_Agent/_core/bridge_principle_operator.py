@@ -1,3 +1,8 @@
+# HEADER_TYPE: CANONICAL_REBUILD_MODULE
+# EXECUTION: CONTROLLED
+# AUTHORITY: GOVERNED
+# ORIGIN: SYSTEMATIC_REWRITE
+
 """
 Bridge Principle implementation for I2.
 Deterministic translation layer: external meaning → Structured Meaning Packets (SMPs).

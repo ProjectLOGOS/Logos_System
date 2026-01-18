@@ -1,4 +1,10 @@
-#!/usr/bin/env python3
+# HEADER_TYPE: LEGACY_REWRITE_CANDIDATE
+# EXECUTION: FORBIDDEN
+# IMPORT: FORBIDDEN
+# AUTHORITY: NONE
+# DESTINATION: Logos_System_Rebuild
+# ARCHIVE_AFTER_REWRITE: REQUIRED
+
 """Deterministic, UIP-gated tool repair proposal generator.
 
 Reads a tool health report and emits repair proposals (schema-compatible) for

@@ -1,3 +1,8 @@
+# HEADER_TYPE: CANONICAL_REBUILD_MODULE
+# EXECUTION: CONTROLLED
+# AUTHORITY: GOVERNED
+# ORIGIN: SYSTEMATIC_REWRITE
+
 # Substrate Initialization: Bonnock Nodes for 29 Ontological Properties
 import json
 from agent_classes import TrinitarianAgent, CreatureAgent

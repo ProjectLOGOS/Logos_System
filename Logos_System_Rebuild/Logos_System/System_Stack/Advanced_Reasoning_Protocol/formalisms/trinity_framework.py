@@ -1,3 +1,8 @@
+# HEADER_TYPE: CANONICAL_REBUILD_MODULE
+# EXECUTION: CONTROLLED
+# AUTHORITY: GOVERNED
+# ORIGIN: SYSTEMATIC_REWRITE
+
 # LOGOS AGI - Trinity Framework
 # Trinitarian structure and modal logic integration
 # Integrated from developmental_code_base.py

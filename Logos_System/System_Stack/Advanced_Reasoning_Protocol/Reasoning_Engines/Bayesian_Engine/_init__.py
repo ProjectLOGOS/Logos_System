@@ -1,5 +1,10 @@
-# Original init logic backed up at _reports/Init_Reset_20260114_153126/backup_init/Logos_System/System_Stack/Advanced_Reasoning_Protocol/reasoning_engines/bayesian/__init__.py
-# Review and restore exports/side effects before enabling package logic.
+# HEADER_TYPE: LEGACY_REWRITE_CANDIDATE
+# EXECUTION: FORBIDDEN
+# IMPORT: FORBIDDEN
+# AUTHORITY: NONE
+# DESTINATION: Logos_System_Rebuild
+# ARCHIVE_AFTER_REWRITE: REQUIRED
+
 
 """
 LOGOS normalization stub.

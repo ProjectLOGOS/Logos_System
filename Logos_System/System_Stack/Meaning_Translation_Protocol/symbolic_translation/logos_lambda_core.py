@@ -1,4 +1,10 @@
-# logos_agi_v1/subsystems/tetragnos/lambda_engine/logos_lambda_core.py
+# HEADER_TYPE: LEGACY_REWRITE_CANDIDATE
+# EXECUTION: FORBIDDEN
+# IMPORT: FORBIDDEN
+# AUTHORITY: NONE
+# DESTINATION: Logos_System_Rebuild
+# ARCHIVE_AFTER_REWRITE: REQUIRED
+
 
 import logging
 

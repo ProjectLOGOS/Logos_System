@@ -1,4 +1,10 @@
-# Substrate Initialization: Bonnock Nodes for 29 Ontological Properties
+# HEADER_TYPE: LEGACY_REWRITE_CANDIDATE
+# EXECUTION: FORBIDDEN
+# IMPORT: FORBIDDEN
+# AUTHORITY: NONE
+# DESTINATION: Logos_System_Rebuild
+# ARCHIVE_AFTER_REWRITE: REQUIRED
+
 import json
 from agent_classes import TrinitarianAgent, CreatureAgent
 from logos_validator_hub import LOGOSValidatorHub

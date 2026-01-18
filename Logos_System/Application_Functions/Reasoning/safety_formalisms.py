@@ -1,6 +1,10 @@
-# LOGOS AGI - Mathematical Safety Formalisms
-# Core mathematical formalisms preventing AGI misalignment
-# Integrated from enhanced_codebase_integrations.py
+# HEADER_TYPE: LEGACY_REWRITE_CANDIDATE
+# EXECUTION: FORBIDDEN
+# IMPORT: FORBIDDEN
+# AUTHORITY: NONE
+# DESTINATION: Logos_System_Rebuild
+# ARCHIVE_AFTER_REWRITE: REQUIRED
+
 
 """
 Mathematical Safety Formalisms for AGI Alignment

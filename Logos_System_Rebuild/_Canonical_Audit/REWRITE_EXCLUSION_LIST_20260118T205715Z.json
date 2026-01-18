@@ -1,0 +1,2920 @@
+[
+  {
+    "module_name": "Runtime_Module_Header_Contract",
+    "path": "Documentation/Runtime_Module_Header_Contract.md",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": "Runtime_Spine_Lock_And_Key_Execution_Contract",
+    "path": "Documentation/Runtime_Spine_Lock_And_Key_Execution_Contract.md",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": "__init__",
+    "path": "Logos_System/Runtime_Governance/__init__.py",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": "__init__.cpython-312",
+    "path": "Logos_System/Runtime_Governance/__pycache__/__init__.cpython-312.pyc",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": "lock_and_key.cpython-312",
+    "path": "Logos_System/Runtime_Governance/__pycache__/lock_and_key.cpython-312.pyc",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": "lock_and_key",
+    "path": "Logos_System/Runtime_Governance/lock_and_key.py",
+    "symbols": [
+      "execute_lock_and_key"
+    ],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": "PXL_Gate_tree_filtered",
+    "path": "Logos_System/System_Entry_Point/Runtime_Compiler/PXL_Gate_tree_filtered.txt",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": "PXL_Abstract",
+    "path": "Logos_System/System_Entry_Point/Runtime_Compiler/Protopraxis/PXL_Abstract.txt",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": "PXL_Axioms",
+    "path": "Logos_System/System_Entry_Point/Runtime_Compiler/Protopraxis/PXL_Axioms.txt",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": "PXL_Derived_Attributes",
+    "path": "Logos_System/System_Entry_Point/Runtime_Compiler/Protopraxis/PXL_Derived_Attributes.txt",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": "PXL_Domain_Mapping",
+    "path": "Logos_System/System_Entry_Point/Runtime_Compiler/Protopraxis/PXL_Domain_Mapping.txt",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": "PXL_Formal_Language_Definition",
+    "path": "Logos_System/System_Entry_Point/Runtime_Compiler/Protopraxis/PXL_Formal_Language_Definition.txt",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": "PXL_Paradox_Resolution",
+    "path": "Logos_System/System_Entry_Point/Runtime_Compiler/Protopraxis/PXL_Paradox_Resolution.txt",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": "PXL_Theorems",
+    "path": "Logos_System/System_Entry_Point/Runtime_Compiler/Protopraxis/PXL_Theorems.txt",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": "__init__",
+    "path": "Logos_System/System_Entry_Point/Runtime_Compiler/Protopraxis/__init__.py",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": "__init__.cpython-312",
+    "path": "Logos_System/System_Entry_Point/Runtime_Compiler/Protopraxis/__pycache__/__init__.cpython-312.pyc",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": "_assumptions",
+    "path": "Logos_System/System_Entry_Point/Runtime_Compiler/_assumptions.txt",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": "_CoqProject",
+    "path": "Logos_System/System_Entry_Point/Runtime_Compiler/coq/_CoqProject",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": ".Makefile",
+    "path": "Logos_System/System_Entry_Point/Runtime_Compiler/coq/_build/.Makefile.d",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": "Makefile",
+    "path": "Logos_System/System_Entry_Point/Runtime_Compiler/coq/_build/Makefile",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": "Makefile",
+    "path": "Logos_System/System_Entry_Point/Runtime_Compiler/coq/_build/Makefile.conf",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": "_CoqProject",
+    "path": "Logos_System/System_Entry_Point/Runtime_Compiler/coq/_build/_CoqProject",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": "falsifiability_test",
+    "path": "Logos_System/System_Entry_Point/Runtime_Compiler/coq/_build/_new/falsifiability_test.ml",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": "falsifiability_test",
+    "path": "Logos_System/System_Entry_Point/Runtime_Compiler/coq/_build/_new/falsifiability_test.mli",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": ".PXL_Definitions",
+    "path": "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/.PXL_Definitions.aux",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": ".PXL_Derivations_Phase2",
+    "path": "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/.PXL_Derivations_Phase2.aux",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": ".PXL_Kernel_Axioms",
+    "path": "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/.PXL_Kernel_Axioms.aux",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": ".PXL_Modal_Axioms_Semantic",
+    "path": "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/.PXL_Modal_Axioms_Semantic.aux",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": ".PXLv3",
+    "path": "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/.PXLv3.aux",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": ".PXLv3_shadow",
+    "path": "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/.PXLv3_shadow.aux",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": "PXL_Definitions",
+    "path": "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/PXL_Definitions.glob",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": "PXL_Definitions",
+    "path": "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/PXL_Definitions.v",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": "PXL_Definitions",
+    "path": "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/PXL_Definitions.vo",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": "PXL_Definitions",
+    "path": "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/PXL_Definitions.vok",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": "PXL_Definitions",
+    "path": "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/PXL_Definitions.vos",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": "PXL_Derivations_Phase2",
+    "path": "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/PXL_Derivations_Phase2.glob",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": "PXL_Derivations_Phase2",
+    "path": "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/PXL_Derivations_Phase2.v",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": "PXL_Derivations_Phase2",
+    "path": "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/PXL_Derivations_Phase2.vo",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": "PXL_Derivations_Phase2",
+    "path": "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/PXL_Derivations_Phase2.vok",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": "PXL_Derivations_Phase2",
+    "path": "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/PXL_Derivations_Phase2.vos",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": "PXL_Kernel_Axioms",
+    "path": "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/PXL_Kernel_Axioms.glob",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": "PXL_Kernel_Axioms",
+    "path": "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/PXL_Kernel_Axioms.v",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": "PXL_Kernel_Axioms",
+    "path": "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/PXL_Kernel_Axioms.vo",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": "PXL_Kernel_Axioms",
+    "path": "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/PXL_Kernel_Axioms.vok",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": "PXL_Kernel_Axioms",
+    "path": "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/PXL_Kernel_Axioms.vos",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": "PXL_Modal_Axioms_Semantic",
+    "path": "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/PXL_Modal_Axioms_Semantic.glob",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": "PXL_Modal_Axioms_Semantic",
+    "path": "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/PXL_Modal_Axioms_Semantic.v",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": "PXL_Modal_Axioms_Semantic",
+    "path": "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/PXL_Modal_Axioms_Semantic.vo",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": "PXL_Modal_Axioms_Semantic",
+    "path": "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/PXL_Modal_Axioms_Semantic.vok",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": "PXL_Modal_Axioms_Semantic",
+    "path": "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/PXL_Modal_Axioms_Semantic.vos",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": "PXLv3",
+    "path": "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/PXLv3.glob",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": "PXLv3",
+    "path": "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/PXLv3.v",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": "PXLv3",
+    "path": "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/PXLv3.vo",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": "PXLv3",
+    "path": "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/PXLv3.vok",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": "PXLv3",
+    "path": "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/PXLv3.vos",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": "PXLv3_shadow",
+    "path": "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/PXLv3_shadow.glob",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": "PXLv3_shadow",
+    "path": "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/PXLv3_shadow.v",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": "PXLv3_shadow",
+    "path": "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/PXLv3_shadow.vo",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": "PXLv3_shadow",
+    "path": "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/PXLv3_shadow.vok",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": "PXLv3_shadow",
+    "path": "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/PXLv3_shadow.vos",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": ".Demo_Unsafe",
+    "path": "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/.Demo_Unsafe.aux",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": ".Echo2_Simulation",
+    "path": "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/.Echo2_Simulation.aux",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": ".Godelian_Theorem_Satisfaction",
+    "path": "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/.Godelian_Theorem_Satisfaction.aux",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": ".LOGOS_Metaphysical_Architecture",
+    "path": "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/.LOGOS_Metaphysical_Architecture.aux",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": ".PXL_Arithmetic",
+    "path": "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/.PXL_Arithmetic.aux",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": ".PXL_Axiom_Minimality_Check",
+    "path": "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/.PXL_Axiom_Minimality_Check.aux",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": ".PXL_Bridge_Proofs",
+    "path": "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/.PXL_Bridge_Proofs.aux",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": ".PXL_Bridge_Proofs_SemanticPort",
+    "path": "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/.PXL_Bridge_Proofs_SemanticPort.aux",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": ".PXL_Foundations",
+    "path": "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/.PXL_Foundations.aux",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": ".PXL_Foundations_SemanticPort",
+    "path": "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/.PXL_Foundations_SemanticPort.aux",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": ".PXL_Global_Bijection",
+    "path": "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/.PXL_Global_Bijection.aux",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": ".PXL_Goodness_Existence",
+    "path": "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/.PXL_Goodness_Existence.aux",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": ".PXL_Imp_Nothing",
+    "path": "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/.PXL_Imp_Nothing.aux",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": ".PXL_Internal_LEM",
+    "path": "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/.PXL_Internal_LEM.aux",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": ".PXL_Internal_LEM_SemanticPort",
+    "path": "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/.PXL_Internal_LEM_SemanticPort.aux",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": ".PXL_Kernel20_SemanticModal_Profile",
+    "path": "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/.PXL_Kernel20_SemanticModal_Profile.aux",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": ".PXL_ObjectLanguage",
+    "path": "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/.PXL_ObjectLanguage.aux",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": ".PXL_OmniKernel",
+    "path": "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/.PXL_OmniKernel.aux",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": ".PXL_OmniProofs",
+    "path": "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/.PXL_OmniProofs.aux",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": ".PXL_Omni_Bridges",
+    "path": "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/.PXL_Omni_Bridges.aux",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": ".PXL_Omni_Properties",
+    "path": "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/.PXL_Omni_Properties.aux",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": ".PXL_OntoGrid",
+    "path": "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/.PXL_OntoGrid.aux",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": ".PXL_OntoGrid_OmniHooks",
+    "path": "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/.PXL_OntoGrid_OmniHooks.aux",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": ".PXL_Privative",
+    "path": "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/.PXL_Privative.aux",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": ".PXL_Proof_Summary",
+    "path": "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/.PXL_Proof_Summary.aux",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": ".PXL_S2_Axioms",
+    "path": "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/.PXL_S2_Axioms.aux",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": ".PXL_Sanity",
+    "path": "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/.PXL_Sanity.aux",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": ".PXL_Sanity_Semantic",
+    "path": "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/.PXL_Sanity_Semantic.aux",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": ".PXL_Sanity_SemanticPort",
+    "path": "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/.PXL_Sanity_SemanticPort.aux",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": ".PXL_SemanticModal_Smoke",
+    "path": "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/.PXL_SemanticModal_Smoke.aux",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": ".PXL_Semantic_Extensions_DomainProduct",
+    "path": "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/.PXL_Semantic_Extensions_DomainProduct.aux",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": ".PXL_Semantic_Profile_Suite",
+    "path": "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/.PXL_Semantic_Profile_Suite.aux",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": ".PXL_Structural_Derivations",
+    "path": "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/.PXL_Structural_Derivations.aux",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": ".PXL_Trinitarian_Optimization",
+    "path": "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/.PXL_Trinitarian_Optimization.aux",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": ".PXL_Trinitarian_Optimization_SemanticPort",
+    "path": "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/.PXL_Trinitarian_Optimization_SemanticPort.aux",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": ".PXL_TriunePBRS",
+    "path": "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/.PXL_TriunePBRS.aux",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": ".PXL_Triune_Principles",
+    "path": "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/.PXL_Triune_Principles.aux",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": ".PXL_WellFormedness",
+    "path": "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/.PXL_WellFormedness.aux",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": ".PXLv3_SemanticModal",
+    "path": "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/.PXLv3_SemanticModal.aux",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": ".PXLv3_head",
+    "path": "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/.PXLv3_head.aux",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": ".Trinitarian_Identity_Closure",
+    "path": "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/.Trinitarian_Identity_Closure.aux",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": ".test_K",
+    "path": "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/.test_K.aux",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": "Demo_Unsafe",
+    "path": "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/Demo_Unsafe.glob",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": "Demo_Unsafe",
+    "path": "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/Demo_Unsafe.v",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": "Demo_Unsafe",
+    "path": "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/Demo_Unsafe.vo",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": "Demo_Unsafe",
+    "path": "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/Demo_Unsafe.vok",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": "Demo_Unsafe",
+    "path": "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/Demo_Unsafe.vos",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": "Echo2_Simulation",
+    "path": "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/Echo2_Simulation.glob",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": "Echo2_Simulation",
+    "path": "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/Echo2_Simulation.v",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": "Echo2_Simulation",
+    "path": "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/Echo2_Simulation.vo",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": "Echo2_Simulation",
+    "path": "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/Echo2_Simulation.vok",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": "Echo2_Simulation",
+    "path": "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/Echo2_Simulation.vos",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": "Godelian_Theorem_Satisfaction",
+    "path": "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/Godelian_Theorem_Satisfaction.glob",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": "Godelian_Theorem_Satisfaction",
+    "path": "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/Godelian_Theorem_Satisfaction.v",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": "Godelian_Theorem_Satisfaction",
+    "path": "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/Godelian_Theorem_Satisfaction.vo",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": "Godelian_Theorem_Satisfaction",
+    "path": "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/Godelian_Theorem_Satisfaction.vok",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": "Godelian_Theorem_Satisfaction",
+    "path": "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/Godelian_Theorem_Satisfaction.vos",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": "LEM_Discharge.v",
+    "path": "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/LEM_Discharge.v.bak",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": "LOGOS_Metaphysical_Architecture",
+    "path": "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/LOGOS_Metaphysical_Architecture.glob",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": "LOGOS_Metaphysical_Architecture",
+    "path": "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/LOGOS_Metaphysical_Architecture.v",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": "LOGOS_Metaphysical_Architecture",
+    "path": "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/LOGOS_Metaphysical_Architecture.vo",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": "LOGOS_Metaphysical_Architecture",
+    "path": "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/LOGOS_Metaphysical_Architecture.vok",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": "LOGOS_Metaphysical_Architecture",
+    "path": "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/LOGOS_Metaphysical_Architecture.vos",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": "PXL_Arithmetic",
+    "path": "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/PXL_Arithmetic.glob",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": "PXL_Arithmetic",
+    "path": "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/PXL_Arithmetic.v",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": "PXL_Arithmetic",
+    "path": "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/PXL_Arithmetic.vo",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": "PXL_Arithmetic",
+    "path": "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/PXL_Arithmetic.vok",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": "PXL_Arithmetic",
+    "path": "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/PXL_Arithmetic.vos",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": "PXL_Axiom_Minimality_Check",
+    "path": "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/PXL_Axiom_Minimality_Check.glob",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": "PXL_Axiom_Minimality_Check",
+    "path": "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/PXL_Axiom_Minimality_Check.v",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": "PXL_Axiom_Minimality_Check",
+    "path": "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/PXL_Axiom_Minimality_Check.vo",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": "PXL_Axiom_Minimality_Check",
+    "path": "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/PXL_Axiom_Minimality_Check.vok",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": "PXL_Axiom_Minimality_Check",
+    "path": "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/PXL_Axiom_Minimality_Check.vos",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": "PXL_Bridge_Proofs",
+    "path": "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/PXL_Bridge_Proofs.glob",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": "PXL_Bridge_Proofs",
+    "path": "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/PXL_Bridge_Proofs.v",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": "PXL_Bridge_Proofs",
+    "path": "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/PXL_Bridge_Proofs.vo",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": "PXL_Bridge_Proofs",
+    "path": "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/PXL_Bridge_Proofs.vok",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": "PXL_Bridge_Proofs",
+    "path": "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/PXL_Bridge_Proofs.vos",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": "PXL_Bridge_Proofs_SemanticPort",
+    "path": "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/PXL_Bridge_Proofs_SemanticPort.glob",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": "PXL_Bridge_Proofs_SemanticPort",
+    "path": "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/PXL_Bridge_Proofs_SemanticPort.v",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": "PXL_Bridge_Proofs_SemanticPort",
+    "path": "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/PXL_Bridge_Proofs_SemanticPort.vo",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": "PXL_Bridge_Proofs_SemanticPort",
+    "path": "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/PXL_Bridge_Proofs_SemanticPort.vok",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": "PXL_Bridge_Proofs_SemanticPort",
+    "path": "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/PXL_Bridge_Proofs_SemanticPort.vos",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": "PXL_Foundations",
+    "path": "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/PXL_Foundations.glob",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": "PXL_Foundations",
+    "path": "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/PXL_Foundations.v",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": "PXL_Foundations",
+    "path": "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/PXL_Foundations.vo",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": "PXL_Foundations",
+    "path": "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/PXL_Foundations.vok",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": "PXL_Foundations",
+    "path": "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/PXL_Foundations.vos",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": "PXL_Foundations_SemanticPort",
+    "path": "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/PXL_Foundations_SemanticPort.glob",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": "PXL_Foundations_SemanticPort",
+    "path": "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/PXL_Foundations_SemanticPort.v",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": "PXL_Foundations_SemanticPort",
+    "path": "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/PXL_Foundations_SemanticPort.vo",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": "PXL_Foundations_SemanticPort",
+    "path": "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/PXL_Foundations_SemanticPort.vok",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": "PXL_Foundations_SemanticPort",
+    "path": "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/PXL_Foundations_SemanticPort.vos",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": "PXL_Global_Bijection",
+    "path": "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/PXL_Global_Bijection.glob",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": "PXL_Global_Bijection",
+    "path": "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/PXL_Global_Bijection.v",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": "PXL_Global_Bijection",
+    "path": "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/PXL_Global_Bijection.vo",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": "PXL_Global_Bijection",
+    "path": "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/PXL_Global_Bijection.vok",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": "PXL_Global_Bijection",
+    "path": "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/PXL_Global_Bijection.vos",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": "PXL_Goodness_Existence",
+    "path": "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/PXL_Goodness_Existence.glob",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": "PXL_Goodness_Existence",
+    "path": "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/PXL_Goodness_Existence.v",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": "PXL_Goodness_Existence",
+    "path": "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/PXL_Goodness_Existence.vo",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": "PXL_Goodness_Existence",
+    "path": "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/PXL_Goodness_Existence.vok",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": "PXL_Goodness_Existence",
+    "path": "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/PXL_Goodness_Existence.vos",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": "PXL_Imp_Nothing",
+    "path": "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/PXL_Imp_Nothing.glob",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": "PXL_Imp_Nothing",
+    "path": "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/PXL_Imp_Nothing.v",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": "PXL_Imp_Nothing",
+    "path": "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/PXL_Imp_Nothing.vo",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": "PXL_Imp_Nothing",
+    "path": "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/PXL_Imp_Nothing.vok",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": "PXL_Imp_Nothing",
+    "path": "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/PXL_Imp_Nothing.vos",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": "PXL_Internal_LEM",
+    "path": "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/PXL_Internal_LEM.glob",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": "PXL_Internal_LEM",
+    "path": "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/PXL_Internal_LEM.v",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": "PXL_Internal_LEM",
+    "path": "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/PXL_Internal_LEM.vo",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": "PXL_Internal_LEM",
+    "path": "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/PXL_Internal_LEM.vok",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": "PXL_Internal_LEM",
+    "path": "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/PXL_Internal_LEM.vos",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": "PXL_Internal_LEM_SemanticPort",
+    "path": "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/PXL_Internal_LEM_SemanticPort.glob",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": "PXL_Internal_LEM_SemanticPort",
+    "path": "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/PXL_Internal_LEM_SemanticPort.v",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": "PXL_Internal_LEM_SemanticPort",
+    "path": "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/PXL_Internal_LEM_SemanticPort.vo",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": "PXL_Internal_LEM_SemanticPort",
+    "path": "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/PXL_Internal_LEM_SemanticPort.vok",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": "PXL_Internal_LEM_SemanticPort",
+    "path": "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/PXL_Internal_LEM_SemanticPort.vos",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": "PXL_Kernel20_SemanticModal_Profile",
+    "path": "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/PXL_Kernel20_SemanticModal_Profile.glob",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": "PXL_Kernel20_SemanticModal_Profile",
+    "path": "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/PXL_Kernel20_SemanticModal_Profile.v",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": "PXL_Kernel20_SemanticModal_Profile",
+    "path": "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/PXL_Kernel20_SemanticModal_Profile.vo",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": "PXL_Kernel20_SemanticModal_Profile",
+    "path": "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/PXL_Kernel20_SemanticModal_Profile.vok",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": "PXL_Kernel20_SemanticModal_Profile",
+    "path": "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/PXL_Kernel20_SemanticModal_Profile.vos",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": "PXL_ObjectLanguage",
+    "path": "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/PXL_ObjectLanguage.glob",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": "PXL_ObjectLanguage",
+    "path": "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/PXL_ObjectLanguage.v",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": "PXL_ObjectLanguage",
+    "path": "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/PXL_ObjectLanguage.vo",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": "PXL_ObjectLanguage",
+    "path": "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/PXL_ObjectLanguage.vok",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": "PXL_ObjectLanguage",
+    "path": "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/PXL_ObjectLanguage.vos",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": "PXL_OmniKernel",
+    "path": "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/PXL_OmniKernel.glob",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": "PXL_OmniKernel",
+    "path": "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/PXL_OmniKernel.v",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": "PXL_OmniKernel",
+    "path": "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/PXL_OmniKernel.vo",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": "PXL_OmniKernel",
+    "path": "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/PXL_OmniKernel.vok",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": "PXL_OmniKernel",
+    "path": "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/PXL_OmniKernel.vos",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": "PXL_OmniProofs",
+    "path": "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/PXL_OmniProofs.glob",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": "PXL_OmniProofs",
+    "path": "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/PXL_OmniProofs.v",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": "PXL_OmniProofs",
+    "path": "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/PXL_OmniProofs.vo",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": "PXL_OmniProofs",
+    "path": "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/PXL_OmniProofs.vok",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": "PXL_OmniProofs",
+    "path": "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/PXL_OmniProofs.vos",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": "PXL_Omni_Bridges",
+    "path": "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/PXL_Omni_Bridges.glob",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": "PXL_Omni_Bridges",
+    "path": "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/PXL_Omni_Bridges.v",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": "PXL_Omni_Bridges",
+    "path": "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/PXL_Omni_Bridges.vo",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": "PXL_Omni_Bridges",
+    "path": "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/PXL_Omni_Bridges.vok",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": "PXL_Omni_Bridges",
+    "path": "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/PXL_Omni_Bridges.vos",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": "PXL_Omni_Properties",
+    "path": "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/PXL_Omni_Properties.glob",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": "PXL_Omni_Properties",
+    "path": "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/PXL_Omni_Properties.v",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": "PXL_Omni_Properties",
+    "path": "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/PXL_Omni_Properties.vo",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": "PXL_Omni_Properties",
+    "path": "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/PXL_Omni_Properties.vok",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": "PXL_Omni_Properties",
+    "path": "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/PXL_Omni_Properties.vos",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": "PXL_OntoGrid",
+    "path": "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/PXL_OntoGrid.glob",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": "PXL_OntoGrid",
+    "path": "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/PXL_OntoGrid.v",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": "PXL_OntoGrid",
+    "path": "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/PXL_OntoGrid.vo",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": "PXL_OntoGrid",
+    "path": "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/PXL_OntoGrid.vok",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": "PXL_OntoGrid",
+    "path": "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/PXL_OntoGrid.vos",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": "PXL_OntoGrid_OmniHooks",
+    "path": "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/PXL_OntoGrid_OmniHooks.glob",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": "PXL_OntoGrid_OmniHooks",
+    "path": "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/PXL_OntoGrid_OmniHooks.v",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": "PXL_OntoGrid_OmniHooks",
+    "path": "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/PXL_OntoGrid_OmniHooks.vo",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": "PXL_OntoGrid_OmniHooks",
+    "path": "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/PXL_OntoGrid_OmniHooks.vok",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": "PXL_OntoGrid_OmniHooks",
+    "path": "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/PXL_OntoGrid_OmniHooks.vos",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": "PXL_Privative",
+    "path": "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/PXL_Privative.glob",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": "PXL_Privative",
+    "path": "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/PXL_Privative.v",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": "PXL_Privative",
+    "path": "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/PXL_Privative.vo",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": "PXL_Privative",
+    "path": "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/PXL_Privative.vok",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": "PXL_Privative",
+    "path": "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/PXL_Privative.vos",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": "PXL_Proof_Summary",
+    "path": "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/PXL_Proof_Summary.glob",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": "PXL_Proof_Summary",
+    "path": "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/PXL_Proof_Summary.v",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": "PXL_Proof_Summary",
+    "path": "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/PXL_Proof_Summary.vo",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": "PXL_Proof_Summary",
+    "path": "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/PXL_Proof_Summary.vok",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": "PXL_Proof_Summary",
+    "path": "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/PXL_Proof_Summary.vos",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": "PXL_S2_Axioms",
+    "path": "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/PXL_S2_Axioms.glob",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": "PXL_S2_Axioms",
+    "path": "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/PXL_S2_Axioms.v",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": "PXL_S2_Axioms",
+    "path": "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/PXL_S2_Axioms.vo",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": "PXL_S2_Axioms",
+    "path": "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/PXL_S2_Axioms.vok",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": "PXL_S2_Axioms",
+    "path": "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/PXL_S2_Axioms.vos",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": "PXL_Sanity",
+    "path": "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/PXL_Sanity.glob",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": "PXL_Sanity",
+    "path": "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/PXL_Sanity.v",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": "PXL_Sanity",
+    "path": "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/PXL_Sanity.vo",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": "PXL_Sanity",
+    "path": "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/PXL_Sanity.vok",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": "PXL_Sanity",
+    "path": "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/PXL_Sanity.vos",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": "PXL_Sanity_Semantic",
+    "path": "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/PXL_Sanity_Semantic.glob",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": "PXL_Sanity_Semantic",
+    "path": "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/PXL_Sanity_Semantic.v",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": "PXL_Sanity_Semantic",
+    "path": "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/PXL_Sanity_Semantic.vo",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": "PXL_Sanity_Semantic",
+    "path": "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/PXL_Sanity_Semantic.vok",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": "PXL_Sanity_Semantic",
+    "path": "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/PXL_Sanity_Semantic.vos",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": "PXL_Sanity_SemanticPort",
+    "path": "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/PXL_Sanity_SemanticPort.glob",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": "PXL_Sanity_SemanticPort",
+    "path": "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/PXL_Sanity_SemanticPort.v",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": "PXL_Sanity_SemanticPort",
+    "path": "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/PXL_Sanity_SemanticPort.vo",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": "PXL_Sanity_SemanticPort",
+    "path": "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/PXL_Sanity_SemanticPort.vok",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": "PXL_Sanity_SemanticPort",
+    "path": "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/PXL_Sanity_SemanticPort.vos",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": "PXL_SemanticModal_Smoke",
+    "path": "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/PXL_SemanticModal_Smoke.glob",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": "PXL_SemanticModal_Smoke",
+    "path": "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/PXL_SemanticModal_Smoke.v",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": "PXL_SemanticModal_Smoke",
+    "path": "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/PXL_SemanticModal_Smoke.vo",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": "PXL_SemanticModal_Smoke",
+    "path": "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/PXL_SemanticModal_Smoke.vok",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": "PXL_SemanticModal_Smoke",
+    "path": "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/PXL_SemanticModal_Smoke.vos",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": "PXL_Semantic_Extensions_DomainProduct",
+    "path": "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/PXL_Semantic_Extensions_DomainProduct.glob",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": "PXL_Semantic_Extensions_DomainProduct",
+    "path": "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/PXL_Semantic_Extensions_DomainProduct.v",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": "PXL_Semantic_Extensions_DomainProduct",
+    "path": "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/PXL_Semantic_Extensions_DomainProduct.vo",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": "PXL_Semantic_Extensions_DomainProduct",
+    "path": "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/PXL_Semantic_Extensions_DomainProduct.vok",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": "PXL_Semantic_Extensions_DomainProduct",
+    "path": "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/PXL_Semantic_Extensions_DomainProduct.vos",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": "PXL_Semantic_Profile_Suite",
+    "path": "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/PXL_Semantic_Profile_Suite.glob",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": "PXL_Semantic_Profile_Suite",
+    "path": "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/PXL_Semantic_Profile_Suite.v",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": "PXL_Semantic_Profile_Suite",
+    "path": "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/PXL_Semantic_Profile_Suite.vo",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": "PXL_Semantic_Profile_Suite",
+    "path": "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/PXL_Semantic_Profile_Suite.vok",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": "PXL_Semantic_Profile_Suite",
+    "path": "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/PXL_Semantic_Profile_Suite.vos",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": "PXL_Structural_Derivations",
+    "path": "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/PXL_Structural_Derivations.glob",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": "PXL_Structural_Derivations",
+    "path": "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/PXL_Structural_Derivations.v",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": "PXL_Structural_Derivations",
+    "path": "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/PXL_Structural_Derivations.vo",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": "PXL_Structural_Derivations",
+    "path": "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/PXL_Structural_Derivations.vok",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": "PXL_Structural_Derivations",
+    "path": "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/PXL_Structural_Derivations.vos",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": "PXL_Trinitarian_Optimization",
+    "path": "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/PXL_Trinitarian_Optimization.glob",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": "PXL_Trinitarian_Optimization",
+    "path": "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/PXL_Trinitarian_Optimization.v",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": "PXL_Trinitarian_Optimization",
+    "path": "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/PXL_Trinitarian_Optimization.vo",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": "PXL_Trinitarian_Optimization",
+    "path": "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/PXL_Trinitarian_Optimization.vok",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": "PXL_Trinitarian_Optimization",
+    "path": "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/PXL_Trinitarian_Optimization.vos",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": "PXL_Trinitarian_Optimization_SemanticPort",
+    "path": "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/PXL_Trinitarian_Optimization_SemanticPort.glob",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": "PXL_Trinitarian_Optimization_SemanticPort",
+    "path": "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/PXL_Trinitarian_Optimization_SemanticPort.v",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": "PXL_Trinitarian_Optimization_SemanticPort",
+    "path": "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/PXL_Trinitarian_Optimization_SemanticPort.vo",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": "PXL_Trinitarian_Optimization_SemanticPort",
+    "path": "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/PXL_Trinitarian_Optimization_SemanticPort.vok",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": "PXL_Trinitarian_Optimization_SemanticPort",
+    "path": "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/PXL_Trinitarian_Optimization_SemanticPort.vos",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": "PXL_TriunePBRS",
+    "path": "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/PXL_TriunePBRS.glob",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": "PXL_TriunePBRS",
+    "path": "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/PXL_TriunePBRS.v",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": "PXL_TriunePBRS",
+    "path": "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/PXL_TriunePBRS.vo",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": "PXL_TriunePBRS",
+    "path": "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/PXL_TriunePBRS.vok",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": "PXL_TriunePBRS",
+    "path": "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/PXL_TriunePBRS.vos",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": "PXL_Triune_Principles",
+    "path": "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/PXL_Triune_Principles.glob",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": "PXL_Triune_Principles",
+    "path": "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/PXL_Triune_Principles.v",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": "PXL_Triune_Principles",
+    "path": "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/PXL_Triune_Principles.vo",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": "PXL_Triune_Principles",
+    "path": "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/PXL_Triune_Principles.vok",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": "PXL_Triune_Principles",
+    "path": "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/PXL_Triune_Principles.vos",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": "PXL_WellFormedness",
+    "path": "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/PXL_WellFormedness.glob",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": "PXL_WellFormedness",
+    "path": "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/PXL_WellFormedness.v",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": "PXL_WellFormedness",
+    "path": "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/PXL_WellFormedness.vo",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": "PXL_WellFormedness",
+    "path": "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/PXL_WellFormedness.vok",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": "PXL_WellFormedness",
+    "path": "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/PXL_WellFormedness.vos",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": "PXLv3_SemanticModal",
+    "path": "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/PXLv3_SemanticModal.glob",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": "PXLv3_SemanticModal",
+    "path": "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/PXLv3_SemanticModal.v",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": "PXLv3_SemanticModal",
+    "path": "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/PXLv3_SemanticModal.vo",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": "PXLv3_SemanticModal",
+    "path": "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/PXLv3_SemanticModal.vok",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": "PXLv3_SemanticModal",
+    "path": "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/PXLv3_SemanticModal.vos",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": "PXLv3_head",
+    "path": "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/PXLv3_head.glob",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": "PXLv3_head",
+    "path": "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/PXLv3_head.v",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": "PXLv3_head",
+    "path": "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/PXLv3_head.vo",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": "PXLv3_head",
+    "path": "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/PXLv3_head.vok",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": "PXLv3_head",
+    "path": "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/PXLv3_head.vos",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": "Trinitarian_Identity_Closure",
+    "path": "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/Trinitarian_Identity_Closure.glob",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": "Trinitarian_Identity_Closure",
+    "path": "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/Trinitarian_Identity_Closure.v",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": "Trinitarian_Identity_Closure",
+    "path": "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/Trinitarian_Identity_Closure.vo",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": "Trinitarian_Identity_Closure",
+    "path": "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/Trinitarian_Identity_Closure.vok",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": "Trinitarian_Identity_Closure",
+    "path": "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/Trinitarian_Identity_Closure.vos",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": "test_K",
+    "path": "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/test_K.glob",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": "test_K",
+    "path": "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/test_K.v",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": "test_K",
+    "path": "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/test_K.vo",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": "test_K",
+    "path": "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/test_K.vok",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": "test_K",
+    "path": "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/baseline/test_K.vos",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": ".PXL_Modal_Semantic_Kripke",
+    "path": "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/modal/.PXL_Modal_Semantic_Kripke.aux",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": "PXL_Modal_Semantic_Kripke",
+    "path": "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/modal/PXL_Modal_Semantic_Kripke.glob",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": "PXL_Modal_Semantic_Kripke",
+    "path": "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/modal/PXL_Modal_Semantic_Kripke.v",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": "PXL_Modal_Semantic_Kripke",
+    "path": "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/modal/PXL_Modal_Semantic_Kripke.vo",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": "PXL_Modal_Semantic_Kripke",
+    "path": "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/modal/PXL_Modal_Semantic_Kripke.vok",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": "PXL_Modal_Semantic_Kripke",
+    "path": "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/modal/PXL_Modal_Semantic_Kripke.vos",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": ".S5_Kripke",
+    "path": "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/modal/PXLd/.S5_Kripke.aux",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": "S5_Kripke",
+    "path": "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/modal/PXLd/S5_Kripke.glob",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": "S5_Kripke",
+    "path": "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/modal/PXLd/S5_Kripke.v",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": "S5_Kripke",
+    "path": "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/modal/PXLd/S5_Kripke.vo",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": "S5_Kripke",
+    "path": "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/modal/PXLd/S5_Kripke.vok",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": "S5_Kripke",
+    "path": "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/modal/PXLd/S5_Kripke.vos",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": ".Modal_Decidability_Skeleton",
+    "path": "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/option_b/.Modal_Decidability_Skeleton.aux",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": ".Modal_Decidability_To_Interp",
+    "path": "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/option_b/.Modal_Decidability_To_Interp.aux",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": ".Modal_PXL_Interp",
+    "path": "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/option_b/.Modal_PXL_Interp.aux",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": ".Modal_Semantics",
+    "path": "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/option_b/.Modal_Semantics.aux",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": ".Modal_Syntax",
+    "path": "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/option_b/.Modal_Syntax.aux",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": ".Omega_Closure",
+    "path": "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/option_b/.Omega_Closure.aux",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": ".OptionB_Index",
+    "path": "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/option_b/.OptionB_Index.aux",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": ".Privation_Detector_Skeleton",
+    "path": "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/option_b/.Privation_Detector_Skeleton.aux",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": "Modal_Decidability_Skeleton",
+    "path": "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/option_b/Modal_Decidability_Skeleton.glob",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": "Modal_Decidability_Skeleton",
+    "path": "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/option_b/Modal_Decidability_Skeleton.v",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": "Modal_Decidability_Skeleton",
+    "path": "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/option_b/Modal_Decidability_Skeleton.vo",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": "Modal_Decidability_Skeleton",
+    "path": "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/option_b/Modal_Decidability_Skeleton.vok",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": "Modal_Decidability_Skeleton",
+    "path": "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/option_b/Modal_Decidability_Skeleton.vos",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": "Modal_Decidability_To_Interp",
+    "path": "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/option_b/Modal_Decidability_To_Interp.glob",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": "Modal_Decidability_To_Interp",
+    "path": "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/option_b/Modal_Decidability_To_Interp.v",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": "Modal_Decidability_To_Interp",
+    "path": "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/option_b/Modal_Decidability_To_Interp.vo",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": "Modal_Decidability_To_Interp",
+    "path": "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/option_b/Modal_Decidability_To_Interp.vok",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": "Modal_Decidability_To_Interp",
+    "path": "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/option_b/Modal_Decidability_To_Interp.vos",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": "Modal_PXL_Interp",
+    "path": "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/option_b/Modal_PXL_Interp.glob",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": "Modal_PXL_Interp",
+    "path": "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/option_b/Modal_PXL_Interp.v",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": "Modal_PXL_Interp",
+    "path": "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/option_b/Modal_PXL_Interp.vo",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": "Modal_PXL_Interp",
+    "path": "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/option_b/Modal_PXL_Interp.vok",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": "Modal_PXL_Interp",
+    "path": "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/option_b/Modal_PXL_Interp.vos",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": "Modal_Semantics",
+    "path": "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/option_b/Modal_Semantics.glob",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": "Modal_Semantics",
+    "path": "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/option_b/Modal_Semantics.v",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": "Modal_Semantics",
+    "path": "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/option_b/Modal_Semantics.vo",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": "Modal_Semantics",
+    "path": "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/option_b/Modal_Semantics.vok",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": "Modal_Semantics",
+    "path": "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/option_b/Modal_Semantics.vos",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": "Modal_Syntax",
+    "path": "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/option_b/Modal_Syntax.glob",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": "Modal_Syntax",
+    "path": "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/option_b/Modal_Syntax.v",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": "Modal_Syntax",
+    "path": "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/option_b/Modal_Syntax.vo",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": "Modal_Syntax",
+    "path": "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/option_b/Modal_Syntax.vok",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": "Modal_Syntax",
+    "path": "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/option_b/Modal_Syntax.vos",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": "Omega_Closure",
+    "path": "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/option_b/Omega_Closure.glob",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": "Omega_Closure",
+    "path": "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/option_b/Omega_Closure.v",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": "Omega_Closure",
+    "path": "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/option_b/Omega_Closure.vo",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": "Omega_Closure",
+    "path": "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/option_b/Omega_Closure.vok",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": "Omega_Closure",
+    "path": "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/option_b/Omega_Closure.vos",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": "OptionB_Index",
+    "path": "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/option_b/OptionB_Index.glob",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": "OptionB_Index",
+    "path": "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/option_b/OptionB_Index.v",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": "OptionB_Index",
+    "path": "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/option_b/OptionB_Index.vo",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": "OptionB_Index",
+    "path": "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/option_b/OptionB_Index.vok",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": "OptionB_Index",
+    "path": "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/option_b/OptionB_Index.vos",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": "Privation_Detector_Skeleton",
+    "path": "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/option_b/Privation_Detector_Skeleton.glob",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": "Privation_Detector_Skeleton",
+    "path": "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/option_b/Privation_Detector_Skeleton.v",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": "Privation_Detector_Skeleton",
+    "path": "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/option_b/Privation_Detector_Skeleton.vo",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": "Privation_Detector_Skeleton",
+    "path": "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/option_b/Privation_Detector_Skeleton.vok",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": "Privation_Detector_Skeleton",
+    "path": "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/option_b/Privation_Detector_Skeleton.vos",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": ".falsifiability_test",
+    "path": "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/tests/.falsifiability_test.aux",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": "falsifiability_test",
+    "path": "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/tests/falsifiability_test.glob",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": "falsifiability_test",
+    "path": "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/tests/falsifiability_test.v",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": "falsifiability_test",
+    "path": "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/tests/falsifiability_test.vo",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": "falsifiability_test",
+    "path": "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/tests/falsifiability_test.vok",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": "falsifiability_test",
+    "path": "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/tests/falsifiability_test.vos",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": ".LEM_Discharge",
+    "path": "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/ui/.LEM_Discharge.aux",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": "LEM_Discharge",
+    "path": "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/ui/LEM_Discharge.glob",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": "LEM_Discharge",
+    "path": "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/ui/LEM_Discharge.v",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": "LEM_Discharge",
+    "path": "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/ui/LEM_Discharge.vo",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": "LEM_Discharge",
+    "path": "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/ui/LEM_Discharge.vok",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": "LEM_Discharge",
+    "path": "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/ui/LEM_Discharge.vos",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": "PXL_Proof_Compile",
+    "path": "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/ui/PXL_Proof_Compile.py",
+    "symbols": [
+      "banner",
+      "parse_args",
+      "run",
+      "contains_keyword",
+      "main"
+    ],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": "__init__",
+    "path": "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/ui/__init__.py",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": "PXL_Proof_Compile.cpython-312",
+    "path": "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/ui/__pycache__/PXL_Proof_Compile.cpython-312.pyc",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": "__init__.cpython-312",
+    "path": "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/ui/__pycache__/__init__.cpython-312.pyc",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": "audit_and_emit.cpython-312",
+    "path": "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/ui/__pycache__/audit_and_emit.cpython-312.pyc",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": "lem_portal.cpython-312",
+    "path": "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/ui/__pycache__/lem_portal.cpython-312.pyc",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": "run_coq_pipeline.cpython-312",
+    "path": "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/ui/__pycache__/run_coq_pipeline.cpython-312.pyc",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": "serve_pxl.cpython-312",
+    "path": "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/ui/__pycache__/serve_pxl.cpython-312.pyc",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": "audit_and_emit",
+    "path": "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/ui/audit_and_emit.py",
+    "symbols": [
+      "main"
+    ],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": "lem_portal",
+    "path": "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/ui/lem_portal.py",
+    "symbols": [
+      "open_identity_portal"
+    ],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": "run_coq_pipeline",
+    "path": "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/ui/run_coq_pipeline.py",
+    "symbols": [
+      "compile_baseline",
+      "compile_latest_meta",
+      "enforce_single_lem_admit",
+      "run_full_pipeline"
+    ],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": "serve_pxl",
+    "path": "Logos_System/System_Entry_Point/Runtime_Compiler/coq/src/ui/serve_pxl.py",
+    "symbols": [
+      "compute_kernel_hash",
+      "start_sertop",
+      "send_sertop_command",
+      "translate_box_to_coq",
+      "shutdown_sertop",
+      "signal_handler",
+      "health",
+      "prove",
+      "countermodel"
+    ],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": "lem_discharge_state",
+    "path": "Logos_System/System_Entry_Point/Runtime_Compiler/state/lem_discharge_state.json",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": "__init__",
+    "path": "Logos_System/System_Stack/Logos_Protocol/Runtime_Operations/Diagnostics/__init__.py",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": "regression_checker",
+    "path": "Logos_System/System_Stack/Logos_Protocol/Runtime_Operations/Diagnostics/regression_checker.py",
+    "symbols": [
+      "RegressionChecker",
+      "compare_tool_outputs"
+    ],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": "self_diagnosis",
+    "path": "Logos_System/System_Stack/Logos_Protocol/Runtime_Operations/Diagnostics/self_diagnosis.py",
+    "symbols": [
+      "HealthStatus",
+      "HealthCheck",
+      "SelfDiagnosisTool",
+      "perform_system_diagnosis",
+      "get_system_diagnosis"
+    ],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": "Constraint_Context",
+    "path": "Logos_System/System_Stack/Logos_Protocol/Runtime_Operations/Governance/Constraint_Context.py",
+    "symbols": [
+      "ConstraintContext"
+    ],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": "Constraint_Result",
+    "path": "Logos_System/System_Stack/Logos_Protocol/Runtime_Operations/Governance/Constraint_Result.py",
+    "symbols": [
+      "ConstraintResult"
+    ],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": "ETGC_Validator",
+    "path": "Logos_System/System_Stack/Logos_Protocol/Runtime_Operations/Governance/ETGC_Validator.py",
+    "symbols": [
+      "ETGCValidator"
+    ],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": "Privation_Filter",
+    "path": "Logos_System/System_Stack/Logos_Protocol/Runtime_Operations/Governance/Privation_Filter.py",
+    "symbols": [
+      "Privation_Filter"
+    ],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": "TLM_Confirmation",
+    "path": "Logos_System/System_Stack/Logos_Protocol/Runtime_Operations/Governance/TLM_Confirmation.py",
+    "symbols": [
+      "TLM_Confirmation"
+    ],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": "Trinitarian_Optimizer",
+    "path": "Logos_System/System_Stack/Logos_Protocol/Runtime_Operations/Governance/Trinitarian_Optimizer.py",
+    "symbols": [
+      "OptimizationDecision",
+      "Trinitarian_Optimizer"
+    ],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": "Triune_Principal_Validator",
+    "path": "Logos_System/System_Stack/Logos_Protocol/Runtime_Operations/Governance/Triune_Principal_Validator.py",
+    "symbols": [
+      "Triune_Principal_Report",
+      "Triune_Principal_Validator"
+    ],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": "__init__",
+    "path": "Logos_System/System_Stack/Logos_Protocol/Runtime_Operations/Governance/__init__.py",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": "iel_overlays",
+    "path": "Logos_System/System_Stack/Logos_Protocol/Runtime_Operations/Governance/iel_overlays.py",
+    "symbols": [
+      "IELDomain",
+      "IELOverlay"
+    ],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": "onto_lattice",
+    "path": "Logos_System/System_Stack/Logos_Protocol/Runtime_Operations/Governance/onto_lattice.py",
+    "symbols": [
+      "LatticeAxiom",
+      "LatticeProperty",
+      "OntologicalLattice"
+    ],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": "reflexive_evaluator",
+    "path": "Logos_System/System_Stack/Logos_Protocol/Runtime_Operations/Governance/reflexive_evaluator.py",
+    "symbols": [
+      "ModalOverlay",
+      "PrivativeOverlay",
+      "ReflexiveSelfEvaluator"
+    ],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": "triune_commutator",
+    "path": "Logos_System/System_Stack/Logos_Protocol/Runtime_Operations/Governance/triune_commutator.py",
+    "symbols": [
+      "AxiomaticCommutator",
+      "MetaCommutator",
+      "GlobalCommutator"
+    ],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": "__init__",
+    "path": "Logos_System/System_Stack/Logos_Protocol/Runtime_Operations/Orchestration/__init__.py",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": "bridge",
+    "path": "Logos_System/System_Stack/Logos_Protocol/Runtime_Operations/Orchestration/bridge.py",
+    "symbols": [
+      "ProtocolType",
+      "Message",
+      "ProtocolBridge",
+      "bridge_status",
+      "get_bridge_status"
+    ],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": "logos_daemon",
+    "path": "Logos_System/System_Stack/Logos_Protocol/Runtime_Operations/Orchestration/logos_daemon.py",
+    "symbols": [
+      "run_once",
+      "main"
+    ],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": "Cognitive_Resistor",
+    "path": "Logos_System/System_Stack/Logos_Protocol/Runtime_Operations/Tetra_Conscious/Cognitive_Resistor.py",
+    "symbols": [
+      "CriticMode",
+      "CriticArchetype",
+      "CriticalChallenge",
+      "CriticalLens",
+      "TetrahedralCritic",
+      "SelfReferentialCritic",
+      "PragmaticEffectivenessValidator",
+      "CriticalMemoryIntegrator",
+      "demonstrate_cognitive_resistor"
+    ],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": "Fractal_Data_Analyzer",
+    "path": "Logos_System/System_Stack/Logos_Protocol/Runtime_Operations/Tetra_Conscious/Fractal_Data_Analyzer.py",
+    "symbols": [
+      "SMP",
+      "EngineReport",
+      "RefinedSMP",
+      "SMPSynthesizer",
+      "StabilityCalculator",
+      "PXLLogicFace",
+      "IELDomainFace",
+      "ARPMathematicalFace",
+      "CognitiveResistor",
+      "TetrahedralEvaluator",
+      "initialize_system_a",
+      "evaluate_smp"
+    ],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": "Fractal_Memory_Orchestrator",
+    "path": "Logos_System/System_Stack/Logos_Protocol/Runtime_Operations/Tetra_Conscious/Fractal_Memory_Orchestrator.py",
+    "symbols": [
+      "SMPQuality",
+      "FailureMode",
+      "RecoveryAction",
+      "CommitResult",
+      "OrchestrationMetrics",
+      "Enhancement",
+      "SystemOrchestrator",
+      "AdaptiveControlEnhancement",
+      "QualityClassifierEnhancement",
+      "PerformanceMonitorEnhancement",
+      "FailureRecoveryEnhancement",
+      "AuditAggregatorEnhancement",
+      "PatternLearnerEnhancement",
+      "create_orchestrator"
+    ],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": "PXL_Tetra_Analyst",
+    "path": "Logos_System/System_Stack/Logos_Protocol/Runtime_Operations/Tetra_Conscious/PXL_Tetra_Analyst.py",
+    "symbols": [
+      "PXLAnalyzer"
+    ],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": "Projection_Loader",
+    "path": "Runtime_Governance/Projection_Loader.py",
+    "symbols": [
+      "load_agent_projection"
+    ],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": "Projection_Validator",
+    "path": "Runtime_Governance/Projection_Validator.py",
+    "symbols": [
+      "ProjectionValidationError",
+      "validate_projection"
+    ],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": "__init__",
+    "path": "Runtime_Spine/Agent_Orchestration/__init__.py",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": "__init__.cpython-312",
+    "path": "Runtime_Spine/Agent_Orchestration/__pycache__/__init__.cpython-312.pyc",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": "agent_orchestration.cpython-312",
+    "path": "Runtime_Spine/Agent_Orchestration/__pycache__/agent_orchestration.cpython-312.pyc",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": "agent_orchestration",
+    "path": "Runtime_Spine/Agent_Orchestration/agent_orchestration.py",
+    "symbols": [
+      "OrchestrationHalt",
+      "prepare_agent_orchestration"
+    ],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": "__init__",
+    "path": "Runtime_Spine/Lock_And_Key/__init__.py",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": "__init__.cpython-312",
+    "path": "Runtime_Spine/Lock_And_Key/__pycache__/__init__.cpython-312.pyc",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": "lock_and_key.cpython-312",
+    "path": "Runtime_Spine/Lock_And_Key/__pycache__/lock_and_key.cpython-312.pyc",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": "lock_and_key",
+    "path": "Runtime_Spine/Lock_And_Key/lock_and_key.py",
+    "symbols": [
+      "LockAndKeyFailure",
+      "execute_lock_and_key"
+    ],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": "__init__",
+    "path": "Runtime_Spine/Logos_Constructive_Compile/__init__.py",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": "__init__.cpython-312",
+    "path": "Runtime_Spine/Logos_Constructive_Compile/__pycache__/__init__.cpython-312.pyc",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": "logos_constructive_compile.cpython-312",
+    "path": "Runtime_Spine/Logos_Constructive_Compile/__pycache__/logos_constructive_compile.cpython-312.pyc",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": "logos_constructive_compile",
+    "path": "Runtime_Spine/Logos_Constructive_Compile/logos_constructive_compile.py",
+    "symbols": [
+      "ConstructiveCompileHalt",
+      "perform_constructive_compile"
+    ],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": "test_phase_d_runtime_spine.cpython-312-pytest-9.0.1",
+    "path": "Runtime_Spine/_Tests/__pycache__/test_phase_d_runtime_spine.cpython-312-pytest-9.0.1.pyc",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": "test_phase_d_runtime_spine",
+    "path": "Runtime_Spine/_Tests/test_phase_d_runtime_spine.py",
+    "symbols": [
+      "test_constructive_compile_success",
+      "test_agent_orchestration_success",
+      "test_constructive_compile_missing_session_id",
+      "test_constructive_compile_invalid_attestation",
+      "test_orchestration_missing_logos_agent_id",
+      "test_orchestration_invalid_context_type"
+    ],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": "__init__",
+    "path": "Runtime_Spine/__init__.py",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": "__init__.cpython-312",
+    "path": "Runtime_Spine/__pycache__/__init__.cpython-312.pyc",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": "Passive_Runtime_Initialization_Execution_Contract",
+    "path": "_Governance/Contracts/Passive_Runtime_Initialization_Execution_Contract.json",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": "Phase_A_Governance_Contract",
+    "path": "_Governance/Contracts/Phase_A_Governance_Contract.json",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": "Phase_B_Governance_Contract",
+    "path": "_Governance/Contracts/Phase_B_Governance_Contract.json",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": "Phase_C_Governance_Contract",
+    "path": "_Governance/Contracts/Phase_C_Governance_Contract.json",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": "Phase_D_Governance_Contract",
+    "path": "_Governance/Contracts/Phase_D_Governance_Contract.json",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": "Phase_E_Agent_Orchestration_Execution_Contract",
+    "path": "_Governance/Contracts/Phase_E_Agent_Orchestration_Execution_Contract.json",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": "Phase_F_Authorized_Agent_Execution_Contract",
+    "path": "_Governance/Contracts/Phase_F_Authorized_Agent_Execution_Contract.json",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": "Phase_F_Execution_Contract",
+    "path": "_Governance/Contracts/Phase_F_Execution_Contract.json",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": "Phase_G_Execution_Contract",
+    "path": "_Governance/Contracts/Phase_G_Execution_Contract.json",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": "Phase_H_Completion_Record",
+    "path": "_Governance/Contracts/Phase_H_Completion_Record.json",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": "Phase_H_Execution_Contract",
+    "path": "_Governance/Contracts/Phase_H_Execution_Contract.json",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": "Phase_I_Execution_Contract",
+    "path": "_Governance/Contracts/Phase_I_Execution_Contract.json",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": "Priority_1_Active_Interaction_Execution_Contract",
+    "path": "_Governance/Contracts/Priority_1_Active_Interaction_Execution_Contract.json",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": "Priority_Switch_Execution_Contract",
+    "path": "_Governance/Contracts/Priority_Switch_Execution_Contract.json",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": "Runtime_Module_Header_Contract",
+    "path": "_Governance/Contracts/Runtime_Module_Header_Contract.json",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": "Runtime_Spine_Lock_And_Key_Execution_Contract",
+    "path": "_Governance/Contracts/Runtime_Spine_Lock_And_Key_Execution_Contract.json",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": "System_Entry_Point_Execution_Contract",
+    "path": "_Governance/Contracts/System_Entry_Point_Execution_Contract.json",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": "GOVERNANCE_README",
+    "path": "_Governance/GOVERNANCE_README.json",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": "filesystem_guard",
+    "path": "_Governance/Gov_Modules/filesystem_guard.py",
+    "symbols": [
+      "FilesystemViolation",
+      "assert_valid_write"
+    ],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": "preflight_filesystem_check",
+    "path": "_Governance/Gov_Modules/preflight_filesystem_check.py",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": "Filesystem_Landing_Policy",
+    "path": "_Governance/Policies/Filesystem_Landing_Policy.json",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": "SMP_Pipeline_Governance_Addendum.policy",
+    "path": "_Governance/Policies/SMP_Pipeline_Governance_Addendum.policy.json",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": "Agent_Projection_Schema",
+    "path": "_Governance/Schemas/Agent_Projection_Schema.json",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": "Runtime_Module_Header_Schema",
+    "path": "_Governance/Schemas/Runtime_Module_Header_Schema.json",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  },
+  {
+    "module_name": "SMP_Pipeline_Governance_Addendum.schema",
+    "path": "_Governance/Schemas/SMP_Pipeline_Governance_Addendum.schema.json",
+    "symbols": [],
+    "rule": "ARCHIVE_ONLY_IF_OVERLAP"
+  }
+]

@@ -1,0 +1,1285 @@
+DIFF REPORT — Legacy vs Dry-Run (20260118T213839Z)
+
+===== DIFF: aligned_agent_import.py =====
+--- /workspaces/Logos_System/Logos_System/LEGACY_SCRIPTS_TO_EXAMINE/aligned_agent_import.py
+
++++ /workspaces/Logos_System/_DRY_RUN/LEGACY_BATCH/aligned_agent_import.py
+
+@@ -1,11 +1,15 @@
+
+-# HEADER_TYPE: LEGACY_REWRITE_CANDIDATE
+-# EXECUTION: FORBIDDEN
+-# IMPORT: FORBIDDEN
+-# AUTHORITY: NONE
+-# DESTINATION: Logos_System_Rebuild
+-# ARCHIVE_AFTER_REWRITE: REQUIRED
+-
+-
++# HEADER_TYPE: CANONICAL_REBUILD_MODULE
++# EXECUTION: FORBIDDEN (DRY_RUN_ONLY)
++# AUTHORITY: GOVERNED
++# INSTALL_STATUS: DRY_RUN_ONLY
++# SOURCE_LEGACY: aligned_agent_import.py
++
++"""
++DRY-RUN REWRITE
++
++This file is a structural, governed rewrite candidate generated for
++rewrite-system validation only. No execution, no side effects.
++"""
+ """Alignment-gated Logos_AGI importer with drift guard and optional probing."""
+ 
+ from __future__ import annotations
+
+===== DIFF: archive_planner_digests.py =====
+--- /workspaces/Logos_System/Logos_System/LEGACY_SCRIPTS_TO_EXAMINE/archive_planner_digests.py
+
++++ /workspaces/Logos_System/_DRY_RUN/LEGACY_BATCH/archive_planner_digests.py
+
+@@ -1,11 +1,15 @@
+
+-# HEADER_TYPE: LEGACY_REWRITE_CANDIDATE
+-# EXECUTION: FORBIDDEN
+-# IMPORT: FORBIDDEN
+-# AUTHORITY: NONE
+-# DESTINATION: Logos_System_Rebuild
+-# ARCHIVE_AFTER_REWRITE: REQUIRED
++# HEADER_TYPE: CANONICAL_REBUILD_MODULE
++# EXECUTION: FORBIDDEN (DRY_RUN_ONLY)
++# AUTHORITY: GOVERNED
++# INSTALL_STATUS: DRY_RUN_ONLY
++# SOURCE_LEGACY: archive_planner_digests.py
+ 
++"""
++DRY-RUN REWRITE
+ 
++This file is a structural, governed rewrite candidate generated for
++rewrite-system validation only. No execution, no side effects.
++"""
+ """Create a compressed snapshot of the planner digest log."""
+ 
+ from __future__ import annotations
+
+===== DIFF: boot_aligned_agent.py =====
+--- /workspaces/Logos_System/Logos_System/LEGACY_SCRIPTS_TO_EXAMINE/boot_aligned_agent.py
+
++++ /workspaces/Logos_System/_DRY_RUN/LEGACY_BATCH/boot_aligned_agent.py
+
+@@ -1,11 +1,15 @@
+
+-# HEADER_TYPE: LEGACY_REWRITE_CANDIDATE
+-# EXECUTION: FORBIDDEN
+-# IMPORT: FORBIDDEN
+-# AUTHORITY: NONE
+-# DESTINATION: Logos_System_Rebuild
+-# ARCHIVE_AFTER_REWRITE: REQUIRED
+-
+-
++# HEADER_TYPE: CANONICAL_REBUILD_MODULE
++# EXECUTION: FORBIDDEN (DRY_RUN_ONLY)
++# AUTHORITY: GOVERNED
++# INSTALL_STATUS: DRY_RUN_ONLY
++# SOURCE_LEGACY: boot_aligned_agent.py
++
++"""
++DRY-RUN REWRITE
++
++This file is a structural, governed rewrite candidate generated for
++rewrite-system validation only. No execution, no side effects.
++"""
+ """Boot a sandboxed Logos Agent that unlocks only after discharging LEM.
+ 
+ This script enforces an alignment-first startup sequence:
+
+===== DIFF: build_coq_theorem_index.py =====
+--- /workspaces/Logos_System/Logos_System/LEGACY_SCRIPTS_TO_EXAMINE/build_coq_theorem_index.py
+
++++ /workspaces/Logos_System/_DRY_RUN/LEGACY_BATCH/build_coq_theorem_index.py
+
+@@ -1,11 +1,15 @@
+
+-# HEADER_TYPE: LEGACY_REWRITE_CANDIDATE
+-# EXECUTION: FORBIDDEN
+-# IMPORT: FORBIDDEN
+-# AUTHORITY: NONE
+-# DESTINATION: Logos_System_Rebuild
+-# ARCHIVE_AFTER_REWRITE: REQUIRED
++# HEADER_TYPE: CANONICAL_REBUILD_MODULE
++# EXECUTION: FORBIDDEN (DRY_RUN_ONLY)
++# AUTHORITY: GOVERNED
++# INSTALL_STATUS: DRY_RUN_ONLY
++# SOURCE_LEGACY: build_coq_theorem_index.py
+ 
++"""
++DRY-RUN REWRITE
+ 
++This file is a structural, governed rewrite candidate generated for
++rewrite-system validation only. No execution, no side effects.
++"""
+ """Build Coq theorem index from existing proof artifacts."""
+ 
+ import hashlib
+
+===== DIFF: capture_arp_traces_and_backfill.py =====
+--- /workspaces/Logos_System/Logos_System/LEGACY_SCRIPTS_TO_EXAMINE/capture_arp_traces_and_backfill.py
+
++++ /workspaces/Logos_System/_DRY_RUN/LEGACY_BATCH/capture_arp_traces_and_backfill.py
+
+@@ -1,11 +1,15 @@
+
+-# HEADER_TYPE: LEGACY_REWRITE_CANDIDATE
+-# EXECUTION: FORBIDDEN
+-# IMPORT: FORBIDDEN
+-# AUTHORITY: NONE
+-# DESTINATION: Logos_System_Rebuild
+-# ARCHIVE_AFTER_REWRITE: REQUIRED
+-
+-
++# HEADER_TYPE: CANONICAL_REBUILD_MODULE
++# EXECUTION: FORBIDDEN (DRY_RUN_ONLY)
++# AUTHORITY: GOVERNED
++# INSTALL_STATUS: DRY_RUN_ONLY
++# SOURCE_LEGACY: capture_arp_traces_and_backfill.py
++
++"""
++DRY-RUN REWRITE
++
++This file is a structural, governed rewrite candidate generated for
++rewrite-system validation only. No execution, no side effects.
++"""
+ """Deterministic ARP trace capture and fixture hash backfill harness.
+ 
+ This script runs the Advanced Reasoning Protocol (ARP) in analysis-only mode.
+
+===== DIFF: cycle_ledger.py =====
+--- /workspaces/Logos_System/Logos_System/LEGACY_SCRIPTS_TO_EXAMINE/cycle_ledger.py
+
++++ /workspaces/Logos_System/_DRY_RUN/LEGACY_BATCH/cycle_ledger.py
+
+@@ -1,11 +1,15 @@
+
+-# HEADER_TYPE: LEGACY_REWRITE_CANDIDATE
+-# EXECUTION: FORBIDDEN
+-# IMPORT: FORBIDDEN
+-# AUTHORITY: NONE
+-# DESTINATION: Logos_System_Rebuild
+-# ARCHIVE_AFTER_REWRITE: REQUIRED
++# HEADER_TYPE: CANONICAL_REBUILD_MODULE
++# EXECUTION: FORBIDDEN (DRY_RUN_ONLY)
++# AUTHORITY: GOVERNED
++# INSTALL_STATUS: DRY_RUN_ONLY
++# SOURCE_LEGACY: cycle_ledger.py
+ 
++"""
++DRY-RUN REWRITE
+ 
++This file is a structural, governed rewrite candidate generated for
++rewrite-system validation only. No execution, no side effects.
++"""
+ """Ledger utilities for supervised promotion cycles."""
+ 
+ from __future__ import annotations
+
+===== DIFF: evidence.py =====
+--- /workspaces/Logos_System/Logos_System/LEGACY_SCRIPTS_TO_EXAMINE/evidence.py
+
++++ /workspaces/Logos_System/_DRY_RUN/LEGACY_BATCH/evidence.py
+
+@@ -1,11 +1,15 @@
+
+-# HEADER_TYPE: LEGACY_REWRITE_CANDIDATE
+-# EXECUTION: FORBIDDEN
+-# IMPORT: FORBIDDEN
+-# AUTHORITY: NONE
+-# DESTINATION: Logos_System_Rebuild
+-# ARCHIVE_AFTER_REWRITE: REQUIRED
++# HEADER_TYPE: CANONICAL_REBUILD_MODULE
++# EXECUTION: FORBIDDEN (DRY_RUN_ONLY)
++# AUTHORITY: GOVERNED
++# INSTALL_STATUS: DRY_RUN_ONLY
++# SOURCE_LEGACY: evidence.py
+ 
++"""
++DRY-RUN REWRITE
+ 
++This file is a structural, governed rewrite candidate generated for
++rewrite-system validation only. No execution, no side effects.
++"""
+ """Evidence reference helpers for grounded replies."""
+ 
+ from __future__ import annotations
+
+===== DIFF: export_tool_registry.py =====
+--- /workspaces/Logos_System/Logos_System/LEGACY_SCRIPTS_TO_EXAMINE/export_tool_registry.py
+
++++ /workspaces/Logos_System/_DRY_RUN/LEGACY_BATCH/export_tool_registry.py
+
+@@ -1,11 +1,15 @@
+
+-# HEADER_TYPE: LEGACY_REWRITE_CANDIDATE
+-# EXECUTION: FORBIDDEN
+-# IMPORT: FORBIDDEN
+-# AUTHORITY: NONE
+-# DESTINATION: Logos_System_Rebuild
+-# ARCHIVE_AFTER_REWRITE: REQUIRED
++# HEADER_TYPE: CANONICAL_REBUILD_MODULE
++# EXECUTION: FORBIDDEN (DRY_RUN_ONLY)
++# AUTHORITY: GOVERNED
++# INSTALL_STATUS: DRY_RUN_ONLY
++# SOURCE_LEGACY: export_tool_registry.py
+ 
++"""
++DRY-RUN REWRITE
+ 
++This file is a structural, governed rewrite candidate generated for
++rewrite-system validation only. No execution, no side effects.
++"""
+ # ============================
+ # LOGOS FILE HEADER (STANDARD)
+ # ============================
+
+===== DIFF: legacy_nexu_smp/nexus/__init__.py =====
+--- /workspaces/Logos_System/Logos_System/LEGACY_SCRIPTS_TO_EXAMINE/legacy_nexu_smp/nexus/__init__.py
+
++++ /workspaces/Logos_System/_DRY_RUN/LEGACY_BATCH/legacy_nexu_smp/nexus/__init__.py
+
+@@ -1,6 +1,15 @@
+
+-# Original init logic backed up at _reports/Init_Reset_20260114_153126/backup_init/Logos_System/System_Stack/System_Operations_Protocol/nexus/__init__.py
+-# Review and restore exports/side effects before enabling package logic.
++# HEADER_TYPE: CANONICAL_REBUILD_MODULE
++# EXECUTION: FORBIDDEN (DRY_RUN_ONLY)
++# AUTHORITY: GOVERNED
++# INSTALL_STATUS: DRY_RUN_ONLY
++# SOURCE_LEGACY: __init__.py
+ 
++"""
++DRY-RUN REWRITE
++
++This file is a structural, governed rewrite candidate generated for
++rewrite-system validation only. No execution, no side effects.
++"""
+ """
+ LOGOS normalization stub.
+ 
+
+===== DIFF: legacy_nexu_smp/nexus/legacy_sop_nexus.py =====
+--- /workspaces/Logos_System/Logos_System/LEGACY_SCRIPTS_TO_EXAMINE/legacy_nexu_smp/nexus/legacy_sop_nexus.py
+
++++ /workspaces/Logos_System/_DRY_RUN/LEGACY_BATCH/legacy_nexu_smp/nexus/legacy_sop_nexus.py
+
+@@ -1,10 +1,15 @@
+
+-# HEADER_TYPE: LEGACY_REWRITE_CANDIDATE
+-# EXECUTION: FORBIDDEN
+-# IMPORT: FORBIDDEN
+-# AUTHORITY: NONE
+-# DESTINATION: Logos_System_Rebuild
+-# ARCHIVE_AFTER_REWRITE: REQUIRED
+-
++# HEADER_TYPE: CANONICAL_REBUILD_MODULE
++# EXECUTION: FORBIDDEN (DRY_RUN_ONLY)
++# AUTHORITY: GOVERNED
++# INSTALL_STATUS: DRY_RUN_ONLY
++# SOURCE_LEGACY: legacy_sop_nexus.py
++
++"""
++DRY-RUN REWRITE
++
++This file is a structural, governed rewrite candidate generated for
++rewrite-system validation only. No execution, no side effects.
++"""
+ """
+ SOP Nexus - System Operations Protocol Central Hub
+ ================================================
+
+===== DIFF: legacy_nexu_smp/nexus/sop_nexus.py =====
+--- /workspaces/Logos_System/Logos_System/LEGACY_SCRIPTS_TO_EXAMINE/legacy_nexu_smp/nexus/sop_nexus.py
+
++++ /workspaces/Logos_System/_DRY_RUN/LEGACY_BATCH/legacy_nexu_smp/nexus/sop_nexus.py
+
+@@ -1,10 +1,15 @@
+
+-# HEADER_TYPE: LEGACY_REWRITE_CANDIDATE
+-# EXECUTION: FORBIDDEN
+-# IMPORT: FORBIDDEN
+-# AUTHORITY: NONE
+-# DESTINATION: Logos_System_Rebuild
+-# ARCHIVE_AFTER_REWRITE: REQUIRED
+-
++# HEADER_TYPE: CANONICAL_REBUILD_MODULE
++# EXECUTION: FORBIDDEN (DRY_RUN_ONLY)
++# AUTHORITY: GOVERNED
++# INSTALL_STATUS: DRY_RUN_ONLY
++# SOURCE_LEGACY: sop_nexus.py
++
++"""
++DRY-RUN REWRITE
++
++This file is a structural, governed rewrite candidate generated for
++rewrite-system validation only. No execution, no side effects.
++"""
+ """
+ SOP Nexus - System Operations Protocol Central Hub
+ ================================================
+
+===== DIFF: legacy_nexu_smp/nexus/sop_operations.py =====
+--- /workspaces/Logos_System/Logos_System/LEGACY_SCRIPTS_TO_EXAMINE/legacy_nexu_smp/nexus/sop_operations.py
+
++++ /workspaces/Logos_System/_DRY_RUN/LEGACY_BATCH/legacy_nexu_smp/nexus/sop_operations.py
+
+@@ -1,10 +1,15 @@
+
+-# HEADER_TYPE: LEGACY_REWRITE_CANDIDATE
+-# EXECUTION: FORBIDDEN
+-# IMPORT: FORBIDDEN
+-# AUTHORITY: NONE
+-# DESTINATION: Logos_System_Rebuild
+-# ARCHIVE_AFTER_REWRITE: REQUIRED
+-
++# HEADER_TYPE: CANONICAL_REBUILD_MODULE
++# EXECUTION: FORBIDDEN (DRY_RUN_ONLY)
++# AUTHORITY: GOVERNED
++# INSTALL_STATUS: DRY_RUN_ONLY
++# SOURCE_LEGACY: sop_operations.py
++
++"""
++DRY-RUN REWRITE
++
++This file is a structural, governed rewrite candidate generated for
++rewrite-system validation only. No execution, no side effects.
++"""
+ """
+ System Operations Protocol (SOP) Operations Script
+ 
+
+===== DIFF: legacy_nexu_smp/system_utilities1/__init__.py =====
+--- /workspaces/Logos_System/Logos_System/LEGACY_SCRIPTS_TO_EXAMINE/legacy_nexu_smp/system_utilities1/__init__.py
+
++++ /workspaces/Logos_System/_DRY_RUN/LEGACY_BATCH/legacy_nexu_smp/system_utilities1/__init__.py
+
+@@ -1,6 +1,15 @@
+
+-# Original init logic backed up at _reports/Init_Reset_20260114_153126/backup_init/Logos_System/System_Stack/Synthetic_Cognition_Protocol/system_utilities/__init__.py
+-# Review and restore exports/side effects before enabling package logic.
++# HEADER_TYPE: CANONICAL_REBUILD_MODULE
++# EXECUTION: FORBIDDEN (DRY_RUN_ONLY)
++# AUTHORITY: GOVERNED
++# INSTALL_STATUS: DRY_RUN_ONLY
++# SOURCE_LEGACY: __init__.py
+ 
++"""
++DRY-RUN REWRITE
++
++This file is a structural, governed rewrite candidate generated for
++rewrite-system validation only. No execution, no side effects.
++"""
+ """
+ LOGOS normalization stub.
+ 
+
+===== DIFF: legacy_nexu_smp/system_utilities1/nexus/__init__.py =====
+--- /workspaces/Logos_System/Logos_System/LEGACY_SCRIPTS_TO_EXAMINE/legacy_nexu_smp/system_utilities1/nexus/__init__.py
+
++++ /workspaces/Logos_System/_DRY_RUN/LEGACY_BATCH/legacy_nexu_smp/system_utilities1/nexus/__init__.py
+
+@@ -1,6 +1,15 @@
+
+-# Original init logic backed up at _reports/Init_Reset_20260114_153126/backup_init/Logos_System/System_Stack/Synthetic_Cognition_Protocol/system_utilities/nexus/__init__.py
+-# Review and restore exports/side effects before enabling package logic.
++# HEADER_TYPE: CANONICAL_REBUILD_MODULE
++# EXECUTION: FORBIDDEN (DRY_RUN_ONLY)
++# AUTHORITY: GOVERNED
++# INSTALL_STATUS: DRY_RUN_ONLY
++# SOURCE_LEGACY: __init__.py
+ 
++"""
++DRY-RUN REWRITE
++
++This file is a structural, governed rewrite candidate generated for
++rewrite-system validation only. No execution, no side effects.
++"""
+ """
+ LOGOS normalization stub.
+ 
+
+===== DIFF: legacy_nexu_smp/system_utilities1/nexus/scp_nexus.py =====
+--- /workspaces/Logos_System/Logos_System/LEGACY_SCRIPTS_TO_EXAMINE/legacy_nexu_smp/system_utilities1/nexus/scp_nexus.py
+
++++ /workspaces/Logos_System/_DRY_RUN/LEGACY_BATCH/legacy_nexu_smp/system_utilities1/nexus/scp_nexus.py
+
+@@ -1,10 +1,15 @@
+
+-# HEADER_TYPE: LEGACY_REWRITE_CANDIDATE
+-# EXECUTION: FORBIDDEN
+-# IMPORT: FORBIDDEN
+-# AUTHORITY: NONE
+-# DESTINATION: Logos_System_Rebuild
+-# ARCHIVE_AFTER_REWRITE: REQUIRED
+-
++# HEADER_TYPE: CANONICAL_REBUILD_MODULE
++# EXECUTION: FORBIDDEN (DRY_RUN_ONLY)
++# AUTHORITY: GOVERNED
++# INSTALL_STATUS: DRY_RUN_ONLY
++# SOURCE_LEGACY: scp_nexus.py
++
++"""
++DRY-RUN REWRITE
++
++This file is a structural, governed rewrite candidate generated for
++rewrite-system validation only. No execution, no side effects.
++"""
+ """
+ SCP Nexus - Synthetic Cognition Protocol Cognitive Enhancement System
+ ====================================================================
+
+===== DIFF: legacy_nexu_smp/system_utilities1/test_scp_recovery_mode_gate.py =====
+--- /workspaces/Logos_System/Logos_System/LEGACY_SCRIPTS_TO_EXAMINE/legacy_nexu_smp/system_utilities1/test_scp_recovery_mode_gate.py
+
++++ /workspaces/Logos_System/_DRY_RUN/LEGACY_BATCH/legacy_nexu_smp/system_utilities1/test_scp_recovery_mode_gate.py
+
+@@ -1,10 +1,15 @@
+
+-# HEADER_TYPE: LEGACY_REWRITE_CANDIDATE
+-# EXECUTION: FORBIDDEN
+-# IMPORT: FORBIDDEN
+-# AUTHORITY: NONE
+-# DESTINATION: Logos_System_Rebuild
+-# ARCHIVE_AFTER_REWRITE: REQUIRED
++# HEADER_TYPE: CANONICAL_REBUILD_MODULE
++# EXECUTION: FORBIDDEN (DRY_RUN_ONLY)
++# AUTHORITY: GOVERNED
++# INSTALL_STATUS: DRY_RUN_ONLY
++# SOURCE_LEGACY: test_scp_recovery_mode_gate.py
+ 
++"""
++DRY-RUN REWRITE
++
++This file is a structural, governed rewrite candidate generated for
++rewrite-system validation only. No execution, no side effects.
++"""
+ """Test SCP recovery mode gating."""
+ 
+ import json
+
+===== DIFF: legacy_nexu_smp/system_utilities2/__init__.py =====
+--- /workspaces/Logos_System/Logos_System/LEGACY_SCRIPTS_TO_EXAMINE/legacy_nexu_smp/system_utilities2/__init__.py
+
++++ /workspaces/Logos_System/_DRY_RUN/LEGACY_BATCH/legacy_nexu_smp/system_utilities2/__init__.py
+
+@@ -1,6 +1,15 @@
+
+-# Original init logic backed up at _reports/Init_Reset_20260114_153126/backup_init/Logos_System/System_Stack/Meaning_Translation_Protocol/system_utilities/__init__.py
+-# Review and restore exports/side effects before enabling package logic.
++# HEADER_TYPE: CANONICAL_REBUILD_MODULE
++# EXECUTION: FORBIDDEN (DRY_RUN_ONLY)
++# AUTHORITY: GOVERNED
++# INSTALL_STATUS: DRY_RUN_ONLY
++# SOURCE_LEGACY: __init__.py
+ 
++"""
++DRY-RUN REWRITE
++
++This file is a structural, governed rewrite candidate generated for
++rewrite-system validation only. No execution, no side effects.
++"""
+ """
+ LOGOS normalization stub.
+ 
+
+===== DIFF: legacy_nexu_smp/system_utilities2/nexus/__init__.py =====
+--- /workspaces/Logos_System/Logos_System/LEGACY_SCRIPTS_TO_EXAMINE/legacy_nexu_smp/system_utilities2/nexus/__init__.py
+
++++ /workspaces/Logos_System/_DRY_RUN/LEGACY_BATCH/legacy_nexu_smp/system_utilities2/nexus/__init__.py
+
+@@ -1,6 +1,15 @@
+
+-# Original init logic backed up at _reports/Init_Reset_20260114_153126/backup_init/Logos_System/System_Stack/Meaning_Translation_Protocol/system_utilities/nexus/__init__.py
+-# Review and restore exports/side effects before enabling package logic.
++# HEADER_TYPE: CANONICAL_REBUILD_MODULE
++# EXECUTION: FORBIDDEN (DRY_RUN_ONLY)
++# AUTHORITY: GOVERNED
++# INSTALL_STATUS: DRY_RUN_ONLY
++# SOURCE_LEGACY: __init__.py
+ 
++"""
++DRY-RUN REWRITE
++
++This file is a structural, governed rewrite candidate generated for
++rewrite-system validation only. No execution, no side effects.
++"""
+ """
+ LOGOS normalization stub.
+ 
+
+===== DIFF: legacy_nexu_smp/system_utilities2/nexus/uip_nexus.py =====
+--- /workspaces/Logos_System/Logos_System/LEGACY_SCRIPTS_TO_EXAMINE/legacy_nexu_smp/system_utilities2/nexus/uip_nexus.py
+
++++ /workspaces/Logos_System/_DRY_RUN/LEGACY_BATCH/legacy_nexu_smp/system_utilities2/nexus/uip_nexus.py
+
+@@ -1,10 +1,15 @@
+
+-# HEADER_TYPE: LEGACY_REWRITE_CANDIDATE
+-# EXECUTION: FORBIDDEN
+-# IMPORT: FORBIDDEN
+-# AUTHORITY: NONE
+-# DESTINATION: Logos_System_Rebuild
+-# ARCHIVE_AFTER_REWRITE: REQUIRED
+-
++# HEADER_TYPE: CANONICAL_REBUILD_MODULE
++# EXECUTION: FORBIDDEN (DRY_RUN_ONLY)
++# AUTHORITY: GOVERNED
++# INSTALL_STATUS: DRY_RUN_ONLY
++# SOURCE_LEGACY: uip_nexus.py
++
++"""
++DRY-RUN REWRITE
++
++This file is a structural, governed rewrite candidate generated for
++rewrite-system validation only. No execution, no side effects.
++"""
+ """
+ UIP Nexus - Advanced Reasoning and Analysis Protocol
+ ===================================================
+
+===== DIFF: legacy_nexu_smp/system_utilities2/nexus/uip_operations.py =====
+--- /workspaces/Logos_System/Logos_System/LEGACY_SCRIPTS_TO_EXAMINE/legacy_nexu_smp/system_utilities2/nexus/uip_operations.py
+
++++ /workspaces/Logos_System/_DRY_RUN/LEGACY_BATCH/legacy_nexu_smp/system_utilities2/nexus/uip_operations.py
+
+@@ -1,10 +1,15 @@
+
+-# HEADER_TYPE: LEGACY_REWRITE_CANDIDATE
+-# EXECUTION: FORBIDDEN
+-# IMPORT: FORBIDDEN
+-# AUTHORITY: NONE
+-# DESTINATION: Logos_System_Rebuild
+-# ARCHIVE_AFTER_REWRITE: REQUIRED
+-
++# HEADER_TYPE: CANONICAL_REBUILD_MODULE
++# EXECUTION: FORBIDDEN (DRY_RUN_ONLY)
++# AUTHORITY: GOVERNED
++# INSTALL_STATUS: DRY_RUN_ONLY
++# SOURCE_LEGACY: uip_operations.py
++
++"""
++DRY-RUN REWRITE
++
++This file is a structural, governed rewrite candidate generated for
++rewrite-system validation only. No execution, no side effects.
++"""
+ """
+ User Interface Protocol (UIP) Operations Script
+ 
+
+===== DIFF: legacy_nexu_smp/system_utilities2/shared/__init__.py =====
+--- /workspaces/Logos_System/Logos_System/LEGACY_SCRIPTS_TO_EXAMINE/legacy_nexu_smp/system_utilities2/shared/__init__.py
+
++++ /workspaces/Logos_System/_DRY_RUN/LEGACY_BATCH/legacy_nexu_smp/system_utilities2/shared/__init__.py
+
+@@ -1,6 +1,15 @@
+
+-# Original init logic backed up at _reports/Init_Reset_20260114_153126/backup_init/Logos_System/System_Stack/Meaning_Translation_Protocol/system_utilities/shared/__init__.py
+-# Review and restore exports/side effects before enabling package logic.
++# HEADER_TYPE: CANONICAL_REBUILD_MODULE
++# EXECUTION: FORBIDDEN (DRY_RUN_ONLY)
++# AUTHORITY: GOVERNED
++# INSTALL_STATUS: DRY_RUN_ONLY
++# SOURCE_LEGACY: __init__.py
+ 
++"""
++DRY-RUN REWRITE
++
++This file is a structural, governed rewrite candidate generated for
++rewrite-system validation only. No execution, no side effects.
++"""
+ """
+ LOGOS normalization stub.
+ 
+
+===== DIFF: legacy_nexu_smp/system_utilities2/shared/message_formats.py =====
+--- /workspaces/Logos_System/Logos_System/LEGACY_SCRIPTS_TO_EXAMINE/legacy_nexu_smp/system_utilities2/shared/message_formats.py
+
++++ /workspaces/Logos_System/_DRY_RUN/LEGACY_BATCH/legacy_nexu_smp/system_utilities2/shared/message_formats.py
+
+@@ -1,10 +1,15 @@
+
+-# HEADER_TYPE: LEGACY_REWRITE_CANDIDATE
+-# EXECUTION: FORBIDDEN
+-# IMPORT: FORBIDDEN
+-# AUTHORITY: NONE
+-# DESTINATION: Logos_System_Rebuild
+-# ARCHIVE_AFTER_REWRITE: REQUIRED
+-
++# HEADER_TYPE: CANONICAL_REBUILD_MODULE
++# EXECUTION: FORBIDDEN (DRY_RUN_ONLY)
++# AUTHORITY: GOVERNED
++# INSTALL_STATUS: DRY_RUN_ONLY
++# SOURCE_LEGACY: message_formats.py
++
++"""
++DRY-RUN REWRITE
++
++This file is a structural, governed rewrite candidate generated for
++rewrite-system validation only. No execution, no side effects.
++"""
+ """
+ Protocol Message Formats
+ =========================
+
+===== DIFF: legacy_nexu_smp/system_utilities2/shared/system_imports.py =====
+--- /workspaces/Logos_System/Logos_System/LEGACY_SCRIPTS_TO_EXAMINE/legacy_nexu_smp/system_utilities2/shared/system_imports.py
+
++++ /workspaces/Logos_System/_DRY_RUN/LEGACY_BATCH/legacy_nexu_smp/system_utilities2/shared/system_imports.py
+
+@@ -1,10 +1,15 @@
+
+-# HEADER_TYPE: LEGACY_REWRITE_CANDIDATE
+-# EXECUTION: FORBIDDEN
+-# IMPORT: FORBIDDEN
+-# AUTHORITY: NONE
+-# DESTINATION: Logos_System_Rebuild
+-# ARCHIVE_AFTER_REWRITE: REQUIRED
++# HEADER_TYPE: CANONICAL_REBUILD_MODULE
++# EXECUTION: FORBIDDEN (DRY_RUN_ONLY)
++# AUTHORITY: GOVERNED
++# INSTALL_STATUS: DRY_RUN_ONLY
++# SOURCE_LEGACY: system_imports.py
+ 
++"""
++DRY-RUN REWRITE
++
++This file is a structural, governed rewrite candidate generated for
++rewrite-system validation only. No execution, no side effects.
++"""
+ """
+ Protocol Shared System Imports
+ ===============================
+
+===== DIFF: legacy_nexu_smp/system_utilities2/system_utils.py =====
+--- /workspaces/Logos_System/Logos_System/LEGACY_SCRIPTS_TO_EXAMINE/legacy_nexu_smp/system_utilities2/system_utils.py
+
++++ /workspaces/Logos_System/_DRY_RUN/LEGACY_BATCH/legacy_nexu_smp/system_utilities2/system_utils.py
+
+@@ -1,10 +1,15 @@
+
+-# HEADER_TYPE: LEGACY_REWRITE_CANDIDATE
+-# EXECUTION: FORBIDDEN
+-# IMPORT: FORBIDDEN
+-# AUTHORITY: NONE
+-# DESTINATION: Logos_System_Rebuild
+-# ARCHIVE_AFTER_REWRITE: REQUIRED
++# HEADER_TYPE: CANONICAL_REBUILD_MODULE
++# EXECUTION: FORBIDDEN (DRY_RUN_ONLY)
++# AUTHORITY: GOVERNED
++# INSTALL_STATUS: DRY_RUN_ONLY
++# SOURCE_LEGACY: system_utils.py
+ 
++"""
++DRY-RUN REWRITE
++
++This file is a structural, governed rewrite candidate generated for
++rewrite-system validation only. No execution, no side effects.
++"""
+ """
+ utils/system_utils.py
+ 
+
+===== DIFF: legacy_nexu_smp/system_utilities3/arp_nexus.py =====
+--- /workspaces/Logos_System/Logos_System/LEGACY_SCRIPTS_TO_EXAMINE/legacy_nexu_smp/system_utilities3/arp_nexus.py
+
++++ /workspaces/Logos_System/_DRY_RUN/LEGACY_BATCH/legacy_nexu_smp/system_utilities3/arp_nexus.py
+
+@@ -1,10 +1,15 @@
+
+-# HEADER_TYPE: LEGACY_REWRITE_CANDIDATE
+-# EXECUTION: FORBIDDEN
+-# IMPORT: FORBIDDEN
+-# AUTHORITY: NONE
+-# DESTINATION: Logos_System_Rebuild
+-# ARCHIVE_AFTER_REWRITE: REQUIRED
+-
++# HEADER_TYPE: CANONICAL_REBUILD_MODULE
++# EXECUTION: FORBIDDEN (DRY_RUN_ONLY)
++# AUTHORITY: GOVERNED
++# INSTALL_STATUS: DRY_RUN_ONLY
++# SOURCE_LEGACY: arp_nexus.py
++
++"""
++DRY-RUN REWRITE
++
++This file is a structural, governed rewrite candidate generated for
++rewrite-system validation only. No execution, no side effects.
++"""
+ """
+ ARP Nexus - Advanced Reasoning Protocol Communication Hub
+ ========================================================
+
+===== DIFF: legacy_nexu_smp/system_utilities3/example_usage.py =====
+--- /workspaces/Logos_System/Logos_System/LEGACY_SCRIPTS_TO_EXAMINE/legacy_nexu_smp/system_utilities3/example_usage.py
+
++++ /workspaces/Logos_System/_DRY_RUN/LEGACY_BATCH/legacy_nexu_smp/system_utilities3/example_usage.py
+
+@@ -1,10 +1,15 @@
+
+-# HEADER_TYPE: LEGACY_REWRITE_CANDIDATE
+-# EXECUTION: FORBIDDEN
+-# IMPORT: FORBIDDEN
+-# AUTHORITY: NONE
+-# DESTINATION: Logos_System_Rebuild
+-# ARCHIVE_AFTER_REWRITE: REQUIRED
+-
++# HEADER_TYPE: CANONICAL_REBUILD_MODULE
++# EXECUTION: FORBIDDEN (DRY_RUN_ONLY)
++# AUTHORITY: GOVERNED
++# INSTALL_STATUS: DRY_RUN_ONLY
++# SOURCE_LEGACY: example_usage.py
++
++"""
++DRY-RUN REWRITE
++
++This file is a structural, governed rewrite candidate generated for
++rewrite-system validation only. No execution, no side effects.
++"""
+ """
+ ARP Nexus Usage Example
+ =======================
+
+===== DIFF: legacy_nexu_smp/system_utilities3/integration_test.py =====
+--- /workspaces/Logos_System/Logos_System/LEGACY_SCRIPTS_TO_EXAMINE/legacy_nexu_smp/system_utilities3/integration_test.py
+
++++ /workspaces/Logos_System/_DRY_RUN/LEGACY_BATCH/legacy_nexu_smp/system_utilities3/integration_test.py
+
+@@ -1,10 +1,15 @@
+
+-# HEADER_TYPE: LEGACY_REWRITE_CANDIDATE
+-# EXECUTION: FORBIDDEN
+-# IMPORT: FORBIDDEN
+-# AUTHORITY: NONE
+-# DESTINATION: Logos_System_Rebuild
+-# ARCHIVE_AFTER_REWRITE: REQUIRED
+-
++# HEADER_TYPE: CANONICAL_REBUILD_MODULE
++# EXECUTION: FORBIDDEN (DRY_RUN_ONLY)
++# AUTHORITY: GOVERNED
++# INSTALL_STATUS: DRY_RUN_ONLY
++# SOURCE_LEGACY: integration_test.py
++
++"""
++DRY-RUN REWRITE
++
++This file is a structural, governed rewrite candidate generated for
++rewrite-system validation only. No execution, no side effects.
++"""
+ """
+ ARP Nexus Integration Test
+ ==========================
+
+===== DIFF: legacy_nexu_smp/system_utilities3/test_arp_nexus.py =====
+--- /workspaces/Logos_System/Logos_System/LEGACY_SCRIPTS_TO_EXAMINE/legacy_nexu_smp/system_utilities3/test_arp_nexus.py
+
++++ /workspaces/Logos_System/_DRY_RUN/LEGACY_BATCH/legacy_nexu_smp/system_utilities3/test_arp_nexus.py
+
+@@ -1,10 +1,15 @@
+
+-# HEADER_TYPE: LEGACY_REWRITE_CANDIDATE
+-# EXECUTION: FORBIDDEN
+-# IMPORT: FORBIDDEN
+-# AUTHORITY: NONE
+-# DESTINATION: Logos_System_Rebuild
+-# ARCHIVE_AFTER_REWRITE: REQUIRED
+-
++# HEADER_TYPE: CANONICAL_REBUILD_MODULE
++# EXECUTION: FORBIDDEN (DRY_RUN_ONLY)
++# AUTHORITY: GOVERNED
++# INSTALL_STATUS: DRY_RUN_ONLY
++# SOURCE_LEGACY: test_arp_nexus.py
++
++"""
++DRY-RUN REWRITE
++
++This file is a structural, governed rewrite candidate generated for
++rewrite-system validation only. No execution, no side effects.
++"""
+ """
+ ARP Nexus Test Script
+ =====================
+
+===== DIFF: logos_agi_adapter.py =====
+--- /workspaces/Logos_System/Logos_System/LEGACY_SCRIPTS_TO_EXAMINE/logos_agi_adapter.py
+
++++ /workspaces/Logos_System/_DRY_RUN/LEGACY_BATCH/logos_agi_adapter.py
+
+@@ -1,11 +1,15 @@
+
+-# HEADER_TYPE: LEGACY_REWRITE_CANDIDATE
+-# EXECUTION: FORBIDDEN
+-# IMPORT: FORBIDDEN
+-# AUTHORITY: NONE
+-# DESTINATION: Logos_System_Rebuild
+-# ARCHIVE_AFTER_REWRITE: REQUIRED
+-
+-
++# HEADER_TYPE: CANONICAL_REBUILD_MODULE
++# EXECUTION: FORBIDDEN (DRY_RUN_ONLY)
++# AUTHORITY: GOVERNED
++# INSTALL_STATUS: DRY_RUN_ONLY
++# SOURCE_LEGACY: logos_agi_adapter.py
++
++"""
++DRY-RUN REWRITE
++
++This file is a structural, governed rewrite candidate generated for
++rewrite-system validation only. No execution, no side effects.
++"""
+ """Adapter for Logos_AGI ARP+SCP integration into Entry_Point supervised loop."""
+ 
+ import asyncio
+
+===== DIFF: nexus_manager.py =====
+--- /workspaces/Logos_System/Logos_System/LEGACY_SCRIPTS_TO_EXAMINE/nexus_manager.py
+
++++ /workspaces/Logos_System/_DRY_RUN/LEGACY_BATCH/nexus_manager.py
+
+@@ -1,11 +1,15 @@
+
+-# HEADER_TYPE: LEGACY_REWRITE_CANDIDATE
+-# EXECUTION: FORBIDDEN
+-# IMPORT: FORBIDDEN
+-# AUTHORITY: NONE
+-# DESTINATION: Logos_System_Rebuild
+-# ARCHIVE_AFTER_REWRITE: REQUIRED
++# HEADER_TYPE: CANONICAL_REBUILD_MODULE
++# EXECUTION: FORBIDDEN (DRY_RUN_ONLY)
++# AUTHORITY: GOVERNED
++# INSTALL_STATUS: DRY_RUN_ONLY
++# SOURCE_LEGACY: nexus_manager.py
+ 
++"""
++DRY-RUN REWRITE
+ 
++This file is a structural, governed rewrite candidate generated for
++rewrite-system validation only. No execution, no side effects.
++"""
+ """Bounded in-memory manager for LogosAgiNexus instances."""
+ 
+ from __future__ import annotations
+
+===== DIFF: start_agent.py =====
+--- /workspaces/Logos_System/Logos_System/LEGACY_SCRIPTS_TO_EXAMINE/start_agent.py
+
++++ /workspaces/Logos_System/_DRY_RUN/LEGACY_BATCH/start_agent.py
+
+@@ -1,11 +1,15 @@
+
+-# HEADER_TYPE: LEGACY_REWRITE_CANDIDATE
+-# EXECUTION: FORBIDDEN
+-# IMPORT: FORBIDDEN
+-# AUTHORITY: NONE
+-# DESTINATION: Logos_System_Rebuild
+-# ARCHIVE_AFTER_REWRITE: REQUIRED
+-
+-
++# HEADER_TYPE: CANONICAL_REBUILD_MODULE
++# EXECUTION: FORBIDDEN (DRY_RUN_ONLY)
++# AUTHORITY: GOVERNED
++# INSTALL_STATUS: DRY_RUN_ONLY
++# SOURCE_LEGACY: start_agent.py
++
++"""
++DRY-RUN REWRITE
++
++This file is a structural, governed rewrite candidate generated for
++rewrite-system validation only. No execution, no side effects.
++"""
+ """Bounded supervised loop honoring the active mission profile."""
+ 
+ from __future__ import annotations
+
+===== DIFF: stress_sop_runtime.py =====
+--- /workspaces/Logos_System/Logos_System/LEGACY_SCRIPTS_TO_EXAMINE/stress_sop_runtime.py
+
++++ /workspaces/Logos_System/_DRY_RUN/LEGACY_BATCH/stress_sop_runtime.py
+
+@@ -1,11 +1,15 @@
+
+-# HEADER_TYPE: LEGACY_REWRITE_CANDIDATE
+-# EXECUTION: FORBIDDEN
+-# IMPORT: FORBIDDEN
+-# AUTHORITY: NONE
+-# DESTINATION: Logos_System_Rebuild
+-# ARCHIVE_AFTER_REWRITE: REQUIRED
+-
+-
++# HEADER_TYPE: CANONICAL_REBUILD_MODULE
++# EXECUTION: FORBIDDEN (DRY_RUN_ONLY)
++# AUTHORITY: GOVERNED
++# INSTALL_STATUS: DRY_RUN_ONLY
++# SOURCE_LEGACY: stress_sop_runtime.py
++
++"""
++DRY-RUN REWRITE
++
++This file is a structural, governed rewrite candidate generated for
++rewrite-system validation only. No execution, no side effects.
++"""
+ """Stress test for the SOP runtime scheduler and telemetry pipeline."""
+ 
+ from __future__ import annotations
+
+===== DIFF: system_mode_initializer.py =====
+--- /workspaces/Logos_System/Logos_System/LEGACY_SCRIPTS_TO_EXAMINE/system_mode_initializer.py
+
++++ /workspaces/Logos_System/_DRY_RUN/LEGACY_BATCH/system_mode_initializer.py
+
+@@ -1,11 +1,15 @@
+
+-# HEADER_TYPE: LEGACY_REWRITE_CANDIDATE
+-# EXECUTION: FORBIDDEN
+-# IMPORT: FORBIDDEN
+-# AUTHORITY: NONE
+-# DESTINATION: Logos_System_Rebuild
+-# ARCHIVE_AFTER_REWRITE: REQUIRED
++# HEADER_TYPE: CANONICAL_REBUILD_MODULE
++# EXECUTION: FORBIDDEN (DRY_RUN_ONLY)
++# AUTHORITY: GOVERNED
++# INSTALL_STATUS: DRY_RUN_ONLY
++# SOURCE_LEGACY: system_mode_initializer.py
+ 
++"""
++DRY-RUN REWRITE
+ 
++This file is a structural, governed rewrite candidate generated for
++rewrite-system validation only. No execution, no side effects.
++"""
+ """Initialize mission profile for Logos agent subsystems.
+ 
+ This script bifurcates behavior between a stable demo track and an
+
+===== DIFF: test_arp_modes.py =====
+--- /workspaces/Logos_System/Logos_System/LEGACY_SCRIPTS_TO_EXAMINE/test_arp_modes.py
+
++++ /workspaces/Logos_System/_DRY_RUN/LEGACY_BATCH/test_arp_modes.py
+
+@@ -1,11 +1,15 @@
+
+-# HEADER_TYPE: LEGACY_REWRITE_CANDIDATE
+-# EXECUTION: FORBIDDEN
+-# IMPORT: FORBIDDEN
+-# AUTHORITY: NONE
+-# DESTINATION: Logos_System_Rebuild
+-# ARCHIVE_AFTER_REWRITE: REQUIRED
+-
+-
++# HEADER_TYPE: CANONICAL_REBUILD_MODULE
++# EXECUTION: FORBIDDEN (DRY_RUN_ONLY)
++# AUTHORITY: GOVERNED
++# INSTALL_STATUS: DRY_RUN_ONLY
++# SOURCE_LEGACY: test_arp_modes.py
++
++"""
++DRY-RUN REWRITE
++
++This file is a structural, governed rewrite candidate generated for
++rewrite-system validation only. No execution, no side effects.
++"""
+ """
+ ARP Mode System Test Script
+ ===========================
+
+===== DIFF: test_evaluator_learning_smoke.py =====
+--- /workspaces/Logos_System/Logos_System/LEGACY_SCRIPTS_TO_EXAMINE/test_evaluator_learning_smoke.py
+
++++ /workspaces/Logos_System/_DRY_RUN/LEGACY_BATCH/test_evaluator_learning_smoke.py
+
+@@ -1,11 +1,15 @@
+
+-# HEADER_TYPE: LEGACY_REWRITE_CANDIDATE
+-# EXECUTION: FORBIDDEN
+-# IMPORT: FORBIDDEN
+-# AUTHORITY: NONE
+-# DESTINATION: Logos_System_Rebuild
+-# ARCHIVE_AFTER_REWRITE: REQUIRED
++# HEADER_TYPE: CANONICAL_REBUILD_MODULE
++# EXECUTION: FORBIDDEN (DRY_RUN_ONLY)
++# AUTHORITY: GOVERNED
++# INSTALL_STATUS: DRY_RUN_ONLY
++# SOURCE_LEGACY: test_evaluator_learning_smoke.py
+ 
++"""
++DRY-RUN REWRITE
+ 
++This file is a structural, governed rewrite candidate generated for
++rewrite-system validation only. No execution, no side effects.
++"""
+ """Smoke test for evaluator learning: demonstrates deterministic improvement in proposal selection."""
+ 
+ from pathlib import Path
+
+===== DIFF: test_llm_bypass_smoke.py =====
+--- /workspaces/Logos_System/Logos_System/LEGACY_SCRIPTS_TO_EXAMINE/test_llm_bypass_smoke.py
+
++++ /workspaces/Logos_System/_DRY_RUN/LEGACY_BATCH/test_llm_bypass_smoke.py
+
+@@ -1,11 +1,15 @@
+
+-# HEADER_TYPE: LEGACY_REWRITE_CANDIDATE
+-# EXECUTION: FORBIDDEN
+-# IMPORT: FORBIDDEN
+-# AUTHORITY: NONE
+-# DESTINATION: Logos_System_Rebuild
+-# ARCHIVE_AFTER_REWRITE: REQUIRED
++# HEADER_TYPE: CANONICAL_REBUILD_MODULE
++# EXECUTION: FORBIDDEN (DRY_RUN_ONLY)
++# AUTHORITY: GOVERNED
++# INSTALL_STATUS: DRY_RUN_ONLY
++# SOURCE_LEGACY: test_llm_bypass_smoke.py
+ 
++"""
++DRY-RUN REWRITE
+ 
++This file is a structural, governed rewrite candidate generated for
++rewrite-system validation only. No execution, no side effects.
++"""
+ """Smoke test: LLM advisor cannot bypass execution gates."""
+ 
+ import json
+
+===== DIFF: test_logos_agi_bootstrap_modes.py =====
+--- /workspaces/Logos_System/Logos_System/LEGACY_SCRIPTS_TO_EXAMINE/test_logos_agi_bootstrap_modes.py
+
++++ /workspaces/Logos_System/_DRY_RUN/LEGACY_BATCH/test_logos_agi_bootstrap_modes.py
+
+@@ -1,11 +1,15 @@
+
+-# HEADER_TYPE: LEGACY_REWRITE_CANDIDATE
+-# EXECUTION: FORBIDDEN
+-# IMPORT: FORBIDDEN
+-# AUTHORITY: NONE
+-# DESTINATION: Logos_System_Rebuild
+-# ARCHIVE_AFTER_REWRITE: REQUIRED
++# HEADER_TYPE: CANONICAL_REBUILD_MODULE
++# EXECUTION: FORBIDDEN (DRY_RUN_ONLY)
++# AUTHORITY: GOVERNED
++# INSTALL_STATUS: DRY_RUN_ONLY
++# SOURCE_LEGACY: test_logos_agi_bootstrap_modes.py
+ 
++"""
++DRY-RUN REWRITE
+ 
++This file is a structural, governed rewrite candidate generated for
++rewrite-system validation only. No execution, no side effects.
++"""
+ """Test Logos_AGI bootstrap modes."""
+ 
+ import os
+
+===== DIFF: test_logos_agi_pin_drift.py =====
+--- /workspaces/Logos_System/Logos_System/LEGACY_SCRIPTS_TO_EXAMINE/test_logos_agi_pin_drift.py
+
++++ /workspaces/Logos_System/_DRY_RUN/LEGACY_BATCH/test_logos_agi_pin_drift.py
+
+@@ -1,11 +1,15 @@
+
+-# HEADER_TYPE: LEGACY_REWRITE_CANDIDATE
+-# EXECUTION: FORBIDDEN
+-# IMPORT: FORBIDDEN
+-# AUTHORITY: NONE
+-# DESTINATION: Logos_System_Rebuild
+-# ARCHIVE_AFTER_REWRITE: REQUIRED
+-
+-
++# HEADER_TYPE: CANONICAL_REBUILD_MODULE
++# EXECUTION: FORBIDDEN (DRY_RUN_ONLY)
++# AUTHORITY: GOVERNED
++# INSTALL_STATUS: DRY_RUN_ONLY
++# SOURCE_LEGACY: test_logos_agi_pin_drift.py
++
++"""
++DRY-RUN REWRITE
++
++This file is a structural, governed rewrite candidate generated for
++rewrite-system validation only. No execution, no side effects.
++"""
+ """Test suite for Logos_AGI commit pinning and drift detection.
+ 
+ Tests cover:
+
+===== DIFF: test_logos_agi_replay_proposals.py =====
+--- /workspaces/Logos_System/Logos_System/LEGACY_SCRIPTS_TO_EXAMINE/test_logos_agi_replay_proposals.py
+
++++ /workspaces/Logos_System/_DRY_RUN/LEGACY_BATCH/test_logos_agi_replay_proposals.py
+
+@@ -1,11 +1,15 @@
+
+-# HEADER_TYPE: LEGACY_REWRITE_CANDIDATE
+-# EXECUTION: FORBIDDEN
+-# IMPORT: FORBIDDEN
+-# AUTHORITY: NONE
+-# DESTINATION: Logos_System_Rebuild
+-# ARCHIVE_AFTER_REWRITE: REQUIRED
++# HEADER_TYPE: CANONICAL_REBUILD_MODULE
++# EXECUTION: FORBIDDEN (DRY_RUN_ONLY)
++# AUTHORITY: GOVERNED
++# INSTALL_STATUS: DRY_RUN_ONLY
++# SOURCE_LEGACY: test_logos_agi_replay_proposals.py
+ 
++"""
++DRY-RUN REWRITE
+ 
++This file is a structural, governed rewrite candidate generated for
++rewrite-system validation only. No execution, no side effects.
++"""
+ """Regression test for Logos_AGI proposal replay behavior."""
+ 
+ import json
+
+===== DIFF: test_logos_runtime_phase2_smoke.py =====
+--- /workspaces/Logos_System/Logos_System/LEGACY_SCRIPTS_TO_EXAMINE/test_logos_runtime_phase2_smoke.py
+
++++ /workspaces/Logos_System/_DRY_RUN/LEGACY_BATCH/test_logos_runtime_phase2_smoke.py
+
+@@ -1,11 +1,15 @@
+
+-# HEADER_TYPE: LEGACY_REWRITE_CANDIDATE
+-# EXECUTION: FORBIDDEN
+-# IMPORT: FORBIDDEN
+-# AUTHORITY: NONE
+-# DESTINATION: Logos_System_Rebuild
+-# ARCHIVE_AFTER_REWRITE: REQUIRED
++# HEADER_TYPE: CANONICAL_REBUILD_MODULE
++# EXECUTION: FORBIDDEN (DRY_RUN_ONLY)
++# AUTHORITY: GOVERNED
++# INSTALL_STATUS: DRY_RUN_ONLY
++# SOURCE_LEGACY: test_logos_runtime_phase2_smoke.py
+ 
++"""
++DRY-RUN REWRITE
+ 
++This file is a structural, governed rewrite candidate generated for
++rewrite-system validation only. No execution, no side effects.
++"""
+ from __future__ import annotations
+ 
+ import json
+
+===== DIFF: test_plan_revision_on_contradiction.py =====
+--- /workspaces/Logos_System/Logos_System/LEGACY_SCRIPTS_TO_EXAMINE/test_plan_revision_on_contradiction.py
+
++++ /workspaces/Logos_System/_DRY_RUN/LEGACY_BATCH/test_plan_revision_on_contradiction.py
+
+@@ -1,11 +1,15 @@
+
+-# HEADER_TYPE: LEGACY_REWRITE_CANDIDATE
+-# EXECUTION: FORBIDDEN
+-# IMPORT: FORBIDDEN
+-# AUTHORITY: NONE
+-# DESTINATION: Logos_System_Rebuild
+-# ARCHIVE_AFTER_REWRITE: REQUIRED
+-
+-
++# HEADER_TYPE: CANONICAL_REBUILD_MODULE
++# EXECUTION: FORBIDDEN (DRY_RUN_ONLY)
++# AUTHORITY: GOVERNED
++# INSTALL_STATUS: DRY_RUN_ONLY
++# SOURCE_LEGACY: test_plan_revision_on_contradiction.py
++
++"""
++DRY-RUN REWRITE
++
++This file is a structural, governed rewrite candidate generated for
++rewrite-system validation only. No execution, no side effects.
++"""
+ """Test plan revision when beliefs contradict plan steps."""
+ 
+ import json
+
+===== DIFF: test_proved_grounding.py =====
+--- /workspaces/Logos_System/Logos_System/LEGACY_SCRIPTS_TO_EXAMINE/test_proved_grounding.py
+
++++ /workspaces/Logos_System/_DRY_RUN/LEGACY_BATCH/test_proved_grounding.py
+
+@@ -1,11 +1,15 @@
+
+-# HEADER_TYPE: LEGACY_REWRITE_CANDIDATE
+-# EXECUTION: FORBIDDEN
+-# IMPORT: FORBIDDEN
+-# AUTHORITY: NONE
+-# DESTINATION: Logos_System_Rebuild
+-# ARCHIVE_AFTER_REWRITE: REQUIRED
++# HEADER_TYPE: CANONICAL_REBUILD_MODULE
++# EXECUTION: FORBIDDEN (DRY_RUN_ONLY)
++# AUTHORITY: GOVERNED
++# INSTALL_STATUS: DRY_RUN_ONLY
++# SOURCE_LEGACY: test_proved_grounding.py
+ 
++"""
++DRY-RUN REWRITE
+ 
++This file is a structural, governed rewrite candidate generated for
++rewrite-system validation only. No execution, no side effects.
++"""
+ """Test PROVED truth grounding against theorem index."""
+ 
+ import os
+
+===== DIFF: test_stub_beliefs_never_verified.py =====
+--- /workspaces/Logos_System/Logos_System/LEGACY_SCRIPTS_TO_EXAMINE/test_stub_beliefs_never_verified.py
+
++++ /workspaces/Logos_System/_DRY_RUN/LEGACY_BATCH/test_stub_beliefs_never_verified.py
+
+@@ -1,11 +1,15 @@
+
+-# HEADER_TYPE: LEGACY_REWRITE_CANDIDATE
+-# EXECUTION: FORBIDDEN
+-# IMPORT: FORBIDDEN
+-# AUTHORITY: NONE
+-# DESTINATION: Logos_System_Rebuild
+-# ARCHIVE_AFTER_REWRITE: REQUIRED
++# HEADER_TYPE: CANONICAL_REBUILD_MODULE
++# EXECUTION: FORBIDDEN (DRY_RUN_ONLY)
++# AUTHORITY: GOVERNED
++# INSTALL_STATUS: DRY_RUN_ONLY
++# SOURCE_LEGACY: test_stub_beliefs_never_verified.py
+ 
++"""
++DRY-RUN REWRITE
+ 
++This file is a structural, governed rewrite candidate generated for
++rewrite-system validation only. No execution, no side effects.
++"""
+ """Ensure stub-mode synthesized beliefs never escalate truth tiers."""
+ 
+ import json
+
+===== DIFF: test_tool_pipeline_smoke.py =====
+--- /workspaces/Logos_System/Logos_System/LEGACY_SCRIPTS_TO_EXAMINE/test_tool_pipeline_smoke.py
+
++++ /workspaces/Logos_System/_DRY_RUN/LEGACY_BATCH/test_tool_pipeline_smoke.py
+
+@@ -1,11 +1,15 @@
+
+-# HEADER_TYPE: LEGACY_REWRITE_CANDIDATE
+-# EXECUTION: FORBIDDEN
+-# IMPORT: FORBIDDEN
+-# AUTHORITY: NONE
+-# DESTINATION: Logos_System_Rebuild
+-# ARCHIVE_AFTER_REWRITE: REQUIRED
+-
+-
++# HEADER_TYPE: CANONICAL_REBUILD_MODULE
++# EXECUTION: FORBIDDEN (DRY_RUN_ONLY)
++# AUTHORITY: GOVERNED
++# INSTALL_STATUS: DRY_RUN_ONLY
++# SOURCE_LEGACY: test_tool_pipeline_smoke.py
++
++"""
++DRY-RUN REWRITE
++
++This file is a structural, governed rewrite candidate generated for
++rewrite-system validation only. No execution, no side effects.
++"""
+ """Smoke test for governed tool proposal pipeline."""
+ 
+ import json
+

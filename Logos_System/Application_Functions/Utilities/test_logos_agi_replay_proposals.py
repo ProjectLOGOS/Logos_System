@@ -1,16 +1,10 @@
-#!/usr/bin/env python3
-# LOGOS_HEADER: v1
-# updated_utc: 2026-01-15T03:52:00Z
-# path: /workspaces/Logos_System/_Dev_Resources/LEGACY_SCRIPTS_TO_EXAMINE/test_logos_agi_replay_proposals.py
-# role: dev_tool
-# phase: audit_normalize
-# origin: INSPECT_DECIDE
-# intended_bucket: REWRITE_PROMOTE
-# side_effects: unknown
-# entrypoints: unknown
-# depends_on: 
-# notes: 
-# END_LOGOS_HEADER
+# HEADER_TYPE: LEGACY_REWRITE_CANDIDATE
+# EXECUTION: FORBIDDEN
+# IMPORT: FORBIDDEN
+# AUTHORITY: NONE
+# DESTINATION: Logos_System_Rebuild
+# ARCHIVE_AFTER_REWRITE: REQUIRED
+
 
 """Regression test for Logos_AGI proposal replay behavior."""
 

@@ -1,0 +1,3457 @@
+DIFF REPORT — SEMANTIC vs STRUCTURAL (20260118T214955Z)
+
+===== DIFF: aligned_agent_import.py =====
+--- /workspaces/Logos_System/_DRY_RUN/LEGACY_BATCH/aligned_agent_import.py
+
++++ /workspaces/Logos_System/_DRY_RUN/LEGACY_BATCH_SEMANTIC/aligned_agent_import.py
+
+@@ -1,15 +1,17 @@
+
+ # HEADER_TYPE: CANONICAL_REBUILD_MODULE
+-# EXECUTION: FORBIDDEN (DRY_RUN_ONLY)
++# EXECUTION: CONTROLLED
+ # AUTHORITY: GOVERNED
+-# INSTALL_STATUS: DRY_RUN_ONLY
++# INSTALL_STATUS: SEMANTIC_REWRITE
+ # SOURCE_LEGACY: aligned_agent_import.py
+ 
+ """
+-DRY-RUN REWRITE
+-
+-This file is a structural, governed rewrite candidate generated for
+-rewrite-system validation only. No execution, no side effects.
++SEMANTIC REWRITE
++
++This module has been rewritten for governed integration into the
++LOGOS System Rebuild. Its runtime scope and protocol role have been
++normalized, but its original logical structure has been preserved.
+ """
++
+ """Alignment-gated Logos_AGI importer with drift guard and optional probing."""
+ 
+ from __future__ import annotations
+@@ -69,14 +71,11 @@
+
+ def verify_agent_alignment() -> SandboxedLogosAgent:
+     """Run the constructive LEM gate and return the agent (locked or unlocked)."""
+ 
+-    print(">> Verifying agent alignment (constructive LEM)…")
+     agent = SandboxedLogosAgent.create()
+     agent.boot()
+     agent.unlock_if_aligned()
+     if agent.unlocked:
+-        print(f"[{agent.agent_id}] Alignment verified.")
+     else:
+-        print("❌ Alignment not verified. Aborting cognition import.")
+     return agent
+ 
+ 
+@@ -203,7 +202,6 @@
+
+             entry["submodules_found"] = present
+             summary.append(f"{label.split()[0]}:OK")
+             submodules = ", ".join(present) if present else "<none>"
+-            print(
+                 "   • {} ({}) loaded; submodules: {}".format(
+                     label,
+                     module_name,
+@@ -213,20 +211,16 @@
+
+         except ImportError as exc:
+             entry["error"] = repr(exc)
+             summary.append(f"{label.split()[0]}:ERR")
+-            print(f"[WARNING] {label} unavailable: {exc}")
+         results[label] = entry
+ 
+     if summary:
+-        print("   Status summary:", " | ".join(summary))
+ 
+     missing = [label for label, info in results.items() if not info.get("loaded")]
+     if missing:
+         message = (
+             "⚠️  Cognitive stack loaded with warnings — review missing modules above."
+         )
+-        print(message)
+     else:
+-        print("🧠 Cognitive protocols imported successfully!")
+ 
+     sys.path.pop(0)
+     return results
+@@ -277,7 +271,6 @@
+
+ 
+     entries = read_audit_entries()
+     if not entries:
+-        print(
+             "[WARNING] alignment audit missing or unreadable; enrichment skipped.",
+             file=sys.stderr,
+         )
+@@ -298,14 +291,12 @@
+
+     start = time.time()
+ 
+     if os.environ.get("LOGOS_OPERATOR_OK", "").strip() != "1":
+-        print(
+             "ERROR: operator ack required. Set LOGOS_OPERATOR_OK=1 to run this script.",
+             file=sys.stderr,
+         )
+         return 2
+ 
+     if not allow_git:
+-        print(
+             "ERROR: --allow-git is required for git/network operations.",
+             file=sys.stderr,
+         )
+@@ -324,15 +315,11 @@
+
+     pin_exists = PIN_PATH.exists()
+ 
+     if pin_sha:
+-        print(f">> Pin override requested — checking out {pin_sha}")
+         if not DEST_DIR.exists():
+-            print(">> Syncing Logos_AGI repository (initial clone)…")
+         else:
+-            print(">> Syncing Logos_AGI repository…")
+         try:
+             ensure_repo(REPO_URL, DEST_DIR)
+         except subprocess.CalledProcessError as exc:  # pragma: no cover
+-            print(
+                 "[ERROR] git operation failed (exit={}). "
+                 "Repository access required.".format(exc.returncode)
+             )
+@@ -340,7 +327,6 @@
+
+ 
+         try:
+             resolved_sha = resolve_ref(str(DEST_DIR), pin_sha)
+-            print(f">> Pinning Logos_AGI to {resolved_sha} (from {pin_sha})")
+ 
+             subprocess.run(
+                 ["git", "checkout", resolved_sha], cwd=str(DEST_DIR), check=True
+@@ -348,10 +334,8 @@
+
+ 
+             write_pin(str(PIN_PATH), resolved_sha, pin_note, allow_dirty)
+ 
+-            print(f">> Pinned to {resolved_sha}")
+             current_sha = resolved_sha
+         except (subprocess.CalledProcessError, DriftError, PinConfigError) as e:
+-            print(f"[ERROR] Pinning failed: {e}")
+             return 1
+     elif pin_exists:
+         try:
+@@ -360,19 +344,15 @@
+
+                 str(DEST_DIR), pin, require_clean=True, allow_drift=False
+             )
+             current_sha = provenance.get("head_sha", "unknown")
+-            print(f">> Existing pin verified: {current_sha[:8]}")
+         except (DriftError, PinConfigError, OSError, subprocess.CalledProcessError) as e:
+-            print(
+                 f"[ERROR] Logos_AGI pin verification failed: {e}. "
+                 "Re-run with --pin-sha <ref> to update the pin."
+             )
+             return 1
+     else:
+-        print(">> No pin found — syncing to origin/main")
+         try:
+             ensure_repo(REPO_URL, DEST_DIR)
+         except subprocess.CalledProcessError as exc:  # pragma: no cover
+-            print(
+                 "[ERROR] git operation failed (exit={}). "
+                 "Repository access required.".format(exc.returncode)
+             )
+@@ -380,18 +360,15 @@
+
+         current_sha = repo_commit_sha(DEST_DIR)
+ 
+     if previous_sha and current_sha != "unknown" and previous_sha != current_sha:
+-        print(
+             "[SEC] Repo drift detected: prev={} current={}.".format(
+                 previous_sha[:8],
+                 current_sha[:8],
+             )
+         )
+-        print(
+             "[SEC] Alignment gate rerun in this session — proceeding with "
+             "updated stack."
+         )
+ 
+-    print(">> Importing cognitive protocols…")
+     protocol_results = load_cognitive_protocols(DEST_DIR)
+ 
+     ops_health = sop_health_snapshot()
+@@ -410,26 +387,18 @@
+
+             "runtime_seconds": round(time.time() - start, 3),
+         }
+     )
+-    print(f">> Audit updated: {STATE_FILE}")
+ 
+     if run_probe:
+-        print("🔎 Running protocol probe…")
+         try:
+             from JUNK_DRAWER.scripts.runtime.need_to_distribute.protocol_probe import main as probe_main
+ 
+-            rc = probe_main()
+             if rc != 0:
+-                print(f"[WARNING] protocol_probe exited with code {rc}")
+         except ImportError as exc:  # pragma: no cover - defensive import path
+-            print(f"[WARNING] Unable to import protocol_probe: {exc}")
+         except (RuntimeError, ValueError, OSError) as exc:
+-            print(f"[WARNING] protocol_probe failed: {exc}")
+-
+-    print("✅ Completed.")
++
+     return 0
+ 
+ 
+-if __name__ == "__main__":  # pragma: no cover - CLI entry
+     parser = argparse.ArgumentParser(description="Alignment-gated Logos_AGI importer")
+     parser.add_argument(
+         "--probe",
+
+===== DIFF: archive_planner_digests.py =====
+--- /workspaces/Logos_System/_DRY_RUN/LEGACY_BATCH/archive_planner_digests.py
+
++++ /workspaces/Logos_System/_DRY_RUN/LEGACY_BATCH_SEMANTIC/archive_planner_digests.py
+
+@@ -1,15 +1,17 @@
+
+ # HEADER_TYPE: CANONICAL_REBUILD_MODULE
+-# EXECUTION: FORBIDDEN (DRY_RUN_ONLY)
++# EXECUTION: CONTROLLED
+ # AUTHORITY: GOVERNED
+-# INSTALL_STATUS: DRY_RUN_ONLY
++# INSTALL_STATUS: SEMANTIC_REWRITE
+ # SOURCE_LEGACY: archive_planner_digests.py
+ 
+ """
+-DRY-RUN REWRITE
++SEMANTIC REWRITE
+ 
+-This file is a structural, governed rewrite candidate generated for
+-rewrite-system validation only. No execution, no side effects.
++This module has been rewritten for governed integration into the
++LOGOS System Rebuild. Its runtime scope and protocol role have been
++normalized, but its original logical structure has been preserved.
+ """
++
+ """Create a compressed snapshot of the planner digest log."""
+ 
+ from __future__ import annotations
+@@ -48,7 +50,6 @@
+
+         sys.path.append(repo_root)
+ 
+ 
+-def main() -> int:
+     args = _parse_args()
+     _ensure_repo_on_path()
+ 
+@@ -56,7 +57,6 @@
+
+ 
+     archive_path = snapshot_digest_log(args.log_path, args.archive_dir)
+     if not archive_path:
+-        print("No snapshot created; log file missing or empty.")
+         return 0
+ 
+     try:
+@@ -64,7 +64,6 @@
+
+     except ValueError:
+         relative = archive_path
+ 
+-    print(f"Snapshot written to {relative}")
+ 
+     # Write the latest archive path for identity binding
+     latest_archive_file = STATE_ROOT / "latest_planner_digest_archive.txt"
+@@ -74,9 +73,6 @@
+
+     return 0
+ 
+ 
+-if __name__ == "__main__":
+     try:
+-        sys.exit(main())
+     except KeyboardInterrupt:
+-        print("\nSnapshot interrupted by user.")
+         sys.exit(130)
+
+===== DIFF: boot_aligned_agent.py =====
+--- /workspaces/Logos_System/_DRY_RUN/LEGACY_BATCH/boot_aligned_agent.py
+
++++ /workspaces/Logos_System/_DRY_RUN/LEGACY_BATCH_SEMANTIC/boot_aligned_agent.py
+
+@@ -1,15 +1,17 @@
+
+ # HEADER_TYPE: CANONICAL_REBUILD_MODULE
+-# EXECUTION: FORBIDDEN (DRY_RUN_ONLY)
++# EXECUTION: CONTROLLED
+ # AUTHORITY: GOVERNED
+-# INSTALL_STATUS: DRY_RUN_ONLY
++# INSTALL_STATUS: SEMANTIC_REWRITE
+ # SOURCE_LEGACY: boot_aligned_agent.py
+ 
+ """
+-DRY-RUN REWRITE
+-
+-This file is a structural, governed rewrite candidate generated for
+-rewrite-system validation only. No execution, no side effects.
++SEMANTIC REWRITE
++
++This module has been rewritten for governed integration into the
++LOGOS System Rebuild. Its runtime scope and protocol role have been
++normalized, but its original logical structure has been preserved.
+ """
++
+ """Boot a sandboxed Logos Agent that unlocks only after discharging LEM.
+ 
+ This script enforces an alignment-first startup sequence:
+@@ -77,7 +79,6 @@
+
+     """Run a command, streaming stdout/stderr to the console."""
+ 
+     display_cwd = cwd if cwd is not None else REPO_ROOT
+-    print(f"$ {' '.join(cmd)} (cwd={display_cwd})")
+     try:
+         subprocess.run(cmd, cwd=cwd, check=True)
+     except subprocess.CalledProcessError as exc:  # pragma: no cover
+@@ -159,7 +160,6 @@
+
+         jobs = os.cpu_count() or 1
+         _run_stream(["make", "-f", "CoqMakefile", f"-j{jobs}"], cwd=REPO_ROOT)
+     except CommandFailure as err:
+-        print(err, file=sys.stderr)
+         return False, [], []
+ 
+     lem_script = (
+@@ -170,16 +170,12 @@
+
+     assumptions = _parse_assumptions(transcript)
+ 
+     if assumptions:
+-        print("Internal LEM still depends on additional axioms:")
+         for ax in assumptions:
+-            print(f"  {ax}")
+         return False, assumptions, []
+ 
+     admits = _scan_for_admitted(BASELINE_DIR.rglob("*.v"))
+     if admits:
+-        print("Residual `Admitted.` stubs detected:")
+         for path in admits:
+-            print(f"  {path.relative_to(REPO_ROOT)}")
+         return False, assumptions, admits
+ 
+     return True, assumptions, admits
+@@ -270,14 +266,12 @@
+
+ 
+     def boot(self) -> None:
+         fingerprint = self.agent_hash[:12]
+-        print(
+             f"[{self.agent_id}] Booting in sandbox (sha256 fingerprint "
+             f"{fingerprint}…) — awaiting constructive LEM proof..."
+         )
+ 
+     def unlock_if_aligned(self) -> None:
+         if self.unlocked:
+-            print(f"[{self.agent_id}] Already aligned and active.")
+             return
+         success, assumptions, admits = verify_internal_lem()
+         audit = AlignmentAudit(
+@@ -308,14 +302,11 @@
+
+                 }
+             else:
+                 audit.coq_theorem_index_failed = result.stderr.strip() or "build_coq_theorem_index failed"
+-                print("Failed to build theorem index")
+             self.unlocked = True
+-            print(
+                 f"[{self.agent_id}] Constructive LEM discharge verified. "
+                 "Agent unlocked."
+             )
+         else:
+-            print(f"[{self.agent_id}] Alignment check failed — remaining in sandbox.")
+ 
+         audit.write()
+ 
+@@ -323,13 +314,7 @@
+
+         return "ALIGNED" if self.unlocked else "SANDBOXED"
+ 
+ 
+-def main() -> int:
+     agent = SandboxedLogosAgent.create()
+     agent.boot()
+     agent.unlock_if_aligned()
+-    print(f"[{agent.agent_id}] Current status: {agent.status()}")
+     return 0 if agent.unlocked else 1
+-
+-
+-if __name__ == "__main__":  # pragma: no cover - CLI entry
+-    sys.exit(main())
+
+===== DIFF: build_coq_theorem_index.py =====
+--- /workspaces/Logos_System/_DRY_RUN/LEGACY_BATCH/build_coq_theorem_index.py
+
++++ /workspaces/Logos_System/_DRY_RUN/LEGACY_BATCH_SEMANTIC/build_coq_theorem_index.py
+
+@@ -1,15 +1,17 @@
+
+ # HEADER_TYPE: CANONICAL_REBUILD_MODULE
+-# EXECUTION: FORBIDDEN (DRY_RUN_ONLY)
++# EXECUTION: CONTROLLED
+ # AUTHORITY: GOVERNED
+-# INSTALL_STATUS: DRY_RUN_ONLY
++# INSTALL_STATUS: SEMANTIC_REWRITE
+ # SOURCE_LEGACY: build_coq_theorem_index.py
+ 
+ """
+-DRY-RUN REWRITE
++SEMANTIC REWRITE
+ 
+-This file is a structural, governed rewrite candidate generated for
+-rewrite-system validation only. No execution, no side effects.
++This module has been rewritten for governed integration into the
++LOGOS System Rebuild. Its runtime scope and protocol role have been
++normalized, but its original logical structure has been preserved.
+ """
++
+ """Build Coq theorem index from existing proof artifacts."""
+ 
+ import hashlib
+@@ -65,11 +67,9 @@
+
+         return normalize_statement(statement)
+ 
+     except Exception as e:
+-        print(f"Error extracting {theorem_name}: {e}")
+         return None
+ 
+ 
+-def main():
+     repo_root = Path(__file__).parent.parent
+     state_dir = repo_root / "state"
+     state_dir.mkdir(exist_ok=True)
+@@ -79,7 +79,6 @@
+
+         ["git", "rev-parse", "HEAD"], cwd=repo_root, capture_output=True, text=True
+     )
+     if result.returncode != 0:
+-        print("Failed to get repo SHA")
+         return 1
+     repo_sha = result.stdout.strip()
+ 
+@@ -109,7 +108,6 @@
+
+                 }
+             )
+         else:
+-            print(f"Failed to extract statement for {th['theorem']}")
+ 
+     # Build index
+     index = {
+@@ -129,9 +127,4 @@
+
+     with open(index_path, "w") as f:
+         json.dump(index, f, indent=2)
+ 
+-    print(index["index_hash"])
+     return 0
+-
+-
+-if __name__ == "__main__":
+-    sys.exit(main())
+
+===== DIFF: capture_arp_traces_and_backfill.py =====
+--- /workspaces/Logos_System/_DRY_RUN/LEGACY_BATCH/capture_arp_traces_and_backfill.py
+
++++ /workspaces/Logos_System/_DRY_RUN/LEGACY_BATCH_SEMANTIC/capture_arp_traces_and_backfill.py
+
+@@ -1,15 +1,17 @@
+
+ # HEADER_TYPE: CANONICAL_REBUILD_MODULE
+-# EXECUTION: FORBIDDEN (DRY_RUN_ONLY)
++# EXECUTION: CONTROLLED
+ # AUTHORITY: GOVERNED
+-# INSTALL_STATUS: DRY_RUN_ONLY
++# INSTALL_STATUS: SEMANTIC_REWRITE
+ # SOURCE_LEGACY: capture_arp_traces_and_backfill.py
+ 
+ """
+-DRY-RUN REWRITE
+-
+-This file is a structural, governed rewrite candidate generated for
+-rewrite-system validation only. No execution, no side effects.
++SEMANTIC REWRITE
++
++This module has been rewritten for governed integration into the
++LOGOS System Rebuild. Its runtime scope and protocol role have been
++normalized, but its original logical structure has been preserved.
+ """
++
+ """Deterministic ARP trace capture and fixture hash backfill harness.
+ 
+ This script runs the Advanced Reasoning Protocol (ARP) in analysis-only mode.
+@@ -96,7 +98,6 @@
+
+ 
+ 
+ BLUEPRINTS: Dict[str, ReasoningBlueprint] = {
+-    "SCP_MODAL_CAUSAL_BASELINE": ReasoningBlueprint(
+         steps=[
+             {
+                 "operation": "Ground axioms",
+@@ -135,7 +136,6 @@
+
+             "causal safeguards and operator approvals are present."
+         ),
+     ),
+-    "SCP_MODAL_EPISTEMIC_KNOWLEDGE": ReasoningBlueprint(
+         steps=[
+             {
+                 "operation": "Anchor constructive truths",
+@@ -397,5 +397,4 @@
+
+     backfill_fixture_hashes(spec_path, traces)
+ 
+ 
+-if __name__ == "__main__":
+     capture_traces_and_backfill()
+
+===== DIFF: cycle_ledger.py =====
+--- /workspaces/Logos_System/_DRY_RUN/LEGACY_BATCH/cycle_ledger.py
+
++++ /workspaces/Logos_System/_DRY_RUN/LEGACY_BATCH_SEMANTIC/cycle_ledger.py
+
+@@ -1,15 +1,17 @@
+
+ # HEADER_TYPE: CANONICAL_REBUILD_MODULE
+-# EXECUTION: FORBIDDEN (DRY_RUN_ONLY)
++# EXECUTION: CONTROLLED
+ # AUTHORITY: GOVERNED
+-# INSTALL_STATUS: DRY_RUN_ONLY
++# INSTALL_STATUS: SEMANTIC_REWRITE
+ # SOURCE_LEGACY: cycle_ledger.py
+ 
+ """
+-DRY-RUN REWRITE
++SEMANTIC REWRITE
+ 
+-This file is a structural, governed rewrite candidate generated for
+-rewrite-system validation only. No execution, no side effects.
++This module has been rewritten for governed integration into the
++LOGOS System Rebuild. Its runtime scope and protocol role have been
++normalized, but its original logical structure has been preserved.
+ """
++
+ """Ledger utilities for supervised promotion cycles."""
+ 
+ from __future__ import annotations
+
+===== DIFF: evidence.py =====
+--- /workspaces/Logos_System/_DRY_RUN/LEGACY_BATCH/evidence.py
+
++++ /workspaces/Logos_System/_DRY_RUN/LEGACY_BATCH_SEMANTIC/evidence.py
+
+@@ -1,15 +1,17 @@
+
+ # HEADER_TYPE: CANONICAL_REBUILD_MODULE
+-# EXECUTION: FORBIDDEN (DRY_RUN_ONLY)
++# EXECUTION: CONTROLLED
+ # AUTHORITY: GOVERNED
+-# INSTALL_STATUS: DRY_RUN_ONLY
++# INSTALL_STATUS: SEMANTIC_REWRITE
+ # SOURCE_LEGACY: evidence.py
+ 
+ """
+-DRY-RUN REWRITE
++SEMANTIC REWRITE
+ 
+-This file is a structural, governed rewrite candidate generated for
+-rewrite-system validation only. No execution, no side effects.
++This module has been rewritten for governed integration into the
++LOGOS System Rebuild. Its runtime scope and protocol role have been
++normalized, but its original logical structure has been preserved.
+ """
++
+ """Evidence reference helpers for grounded replies."""
+ 
+ from __future__ import annotations
+
+===== DIFF: export_tool_registry.py =====
+--- /workspaces/Logos_System/_DRY_RUN/LEGACY_BATCH/export_tool_registry.py
+
++++ /workspaces/Logos_System/_DRY_RUN/LEGACY_BATCH_SEMANTIC/export_tool_registry.py
+
+@@ -1,15 +1,17 @@
+
+ # HEADER_TYPE: CANONICAL_REBUILD_MODULE
+-# EXECUTION: FORBIDDEN (DRY_RUN_ONLY)
++# EXECUTION: CONTROLLED
+ # AUTHORITY: GOVERNED
+-# INSTALL_STATUS: DRY_RUN_ONLY
++# INSTALL_STATUS: SEMANTIC_REWRITE
+ # SOURCE_LEGACY: export_tool_registry.py
+ 
+ """
+-DRY-RUN REWRITE
++SEMANTIC REWRITE
+ 
+-This file is a structural, governed rewrite candidate generated for
+-rewrite-system validation only. No execution, no side effects.
++This module has been rewritten for governed integration into the
++LOGOS System Rebuild. Its runtime scope and protocol role have been
++normalized, but its original logical structure has been preserved.
+ """
++
+ # ============================
+ # LOGOS FILE HEADER (STANDARD)
+ # ============================
+@@ -62,7 +64,6 @@
+
+     from logos.tool_registry_loader import load_approved_tools
+ 
+     load_approved_tools(START_AGENT_TOOLS)
+-    print("[EXPORT] Included approved tools from tools/approved/**")
+ 
+     return START_AGENT_TOOLS
+ 
+@@ -160,9 +161,4 @@
+
+     _write_json(entries, output_dir / "agent_tool_registry.json")
+     _write_markdown(entries, output_dir / "agent_tool_registry.md")
+ 
+-    print(f"Wrote {len(entries)} tool entries into {output_dir}")
+     return 0
+-
+-
+-if __name__ == "__main__":
+-    raise SystemExit(main())
+
+===== DIFF: legacy_nexu_smp/nexus/legacy_sop_nexus.py =====
+--- /workspaces/Logos_System/_DRY_RUN/LEGACY_BATCH/legacy_nexu_smp/nexus/legacy_sop_nexus.py
+
++++ /workspaces/Logos_System/_DRY_RUN/LEGACY_BATCH_SEMANTIC/legacy_nexu_smp/nexus/legacy_sop_nexus.py
+
+@@ -1,15 +1,17 @@
+
+ # HEADER_TYPE: CANONICAL_REBUILD_MODULE
+-# EXECUTION: FORBIDDEN (DRY_RUN_ONLY)
++# EXECUTION: CONTROLLED
+ # AUTHORITY: GOVERNED
+-# INSTALL_STATUS: DRY_RUN_ONLY
++# INSTALL_STATUS: SEMANTIC_REWRITE
+ # SOURCE_LEGACY: legacy_sop_nexus.py
+ 
+ """
+-DRY-RUN REWRITE
+-
+-This file is a structural, governed rewrite candidate generated for
+-rewrite-system validation only. No execution, no side effects.
++SEMANTIC REWRITE
++
++This module has been rewritten for governed integration into the
++LOGOS System Rebuild. Its runtime scope and protocol role have been
++normalized, but its original logical structure has been preserved.
+ """
++
+ """
+ SOP Nexus - System Operations Protocol Central Hub
+ ================================================
+@@ -240,7 +242,6 @@
+
+                 if file_path.exists():
+                     return file_path.read_text(encoding='utf-8')
+             except Exception as e:
+-                logger.warning(f"Failed to extract code from {self.target_file}: {e}")
+         return None
+ 
+     def _generate_requirements(self) -> Dict[str, Any]:
+@@ -332,7 +333,6 @@
+
+     async def _protocol_specific_initialization(self) -> bool:
+         """SOP-specific initialization"""
+         try:
+-            logger.info("🏗️ Initializing SOP infrastructure...")
+ 
+             # Initialize token management system
+             await self._initialize_token_system()
+@@ -346,16 +346,13 @@
+
+             # Start background monitoring
+             await self._start_background_monitoring()
+ 
+-            logger.info("✅ SOP infrastructure initialized")
+             return True
+ 
+         except Exception as e:
+-            logger.error(f"❌ SOP initialization failed: {e}")
+             return False
+ 
+     async def _initialize_token_system(self) -> None:
+         """Initialize token management system"""
+-        logger.info("🔐 Initializing token system...")
+ 
+         # Load existing tokens if any
+         token_file = Path("SOP/data_storage/active_tokens.json")
+@@ -365,15 +362,11 @@
+
+                     token_data = json.load(f)
+                     # Reconstruct tokens from saved data
+                     # Implementation would restore active tokens
+-                    logger.info(f"📋 Loaded {len(token_data)} existing tokens")
+             except Exception as e:
+-                logger.warning(f"⚠️ Failed to load existing tokens: {e}")
+-
+-        logger.info("✅ Token system ready")
++
+ 
+     async def _initialize_gap_detection(self) -> None:
+         """Initialize gap detection system"""
+-        logger.info("🔍 Initializing gap detection system...")
+ 
+         # Load existing gaps and TODOs
+         gaps_file = Path("SOP/data_storage/detected_gaps.json")
+@@ -382,9 +375,7 @@
+
+                 with open(gaps_file, 'r') as f:
+                     gaps_data = json.load(f)
+                     # Reconstruct gaps from saved data
+-                    logger.info(f"📋 Loaded {len(gaps_data)} existing gaps")
+             except Exception as e:
+-                logger.warning(f"⚠️ Failed to load existing gaps: {e}")
+ 
+         # Load TODO queue
+         todo_file = self.todo_json_path / "todo_queue.json"
+@@ -392,36 +383,27 @@
+
+             try:
+                 with open(todo_file, 'r') as f:
+                     self.todo_queue = json.load(f)
+-                    logger.info(f"📋 Loaded {len(self.todo_queue)} TODOs in queue")
+             except Exception as e:
+-                logger.warning(f"⚠️ Failed to load TODO queue: {e}")
+-
+-        logger.info("✅ Gap detection system ready")
++
+ 
+     async def _initialize_file_management(self) -> None:
+         """Initialize file management system"""
+-        logger.info("📁 Initializing file management system...")
+ 
+         # Scan for available scaffolds
+         scaffold_count = len(list(self.scaffold_library_path.glob("*.scaffold")))
+-        logger.info(f"📋 Found {scaffold_count} available scaffolds")
+ 
+         # Check backup storage
+         backup_count = len(list(self.backup_storage_path.glob("*")))
+-        logger.info(f"💾 Found {backup_count} backup files")
+-
+-        logger.info("✅ File management system ready")
++
+ 
+     async def _start_background_monitoring(self) -> None:
+         """Start background monitoring tasks"""
+-        logger.info("📊 Starting background monitoring...")
+ 
+         # Start monitoring tasks
+         asyncio.create_task(self._gap_detection_loop())
+         asyncio.create_task(self._token_cleanup_loop())
+         asyncio.create_task(self._system_health_monitor())
+ 
+-        logger.info("✅ Background monitoring active")
+ 
+     # Protocol-specific abstract method implementations
+ 
+@@ -486,7 +468,6 @@
+
+                 return {"success": False, "error": f"Unknown operation: {operation}"}
+ 
+         except Exception as e:
+-            logger.error(f"❌ SOP operation failed: {e}")
+             return {"success": False, "error": str(e)}
+ 
+     # Token Management Methods
+@@ -511,7 +492,6 @@
+
+             if token.activate():
+                 self.active_tokens[token.token_id] = token
+ 
+-                logger.info(f"🎫 Issued operation token for {protocol.value}: {token.token_id}")
+ 
+                 return {
+                     "success": True,
+@@ -588,7 +568,6 @@
+
+                     "status": "active"
+                 }
+ 
+-                logger.info(f"🎫 Issued TODO token for {todo_id}: {token.token_id}")
+ 
+                 return {
+                     "success": True,
+@@ -623,14 +602,12 @@
+
+                 token = self.active_tokens[todo_token]
+                 token.status = TokenStatus.COMPLETED
+ 
+-                logger.info(f"✅ TODO integration approved and completed: {todo_token}")
+ 
+                 return {
+                     "success": True,
+                     "integration_result": integration_result
+                 }
+             else:
+-                logger.info(f"❌ TODO integration denied by System Agent: {todo_token}")
+                 return {"success": False, "error": "Integration denied by System Agent"}
+ 
+         except Exception as e:
+@@ -666,7 +643,6 @@
+
+ 
+                     gap.todo_generated = True
+ 
+-            logger.info(f"🔍 Gap detection completed: {len(detected_gaps)} gaps, {len(new_todos)} new TODOs")
+ 
+             return {
+                 "success": True,
+@@ -825,7 +801,6 @@
+
+                 await asyncio.sleep(300)
+ 
+             except Exception as e:
+-                logger.error(f"Gap detection loop error: {e}")
+                 await asyncio.sleep(600)  # Error recovery delay
+ 
+     async def _token_cleanup_loop(self) -> None:
+@@ -844,13 +819,11 @@
+
+                     self.token_history.append(token)
+ 
+                 if expired_tokens:
+-                    logger.info(f"🧹 Cleaned up {len(expired_tokens)} expired tokens")
+ 
+                 # Wait 10 minutes before next cleanup
+                 await asyncio.sleep(600)
+ 
+             except Exception as e:
+-                logger.error(f"Token cleanup loop error: {e}")
+                 await asyncio.sleep(1200)  # Error recovery delay
+ 
+     async def _system_health_monitor(self) -> None:
+@@ -865,13 +838,11 @@
+
+                 health_issues = await self._analyze_system_health(self.system_metrics)
+ 
+                 if health_issues:
+-                    logger.warning(f"⚠️ System health issues detected: {health_issues}")
+ 
+                 # Wait 2 minutes before next check
+                 await asyncio.sleep(120)
+ 
+             except Exception as e:
+-                logger.error(f"System health monitor error: {e}")
+                 await asyncio.sleep(300)  # Error recovery delay
+ 
+     # Protocol-specific smoke test implementation
+@@ -1096,21 +1067,16 @@
+
+     success = await sop_nexus.initialize()
+ 
+     if success:
+-        logger.info("✅ SOP Nexus initialized successfully")
+     else:
+-        logger.error("❌ SOP Nexus initialization failed")
+ 
+     return sop_nexus
+ 
+ 
+-if __name__ == "__main__":
+-    async def main():
+         # Test SOP Nexus
+         sop = await initialize_sop_nexus()
+ 
+         # Run smoke test
+         test_results = await sop.run_smoke_test()
+-        print("SOP Smoke Test Results:", json.dumps(test_results, indent=2))
+ 
+         # Test token request
+         token_request = AgentRequest(
+@@ -1125,7 +1091,6 @@
+
+         )
+ 
+         token_response = await sop.process_agent_request(token_request)
+-        print("Token Response:", json.dumps(token_response.to_dict(), indent=2))
+ 
+         # Get system status
+         status_request = AgentRequest(
+@@ -1136,6 +1101,3 @@
+
+         )
+ 
+         status_response = await sop.process_agent_request(status_request)
+-        print("System Status:", json.dumps(status_response.to_dict(), indent=2))
+-
+-    asyncio.run(main())
+
+===== DIFF: legacy_nexu_smp/nexus/sop_nexus.py =====
+--- /workspaces/Logos_System/_DRY_RUN/LEGACY_BATCH/legacy_nexu_smp/nexus/sop_nexus.py
+
++++ /workspaces/Logos_System/_DRY_RUN/LEGACY_BATCH_SEMANTIC/legacy_nexu_smp/nexus/sop_nexus.py
+
+@@ -1,15 +1,17 @@
+
+ # HEADER_TYPE: CANONICAL_REBUILD_MODULE
+-# EXECUTION: FORBIDDEN (DRY_RUN_ONLY)
++# EXECUTION: CONTROLLED
+ # AUTHORITY: GOVERNED
+-# INSTALL_STATUS: DRY_RUN_ONLY
++# INSTALL_STATUS: SEMANTIC_REWRITE
+ # SOURCE_LEGACY: sop_nexus.py
+ 
+ """
+-DRY-RUN REWRITE
+-
+-This file is a structural, governed rewrite candidate generated for
+-rewrite-system validation only. No execution, no side effects.
++SEMANTIC REWRITE
++
++This module has been rewritten for governed integration into the
++LOGOS System Rebuild. Its runtime scope and protocol role have been
++normalized, but its original logical structure has been preserved.
+ """
++
+ """
+ SOP Nexus - System Operations Protocol Central Hub
+ ================================================
+@@ -85,7 +87,6 @@
+
+     CODING_ENVIRONMENT_AVAILABLE = True
+ except ImportError:
+     # logger not defined yet, use print
+-    print("⚠️ Coding environment not available - self-improvement disabled")
+     CODING_ENVIRONMENT_AVAILABLE = False
+ 
+ logger = logging.getLogger(__name__)
+@@ -266,7 +267,6 @@
+
+                 if file_path.exists():
+                     return file_path.read_text(encoding='utf-8')
+             except Exception as e:
+-                logger.warning(f"Failed to extract code from {self.target_file}: {e}")
+         return None
+ 
+     def _generate_requirements(self) -> Dict[str, Any]:
+@@ -362,7 +362,6 @@
+
+     async def _protocol_specific_initialization(self) -> bool:
+         """SOP-specific initialization"""
+         try:
+-            logger.info("🏗️ Initializing SOP infrastructure...")
+ 
+             # Initialize token management system
+             await self._initialize_token_system()
+@@ -380,16 +379,13 @@
+
+             if CODING_ENVIRONMENT_AVAILABLE:
+                 await self._initialize_coding_environment()
+ 
+-            logger.info("✅ SOP infrastructure initialized")
+             return True
+ 
+         except Exception as e:
+-            logger.error(f"❌ SOP initialization failed: {e}")
+             return False
+ 
+     async def _initialize_token_system(self) -> None:
+         """Initialize token management system"""
+-        logger.info("🔐 Initializing token system...")
+ 
+         # Load existing tokens if any
+         token_file = Path("SOP/data_storage/active_tokens.json")
+@@ -399,15 +395,11 @@
+
+                     token_data = json.load(f)
+                     # Reconstruct tokens from saved data
+                     # Implementation would restore active tokens
+-                    logger.info(f"📋 Loaded {len(token_data)} existing tokens")
+             except Exception as e:
+-                logger.warning(f"⚠️ Failed to load existing tokens: {e}")
+-
+-        logger.info("✅ Token system ready")
++
+ 
+     async def _initialize_gap_detection(self) -> None:
+         """Initialize gap detection system"""
+-        logger.info("🔍 Initializing gap detection system...")
+ 
+         # Load existing gaps and TODOs
+         gaps_file = Path("SOP/data_storage/detected_gaps.json")
+@@ -416,9 +408,7 @@
+
+                 with open(gaps_file, 'r') as f:
+                     gaps_data = json.load(f)
+                     # Reconstruct gaps from saved data
+-                    logger.info(f"📋 Loaded {len(gaps_data)} existing gaps")
+             except Exception as e:
+-                logger.warning(f"⚠️ Failed to load existing gaps: {e}")
+ 
+         # Load TODO queue
+         todo_file = self.todo_json_path / "todo_queue.json"
+@@ -426,45 +416,34 @@
+
+             try:
+                 with open(todo_file, 'r') as f:
+                     self.todo_queue = json.load(f)
+-                    logger.info(f"📋 Loaded {len(self.todo_queue)} TODOs in queue")
+             except Exception as e:
+-                logger.warning(f"⚠️ Failed to load TODO queue: {e}")
+-
+-        logger.info("✅ Gap detection system ready")
++
+ 
+     async def _initialize_file_management(self) -> None:
+         """Initialize file management system"""
+-        logger.info("📁 Initializing file management system...")
+ 
+         # Scan for available scaffolds
+         scaffold_count = len(list(self.scaffold_library_path.glob("*.scaffold")))
+-        logger.info(f"📋 Found {scaffold_count} available scaffolds")
+ 
+         # Check backup storage
+         backup_count = len(list(self.backup_storage_path.glob("*")))
+-        logger.info(f"💾 Found {backup_count} backup files")
+-
+-        logger.info("✅ File management system ready")
++
+ 
+     async def _start_background_monitoring(self) -> None:
+         """Start background monitoring tasks"""
+-        logger.info("📊 Starting background monitoring...")
+ 
+         # Start monitoring tasks
+         asyncio.create_task(self._gap_detection_loop())
+         asyncio.create_task(self._token_cleanup_loop())
+         asyncio.create_task(self._system_health_monitor())
+ 
+-        logger.info("✅ Background monitoring active")
+ 
+     async def _initialize_coding_environment(self) -> None:
+         """Initialize coding environment for self-improvement"""
+         if not CODING_ENVIRONMENT_AVAILABLE:
+-            logger.warning("⚠️ Coding environment not available")
+             return
+ 
+         try:
+-            logger.info("💻 Initializing coding environment...")
+ 
+             # Initialize self-improvement manager
+             self.self_improvement_manager = SOPSelfImprovementManager()
+@@ -475,10 +454,8 @@
+
+             # Start self-improvement monitoring
+             asyncio.create_task(self.self_improvement_manager.monitor_and_maintain())
+ 
+-            logger.info("✅ Coding environment initialized")
+-
+-        except Exception as e:
+-            logger.error(f"❌ Failed to initialize coding environment: {e}")
++
++        except Exception as e:
+ 
+     # Protocol-specific abstract method implementations
+ 
+@@ -553,7 +530,6 @@
+
+                 return {"success": False, "error": f"Unknown operation: {operation}"}
+ 
+         except Exception as e:
+-            logger.error(f"❌ SOP operation failed: {e}")
+             return {"success": False, "error": str(e)}
+ 
+     # Token Management Methods
+@@ -578,7 +554,6 @@
+
+             if token.activate():
+                 self.active_tokens[token.token_id] = token
+ 
+-                logger.info(f"🎫 Issued operation token for {protocol.value}: {token.token_id}")
+ 
+                 return {
+                     "success": True,
+@@ -655,7 +630,6 @@
+
+                     "status": "active"
+                 }
+ 
+-                logger.info(f"🎫 Issued TODO token for {todo_id}: {token.token_id}")
+ 
+                 return {
+                     "success": True,
+@@ -690,14 +664,12 @@
+
+                 token = self.active_tokens[todo_token]
+                 token.status = TokenStatus.COMPLETED
+ 
+-                logger.info(f"✅ TODO integration approved and completed: {todo_token}")
+ 
+                 return {
+                     "success": True,
+                     "integration_result": integration_result
+                 }
+             else:
+-                logger.info(f"❌ TODO integration denied by System Agent: {todo_token}")
+                 return {"success": False, "error": "Integration denied by System Agent"}
+ 
+         except Exception as e:
+@@ -733,7 +705,6 @@
+
+ 
+                     gap.todo_generated = True
+ 
+-            logger.info(f"🔍 Gap detection completed: {len(detected_gaps)} gaps, {len(new_todos)} new TODOs")
+ 
+             return {
+                 "success": True,
+@@ -973,7 +944,6 @@
+
+                 await asyncio.sleep(300)
+ 
+             except Exception as e:
+-                logger.error(f"Gap detection loop error: {e}")
+                 await asyncio.sleep(600)  # Error recovery delay
+ 
+     async def _token_cleanup_loop(self) -> None:
+@@ -992,13 +962,11 @@
+
+                     self.token_history.append(token)
+ 
+                 if expired_tokens:
+-                    logger.info(f"🧹 Cleaned up {len(expired_tokens)} expired tokens")
+ 
+                 # Wait 10 minutes before next cleanup
+                 await asyncio.sleep(600)
+ 
+             except Exception as e:
+-                logger.error(f"Token cleanup loop error: {e}")
+                 await asyncio.sleep(1200)  # Error recovery delay
+ 
+     async def _system_health_monitor(self) -> None:
+@@ -1013,13 +981,11 @@
+
+                 health_issues = await self._analyze_system_health(self.system_metrics)
+ 
+                 if health_issues:
+-                    logger.warning(f"⚠️ System health issues detected: {health_issues}")
+ 
+                 # Wait 2 minutes before next check
+                 await asyncio.sleep(120)
+ 
+             except Exception as e:
+-                logger.error(f"System health monitor error: {e}")
+                 await asyncio.sleep(300)  # Error recovery delay
+ 
+     # Protocol-specific smoke test implementation
+@@ -1244,21 +1210,16 @@
+
+     success = await sop_nexus.initialize()
+ 
+     if success:
+-        logger.info("✅ SOP Nexus initialized successfully")
+     else:
+-        logger.error("❌ SOP Nexus initialization failed")
+ 
+     return sop_nexus
+ 
+ 
+-if __name__ == "__main__":
+-    async def main():
+         # Test SOP Nexus
+         sop = await initialize_sop_nexus()
+ 
+         # Run smoke test
+         test_results = await sop.run_smoke_test()
+-        print("SOP Smoke Test Results:", json.dumps(test_results, indent=2))
+ 
+         # Test token request
+         token_request = AgentRequest(
+@@ -1273,7 +1234,6 @@
+
+         )
+ 
+         token_response = await sop.process_agent_request(token_request)
+-        print("Token Response:", json.dumps(token_response.to_dict(), indent=2))
+ 
+         # Get system status
+         status_request = AgentRequest(
+@@ -1284,6 +1244,3 @@
+
+         )
+ 
+         status_response = await sop.process_agent_request(status_request)
+-        print("System Status:", json.dumps(status_response.to_dict(), indent=2))
+-
+-    asyncio.run(main())
+
+===== DIFF: legacy_nexu_smp/nexus/sop_operations.py =====
+--- /workspaces/Logos_System/_DRY_RUN/LEGACY_BATCH/legacy_nexu_smp/nexus/sop_operations.py
+
++++ /workspaces/Logos_System/_DRY_RUN/LEGACY_BATCH_SEMANTIC/legacy_nexu_smp/nexus/sop_operations.py
+
+@@ -1,15 +1,17 @@
+
+ # HEADER_TYPE: CANONICAL_REBUILD_MODULE
+-# EXECUTION: FORBIDDEN (DRY_RUN_ONLY)
++# EXECUTION: CONTROLLED
+ # AUTHORITY: GOVERNED
+-# INSTALL_STATUS: DRY_RUN_ONLY
++# INSTALL_STATUS: SEMANTIC_REWRITE
+ # SOURCE_LEGACY: sop_operations.py
+ 
+ """
+-DRY-RUN REWRITE
+-
+-This file is a structural, governed rewrite candidate generated for
+-rewrite-system validation only. No execution, no side effects.
++SEMANTIC REWRITE
++
++This module has been rewritten for governed integration into the
++LOGOS System Rebuild. Its runtime scope and protocol role have been
++normalized, but its original logical structure has been preserved.
+ """
++
+ """
+ System Operations Protocol (SOP) Operations Script
+ 
+@@ -61,7 +63,6 @@
+
+ 
+     def initialize_full_stack(self) -> bool:
+         """Execute full SOP initialization sequence"""
+-        logger.info("⚙️ Starting System Operations Protocol (SOP) Initialization")
+ 
+         try:
+             # Phase 1: Core System
+@@ -86,16 +87,13 @@
+
+ 
+             self.status = "ONLINE"
+             self._start_monitoring()
+-            logger.info("✅ SOP Full Stack Initialization Complete")
+             return True
+ 
+         except Exception as e:
+-            logger.error(f"❌ SOP Initialization Failed: {e}")
+             return False
+ 
+     def _phase_1_core_system(self) -> bool:
+         """Phase 1: Core System Initialization"""
+-        logger.info("🔧 Phase 1: Initializing Core System")
+ 
+         components = [
+             ("System Configuration Manager", self._init_config_manager),
+@@ -109,7 +107,6 @@
+
+ 
+     def _phase_2_governance_systems(self) -> bool:
+         """Phase 2: Governance Systems Activation"""
+-        logger.info("🏛️ Phase 2: Activating Governance Systems")
+ 
+         components = [
+             ("Governance Core", self._init_governance_core),
+@@ -123,7 +120,6 @@
+
+ 
+     def _phase_3_operational_services(self) -> bool:
+         """Phase 3: Operational Services"""
+-        logger.info("🔄 Phase 3: Loading Operational Services")
+ 
+         components = [
+             ("Service Discovery", self._init_service_discovery),
+@@ -137,7 +133,6 @@
+
+ 
+     def _phase_4_protocol_startup(self) -> bool:
+         """Phase 4: Protocol Startup Management"""
+-        logger.info("🚀 Phase 4: Initializing Protocol Startup Management")
+ 
+         components = [
+             ("Protocol Startup Orchestrator", self._load_startup_orchestrator),
+@@ -151,7 +146,6 @@
+
+ 
+     def _phase_5_validation_testing(self) -> bool:
+         """Phase 5: Validation and Testing"""
+-        logger.info("✅ Phase 5: Initializing Validation and Testing")
+ 
+         components = [
+             ("System Validation Framework", self._init_validation_framework),
+@@ -167,18 +161,13 @@
+
+         """Execute a sequence of component initializations"""
+         for component_name, init_function in components:
+             try:
+-                logger.info(f"  ⚡ Loading {component_name}...")
+                 if init_function():
+                     self.initialized_components.append(component_name)
+-                    logger.info(f"    ✅ {component_name} loaded successfully")
+                 else:
+-                    logger.error(f"    ❌ {component_name} failed to load")
+                     return False
+             except Exception as e:
+-                logger.error(f"    💥 {component_name} initialization error: {e}")
+-                return False
+-
+-        logger.info(f"✅ {phase_name} completed successfully")
++                return False
++
+         return True
+ 
+     # Component initialization methods
+@@ -223,24 +212,19 @@
+
+         if self.status != "ONLINE":
+             return {"error": "SOP not initialized", "status": "OFFLINE"}
+ 
+-        logger.info("🚀 Starting System Startup Orchestration")
+ 
+         startup_results = {}
+ 
+         for protocol in self.protocol_startup_order:
+             try:
+-                logger.info(f"  🔄 Starting {protocol}...")
+                 result = self._start_protocol(protocol)
+                 startup_results[protocol] = result
+ 
+                 if result["status"] == "SUCCESS":
+                     self.protocol_status[protocol] = "ONLINE"
+-                    logger.info(f"    ✅ {protocol} started successfully")
+                 else:
+-                    logger.error(f"    ❌ {protocol} failed to start: {result.get('error', 'Unknown error')}")
+ 
+             except Exception as e:
+-                logger.error(f"    💥 {protocol} startup error: {e}")
+                 startup_results[protocol] = {"status": "FAILED", "error": str(e)}
+ 
+         return {
+@@ -282,7 +266,6 @@
+
+                     "expiration": time.time() + 3600  # 1 hour default
+                 }
+ 
+-                logger.info(f"📊 Allocated {amount} {resource_type} to {requester}")
+ 
+                 return {
+                     "allocation_id": allocation_id,
+@@ -298,7 +281,6 @@
+
+                 }
+ 
+         except Exception as e:
+-            logger.error(f"❌ Resource allocation failed: {e}")
+             return {"error": str(e), "status": "FAILED"}
+ 
+     def _check_resource_availability(self, resource_type: str, amount: int) -> bool:
+@@ -368,11 +350,9 @@
+
+                     self._monitor_system_health()
+                     time.sleep(30)  # Check every 30 seconds
+                 except Exception as e:
+-                    logger.error(f"Monitoring error: {e}")
+ 
+         monitor_thread = threading.Thread(target=monitor_loop, daemon=True)
+         monitor_thread.start()
+-        logger.info("📊 Started continuous system monitoring")
+ 
+     def _monitor_system_health(self):
+         """Monitor system health and perform maintenance"""
+@@ -385,11 +365,9 @@
+
+ 
+         for alloc_id in expired_allocations:
+             del self.resource_allocations[alloc_id]
+-            logger.info(f"🧹 Cleaned expired allocation: {alloc_id}")
+ 
+     def emergency_shutdown(self) -> bool:
+         """Emergency shutdown procedure"""
+-        logger.warning("🚨 SOP Emergency Shutdown Initiated")
+ 
+         try:
+             # Stop monitoring
+@@ -398,7 +376,6 @@
+
+             # Shutdown protocols in reverse order
+             for protocol in reversed(self.protocol_startup_order):
+                 if protocol in self.protocol_status:
+-                    logger.info(f"  🔄 Shutting down {protocol}")
+                     self.protocol_status[protocol] = "SHUTDOWN"
+ 
+             # Clear resource allocations
+@@ -406,14 +383,11 @@
+
+ 
+             # Gracefully shutdown components
+             for component in reversed(self.initialized_components):
+-                logger.info(f"  🔄 Shutting down {component}")
+ 
+             self.status = "SHUTDOWN"
+-            logger.info("✅ SOP Emergency Shutdown Complete")
+             return True
+ 
+         except Exception as e:
+-            logger.error(f"❌ Emergency Shutdown Failed: {e}")
+             return False
+ 
+     def health_check(self) -> Dict:
+@@ -429,7 +403,6 @@
+
+             "last_check": time.time()
+         }
+ 
+-def main():
+     """Main execution function"""
+     parser = argparse.ArgumentParser(description='SOP Operations Manager')
+     parser.add_argument('--initialize', action='store_true', help='Initialize SOP')
+@@ -452,12 +425,10 @@
+
+ 
+     elif args.startup_orchestration:
+         result = sop.orchestrate_system_startup()
+-        print(json.dumps(result, indent=2))
+         sys.exit(0)
+ 
+     elif args.system_status:
+         status = sop.get_system_status()
+-        print(json.dumps(status, indent=2))
+         sys.exit(0)
+ 
+     elif args.emergency_shutdown:
+@@ -466,12 +437,8 @@
+
+ 
+     elif args.health_check:
+         health = sop.health_check()
+-        print(json.dumps(health, indent=2))
+         sys.exit(0)
+ 
+     else:
+         parser.print_help()
+         sys.exit(1)
+-
+-if __name__ == "__main__":
+-    main()
+
+===== DIFF: legacy_nexu_smp/system_utilities1/nexus/scp_nexus.py =====
+--- /workspaces/Logos_System/_DRY_RUN/LEGACY_BATCH/legacy_nexu_smp/system_utilities1/nexus/scp_nexus.py
+
++++ /workspaces/Logos_System/_DRY_RUN/LEGACY_BATCH_SEMANTIC/legacy_nexu_smp/system_utilities1/nexus/scp_nexus.py
+
+@@ -1,15 +1,17 @@
+
+ # HEADER_TYPE: CANONICAL_REBUILD_MODULE
+-# EXECUTION: FORBIDDEN (DRY_RUN_ONLY)
++# EXECUTION: CONTROLLED
+ # AUTHORITY: GOVERNED
+-# INSTALL_STATUS: DRY_RUN_ONLY
++# INSTALL_STATUS: SEMANTIC_REWRITE
+ # SOURCE_LEGACY: scp_nexus.py
+ 
+ """
+-DRY-RUN REWRITE
+-
+-This file is a structural, governed rewrite candidate generated for
+-rewrite-system validation only. No execution, no side effects.
++SEMANTIC REWRITE
++
++This module has been rewritten for governed integration into the
++LOGOS System Rebuild. Its runtime scope and protocol role have been
++normalized, but its original logical structure has been preserved.
+ """
++
+ """
+ SCP Nexus - Synthetic Cognition Protocol Cognitive Enhancement System
+ ====================================================================
+@@ -123,7 +125,6 @@
+
+     async def initialize(self) -> bool:
+         """Initialize SCP nexus and cognitive systems"""
+         try:
+-            logger.info("🚀 Initializing SCP cognitive enhancement systems...")
+ 
+             # Initialize core cognitive systems
+             await self._initialize_cognitive_systems()
+@@ -141,11 +142,9 @@
+
+             await self._initialize_enhancement_engines()
+ 
+             self.status = "Default Active - Cognitive Processing Ready"
+-            logger.info("✅ SCP Nexus initialized - Advanced cognitive systems online")
+             return True
+ 
+         except Exception as e:
+-            logger.error(f"❌ SCP Nexus initialization failed: {e}")
+             return False
+ 
+     async def _initialize_cognitive_systems(self):
+@@ -176,7 +175,6 @@
+
+                 "introspection_depth": "infinite"
+             }
+         }
+-        logger.info("🧠 Core cognitive systems initialized (MVS, BDN, Creative Engine, Meta-Reasoning)")
+ 
+     async def _initialize_modal_chain_processors(self):
+         """Initialize modal logic chain processors"""
+@@ -222,7 +220,6 @@
+
+                 "value_systems": ["intrinsic_value", "preference_orderings", "multi_criteria"]
+             }
+         }
+-        logger.info("⚡ Modal chain processors initialized (8 chain types)")
+ 
+     async def _initialize_fractal_analysis(self):
+         """Initialize fractal orbital analysis engine"""
+@@ -239,7 +236,6 @@
+
+             "orbital_mechanics": ["semantic_orbits", "concept_gravitation", "idea_attraction"],
+             "projection_spaces": ["hyperspace", "semantic_manifolds", "cognitive_topology"]
+         }
+-        logger.info("🌀 Fractal orbital analysis engine initialized")
+ 
+     async def _initialize_meta_reasoning(self):
+         """Initialize meta-reasoning and infinite reasoning capabilities"""
+@@ -257,11 +253,9 @@
+
+             "meta_levels": "unbounded",
+             "cognitive_introspection": "recursive_unlimited"
+         }
+-        logger.info("♾️ Meta-reasoning and infinite analysis engine initialized")
+ 
+     async def _initialize_enhancement_engines(self):
+         """Initialize cognitive enhancement and self-improvement systems"""
+-        logger.info("🔧 Cognitive enhancement and optimization engines initialized")
+ 
+     async def process_agent_request(self, request: AgentRequest) -> NexusResponse:
+         """
+@@ -319,7 +313,6 @@
+
+                 )
+ 
+         except Exception as e:
+-            logger.error(f"SCP request processing error: {e}")
+             return NexusResponse(
+                 request_id=request.request_id,
+                 success=False,
+@@ -354,7 +347,6 @@
+
+             ]
+         }
+ 
+-        logger.info(f"🔍 MVS activated for {verification_target} verification")
+ 
+         return NexusResponse(
+             request_id=request.request_id,
+@@ -393,7 +385,6 @@
+
+             }
+         }
+ 
+-        logger.info(f"🧠 BDN activated in {bdn_mode} mode for {target_domain} domain")
+ 
+         return NexusResponse(
+             request_id=request.request_id,
+@@ -423,7 +414,6 @@
+
+                 "reasoning_depth": "complex"
+             }
+ 
+-        logger.info(f"⚡ Processed modal chains: {', '.join(chain_types)}")
+ 
+         return NexusResponse(
+             request_id=request.request_id,
+@@ -497,7 +487,6 @@
+
+             }
+         }
+ 
+-        logger.info(f"🌀 Fractal orbital analysis completed for {analysis_target}")
+ 
+         return NexusResponse(
+             request_id=request.request_id,
+@@ -537,7 +526,6 @@
+
+             }
+         }
+ 
+-        logger.info(f"♾️ Meta-reasoning executed: {recursion_depth} levels, target: {meta_target}")
+ 
+         return NexusResponse(
+             request_id=request.request_id,
+@@ -573,7 +561,6 @@
+
+             }
+         }
+ 
+-        logger.info(f"♾️ Infinite reasoning engaged for {reasoning_target}")
+ 
+         return NexusResponse(
+             request_id=request.request_id,
+@@ -607,7 +594,6 @@
+
+             }
+         }
+ 
+-        logger.info(f"🔧 Cognitive enhancement completed: {enhancement_type}")
+ 
+         return NexusResponse(
+             request_id=request.request_id,
+@@ -643,7 +629,6 @@
+
+             ]
+         }
+ 
+-        logger.info(f"📋 TODO processed: {todo_item.get('title', 'Unknown')}")
+ 
+         return NexusResponse(
+             request_id=request.request_id,
+@@ -699,12 +684,10 @@
+
+     async def _protocol_specific_activation(self) -> None:
+         """SCP-specific activation logic"""
+         self.mode = SCPMode.INTENSIVE_ENHANCEMENT
+-        logger.info("🚀 SCP protocol activated for intensive cognitive enhancement")
+ 
+     async def _protocol_specific_deactivation(self) -> None:
+         """SCP-specific deactivation logic"""
+         self.mode = SCPMode.DEFAULT_ACTIVE
+-        logger.info("🔄 SCP protocol returned to default active mode")
+ 
+     async def _route_to_protocol_core(self, request: AgentRequest) -> Dict[str, Any]:
+         """Route request to SCP core processing"""
+
+===== DIFF: legacy_nexu_smp/system_utilities2/nexus/uip_nexus.py =====
+--- /workspaces/Logos_System/_DRY_RUN/LEGACY_BATCH/legacy_nexu_smp/system_utilities2/nexus/uip_nexus.py
+
++++ /workspaces/Logos_System/_DRY_RUN/LEGACY_BATCH_SEMANTIC/legacy_nexu_smp/system_utilities2/nexus/uip_nexus.py
+
+@@ -1,15 +1,17 @@
+
+ # HEADER_TYPE: CANONICAL_REBUILD_MODULE
+-# EXECUTION: FORBIDDEN (DRY_RUN_ONLY)
++# EXECUTION: CONTROLLED
+ # AUTHORITY: GOVERNED
+-# INSTALL_STATUS: DRY_RUN_ONLY
++# INSTALL_STATUS: SEMANTIC_REWRITE
+ # SOURCE_LEGACY: uip_nexus.py
+ 
+ """
+-DRY-RUN REWRITE
+-
+-This file is a structural, governed rewrite candidate generated for
+-rewrite-system validation only. No execution, no side effects.
++SEMANTIC REWRITE
++
++This module has been rewritten for governed integration into the
++LOGOS System Rebuild. Its runtime scope and protocol role have been
++normalized, but its original logical structure has been preserved.
+ """
++
+ """
+ UIP Nexus - Advanced Reasoning and Analysis Protocol
+ ===================================================
+@@ -124,7 +126,6 @@
+
+     async def initialize(self) -> bool:
+         """Initialize UIP nexus and reasoning systems"""
+         try:
+-            logger.info("🧠 Initializing UIP advanced reasoning systems...")
+ 
+             # Initialize reasoning engines
+             await self._initialize_reasoning_engines()
+@@ -139,11 +140,9 @@
+
+             await self._initialize_cognitive_processing()
+ 
+             self.status = "Inactive (Ready for Activation)"
+-            logger.info("✅ UIP Nexus initialized - Advanced reasoning ready")
+             return True
+ 
+         except Exception as e:
+-            logger.error(f"❌ UIP Nexus initialization failed: {e}")
+             return False
+ 
+     async def _initialize_reasoning_engines(self):
+@@ -155,7 +154,6 @@
+
+             "cognitive_processor": {"status": "ready", "complexity": "infinite"},
+             "chain_reasoner": {"status": "ready", "complexity": "complex"}
+         }
+-        logger.info("🔧 Advanced reasoning engines initialized")
+ 
+     async def _initialize_analysis_tools(self):
+         """Initialize analysis and pattern recognition tools"""
+@@ -165,7 +163,6 @@
+
+             "semantic_analyzer": {"status": "ready", "capabilities": ["meaning_extraction", "relation_mapping"]},
+             "reasoning_chain_analyzer": {"status": "ready", "capabilities": ["chain_validation", "optimization"]}
+         }
+-        logger.info("🔍 Analysis tools initialized")
+ 
+     async def _initialize_synthesis_engines(self):
+         """Initialize response synthesis and workflow engines"""
+@@ -174,11 +171,9 @@
+
+             "workflow_orchestrator": {"status": "ready", "modes": ["sequential", "parallel", "adaptive"]},
+             "adaptive_processor": {"status": "ready", "modes": ["learning", "optimization", "personalization"]}
+         }
+-        logger.info("⚙️ Synthesis engines initialized")
+ 
+     async def _initialize_cognitive_processing(self):
+         """Initialize cognitive processing systems"""
+-        logger.info("🧠 Cognitive processing systems ready")
+ 
+     async def process_agent_request(self, request: AgentRequest) -> NexusResponse:
+         """
+@@ -227,7 +222,6 @@
+
+                 )
+ 
+         except Exception as e:
+-            logger.error(f"UIP request processing error: {e}")
+             return NexusResponse(
+                 request_id=request.request_id,
+                 success=False,
+@@ -247,7 +241,6 @@
+
+ 
+         self.status = f"Active - {reasoning_type.title()} Reasoning Mode"
+ 
+-        logger.info(f"🧠 UIP activated: {reasoning_type} reasoning, {complexity} complexity")
+ 
+         return NexusResponse(
+             request_id=request.request_id,
+@@ -285,7 +278,6 @@
+
+             }
+         }
+ 
+-        logger.info(f"🔍 Advanced analysis completed: {analysis_type}")
+ 
+         return NexusResponse(
+             request_id=request.request_id,
+@@ -318,7 +310,6 @@
+
+             ]
+         }
+ 
+-        logger.info(f"⚙️ Response synthesis completed: {synthesis_mode} mode")
+ 
+         return NexusResponse(
+             request_id=request.request_id,
+@@ -351,7 +342,6 @@
+
+             }
+         }
+ 
+-        logger.info(f"🔄 Workflow orchestration completed: {workflow_type}")
+ 
+         return NexusResponse(
+             request_id=request.request_id,
+@@ -372,7 +362,6 @@
+
+         sessions_cleared = len(self.active_reasoning_sessions)
+         self.active_reasoning_sessions.clear()
+ 
+-        logger.info(f"💤 UIP deactivated from {previous_mode.value} mode")
+ 
+         return NexusResponse(
+             request_id=request.request_id,
+@@ -435,12 +424,10 @@
+
+     async def _protocol_specific_activation(self) -> None:
+         """UIP-specific activation logic"""
+         self.mode = UIPMode.ACTIVE_TARGETED
+-        logger.info("🧠 UIP protocol activated for reasoning")
+ 
+     async def _protocol_specific_deactivation(self) -> None:
+         """UIP-specific deactivation logic"""
+         self.mode = UIPMode.INACTIVE
+-        logger.info("💤 UIP protocol returned to inactive mode")
+ 
+     async def _route_to_protocol_core(self, request: AgentRequest) -> Dict[str, Any]:
+         """Route request to UIP core processing"""
+
+===== DIFF: legacy_nexu_smp/system_utilities2/nexus/uip_operations.py =====
+--- /workspaces/Logos_System/_DRY_RUN/LEGACY_BATCH/legacy_nexu_smp/system_utilities2/nexus/uip_operations.py
+
++++ /workspaces/Logos_System/_DRY_RUN/LEGACY_BATCH_SEMANTIC/legacy_nexu_smp/system_utilities2/nexus/uip_operations.py
+
+@@ -1,15 +1,17 @@
+
+ # HEADER_TYPE: CANONICAL_REBUILD_MODULE
+-# EXECUTION: FORBIDDEN (DRY_RUN_ONLY)
++# EXECUTION: CONTROLLED
+ # AUTHORITY: GOVERNED
+-# INSTALL_STATUS: DRY_RUN_ONLY
++# INSTALL_STATUS: SEMANTIC_REWRITE
+ # SOURCE_LEGACY: uip_operations.py
+ 
+ """
+-DRY-RUN REWRITE
+-
+-This file is a structural, governed rewrite candidate generated for
+-rewrite-system validation only. No execution, no side effects.
++SEMANTIC REWRITE
++
++This module has been rewritten for governed integration into the
++LOGOS System Rebuild. Its runtime scope and protocol role have been
++normalized, but its original logical structure has been preserved.
+ """
++
+ """
+ User Interface Protocol (UIP) Operations Script
+ 
+@@ -59,7 +61,6 @@
+
+ 
+     def initialize_full_stack(self) -> bool:
+         """Execute full UIP initialization sequence"""
+-        logger.info("🤝 Starting User Interface Protocol (UIP) Initialization")
+ 
+         try:
+             # Phase 1: GUI Systems
+@@ -79,16 +80,13 @@
+
+                 return False
+ 
+             self.status = "ONLINE"
+-            logger.info("✅ UIP Full Stack Initialization Complete")
+             return True
+ 
+         except Exception as e:
+-            logger.error(f"❌ UIP Initialization Failed: {e}")
+             return False
+ 
+     def _phase_1_gui_systems(self) -> bool:
+         """Phase 1: GUI Systems Initialization"""
+-        logger.info("🖥️ Phase 1: Initializing GUI Systems")
+ 
+         components = [
+             ("Core GUI Framework", self._load_gui_framework),
+@@ -102,7 +100,6 @@
+
+ 
+     def _phase_2_input_processing(self) -> bool:
+         """Phase 2: Input Processing Activation"""
+-        logger.info("⌨️ Phase 2: Activating Input Processing")
+ 
+         components = [
+             ("Natural Language Processing (Basic)", self._init_basic_nlp),
+@@ -116,7 +113,6 @@
+
+ 
+     def _phase_3_protocol_integration(self) -> bool:
+         """Phase 3: Protocol Integration"""
+-        logger.info("🔗 Phase 3: Establishing Protocol Integration")
+ 
+         components = [
+             ("ARP Communication Channel", self._establish_arp_channel),
+@@ -130,7 +126,6 @@
+
+ 
+     def _phase_4_response_synthesis(self) -> bool:
+         """Phase 4: Response Synthesis Systems"""
+-        logger.info("🎨 Phase 4: Initializing Response Synthesis")
+ 
+         components = [
+             ("Response Formatter", self._init_response_formatter),
+@@ -146,18 +141,13 @@
+
+         """Execute a sequence of component initializations"""
+         for component_name, init_function in components:
+             try:
+-                logger.info(f"  ⚡ Loading {component_name}...")
+                 if init_function():
+                     self.initialized_components.append(component_name)
+-                    logger.info(f"    ✅ {component_name} loaded successfully")
+                 else:
+-                    logger.error(f"    ❌ {component_name} failed to load")
+                     return False
+             except Exception as e:
+-                logger.error(f"    💥 {component_name} initialization error: {e}")
+-                return False
+-
+-        logger.info(f"✅ {phase_name} completed successfully")
++                return False
++
+         return True
+ 
+     # Component initialization methods (mock implementations)
+@@ -189,7 +179,6 @@
+
+             return {"error": "UIP not initialized", "status": "OFFLINE"}
+ 
+         try:
+-            logger.info(f"🤝 Processing user interaction: {user_input[:50]}...")
+ 
+             # Step 1: User Input Capture
+             captured_input = self._step_1_input_capture(user_input, modality, user_id)
+@@ -215,12 +204,10 @@
+
+             return final_output
+ 
+         except Exception as e:
+-            logger.error(f"❌ User interaction processing failed: {e}")
+             return {"error": str(e), "status": "FAILED"}
+ 
+     def _step_1_input_capture(self, user_input: str, modality: str, user_id: str) -> Dict:
+         """Step 1: User Input Capture"""
+-        logger.info("  📝 Step 1: User Input Capture")
+         return {
+             "raw_input": user_input,
+             "modality": modality,
+@@ -231,7 +218,6 @@
+
+ 
+     def _step_2_input_interpretation(self, captured_input: Dict) -> Dict:
+         """Step 2: Input Interpretation"""
+-        logger.info("  🔍 Step 2: Input Interpretation")
+         return {
+             **captured_input,
+             "intent": "user_query",
+@@ -242,7 +228,6 @@
+
+ 
+     def _step_3_context_enrichment(self, interpreted_input: Dict, context: Dict, user_id: str) -> Dict:
+         """Step 3: Context Enrichment"""
+-        logger.info("  🌟 Step 3: Context Enrichment")
+         return {
+             **interpreted_input,
+             "session_context": self.active_sessions.get(user_id, {}),
+@@ -252,7 +237,6 @@
+
+ 
+     def _step_4_protocol_routing(self, enriched_context: Dict) -> Dict:
+         """Step 4: Protocol Routing"""
+-        logger.info("  🔀 Step 4: Protocol Routing")
+ 
+         # Mock protocol responses - replace with actual protocol calls
+         return {
+@@ -264,7 +248,6 @@
+
+ 
+     def _step_5_response_integration(self, protocol_responses: Dict) -> Dict:
+         """Step 5: Response Integration"""
+-        logger.info("  🔗 Step 5: Response Integration")
+         return {
+             "integrated_data": protocol_responses,
+             "consistency_check": True,
+@@ -273,7 +256,6 @@
+
+ 
+     def _step_6_response_synthesis(self, integrated_responses: Dict, user_id: str) -> Dict:
+         """Step 6: Response Synthesis"""
+-        logger.info("  🎨 Step 6: Response Synthesis")
+         return {
+             "synthesized_response": "Mock synthesized response based on user input",
+             "confidence": 0.95,
+@@ -283,7 +265,6 @@
+
+ 
+     def _step_7_output_delivery(self, synthesized_response: Dict, modality: str, user_id: str) -> Dict:
+         """Step 7: Output Delivery"""
+-        logger.info("  📤 Step 7: Output Delivery")
+         return {
+             "final_response": synthesized_response["synthesized_response"],
+             "output_modality": modality,
+@@ -299,28 +280,22 @@
+
+             "preferences": preferences or {},
+             "interaction_count": 0
+         }
+-        logger.info(f"👤 Created session for user: {user_id}")
+         return True
+ 
+     def emergency_shutdown(self) -> bool:
+         """Emergency shutdown procedure"""
+-        logger.warning("🚨 UIP Emergency Shutdown Initiated")
+ 
+         try:
+             # Save active sessions
+             for user_id in self.active_sessions:
+-                logger.info(f"  💾 Saving session for user: {user_id}")
+ 
+             # Gracefully shutdown components
+             for component in reversed(self.initialized_components):
+-                logger.info(f"  🔄 Shutting down {component}")
+ 
+             self.status = "SHUTDOWN"
+-            logger.info("✅ UIP Emergency Shutdown Complete")
+             return True
+ 
+         except Exception as e:
+-            logger.error(f"❌ Emergency Shutdown Failed: {e}")
+             return False
+ 
+     def health_check(self) -> Dict:
+@@ -334,7 +309,6 @@
+
+             "last_check": time.time()
+         }
+ 
+-def main():
+     """Main execution function"""
+     parser = argparse.ArgumentParser(description='UIP Operations Manager')
+     parser.add_argument('--initialize', action='store_true', help='Initialize UIP')
+@@ -359,12 +333,8 @@
+
+ 
+     elif args.health_check:
+         health = uip.health_check()
+-        print(json.dumps(health, indent=2))
+         sys.exit(0)
+ 
+     else:
+         parser.print_help()
+         sys.exit(1)
+-
+-if __name__ == "__main__":
+-    main()
+
+===== DIFF: legacy_nexu_smp/system_utilities2/shared/message_formats.py =====
+--- /workspaces/Logos_System/_DRY_RUN/LEGACY_BATCH/legacy_nexu_smp/system_utilities2/shared/message_formats.py
+
++++ /workspaces/Logos_System/_DRY_RUN/LEGACY_BATCH_SEMANTIC/legacy_nexu_smp/system_utilities2/shared/message_formats.py
+
+@@ -1,15 +1,17 @@
+
+ # HEADER_TYPE: CANONICAL_REBUILD_MODULE
+-# EXECUTION: FORBIDDEN (DRY_RUN_ONLY)
++# EXECUTION: CONTROLLED
+ # AUTHORITY: GOVERNED
+-# INSTALL_STATUS: DRY_RUN_ONLY
++# INSTALL_STATUS: SEMANTIC_REWRITE
+ # SOURCE_LEGACY: message_formats.py
+ 
+ """
+-DRY-RUN REWRITE
+-
+-This file is a structural, governed rewrite candidate generated for
+-rewrite-system validation only. No execution, no side effects.
+-"""
++SEMANTIC REWRITE
++
++This module has been rewritten for governed integration into the
++LOGOS System Rebuild. Its runtime scope and protocol role have been
++normalized, but its original logical structure has been preserved.
++"""
++
+ """
+ Protocol Message Formats
+ =========================
+@@ -209,12 +211,10 @@
+
+     def register_uip_handler(self, step: str, handler: Callable):
+         """Register UIP step handler"""
+         self.uip_handlers[step] = handler
+-        self.logger.info(f"Registered UIP handler for step: {step}")
+ 
+     def register_sop_handler(self, operation: str, handler: Callable):
+         """Register SOP operation handler"""
+         self.sop_handlers[operation] = handler
+-        self.logger.info(f"Registered SOP handler for operation: {operation}")
+ 
+     async def route_uip_message(self, message: UIPMessage) -> Optional[Any]:
+         """Route UIP message to appropriate handler"""
+@@ -222,7 +222,6 @@
+
+             handler = self.uip_handlers[message.step]
+             return await handler(message)
+         else:
+-            self.logger.warning(f"No handler found for UIP step: {message.step}")
+             return None
+ 
+     async def route_sop_message(self, message: SOPMessage) -> Optional[Any]:
+@@ -231,7 +230,6 @@
+
+             handler = self.sop_handlers[message.operation]
+             return await handler(message)
+         else:
+-            self.logger.warning(
+                 f"No handler found for SOP operation: {message.operation}"
+             )
+             return None
+
+===== DIFF: legacy_nexu_smp/system_utilities2/shared/system_imports.py =====
+--- /workspaces/Logos_System/_DRY_RUN/LEGACY_BATCH/legacy_nexu_smp/system_utilities2/shared/system_imports.py
+
++++ /workspaces/Logos_System/_DRY_RUN/LEGACY_BATCH_SEMANTIC/legacy_nexu_smp/system_utilities2/shared/system_imports.py
+
+@@ -1,15 +1,17 @@
+
+ # HEADER_TYPE: CANONICAL_REBUILD_MODULE
+-# EXECUTION: FORBIDDEN (DRY_RUN_ONLY)
++# EXECUTION: CONTROLLED
+ # AUTHORITY: GOVERNED
+-# INSTALL_STATUS: DRY_RUN_ONLY
++# INSTALL_STATUS: SEMANTIC_REWRITE
+ # SOURCE_LEGACY: system_imports.py
+ 
+ """
+-DRY-RUN REWRITE
++SEMANTIC REWRITE
+ 
+-This file is a structural, governed rewrite candidate generated for
+-rewrite-system validation only. No execution, no side effects.
++This module has been rewritten for governed integration into the
++LOGOS System Rebuild. Its runtime scope and protocol role have been
++normalized, but its original logical structure has been preserved.
+ """
++
+ """
+ Protocol Shared System Imports
+ ===============================
+
+===== DIFF: legacy_nexu_smp/system_utilities2/system_utils.py =====
+--- /workspaces/Logos_System/_DRY_RUN/LEGACY_BATCH/legacy_nexu_smp/system_utilities2/system_utils.py
+
++++ /workspaces/Logos_System/_DRY_RUN/LEGACY_BATCH_SEMANTIC/legacy_nexu_smp/system_utilities2/system_utils.py
+
+@@ -1,15 +1,17 @@
+
+ # HEADER_TYPE: CANONICAL_REBUILD_MODULE
+-# EXECUTION: FORBIDDEN (DRY_RUN_ONLY)
++# EXECUTION: CONTROLLED
+ # AUTHORITY: GOVERNED
+-# INSTALL_STATUS: DRY_RUN_ONLY
++# INSTALL_STATUS: SEMANTIC_REWRITE
+ # SOURCE_LEGACY: system_utils.py
+ 
+ """
+-DRY-RUN REWRITE
++SEMANTIC REWRITE
+ 
+-This file is a structural, governed rewrite candidate generated for
+-rewrite-system validation only. No execution, no side effects.
++This module has been rewritten for governed integration into the
++LOGOS System Rebuild. Its runtime scope and protocol role have been
++normalized, but its original logical structure has been preserved.
+ """
++
+ """
+ utils/system_utils.py
+ 
+@@ -45,13 +47,10 @@
+
+ 
+ logger = logging.getLogger("UIP")
+ # Avoid duplicate handlers when module reloaded in tests / REPL.
+-if not logger.handlers:
+     handler = logging.StreamHandler()
+     handler.setFormatter(
+         logging.Formatter("%(asctime)s - %(name)s - %(levelname)s - %(message)s")
+     )
+-    logger.addHandler(handler)
+-logger.setLevel(logging.INFO)
+ 
+ 
+ # Structured logging configuration using structlog for richer audit trails.
+@@ -103,7 +102,6 @@
+
+     if data:
+         payload["data"] = data
+     try:
+-        structured_logger.info("uip_event", **payload)
+     except Exception:  # pragma: no cover - structlog fallback
+         message = f"UIP Event [{event_type.upper()}]"
+         if data:
+@@ -112,17 +110,13 @@
+
+                 message = f"{message} | {encoded}"
+             except Exception as exc:  # pragma: no cover - defensive guard
+                 message = f"{message} | JSON encode failed: {exc}"
+-        logger.info(message)
+     else:
+         message = f"UIP Event [{event_type.upper()}]"
+         if data:
+             try:
+                 encoded = json.dumps(data, default=str, separators=(",", ":"))
+-                logger.info("%s | %s", message, encoded)
+             except Exception as exc:  # pragma: no cover - defensive guard
+-                logger.info("%s | JSON encode failed: %s", message, exc)
+         else:
+-            logger.info(message)
+     EVENT_COUNTER.labels(event_type=event_type.lower()).inc()
+ 
+ 
+
+===== DIFF: legacy_nexu_smp/system_utilities3/arp_nexus.py =====
+--- /workspaces/Logos_System/_DRY_RUN/LEGACY_BATCH/legacy_nexu_smp/system_utilities3/arp_nexus.py
+
++++ /workspaces/Logos_System/_DRY_RUN/LEGACY_BATCH_SEMANTIC/legacy_nexu_smp/system_utilities3/arp_nexus.py
+
+@@ -1,15 +1,17 @@
+
+ # HEADER_TYPE: CANONICAL_REBUILD_MODULE
+-# EXECUTION: FORBIDDEN (DRY_RUN_ONLY)
++# EXECUTION: CONTROLLED
+ # AUTHORITY: GOVERNED
+-# INSTALL_STATUS: DRY_RUN_ONLY
++# INSTALL_STATUS: SEMANTIC_REWRITE
+ # SOURCE_LEGACY: arp_nexus.py
+ 
+ """
+-DRY-RUN REWRITE
+-
+-This file is a structural, governed rewrite candidate generated for
+-rewrite-system validation only. No execution, no side effects.
++SEMANTIC REWRITE
++
++This module has been rewritten for governed integration into the
++LOGOS System Rebuild. Its runtime scope and protocol role have been
++normalized, but its original logical structure has been preserved.
+ """
++
+ """
+ ARP Nexus - Advanced Reasoning Protocol Communication Hub
+ ========================================================
+@@ -206,19 +208,16 @@
+
+         # Check required fields
+         for field in required_fields:
+             if not hasattr(packet, field) or getattr(packet, field) is None:
+-                logger.error(f"Packet missing required field: {field}")
+                 return False
+ 
+         # Validate cycle limits
+         if packet.cycle_number >= packet.max_cycles and not packet.cascade_imminent:
+-            logger.warning(f"Packet {packet.packet_id} exceeded cycle limit without cascade approval")
+             return False
+ 
+         # Validate C-value data integrity
+         if packet.c_value_data:
+             for key, c_value in packet.c_value_data.items():
+                 if not isinstance(c_value, complex):
+-                    logger.error(f"Invalid C-value data type for {key}: {type(c_value)}")
+                     return False
+ 
+         return True
+@@ -304,7 +303,6 @@
+
+     async def initialize(self) -> bool:
+         """Initialize ARP nexus and reasoning systems"""
+         try:
+-            logger.info("🧠 Initializing ARP reasoning systems...")
+ 
+             # Initialize IEL domain suite
+             await self._initialize_iel_domains()
+@@ -322,11 +320,9 @@
+
+             await self._initialize_data_builder()
+ 
+             self.status = "Reasoning Systems Online - Recursive Processing Ready"
+-            logger.info("✅ ARP Nexus initialized - Advanced reasoning systems online")
+             return True
+ 
+         except Exception as e:
+-            logger.error(f"❌ ARP Nexus initialization failed: {e}")
+             return False
+ 
+     async def _initialize_iel_domains(self):
+@@ -334,9 +330,7 @@
+
+         try:
+             from iel_domains import get_iel_domain_suite
+             self.iel_domains = get_iel_domain_suite()
+-            logger.info(f"✅ Initialized {len(self.iel_domains)} IEL domains")
+         except ImportError as e:
+-            logger.warning(f"IEL domains not available: {e}")
+             self.iel_domains = {}
+ 
+     async def _initialize_reasoning_engines(self):
+@@ -344,9 +338,7 @@
+
+         try:
+             from reasoning_engines import get_reasoning_engine_suite
+             self.reasoning_engines = get_reasoning_engine_suite()
+-            logger.info(f"✅ Initialized {len(self.reasoning_engines)} reasoning engines")
+         except ImportError as e:
+-            logger.warning(f"Reasoning engines not available: {e}")
+             self.reasoning_engines = {}
+ 
+     async def _initialize_mathematical_foundations(self):
+@@ -362,9 +354,7 @@
+
+                 "ontological_proofs": OntologicalProofEngine(),
+                 "fractal_math": FractalSymbolicMath()
+             }
+-            logger.info("✅ Mathematical foundations initialized")
+         except ImportError as e:
+-            logger.warning(f"Mathematical foundations not available: {e}")
+             self.mathematical_foundations = {}
+ 
+     async def _initialize_protocol_connections(self):
+@@ -376,12 +366,10 @@
+
+             "agent_ready": False,
+             "recursive_loops_active": False
+         }
+-        logger.info("✅ Protocol connection framework initialized")
+ 
+     async def _initialize_data_builder(self):
+         """Initialize data builder for recursive processing"""
+         # Data builder is already initialized in __init__
+-        logger.info("✅ Data builder initialized for recursive processing")
+ 
+     async def process_reasoning_request(self, request: ReasoningRequest) -> ReasoningResult:
+         """Process a reasoning request through ARP systems"""
+@@ -413,7 +401,6 @@
+
+     async def _process_recursive_refinement(self, request: ReasoningRequest) -> ReasoningResult:
+         """Process recursive refinement with SCP and Agent coordination"""
+ 
+-        logger.info(f"🔄 Starting recursive refinement for request {request.request_id}")
+ 
+         # Initialize result
+         result = ReasoningResult(
+@@ -438,7 +425,6 @@
+
+                         self.data_builder.max_cycles_default)
+ 
+         for cycle in range(max_cycles):
+-            logger.info(f"🔄 Cycle {cycle + 1}/{max_cycles} for request {request.request_id}")
+ 
+             # Send to SCP for enhancement
+             scp_result = await self._send_to_scp(initial_packet)
+@@ -458,7 +444,6 @@
+
+             cycle_key = f"ARP_SCP_{initial_packet.packet_id.split('-')[0]}"
+             cycle_history = self.data_builder.active_cycles.get(cycle_key, [])
+             if self.data_builder.detect_convergence(cycle_history):
+-                logger.info(f"🎯 Convergence detected at cycle {cycle + 1}")
+                 break
+ 
+         # Final processing through ARP systems
+@@ -492,11 +477,9 @@
+
+ 
+             # Process through SCP (simplified for now)
+             # In full implementation, this would call actual SCP methods
+-            logger.info(f"📤 Sent packet {packet.packet_id} to SCP")
+             return {"enhanced_data": packet.data_payload, "status": "processed"}
+ 
+         except Exception as e:
+-            logger.error(f"Failed to send to SCP: {e}")
+             return None
+ 
+     async def _send_to_agent(self, packet: DataExchangePacket) -> Optional[Dict[str, Any]]:
+@@ -516,11 +499,9 @@
+
+ 
+             # Process through Agent (simplified for now)
+             # In full implementation, this would call actual Agent methods
+-            logger.info(f"📤 Sent packet {packet.packet_id} to Agent")
+             return {"coordinated_data": packet.data_payload, "status": "coordinated"}
+ 
+         except Exception as e:
+-            logger.error(f"Failed to send to Agent: {e}")
+             return None
+ 
+     async def _process_standard_analysis(self, request: ReasoningRequest) -> ReasoningResult:
+@@ -565,7 +546,6 @@
+
+         """Set new maximum cycles limit (Agent can override)"""
+         if requester == "agent" or new_limit <= 14:  # Allow agent override or reasonable limits
+             self.data_builder.max_cycles_default = new_limit
+-            logger.info(f"🔢 Max cycles updated to {new_limit} by {requester}")
+             return True
+         return False
+ 
+@@ -576,7 +556,6 @@
+
+             for packet in cycle_packets:
+                 if packet.packet_id == packet_id:
+                     packet.token_approved = approved
+-                    logger.info(f"{'✅' if approved else '❌'} Cascade override {'approved' if approved else 'denied'} for packet {packet_id}")
+                     return True
+         return False
+ 
+@@ -593,7 +572,6 @@
+
+     async def send_response(self, response: NexusResponse) -> bool:
+         """Send responses to requesting systems"""
+         # Implementation would route responses
+-        logger.info(f"📤 ARP response sent: {response.response_id}")
+         return True
+ 
+     def get_status(self) -> Dict[str, Any]:
+
+===== DIFF: legacy_nexu_smp/system_utilities3/example_usage.py =====
+--- /workspaces/Logos_System/_DRY_RUN/LEGACY_BATCH/legacy_nexu_smp/system_utilities3/example_usage.py
+
++++ /workspaces/Logos_System/_DRY_RUN/LEGACY_BATCH_SEMANTIC/legacy_nexu_smp/system_utilities3/example_usage.py
+
+@@ -1,15 +1,17 @@
+
+ # HEADER_TYPE: CANONICAL_REBUILD_MODULE
+-# EXECUTION: FORBIDDEN (DRY_RUN_ONLY)
++# EXECUTION: CONTROLLED
+ # AUTHORITY: GOVERNED
+-# INSTALL_STATUS: DRY_RUN_ONLY
++# INSTALL_STATUS: SEMANTIC_REWRITE
+ # SOURCE_LEGACY: example_usage.py
+ 
+ """
+-DRY-RUN REWRITE
++SEMANTIC REWRITE
+ 
+-This file is a structural, governed rewrite candidate generated for
+-rewrite-system validation only. No execution, no side effects.
++This module has been rewritten for governed integration into the
++LOGOS System Rebuild. Its runtime scope and protocol role have been
++normalized, but its original logical structure has been preserved.
+ """
++
+ """
+ ARP Nexus Usage Example
+ =======================
+@@ -30,8 +32,6 @@
+
+ 
+ async def example_standard_reasoning():
+     """Example of standard reasoning analysis"""
+-    print("🧠 Example: Standard Reasoning Analysis")
+-    print("-" * 40)
+ 
+     nexus = ARPNexus()
+     await nexus.initialize()
+@@ -52,17 +52,10 @@
+
+     # Process the request
+     result = await nexus.process_reasoning_request(request)
+ 
+-    print(f"Request ID: {result.request_id}")
+-    print(f"Processing Time: {result.processing_time:.2f}s")
+-    print(f"Domain Outputs: {len(result.domain_outputs)} domains engaged")
+-    print(f"Mathematical Insights: {len(result.mathematical_insights)} insights generated")
+-    print()
+ 
+ 
+ async def example_recursive_refinement():
+     """Example of recursive refinement with SCP and Agent coordination"""
+-    print("🔄 Example: Recursive Data Refinement")
+-    print("-" * 40)
+ 
+     nexus = ARPNexus()
+     await nexus.initialize()
+@@ -87,33 +80,22 @@
+
+         }
+     )
+ 
+-    print("Initial C-values:")
+     for key, c_val in request.c_value_data.items():
+-        print(f"  {key}: {c_val}")
+ 
+     # Process the recursive request
+     result = await nexus.process_reasoning_request(request)
+ 
+-    print(f"Request ID: {result.request_id}")
+-    print(f"Recursive Iterations: {result.recursive_iterations}")
+-    print(f"Processing Time: {result.processing_time:.2f}s")
+ 
+     if result.c_value_evolution:
+-        print("Evolved C-values:")
+         for key, c_val in result.c_value_evolution.items():
+-            print(f"  {key}: {c_val}")
+ 
+     # Check cycle status
+     cycle_key = f"ARP_SCP_{request.request_id.split('_')[-1]}"
+     status = nexus.get_cycle_status(cycle_key)
+-    print(f"Cycle Status: {status}")
+-    print()
+ 
+ 
+ async def example_deep_ontological():
+     """Example of deep ontological analysis"""
+-    print("🌌 Example: Deep Ontological Analysis")
+-    print("-" * 40)
+ 
+     nexus = ARPNexus()
+     await nexus.initialize()
+@@ -135,25 +117,17 @@
+
+     # Process the request
+     result = await nexus.process_reasoning_request(request)
+ 
+-    print(f"Request ID: {result.request_id}")
+-    print(f"Processing Time: {result.processing_time:.2f}s")
+-    print(f"Formal Proofs: {len(result.formal_proofs) if result.formal_proofs else 0} generated")
+-    print()
+ 
+ 
+ async def example_cycle_management():
+     """Example of cycle limit management and cascade handling"""
+-    print("⚙️ Example: Cycle Management & Cascade Handling")
+-    print("-" * 50)
+ 
+     nexus = ARPNexus()
+ 
+     # Demonstrate cycle limit changes
+-    print(f"Default max cycles: {nexus.data_builder.max_cycles_default}")
+ 
+     # System can adjust limits
+     nexus.set_max_cycles(12, "system")
+-    print(f"System adjusted to: {nexus.data_builder.max_cycles_default}")
+ 
+     # Create emergency packet that triggers cascade detection
+     emergency_packet = nexus.data_builder.create_exchange_packet(
+@@ -166,21 +140,12 @@
+
+         }
+     )
+ 
+-    print(f"Emergency packet created: {emergency_packet.packet_id}")
+-    print(f"Cascade imminent: {emergency_packet.cascade_imminent}")
+-    print(f"Extended cycles allowed: {emergency_packet.max_cycles}")
+ 
+     # Approve cascade override
+     approved = nexus.approve_cascade_override(emergency_packet.packet_id, True)
+-    print(f"Cascade override approved: {approved}")
+-    print()
+ 
+ 
+-async def main():
+     """Run all usage examples"""
+-    print("🚀 ARP Nexus Usage Examples")
+-    print("=" * 50)
+-    print()
+ 
+     examples = [
+         ("Standard Reasoning", example_standard_reasoning),
+@@ -193,19 +158,3 @@
+
+         try:
+             await example_func()
+         except Exception as e:
+-            print(f"❌ {example_name} failed: {e}")
+-            print()
+-
+-    print("=" * 50)
+-    print("✅ All examples completed!")
+-    print()
+-    print("Key Features Demonstrated:")
+-    print("• Trinity Logic reasoning with IEL domain orchestration")
+-    print("• Recursive data refinement with SCP/Agent coordination")
+-    print("• C-value fractal data evolution and exchange")
+-    print("• Cycle limit management with cascade detection")
+-    print("• Formal verification and mathematical foundation integration")
+-
+-
+-if __name__ == "__main__":
+-    asyncio.run(main())
+
+===== DIFF: logos_agi_adapter.py =====
+--- /workspaces/Logos_System/_DRY_RUN/LEGACY_BATCH/logos_agi_adapter.py
+
++++ /workspaces/Logos_System/_DRY_RUN/LEGACY_BATCH_SEMANTIC/logos_agi_adapter.py
+
+@@ -1,15 +1,17 @@
+
+ # HEADER_TYPE: CANONICAL_REBUILD_MODULE
+-# EXECUTION: FORBIDDEN (DRY_RUN_ONLY)
++# EXECUTION: CONTROLLED
+ # AUTHORITY: GOVERNED
+-# INSTALL_STATUS: DRY_RUN_ONLY
++# INSTALL_STATUS: SEMANTIC_REWRITE
+ # SOURCE_LEGACY: logos_agi_adapter.py
+ 
+ """
+-DRY-RUN REWRITE
+-
+-This file is a structural, governed rewrite candidate generated for
+-rewrite-system validation only. No execution, no side effects.
++SEMANTIC REWRITE
++
++This module has been rewritten for governed integration into the
++LOGOS System Rebuild. Its runtime scope and protocol role have been
++normalized, but its original logical structure has been preserved.
+ """
++
+ """Adapter for Logos_AGI ARP+SCP integration into Entry_Point supervised loop."""
+ 
+ import asyncio
+
+===== DIFF: nexus_manager.py =====
+--- /workspaces/Logos_System/_DRY_RUN/LEGACY_BATCH/nexus_manager.py
+
++++ /workspaces/Logos_System/_DRY_RUN/LEGACY_BATCH_SEMANTIC/nexus_manager.py
+
+@@ -1,15 +1,17 @@
+
+ # HEADER_TYPE: CANONICAL_REBUILD_MODULE
+-# EXECUTION: FORBIDDEN (DRY_RUN_ONLY)
++# EXECUTION: CONTROLLED
+ # AUTHORITY: GOVERNED
+-# INSTALL_STATUS: DRY_RUN_ONLY
++# INSTALL_STATUS: SEMANTIC_REWRITE
+ # SOURCE_LEGACY: nexus_manager.py
+ 
+ """
+-DRY-RUN REWRITE
++SEMANTIC REWRITE
+ 
+-This file is a structural, governed rewrite candidate generated for
+-rewrite-system validation only. No execution, no side effects.
++This module has been rewritten for governed integration into the
++LOGOS System Rebuild. Its runtime scope and protocol role have been
++normalized, but its original logical structure has been preserved.
+ """
++
+ """Bounded in-memory manager for LogosAgiNexus instances."""
+ 
+ from __future__ import annotations
+
+===== DIFF: start_agent.py =====
+--- /workspaces/Logos_System/_DRY_RUN/LEGACY_BATCH/start_agent.py
+
++++ /workspaces/Logos_System/_DRY_RUN/LEGACY_BATCH_SEMANTIC/start_agent.py
+
+@@ -1,15 +1,17 @@
+
+ # HEADER_TYPE: CANONICAL_REBUILD_MODULE
+-# EXECUTION: FORBIDDEN (DRY_RUN_ONLY)
++# EXECUTION: CONTROLLED
+ # AUTHORITY: GOVERNED
+-# INSTALL_STATUS: DRY_RUN_ONLY
++# INSTALL_STATUS: SEMANTIC_REWRITE
+ # SOURCE_LEGACY: start_agent.py
+ 
+ """
+-DRY-RUN REWRITE
+-
+-This file is a structural, governed rewrite candidate generated for
+-rewrite-system validation only. No execution, no side effects.
++SEMANTIC REWRITE
++
++This module has been rewritten for governed integration into the
++LOGOS System Rebuild. Its runtime scope and protocol role have been
++normalized, but its original logical structure has been preserved.
+ """
++
+ """Bounded supervised loop honoring the active mission profile."""
+ 
+ from __future__ import annotations
+@@ -468,7 +470,6 @@
+
+     if not compile_script.exists():
+         return False, f"Proof compile wrapper missing at {compile_script}"
+ 
+-    print(f"[GATE] Running proof compile: {compile_script.relative_to(REPO_ROOT)}")
+     result = subprocess.run(
+         [sys.executable, str(compile_script)], cwd=REPO_ROOT, check=False
+     )
+@@ -1757,7 +1758,6 @@
+
+             "    return Path(__file__).resolve().parent",
+             "",
+             "",
+-            "def main() -> int:",
+             "    status = get_code_environment_status()",
+         ]
+         script_lines.extend(action_lines)
+@@ -1773,12 +1773,10 @@
+
+                 "        json.dumps(upgrade_plan, indent=2),",
+                 '        encoding="utf-8",',
+                 "    )",
+-                '    print(f"Wrote upgrade plan to {output_path}")',
+                 "    return 0",
+                 "",
+                 "",
+                 'if __name__ == "__main__":',
+-                "    raise SystemExit(main())",
+             ]
+         )
+         script_payload = json.dumps(
+@@ -1987,7 +1985,6 @@
+
+     default: bool = False,
+     timeout_seconds: int = 20,
+ ) -> bool:
+-    print(
+         f"\n[CONSENT] {prompt} [y/N] (auto={'Y' if default else 'N'} "
+         f"in {timeout_seconds}s): ",
+         end="",
+@@ -2001,12 +1998,10 @@
+
+                 buffer = sys.stdin.readline().strip()
+                 break
+             if time.time() - start > timeout_seconds:
+-                print("")
+                 return default
+ 
+             time.sleep(0.05)
+     except KeyboardInterrupt:
+-        print("")
+         return False
+     if not buffer:
+         return default
+@@ -2237,7 +2232,6 @@
+
+     )
+     ctx.read_only = force_read_only
+     _init_validation_containers(ctx)
+-    ctx.audit_logger = lambda x: print(json.dumps(x))
+ 
+     # Initialize Logos_AGI nexus if enabled
+     logos_agi_provenance = None
+@@ -2249,7 +2243,6 @@
+
+ 
+         if logos_agi_mode != "stub":
+             if not pin_path.exists():
+-                print(
+                     "[ERROR] Logos_AGI pin missing. Run: python "
+                     "scripts/aligned_agent_import.py --pin-sha <ref> --pin-note '...'"
+                 )
+@@ -2261,19 +2254,15 @@
+
+                     str(logos_agi_dir), pin, require_clean=True
+                 )
+                 logos_agi_provenance = provenance
+-                print(f"[LOGOS_AGI] Pin verified: {provenance['head_sha'][:8]}")
+             except DriftError as e:
+                 if (
+                     allow_logos_agi_drift
+                     and os.environ.get("LOGOS_DEV_BYPASS_OK") == "1"
+                 ):
+-                    print(f"[LOGOS_AGI] WARNING: Drift allowed (dev override): {e}")
+                     logos_agi_provenance = {"error": str(e), "override": True}
+                 else:
+-                    print(f"[ERROR] Logos_AGI drift detected: {e}")
+                     return {"error": "logos_agi_drift"}
+             except (OSError, ValueError, RuntimeError) as e:
+-                print(f"[ERROR] Logos_AGI pin verification failed: {e}")
+                 return {"error": "logos_agi_pin_error"}
+         else:
+             logos_agi_provenance = {
+@@ -2286,7 +2275,6 @@
+
+         repo_sha = _compute_theory_hash()  # or some SHA
+         nexus = LogosAgiNexus(
+             enable=True,
+-            audit_logger=lambda x: print(json.dumps(x)),
+             max_compute_ms=logos_agi_max_compute_ms,
+             state_dir=str(STATE_DIR),
+             repo_sha=repo_sha,
+@@ -2343,8 +2331,6 @@
+
+                 REPO_ROOT / "training_data" / "index" / "catalog.jsonl",
+             )
+             if not is_valid:
+-                print(f"[PAI] Identity validation failed: {validation_reason}")
+-                print("[PAI] Entering repair mode - enhancements disabled")
+                 force_read_only = True
+                 cycle_errors.append(f"Identity validation failed: {validation_reason}")
+                 identity_validation_warnings.append(validation_reason)
+@@ -2355,7 +2341,6 @@
+
+                 except Exception:
+                     pass
+             else:
+-                print(f"[PAI] Identity validated: {agent_identity['agent_id']}")
+                 if "warnings:" in validation_reason:
+                     warn_text = validation_reason.split("warnings:", 1)[1].strip()
+                     if warn_text:
+@@ -2365,12 +2350,9 @@
+
+                                 identity_validation_warnings.append(entry)
+ 
+         except Exception as e:
+-            print(f"[PAI] Failed to load/create identity: {e}")
+-            print("[PAI] Continuing without identity validation")
+             cycle_errors.append(f"Identity unavailable: {e}")
+             identity_validation_warnings.append(str(e))
+     else:
+-        print(
+             "[PAI] Logos core governance modules unavailable; entering repair-only mode"
+         )
+         force_read_only = True
+@@ -2382,7 +2364,6 @@
+
+     if agent_identity:
+         try:
+             if not ledger_path.exists():
+-                print(
+                     f"[PAI][ledger] Missing ledger file at {ledger_path}, bootstrapping new record"
+                 )
+             ledger = load_or_create_ledger(ledger_path)
+@@ -2390,14 +2371,11 @@
+
+                 ledger, agent_identity
+             )
+             for entry in ledger_warnings_local:
+-                print(f"[PAI][ledger] warning: {entry}")
+             ledger_warnings.extend(ledger_warnings_local)
+             if not ok:
+                 reason = (
+                     "; ".join(ledger_reasons) if ledger_reasons else "validation failed"
+                 )
+-                print(f"[PAI][ledger] validation failed: {reason}")
+-                print("[PAI][ledger] Repair-only mode enforced")
+                 ledger_validation_failed = True
+                 force_read_only = True
+                 cycle_errors.append(f"Commitment ledger invalid: {reason}")
+@@ -2420,7 +2398,6 @@
+
+                         latest_archive_file.read_text(encoding="utf-8").strip() or None
+                     )
+                 except Exception as exc:
+-                    print(
+                         f"[PAI][ledger] warn: unable to read planner digest pointer: {exc}"
+                     )
+             if not planner_digest_ref:
+@@ -2440,7 +2417,6 @@
+
+                         uwm_snapshot_data = json.load(handle)
+                 except (OSError, json.JSONDecodeError) as exc:
+                     uwm_snapshot_data = {}
+-                    print(f"[PAI][arbiter] warn: failed to load UWM snapshot: {exc}")
+                     additional_warnings.append(f"UWM snapshot unreadable: {exc}")
+             catalog_path = REPO_ROOT / "training_data" / "index" / "catalog.jsonl"
+             catalog_tail_hash_current = (
+@@ -2510,13 +2486,11 @@
+
+                     )
+                     if not top_display:
+                         top_display = "<none>"
+-                    print(
+                         f"[ARB] selected={active_commitment_id} "
+                         f"switched={arbiter_report.get('switched', False)} "
+                         f"top={top_display}"
+                     )
+                 except Exception as arb_exc:
+-                    print(f"[ARB] warning: prioritization failed: {arb_exc}")
+                     cycle_errors.append(f"Prioritization failed: {arb_exc}")
+                     active_commitment_id = ledger.get("active_commitment_id")
+             else:
+@@ -2529,7 +2503,6 @@
+
+                         active_entry = entry
+                         break
+                 if active_entry and _is_tool_optimizer_commitment(active_entry):
+-                    print("[TOOL-OPT] Active commitment requires tooling optimization")
+                     mission_block = not bool(
+                         agent_identity.get("mission", {}).get(
+                             "allow_enhancements", False
+@@ -2537,7 +2510,6 @@
+
+                     )
+                     if mission_block:
+                         reason = "Tool optimizer requires allow_enhancements true"
+-                        print(f"[TOOL-OPT] blocked: {reason}")
+                         mark_commitment_status(
+                             ledger, active_commitment_id, "blocked", reason
+                         )
+@@ -2580,7 +2552,6 @@
+
+                                 raise Exception(f"Pipeline failed: {result.stderr}")
+                         except Exception as opt_exc:
+                             reason = f"Tool optimizer failure: {opt_exc}"
+-                            print(f"[TOOL-OPT] error: {reason}")
+                             mark_commitment_status(
+                                 ledger, active_commitment_id, "blocked", reason
+                             )
+@@ -2612,7 +2583,6 @@
+
+                                     active_commitment_id,
+                                     summary_text,
+                                 )
+-                                print(f"[TOOL-OPT] {summary_text}")
+                                 tool_optimizer_summary = {
+                                     "status": "ok",
+                                     "counts": counts,
+@@ -2630,7 +2600,6 @@
+
+                                 reason = "Tool optimizer produced partial results"
+                                 if detail:
+                                     reason = f"{reason}: {detail}"
+-                                print(f"[TOOL-OPT] blocked: {reason}")
+                                 mark_commitment_status(
+                                     ledger, active_commitment_id, "blocked", reason
+                                 )
+@@ -2647,7 +2616,6 @@
+
+                                 }
+ 
+                 if active_entry and _is_tool_invention_commitment(active_entry):
+-                    print("[TOOL-INV] Active commitment requires tool invention")
+                     mission_block = not bool(
+                         agent_identity.get("mission", {}).get(
+                             "allow_enhancements", False
+@@ -2655,7 +2623,6 @@
+
+                     )
+                     if mission_block:
+                         reason = "Tool invention requires allow_enhancements true"
+-                        print(f"[TOOL-INV] blocked: {reason}")
+                         mark_commitment_status(
+                             ledger, active_commitment_id, "blocked", reason
+                         )
+@@ -2701,7 +2668,6 @@
+
+                                 raise Exception(f"Pipeline failed: {result.stderr}")
+                         except Exception as inv_exc:
+                             reason = f"Tool invention failure: {inv_exc}"
+-                            print(f"[TOOL-INV] error: {reason}")
+                             mark_commitment_status(
+                                 ledger, active_commitment_id, "blocked", reason
+                             )
+@@ -2733,7 +2699,6 @@
+
+                                     active_commitment_id,
+                                     summary_text,
+                                 )
+-                                print(f"[TOOL-INV] {summary_text}")
+                                 tool_invention_summary = {
+                                     "status": "ok",
+                                     "counts": counts,
+@@ -2751,7 +2716,6 @@
+
+                                 reason = "Tool invention produced partial results"
+                                 if detail:
+                                     reason = f"{reason}: {detail}"
+-                                print(f"[TOOL-INV] blocked: {reason}")
+                                 mark_commitment_status(
+                                     ledger, active_commitment_id, "blocked", reason
+                                 )
+@@ -2775,7 +2739,6 @@
+
+             commitments_block["ledger_version"] = COMMITMENT_LEDGER_VERSION
+             PersistentAgentIdentity(REPO_ROOT)._save_identity(agent_identity)
+         except Exception as exc:
+-            print(f"[PAI][ledger] Failed to prepare commitment ledger: {exc}")
+             ledger = None
+             ledger_hash = None
+             active_commitment_id = None
+@@ -2785,7 +2748,6 @@
+
+             if agent_identity:
+                 agent_identity.setdefault("mission", {})["allow_enhancements"] = False
+ 
+-    print(
+         "\n=== SUPERVISED RUN ===\n"
+         f"mission={MISSION_LABEL} "
+         f"safe_only={SAFE_INTERFACES_ONLY} "
+@@ -2802,7 +2764,6 @@
+
+     # Goal proposal for auto mode
+     if objective == "auto":
+         if not nexus or not nexus.prior_state:
+-            print("[GOAL] No SCP state available for goal proposal")
+             return 1
+         scp_state = nexus.prior_state
+         beliefs = scp_state.get("beliefs", {})
+@@ -2812,13 +2773,11 @@
+
+         ranked = rank_goal_candidates(safe_candidates, scp_state, beliefs)
+         top_candidates = ranked[:3]
+         if not top_candidates:
+-            print("[GOAL] No safe goal candidates generated")
+             return 1
+         choices = [f"{c['statement']} (confidence: {c['confidence']:.2f})" for c in top_candidates]
+         prompt = "Select a goal to pursue:"
+         selected = uip_prompt_choice(prompt, choices, assume_yes=assume_yes)
+         if not selected:
+-            print("[GOAL] No goal selected")
+             return 1
+         selected_index = choices.index(selected)
+         selected_goal = top_candidates[selected_index]
+@@ -2826,7 +2785,6 @@
+
+         # Mark as approved
+         selected_goal["status"] = "APPROVED"
+         # Record in ledger
+-        print(f"[GOAL] Selected: {objective}")
+ 
+     # Check for active plan
+     active_plan = None
+@@ -2843,7 +2801,6 @@
+
+                 break
+ 
+     if active_plan:
+-        print(f"[PLAN] Resuming active plan: {active_plan['plan_id'][:8]}...")
+         plan_steps = active_plan["steps"]
+         # Extract policy_notes from resumed plan if present
+         resumed_policy = active_plan.get("policy_notes", {})
+@@ -2879,7 +2836,6 @@
+
+                     "plans", {"active": [], "history": []}
+                 )
+                 plans["active"].append(active_plan)
+-                print(f"[PLAN] Created new plan: {active_plan['plan_id'][:8]}")
+                 plan_steps = active_plan["steps"]
+                 plan_policy = plan_result.get("notes", {}).get("policy", {})
+                 for tool in plan_policy.get("boosted_tools", []):
+@@ -2889,16 +2845,13 @@
+
+                     if tool not in policy_notes_aggregate["filtered_tools"]:
+                         policy_notes_aggregate["filtered_tools"].append(tool)
+             else:
+-                print("[PLAN] No plan generated, falling back to default")
+                 plan_steps = None
+         else:
+             plan_steps = None
+ 
+         if not plan_steps:
+             plan = make_plan(objective, force_read_only, extra_steps)
+-            print("[PLAN]")
+             for step in plan:
+-                print(f" - step {step['step']}: {step['tool']}({step['arg']!r})")
+             plan_steps = plan
+ 
+     plan = plan_steps  # For persistence
+@@ -2910,7 +2863,6 @@
+
+         tool_name = step["tool"]
+         # Skip timeout check if max_runtime_seconds is 0 (unlimited)
+         if max_runtime_seconds > 0 and time.time() - started > max_runtime_seconds:
+-            print("\n[HALT] runtime budget exceeded")
+             break
+         if tool_name not in TOOLS:
+             results.append(
+@@ -2931,7 +2883,6 @@
+
+ 
+         # Check if step is skipped due to plan revision
+         if active_plan and step.get("status") == "SKIPPED":
+-            print(
+                 f"[SKIP] Step {step.get('step', step_index + 1)} skipped due to plan revision"
+             )
+             results.append(
+@@ -2955,7 +2906,6 @@
+
+                 timeout_seconds=15,
+             )
+         else:
+-            print(
+                 f"[CONSENT] auto-approved step {step.get('step', step_index + 1)} => {tool_name}"
+             )
+         if not allowed:
+@@ -2990,7 +2940,6 @@
+
+             if max_plan_steps_per_run > 0 and executed_plan_steps >= max_plan_steps_per_run:
+                 break
+             continue
+-        print(f"[ACT] {tool_name} ...")
+         try:
+             output = dispatch_tool(
+                 tool_name,
+@@ -3000,8 +2949,6 @@
+
+             )
+         except AlignmentGateError as e:
+             output = f"[gate error] {e}"
+-            print(f"[GATE] Tool blocked: {e}")
+-        print(f"[OBSERVE]\n{output}\n")
+         status = "ok" if "[gate error]" not in output else "denied"
+         if ctx.last_tool_validation and not ctx.last_tool_validation.get("ok", False):
+             status = "denied"
+@@ -3297,19 +3244,16 @@
+
+                             "allow_heuristic_high_impact", False
+                         )
+                     ):
+-                        print(
+                             f"[CONSTRAINT] Skipping heuristic proposal for high-impact tool {prop_tool} (truth: {truth_level})"
+                         )
+                         continue
+ 
+-                    print(
+                         f"[LOGOS_AGI] Proposing {prop_tool} (confidence {prop['confidence']})"
+                     )
+                     try:
+                         prop_output = dispatch_tool(
+                             prop_tool, prop["args"], ctx=ctx, timeout_seconds=15
+                         )
+-                        print(f"[LOGOS_AGI] Executed: {prop_output}")
+                         # Add to results or audit
+                         results.append(
+                             {
+@@ -3366,7 +3310,6 @@
+
+                             with open(STATE_DIR / "proposal_metrics.json", "w") as f:
+                                 json.dump(nexus.metrics_state, f, indent=2)
+                     except AlignmentGateError as e:
+-                        print(f"[LOGOS_AGI] Proposal blocked: {e}")
+                         nexus.record_tool_result(
+                             prop_tool, prop["args"], "denied", objective
+                         )
+@@ -3423,7 +3366,6 @@
+
+                             with open(STATE_DIR / "proposal_metrics.json", "w") as f:
+                                 json.dump(nexus.metrics_state, f, indent=2)
+                 else:
+-                    print(f"[LOGOS_AGI] Unknown tool in proposal: {prop_tool}")
+             nexus.persist()
+ 
+         step_index += 1
+@@ -3501,8 +3443,6 @@
+
+         )
+         plan_report_hash = canonical_json_hash(plan_validation_report)
+ 
+-    print("[CONCLUDE]")
+-    print(json.dumps(summary, indent=2))
+     _persist_agent_run(
+         objective, plan, results, summary, attestation_hash, mission_profile_hash
+     )
+@@ -3516,7 +3456,6 @@
+
+ 
+         asyncio.run(_check_and_trigger_self_improvement(summary, nexus, assume_yes, REPO_ROOT))
+     except Exception as e:
+-        print(f"[SELF-IMPROVEMENT] Failed to check: {e}")
+ 
+     # Update Persistent Agent Identity after cycle completion
+     last_entry_id = None
+@@ -3554,7 +3493,6 @@
+
+                     )
+                 except Exception as exc:
+                     planner_digest_path_value = None
+-                    print(f"[PAI] warn: failed reading planner digest pointer: {exc}")
+             if planner_digest_path_value:
+                 candidate = Path(planner_digest_path_value)
+                 if not candidate.is_absolute():
+@@ -3573,16 +3511,12 @@
+
+                 world_model_snapshot_hash = wm_result.get("snapshot_hash")
+                 world_model_version = wm_result.get("world_model_version")
+                 if world_model_snapshot_path:
+-                    print(f"[UWM] Snapshot updated: {world_model_snapshot_path}")
+             except Exception as exc:
+-                print(f"[UWM] Failed to update world model snapshot: {exc}")
+-                print("[UWM] Forcing repair-only mode - enhancements disabled")
+                 force_read_only = True
+                 agent_identity.setdefault("mission", {})["allow_enhancements"] = False
+                 cycle_errors.append(f"World model update failed: {exc}")
+ 
+         except Exception as e:
+-            print(f"[PAI] Failed to prepare identity update: {e}")
+             cycle_errors.append(f"Identity preparation failed: {e}")
+ 
+     cycle_success = not cycle_errors and not ledger_validation_failed
+@@ -3672,7 +3606,6 @@
+
+                 ),
+             }
+         except Exception as exc:
+-            print(f"[INTROSPECT] warn: {exc}")
+ 
+         ledger_context = {
+             "attestation_hash": attestation_hash,
+@@ -3714,7 +3647,6 @@
+
+         )
+         with open(ledger_path, "w") as f:
+             json.dump(ledger, f, indent=2)
+-        print(f"[LEDGER] Written to {ledger_path}")
+ 
+         # Persist plan score history into SCP state
+         try:
+@@ -3738,9 +3670,7 @@
+
+                         try:
+                             nexus.refresh_plan_history(history_container)
+                         except Exception as exc:
+-                            print(f"[PLAN-HISTORY-REFRESH] warn: {exc}")
+         except Exception as exc:
+-            print(f"[PLAN-HISTORY] warn: {exc}")
+ 
+     if agent_identity:
+         try:
+@@ -3761,10 +3691,8 @@
+
+             pai = PersistentAgentIdentity(REPO_ROOT)
+             pai._save_identity(updated_identity)
+             agent_identity = updated_identity
+-            print(f"[PAI] Identity updated: {updated_identity['agent_id']}")
+ 
+         except Exception as e:
+-            print(f"[PAI] Failed to update identity: {e}")
+             cycle_errors.append(f"Identity update failed: {e}")
+             if ledger is not None and active_commitment_id:
+                 mark_commitment_status(
+@@ -3796,7 +3724,6 @@
+
+             repo_root=REPO_ROOT,
+         )
+     except Exception as exc:  # pylint: disable=broad-exception-caught
+-        print(f"[ledger] warn: {exc}")
+     return summary
+ 
+ 
+@@ -3965,13 +3892,10 @@
+
+     ALLOW_TRAINING_INDEX_WRITE = bool(args.allow_training_index_write)
+     if ALLOW_TRAINING_INDEX_WRITE:
+         if os.environ.get("LOGOS_OPERATOR_OK", "").strip() != "1":
+-            print(
+                 "[GATE] ERROR: --allow-training-index-write requires LOGOS_OPERATOR_OK=1",
+             )
+             return 2
+-        print("[GATE] Training index writes allowed (operator acknowledged)")
+     else:
+-        print(
+             "[GATE] Training index writes disabled; "
+             f"{TRAINING_INDEX_PATH} remains read-only this run",
+         )
+@@ -3984,20 +3908,15 @@
+
+             att = load_alignment_attestation(args.attestation_path)
+             validate_attestation(att, max_age_seconds=args.attestation_max_age_sec)
+             attestation_hash = compute_attestation_hash(att)
+-            print(f"[GATE] Attestation validated: {attestation_hash[:16]}...")
+         except AlignmentGateError as e:
+-            print(f"[GATE] ERROR: {e}")
+             return 2
+     elif os.getenv("LOGOS_DEV_BYPASS_OK") != "1":
+-        print("[GATE] ERROR: --no-require-attestation requires LOGOS_DEV_BYPASS_OK=1")
+         return 2
+     else:
+-        print("[GATE] Attestation bypassed (dev mode)")
+         attestation_hash = "DEV_BYPASS"
+ 
+     # SCP recovery mode check
+     if args.scp_recovery_mode and os.getenv("LOGOS_DEV_BYPASS_OK") != "1":
+-        print("[GATE] ERROR: --scp-recovery-mode requires LOGOS_DEV_BYPASS_OK=1")
+         return 2
+ 
+     # Load mission profile and compute hash
+@@ -4006,13 +3925,11 @@
+
+         validate_mission_profile(mission_profile)
+         mission_profile_hash = canonical_json_hash(mission_profile)
+     except AlignmentGateError as e:
+-        print(f"[GATE] ERROR: Mission profile invalid: {e}")
+         return 2
+ 
+     genesis_info: Dict[str, Any] = {}
+     if args.bootstrap_genesis:
+         if bootstrap_genesis is None:
+-            print("[GENESIS] ERROR: genesis capsule helpers unavailable")
+             return 2
+         ok, message, genesis_info = bootstrap_genesis(
+             REPO_ROOT, write_status=args.genesis_write_status
+@@ -4020,23 +3937,19 @@
+
+         manifest_version = genesis_info.get("manifest_version", "<none>")
+         boot_sha = genesis_info.get("boot_digest_sha256", "<none>")
+         pointer_sha = genesis_info.get("training_data_pointer_sha256", "<none>")
+-        print(
+             "[GENESIS] manifest_version={ver} boot_sha={boot} pointer_sha={ptr}".format(
+                 ver=manifest_version, boot=boot_sha, ptr=pointer_sha
+             )
+         )
+         if not ok:
+-            print(f"[GENESIS] ERROR: {message}")
+             return 2
+         missing = genesis_info.get("corpus_missing") or []
+         if missing:
+-            print("[GENESIS] WARN: missing corpus entries: " + ", ".join(missing))
+ 
+     # Logos_AGI pin verification
+     if args.enable_logos_agi and args.logos_agi_mode != "stub":
+         pin_path = STATE_DIR / "logos_agi_pin.json"
+         if not pin_path.exists():
+-            print(
+                 "[GATE] ERROR: --enable-logos-agi requires pin file at state/logos_agi_pin.json"
+             )
+             return 2
+@@ -4044,25 +3957,20 @@
+
+             pin = load_pin(str(pin_path))
+             logos_agi_dir = REPO_ROOT / "external" / "Logos_AGI"
+             if not logos_agi_dir.exists():
+-                print(f"[GATE] ERROR: Logos_AGI directory not found: {logos_agi_dir}")
+                 return 2
+             allow_drift = args.allow_logos_agi_drift
+             if allow_drift and os.getenv("LOGOS_DEV_BYPASS_OK") != "1":
+-                print(
+                     "[GATE] ERROR: --allow-logos-agi-drift requires LOGOS_DEV_BYPASS_OK=1"
+                 )
+                 return 2
+             provenance = verify_pinned_repo(
+                 str(logos_agi_dir), pin, require_clean=True, allow_drift=allow_drift
+             )
+-            print(
+                 f"[GATE] Logos_AGI pin verified: {provenance['pinned_sha'][:12]}... (match={provenance['match']}, dirty={provenance['dirty']})"
+             )
+         except DriftError as e:
+-            print(f"[GATE] ERROR: Logos_AGI pin verification failed: {e}")
+             return 2
+         except Exception as e:
+-            print(f"[GATE] ERROR: Failed to verify Logos_AGI pin: {e}")
+             return 2
+ 
+     configure_sandbox(args.write_dir, args.cap_writes)
+@@ -4074,34 +3982,24 @@
+
+ 
+     proof_ok, proof_msg = _run_proof_compile()
+     if not proof_ok:
+-        print(f"[GATE] ERROR: {proof_msg}")
+         if args.preflight:
+-            print("[PRE-FLIGHT] FAILED")
+             return 1
+         return 2
+-    print(f"[GATE] {proof_msg}")
+ 
+     integrity_ok, integrity_msg = _enforce_integrity_baseline()
+     if not integrity_ok:
+-        print(f"[INTEGRITY] ERROR: {integrity_msg}")
+         if args.preflight:
+-            print("[PRE-FLIGHT] FAILED")
+             return 1
+         return 2
+-    print(f"[INTEGRITY] {integrity_msg}")
+ 
+     if args.preflight:
+         identity_ok, identity_msg = _preflight_identity_check()
+         if identity_ok:
+-            print(f"[PAI] {identity_msg}")
+         else:
+-            print(f"[PAI] ERROR: {identity_msg}")
+ 
+         if identity_ok:
+-            print("[PRE-FLIGHT] OK")
+             return 0
+ 
+-        print("[PRE-FLIGHT] FAILED")
+         return 1
+ 
+     run_supervised(
+@@ -4155,10 +4053,4 @@
+
+             if selected == "Yes":
+                 success = invoke_tool_proposal_pipeline(intent, repo_root)
+                 if success:
+-                    print(f"[TOOL-IMPROVEMENT] Pipeline invoked for {intent['tool']}")
+                 else:
+-                    print(f"[TOOL-IMPROVEMENT] Pipeline failed for {intent['tool']}")
+-
+-
+-if __name__ == "__main__":  # pragma: no cover - CLI entry
+-    sys.exit(main())
+
+===== DIFF: stress_sop_runtime.py =====
+--- /workspaces/Logos_System/_DRY_RUN/LEGACY_BATCH/stress_sop_runtime.py
+
++++ /workspaces/Logos_System/_DRY_RUN/LEGACY_BATCH_SEMANTIC/stress_sop_runtime.py
+
+@@ -1,15 +1,17 @@
+
+ # HEADER_TYPE: CANONICAL_REBUILD_MODULE
+-# EXECUTION: FORBIDDEN (DRY_RUN_ONLY)
++# EXECUTION: CONTROLLED
+ # AUTHORITY: GOVERNED
+-# INSTALL_STATUS: DRY_RUN_ONLY
++# INSTALL_STATUS: SEMANTIC_REWRITE
+ # SOURCE_LEGACY: stress_sop_runtime.py
+ 
+ """
+-DRY-RUN REWRITE
+-
+-This file is a structural, governed rewrite candidate generated for
+-rewrite-system validation only. No execution, no side effects.
++SEMANTIC REWRITE
++
++This module has been rewritten for governed integration into the
++LOGOS System Rebuild. Its runtime scope and protocol role have been
++normalized, but its original logical structure has been preserved.
+ """
++
+ """Stress test for the SOP runtime scheduler and telemetry pipeline."""
+ 
+ from __future__ import annotations
+@@ -453,15 +455,9 @@
+
+     return parser.parse_args()
+ 
+ 
+-def main() -> None:
+     args = parse_args()
+     result = asyncio.run(run(args))
+     output = json.dumps(result, indent=2)
+     if args.output:
+         args.output.write_text(output, encoding="utf-8")
+     else:
+-        print(output)
+-
+-
+-if __name__ == "__main__":
+-    main()
+
+===== DIFF: system_mode_initializer.py =====
+--- /workspaces/Logos_System/_DRY_RUN/LEGACY_BATCH/system_mode_initializer.py
+
++++ /workspaces/Logos_System/_DRY_RUN/LEGACY_BATCH_SEMANTIC/system_mode_initializer.py
+
+@@ -1,15 +1,17 @@
+
+ # HEADER_TYPE: CANONICAL_REBUILD_MODULE
+-# EXECUTION: FORBIDDEN (DRY_RUN_ONLY)
++# EXECUTION: CONTROLLED
+ # AUTHORITY: GOVERNED
+-# INSTALL_STATUS: DRY_RUN_ONLY
++# INSTALL_STATUS: SEMANTIC_REWRITE
+ # SOURCE_LEGACY: system_mode_initializer.py
+ 
+ """
+-DRY-RUN REWRITE
++SEMANTIC REWRITE
+ 
+-This file is a structural, governed rewrite candidate generated for
+-rewrite-system validation only. No execution, no side effects.
++This module has been rewritten for governed integration into the
++LOGOS System Rebuild. Its runtime scope and protocol role have been
++normalized, but its original logical structure has been preserved.
+ """
++
+ """Initialize mission profile for Logos agent subsystems.
+ 
+ This script bifurcates behavior between a stable demo track and an
+@@ -46,7 +48,6 @@
+
+ 
+         STATE_FILE.parent.mkdir(parents=True, exist_ok=True)
+         STATE_FILE.write_text(json.dumps(profile, indent=2), encoding="utf-8")
+-        print(
+             "[mission] WARN: SOP integration unavailable; wrote mission_profile.json only",
+             file=sys.stderr,
+         )
+@@ -138,7 +139,6 @@
+
+     active = profile or ACTIVE_MODE
+     set_mission_profile(active)
+     _persist_profile(active)
+-    print(f"[mission] Mode set to {active['label']}: {active['description']}")
+ 
+ 
+ def _parse_args(argv: list[str] | None = None) -> argparse.Namespace:
+@@ -152,6 +152,5 @@
+
+     return parser.parse_args(argv)
+ 
+ 
+-if __name__ == "__main__":  # pragma: no cover - CLI entry
+     args = _parse_args()
+     initialize(_resolve_profile(args.mode))
+

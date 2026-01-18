@@ -1,3 +1,8 @@
+# HEADER_TYPE: CANONICAL_REBUILD_MODULE
+# EXECUTION: CONTROLLED
+# AUTHORITY: GOVERNED
+# ORIGIN: SYSTEMATIC_REWRITE
+
 """
 CROSS-SESSION REPLAY & REHYDRATION INFRASTRUCTURE
 Enables deterministic replay, forensic analysis, and full system state reconstruction

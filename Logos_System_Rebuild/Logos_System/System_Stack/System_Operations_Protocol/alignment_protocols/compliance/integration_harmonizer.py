@@ -1,3 +1,8 @@
+# HEADER_TYPE: CANONICAL_REBUILD_MODULE
+# EXECUTION: CONTROLLED
+# AUTHORITY: GOVERNED
+# ORIGIN: SYSTEMATIC_REWRITE
+
 """
 Integration Harmonizer - Handles semantic-axiom consistency with quarantine
 Monitors drift and requires proof tokens for consistency validation

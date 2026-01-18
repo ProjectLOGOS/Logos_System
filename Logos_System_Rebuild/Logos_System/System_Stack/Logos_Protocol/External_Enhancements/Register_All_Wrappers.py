@@ -1,3 +1,8 @@
+# HEADER_TYPE: CANONICAL_REBUILD_MODULE
+# EXECUTION: CONTROLLED
+# AUTHORITY: GOVERNED
+# ORIGIN: SYSTEMATIC_REWRITE
+
 from __future__ import annotations
 from Logos_System.System_Stack.Logos_Protocol.External_Enhancements.External_Enhancements_Registry import register, Wrapper_Info
 

@@ -1,18 +1,10 @@
-# MODULE_META:
-#   module_id: BAYESIAN_UPDATES
-#   layer: APPLICATION_FUNCTION
-#   role: Bayesian update routine
-#   phase_origin: PHASE_SCOPING_STUB
-#   description: Stub metadata for Bayesian update routine (header placeholder).
-#   contracts: []
-#   allowed_imports: []
-#   prohibited_behaviors: [IO, NETWORK, TIME, RANDOM]
-#   entrypoints: [run]
-#   callable_surface: APPLICATION
-#   state_mutation: NONE
-#   runtime_spine_binding: NONE
-#   depends_on_contexts: []
-#   invoked_by: []
+# HEADER_TYPE: LEGACY_REWRITE_CANDIDATE
+# EXECUTION: FORBIDDEN
+# IMPORT: FORBIDDEN
+# AUTHORITY: NONE
+# DESTINATION: Logos_System_Rebuild
+# ARCHIVE_AFTER_REWRITE: REQUIRED
+
 
 """
 bayesian_updates.py

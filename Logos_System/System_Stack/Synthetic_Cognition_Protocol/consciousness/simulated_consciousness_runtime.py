@@ -1,4 +1,10 @@
-#!/usr/bin/env python3
+# HEADER_TYPE: LEGACY_REWRITE_CANDIDATE
+# EXECUTION: FORBIDDEN
+# IMPORT: FORBIDDEN
+# AUTHORITY: NONE
+# DESTINATION: Logos_System_Rebuild
+# ARCHIVE_AFTER_REWRITE: REQUIRED
+
 """
 A minimal "simulated consciousness" runtime built on the existing recursion bridge.
 This is explicitly a behavior-level simulation (not a claim of sentience).

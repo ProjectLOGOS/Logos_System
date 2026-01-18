@@ -1,17 +1,10 @@
-# LOGOS SYSTEM FILE HEADER
-# LOGOS_HEADER: v1
-# updated_utc: 2026-01-15T07:20:00Z
-# path: /workspaces/Logos_System/Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_toolkit/iel/iel_error_handler.py
-# role: dev_tool
-# phase: audit_normalize
-# origin: ARP_IEL
-# intended_bucket: REWRITE_PROMOTE
-# side_effects: none
-# entrypoints: module
-# depends_on: LOGOS_AGI.Advanced_Reasoning_Protocol.system_utilities.system_imports
-# abbreviations: IEL=Internal Emergent Logic
-# notes: Header added to align with semantic audit; functional code unchanged.
-# END_LOGOS_HEADER
+# HEADER_TYPE: LEGACY_REWRITE_CANDIDATE
+# EXECUTION: FORBIDDEN
+# IMPORT: FORBIDDEN
+# AUTHORITY: NONE
+# DESTINATION: Logos_System_Rebuild
+# ARCHIVE_AFTER_REWRITE: REQUIRED
+
 
 """
 IEL Error Handler - UIP Step 3 Component

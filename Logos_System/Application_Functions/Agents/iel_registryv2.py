@@ -1,18 +1,10 @@
-#!/usr/bin/env python3
-# LOGOS SYSTEM FILE HEADER
-# LOGOS_HEADER: v1
-# updated_utc: 2026-01-15T07:28:00Z
-# path: /workspaces/Logos_System/Logos_System/System_Stack/Advanced_Reasoning_Protocol/iel_toolkit/iel_registry.py
-# role: dev_tool
-# phase: audit_normalize
-# origin: ARP_IEL
-# intended_bucket: REWRITE_PROMOTE
-# side_effects: none
-# entrypoints: module
-# depends_on: os
-# abbreviations: IEL=Internal Emergent Logic
-# notes: Header added for semantic audit; filename kept as-is to avoid import breakage.
-# END_LOGOS_HEADER
+# HEADER_TYPE: LEGACY_REWRITE_CANDIDATE
+# EXECUTION: FORBIDDEN
+# IMPORT: FORBIDDEN
+# AUTHORITY: NONE
+# DESTINATION: Logos_System_Rebuild
+# ARCHIVE_AFTER_REWRITE: REQUIRED
+
 
 """
 
