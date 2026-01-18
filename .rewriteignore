@@ -1,0 +1,28 @@
+# ============================================================
+# LOGOS SYSTEM — REWRITE IGNORE LIST (AUTHORITATIVE)
+# Any path or file matching these rules MUST NEVER be rewritten
+# ============================================================
+
+# Formal logic / proof systems (DO NOT TOUCH)
+PXL_Gate/
+Runtime_Compiler/
+Math_Categories/
+IEL_Domains/
+
+# Non-Python formal languages
+*.v
+*.ml
+*.mli
+
+# Tests (handled in separate post-rewrite phase)
+tests/
+test_*/
+*_test.py
+*test*.py
+
+# Python packaging (generated later)
+__init__.py
+
+# Caches / artifacts
+__pycache__/
+*.pyc
